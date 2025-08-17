@@ -165,7 +165,7 @@ const UserSchema = new Schema<IUser>({
   monthlyPromptLimit: {
     type: Number,
     default: 10,
-    min: 0
+    min: -1
   },
   lastMonthlyReset: {
     type: Date,
