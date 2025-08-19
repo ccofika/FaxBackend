@@ -1,3 +1,9 @@
 export { default as User } from './User';
+export { default as Admin } from './Admin';
 export { default as Chat } from './Chat';
 export { default as Message } from './Message';
+export { default as City } from './City';
+export { default as Faculty } from './Faculty';
+export { default as Department } from './Department';
+export { default as Subject } from './Subject';
+export { default as Material } from './Material';

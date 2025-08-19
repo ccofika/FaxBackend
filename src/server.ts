@@ -7,6 +7,8 @@ import mongoose from 'mongoose';
 import authRoutes from './routes/auth';
 import profileRoutes from './routes/profile';
 import chatRoutes from './routes/chat';
+import adminRoutes from './routes/admin';
+import materialsRoutes from './routes/materials';
 import { resetMonthlyPrompts } from './middleware/monthlyReset';
 
 dotenv.config();
@@ -44,6 +46,8 @@ mongoose.connect(process.env.MONGODB_URI!)
 app.use('/api/auth', authRoutes);
 app.use('/api/profile', profileRoutes);
 app.use('/api/chats', chatRoutes);
+app.use('/api/admin', adminRoutes);
+app.use('/api/materials', materialsRoutes);
 
 app.get('/', (req, res) => {
   res.json({ message: 'FAXit Backend Server is running!' });
