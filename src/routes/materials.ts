@@ -7,12 +7,14 @@ import {
   getFaculties,
   createFaculty,
   getFacultyById,
+  deleteFaculty,
   getDepartments,
   createDepartment,
   updateDepartment,
   deleteDepartment,
   getSubjects,
-  createSubject
+  createSubject,
+  deleteSubject
 } from '../controllers/materialController';
 import { adminAuth } from '../middleware/adminAuth';
 
@@ -31,6 +33,7 @@ router.delete('/cities/:id', deleteCity);
 router.get('/faculties', getFaculties);
 router.post('/faculties', createFaculty);
 router.get('/faculties/:id', getFacultyById);
+router.delete('/faculties/:id', deleteFaculty);
 
 // Departments routes
 router.get('/departments', getDepartments);
@@ -41,5 +44,6 @@ router.delete('/departments/:id', deleteDepartment);
 // Subjects routes
 router.get('/subjects', getSubjects);
 router.post('/subjects', createSubject);
+router.delete('/subjects/:id', deleteSubject);
 
 export default router;

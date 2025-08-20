@@ -139,6 +139,31 @@ export const getFacultyById = async (req: Request, res: Response) => {
   }
 };
 
+export const deleteFaculty = async (req: Request, res: Response) => {
+  try {
+    const { id } = req.params;
+    
+    // Check if faculty has departments
+    const departmentCount = await Department.countDocuments({ facultyId: id });
+    if (departmentCount > 0) {
+      return res.status(400).json({ 
+        success: false, 
+        message: 'Cannot delete faculty with departments. Please delete departments first.' 
+      });
+    }
+
+    const faculty = await Faculty.findByIdAndDelete(id);
+    if (!faculty) {
+      return res.status(404).json({ success: false, message: 'Faculty not found' });
+    }
+    
+    res.json({ success: true, message: 'Faculty deleted successfully' });
+  } catch (error) {
+    console.error('Delete faculty error:', error);
+    res.status(500).json({ success: false, message: 'Internal server error' });
+  }
+};
+
 // Departments
 export const getDepartments = async (req: Request, res: Response) => {
   try {
@@ -287,6 +312,31 @@ export const createSubject = async (req: Request, res: Response) => {
       return res.status(400).json({ success: false, message: 'Subject name already exists for this department and year' });
     }
     console.error('Create subject error:', error);
+    res.status(500).json({ success: false, message: 'Internal server error' });
+  }
+};
+
+export const deleteSubject = async (req: Request, res: Response) => {
+  try {
+    const { id } = req.params;
+    
+    // Check if subject has materials
+    const materialCount = await Material.countDocuments({ subjectId: id });
+    if (materialCount > 0) {
+      return res.status(400).json({ 
+        success: false, 
+        message: 'Cannot delete subject with materials. Please delete materials first.' 
+      });
+    }
+
+    const subject = await Subject.findByIdAndDelete(id);
+    if (!subject) {
+      return res.status(404).json({ success: false, message: 'Subject not found' });
+    }
+    
+    res.json({ success: true, message: 'Subject deleted successfully' });
+  } catch (error) {
+    console.error('Delete subject error:', error);
     res.status(500).json({ success: false, message: 'Internal server error' });
   }
 };
