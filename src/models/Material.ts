@@ -3,6 +3,8 @@ import mongoose, { Document, Schema } from 'mongoose';
 export interface IMaterial extends Document {
   title: string;
   type: 'book' | 'pdf' | 'link' | 'video' | 'notes';
+  r2Key?: string;
+  bucket?: string;
   url?: string;
   note?: string;
   subjectId: mongoose.Types.ObjectId;
@@ -10,6 +12,37 @@ export interface IMaterial extends Document {
   departmentId: mongoose.Types.ObjectId;
   year: number;
   order: number;
+  
+  // Document processing fields
+  status: 'uploaded' | 'processing' | 'ready' | 'failed';
+  pageCount?: number;
+  hasOCR?: boolean;
+  fileHash?: string;
+  jobId?: string;
+  
+  progress?: {
+    step: 'probe' | 'render' | 'ocr' | 'text' | 'sectioning' | 'chunk' | 'embed' | 'index' | 'done';
+    percent: number;
+  };
+  
+  counters?: {
+    pagesDone: number;
+    sectionsFound: number;
+    chunksDone: number;
+  };
+  
+  derivatives?: {
+    textPrefix?: string;    // R2 prefix for text files
+    ocrPrefix?: string;     // R2 prefix for OCR JSON files
+    pagesPrefix?: string;   // R2 prefix for page previews
+  };
+  
+  logs?: Array<{
+    timestamp: Date;
+    level: 'info' | 'warn' | 'error';
+    message: string;
+  }>;
+  
   createdAt: Date;
   updatedAt: Date;
 }
@@ -25,6 +58,16 @@ const MaterialSchema = new Schema<IMaterial>({
     type: String,
     enum: ['book', 'pdf', 'link', 'video', 'notes'],
     required: [true, 'Material type is required']
+  },
+  r2Key: {
+    type: String,
+    trim: true,
+    maxlength: [500, 'R2 key cannot exceed 500 characters']
+  },
+  bucket: {
+    type: String,
+    trim: true,
+    maxlength: [100, 'Bucket name cannot exceed 100 characters']
   },
   url: {
     type: String,
@@ -60,7 +103,80 @@ const MaterialSchema = new Schema<IMaterial>({
   order: {
     type: Number,
     default: 0
-  }
+  },
+  
+  // Document processing fields
+  status: {
+    type: String,
+    enum: ['uploaded', 'processing', 'ready', 'failed'],
+    default: 'uploaded'
+  },
+  pageCount: {
+    type: Number,
+    min: 0
+  },
+  hasOCR: {
+    type: Boolean,
+    default: false
+  },
+  fileHash: {
+    type: String,
+    trim: true
+  },
+  jobId: {
+    type: String,
+    trim: true
+  },
+  
+  progress: {
+    step: {
+      type: String,
+      enum: ['probe', 'render', 'ocr', 'text', 'sectioning', 'chunk', 'embed', 'index', 'done']
+    },
+    percent: {
+      type: Number,
+      min: 0,
+      max: 100,
+      default: 0
+    }
+  },
+  
+  counters: {
+    pagesDone: {
+      type: Number,
+      default: 0
+    },
+    sectionsFound: {
+      type: Number,
+      default: 0
+    },
+    chunksDone: {
+      type: Number,
+      default: 0
+    }
+  },
+  
+  derivatives: {
+    textPrefix: String,
+    ocrPrefix: String,
+    pagesPrefix: String
+  },
+  
+  logs: [{
+    timestamp: {
+      type: Date,
+      default: Date.now
+    },
+    level: {
+      type: String,
+      enum: ['info', 'warn', 'error'],
+      required: true
+    },
+    message: {
+      type: String,
+      required: true
+    }
+  }]
 }, {
   timestamps: true
 });

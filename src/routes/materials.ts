@@ -14,7 +14,11 @@ import {
   deleteDepartment,
   getSubjects,
   createSubject,
-  deleteSubject
+  deleteSubject,
+  getMaterials,
+  createMaterial,
+  updateMaterial,
+  deleteMaterial
 } from '../controllers/materialController';
 import { adminAuth } from '../middleware/adminAuth';
 
@@ -45,5 +49,11 @@ router.delete('/departments/:id', deleteDepartment);
 router.get('/subjects', getSubjects);
 router.post('/subjects', createSubject);
 router.delete('/subjects/:id', deleteSubject);
+
+// Materials routes
+router.get('/materials', getMaterials);
+router.post('/materials', createMaterial);
+router.put('/materials/:id', updateMaterial);
+router.delete('/materials/:id', deleteMaterial);
 
 export default router;

@@ -1,17 +1,19 @@
+import dotenv from 'dotenv';
+dotenv.config();
+
 import express from 'express';
 import cors from 'cors';
 import helmet from 'helmet';
 import rateLimit from 'express-rate-limit';
-import dotenv from 'dotenv';
 import mongoose from 'mongoose';
 import authRoutes from './routes/auth';
 import profileRoutes from './routes/profile';
 import chatRoutes from './routes/chat';
 import adminRoutes from './routes/admin';
 import materialsRoutes from './routes/materials';
+import uploadRoutes from './routes/upload';
+import ingestionRoutes from './routes/ingestion';
 import { resetMonthlyPrompts } from './middleware/monthlyReset';
-
-dotenv.config();
 
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -48,6 +50,8 @@ app.use('/api/profile', profileRoutes);
 app.use('/api/chats', chatRoutes);
 app.use('/api/admin', adminRoutes);
 app.use('/api/materials', materialsRoutes);
+app.use('/api/upload', uploadRoutes);
+app.use('/api/ingestion', ingestionRoutes);
 
 app.get('/', (req, res) => {
   res.json({ message: 'FAXit Backend Server is running!' });

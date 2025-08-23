@@ -1,5 +1,9 @@
 import { Request, Response } from 'express';
-import { City, Faculty, Department, Subject, Material } from '../models';
+import { City, Faculty, Department, Subject, Material, DocumentSection, DocumentChunk } from '../models';
+import jobQueueService from '../services/jobQueueService';
+import documentIngestionService from '../services/documentIngestionService';
+import r2Service from '../services/r2Service';
+import qdrantService from '../services/qdrantService';
 
 // Cities
 export const getCities = async (req: Request, res: Response) => {
@@ -337,6 +341,181 @@ export const deleteSubject = async (req: Request, res: Response) => {
     res.json({ success: true, message: 'Subject deleted successfully' });
   } catch (error) {
     console.error('Delete subject error:', error);
+    res.status(500).json({ success: false, message: 'Internal server error' });
+  }
+};
+
+// Materials
+export const getMaterials = async (req: Request, res: Response) => {
+  try {
+    const { subjectId, facultyId, departmentId, year } = req.query;
+    
+    const query: any = {};
+    if (subjectId) query.subjectId = subjectId;
+    if (facultyId) query.facultyId = facultyId;
+    if (departmentId) query.departmentId = departmentId;
+    if (year) query.year = parseInt(year as string);
+    
+    const materials = await Material.find(query)
+      .populate('subjectId', 'name')
+      .sort({ order: 1, createdAt: -1 });
+    
+    res.json({ success: true, materials });
+  } catch (error) {
+    console.error('Get materials error:', error);
+    res.status(500).json({ success: false, message: 'Internal server error' });
+  }
+};
+
+export const createMaterial = async (req: Request, res: Response) => {
+  try {
+    const { 
+      title, 
+      type, 
+      r2Key, 
+      bucket, 
+      url, 
+      note, 
+      subjectId, 
+      facultyId, 
+      departmentId, 
+      year 
+    } = req.body;
+    
+    if (!title || !title.trim()) {
+      return res.status(400).json({ success: false, message: 'Material title is required' });
+    }
+    
+    if (!type) {
+      return res.status(400).json({ success: false, message: 'Material type is required' });
+    }
+    
+    if (!subjectId || !facultyId || !departmentId || !year) {
+      return res.status(400).json({ 
+        success: false, 
+        message: 'Subject ID, Faculty ID, Department ID, and Year are required' 
+      });
+    }
+
+    // For PDF type, r2Key and bucket are required
+    if (type === 'pdf' && (!r2Key || !bucket)) {
+      return res.status(400).json({ 
+        success: false, 
+        message: 'R2 key and bucket are required for PDF materials' 
+      });
+    }
+
+    const material = new Material({ 
+      title: title.trim(), 
+      type,
+      r2Key,
+      bucket,
+      url,
+      note: note?.trim(),
+      subjectId,
+      facultyId,
+      departmentId,
+      year: parseInt(year)
+    });
+    
+    await material.save();
+    await material.populate('subjectId', 'name');
+    
+    // PDF material created, but processing will be triggered manually from frontend
+    if (type === 'pdf' && r2Key) {
+      console.log(`📄 PDF material created: ${material._id} - awaiting page selection for processing`);
+    } else {
+      console.log(`ℹ️ Non-PDF material created (type: ${type}, r2Key: ${r2Key ? 'present' : 'missing'})`);
+    }
+    
+    res.status(201).json({ success: true, material });
+  } catch (error: any) {
+    console.error('Create material error:', error);
+    res.status(500).json({ success: false, message: 'Internal server error' });
+  }
+};
+
+export const updateMaterial = async (req: Request, res: Response) => {
+  try {
+    const { id } = req.params;
+    const { title, note } = req.body;
+    
+    if (!title || !title.trim()) {
+      return res.status(400).json({ success: false, message: 'Material title is required' });
+    }
+
+    const material = await Material.findByIdAndUpdate(
+      id, 
+      { 
+        title: title.trim(),
+        note: note?.trim()
+      }, 
+      { new: true }
+    );
+    
+    if (!material) {
+      return res.status(404).json({ success: false, message: 'Material not found' });
+    }
+    
+    await material.populate('subjectId', 'name');
+    
+    res.json({ success: true, material });
+  } catch (error) {
+    console.error('Update material error:', error);
+    res.status(500).json({ success: false, message: 'Internal server error' });
+  }
+};
+
+export const deleteMaterial = async (req: Request, res: Response) => {
+  try {
+    const { id } = req.params;
+    
+    const material = await Material.findById(id);
+    if (!material) {
+      return res.status(404).json({ success: false, message: 'Material not found' });
+    }
+    
+    console.log(`🗑️ Deleting material: ${material.title} (${material._id})`);
+    
+    // Delete from R2 if it's a PDF material with R2 key
+    if (material.type === 'pdf' && material.r2Key) {
+      try {
+        console.log(`🗑️ Deleting material from R2: ${material.r2Key}`);
+        await r2Service.delete(material.r2Key);
+        console.log(`✅ Successfully deleted from R2: ${material.r2Key}`);
+      } catch (r2Error) {
+        console.error('⚠️ Failed to delete from R2, but continuing with database deletion:', r2Error);
+        // Continue with database deletion even if R2 deletion fails
+      }
+    }
+    
+    // Delete associated document sections and chunks
+    try {
+      const sectionsResult = await DocumentSection.deleteMany({ docId: id });
+      console.log(`🗑️ Deleted ${sectionsResult.deletedCount} document sections`);
+      
+      const chunksResult = await DocumentChunk.deleteMany({ docId: id });
+      console.log(`🗑️ Deleted ${chunksResult.deletedCount} document chunks`);
+    } catch (dbError) {
+      console.error('⚠️ Failed to delete associated document data:', dbError);
+    }
+    
+    // Delete from Qdrant vector database
+    try {
+      // Delete all vectors for this document
+      await qdrantService.deleteDocument(id);
+      console.log(`🗑️ Deleted vectors from Qdrant for document: ${id}`);
+    } catch (qdrantError) {
+      console.error('⚠️ Failed to delete from Qdrant, continuing:', qdrantError);
+    }
+    
+    // Delete from database
+    await Material.findByIdAndDelete(id);
+    console.log(`✅ Successfully deleted material: ${material.title}`);
+    
+    res.json({ success: true, message: 'Material deleted successfully' });
+  } catch (error) {
+    console.error('Delete material error:', error);
     res.status(500).json({ success: false, message: 'Internal server error' });
   }
 };

@@ -7,3 +7,5 @@ export { default as Faculty } from './Faculty';
 export { default as Department } from './Department';
 export { default as Subject } from './Subject';
 export { default as Material } from './Material';
+export { default as DocumentSection } from './DocumentSection';
+export { default as DocumentChunk } from './DocumentChunk';
