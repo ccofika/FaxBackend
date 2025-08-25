@@ -5,12 +5,13 @@ import pdfParse from 'pdf-parse';
 import pdf2pic from 'pdf2pic';
 import Tesseract from 'tesseract.js';
 import sharp from 'sharp';
+import { Poppler } from 'node-poppler';
+
 import { Material, DocumentSection, DocumentChunk } from '../models';
 import { IMaterial } from '../models/Material';
 import qdrantService from './qdrantService';
 import r2Service from './r2Service';
 import aiAnalysisService from './aiAnalysisService';
-const PDFParser = require('pdf2json');
 
 interface PageText {
   pageNumber: number;
@@ -46,7 +47,56 @@ interface ChunkData {
   content: string;
 }
 
+interface HeaderFooterFilterConfig {
+  // Y-position thresholds (0 = top, 1 = bottom)
+  headerThreshold: number; // Content above this Y position is considered header
+  footerThreshold: number; // Content below this Y position is considered footer
+  
+  // Text patterns to exclude
+  excludePatterns: RegExp[];
+  
+  // Page number patterns
+  pageNumberPatterns: RegExp[];
+  
+  // Title/header text patterns
+  titlePatterns: RegExp[];
+  
+  // Reference/citation patterns
+  referencePatterns: RegExp[];
+}
+
 class DocumentIngestionService {
+  // Configurable filter for different PDF types
+  private defaultFilterConfig: HeaderFooterFilterConfig = {
+    headerThreshold: 0.15,  // Top 15% of page
+    footerThreshold: 0.85,  // Bottom 15% of page
+    excludePatterns: [
+      /^Informacione i internet tehnologije$/i,  // Common header title
+      /^\d+$/, // Standalone page numbers
+      /^https?:\/\/\S+/, // URLs
+      /^\d+\s*Prema podacima/i, // Reference markers
+      /^Slika \d+\.\d+-\d+\./i, // Figure captions that are headers
+    ],
+    pageNumberPatterns: [
+      /^\d+$/,
+      /^Page \d+$/i,
+      /^\d+\s*\/\s*\d+$/,
+    ],
+    titlePatterns: [
+      /^Informacione i internet tehnologije$/i,
+      /^HARDVER$/i,
+      /^SOFTVER$/i,
+      /^UMREŽAVANJE I INTERNET$/i,
+    ],
+    referencePatterns: [
+      /^\d+\s*Prema podacima/i,
+      /^https?:\/\/\S+/,
+      /^http:\/\/\S+/,
+      /Techcrunch\./i,
+      /^Arrington, Michael/i,
+    ]
+  };
+
   private async logProgress(
     materialId: string,
     step: string,
@@ -147,7 +197,7 @@ class DocumentIngestionService {
       const response = await fetch(uploadUrl, {
         method: 'PUT',
         headers,
-        body: buffer,
+        body: buffer as any,
       });
 
       if (!response.ok) {
@@ -164,204 +214,191 @@ class DocumentIngestionService {
   }
 
   private cleanExtractedText(text: string): string {
-    // Remove excessive spaces and normalize text
+    // Comprehensive text cleaning and normalization
     return text
-      // Remove multiple consecutive spaces
-      .replace(/  +/g, ' ')
-      // Remove spaces before punctuation
+      // Fix URL-encoded spaces and characters that might remain
+      .replace(/%20/g, ' ')
+      .replace(/%0A/g, '\n')
+      .replace(/%09/g, ' ')
+      
+      // Remove excessive spaces (3+ consecutive spaces)
+      .replace(/   +/g, ' ')
+      
+      // Fix spacing around punctuation - remove spaces before, ensure space after
       .replace(/ +([.,;:!?])/g, '$1')
+      .replace(/([.,;:!?])([a-zA-ZšđčćžŠĐČĆŽ0-9])/g, '$1 $2')
+      
+      // Fix spacing around parentheses
+      .replace(/ +\(/g, ' (')
+      .replace(/\( +/g, '(')
+      .replace(/ +\)/g, ')')
+      .replace(/\) +([a-zA-ZšđčćžŠĐČĆŽ])/g, ') $1')
+      
       // Remove spaces at the start/end of lines
       .replace(/^ +/gm, '')
       .replace(/ +$/gm, '')
-      // Normalize line breaks - remove single isolated line breaks in middle of sentences
-      .replace(/([a-z\u0161\u0111\u010d\u0107\u017e])\n([a-z\u0161\u0111\u010d\u0107\u017e])/g, '$1 $2')
-      // But keep line breaks that separate sentences/paragraphs
+      
+      // Fix broken words that are split across lines
+      .replace(/([a-zA-ZšđčćžŠĐČĆŽ])-\n([a-zA-ZšđčćžŠĐČĆŽ])/g, '$1$2')
+      
+      // Join lines that clearly belong together (lowercase to lowercase, or continuing sentences)
+      .replace(/([a-zšđčćž,])\n([a-zšđčćž])/g, '$1 $2')
+      
+      // Keep paragraph breaks (double line breaks)
       .replace(/\n\n+/g, '\n\n')
-      // Fix broken words (letters separated by spaces)
-      .replace(/([a-zA-Z\u0160\u0110\u010c\u0106\u017d\u0161\u0111\u010d\u0107\u017e]) ([a-zA-Z\u0160\u0110\u010c\u0106\u017d\u0161\u0111\u010d\u0107\u017e]) ([a-zA-Z\u0160\u0110\u010c\u0106\u017d\u0161\u0111\u010d\u0107\u017e])/g, '$1$2$3')
+      
+      // Fix broken words (characters separated by single spaces - common OCR issue)
+      .replace(/\b([a-zA-ZšđčćžŠĐČĆŽ]) ([a-zA-ZšđčćžŠĐČĆŽ]) ([a-zA-ZšđčćžŠĐČĆŽ])\b/g, '$1$2$3')
+      .replace(/\b([a-zA-ZšđčćžŠĐČĆŽ]) ([a-zA-ZšđčćžŠĐČĆŽ])\b/g, (match, p1, p2) => {
+        // Only merge if it looks like a broken word (both parts are lowercase or both uppercase)
+        if ((p1.toLowerCase() === p1 && p2.toLowerCase() === p2) || 
+            (p1.toUpperCase() === p1 && p2.toUpperCase() === p2)) {
+          return p1 + p2;
+        }
+        return match;
+      })
+      
+      // Normalize multiple line breaks
+      .replace(/\n{3,}/g, '\n\n')
+      
+      // Clean up any remaining issues
       .trim();
   }
 
-  private async extractTextFromPDF(buffer: Buffer, startPage?: number, maxPages?: number): Promise<{ pages: PageText[]; pageCount: number }> {
-    return new Promise((resolve, reject) => {
-      const actualStartPage = startPage || 1;
-      const actualMaxPages = maxPages || 10; // Default to 10 pages for testing
+  async extractTextFromPDF(buffer: Buffer, startPage?: number, maxPages?: number): Promise<{ pages: PageText[]; pageCount: number }> {
+    // Use node-poppler for true page-by-page extraction
+    return this.extractTextWithNodePoppler(buffer, startPage || 1, maxPages || 1000);
+  }
+
+  private async extractTextWithNodePoppler(buffer: Buffer, startPage: number, maxPages: number): Promise<{ pages: PageText[]; pageCount: number }> {
+    let tempFilePath: string = '';
+    
+    try {
+      console.log(`🔄 Using node-poppler for true page-by-page extraction (pages ${startPage} to ${startPage + maxPages - 1})`);
       
-      try {
-        console.log(`Extracting text from pages ${actualStartPage} to ${actualStartPage + actualMaxPages - 1}`);
-
-        const pdfParser = new PDFParser();
-        
-        // COMPLETELY silence ALL pdf2json warnings using process stdout/stderr override
-        const originalStdoutWrite = process.stdout.write;
-        const originalStderrWrite = process.stderr.write;
-        
-        process.stdout.write = function(string: any, ...args: any[]): boolean {
-          const msg = string.toString();
-          if (msg.includes('Warning:') && 
-              (msg.includes('Unsupported') || 
-               msg.includes('NOT valid') ||
-               msg.includes('TT: undefined') ||
-               msg.includes('Setting up fake') ||
-               msg.includes('field.type of Link') ||
-               msg.includes('complementing a missing'))) {
-            return true; // Silent ignore
-          }
-          return originalStdoutWrite.call(this, string, ...args);
-        };
-        
-        process.stderr.write = function(string: any, ...args: any[]): boolean {
-          const msg = string.toString();
-          if (msg.includes('Warning:') && 
-              (msg.includes('Unsupported') || 
-               msg.includes('NOT valid') ||
-               msg.includes('TT: undefined') ||
-               msg.includes('Setting up fake') ||
-               msg.includes('field.type of Link') ||
-               msg.includes('complementing a missing'))) {
-            return true; // Silent ignore
-          }
-          return originalStderrWrite.call(this, string, ...args);
-        };
-        
-        pdfParser.on('pdfParser_dataError', (errData: any) => {
-          // Restore original stdout/stderr
-          process.stdout.write = originalStdoutWrite;
-          process.stderr.write = originalStderrWrite;
-          
-          console.error('PDF parsing error:', errData.parserError);
-          // Fallback to pdf-parse with full text but limited processing
-          this.extractTextWithPdfParse(buffer, actualStartPage, actualMaxPages)
-            .then(resolve)
-            .catch(reject);
-        });
-
-        pdfParser.on('pdfParser_dataReady', (pdfData: any) => {
-          // Restore original stdout/stderr
-          process.stdout.write = originalStdoutWrite;
-          process.stderr.write = originalStderrWrite;
-          
-          try {
-            const totalPages = pdfData.Pages ? pdfData.Pages.length : 0;
-            const endPage = Math.min(actualStartPage + actualMaxPages - 1, totalPages);
-            
-            console.log(`PDF has ${totalPages} pages, processing ${actualStartPage} to ${endPage}`);
-
-            let extractedText = '';
-            
-            // Extract text only from specified page range with proper formatting
-            for (let pageIndex = actualStartPage - 1; pageIndex < endPage; pageIndex++) {
-              if (pdfData.Pages && pdfData.Pages[pageIndex]) {
-                const page = pdfData.Pages[pageIndex];
-                let pageText = '';
-                
-                if (page.Texts) {
-                  // Sort texts by position to maintain proper order
-                  const sortedTexts = page.Texts.sort((a: any, b: any) => {
-                    // Sort by Y position first (top to bottom), then X position (left to right)
-                    const yDiff = (b.y || 0) - (a.y || 0);
-                    if (Math.abs(yDiff) > 0.5) return yDiff;
-                    return (a.x || 0) - (b.x || 0);
-                  });
-                  
-                  let lastY: number | null = null;
-                  let currentLine = '';
-                  
-                  sortedTexts.forEach((text: any) => {
-                    if (text.R) {
-                      text.R.forEach((r: any) => {
-                        if (r.T) {
-                          const textContent = decodeURIComponent(r.T);
-                          
-                          // Check if we're on a new line based on Y position
-                          if (lastY !== null && Math.abs((text.y || 0) - lastY) > 0.5) {
-                            // New line detected
-                            if (currentLine.trim()) {
-                              pageText += currentLine.trim() + '\n';
-                              currentLine = '';
-                            }
-                          }
-                          
-                          // Add appropriate spacing
-                          if (currentLine && !currentLine.endsWith(' ') && !textContent.startsWith(' ')) {
-                            // Add space only if needed and not already present
-                            const lastChar = currentLine.slice(-1);
-                            const firstChar = textContent.charAt(0);
-                            
-                            // Don't add space between letters/numbers that should be connected
-                            if (!/[a-zA-Zšđčćž]/.test(lastChar) || !/[a-zA-Zšđčćž]/.test(firstChar)) {
-                              currentLine += ' ';
-                            }
-                          }
-                          
-                          currentLine += textContent;
-                          lastY = text.y || 0;
-                        }
-                      });
-                    }
-                  });
-                  
-                  // Add the last line
-                  if (currentLine.trim()) {
-                    pageText += currentLine.trim();
-                  }
-                }
-                
-                // Clean up the page text
-                pageText = this.cleanExtractedText(pageText);
-                extractedText += pageText + '\n\n'; // Page break
-              }
-            }
-
-            const pages: PageText[] = [{
-              pageNumber: actualStartPage,
-              text: extractedText.trim(),
-              isOCR: false,
-            }];
-
-            resolve({ 
-              pages, 
-              pageCount: endPage - actualStartPage + 1 
-            });
-          } catch (error) {
-            console.error('Error processing PDF data:', error);
-            // Fallback to pdf-parse
-            this.extractTextWithPdfParse(buffer, actualStartPage, actualMaxPages)
-              .then(resolve)
-              .catch(reject);
-          }
-        });
-
-        pdfParser.parseBuffer(buffer);
-      } catch (error) {
-        console.error('Error setting up PDF parser:', error);
-        // Fallback to pdf-parse
-        this.extractTextWithPdfParse(buffer, actualStartPage, actualMaxPages)
-          .then(resolve)
-          .catch(reject);
+      // node-poppler needs a file path, not buffer, so create temp file
+      const tempDir = require('os').tmpdir();
+      tempFilePath = require('path').join(tempDir, `temp_pdf_${Date.now()}.pdf`);
+      await fs.writeFile(tempFilePath, buffer);
+      
+      console.log(`📁 Created temp PDF file: ${tempFilePath}`);
+      
+      const poppler = new Poppler();
+      
+      // First, get PDF info to determine total page count
+      const pdfInfoResult = await poppler.pdfInfo(tempFilePath);
+      console.log(`🔍 PDF Info result:`, pdfInfoResult);
+      
+      // Parse the info result to extract page count
+      let totalPageCount = 1000; // Default fallback
+      if (typeof pdfInfoResult === 'string') {
+        const pagesMatch = pdfInfoResult.match(/Pages:\s*(\d+)/);
+        if (pagesMatch) {
+          totalPageCount = parseInt(pagesMatch[1]);
+        }
       }
-    });
+      
+      const endPage = Math.min(startPage + maxPages - 1, totalPageCount);
+      
+      console.log(`📚 PDF has ${totalPageCount} pages, extracting ${startPage} to ${endPage}`);
+      
+      const pages: PageText[] = [];
+      
+      // Extract text for each page individually
+      for (let pageNum = startPage; pageNum <= endPage; pageNum++) {
+        try {
+          console.log(`📄 Extracting page ${pageNum}/${endPage}...`);
+          
+          // Extract text for this specific page
+          const pageText = await poppler.pdfToText(tempFilePath, undefined, {
+            firstPageToConvert: pageNum,
+            lastPageToConvert: pageNum,
+            maintainLayout: true // Preserve layout for better structure
+          });
+          
+          console.log(`🔍 Raw page text length: ${pageText ? pageText.length : 0}`);
+          
+          // Clean the extracted text
+          const cleanedText = pageText ? this.cleanExtractedText(pageText) : '';
+          
+          console.log(`✅ Page ${pageNum} extracted: ${cleanedText.length} characters`);
+          console.log(`📖 Page ${pageNum} preview: "${cleanedText.substring(0, 100)}..."`);
+          
+          pages.push({
+            pageNumber: pageNum,
+            text: cleanedText,
+            isOCR: false,
+          });
+          
+        } catch (pageError) {
+          console.error(`❌ Error extracting page ${pageNum}:`, pageError);
+          // Add empty page to maintain sequence
+          pages.push({
+            pageNumber: pageNum,
+            text: '',
+            isOCR: false,
+          });
+        }
+      }
+      
+      console.log(`🎉 Successfully extracted ${pages.length} pages using node-poppler`);
+      return { 
+        pages, 
+        pageCount: pages.length 
+      };
+      
+    } catch (error) {
+      console.error('❌ Error with node-poppler, falling back to pdf-parse:', error);
+      // Fallback to pdf-parse if node-poppler fails
+      return this.extractTextWithPdfParse(buffer, startPage, maxPages);
+    } finally {
+      // Clean up temp file
+      if (tempFilePath) {
+        try {
+          await fs.unlink(tempFilePath);
+          console.log(`🗑️ Cleaned up temp file: ${tempFilePath}`);
+        } catch (cleanupError) {
+          console.warn(`⚠️ Could not clean up temp file: ${cleanupError}`);
+        }
+      }
+    }
   }
 
   private async extractTextWithPdfParse(buffer: Buffer, startPage: number, maxPages: number): Promise<{ pages: PageText[]; pageCount: number }> {
     try {
-      console.log(`Fallback: Using pdf-parse for pages ${startPage} to ${startPage + maxPages - 1} (WARNING: This gets ALL text, not page-specific)`);
+      console.log(`Fallback: Using pdf-parse to extract document content (pages ${startPage} to ${startPage + maxPages - 1})`);
       
       const pdfData = await pdfParse(buffer);
       const totalPageCount = pdfData.numpages;
+      const endPage = Math.min(startPage + maxPages - 1, totalPageCount);
       
-      // This is a limitation - pdf-parse doesn't easily extract by page range
-      // But we'll limit the processing scope in document structure detection
+      // Extract entire document text without page restrictions
       const cleanedText = this.cleanExtractedText(pdfData.text);
-      const pages: PageText[] = [{
-        pageNumber: startPage,
-        text: cleanedText,
-        isOCR: false,
-      }];
+      
+      // Estimate text per page and split accordingly
+      const estimatedTextPerPage = Math.ceil(cleanedText.length / totalPageCount);
+      const pages: PageText[] = [];
+      
+      console.log(`📊 Total pages: ${totalPageCount}, estimated chars per page: ${estimatedTextPerPage}`);
+      
+      for (let pageNum = startPage; pageNum <= endPage; pageNum++) {
+        const startCharIndex = (pageNum - 1) * estimatedTextPerPage;
+        const endCharIndex = Math.min(startCharIndex + estimatedTextPerPage, cleanedText.length);
+        const pageText = cleanedText.substring(startCharIndex, endCharIndex);
+        
+        console.log(`📄 PDF-Parse Page ${pageNum} estimated: ${pageText.length} characters`);
+        console.log(`📄 PDF-Parse Page ${pageNum} content preview: "${pageText.substring(0, 100)}..."`);
+        
+        pages.push({
+          pageNumber: pageNum,
+          text: pageText,
+          isOCR: false,
+        });
+      }
 
       return { 
         pages, 
-        pageCount: Math.min(maxPages, totalPageCount) 
+        pageCount: pages.length 
       };
     } catch (error) {
       console.error('Error with pdf-parse fallback:', error);
@@ -486,7 +523,7 @@ class DocumentIngestionService {
     return chunks.filter(chunk => chunk.length > 0);
   }
 
-  private async detectDocumentStructure(fullText: string, materialId: string, tocPage?: number, tocToPage?: number, startPage?: number, maxPages?: number): Promise<DocumentStructure> {
+  private async detectDocumentStructure(fullText: string, materialId: string, tocPage?: number, tocToPage?: number, contentStartPage?: number): Promise<DocumentStructure> {
     // First, we need to extract text from the ENTIRE PDF to find the TOC
     // since TOC is usually at the beginning (pages 2-4) but we might be processing later pages
     let entirePdfText = '';
@@ -512,7 +549,7 @@ class DocumentIngestionService {
     if (tocPage && tocToPage) {
       console.log(`🤖 Using AI to analyze TOC from pages ${tocPage} to ${tocToPage}`);
       try {
-        const aiStructure = await this.analyzeWithAI(entirePdfText, materialId, tocPage, tocToPage, fullText, startPage, maxPages);
+        const aiStructure = await this.analyzeWithAI(entirePdfText, materialId, tocPage, tocToPage, fullText, contentStartPage);
         if (aiStructure && aiStructure.sections.length > 0) {
           console.log('✅ Using AI-based structure detection');
           return aiStructure;
@@ -533,7 +570,7 @@ class DocumentIngestionService {
     return this.fallbackDocumentStructure(fullText);
   }
 
-  private async analyzeWithAI(entirePdfText: string, materialId: string, tocPage: number, tocToPage: number, currentPageText: string, startPage?: number, maxPages?: number): Promise<DocumentStructure | null> {
+  private async analyzeWithAI(entirePdfText: string, materialId: string, tocPage: number, tocToPage: number, currentPageText: string, contentStartPage?: number): Promise<DocumentStructure | null> {
     try {
       // Extract TOC text from the specified page range
       console.log(`📖 Extracting TOC text from pages ${tocPage} to ${tocToPage}`);
@@ -546,10 +583,19 @@ class DocumentIngestionService {
       // Download PDF again to extract specific TOC pages
       const pdfBuffer = await this.downloadFromR2(material.r2Key);
       const tocPageCount = tocToPage - tocPage + 1;
+      
+      console.log(`📋 Extracting TOC from pages ${tocPage} to ${tocToPage} (${tocPageCount} pages)`);
       const { pages: tocPages } = await this.extractTextFromPDF(pdfBuffer, tocPage, tocPageCount);
       
+      console.log(`📝 TOC extraction result: ${tocPages.length} pages extracted`);
+      tocPages.forEach((page, index) => {
+        console.log(`📄 TOC Page ${page.pageNumber}: ${page.text.length} chars`);
+        console.log(`📄 TOC Page ${page.pageNumber} preview: "${page.text.substring(0, 200)}..."`);
+      });
+      
       const tocText = tocPages.map(page => page.text).join('\n\n');
-      console.log(`📝 Extracted TOC text (${tocText.length} characters)`);
+      console.log(`📝 Combined TOC text (${tocText.length} characters)`);
+      console.log(`📝 Combined TOC preview: "${tocText.substring(0, 500)}..."`);
       
       if (tocText.length < 100) {
         console.log('⚠️ TOC text too short, falling back to pattern detection');
@@ -564,28 +610,66 @@ class DocumentIngestionService {
       
       console.log(`📚 AI will analyze ALL sections from TOC, processing range filtering removed`);
       
-      // Convert AI result to DocumentStructure - include ALL sections (no filtering)
-      const sections = aiResult.sections
-        .map((section, index) => {
-          const sectionId = `section_${index + 1}`;
+      // Process sections sequentially using proper header-based content extraction
+      console.log(`🎯 Processing ALL ${aiResult.sections.length} sections sequentially from complete TOC analysis`);
+      
+      const sections: DocumentStructure['sections'] = [];
+      
+      // Process sections in sequential order to properly extract content between headers
+      for (let index = 0; index < aiResult.sections.length; index++) {
+        const section = aiResult.sections[index];
+        const sectionId = `section_${index + 1}`;
+        
+        console.log(`📝 Processing section ${index + 1}/${aiResult.sections.length}: "${section.title}"`);
+        
+        // Find the actual content for this section using enhanced header detection
+        const contentResult = this.extractSectionContentSequentially(
+          currentPageText, 
+          section, 
+          aiResult.sections, 
+          index
+        );
+        
+        // Create the main section
+        const mainSection = {
+          sectionId,
+          title: section.title,
+          path: this.generateAISectionPath(section, aiResult.sections),
+          level: section.level,
+          parentSectionId: section.parentSectionId,
+          semanticType: section.semanticType,
+          pageStart: section.pageStart,
+          pageEnd: section.pageEnd,
+          charStart: contentResult.charStart,
+          charEnd: contentResult.charEnd,
+          content: contentResult.content
+        };
+        
+        sections.push(mainSection);
+        
+        // Handle section splitting if content exceeds limits
+        if (contentResult.needsSplitting && contentResult.parts && contentResult.parts.length > 1) {
+          console.log(`📚 Creating ${contentResult.parts.length - 1} additional part sections for "${section.title}"`);
           
-          // Find the actual content for this section in the current processing text
-          const contentMatch = this.findAISectionContent(currentPageText, section.title, section.pageStart, section.pageEnd);
-          
-          return {
-            sectionId,
-            title: section.title,
-            path: this.generateAISectionPath(section, aiResult.sections),
-            level: section.level,
-            parentSectionId: section.parentSectionId,
-            semanticType: section.semanticType,
-            pageStart: section.pageStart,
-            pageEnd: section.pageEnd,
-            charStart: contentMatch.charStart,
-            charEnd: contentMatch.charEnd,
-            content: contentMatch.content
-          };
-        })
+          for (let partIndex = 1; partIndex < contentResult.parts.length; partIndex++) {
+            const partSection = {
+              sectionId: `${sectionId}_part${partIndex + 1}`,
+              title: `${section.title} - Part ${partIndex + 1}`,
+              path: `${this.generateAISectionPath(section, aiResult.sections)}.${partIndex + 1}`,
+              level: section.level,
+              parentSectionId: sectionId, // Parent is the main section
+              semanticType: section.semanticType,
+              pageStart: section.pageStart,
+              pageEnd: section.pageEnd,
+              charStart: contentResult.charStart + (partIndex * 8000), // Estimate char position
+              charEnd: contentResult.charStart + ((partIndex + 1) * 8000),
+              content: contentResult.parts[partIndex]
+            };
+            
+            sections.push(partSection);
+          }
+        }
+      }
 
       return { sections };
       
@@ -593,6 +677,804 @@ class DocumentIngestionService {
       console.error('Error in AI analysis:', error);
       return null;
     }
+  }
+
+  private extractSectionContentSequentially(
+    fullText: string, 
+    section: any, 
+    allSections: any[], 
+    currentIndex: number
+  ): { 
+    content: string; 
+    charStart: number; 
+    charEnd: number; 
+    parts?: string[]; 
+    needsSplitting?: boolean; 
+    metadata?: any 
+  } {
+    console.log(`🔍 Extracting content sequentially for section "${section.title}"`);
+    
+    // Enhanced header detection with multiple patterns and edge cases
+    const headerInfo = this.findHeaderWithMultipleStrategies(fullText, section.title);
+    
+    if (!headerInfo.found) {
+      console.log(`⚠️ Header not found for "${section.title}", using fallback position estimation`);
+      return this.fallbackContentExtraction(fullText, section, allSections, currentIndex);
+    }
+    
+    console.log(`✅ Found header "${section.title}" at position ${headerInfo.position}`);
+    
+    // Find the end position by looking for the next section header in sequence
+    const contentEnd = this.findNextSectionBoundary(fullText, headerInfo.position, allSections, currentIndex);
+    
+    // Extract raw content between this header and the next
+    const contentStart = headerInfo.position + headerInfo.headerLength;
+    let rawContent = fullText.substring(contentStart, contentEnd).trim();
+    
+    // Clean and process the content
+    rawContent = this.cleanSectionContent(rawContent, section.title);
+    
+    // Check if content needs to be split due to size limits
+    const contentResult = this.handleContentSplitting(rawContent, section.title);
+    
+    return {
+      content: contentResult.content,
+      charStart: contentStart,
+      charEnd: contentEnd,
+      parts: contentResult.parts,
+      needsSplitting: contentResult.needsSplitting,
+      metadata: {
+        headerPosition: headerInfo.position,
+        headerPattern: headerInfo.pattern,
+        originalLength: rawContent.length,
+        extractionMethod: 'sequential_header_detection'
+      }
+    };
+  }
+
+  private findSectionContentByHeader(fullText: string, sectionTitle: string, pageStart: number, pageEnd: number, allSections: any[], currentIndex: number): { content: string; charStart: number; charEnd: number; parts?: string[]; metadata?: any } {
+    console.log(`🔍 Finding content for section "${sectionTitle}" using header detection`);
+    
+    // Try to find the section title as a header in the text
+    const headerMatch = this.detectHeaderInText(fullText, sectionTitle);
+    
+    if (headerMatch.found) {
+      console.log(`✅ Found header "${sectionTitle}" at position ${headerMatch.position}`);
+      
+      // Find the end of this section by looking for the next section header
+      const nextSectionEnd = this.findNextSectionHeader(fullText, headerMatch.position, allSections, currentIndex);
+      
+      // Extract content from after the header to the next section
+      const contentStart = headerMatch.position + headerMatch.headerText.length;
+      const contentEnd = nextSectionEnd;
+      
+      let content = fullText.substring(contentStart, contentEnd).trim();
+      
+      // Apply character limit and create parts if necessary
+      const processedContent = this.processContentWithLimits(content, sectionTitle);
+      
+      console.log(`✅ Extracted header-based content for "${sectionTitle}": ${processedContent.content.length} characters`);
+      return {
+        content: processedContent.content,
+        charStart: contentStart,
+        charEnd: contentEnd,
+        parts: processedContent.parts,
+        metadata: processedContent.metadata
+      };
+    }
+    
+    // Fallback to the original method if header detection fails
+    console.log(`⚠️ Header not found for "${sectionTitle}", falling back to title search`);
+    const fallbackResult = this.findAISectionContent(fullText, sectionTitle, pageStart, pageEnd);
+    return {
+      ...fallbackResult,
+      parts: undefined,
+      metadata: undefined
+    };
+  }
+
+  private detectHeaderInText(fullText: string, sectionTitle: string): { found: boolean; position: number; headerText: string; level: number } {
+    console.log(`🎯 Detecting header patterns for: "${sectionTitle}"`);
+    
+    // Header detection patterns - look for structural elements that indicate headers
+    const headerPatterns = [
+      // Pattern 1: Title surrounded by whitespace (typical h1/h2 style)
+      {
+        pattern: new RegExp(`\\n\\s*${this.escapeRegex(sectionTitle)}\\s*\\n`, 'i'),
+        level: 1
+      },
+      // Pattern 2: Title with numbering (e.g., "1. TITLE" or "1.1 TITLE")
+      {
+        pattern: new RegExp(`\\n\\s*\\d+\\.\\d*\\s*${this.escapeRegex(sectionTitle)}\\s*\\n`, 'i'),
+        level: 2
+      },
+      // Pattern 3: All caps title (typical chapter/section style)
+      {
+        pattern: new RegExp(`\\n\\s*${this.escapeRegex(sectionTitle.toUpperCase())}\\s*\\n`, 'i'),
+        level: 1
+      },
+      // Pattern 4: Title at line start (simple header)
+      {
+        pattern: new RegExp(`(?:^|\\n)\\s*${this.escapeRegex(sectionTitle)}\\s*(?:\\n|$)`, 'i'),
+        level: 2
+      },
+      // Pattern 5: Flexible matching with word boundaries
+      {
+        pattern: new RegExp(`\\b${this.escapeRegex(sectionTitle)}\\b`, 'i'),
+        level: 3
+      }
+    ];
+    
+    for (const { pattern, level } of headerPatterns) {
+      const match = fullText.match(pattern);
+      if (match) {
+        const position = fullText.indexOf(match[0]);
+        if (position !== -1) {
+          console.log(`✅ Found header pattern (level ${level}) at position ${position}`);
+          return {
+            found: true,
+            position,
+            headerText: match[0],
+            level
+          };
+        }
+      }
+    }
+    
+    console.log(`❌ No header pattern found for "${sectionTitle}"`);
+    return { found: false, position: -1, headerText: '', level: 0 };
+  }
+
+  private findNextSectionHeader(fullText: string, currentPosition: number, allSections: any[], currentIndex: number): number {
+    // Look for the next section title in the text
+    let nextHeaderPosition = fullText.length; // Default to end of document
+    
+    // Check all subsequent sections from TOC
+    for (let i = currentIndex + 1; i < allSections.length; i++) {
+      const nextSection = allSections[i];
+      const nextHeaderMatch = this.detectHeaderInText(fullText.substring(currentPosition + 100), nextSection.title);
+      
+      if (nextHeaderMatch.found) {
+        const absolutePosition = currentPosition + 100 + nextHeaderMatch.position;
+        if (absolutePosition < nextHeaderPosition) {
+          nextHeaderPosition = absolutePosition;
+          console.log(`🎯 Next section "${nextSection.title}" found at position ${absolutePosition}`);
+          break;
+        }
+      }
+    }
+    
+    // Also look for common section ending patterns
+    const remainingText = fullText.substring(currentPosition + 100);
+    const endingPatterns = [
+      /\n\s*\d+\.\s*[A-ZŠĐČĆŽ][A-ZŠĐČĆŽa-zšđčćž\s]{5,}/,  // Next numbered section
+      /\n\s*[A-ZŠĐČĆŽ]{3,}[A-ZŠĐČĆŽa-zšđčćž\s]*\n/,        // Next all-caps section
+      /\n\s*LITERATURA\s*\n/i,                              // Bibliography section
+      /\n\s*ZAKLJUČAK\s*\n/i,                               // Conclusion section
+    ];
+    
+    for (const pattern of endingPatterns) {
+      const match = remainingText.search(pattern);
+      if (match !== -1) {
+        const absoluteMatch = currentPosition + 100 + match;
+        if (absoluteMatch < nextHeaderPosition) {
+          nextHeaderPosition = absoluteMatch;
+          console.log(`🔚 Section end pattern found at position ${absoluteMatch}`);
+        }
+      }
+    }
+    
+    return nextHeaderPosition;
+  }
+
+  private processContentWithLimits(content: string, sectionTitle: string): { content: string; parts?: string[]; metadata?: any } {
+    // Maximum characters per section part (to fit in database and embeddings)
+    const MAX_SECTION_CHARS = 8000;
+    
+    if (content.length <= MAX_SECTION_CHARS) {
+      return { content: content.trim() };
+    }
+    
+    console.log(`✂️ Section "${sectionTitle}" exceeds limit (${content.length} chars), splitting into parts`);
+    
+    // Split content into multiple parts
+    const parts = this.splitContentIntoParts(content, MAX_SECTION_CHARS, sectionTitle);
+    
+    console.log(`📚 Split "${sectionTitle}" into ${parts.length} parts`);
+    
+    return { 
+      content: parts[0], // Return first part as main content
+      parts: parts,      // Store all parts for additional processing
+      metadata: {
+        originalLength: content.length,
+        totalParts: parts.length,
+        needsPartSplitting: true
+      }
+    };
+  }
+
+  private splitContentIntoParts(content: string, maxChars: number, sectionTitle: string): string[] {
+    const parts: string[] = [];
+    const safeMaxChars = maxChars - 100; // Leave margin for metadata
+    
+    // Try to split by paragraphs first (double newlines)
+    const paragraphs = content.split('\n\n');
+    let currentPart = '';
+    let partNumber = 1;
+    
+    for (let i = 0; i < paragraphs.length; i++) {
+      const paragraph = paragraphs[i].trim();
+      if (!paragraph) continue;
+      
+      // Check if adding this paragraph would exceed the limit
+      const potentialLength = currentPart.length + paragraph.length + 2; // +2 for \n\n
+      
+      if (potentialLength <= safeMaxChars) {
+        // Add paragraph to current part
+        currentPart += (currentPart ? '\n\n' : '') + paragraph;
+      } else {
+        // Save current part if it has content
+        if (currentPart.trim()) {
+          const partHeader = `[Part ${partNumber} of "${sectionTitle}"]`;
+          parts.push(partHeader + '\n\n' + currentPart.trim());
+          partNumber++;
+        }
+        
+        // Start new part with current paragraph
+        // If single paragraph is too long, split it by sentences
+        if (paragraph.length > safeMaxChars) {
+          const sentenceParts = this.splitLongParagraph(paragraph, safeMaxChars, sectionTitle, partNumber);
+          parts.push(...sentenceParts);
+          partNumber += sentenceParts.length;
+          currentPart = '';
+        } else {
+          currentPart = paragraph;
+        }
+      }
+    }
+    
+    // Add the last part if it has content
+    if (currentPart.trim()) {
+      const partHeader = `[Part ${partNumber} of "${sectionTitle}"]`;
+      parts.push(partHeader + '\n\n' + currentPart.trim());
+    }
+    
+    // If we somehow didn't create any parts, create at least one
+    if (parts.length === 0) {
+      const fallbackContent = content.length > safeMaxChars 
+        ? content.substring(0, safeMaxChars) + '...[truncated]'
+        : content;
+      parts.push(`[Part 1 of "${sectionTitle}"]\n\n${fallbackContent}`);
+    }
+    
+    console.log(`📝 Created ${parts.length} parts for "${sectionTitle}"`);
+    return parts;
+  }
+
+  private splitLongParagraph(paragraph: string, maxChars: number, sectionTitle: string, startPartNumber: number): string[] {
+    const parts: string[] = [];
+    const sentences = paragraph.split(/([.!?]+\s+)/);
+    let currentPart = '';
+    let partNumber = startPartNumber;
+    
+    for (let i = 0; i < sentences.length; i += 2) { // Process sentence + delimiter pairs
+      const sentence = sentences[i] + (sentences[i + 1] || '');
+      
+      if (currentPart.length + sentence.length <= maxChars - 100) {
+        currentPart += sentence;
+      } else {
+        if (currentPart.trim()) {
+          const partHeader = `[Part ${partNumber} of "${sectionTitle}"]`;
+          parts.push(partHeader + '\n\n' + currentPart.trim());
+          partNumber++;
+        }
+        currentPart = sentence;
+      }
+    }
+    
+    if (currentPart.trim()) {
+      const partHeader = `[Part ${partNumber} of "${sectionTitle}"]`;
+      parts.push(partHeader + '\n\n' + currentPart.trim());
+    }
+    
+    return parts;
+  }
+
+  private findHeaderWithMultipleStrategies(fullText: string, sectionTitle: string): {
+    found: boolean;
+    position: number;
+    headerLength: number;
+    pattern: string;
+  } {
+    console.log(`🎯 Using multiple strategies to find header: "${sectionTitle}"`);
+    
+    // Strategy 1: Exact match with various formatting patterns
+    const exactPatterns = [
+      // Pattern: "1. NASLOV" or "NASLOV" surrounded by whitespace
+      `\\n\\s*${this.escapeRegex(sectionTitle)}\\s*\\n`,
+      // Pattern: "1.1 NASLOV" with numbering
+      `\\n\\s*\\d+\\.?\\d*\\.?\\s*${this.escapeRegex(sectionTitle)}\\s*\\n`,
+      // Pattern: All uppercase version
+      `\\n\\s*${this.escapeRegex(sectionTitle.toUpperCase())}\\s*\\n`,
+      // Pattern: Title case version
+      `\\n\\s*${this.escapeRegex(this.toTitleCase(sectionTitle))}\\s*\\n`,
+    ];
+    
+    for (let i = 0; i < exactPatterns.length; i++) {
+      const pattern = exactPatterns[i];
+      const regex = new RegExp(pattern, 'gi');
+      const match = regex.exec(fullText);
+      
+      if (match) {
+        console.log(`✅ Found header using exact pattern ${i + 1} at position ${match.index}`);
+        return {
+          found: true,
+          position: match.index,
+          headerLength: match[0].length,
+          pattern: `exact_pattern_${i + 1}`
+        };
+      }
+    }
+    
+    // Strategy 2: Flexible word-based matching
+    const words = sectionTitle.split(/\s+/).filter(word => word.length > 2);
+    if (words.length >= 2) {
+      // Try matching key words in sequence
+      const keyWordPattern = words.map(word => this.escapeRegex(word)).join('\\s+.*?');
+      const regex = new RegExp(`\\n\\s*.*?${keyWordPattern}.*?\\n`, 'gi');
+      const match = regex.exec(fullText);
+      
+      if (match) {
+        console.log(`✅ Found header using word-based pattern at position ${match.index}`);
+        return {
+          found: true,
+          position: match.index,
+          headerLength: match[0].length,
+          pattern: 'word_based_matching'
+        };
+      }
+    }
+    
+    // Strategy 3: Partial matching with high confidence scoring
+    const cleanTitle = sectionTitle.replace(/^\d+\.?\s*/, '').trim(); // Remove leading numbers
+    if (cleanTitle.length > 3) {
+      const partialPattern = this.escapeRegex(cleanTitle);
+      const regex = new RegExp(`\\n\\s*.*?${partialPattern}.*?\\n`, 'gi');
+      let match;
+      
+      while ((match = regex.exec(fullText)) !== null) {
+        // Score this match based on context
+        const context = fullText.substring(Math.max(0, match.index - 100), match.index + match[0].length + 100);
+        const confidence = this.calculateHeaderConfidence(context, sectionTitle);
+        
+        if (confidence > 0.7) { // High confidence threshold
+          console.log(`✅ Found header using partial matching (confidence: ${confidence}) at position ${match.index}`);
+          return {
+            found: true,
+            position: match.index,
+            headerLength: match[0].length,
+            pattern: `partial_match_conf_${confidence.toFixed(2)}`
+          };
+        }
+      }
+    }
+    
+    console.log(`❌ No header found for "${sectionTitle}" using any strategy`);
+    return { found: false, position: -1, headerLength: 0, pattern: 'none' };
+  }
+
+  private findNextSectionBoundary(fullText: string, currentPosition: number, allSections: any[], currentIndex: number): number {
+    console.log(`🔍 Finding next section boundary from position ${currentPosition}`);
+    
+    let nextBoundaryPosition = fullText.length; // Default to end of document
+    
+    // Look for the next section header in the TOC sequence
+    for (let i = currentIndex + 1; i < allSections.length; i++) {
+      const nextSection = allSections[i];
+      const nextHeaderInfo = this.findHeaderWithMultipleStrategies(
+        fullText.substring(currentPosition + 100), // Skip some chars to avoid finding current header
+        nextSection.title
+      );
+      
+      if (nextHeaderInfo.found) {
+        const absolutePosition = currentPosition + 100 + nextHeaderInfo.position;
+        if (absolutePosition < nextBoundaryPosition) {
+          nextBoundaryPosition = absolutePosition;
+          console.log(`🎯 Next section "${nextSection.title}" found at position ${absolutePosition}`);
+          break; // Found the immediate next section
+        }
+      }
+    }
+    
+    // Also check for common section ending patterns
+    const remainingText = fullText.substring(currentPosition + 200);
+    const endingPatterns = [
+      /\n\s*\d+\.\s*[A-ZŠĐČĆŽ][A-ZŠĐČĆŽa-zšđčćž\s]{5,}\s*\n/,  // Next numbered section
+      /\n\s*[A-ZŠĐČĆŽ]{4,}[A-ZŠĐČĆŽa-zšđčćž\s]*\s*\n/,        // Next all-caps section
+      /\n\s*LITERATURA\s*\n/i,                                  // Bibliography section
+      /\n\s*ZAKLJUČAK\s*\n/i,                                   // Conclusion section
+      /\n\s*REFERENCE\s*\n/i,                                   // References section
+      /\n\s*BIBLIOGRAFIJA\s*\n/i,                               // Bibliography (Serbian)
+    ];
+    
+    for (const pattern of endingPatterns) {
+      const match = remainingText.search(pattern);
+      if (match !== -1) {
+        const absoluteMatch = currentPosition + 200 + match;
+        if (absoluteMatch < nextBoundaryPosition) {
+          nextBoundaryPosition = absoluteMatch;
+          console.log(`🔚 Section end pattern found at position ${absoluteMatch}`);
+        }
+      }
+    }
+    
+    return nextBoundaryPosition;
+  }
+
+  private cleanSectionContent(content: string, sectionTitle: string): string {
+    console.log(`🧹 Cleaning content for section "${sectionTitle}" (${content.length} chars)`);
+    
+    // Remove the header line if it appears at the beginning
+    const lines = content.split('\n');
+    let cleanLines = [...lines];
+    
+    // Check if first few lines contain the section title and remove them
+    for (let i = 0; i < Math.min(3, lines.length); i++) {
+      const line = lines[i].trim().toLowerCase();
+      const titleLower = sectionTitle.toLowerCase().replace(/^\d+\.?\s*/, '');
+      
+      if (line.includes(titleLower) || this.calculateSimilarity(line, titleLower) > 0.8) {
+        console.log(`🗑️ Removing header line: "${lines[i]}"`);
+        cleanLines.splice(i, 1);
+        break;
+      }
+    }
+    
+    // Join back and clean whitespace
+    let cleanedContent = cleanLines.join('\n')
+      .replace(/\n\n\n+/g, '\n\n') // Remove excessive line breaks
+      .replace(/[ \t]+/g, ' ')      // Normalize spaces
+      .trim();
+    
+    console.log(`✨ Cleaned content: ${cleanedContent.length} chars (was ${content.length})`);
+    return cleanedContent;
+  }
+
+  private handleContentSplitting(content: string, sectionTitle: string): {
+    content: string;
+    parts?: string[];
+    needsSplitting: boolean;
+  } {
+    const MAX_SECTION_SIZE = 8000; // Characters
+    
+    if (content.length <= MAX_SECTION_SIZE) {
+      return { content, needsSplitting: false };
+    }
+    
+    console.log(`✂️ Content exceeds limit (${content.length} chars), splitting for "${sectionTitle}"`);
+    
+    // Split content intelligently by paragraphs
+    const parts = this.splitContentIntoParts(content, MAX_SECTION_SIZE, sectionTitle);
+    
+    return {
+      content: parts[0], // First part as main content
+      parts,
+      needsSplitting: true
+    };
+  }
+
+  private fallbackContentExtraction(fullText: string, section: any, allSections: any[], currentIndex: number): {
+    content: string;
+    charStart: number;
+    charEnd: number;
+    parts?: string[];
+    needsSplitting?: boolean;
+    metadata?: any;
+  } {
+    console.log(`🔄 Using fallback content extraction for "${section.title}"`);
+    
+    // Estimate position based on page numbers and document length
+    const estimatedCharsPerPage = Math.floor(fullText.length / 100); // Rough estimate
+    const estimatedStart = Math.max(0, (section.pageStart - 1) * estimatedCharsPerPage);
+    const estimatedEnd = Math.min(fullText.length, section.pageEnd * estimatedCharsPerPage);
+    
+    let content = fullText.substring(estimatedStart, estimatedEnd).trim();
+    const contentResult = this.handleContentSplitting(content, section.title);
+    
+    return {
+      content: contentResult.content,
+      charStart: estimatedStart,
+      charEnd: estimatedEnd,
+      parts: contentResult.parts,
+      needsSplitting: contentResult.needsSplitting,
+      metadata: {
+        extractionMethod: 'fallback_page_estimation',
+        estimatedCharsPerPage
+      }
+    };
+  }
+
+  private calculateHeaderConfidence(context: string, originalTitle: string): number {
+    const contextLower = context.toLowerCase();
+    const titleLower = originalTitle.toLowerCase();
+    
+    let confidence = 0;
+    
+    // Check if context looks like a header (isolated line)
+    if (context.includes('\n') && context.split('\n').some(line => 
+      line.trim().length > 0 && line.trim().length < 100 && line.includes(titleLower.substring(0, 5))
+    )) {
+      confidence += 0.3;
+    }
+    
+    // Check for header formatting indicators
+    if (/^\s*\d+\./.test(context)) confidence += 0.2; // Numbered
+    if (/[A-Z]{4,}/.test(context)) confidence += 0.2; // Contains uppercase
+    if (context.includes(titleLower)) confidence += 0.3; // Contains title
+    
+    return confidence;
+  }
+
+  private calculateSimilarity(str1: string, str2: string): number {
+    const longer = str1.length > str2.length ? str1 : str2;
+    const shorter = str1.length > str2.length ? str2 : str1;
+    
+    if (longer.length === 0) return 1.0;
+    
+    const editDistance = this.levenshteinDistance(longer, shorter);
+    return (longer.length - editDistance) / longer.length;
+  }
+
+  private levenshteinDistance(str1: string, str2: string): number {
+    const matrix = [];
+    
+    for (let i = 0; i <= str2.length; i++) {
+      matrix[i] = [i];
+    }
+    
+    for (let j = 0; j <= str1.length; j++) {
+      matrix[0][j] = j;
+    }
+    
+    for (let i = 1; i <= str2.length; i++) {
+      for (let j = 1; j <= str1.length; j++) {
+        if (str2.charAt(i - 1) === str1.charAt(j - 1)) {
+          matrix[i][j] = matrix[i - 1][j - 1];
+        } else {
+          matrix[i][j] = Math.min(
+            matrix[i - 1][j - 1] + 1,
+            matrix[i][j - 1] + 1,
+            matrix[i - 1][j] + 1
+          );
+        }
+      }
+    }
+    
+    return matrix[str2.length][str1.length];
+  }
+
+  private toTitleCase(str: string): string {
+    return str.replace(/\w\S*/g, (txt) => 
+      txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase()
+    );
+  }
+
+  private detectPageSeparators(page: any, pageHeight: number, pageWidth: number): { top: number | null, bottom: number | null } {
+    const separators = { top: null as number | null, bottom: null as number | null };
+    
+    try {
+      // Method 1: Look for text-based separators (long sequences of dashes or underscores)
+      if (page.Texts) {
+        for (const text of page.Texts) {
+          if (text.R) {
+            for (const r of text.R) {
+              if (r.T) {
+                const textContent = decodeURIComponent(r.T);
+                // Check for separator patterns: long dashes, underscores, or multiple dashes
+                if (this.isSeparatorText(textContent)) {
+                  const y = text.y || 0;
+                  const normalizedY = y / pageHeight;
+                  
+                  // If in top area and we don't have a top separator yet
+                  if (normalizedY < 0.3 && (!separators.top || y > separators.top)) {
+                    separators.top = y;
+                    console.log(`🔍 Found TOP separator: "${textContent}" at Y=${y} (${normalizedY.toFixed(2)})`);
+                  }
+                  // If in bottom area and we don't have a bottom separator yet  
+                  else if (normalizedY > 0.7 && (!separators.bottom || y < separators.bottom)) {
+                    separators.bottom = y;
+                    console.log(`🔍 Found BOTTOM separator: "${textContent}" at Y=${y} (${normalizedY.toFixed(2)})`);
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      // Method 2: Look for Fill elements (horizontal lines) - if available in PDF structure
+      if (page.Fills) {
+        for (const fill of page.Fills) {
+          const width = fill.w || 0;
+          const height = fill.h || 0;
+          
+          // Detect horizontal lines (wide but not tall)
+          if (width > pageWidth * 0.3 && height < 0.1) {
+            const y = fill.y || 0;
+            const normalizedY = y / pageHeight;
+            
+            if (normalizedY < 0.3 && (!separators.top || y > separators.top)) {
+              separators.top = y;
+              console.log(`🔍 Found TOP line separator at Y=${y} (${normalizedY.toFixed(2)})`);
+            } else if (normalizedY > 0.7 && (!separators.bottom || y < separators.bottom)) {
+              separators.bottom = y;
+              console.log(`🔍 Found BOTTOM line separator at Y=${y} (${normalizedY.toFixed(2)})`);
+            }
+          }
+        }
+      }
+
+    } catch (error) {
+      console.warn('Error detecting separators:', error);
+    }
+
+    return separators;
+  }
+
+  private isSeparatorText(text: string): boolean {
+    if (!text || text.length < 5) return false;
+    
+    // Remove spaces and decode
+    const cleanText = text.replace(/\s/g, '');
+    
+    // Check for common separator patterns
+    const separatorPatterns = [
+      /^-{5,}$/, // 5 or more dashes
+      /^_{5,}$/, // 5 or more underscores  
+      /^={5,}$/, // 5 or more equals
+      /^\.{10,}$/, // 10 or more dots
+      /^-+$/, // Only dashes (any length > 5 chars total)
+      /^_+$/, // Only underscores
+      /^[–—]{3,}$/, // Em/en dashes
+    ];
+    
+    return separatorPatterns.some(pattern => pattern.test(cleanText));
+  }
+
+  private shouldExcludeText(
+    text: string, 
+    y: number, 
+    pageHeight: number, 
+    config: HeaderFooterFilterConfig,
+    separators: { top: number | null, bottom: number | null } = { top: null, bottom: null }
+  ): boolean {
+    if (!text || text.trim().length === 0) return true;
+    
+    const trimmedText = text.trim();
+    
+    // First check if this text IS a separator - always exclude
+    if (this.isSeparatorText(text)) {
+      return true;
+    }
+    
+    // Use separator-based filtering if separators are detected
+    let inHeaderFooterArea = false;
+    
+    if (separators.top !== null || separators.bottom !== null) {
+      // Use separator-based boundaries
+      if (separators.top !== null && y <= separators.top) {
+        inHeaderFooterArea = true; // Above top separator
+      }
+      if (separators.bottom !== null && y >= separators.bottom) {
+        inHeaderFooterArea = true; // Below bottom separator
+      }
+    } else {
+      // Fallback to Y-position based filtering
+      const normalizedY = y / pageHeight;
+      inHeaderFooterArea = normalizedY < config.headerThreshold || normalizedY > config.footerThreshold;
+    }
+    
+    // If in header/footer area - be more aggressive with filtering
+    if (inHeaderFooterArea) {
+      // Check title patterns
+      if (config.titlePatterns.some(pattern => pattern.test(trimmedText))) {
+        return true;
+      }
+      
+      // Check page numbers
+      if (config.pageNumberPatterns.some(pattern => pattern.test(trimmedText))) {
+        return true;
+      }
+      
+      // Check reference patterns
+      if (config.referencePatterns.some(pattern => pattern.test(trimmedText))) {
+        return true;
+      }
+    }
+    
+    // Global exclusion patterns (apply everywhere)
+    if (config.excludePatterns.some(pattern => pattern.test(trimmedText))) {
+      return true;
+    }
+    
+    return false;
+  }
+
+  private shouldExcludeTextSimple(text: string, normalizedY: number): boolean {
+    if (!text || text.trim().length === 0) return true;
+    
+    const trimmedText = text.trim();
+    
+    // Basic header/footer filtering - exclude text in top 10% or bottom 10% of page
+    if (normalizedY < 0.1 || normalizedY > 0.9) {
+      // Check for common header/footer patterns
+      const headerFooterPatterns = [
+        /^\d+$/, // Just page numbers
+        /^[A-ZŠĐČĆŽ\s]{3,}$/, // All caps headers
+        /\b(strana|stranica|page)\s*\d+/i, // Page indicators
+        /\b\d{1,2}\/\d{1,2}\/\d{2,4}\b/, // Dates
+        /^\s*[-=_]{3,}\s*$/, // Separator lines
+      ];
+      
+      if (headerFooterPatterns.some(pattern => pattern.test(trimmedText))) {
+        return true;
+      }
+      
+      // If text is very short in header/footer area, likely not content
+      if (trimmedText.length < 5) {
+        return true;
+      }
+    }
+    
+    return false;
+  }
+
+  private shouldAddSpace(previousText: string, currentText: string, xGap: number): boolean {
+    // No space needed if either text is empty
+    if (!previousText || !currentText) return false;
+    
+    // Get last character of previous text and first character of current text
+    const lastChar = previousText.slice(-1);
+    const firstChar = currentText.charAt(0);
+    
+    // Don't add space if current text already starts with space
+    if (firstChar === ' ') return false;
+    
+    // Don't add space if previous text already ends with space
+    if (lastChar === ' ') return false;
+    
+    // Don't add space for punctuation that should be connected
+    if (firstChar.match(/[.,;:!?)\]}]/)) return false;
+    if (lastChar.match(/[({\[]/)) return false;
+    
+    // IMPROVED: More conservative space detection
+    // Only add space for very clear word boundaries
+    if (xGap > 0.5) return true;  // Very large gaps are clearly separate words
+    
+    // More restrictive for medium gaps - require clear word characters
+    if (xGap > 0.2 && 
+        lastChar.match(/[a-zA-ZšđčćžŠĐČĆŽ]/) && 
+        firstChar.match(/[a-zA-ZšđčćžŠĐČĆŽ]/) &&
+        previousText.length > 1 && currentText.length > 1) {
+      return true;
+    }
+    
+    // Special case: clear number separation
+    if (lastChar.match(/[0-9]/) && firstChar.match(/[0-9]/) && xGap > 0.3) {
+      return true;
+    }
+    
+    // Special case: punctuation followed by word with clear gap
+    if (lastChar.match(/[.,;:!?]/) && firstChar.match(/[A-ZŠĐČĆŽ]/) && xGap > 0.2) {
+      return true;
+    }
+    
+    // Don't add space for smaller gaps (likely character rendering issues)
+    return false;
+  }
+
+  private escapeRegex(text: string): string {
+    return text.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
   }
 
   private findAISectionContent(fullText: string, sectionTitle: string, pageStart: number, pageEnd: number): { content: string; charStart: number; charEnd: number } {
@@ -1437,8 +2319,14 @@ class DocumentIngestionService {
     }
   }
 
-  async processDocument(materialId: string, startPage?: number, maxPages: number = 10, tocPage?: number, tocToPage?: number): Promise<void> {
+  async processDocument(materialId: string, tocPage?: number, tocToPage?: number): Promise<void> {
     try {
+      // Check for abort signal at the start
+      if ((global as any).abortProcessing) {
+        await this.logProgress(materialId, 'aborted', 0, 'Processing aborted by user');
+        throw new Error('Processing aborted by user');
+      }
+      
       await this.logProgress(materialId, 'probe', 5, 'Starting document processing');
 
       // Clear existing data from previous tests
@@ -1484,9 +2372,24 @@ class DocumentIngestionService {
         return;
       }
 
-      // Extract text from PDF
-      await this.logProgress(materialId, 'text', 20, `Extracting text from PDF (max ${maxPages} pages${startPage ? ` starting from page ${startPage}` : ''})`);
-      const { pages: textPages, pageCount } = await this.extractTextFromPDF(pdfBuffer, startPage, maxPages);
+      // Calculate the actual content processing range
+      let contentStartPage = 1;
+      
+      if (tocPage && tocToPage) {
+        // If TOC pages are specified, start processing after the last TOC page
+        contentStartPage = tocToPage + 1;
+        console.log(`📚 TOC ends at page ${tocToPage}, starting content processing from page ${contentStartPage}`);
+      }
+
+      // Check abort signal before text extraction
+      if ((global as any).abortProcessing) {
+        await this.logProgress(materialId, 'aborted', 0, 'Processing aborted by user');
+        throw new Error('Processing aborted by user');
+      }
+
+      // Extract text from PDF - process entire document content without any page restrictions
+      await this.logProgress(materialId, 'text', 20, `Extracting text from entire PDF content (all pages from ${contentStartPage} onwards)`);
+      const { pages: textPages, pageCount } = await this.extractTextFromPDF(pdfBuffer, contentStartPage);
 
       // Render PDF pages to images
       await this.logProgress(materialId, 'render', 35, 'Rendering PDF pages');
@@ -1513,14 +2416,26 @@ class DocumentIngestionService {
       // Combine all text
       const fullText = allPages.map(page => page.text).join('\n\n');
 
+      // Check abort signal before AI analysis
+      if ((global as any).abortProcessing) {
+        await this.logProgress(materialId, 'aborted', 0, 'Processing aborted by user');
+        throw new Error('Processing aborted by user');
+      }
+
       // Detect document structure
-      await this.logProgress(materialId, 'sectioning', 65, 'Analyzing document structure with AI');
-      const structure = await this.detectDocumentStructure(fullText, materialId, tocPage, tocToPage, startPage, maxPages);
+      await this.logProgress(materialId, 'sectioning', 65, 'Analyzing complete document structure with AI');
+      const structure = await this.detectDocumentStructure(fullText, materialId, tocPage, tocToPage, contentStartPage);
 
       // Save sections to database and vector store
       await this.logProgress(materialId, 'embed', 75, 'Processing sections and creating embeddings');
       
       for (const section of structure.sections) {
+        // Check abort signal during section processing
+        if ((global as any).abortProcessing) {
+          await this.logProgress(materialId, 'aborted', 0, 'Processing aborted by user');
+          throw new Error('Processing aborted by user');
+        }
+        
         // Skip sections with empty or too short content
         if (!section.content || section.content.trim().length < 50) {
           console.log(`⏭️ Skipping section "${section.title}" - content too short (${section.content?.length || 0} chars)`);

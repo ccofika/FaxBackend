@@ -91,7 +91,7 @@ router.post('/pdf', upload.single('pdf'), async (req, res) => {
     const uploadResponse = await fetch(uploadUrl, {
       method: 'PUT',
       headers: signedRequest.headers,
-      body: req.file.buffer
+      body: req.file.buffer as any
     });
 
     if (!uploadResponse.ok) {

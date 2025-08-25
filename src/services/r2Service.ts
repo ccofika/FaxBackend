@@ -34,7 +34,7 @@ class R2Service {
       const response = await fetch(uploadUrl, {
         method: 'PUT',
         headers,
-        body: buffer,
+        body: buffer as any,
       });
 
       if (!response.ok) {

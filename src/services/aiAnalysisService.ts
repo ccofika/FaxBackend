@@ -21,34 +21,46 @@ class AIAnalysisService {
   }
 
   async analyzeTOC(tocText: string, startPage: number = 1, endPage: number = 4): Promise<TocAnalysisResult> {
-    // Keep full TOC text - gpt-5-nano can handle much larger inputs
-    let truncatedToc = tocText;
-    console.log(`📊 Original TOC: ${tocText.length} chars - sending full text`);
+    // Process entire TOC text without restrictions - AI will handle the full content
+    console.log(`📊 Analyzing complete TOC: ${tocText.length} chars - processing entire content`);
 
-    const prompt = `Extract TOC sections as JSON:
+    const prompt = `Extract ALL sections from the Table of Contents as comprehensive JSON without any limitations:
 
-${truncatedToc}
+${tocText}
 
-Find patterns like:
-- "PREDGOVOR _____ 5" → {"title":"PREDGOVOR","level":1,"pageStart":5,"pageEnd":6,"semanticType":"chapter"}
-- "1. HARDVER _____ 15" → {"title":"1. HARDVER","level":1,"pageStart":15,"pageEnd":16,"semanticType":"chapter"}
-- "1.1. Pojam _____ 15" → {"title":"1.1. Pojam","level":2,"pageStart":15,"pageEnd":16,"semanticType":"section"}
+Rules:
+1. Extract EVERY section/subsection found in the TOC
+2. Find patterns like:
+   - "PREDGOVOR _____ 5" → {"title":"PREDGOVOR","level":1,"pageStart":5,"pageEnd":14,"semanticType":"chapter"}
+   - "1. HARDVER _____ 15" → {"title":"1. HARDVER","level":1,"pageStart":15,"pageEnd":29,"semanticType":"chapter"}
+   - "1.1. Pojam _____ 15" → {"title":"1.1. Pojam","level":2,"pageStart":15,"pageEnd":19,"semanticType":"section"}
+   - "2. SOFTVER _____ 30" → {"title":"2. SOFTVER","level":1,"pageStart":30,"pageEnd":45,"semanticType":"chapter"}
 
-Return only JSON: {"sections":[...]}`;
+3. CRITICAL: Calculate pageEnd correctly:
+   - Find where the NEXT section starts (its pageStart)
+   - Set current section's pageEnd = next section's pageStart - 1
+   - For example: if "1. HARDVER" starts on page 15 and "2. SOFTVER" starts on page 30, 
+     then "1. HARDVER" pageEnd should be 29 (not 16)
+   - Last section: estimate reasonable length (10-20 pages)
+
+4. Include ALL sections - do not skip or limit any entries
+5. Use proper semantic types: 'chapter' for main sections, 'section' for subsections, 'subsection' for sub-subsections
+
+Return comprehensive JSON with ALL sections: {"sections":[...]}`;
 
     try {
       console.log('🤖 Making OpenAI API call with model: gpt-5-nano');
       console.log('📋 TOC text being sent to AI:');
       console.log('--- START TOC ---');
-      console.log(truncatedToc);
+      console.log(tocText);
       console.log('--- END TOC ---');
-      console.log(`📊 TOC length: ${truncatedToc.length} characters`);
+      console.log(`📊 TOC length: ${tocText.length} characters`);
       const response = await this.openai.chat.completions.create({
         model: 'gpt-5-nano',
         messages: [
           {
             role: 'system',
-            content: 'Extract TOC sections as JSON. Be precise and concise.'
+            content: 'Extract ALL table of contents sections as comprehensive JSON. Process the entire content without restrictions. Include every section/subsection found.'
           },
           {
             role: 'user',

@@ -1,9 +1,25 @@
 import { Router } from 'express';
+import multer from 'multer';
 import { adminAuth } from '../middleware/adminAuth';
 import { Material, DocumentSection, DocumentChunk } from '../models';
 import jobQueueService from '../services/jobQueueService';
 import qdrantService from '../services/qdrantService';
 import documentIngestionService from '../services/documentIngestionService';
+
+// Configure multer for PDF upload
+const upload = multer({
+  storage: multer.memoryStorage(),
+  limits: {
+    fileSize: 50 * 1024 * 1024, // 50MB limit
+  },
+  fileFilter: (req, file, cb) => {
+    if (file.mimetype === 'application/pdf') {
+      cb(null, true);
+    } else {
+      cb(new Error('Only PDF files are allowed'));
+    }
+  },
+});
 
 const router = Router();
 
@@ -208,11 +224,11 @@ router.post('/search', async (req, res) => {
   }
 });
 
-// Process document with page options
+// Process document with TOC configuration
 router.post('/process/:materialId', async (req, res) => {
   try {
     const { materialId } = req.params;
-    const { startPage, maxPages, tocPage, tocToPage } = req.body;
+    const { tocPage, tocToPage } = req.body;
     
     const material = await Material.findById(materialId);
     if (!material) {
@@ -240,26 +256,25 @@ router.post('/process/:materialId', async (req, res) => {
       },
     });
 
-    // Start processing directly in background
-    console.log(`🚀 Starting document processing for material: ${materialId} with startPage: ${startPage}, maxPages: ${maxPages}, tocPage: ${tocPage || 'not specified'}, tocToPage: ${tocToPage || 'not specified'}`);
+    // Start processing entire book directly in background
+    console.log(`🚀 Starting complete book processing for material: ${materialId} with tocPage: ${tocPage || 'not specified'}, tocToPage: ${tocToPage || 'not specified'}`);
     
     setImmediate(async () => {
       try {
-        await documentIngestionService.processDocument(materialId, startPage, maxPages, tocPage, tocToPage);
-        console.log(`✅ Document processing completed for material: ${materialId}`);
+        await documentIngestionService.processDocument(materialId, tocPage, tocToPage);
+        console.log(`✅ Complete book processing finished for material: ${materialId}`);
       } catch (processingError) {
-        console.error(`❌ Document processing failed for material ${materialId}:`, processingError);
+        console.error(`❌ Book processing failed for material ${materialId}:`, processingError);
       }
     });
 
     res.json({
       success: true,
-      message: 'Document processing started',
+      message: 'Complete book processing started - no page restrictions',
       options: {
-        startPage: startPage || 1,
-        maxPages: maxPages || 10,
         tocPage: tocPage || null,
         tocToPage: tocToPage || null,
+        processingScope: 'entire_book'
       },
     });
   } catch (error) {
@@ -342,6 +357,179 @@ router.get('/health', async (req, res) => {
     res.status(500).json({ 
       success: false, 
       message: 'Health check failed',
+      error: error instanceof Error ? error.message : 'Unknown error'
+    });
+  }
+});
+
+// Test PDF text extraction with AI TOC analysis
+router.post('/test-pdf-parsing', upload.single('pdf'), async (req, res) => {
+  try {
+    console.log('📝 PDF parsing test request received');
+    
+    if (!req.file) {
+      return res.status(400).json({
+        success: false,
+        message: 'No PDF file uploaded'
+      });
+    }
+
+    // Get TOC page range from request body (e.g., "2-4" means pages 2, 3, 4)
+    const { tocPages, maxPages = 10 } = req.body;
+    let tocFromPage: number | undefined;
+    let tocToPage: number | undefined;
+    let shouldAnalyzeTOC = false;
+    
+    if (tocPages) {
+      const tocMatch = tocPages.match(/^(\d+)-(\d+)$/);
+      if (tocMatch) {
+        tocFromPage = parseInt(tocMatch[1]);
+        tocToPage = parseInt(tocMatch[2]);
+        shouldAnalyzeTOC = true;
+        console.log(`📚 TOC analysis requested for pages ${tocFromPage} to ${tocToPage}`);
+      } else {
+        return res.status(400).json({
+          success: false,
+          message: 'Invalid TOC page format. Use format like "2-4" for pages 2 to 4'
+        });
+      }
+    }
+
+    // Extract text from specified number of pages (or first 10 by default)
+    console.log(`🔍 Extracting text from first ${maxPages} pages...`);
+    const { pages } = await documentIngestionService.extractTextFromPDF(req.file.buffer, 1, maxPages);
+    
+    console.log(`✅ Extracted text from ${pages.length} pages`);
+    
+    let aiTocAnalysis = null;
+    
+    if (shouldAnalyzeTOC && tocFromPage && tocToPage) {
+      try {
+        console.log('🤖 Starting AI TOC analysis...');
+        
+        // Extract TOC pages specifically
+        const { pages: tocPages } = await documentIngestionService.extractTextFromPDF(
+          req.file.buffer, 
+          tocFromPage, 
+          tocToPage - tocFromPage + 1
+        );
+        
+        const tocText = tocPages.map(page => page.text).join('\n\n');
+        console.log(`📋 TOC text extracted (${tocText.length} characters)`);
+        
+        if (tocText.length < 50) {
+          throw new Error('TOC text too short for AI analysis');
+        }
+        
+        // Use the AI analysis service to analyze TOC directly
+        const aiAnalysisService = require('../services/aiAnalysisService').default;
+        aiTocAnalysis = await aiAnalysisService.analyzeTOC(tocText, tocFromPage, tocToPage);
+        
+        console.log(`🎯 AI found ${aiTocAnalysis?.sections?.length || 0} sections`);
+        
+      } catch (aiError) {
+        console.error('❌ AI TOC analysis failed:', aiError);
+        aiTocAnalysis = {
+          error: aiError instanceof Error ? aiError.message : 'AI analysis failed',
+          sections: []
+        };
+      }
+    }
+    
+    // Combine all pages for display
+    const combinedText = pages.map(page => 
+      `=== PAGE ${page.pageNumber} ===\n${page.text}\n`
+    ).join('\n');
+    
+    const response: any = {
+      success: true,
+      message: `Successfully extracted text from ${pages.length} pages`,
+      data: {
+        pageCount: pages.length,
+        pages: pages.map(page => ({
+          pageNumber: page.pageNumber,
+          textLength: page.text.length,
+          text: page.text
+        })),
+        combinedText,
+        combinedLength: combinedText.length
+      }
+    };
+    
+    // Add AI TOC analysis if performed
+    if (shouldAnalyzeTOC) {
+      response.data.tocAnalysis = {
+        tocPages: `${tocFromPage}-${tocToPage}`,
+        aiAnalysis: aiTocAnalysis,
+        sectionsFound: aiTocAnalysis?.sections?.length || 0
+      };
+    }
+    
+    res.json(response);
+  } catch (error) {
+    console.error('❌ Error testing PDF parsing:', error);
+    res.status(500).json({
+      success: false,
+      message: 'Failed to parse PDF',
+      error: error instanceof Error ? error.message : 'Unknown error'
+    });
+  }
+});
+
+// Abort current processing
+router.post('/abort', async (req, res) => {
+  try {
+    console.log('🛑 Abort request received');
+    
+    // Find all materials currently being processed
+    const processingMaterials = await Material.find({ status: 'processing' });
+    
+    console.log(`🛑 Found ${processingMaterials.length} materials currently processing`);
+    
+    let abortedCount = 0;
+    
+    for (const material of processingMaterials) {
+      try {
+        // Set material status to failed with abort message
+        await Material.findByIdAndUpdate(material._id, {
+          $set: {
+            status: 'failed',
+            'progress.step': 'aborted',
+            'progress.percent': 0,
+            'progress.message': 'Processing aborted by user',
+            'progress.lastUpdate': new Date()
+          }
+        });
+        
+        console.log(`🛑 Aborted processing for material: ${material._id} (${material.title})`);
+        abortedCount++;
+      } catch (error) {
+        console.error(`❌ Error aborting material ${material._id}:`, error);
+      }
+    }
+    
+    // Set a global abort flag that processing functions can check
+    (global as any).abortProcessing = true;
+    
+    // Clear the abort flag after a delay
+    setTimeout(() => {
+      (global as any).abortProcessing = false;
+      console.log('🟢 Abort flag cleared, new processes can start');
+    }, 5000); // Clear after 5 seconds
+    
+    console.log(`✅ Successfully aborted ${abortedCount} processing tasks`);
+    
+    res.json({
+      success: true,
+      message: `Successfully aborted ${abortedCount} processing tasks`,
+      abortedCount,
+      totalFound: processingMaterials.length
+    });
+  } catch (error) {
+    console.error('❌ Error aborting processes:', error);
+    res.status(500).json({ 
+      success: false, 
+      message: 'Failed to abort processes',
       error: error instanceof Error ? error.message : 'Unknown error'
     });
   }
