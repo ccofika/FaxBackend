@@ -1,0 +1,2013 @@
+[2025-08-28T01:49:21.280Z] INFO: ================================================================================
+[2025-08-28T01:49:21.280Z] INFO: DOCUMENT PROCESSING LOG
+[2025-08-28T01:49:21.280Z] INFO: Material ID: 68afb59cb89611e8ae01f466
+[2025-08-28T01:49:21.280Z] INFO: Start Time: 2025-08-28T01:49:21.280Z
+[2025-08-28T01:49:21.280Z] INFO: ================================================================================
+[2025-08-28T01:49:21.280Z] INFO: 
+[2025-08-28T01:49:21.280Z] INFO: Starting document processing for material: 68afb59cb89611e8ae01f466
+[2025-08-28T01:49:21.280Z] INFO: TOC pages specified: 2-3
+[2025-08-28T01:49:21.280Z] INFO: Progress: probe [█-------------------] 5% - Starting document processing
+[2025-08-28T01:49:21.305Z] Progress: probe - 5% - Starting document processing
+[2025-08-28T01:49:21.306Z] INFO: 
+[2025-08-28T01:49:21.306Z] INFO: ------------------------------------------------------------
+[2025-08-28T01:49:21.306Z] INFO: SECTION: INITIALIZATION
+[2025-08-28T01:49:21.306Z] INFO: ------------------------------------------------------------
+[2025-08-28T01:49:21.306Z] INFO: Progress: probe [█-------------------] 7% - Clearing existing document data
+[2025-08-28T01:49:21.331Z] Progress: probe - 7% - Clearing existing document data
+[2025-08-28T01:49:21.775Z] INFO: Loading material from database
+[2025-08-28T01:49:21.798Z] INFO: Material loaded: skripta_E1_2013 (Subject: 68ae193285e324322914d443)
+[2025-08-28T01:49:21.848Z] Progress: probe - 10% - Downloading PDF from R2
+[2025-08-28T01:49:22.042Z] INFO: 
+[2025-08-28T01:49:22.042Z] INFO: ------------------------------------------------------------
+[2025-08-28T01:49:22.042Z] INFO: SECTION: PDF TEXT EXTRACTION
+[2025-08-28T01:49:22.042Z] INFO: ------------------------------------------------------------
+[2025-08-28T01:49:22.042Z] INFO: Progress: text [████----------------] 20% - Extracting text from entire PDF content (all pages from 4 onwards)
+[2025-08-28T01:49:22.042Z] INFO: Starting text extraction from page 4 onwards
+[2025-08-28T01:49:22.069Z] Progress: text - 20% - Extracting text from entire PDF content (all pages from 4 onwards)
+[2025-08-28T01:49:22.069Z] 🔄 Using node-poppler for true page-by-page extraction (pages 4 to 1003)
+[2025-08-28T01:49:22.071Z] 📁 Created temp PDF file: C:\Users\stefa\AppData\Local\Temp\temp_pdf_1756345762069.pdf
+[2025-08-28T01:49:22.255Z] 📚 PDF has 100 pages, extracting 4 to 100
+[2025-08-28T01:49:22.255Z] 📄 Extracting page 4/100...
+[2025-08-28T01:49:22.304Z] ✅ Page 4 extracted: 2016 characters
+[2025-08-28T01:49:22.304Z] 📖 Page 4 preview: "THE SIMPLE PRESENT TENSE (PROSTO SADAŠNJE VREME)
+
+Prosto sadašnje vreme (present simple tense) se ..."
+[2025-08-28T01:49:22.304Z] 📄 Extracting page 5/100...
+[2025-08-28T01:49:22.334Z] ✅ Page 5 extracted: 1609 characters
+[2025-08-28T01:49:22.334Z] 📖 Page 5 preview: "Does she work? – Da li ona radi?
+Does it work? – Da li ono radi?
+
+Na Yes/No pitanja se odgovara k..."
+[2025-08-28T01:49:22.335Z] 📄 Extracting page 6/100...
+[2025-08-28T01:49:22.364Z] ✅ Page 6 extracted: 1742 characters
+[2025-08-28T01:49:22.364Z] 📖 Page 6 preview: "The English drink tea at 5 o'clock in the afternoon. (Englezi piju čaj u 5 sati popodne.)
+
+U ovom ..."
+[2025-08-28T01:49:22.365Z] 📄 Extracting page 7/100...
+[2025-08-28T01:49:22.394Z] ✅ Page 7 extracted: 1704 characters
+[2025-08-28T01:49:22.394Z] 📖 Page 7 preview: "Ako se glagol završava na jedan suglasnik ispred kojeg stoji kratak, naglašen samoglasnik,
+krajnji ..."
+[2025-08-28T01:49:22.394Z] 📄 Extracting page 8/100...
+[2025-08-28T01:49:22.424Z] ✅ Page 8 extracted: 1561 characters
+[2025-08-28T01:49:22.425Z] 📖 Page 8 preview: "Where is he working? – Gde on radi? Where are they working? – Gde oni
+Where is she working? – Gde o..."
+[2025-08-28T01:49:22.425Z] 📄 Extracting page 9/100...
+[2025-08-28T01:49:22.452Z] ✅ Page 9 extracted: 1679 characters
+[2025-08-28T01:49:22.452Z] 📖 Page 9 preview: "understand – razumeti,
+wish – želeti,
+want – hteti,
+know – znati, itd.
+
+Oni su, umesto u presen..."
+[2025-08-28T01:49:22.453Z] 📄 Extracting page 10/100...
+[2025-08-28T01:49:22.482Z] ✅ Page 10 extracted: 1969 characters
+[2025-08-28T01:49:22.482Z] 📖 Page 10 preview: "Ukoliko se infinitiv završava na jedan suglasnik ispred koga je kratak, naglašen
+samoglasnik, taj k..."
+[2025-08-28T01:49:22.483Z] 📄 Extracting page 11/100...
+[2025-08-28T01:49:22.512Z] ✅ Page 11 extracted: 1673 characters
+[2025-08-28T01:49:22.512Z] 📖 Page 11 preview: "Kod rečenice:
+Who called you? (Ko te je pozvao?) odgovor na pitanje glasi
+John called me.
+Odgovor..."
+[2025-08-28T01:49:22.513Z] 📄 Extracting page 12/100...
+[2025-08-28T01:49:22.545Z] ✅ Page 12 extracted: 1801 characters
+[2025-08-28T01:49:22.546Z] 📖 Page 12 preview: "My father built this house in 1997. (Moj otac je sagradio ovu kuću 1997.-e)
+The day before yesterda..."
+[2025-08-28T01:49:22.546Z] 📄 Extracting page 13/100...
+[2025-08-28T01:49:22.573Z] ✅ Page 13 extracted: 1646 characters
+[2025-08-28T01:49:22.573Z] 📖 Page 13 preview: "Jednina (singular) Množina (plural)
+Where was I working? – Gde sam ja Where were we working? – Gde ..."
+[2025-08-28T01:49:22.574Z] 📄 Extracting page 14/100...
+[2025-08-28T01:49:22.606Z] ✅ Page 14 extracted: 1203 characters
+[2025-08-28T01:49:22.606Z] 📖 Page 14 preview: "When we arrived they were playing cards. (Kada smo stigli oni su igrali karte.)
+
+Napomena: Glagoli..."
+[2025-08-28T01:49:22.607Z] 📄 Extracting page 15/100...
+[2025-08-28T01:49:22.637Z] ✅ Page 15 extracted: 2316 characters
+[2025-08-28T01:49:22.638Z] 📖 Page 15 preview: "COMPARISON OF ADJECTIVES (POREĐENJE PRIDEVA)
+
+Kod jednosložnih i nekih dvosložnih prideva komparat..."
+[2025-08-28T01:49:22.638Z] 📄 Extracting page 16/100...
+[2025-08-28T01:49:22.670Z] ✅ Page 16 extracted: 1942 characters
+[2025-08-28T01:49:22.670Z] 📖 Page 16 preview: "THE FUTURE SIMPLE TENSE (PROSTO BUDUĆE VREME)
+
+
+Future Simple Tense (Prosto buduće vreme) se grad..."
+[2025-08-28T01:49:22.674Z] 📄 Extracting page 17/100...
+[2025-08-28T01:49:22.774Z] ✅ Page 17 extracted: 2089 characters
+[2025-08-28T01:49:22.774Z] 📖 Page 17 preview: "Odrični oblik
+
+Jednina (singular) Množina (plural)
+I will not (won’t) work – Ja neću We will not ..."
+[2025-08-28T01:49:22.775Z] 📄 Extracting page 18/100...
+[2025-08-28T01:49:22.832Z] ✅ Page 18 extracted: 2044 characters
+[2025-08-28T01:49:22.832Z] 📖 Page 18 preview: "PREPOSITIONS OF PLACE (PREDLOZI ZA MESTO)
+
+Kao predlog za mesto at služi da odredi mesto gde se ne..."
+[2025-08-28T01:49:22.832Z] 📄 Extracting page 19/100...
+[2025-08-28T01:49:22.877Z] ✅ Page 19 extracted: 926 characters
+[2025-08-28T01:49:22.877Z] 📖 Page 19 preview: "PREPOSITIONS OF TIME (PREDLOZI ZA VREME)
+
+Kao predlog za vreme at se koristi za izražavanje sati i..."
+[2025-08-28T01:49:22.877Z] 📄 Extracting page 20/100...
+[2025-08-28T01:49:22.916Z] ✅ Page 20 extracted: 2120 characters
+[2025-08-28T01:49:22.919Z] 📖 Page 20 preview: "REFLEXIVE PRONOUNS (POVRATNE ZAMENICE)
+
+Povratna zamenica u srpskom jeziku se izražava pomoću: «SE..."
+[2025-08-28T01:49:22.920Z] 📄 Extracting page 21/100...
+[2025-08-28T01:49:23.063Z] ✅ Page 21 extracted: 2193 characters
+[2025-08-28T01:49:23.063Z] 📖 Page 21 preview: "Jednina (singular) Množina (plural)
+I have (I've) slept – Ja sam spavao We have slept (We've) – Mi ..."
+[2025-08-28T01:49:23.064Z] 📄 Extracting page 22/100...
+[2025-08-28T01:49:23.129Z] ✅ Page 22 extracted: 2179 characters
+[2025-08-28T01:49:23.129Z] 📖 Page 22 preview: "He has not (hasn't) worked – On nije They have not (haven't) worked – Oni
+radio nisu radili
+She ha..."
+[2025-08-28T01:49:23.129Z] 📄 Extracting page 23/100...
+[2025-08-28T01:49:23.165Z] ✅ Page 23 extracted: 2788 characters
+[2025-08-28T01:49:23.165Z] 📖 Page 23 preview: "Past Simple će se upotrebiti kada imamo vremensku frazu koja nam jasno ukazuje na to kada
+se nešto ..."
+[2025-08-28T01:49:23.165Z] 📄 Extracting page 24/100...
+[2025-08-28T01:49:23.201Z] ✅ Page 24 extracted: 3040 characters
+[2025-08-28T01:49:23.201Z] 📖 Page 24 preview: "Ovom konstrukciojm možemo i zabranjivati.
+You are not allowed to smoke in the classroom. (Ne dozvol..."
+[2025-08-28T01:49:23.201Z] 📄 Extracting page 25/100...
+[2025-08-28T01:49:23.241Z] ✅ Page 25 extracted: 2054 characters
+[2025-08-28T01:49:23.241Z] 📖 Page 25 preview: "THE PAST PERFECT SIMPLE TENSE (DAVNO PROŠLO PROSTO VREME)
+
+Davno prošlo prosto vreme (past perfect..."
+[2025-08-28T01:49:23.242Z] 📄 Extracting page 26/100...
+[2025-08-28T01:49:23.278Z] ✅ Page 26 extracted: 1882 characters
+[2025-08-28T01:49:23.279Z] 📖 Page 26 preview: "Upitni oblik – Wh- questions
+
+Jednina (singular) Množina (plural)
+Where had I worked? – Gde sam j..."
+[2025-08-28T01:49:23.279Z] 📄 Extracting page 27/100...
+[2025-08-28T01:49:23.311Z] ✅ Page 27 extracted: 2001 characters
+[2025-08-28T01:49:23.312Z] 📖 Page 27 preview: "COUNTABLE AND UNCOUNTABLE NOUNS (BROJIVE I NEBROJIVE
+IMENICE)
+
+
+Brojive imenice (countable nouns..."
+[2025-08-28T01:49:23.313Z] 📄 Extracting page 28/100...
+[2025-08-28T01:49:23.345Z] ✅ Page 28 extracted: 1531 characters
+[2025-08-28T01:49:23.346Z] 📖 Page 28 preview: "Neodređeni član se koristi ispred imenskog dela predikata i profesija.
+I am a student. (Ja sam stud..."
+[2025-08-28T01:49:23.346Z] 📄 Extracting page 29/100...
+[2025-08-28T01:49:23.378Z] ✅ Page 29 extracted: 747 characters
+[2025-08-28T01:49:23.378Z] 📖 Page 29 preview: "IZOSTAVLJANE ČLANA
+
+Član se ne koristi
+
+Sa imenicama u množini i nebrojivim imenicama kada govor..."
+[2025-08-28T01:49:23.379Z] 📄 Extracting page 30/100...
+[2025-08-28T01:49:23.414Z] ✅ Page 30 extracted: 2509 characters
+[2025-08-28T01:49:23.415Z] 📖 Page 30 preview: "VERB PATTERNS (GLAGOLSKI OBRASCI)
+
+
+Određeni glagoli zahtevaju iza sebe gerund (glagolska osnova+..."
+[2025-08-28T01:49:23.415Z] 📄 Extracting page 31/100...
+[2025-08-28T01:49:23.450Z] ✅ Page 31 extracted: 2513 characters
+[2025-08-28T01:49:23.451Z] 📖 Page 31 preview: "ili u rečenici
+That is the dog that attacked me, that je takođe subjekat rečenice.
+Međutim, u reče..."
+[2025-08-28T01:49:23.451Z] 📄 Extracting page 32/100...
+[2025-08-28T01:49:23.487Z] ✅ Page 32 extracted: 2412 characters
+[2025-08-28T01:49:23.489Z] 📖 Page 32 preview: "Evo do kojih promena u vremenima dolazi pri slaganju vremena.
+
+Present Simple Tense prelazi u Past..."
+[2025-08-28T01:49:23.489Z] 📄 Extracting page 33/100...
+[2025-08-28T01:49:23.525Z] ✅ Page 33 extracted: 2374 characters
+[2025-08-28T01:49:23.525Z] 📖 Page 33 preview: "Ako se radi o Wh-pitanjima if nije potrebno. Wh- pitanja počinju upitnim rečima when,
+which, who, w..."
+[2025-08-28T01:49:23.525Z] 📄 Extracting page 34/100...
+[2025-08-28T01:49:23.561Z] ✅ Page 34 extracted: 2685 characters
+[2025-08-28T01:49:23.561Z] 📖 Page 34 preview: "Kao varijacije prvog kondicionala javljaju se sledeće izmene.
+
+Umesto oblika will+infinitiv mogu s..."
+[2025-08-28T01:49:23.561Z] 📄 Extracting page 35/100...
+[2025-08-28T01:49:23.595Z] ✅ Page 35 extracted: 2046 characters
+[2025-08-28T01:49:23.595Z] 📖 Page 35 preview: "U uslovnoj rečenici se takođe mogu javiti neke varijacije. Umesto Past Perfect Tense-a može se
+javi..."
+[2025-08-28T01:49:23.595Z] 📄 Extracting page 36/100...
+[2025-08-28T01:49:23.626Z] ✅ Page 36 extracted: 426 characters
+[2025-08-28T01:49:23.627Z] 📖 Page 36 preview: "The house was built in the 19th century. (Kuća je izgranena u 19.-om veku.)
+Kada izvršilac radnje n..."
+[2025-08-28T01:49:23.627Z] 📄 Extracting page 37/100...
+[2025-08-28T01:49:23.660Z] ✅ Page 37 extracted: 2047 characters
+[2025-08-28T01:49:23.660Z] 📖 Page 37 preview: "EXERCISES (VEŽBANJA)
+
+Glagole u zagradama stavite u odgovarajuće vreme (present simple / present
+..."
+[2025-08-28T01:49:23.661Z] 📄 Extracting page 38/100...
+[2025-08-28T01:49:23.694Z] ✅ Page 38 extracted: 1800 characters
+[2025-08-28T01:49:23.694Z] 📖 Page 38 preview: "22. Pera _________________ (be) in his cafe. At the moment four
+guests_________________ (have) a sn..."
+[2025-08-28T01:49:23.694Z] 📄 Extracting page 39/100...
+[2025-08-28T01:49:23.730Z] ✅ Page 39 extracted: 2037 characters
+[2025-08-28T01:49:23.730Z] 📖 Page 39 preview: "3. We couldn’t afford to keep our car, so we _____________ it.
+
+4. I was very thirsty. I _________..."
+[2025-08-28T01:49:23.731Z] 📄 Extracting page 40/100...
+[2025-08-28T01:49:23.765Z] ✅ Page 40 extracted: 2580 characters
+[2025-08-28T01:49:23.766Z] 📖 Page 40 preview: "4. ‘Was Carol at the party last night?’ ‘Yes, she ______________________ (wear)
+a really nice dress..."
+[2025-08-28T01:49:23.766Z] 📄 Extracting page 41/100...
+[2025-08-28T01:49:23.801Z] ✅ Page 41 extracted: 1975 characters
+[2025-08-28T01:49:23.801Z] 📖 Page 41 preview: "26. This time yesterday I ______________________ (prepare) my lessons.
+
+27. Mary _________________..."
+[2025-08-28T01:49:23.801Z] 📄 Extracting page 42/100...
+[2025-08-28T01:49:23.834Z] ✅ Page 42 extracted: 1817 characters
+[2025-08-28T01:49:23.835Z] 📖 Page 42 preview: "2. We’re going _______ a concert tomorrow evening.
+
+3. I went _______ New York last year.
+
+4. Ho..."
+[2025-08-28T01:49:23.835Z] 📄 Extracting page 43/100...
+[2025-08-28T01:49:23.866Z] ✅ Page 43 extracted: 1160 characters
+[2025-08-28T01:49:23.867Z] 📖 Page 43 preview: "19. Will you be _______ home tomorrow afternoon?
+
+20. Who is that man _______ the photograph? Do y..."
+[2025-08-28T01:49:23.867Z] 📄 Extracting page 44/100...
+[2025-08-28T01:49:23.899Z] ✅ Page 44 extracted: 1264 characters
+[2025-08-28T01:49:23.900Z] 📖 Page 44 preview: "We arrived ________5 o'clock _____the morning.
+
+Mozart was born in Salzburg ______1756.
+
+I met A..."
+[2025-08-28T01:49:23.901Z] 📄 Extracting page 45/100...
+[2025-08-28T01:49:23.931Z] ✅ Page 45 extracted: 1844 characters
+[2025-08-28T01:49:23.931Z] 📖 Page 45 preview: "6. Maria ________(be) more nervous yesterday than she _________(be) today.
+
+7. My relatives ______..."
+[2025-08-28T01:49:23.932Z] 📄 Extracting page 46/100...
+[2025-08-28T01:49:23.965Z] ✅ Page 46 extracted: 2369 characters
+[2025-08-28T01:49:23.965Z] 📖 Page 46 preview: "10. A: The ceiling in this room doesn’t look very safe, does it?
+B: No, it looks as if ____________..."
+[2025-08-28T01:49:23.965Z] 📄 Extracting page 47/100...
+[2025-08-28T01:49:23.998Z] ✅ Page 47 extracted: 3002 characters
+[2025-08-28T01:49:23.998Z] 📖 Page 47 preview: "8. Mr. Brown always _______________ (read) his newspapers in the evenings. Mrs. Brown
+sometimes ___..."
+[2025-08-28T01:49:23.998Z] 📄 Extracting page 48/100...
+[2025-08-28T01:49:24.031Z] ✅ Page 48 extracted: 3153 characters
+[2025-08-28T01:49:24.031Z] 📖 Page 48 preview: "2. He ___________ (say) he ___________ (come) to London next week and ___________
+(want) us to meet..."
+[2025-08-28T01:49:24.031Z] 📄 Extracting page 49/100...
+[2025-08-28T01:49:24.064Z] ✅ Page 49 extracted: 3210 characters
+[2025-08-28T01:49:24.064Z] 📖 Page 49 preview: "Look! He _______________ (put) a ticket on Tom’s car. Tom will be furious when he
+_______________ (..."
+[2025-08-28T01:49:24.064Z] 📄 Extracting page 50/100...
+[2025-08-28T01:49:24.096Z] ✅ Page 50 extracted: 2689 characters
+[2025-08-28T01:49:24.096Z] 📖 Page 50 preview: "Jack: And _________ you ___________ (come) back to England after that or
+_________ you __________ (..."
+[2025-08-28T01:49:24.096Z] 📄 Extracting page 51/100...
+[2025-08-28T01:49:24.128Z] ✅ Page 51 extracted: 2585 characters
+[2025-08-28T01:49:24.128Z] 📖 Page 51 preview: "3. She lent you enough money. _______________________________
+
+4. They flew to New York. _________..."
+[2025-08-28T01:49:24.128Z] 📄 Extracting page 52/100...
+[2025-08-28T01:49:24.160Z] ✅ Page 52 extracted: 2395 characters
+[2025-08-28T01:49:24.161Z] 📖 Page 52 preview: "16. We can’t promise _____________ (provide) good weather for your trip – British weather
+is very c..."
+[2025-08-28T01:49:24.161Z] 📄 Extracting page 53/100...
+[2025-08-28T01:49:24.195Z] ✅ Page 53 extracted: 1827 characters
+[2025-08-28T01:49:24.195Z] 📖 Page 53 preview: "______________________________________________________________
+
+12. Kakva užasna situacija! Mrzim ..."
+[2025-08-28T01:49:24.196Z] 📄 Extracting page 54/100...
+[2025-08-28T01:49:24.229Z] ✅ Page 54 extracted: 1890 characters
+[2025-08-28T01:49:24.229Z] 📖 Page 54 preview: "(excit-)
+It will be an ___________________ experience for her.
+Going to new places is always _____..."
+[2025-08-28T01:49:24.229Z] 📄 Extracting page 55/100...
+[2025-08-28T01:49:24.264Z] ✅ Page 55 extracted: 2301 characters
+[2025-08-28T01:49:24.264Z] 📖 Page 55 preview: "7. The lecture was __________________. I fell asleep.
+
+8. I asked Emily if she wanted to come out ..."
+[2025-08-28T01:49:24.264Z] 📄 Extracting page 56/100...
+[2025-08-28T01:49:24.300Z] ✅ Page 56 extracted: 2838 characters
+[2025-08-28T01:49:24.300Z] 📖 Page 56 preview: "_______________ (do)?
+
+18. The boys _______________ (play) cards when they _____________ (hear) th..."
+[2025-08-28T01:49:24.302Z] 📄 Extracting page 57/100...
+[2025-08-28T01:49:24.339Z] ✅ Page 57 extracted: 2936 characters
+[2025-08-28T01:49:24.339Z] 📖 Page 57 preview: "34. I ___________ (come) in very late last night and unfortunately the dog
+______________ (wake) up..."
+[2025-08-28T01:49:24.340Z] 📄 Extracting page 58/100...
+[2025-08-28T01:49:24.374Z] ✅ Page 58 extracted: 1731 characters
+[2025-08-28T01:49:24.374Z] 📖 Page 58 preview: "their way home. A couple of men __________________________ (argue) over the price
+of a leather belt..."
+[2025-08-28T01:49:24.374Z] 📄 Extracting page 59/100...
+[2025-08-28T01:49:24.407Z] ✅ Page 59 extracted: 1219 characters
+[2025-08-28T01:49:24.407Z] 📖 Page 59 preview: "Kompletirajte rečenice koristeći reč koja je data i tako da se zadrži isti smisao.
+Koristiti dve do..."
+[2025-08-28T01:49:24.408Z] 📄 Extracting page 60/100...
+[2025-08-28T01:49:24.443Z] ✅ Page 60 extracted: 2593 characters
+[2025-08-28T01:49:24.444Z] 📖 Page 60 preview: "Popunite rečenice koristeći past simple ili present perfect glagola datih u zagradama.
+
+1. A: Did ..."
+[2025-08-28T01:49:24.444Z] 📄 Extracting page 61/100...
+[2025-08-28T01:49:24.478Z] ✅ Page 61 extracted: 3021 characters
+[2025-08-28T01:49:24.478Z] 📖 Page 61 preview: "Popunite rečenice koristeći past simple ili present perfect glagola datih u zagradama.
+
+1. Who ___..."
+[2025-08-28T01:49:24.478Z] 📄 Extracting page 62/100...
+[2025-08-28T01:49:24.510Z] ✅ Page 62 extracted: 2073 characters
+[2025-08-28T01:49:24.510Z] 📖 Page 62 preview: "her cousin, Lucy. ‘Hello, Lucy.’ she _______________ (exclaim).’ I_______________
+(not know) that y..."
+[2025-08-28T01:49:24.510Z] 📄 Extracting page 63/100...
+[2025-08-28T01:49:24.543Z] ✅ Page 63 extracted: 2165 characters
+[2025-08-28T01:49:24.544Z] 📖 Page 63 preview: "4. Have you read any of Shakespeare’s plays?
+______________________________________________________..."
+[2025-08-28T01:49:24.544Z] 📄 Extracting page 64/100...
+[2025-08-28T01:49:24.576Z] ✅ Page 64 extracted: 2170 characters
+[2025-08-28T01:49:24.576Z] 📖 Page 64 preview: "2. Claire Fox (1957-) is a doctor. She ______________ (develop) new treatments for
+several diseases..."
+[2025-08-28T01:49:24.577Z] 📄 Extracting page 65/100...
+[2025-08-28T01:49:24.610Z] ✅ Page 65 extracted: 2301 characters
+[2025-08-28T01:49:24.611Z] 📖 Page 65 preview: "Popunite rečenice koristeći past simple ili present perfect glagola datih u zagradama.
+
+1. Where _..."
+[2025-08-28T01:49:24.611Z] 📄 Extracting page 66/100...
+[2025-08-28T01:49:24.643Z] ✅ Page 66 extracted: 2203 characters
+[2025-08-28T01:49:24.643Z] 📖 Page 66 preview: "Unfortunately, this tourism ___________ (start) to cause problems. Scientific studies
+___________ (..."
+[2025-08-28T01:49:24.643Z] 📄 Extracting page 67/100...
+[2025-08-28T01:49:24.676Z] ✅ Page 67 extracted: 1705 characters
+[2025-08-28T01:49:24.676Z] 📖 Page 67 preview: "Dovršite rečenice koristeći MUST ili CAN'T i jedan od ponuđenih glagola.
+
+be
+belong
+speak
+come..."
+[2025-08-28T01:49:24.677Z] 📄 Extracting page 68/100...
+[2025-08-28T01:49:24.712Z] ✅ Page 68 extracted: 2172 characters
+[2025-08-28T01:49:24.713Z] 📖 Page 68 preview: "3. He has just been taken to hospital with a broken leg.
+I’m sorry to hear that. I________________ ..."
+[2025-08-28T01:49:24.713Z] 📄 Extracting page 69/100...
+[2025-08-28T01:49:24.746Z] ✅ Page 69 extracted: 2411 characters
+[2025-08-28T01:49:24.746Z] 📖 Page 69 preview: "4. A: Why are you filling that bucket with water?
+B: ____________________________ the car. (I/wash)..."
+[2025-08-28T01:49:24.746Z] 📄 Extracting page 70/100...
+[2025-08-28T01:49:24.779Z] ✅ Page 70 extracted: 1825 characters
+[2025-08-28T01:49:24.780Z] 📖 Page 70 preview: "ANN: That’s no problem. ____________________________ you (I/take). What time is
+your flight?
+JOHN:..."
+[2025-08-28T01:49:24.780Z] 📄 Extracting page 71/100...
+[2025-08-28T01:49:24.812Z] ✅ Page 71 extracted: 1778 characters
+[2025-08-28T01:49:24.812Z] 📖 Page 71 preview: "8. A man was slightly injured in the accident but he _______________________________
+to hospital.
+..."
+[2025-08-28T01:49:24.813Z] 📄 Extracting page 72/100...
+[2025-08-28T01:49:24.846Z] ✅ Page 72 extracted: 1897 characters
+[2025-08-28T01:49:24.847Z] 📖 Page 72 preview: "run
+sleep
+wait
+
+1. I’m afraid I can’t come to your party next week.
+
+2. When Tim was 16, he wa..."
+[2025-08-28T01:49:24.847Z] 📄 Extracting page 73/100...
+[2025-08-28T01:49:24.881Z] ✅ Page 73 extracted: 2080 characters
+[2025-08-28T01:49:24.881Z] 📖 Page 73 preview: "9. A girl fell into the river but fortunately we___________________________ rescue her.
+
+10. I had..."
+[2025-08-28T01:49:24.881Z] 📄 Extracting page 74/100...
+[2025-08-28T01:49:24.915Z] ✅ Page 74 extracted: 2357 characters
+[2025-08-28T01:49:24.915Z] 📖 Page 74 preview: "______________________________________________________________________
+
+Who will fetch the milk to..."
+[2025-08-28T01:49:24.915Z] 📄 Extracting page 75/100...
+[2025-08-28T01:49:24.950Z] ✅ Page 75 extracted: 1995 characters
+[2025-08-28T01:49:24.951Z] 📖 Page 75 preview: "Why does she complain about her salary when she gets on badly with everyone?
+______________________..."
+[2025-08-28T01:49:24.952Z] 📄 Extracting page 76/100...
+[2025-08-28T01:49:24.990Z] ✅ Page 76 extracted: 1990 characters
+[2025-08-28T01:49:24.990Z] 📖 Page 76 preview: "Please, don't tell anybody what happened!
+_________________________________________________________..."
+[2025-08-28T01:49:24.990Z] 📄 Extracting page 77/100...
+[2025-08-28T01:49:25.026Z] ✅ Page 77 extracted: 2162 characters
+[2025-08-28T01:49:25.026Z] 📖 Page 77 preview: "14. She asked me:” When will you get back from your trip?”
+________________________________________..."
+[2025-08-28T01:49:25.026Z] 📄 Extracting page 78/100...
+[2025-08-28T01:49:25.061Z] ✅ Page 78 extracted: 1697 characters
+[2025-08-28T01:49:25.062Z] 📖 Page 78 preview: "4. The people who work in the office are very friendly.
+
+5. The people who I talked to were very a..."
+[2025-08-28T01:49:25.062Z] 📄 Extracting page 79/100...
+[2025-08-28T01:49:25.098Z] ✅ Page 79 extracted: 1990 characters
+[2025-08-28T01:49:25.098Z] 📖 Page 79 preview: "Prevedite sledeće rečenice na engleski jezik.
+
+1. Žena koja živi pored mene je doktor.
+__________..."
+[2025-08-28T01:49:25.099Z] 📄 Extracting page 80/100...
+[2025-08-28T01:49:25.138Z] ✅ Page 80 extracted: 1660 characters
+[2025-08-28T01:49:25.138Z] 📖 Page 80 preview: "17. The car was an invention ______________ changed the world.
+
+18. Is this the shop _____________..."
+[2025-08-28T01:49:25.139Z] 📄 Extracting page 81/100...
+[2025-08-28T01:49:25.178Z] ✅ Page 81 extracted: 1503 characters
+[2025-08-28T01:49:25.178Z] 📖 Page 81 preview: "6. Our guests ate all the cakes.
+______________________________________
+
+7. We bought a new car y..."
+[2025-08-28T01:49:25.178Z] 📄 Extracting page 82/100...
+[2025-08-28T01:49:25.217Z] ✅ Page 82 extracted: 1989 characters
+[2025-08-28T01:49:25.217Z] 📖 Page 82 preview: "3. The book was taken from the table by him.
+_____________________________________________
+
+4. Th..."
+[2025-08-28T01:49:25.218Z] 📄 Extracting page 83/100...
+[2025-08-28T01:49:25.251Z] ✅ Page 83 extracted: 2045 characters
+[2025-08-28T01:49:25.252Z] 📖 Page 83 preview: "______________________________________________________________
+
+14. A police car is following that..."
+[2025-08-28T01:49:25.252Z] 📄 Extracting page 84/100...
+[2025-08-28T01:49:25.291Z] ✅ Page 84 extracted: 1696 characters
+[2025-08-28T01:49:25.291Z] 📖 Page 84 preview: "7. Juče su otkazali let jer je vreme bilo loše.
+___________________________________________________..."
+[2025-08-28T01:49:25.292Z] 📄 Extracting page 85/100...
+[2025-08-28T01:49:25.330Z] ✅ Page 85 extracted: 2085 characters
+[2025-08-28T01:49:25.330Z] 📖 Page 85 preview: "Stavite sledeće rečenice u pasiv.
+
+1. She makes these cakes only of flour and fruit.
+____________..."
+[2025-08-28T01:49:25.331Z] 📄 Extracting page 86/100...
+[2025-08-28T01:49:25.365Z] ✅ Page 86 extracted: 1077 characters
+[2025-08-28T01:49:25.366Z] 📖 Page 86 preview: "Zaokružite odgovrajuće vreme.
+
+1. She _________________at six every evening.
+a) finishes
+b) has ..."
+[2025-08-28T01:49:25.367Z] 📄 Extracting page 87/100...
+[2025-08-28T01:49:25.402Z] ✅ Page 87 extracted: 981 characters
+[2025-08-28T01:49:25.403Z] 📖 Page 87 preview: "b) has lived
+c) is living
+
+13. They _____________to Belgrade in 2005.
+a) will move
+b) have move..."
+[2025-08-28T01:49:25.404Z] 📄 Extracting page 88/100...
+[2025-08-28T01:49:25.441Z] ✅ Page 88 extracted: 1147 characters
+[2025-08-28T01:49:25.441Z] 📖 Page 88 preview: "c) as
+
+9. Anthony is _______intelligent than John.
+a) least
+b) more
+c) most
+
+10. My house is ..."
+[2025-08-28T01:49:25.442Z] 📄 Extracting page 89/100...
+[2025-08-28T01:49:25.479Z] ✅ Page 89 extracted: 2054 characters
+[2025-08-28T01:49:25.479Z] 📖 Page 89 preview: "10. She __________(speak) about that yesterday.
+
+11.______________(listen) to him when Sara ______..."
+[2025-08-28T01:49:25.479Z] 📄 Extracting page 90/100...
+[2025-08-28T01:49:25.516Z] ✅ Page 90 extracted: 2063 characters
+[2025-08-28T01:49:25.517Z] 📖 Page 90 preview: "mistakes.
+
+22. If he ________________________________ (be) late we’ll go without him.
+
+23. If he..."
+[2025-08-28T01:49:25.518Z] 📄 Extracting page 91/100...
+[2025-08-28T01:49:25.556Z] ✅ Page 91 extracted: 2057 characters
+[2025-08-28T01:49:25.556Z] 📖 Page 91 preview: "43. I’ll probably get lost unless he ________________________________ (come) with me.
+
+44. You ___..."
+[2025-08-28T01:49:25.556Z] 📄 Extracting page 92/100...
+[2025-08-28T01:49:25.592Z] ✅ Page 92 extracted: 2383 characters
+[2025-08-28T01:49:25.592Z] 📖 Page 92 preview: "65. If his pronunciation ________________________________ (be) better, he would have
+got a better j..."
+[2025-08-28T01:49:25.593Z] 📄 Extracting page 93/100...
+[2025-08-28T01:49:25.628Z] ✅ Page 93 extracted: 2143 characters
+[2025-08-28T01:49:25.628Z] 📖 Page 93 preview: "19. Ićićemo na plažu ove subote, ako vreme bude dovoljno toplo.
+___________________________________..."
+[2025-08-28T01:49:25.628Z] 📄 Extracting page 94/100...
+[2025-08-28T01:49:25.664Z] ✅ Page 94 extracted: 2545 characters
+[2025-08-28T01:49:25.664Z] 📖 Page 94 preview: "Prevedite rečenice u nastavku.
+
+1. Vino treba otvoriti tri sata pre nego što se pije.
+___________..."
+[2025-08-28T01:49:25.665Z] 📄 Extracting page 95/100...
+[2025-08-28T01:49:25.728Z] ✅ Page 95 extracted: 1969 characters
+[2025-08-28T01:49:25.728Z] 📖 Page 95 preview: "______________________________________________________________
+
+17. Pomorandže se uglavnom uvoze u..."
+[2025-08-28T01:49:25.729Z] 📄 Extracting page 96/100...
+[2025-08-28T01:49:25.766Z] ✅ Page 96 extracted: 1890 characters
+[2025-08-28T01:49:25.767Z] 📖 Page 96 preview: "8. I was surprising by the news. I didn’t expect it.
+
+9. My job is very varied. I find it interest..."
+[2025-08-28T01:49:25.770Z] 📄 Extracting page 97/100...
+[2025-08-28T01:49:25.810Z] ✅ Page 97 extracted: 1656 characters
+[2025-08-28T01:49:25.810Z] 📖 Page 97 preview: "to the cinema and a night club in the evening. What is 13 _______
+
+there to do in the country? Goi..."
+[2025-08-28T01:49:25.810Z] 📄 Extracting page 98/100...
+[2025-08-28T01:49:25.846Z] ✅ Page 98 extracted: 1450 characters
+[2025-08-28T01:49:25.846Z] 📖 Page 98 preview: "4. I’ve never drank champagne.
+I’ve never drunk champagne.
+
+5. Tom has ever been to America.
+Tom..."
+[2025-08-28T01:49:25.847Z] 📄 Extracting page 99/100...
+[2025-08-28T01:49:25.883Z] ✅ Page 99 extracted: 306 characters
+[2025-08-28T01:49:25.884Z] 📖 Page 99 preview: "7. We ______________(not/take) the opportunity when we had the chance.
+
+8. Things ______________(n..."
+[2025-08-28T01:49:25.884Z] 📄 Extracting page 100/100...
+[2025-08-28T01:49:25.918Z] ✅ Page 100 extracted: 350 characters
+[2025-08-28T01:49:25.918Z] 📖 Page 100 preview: "Literatura
+
+New English File Intrermediate, Clive Oxenden, Christina Latham-Koenig, Oxford Univers..."
+[2025-08-28T01:49:25.920Z] INFO: Text extraction completed: 97 pages processed
+[2025-08-28T01:49:25.948Z] Progress: render - 35% - Rendering PDF pages
+[2025-08-28T01:49:26.362Z] Progress: text - 55% - Saving text files
+[2025-08-28T01:49:26.363Z] INFO: 
+[2025-08-28T01:49:26.363Z] INFO: ------------------------------------------------------------
+[2025-08-28T01:49:26.363Z] INFO: SECTION: DOCUMENT STRUCTURE ANALYSIS
+[2025-08-28T01:49:26.363Z] INFO: ------------------------------------------------------------
+[2025-08-28T01:49:26.363Z] INFO: Progress: sectioning [█████████████-------] 65% - Analyzing complete document structure with AI
+[2025-08-28T01:49:26.394Z] Progress: sectioning - 65% - Analyzing complete document structure with AI
+[2025-08-28T01:49:26.396Z] INFO: Checking for existing TOC analysis in database
+[2025-08-28T01:49:26.421Z] ⚠️ No TOC analysis found, using legacy structure detection
+[2025-08-28T01:49:26.422Z] WARNING: Using legacy fallback structure detection
+[2025-08-28T01:49:26.559Z] 🔄 Using node-poppler for true page-by-page extraction (pages 2 to 3)
+[2025-08-28T01:49:26.561Z] 📁 Created temp PDF file: C:\Users\stefa\AppData\Local\Temp\temp_pdf_1756345766560.pdf
+[2025-08-28T01:49:26.742Z] 📚 PDF has 100 pages, extracting 2 to 3
+[2025-08-28T01:49:26.742Z] 📄 Extracting page 2/3...
+[2025-08-28T01:49:26.797Z] ✅ Page 2 extracted: 3507 characters
+[2025-08-28T01:49:26.797Z] 📖 Page 2 preview: "Sadržaj:
+
+
+The Simple Present Tense................................................................."
+[2025-08-28T01:49:26.798Z] 📄 Extracting page 3/3...
+[2025-08-28T01:49:26.827Z] ✅ Page 3 extracted: 606 characters
+[2025-08-28T01:49:26.828Z] 📖 Page 3 preview: "The Second Conditional................................................................................."
+[2025-08-28T01:50:08.026Z] INFO: Using SIMPLE page-based extraction - NO header searching
+[2025-08-28T01:50:08.026Z] 📚 SIMPLIFIED: Processing 35 sections - ONLY by pages, NO header searching
+[2025-08-28T01:50:08.027Z] 📄 SIMPLE: Processing section 1/35: "The Simple Present Tense" (pages 4-6)
+[2025-08-28T01:50:08.027Z] 📄 SIMPLE: Extracting section "The Simple Present Tense" from pages 4-6
+[2025-08-28T01:50:08.027Z] ✅ SIMPLE: Extracted 5371 chars from 3 pages (4, 5, 6)
+[2025-08-28T01:50:08.028Z] 📖 SIMPLE: Content preview: "THE SIMPLE PRESENT TENSE (PROSTO SADAŠNJE VREME)
+
+Prosto sadašnje vreme (present simple tense) se gradi od osnovnog oblika glagola
+(infinitiv bez «to»).
+Na primer, infinitiv sa «to» glagola raditi..."
+[2025-08-28T01:50:08.028Z] 📊 SIMPLE: Character positions - Start: 0, End: 5371
+[2025-08-28T01:50:08.028Z] ✅ SIMPLE: Extracted 5371 chars from pages 4-6
+[2025-08-28T01:50:08.028Z] 🎯 REFINEMENT: Attempting to refine section "The Simple Present Tense" using title boundaries
+[2025-08-28T01:50:08.029Z] 🔍 DEBUG: pageBasedSection exists: true
+[2025-08-28T01:50:08.029Z] 🔍 DEBUG: section exists: true
+[2025-08-28T01:50:08.029Z] 🔍 DEBUG: section.title: "The Simple Present Tense"
+[2025-08-28T01:50:08.029Z] 🔍 DEBUG: section.cleanTitle: "undefined"
+[2025-08-28T01:50:08.030Z] 🔍 DEBUG: nextSection exists: true
+[2025-08-28T01:50:08.030Z] 🔍 DEBUG: nextSection?.title: "The Present Continuous Tense"
+[2025-08-28T01:50:08.030Z] 🔍 DEBUG: nextSection?.cleanTitle: "undefined"
+[2025-08-28T01:50:08.031Z] 🔍 DEBUG: allPages count: 97
+[2025-08-28T01:50:08.031Z] ⚠️ REFINEMENT: cleanTitle missing or invalid, generating from title "The Simple Present Tense"
+[2025-08-28T01:50:08.031Z] ✅ REFINEMENT: Generated cleanTitle: "The Simple Present Tense"
+[2025-08-28T01:50:08.032Z] 🔍 DEBUG: Processing 97 pages for text extraction
+[2025-08-28T01:50:08.032Z] 🔍 DEBUG: Combined text length: 191915
+[2025-08-28T01:50:08.035Z] 🔍 SEARCH: Looking for "The Simple Present Tense" in text starting from position 0
+[2025-08-28T01:50:08.035Z] 🔍 DEBUG: text exists: true, length: 191915
+[2025-08-28T01:50:08.036Z] 🔍 DEBUG: cleanTitle type: string, value: "The Simple Present Tense"
+[2025-08-28T01:50:08.038Z] 🔍 DEBUG: startFrom: 0
+[2025-08-28T01:50:08.038Z] 🔍 DEBUG: normalizedTitle after regex: "The Simple Present Tense"
+[2025-08-28T01:50:08.038Z] 🔍 SEARCH: Normalized title: "The Simple Present Tense"
+[2025-08-28T01:50:08.040Z] ✅ SEARCH: Found exact match at position 0
+[2025-08-28T01:50:08.040Z] ✅ REFINEMENT: Found section start at position 0
+[2025-08-28T01:50:08.040Z] ⚠️ REFINEMENT: Generated cleanTitle for next section: "The Present Continuous Tense"
+[2025-08-28T01:50:08.041Z] 🔍 SEARCH: Looking for "The Present Continuous Tense" in text starting from position 50
+[2025-08-28T01:50:08.041Z] 🔍 DEBUG: text exists: true, length: 191915
+[2025-08-28T01:50:08.041Z] 🔍 DEBUG: cleanTitle type: string, value: "The Present Continuous Tense"
+[2025-08-28T01:50:08.042Z] 🔍 DEBUG: startFrom: 50
+[2025-08-28T01:50:08.042Z] 🔍 DEBUG: normalizedTitle after regex: "The Present Continuous Tense"
+[2025-08-28T01:50:08.042Z] 🔍 SEARCH: Normalized title: "The Present Continuous Tense"
+[2025-08-28T01:50:08.043Z] ✅ SEARCH: Found exact match at position 4991
+[2025-08-28T01:50:08.043Z] ✅ REFINEMENT: Found next section "The Present Continuous Tense" at position 4991
+[2025-08-28T01:50:08.043Z] ⚠️ REFINEMENT: Content similar to page-based (7.2% difference) - keeping original
+[2025-08-28T01:50:08.066Z] 📄 SIMPLE: Processing section 2/35: "The Present Continuous Tense" (pages 6-8)
+[2025-08-28T01:50:08.067Z] 📄 SIMPLE: Extracting section "The Present Continuous Tense" from pages 6-8
+[2025-08-28T01:50:08.068Z] ✅ SIMPLE: Extracted 5011 chars from 3 pages (6, 7, 8)
+[2025-08-28T01:50:08.069Z] 📖 SIMPLE: Content preview: "The English drink tea at 5 o'clock in the afternoon. (Englezi piju čaj u 5 sati popodne.)
+
+U ovom smislu se mogu koristiti i prilozi i fraze za učestalost (reči koje označavaju koliko
+često se deša..."
+[2025-08-28T01:50:08.070Z] 📊 SIMPLE: Character positions - Start: 3629, End: 8640
+[2025-08-28T01:50:08.071Z] ✅ SIMPLE: Extracted 5011 chars from pages 6-8
+[2025-08-28T01:50:08.071Z] 🎯 REFINEMENT: Attempting to refine section "The Present Continuous Tense" using title boundaries
+[2025-08-28T01:50:08.071Z] 🔍 DEBUG: pageBasedSection exists: true
+[2025-08-28T01:50:08.072Z] 🔍 DEBUG: section exists: true
+[2025-08-28T01:50:08.072Z] 🔍 DEBUG: section.title: "The Present Continuous Tense"
+[2025-08-28T01:50:08.072Z] 🔍 DEBUG: section.cleanTitle: "undefined"
+[2025-08-28T01:50:08.072Z] 🔍 DEBUG: nextSection exists: true
+[2025-08-28T01:50:08.072Z] 🔍 DEBUG: nextSection?.title: "Verbs not Used with Continuous Tenses"
+[2025-08-28T01:50:08.073Z] 🔍 DEBUG: nextSection?.cleanTitle: "undefined"
+[2025-08-28T01:50:08.073Z] 🔍 DEBUG: allPages count: 97
+[2025-08-28T01:50:08.073Z] ⚠️ REFINEMENT: cleanTitle missing or invalid, generating from title "The Present Continuous Tense"
+[2025-08-28T01:50:08.074Z] ✅ REFINEMENT: Generated cleanTitle: "The Present Continuous Tense"
+[2025-08-28T01:50:08.074Z] 🔍 DEBUG: Processing 97 pages for text extraction
+[2025-08-28T01:50:08.075Z] 🔍 DEBUG: Combined text length: 191915
+[2025-08-28T01:50:08.075Z] 🔍 SEARCH: Looking for "The Present Continuous Tense" in text starting from position 0
+[2025-08-28T01:50:08.075Z] 🔍 DEBUG: text exists: true, length: 191915
+[2025-08-28T01:50:08.075Z] 🔍 DEBUG: cleanTitle type: string, value: "The Present Continuous Tense"
+[2025-08-28T01:50:08.076Z] 🔍 DEBUG: startFrom: 0
+[2025-08-28T01:50:08.076Z] 🔍 DEBUG: normalizedTitle after regex: "The Present Continuous Tense"
+[2025-08-28T01:50:08.076Z] 🔍 SEARCH: Normalized title: "The Present Continuous Tense"
+[2025-08-28T01:50:08.077Z] ✅ SEARCH: Found exact match at position 4991
+[2025-08-28T01:50:08.077Z] ✅ REFINEMENT: Found section start at position 4991
+[2025-08-28T01:50:08.077Z] ⚠️ REFINEMENT: Generated cleanTitle for next section: "Verbs not Used with Continuous Tenses"
+[2025-08-28T01:50:08.077Z] 🔍 SEARCH: Looking for "Verbs not Used with Continuous Tenses" in text starting from position 5041
+[2025-08-28T01:50:08.078Z] 🔍 DEBUG: text exists: true, length: 191915
+[2025-08-28T01:50:08.078Z] 🔍 DEBUG: cleanTitle type: string, value: "Verbs not Used with Continuous Tenses"
+[2025-08-28T01:50:08.078Z] 🔍 DEBUG: startFrom: 5041
+[2025-08-28T01:50:08.078Z] 🔍 DEBUG: normalizedTitle after regex: "Verbs not Used with Continuous Tenses"
+[2025-08-28T01:50:08.078Z] 🔍 SEARCH: Normalized title: "Verbs not Used with Continuous Tenses"
+[2025-08-28T01:50:08.079Z] 🔍 DEBUG: Split into chars: [v, e, r, b, s,  , n, o, t,  , u, s, e, d,  , w, i, t, h,  , c, o, n, t, i, n, u, o, u, s,  , t, e, n, s, e, s]
+[2025-08-28T01:50:08.079Z] 🔍 DEBUG: Generated variations: 50
+[2025-08-28T01:50:08.080Z] 🔍 SEARCH: Generated 50 space variations
+[2025-08-28T01:50:08.086Z] ❌ SEARCH: No match found for "Verbs not Used with Continuous Tenses"
+[2025-08-28T01:50:08.087Z] ⚠️ REFINEMENT: Could not find next section "Verbs not Used with Continuous Tenses" - using page boundaries
+[2025-08-28T01:50:08.112Z] 📄 SIMPLE: Processing section 3/35: "Verbs not Used with Continuous Tenses" (pages 8-9)
+[2025-08-28T01:50:08.112Z] 📄 SIMPLE: Extracting section "Verbs not Used with Continuous Tenses" from pages 8-9
+[2025-08-28T01:50:08.113Z] ✅ SIMPLE: Extracted 3242 chars from 2 pages (8, 9)
+[2025-08-28T01:50:08.113Z] 📖 SIMPLE: Content preview: "Where is he working? – Gde on radi? Where are they working? – Gde oni
+Where is she working? – Gde ona radi? rade?
+Where is it working? – Gde ono radi?
+
+Odrični oblik sadašnjeg trajnog vremena se g..."
+[2025-08-28T01:50:08.113Z] 📊 SIMPLE: Character positions - Start: 7079, End: 10321
+[2025-08-28T01:50:08.114Z] ✅ SIMPLE: Extracted 3242 chars from pages 8-9
+[2025-08-28T01:50:08.114Z] 🎯 REFINEMENT: Attempting to refine section "Verbs not Used with Continuous Tenses" using title boundaries
+[2025-08-28T01:50:08.114Z] 🔍 DEBUG: pageBasedSection exists: true
+[2025-08-28T01:50:08.114Z] 🔍 DEBUG: section exists: true
+[2025-08-28T01:50:08.114Z] 🔍 DEBUG: section.title: "Verbs not Used with Continuous Tenses"
+[2025-08-28T01:50:08.115Z] 🔍 DEBUG: section.cleanTitle: "undefined"
+[2025-08-28T01:50:08.115Z] 🔍 DEBUG: nextSection exists: true
+[2025-08-28T01:50:08.116Z] 🔍 DEBUG: nextSection?.title: "The Simple Past Tense"
+[2025-08-28T01:50:08.116Z] 🔍 DEBUG: nextSection?.cleanTitle: "undefined"
+[2025-08-28T01:50:08.117Z] 🔍 DEBUG: allPages count: 97
+[2025-08-28T01:50:08.117Z] ⚠️ REFINEMENT: cleanTitle missing or invalid, generating from title "Verbs not Used with Continuous Tenses"
+[2025-08-28T01:50:08.118Z] ✅ REFINEMENT: Generated cleanTitle: "Verbs not Used with Continuous Tenses"
+[2025-08-28T01:50:08.119Z] 🔍 DEBUG: Processing 97 pages for text extraction
+[2025-08-28T01:50:08.120Z] 🔍 DEBUG: Combined text length: 191915
+[2025-08-28T01:50:08.121Z] 🔍 SEARCH: Looking for "Verbs not Used with Continuous Tenses" in text starting from position 0
+[2025-08-28T01:50:08.121Z] 🔍 DEBUG: text exists: true, length: 191915
+[2025-08-28T01:50:08.122Z] 🔍 DEBUG: cleanTitle type: string, value: "Verbs not Used with Continuous Tenses"
+[2025-08-28T01:50:08.123Z] 🔍 DEBUG: startFrom: 0
+[2025-08-28T01:50:08.123Z] 🔍 DEBUG: normalizedTitle after regex: "Verbs not Used with Continuous Tenses"
+[2025-08-28T01:50:08.124Z] 🔍 SEARCH: Normalized title: "Verbs not Used with Continuous Tenses"
+[2025-08-28T01:50:08.124Z] 🔍 DEBUG: Split into chars: [v, e, r, b, s,  , n, o, t,  , u, s, e, d,  , w, i, t, h,  , c, o, n, t, i, n, u, o, u, s,  , t, e, n, s, e, s]
+[2025-08-28T01:50:08.125Z] 🔍 DEBUG: Generated variations: 50
+[2025-08-28T01:50:08.125Z] 🔍 SEARCH: Generated 50 space variations
+[2025-08-28T01:50:08.129Z] ❌ SEARCH: No match found for "Verbs not Used with Continuous Tenses"
+[2025-08-28T01:50:08.129Z] ⚠️ REFINEMENT: Could not find section title "Verbs not Used with Continuous Tenses" - keeping page-based extraction
+[2025-08-28T01:50:08.155Z] 📄 SIMPLE: Processing section 4/35: "The Simple Past Tense" (pages 9-12)
+[2025-08-28T01:50:08.155Z] 📄 SIMPLE: Extracting section "The Simple Past Tense" from pages 9-12
+[2025-08-28T01:50:08.156Z] ✅ SIMPLE: Extracted 7128 chars from 4 pages (9, 10, 11, 12)
+[2025-08-28T01:50:08.156Z] 📖 SIMPLE: Content preview: "understand – razumeti,
+wish – želeti,
+want – hteti,
+know – znati, itd.
+
+Oni su, umesto u present continuous tense-u koriste u present simple tense-u.
+
+I hear a noise in the next room. (Čujem ne..."
+[2025-08-28T01:50:08.157Z] 📊 SIMPLE: Character positions - Start: 8642, End: 15770
+[2025-08-28T01:50:08.157Z] ✅ SIMPLE: Extracted 7128 chars from pages 9-12
+[2025-08-28T01:50:08.158Z] 🎯 REFINEMENT: Attempting to refine section "The Simple Past Tense" using title boundaries
+[2025-08-28T01:50:08.158Z] 🔍 DEBUG: pageBasedSection exists: true
+[2025-08-28T01:50:08.158Z] 🔍 DEBUG: section exists: true
+[2025-08-28T01:50:08.158Z] 🔍 DEBUG: section.title: "The Simple Past Tense"
+[2025-08-28T01:50:08.159Z] 🔍 DEBUG: section.cleanTitle: "undefined"
+[2025-08-28T01:50:08.159Z] 🔍 DEBUG: nextSection exists: true
+[2025-08-28T01:50:08.159Z] 🔍 DEBUG: nextSection?.title: "The Past Continuous Tense"
+[2025-08-28T01:50:08.160Z] 🔍 DEBUG: nextSection?.cleanTitle: "undefined"
+[2025-08-28T01:50:08.160Z] 🔍 DEBUG: allPages count: 97
+[2025-08-28T01:50:08.160Z] ⚠️ REFINEMENT: cleanTitle missing or invalid, generating from title "The Simple Past Tense"
+[2025-08-28T01:50:08.160Z] ✅ REFINEMENT: Generated cleanTitle: "The Simple Past Tense"
+[2025-08-28T01:50:08.161Z] 🔍 DEBUG: Processing 97 pages for text extraction
+[2025-08-28T01:50:08.161Z] 🔍 DEBUG: Combined text length: 191915
+[2025-08-28T01:50:08.161Z] 🔍 SEARCH: Looking for "The Simple Past Tense" in text starting from position 0
+[2025-08-28T01:50:08.162Z] 🔍 DEBUG: text exists: true, length: 191915
+[2025-08-28T01:50:08.162Z] 🔍 DEBUG: cleanTitle type: string, value: "The Simple Past Tense"
+[2025-08-28T01:50:08.162Z] 🔍 DEBUG: startFrom: 0
+[2025-08-28T01:50:08.162Z] 🔍 DEBUG: normalizedTitle after regex: "The Simple Past Tense"
+[2025-08-28T01:50:08.163Z] 🔍 SEARCH: Normalized title: "The Simple Past Tense"
+[2025-08-28T01:50:08.163Z] ✅ SEARCH: Found exact match at position 9541
+[2025-08-28T01:50:08.164Z] ✅ REFINEMENT: Found section start at position 9541
+[2025-08-28T01:50:08.164Z] ⚠️ REFINEMENT: Generated cleanTitle for next section: "The Past Continuous Tense"
+[2025-08-28T01:50:08.164Z] 🔍 SEARCH: Looking for "The Past Continuous Tense" in text starting from position 9591
+[2025-08-28T01:50:08.164Z] 🔍 DEBUG: text exists: true, length: 191915
+[2025-08-28T01:50:08.165Z] 🔍 DEBUG: cleanTitle type: string, value: "The Past Continuous Tense"
+[2025-08-28T01:50:08.165Z] 🔍 DEBUG: startFrom: 9591
+[2025-08-28T01:50:08.166Z] 🔍 DEBUG: normalizedTitle after regex: "The Past Continuous Tense"
+[2025-08-28T01:50:08.166Z] 🔍 SEARCH: Normalized title: "The Past Continuous Tense"
+[2025-08-28T01:50:08.168Z] ✅ SEARCH: Found exact match at position 14142
+[2025-08-28T01:50:08.169Z] ✅ REFINEMENT: Found next section "The Past Continuous Tense" at position 14142
+[2025-08-28T01:50:08.169Z] ✅ REFINEMENT: Successfully refined - 4591 chars, pages 9-12
+[2025-08-28T01:50:08.170Z] 🎯 ENHANCED: Refined section boundaries using title matching (4591 chars)
+[2025-08-28T01:50:08.195Z] 📄 SIMPLE: Processing section 5/35: "The Past Continuous Tense" (pages 12-14)
+[2025-08-28T01:50:08.196Z] 📄 SIMPLE: Extracting section "The Past Continuous Tense" from pages 12-14
+[2025-08-28T01:50:08.196Z] ✅ SIMPLE: Extracted 4654 chars from 3 pages (12, 13, 14)
+[2025-08-28T01:50:08.197Z] 📖 SIMPLE: Content preview: "My father built this house in 1997. (Moj otac je sagradio ovu kuću 1997.-e)
+The day before yesterday Marko bought a nice hat. (Prekjuče je Marko kupio lep šešir.)
+
+
+
+
+THE PAST CONTINUOUS TENSE (..."
+[2025-08-28T01:50:08.198Z] 📊 SIMPLE: Character positions - Start: 13969, End: 18623
+[2025-08-28T01:50:08.198Z] ✅ SIMPLE: Extracted 4654 chars from pages 12-14
+[2025-08-28T01:50:08.199Z] 🎯 REFINEMENT: Attempting to refine section "The Past Continuous Tense" using title boundaries
+[2025-08-28T01:50:08.199Z] 🔍 DEBUG: pageBasedSection exists: true
+[2025-08-28T01:50:08.199Z] 🔍 DEBUG: section exists: true
+[2025-08-28T01:50:08.200Z] 🔍 DEBUG: section.title: "The Past Continuous Tense"
+[2025-08-28T01:50:08.201Z] 🔍 DEBUG: section.cleanTitle: "undefined"
+[2025-08-28T01:50:08.202Z] 🔍 DEBUG: nextSection exists: true
+[2025-08-28T01:50:08.203Z] 🔍 DEBUG: nextSection?.title: "Adjectives ending in -ED and -ING"
+[2025-08-28T01:50:08.204Z] 🔍 DEBUG: nextSection?.cleanTitle: "undefined"
+[2025-08-28T01:50:08.205Z] 🔍 DEBUG: allPages count: 97
+[2025-08-28T01:50:08.205Z] ⚠️ REFINEMENT: cleanTitle missing or invalid, generating from title "The Past Continuous Tense"
+[2025-08-28T01:50:08.206Z] ✅ REFINEMENT: Generated cleanTitle: "The Past Continuous Tense"
+[2025-08-28T01:50:08.206Z] 🔍 DEBUG: Processing 97 pages for text extraction
+[2025-08-28T01:50:08.207Z] 🔍 DEBUG: Combined text length: 191915
+[2025-08-28T01:50:08.207Z] 🔍 SEARCH: Looking for "The Past Continuous Tense" in text starting from position 0
+[2025-08-28T01:50:08.208Z] 🔍 DEBUG: text exists: true, length: 191915
+[2025-08-28T01:50:08.208Z] 🔍 DEBUG: cleanTitle type: string, value: "The Past Continuous Tense"
+[2025-08-28T01:50:08.208Z] 🔍 DEBUG: startFrom: 0
+[2025-08-28T01:50:08.208Z] 🔍 DEBUG: normalizedTitle after regex: "The Past Continuous Tense"
+[2025-08-28T01:50:08.209Z] 🔍 SEARCH: Normalized title: "The Past Continuous Tense"
+[2025-08-28T01:50:08.210Z] ✅ SEARCH: Found exact match at position 14142
+[2025-08-28T01:50:08.210Z] ✅ REFINEMENT: Found section start at position 14142
+[2025-08-28T01:50:08.210Z] ⚠️ REFINEMENT: Generated cleanTitle for next section: "Adjectives ending in -ED and -ING"
+[2025-08-28T01:50:08.210Z] 🔍 SEARCH: Looking for "Adjectives ending in -ED and -ING" in text starting from position 14192
+[2025-08-28T01:50:08.211Z] 🔍 DEBUG: text exists: true, length: 191915
+[2025-08-28T01:50:08.211Z] 🔍 DEBUG: cleanTitle type: string, value: "Adjectives ending in -ED and -ING"
+[2025-08-28T01:50:08.211Z] 🔍 DEBUG: startFrom: 14192
+[2025-08-28T01:50:08.212Z] 🔍 DEBUG: normalizedTitle after regex: "Adjectives ending in -ED and -ING"
+[2025-08-28T01:50:08.212Z] 🔍 SEARCH: Normalized title: "Adjectives ending in -ED and -ING"
+[2025-08-28T01:50:08.213Z] 🔍 DEBUG: Split into chars: [a, d, j, e, c, t, i, v, e, s,  , e, n, d, i, n, g,  , i, n,  , -, e, d,  , a, n, d,  , -, i, n, g]
+[2025-08-28T01:50:08.213Z] 🔍 DEBUG: Generated variations: 50
+[2025-08-28T01:50:08.213Z] 🔍 SEARCH: Generated 50 space variations
+[2025-08-28T01:50:08.219Z] ❌ SEARCH: No match found for "Adjectives ending in -ED and -ING"
+[2025-08-28T01:50:08.219Z] ⚠️ REFINEMENT: Could not find next section "Adjectives ending in -ED and -ING" - using page boundaries
+[2025-08-28T01:50:08.243Z] 📄 SIMPLE: Processing section 6/35: "Adjectives ending in -ED and -ING" (pages 14-15)
+[2025-08-28T01:50:08.243Z] 📄 SIMPLE: Extracting section "Adjectives ending in -ED and -ING" from pages 14-15
+[2025-08-28T01:50:08.244Z] ✅ SIMPLE: Extracted 3521 chars from 2 pages (14, 15)
+[2025-08-28T01:50:08.244Z] 📖 SIMPLE: Content preview: "When we arrived they were playing cards. (Kada smo stigli oni su igrali karte.)
+
+Napomena: Glagoli koji se ne koriste u Present Continuous Tense-u, ne koriste se ni u Past
+Continuous Tense-u. Umest..."
+[2025-08-28T01:50:08.244Z] 📊 SIMPLE: Character positions - Start: 17420, End: 20941
+[2025-08-28T01:50:08.244Z] ✅ SIMPLE: Extracted 3521 chars from pages 14-15
+[2025-08-28T01:50:08.245Z] 🎯 REFINEMENT: Attempting to refine section "Adjectives ending in -ED and -ING" using title boundaries
+[2025-08-28T01:50:08.245Z] 🔍 DEBUG: pageBasedSection exists: true
+[2025-08-28T01:50:08.245Z] 🔍 DEBUG: section exists: true
+[2025-08-28T01:50:08.245Z] 🔍 DEBUG: section.title: "Adjectives ending in -ED and -ING"
+[2025-08-28T01:50:08.246Z] 🔍 DEBUG: section.cleanTitle: "undefined"
+[2025-08-28T01:50:08.246Z] 🔍 DEBUG: nextSection exists: true
+[2025-08-28T01:50:08.246Z] 🔍 DEBUG: nextSection?.title: "Comparison of Adjectives"
+[2025-08-28T01:50:08.246Z] 🔍 DEBUG: nextSection?.cleanTitle: "undefined"
+[2025-08-28T01:50:08.247Z] 🔍 DEBUG: allPages count: 97
+[2025-08-28T01:50:08.247Z] ⚠️ REFINEMENT: cleanTitle missing or invalid, generating from title "Adjectives ending in -ED and -ING"
+[2025-08-28T01:50:08.247Z] ✅ REFINEMENT: Generated cleanTitle: "Adjectives ending in -ED and -ING"
+[2025-08-28T01:50:08.247Z] 🔍 DEBUG: Processing 97 pages for text extraction
+[2025-08-28T01:50:08.248Z] 🔍 DEBUG: Combined text length: 191915
+[2025-08-28T01:50:08.248Z] 🔍 SEARCH: Looking for "Adjectives ending in -ED and -ING" in text starting from position 0
+[2025-08-28T01:50:08.249Z] 🔍 DEBUG: text exists: true, length: 191915
+[2025-08-28T01:50:08.249Z] 🔍 DEBUG: cleanTitle type: string, value: "Adjectives ending in -ED and -ING"
+[2025-08-28T01:50:08.249Z] 🔍 DEBUG: startFrom: 0
+[2025-08-28T01:50:08.252Z] 🔍 DEBUG: normalizedTitle after regex: "Adjectives ending in -ED and -ING"
+[2025-08-28T01:50:08.252Z] 🔍 SEARCH: Normalized title: "Adjectives ending in -ED and -ING"
+[2025-08-28T01:50:08.253Z] 🔍 DEBUG: Split into chars: [a, d, j, e, c, t, i, v, e, s,  , e, n, d, i, n, g,  , i, n,  , -, e, d,  , a, n, d,  , -, i, n, g]
+[2025-08-28T01:50:08.255Z] 🔍 DEBUG: Generated variations: 50
+[2025-08-28T01:50:08.256Z] 🔍 SEARCH: Generated 50 space variations
+[2025-08-28T01:50:08.260Z] ❌ SEARCH: No match found for "Adjectives ending in -ED and -ING"
+[2025-08-28T01:50:08.260Z] ⚠️ REFINEMENT: Could not find section title "Adjectives ending in -ED and -ING" - keeping page-based extraction
+[2025-08-28T01:50:08.285Z] 📄 SIMPLE: Processing section 7/35: "Comparison of Adjectives" (pages 15-16)
+[2025-08-28T01:50:08.286Z] 📄 SIMPLE: Extracting section "Comparison of Adjectives" from pages 15-16
+[2025-08-28T01:50:08.287Z] ✅ SIMPLE: Extracted 4260 chars from 2 pages (15, 16)
+[2025-08-28T01:50:08.288Z] 📖 SIMPLE: Content preview: "COMPARISON OF ADJECTIVES (POREĐENJE PRIDEVA)
+
+Kod jednosložnih i nekih dvosložnih prideva komparativ se gradi dodavanjem sufiksa –er, a
+superlativ dodatkom sufiksa –est. Ispred superlativa se koris..."
+[2025-08-28T01:50:08.288Z] 📊 SIMPLE: Character positions - Start: 18625, End: 22885
+[2025-08-28T01:50:08.288Z] ✅ SIMPLE: Extracted 4260 chars from pages 15-16
+[2025-08-28T01:50:08.289Z] 🎯 REFINEMENT: Attempting to refine section "Comparison of Adjectives" using title boundaries
+[2025-08-28T01:50:08.289Z] 🔍 DEBUG: pageBasedSection exists: true
+[2025-08-28T01:50:08.289Z] 🔍 DEBUG: section exists: true
+[2025-08-28T01:50:08.289Z] 🔍 DEBUG: section.title: "Comparison of Adjectives"
+[2025-08-28T01:50:08.290Z] 🔍 DEBUG: section.cleanTitle: "undefined"
+[2025-08-28T01:50:08.290Z] 🔍 DEBUG: nextSection exists: true
+[2025-08-28T01:50:08.290Z] 🔍 DEBUG: nextSection?.title: "The Future Simple Tense"
+[2025-08-28T01:50:08.291Z] 🔍 DEBUG: nextSection?.cleanTitle: "undefined"
+[2025-08-28T01:50:08.291Z] 🔍 DEBUG: allPages count: 97
+[2025-08-28T01:50:08.291Z] ⚠️ REFINEMENT: cleanTitle missing or invalid, generating from title "Comparison of Adjectives"
+[2025-08-28T01:50:08.291Z] ✅ REFINEMENT: Generated cleanTitle: "Comparison of Adjectives"
+[2025-08-28T01:50:08.291Z] 🔍 DEBUG: Processing 97 pages for text extraction
+[2025-08-28T01:50:08.292Z] 🔍 DEBUG: Combined text length: 191915
+[2025-08-28T01:50:08.292Z] 🔍 SEARCH: Looking for "Comparison of Adjectives" in text starting from position 0
+[2025-08-28T01:50:08.292Z] 🔍 DEBUG: text exists: true, length: 191915
+[2025-08-28T01:50:08.292Z] 🔍 DEBUG: cleanTitle type: string, value: "Comparison of Adjectives"
+[2025-08-28T01:50:08.293Z] 🔍 DEBUG: startFrom: 0
+[2025-08-28T01:50:08.293Z] 🔍 DEBUG: normalizedTitle after regex: "Comparison of Adjectives"
+[2025-08-28T01:50:08.293Z] 🔍 SEARCH: Normalized title: "Comparison of Adjectives"
+[2025-08-28T01:50:08.295Z] ✅ SEARCH: Found exact match at position 18625
+[2025-08-28T01:50:08.295Z] ✅ REFINEMENT: Found section start at position 18625
+[2025-08-28T01:50:08.295Z] ⚠️ REFINEMENT: Generated cleanTitle for next section: "The Future Simple Tense"
+[2025-08-28T01:50:08.296Z] 🔍 SEARCH: Looking for "The Future Simple Tense" in text starting from position 18675
+[2025-08-28T01:50:08.296Z] 🔍 DEBUG: text exists: true, length: 191915
+[2025-08-28T01:50:08.296Z] 🔍 DEBUG: cleanTitle type: string, value: "The Future Simple Tense"
+[2025-08-28T01:50:08.297Z] 🔍 DEBUG: startFrom: 18675
+[2025-08-28T01:50:08.297Z] 🔍 DEBUG: normalizedTitle after regex: "The Future Simple Tense"
+[2025-08-28T01:50:08.297Z] 🔍 SEARCH: Normalized title: "The Future Simple Tense"
+[2025-08-28T01:50:08.298Z] ✅ SEARCH: Found exact match at position 20943
+[2025-08-28T01:50:08.299Z] ✅ REFINEMENT: Found next section "The Future Simple Tense" at position 20943
+[2025-08-28T01:50:08.299Z] ✅ REFINEMENT: Successfully refined - 2316 chars, pages 14-15
+[2025-08-28T01:50:08.299Z] 🎯 ENHANCED: Refined section boundaries using title matching (2316 chars)
+[2025-08-28T01:50:08.324Z] 📄 SIMPLE: Processing section 8/35: "The Future Simple Tense" (pages 16-17)
+[2025-08-28T01:50:08.324Z] 📄 SIMPLE: Extracting section "The Future Simple Tense" from pages 16-17
+[2025-08-28T01:50:08.325Z] ✅ SIMPLE: Extracted 4033 chars from 2 pages (16, 17)
+[2025-08-28T01:50:08.325Z] 📖 SIMPLE: Content preview: "THE FUTURE SIMPLE TENSE (PROSTO BUDUĆE VREME)
+
+
+Future Simple Tense (Prosto buduće vreme) se gradi od modalnog glagola will i
+osnovnog oblika glagola (infinitiv bez to).
+
+Potvrdni oblik
+
+Jedni..."
+[2025-08-28T01:50:08.326Z] 📊 SIMPLE: Character positions - Start: 20943, End: 24976
+[2025-08-28T01:50:08.326Z] ✅ SIMPLE: Extracted 4033 chars from pages 16-17
+[2025-08-28T01:50:08.326Z] 🎯 REFINEMENT: Attempting to refine section "The Future Simple Tense" using title boundaries
+[2025-08-28T01:50:08.327Z] 🔍 DEBUG: pageBasedSection exists: true
+[2025-08-28T01:50:08.327Z] 🔍 DEBUG: section exists: true
+[2025-08-28T01:50:08.327Z] 🔍 DEBUG: section.title: "The Future Simple Tense"
+[2025-08-28T01:50:08.328Z] 🔍 DEBUG: section.cleanTitle: "undefined"
+[2025-08-28T01:50:08.328Z] 🔍 DEBUG: nextSection exists: true
+[2025-08-28T01:50:08.328Z] 🔍 DEBUG: nextSection?.title: "Be+Going to+Infinitive"
+[2025-08-28T01:50:08.329Z] 🔍 DEBUG: nextSection?.cleanTitle: "undefined"
+[2025-08-28T01:50:08.329Z] 🔍 DEBUG: allPages count: 97
+[2025-08-28T01:50:08.329Z] ⚠️ REFINEMENT: cleanTitle missing or invalid, generating from title "The Future Simple Tense"
+[2025-08-28T01:50:08.329Z] ✅ REFINEMENT: Generated cleanTitle: "The Future Simple Tense"
+[2025-08-28T01:50:08.330Z] 🔍 DEBUG: Processing 97 pages for text extraction
+[2025-08-28T01:50:08.330Z] 🔍 DEBUG: Combined text length: 191915
+[2025-08-28T01:50:08.331Z] 🔍 SEARCH: Looking for "The Future Simple Tense" in text starting from position 0
+[2025-08-28T01:50:08.331Z] 🔍 DEBUG: text exists: true, length: 191915
+[2025-08-28T01:50:08.331Z] 🔍 DEBUG: cleanTitle type: string, value: "The Future Simple Tense"
+[2025-08-28T01:50:08.332Z] 🔍 DEBUG: startFrom: 0
+[2025-08-28T01:50:08.332Z] 🔍 DEBUG: normalizedTitle after regex: "The Future Simple Tense"
+[2025-08-28T01:50:08.332Z] 🔍 SEARCH: Normalized title: "The Future Simple Tense"
+[2025-08-28T01:50:08.336Z] ✅ SEARCH: Found exact match at position 20943
+[2025-08-28T01:50:08.336Z] ✅ REFINEMENT: Found section start at position 20943
+[2025-08-28T01:50:08.337Z] ⚠️ REFINEMENT: Generated cleanTitle for next section: "Be+Going to+Infinitive"
+[2025-08-28T01:50:08.338Z] 🔍 SEARCH: Looking for "Be+Going to+Infinitive" in text starting from position 20993
+[2025-08-28T01:50:08.338Z] 🔍 DEBUG: text exists: true, length: 191915
+[2025-08-28T01:50:08.338Z] 🔍 DEBUG: cleanTitle type: string, value: "Be+Going to+Infinitive"
+[2025-08-28T01:50:08.339Z] 🔍 DEBUG: startFrom: 20993
+[2025-08-28T01:50:08.339Z] 🔍 DEBUG: normalizedTitle after regex: "Be+Going to+Infinitive"
+[2025-08-28T01:50:08.339Z] 🔍 SEARCH: Normalized title: "Be+Going to+Infinitive"
+[2025-08-28T01:50:08.340Z] ✅ SEARCH: Found exact match at position 23921
+[2025-08-28T01:50:08.340Z] ✅ REFINEMENT: Found next section "Be+Going to+Infinitive" at position 23921
+[2025-08-28T01:50:08.340Z] ✅ REFINEMENT: Successfully refined - 2968 chars, pages 15-17
+[2025-08-28T01:50:08.341Z] 🎯 ENHANCED: Refined section boundaries using title matching (2968 chars)
+[2025-08-28T01:50:08.363Z] 📄 SIMPLE: Processing section 9/35: "Be+Going to+Infinitive" (pages 17-18)
+[2025-08-28T01:50:08.364Z] 📄 SIMPLE: Extracting section "Be+Going to+Infinitive" from pages 17-18
+[2025-08-28T01:50:08.364Z] ✅ SIMPLE: Extracted 4135 chars from 2 pages (17, 18)
+[2025-08-28T01:50:08.365Z] 📖 SIMPLE: Content preview: "Odrični oblik
+
+Jednina (singular) Množina (plural)
+I will not (won’t) work – Ja neću We will not (won’t) work – Mi nećemo
+raditi raditi
+You will not (won’t) work – Ti nećeš You will not (won’t) w..."
+[2025-08-28T01:50:08.365Z] 📊 SIMPLE: Character positions - Start: 22887, End: 27022
+[2025-08-28T01:50:08.365Z] ✅ SIMPLE: Extracted 4135 chars from pages 17-18
+[2025-08-28T01:50:08.366Z] 🎯 REFINEMENT: Attempting to refine section "Be+Going to+Infinitive" using title boundaries
+[2025-08-28T01:50:08.366Z] 🔍 DEBUG: pageBasedSection exists: true
+[2025-08-28T01:50:08.367Z] 🔍 DEBUG: section exists: true
+[2025-08-28T01:50:08.367Z] 🔍 DEBUG: section.title: "Be+Going to+Infinitive"
+[2025-08-28T01:50:08.368Z] 🔍 DEBUG: section.cleanTitle: "undefined"
+[2025-08-28T01:50:08.369Z] 🔍 DEBUG: nextSection exists: true
+[2025-08-28T01:50:08.369Z] 🔍 DEBUG: nextSection?.title: "Prepositions of Place"
+[2025-08-28T01:50:08.369Z] 🔍 DEBUG: nextSection?.cleanTitle: "undefined"
+[2025-08-28T01:50:08.370Z] 🔍 DEBUG: allPages count: 97
+[2025-08-28T01:50:08.371Z] ⚠️ REFINEMENT: cleanTitle missing or invalid, generating from title "Be+Going to+Infinitive"
+[2025-08-28T01:50:08.371Z] ✅ REFINEMENT: Generated cleanTitle: "Be+Going to+Infinitive"
+[2025-08-28T01:50:08.372Z] 🔍 DEBUG: Processing 97 pages for text extraction
+[2025-08-28T01:50:08.373Z] 🔍 DEBUG: Combined text length: 191915
+[2025-08-28T01:50:08.373Z] 🔍 SEARCH: Looking for "Be+Going to+Infinitive" in text starting from position 0
+[2025-08-28T01:50:08.373Z] 🔍 DEBUG: text exists: true, length: 191915
+[2025-08-28T01:50:08.374Z] 🔍 DEBUG: cleanTitle type: string, value: "Be+Going to+Infinitive"
+[2025-08-28T01:50:08.374Z] 🔍 DEBUG: startFrom: 0
+[2025-08-28T01:50:08.374Z] 🔍 DEBUG: normalizedTitle after regex: "Be+Going to+Infinitive"
+[2025-08-28T01:50:08.374Z] 🔍 SEARCH: Normalized title: "Be+Going to+Infinitive"
+[2025-08-28T01:50:08.375Z] ✅ SEARCH: Found exact match at position 23921
+[2025-08-28T01:50:08.376Z] ✅ REFINEMENT: Found section start at position 23921
+[2025-08-28T01:50:08.376Z] ⚠️ REFINEMENT: Generated cleanTitle for next section: "Prepositions of Place"
+[2025-08-28T01:50:08.376Z] 🔍 SEARCH: Looking for "Prepositions of Place" in text starting from position 23971
+[2025-08-28T01:50:08.376Z] 🔍 DEBUG: text exists: true, length: 191915
+[2025-08-28T01:50:08.376Z] 🔍 DEBUG: cleanTitle type: string, value: "Prepositions of Place"
+[2025-08-28T01:50:08.377Z] 🔍 DEBUG: startFrom: 23971
+[2025-08-28T01:50:08.377Z] 🔍 DEBUG: normalizedTitle after regex: "Prepositions of Place"
+[2025-08-28T01:50:08.377Z] 🔍 SEARCH: Normalized title: "Prepositions of Place"
+[2025-08-28T01:50:08.378Z] ✅ SEARCH: Found exact match at position 24978
+[2025-08-28T01:50:08.378Z] ✅ REFINEMENT: Found next section "Prepositions of Place" at position 24978
+[2025-08-28T01:50:08.379Z] ✅ REFINEMENT: Successfully refined - 1055 chars, pages 17-17
+[2025-08-28T01:50:08.379Z] 🎯 ENHANCED: Refined section boundaries using title matching (1055 chars)
+[2025-08-28T01:50:08.412Z] 📄 SIMPLE: Processing section 10/35: "Prepositions of Place" (pages 18-19)
+[2025-08-28T01:50:08.412Z] 📄 SIMPLE: Extracting section "Prepositions of Place" from pages 18-19
+[2025-08-28T01:50:08.412Z] ✅ SIMPLE: Extracted 2972 chars from 2 pages (18, 19)
+[2025-08-28T01:50:08.412Z] 📖 SIMPLE: Content preview: "PREPOSITIONS OF PLACE (PREDLOZI ZA MESTO)
+
+Kao predlog za mesto at služi da odredi mesto gde se nešto dešava.
+at the football match (na fudbalskoj utakmici)
+at school (uškoli)
+at the party (na za..."
+[2025-08-28T01:50:08.413Z] 📊 SIMPLE: Character positions - Start: 24978, End: 27950
+[2025-08-28T01:50:08.413Z] ✅ SIMPLE: Extracted 2972 chars from pages 18-19
+[2025-08-28T01:50:08.414Z] 🎯 REFINEMENT: Attempting to refine section "Prepositions of Place" using title boundaries
+[2025-08-28T01:50:08.414Z] 🔍 DEBUG: pageBasedSection exists: true
+[2025-08-28T01:50:08.414Z] 🔍 DEBUG: section exists: true
+[2025-08-28T01:50:08.415Z] 🔍 DEBUG: section.title: "Prepositions of Place"
+[2025-08-28T01:50:08.415Z] 🔍 DEBUG: section.cleanTitle: "undefined"
+[2025-08-28T01:50:08.415Z] 🔍 DEBUG: nextSection exists: true
+[2025-08-28T01:50:08.416Z] 🔍 DEBUG: nextSection?.title: "Prepositions of Time"
+[2025-08-28T01:50:08.416Z] 🔍 DEBUG: nextSection?.cleanTitle: "undefined"
+[2025-08-28T01:50:08.416Z] 🔍 DEBUG: allPages count: 97
+[2025-08-28T01:50:08.418Z] ⚠️ REFINEMENT: cleanTitle missing or invalid, generating from title "Prepositions of Place"
+[2025-08-28T01:50:08.419Z] ✅ REFINEMENT: Generated cleanTitle: "Prepositions of Place"
+[2025-08-28T01:50:08.419Z] 🔍 DEBUG: Processing 97 pages for text extraction
+[2025-08-28T01:50:08.421Z] 🔍 DEBUG: Combined text length: 191915
+[2025-08-28T01:50:08.421Z] 🔍 SEARCH: Looking for "Prepositions of Place" in text starting from position 0
+[2025-08-28T01:50:08.422Z] 🔍 DEBUG: text exists: true, length: 191915
+[2025-08-28T01:50:08.422Z] 🔍 DEBUG: cleanTitle type: string, value: "Prepositions of Place"
+[2025-08-28T01:50:08.422Z] 🔍 DEBUG: startFrom: 0
+[2025-08-28T01:50:08.422Z] 🔍 DEBUG: normalizedTitle after regex: "Prepositions of Place"
+[2025-08-28T01:50:08.423Z] 🔍 SEARCH: Normalized title: "Prepositions of Place"
+[2025-08-28T01:50:08.424Z] ✅ SEARCH: Found exact match at position 24978
+[2025-08-28T01:50:08.424Z] ✅ REFINEMENT: Found section start at position 24978
+[2025-08-28T01:50:08.425Z] ⚠️ REFINEMENT: Generated cleanTitle for next section: "Prepositions of Time"
+[2025-08-28T01:50:08.425Z] 🔍 SEARCH: Looking for "Prepositions of Time" in text starting from position 25028
+[2025-08-28T01:50:08.425Z] 🔍 DEBUG: text exists: true, length: 191915
+[2025-08-28T01:50:08.426Z] 🔍 DEBUG: cleanTitle type: string, value: "Prepositions of Time"
+[2025-08-28T01:50:08.426Z] 🔍 DEBUG: startFrom: 25028
+[2025-08-28T01:50:08.426Z] 🔍 DEBUG: normalizedTitle after regex: "Prepositions of Time"
+[2025-08-28T01:50:08.426Z] 🔍 SEARCH: Normalized title: "Prepositions of Time"
+[2025-08-28T01:50:08.427Z] ✅ SEARCH: Found exact match at position 27024
+[2025-08-28T01:50:08.427Z] ✅ REFINEMENT: Found next section "Prepositions of Time" at position 27024
+[2025-08-28T01:50:08.427Z] ✅ REFINEMENT: Successfully refined - 2044 chars, pages 17-18
+[2025-08-28T01:50:08.428Z] 🎯 ENHANCED: Refined section boundaries using title matching (2044 chars)
+[2025-08-28T01:50:08.452Z] 📄 SIMPLE: Processing section 11/35: "Prepositions of Time" (pages 19-20)
+[2025-08-28T01:50:08.452Z] 📄 SIMPLE: Extracting section "Prepositions of Time" from pages 19-20
+[2025-08-28T01:50:08.452Z] ✅ SIMPLE: Extracted 3048 chars from 2 pages (19, 20)
+[2025-08-28T01:50:08.453Z] 📖 SIMPLE: Content preview: "PREPOSITIONS OF TIME (PREDLOZI ZA VREME)
+
+Kao predlog za vreme at se koristi za izražavanje sati i tačno datog vremena.
+at 6 o'clock (u 6 sati)
+at 7: 30 in the morning (u pola 8 ujutru)
+at 11 pm ..."
+[2025-08-28T01:50:08.454Z] 📊 SIMPLE: Character positions - Start: 27024, End: 30072
+[2025-08-28T01:50:08.455Z] ✅ SIMPLE: Extracted 3048 chars from pages 19-20
+[2025-08-28T01:50:08.455Z] 🎯 REFINEMENT: Attempting to refine section "Prepositions of Time" using title boundaries
+[2025-08-28T01:50:08.455Z] 🔍 DEBUG: pageBasedSection exists: true
+[2025-08-28T01:50:08.455Z] 🔍 DEBUG: section exists: true
+[2025-08-28T01:50:08.456Z] 🔍 DEBUG: section.title: "Prepositions of Time"
+[2025-08-28T01:50:08.456Z] 🔍 DEBUG: section.cleanTitle: "undefined"
+[2025-08-28T01:50:08.456Z] 🔍 DEBUG: nextSection exists: true
+[2025-08-28T01:50:08.457Z] 🔍 DEBUG: nextSection?.title: "Reflexive Pronouns"
+[2025-08-28T01:50:08.457Z] 🔍 DEBUG: nextSection?.cleanTitle: "undefined"
+[2025-08-28T01:50:08.457Z] 🔍 DEBUG: allPages count: 97
+[2025-08-28T01:50:08.457Z] ⚠️ REFINEMENT: cleanTitle missing or invalid, generating from title "Prepositions of Time"
+[2025-08-28T01:50:08.458Z] ✅ REFINEMENT: Generated cleanTitle: "Prepositions of Time"
+[2025-08-28T01:50:08.458Z] 🔍 DEBUG: Processing 97 pages for text extraction
+[2025-08-28T01:50:08.459Z] 🔍 DEBUG: Combined text length: 191915
+[2025-08-28T01:50:08.460Z] 🔍 SEARCH: Looking for "Prepositions of Time" in text starting from position 0
+[2025-08-28T01:50:08.460Z] 🔍 DEBUG: text exists: true, length: 191915
+[2025-08-28T01:50:08.460Z] 🔍 DEBUG: cleanTitle type: string, value: "Prepositions of Time"
+[2025-08-28T01:50:08.461Z] 🔍 DEBUG: startFrom: 0
+[2025-08-28T01:50:08.461Z] 🔍 DEBUG: normalizedTitle after regex: "Prepositions of Time"
+[2025-08-28T01:50:08.461Z] 🔍 SEARCH: Normalized title: "Prepositions of Time"
+[2025-08-28T01:50:08.462Z] ✅ SEARCH: Found exact match at position 27024
+[2025-08-28T01:50:08.462Z] ✅ REFINEMENT: Found section start at position 27024
+[2025-08-28T01:50:08.462Z] ⚠️ REFINEMENT: Generated cleanTitle for next section: "Reflexive Pronouns"
+[2025-08-28T01:50:08.463Z] 🔍 SEARCH: Looking for "Reflexive Pronouns" in text starting from position 27074
+[2025-08-28T01:50:08.463Z] 🔍 DEBUG: text exists: true, length: 191915
+[2025-08-28T01:50:08.464Z] 🔍 DEBUG: cleanTitle type: string, value: "Reflexive Pronouns"
+[2025-08-28T01:50:08.464Z] 🔍 DEBUG: startFrom: 27074
+[2025-08-28T01:50:08.464Z] 🔍 DEBUG: normalizedTitle after regex: "Reflexive Pronouns"
+[2025-08-28T01:50:08.464Z] 🔍 SEARCH: Normalized title: "Reflexive Pronouns"
+[2025-08-28T01:50:08.467Z] ✅ SEARCH: Found exact match at position 27952
+[2025-08-28T01:50:08.469Z] ✅ REFINEMENT: Found next section "Reflexive Pronouns" at position 27952
+[2025-08-28T01:50:08.470Z] ✅ REFINEMENT: Successfully refined - 926 chars, pages 18-19
+[2025-08-28T01:50:08.471Z] 🎯 ENHANCED: Refined section boundaries using title matching (926 chars)
+[2025-08-28T01:50:08.496Z] 📄 SIMPLE: Processing section 12/35: "Reflexive Pronouns" (pages 20-20)
+[2025-08-28T01:50:08.497Z] 📄 SIMPLE: Extracting section "Reflexive Pronouns" from pages 20-20
+[2025-08-28T01:50:08.497Z] ✅ SIMPLE: Extracted 2120 chars from 1 pages (20)
+[2025-08-28T01:50:08.497Z] 📖 SIMPLE: Content preview: "REFLEXIVE PRONOUNS (POVRATNE ZAMENICE)
+
+Povratna zamenica u srpskom jeziku se izražava pomoću: «SEBE» ili «SE» i koristi se da se
+izrazi nešto što je neko sam učinio, bez ičije pomoći, uticaja ili ..."
+[2025-08-28T01:50:08.498Z] 📊 SIMPLE: Character positions - Start: 27952, End: 30072
+[2025-08-28T01:50:08.499Z] ✅ SIMPLE: Extracted 2120 chars from pages 20-20
+[2025-08-28T01:50:08.499Z] 🎯 REFINEMENT: Attempting to refine section "Reflexive Pronouns" using title boundaries
+[2025-08-28T01:50:08.499Z] 🔍 DEBUG: pageBasedSection exists: true
+[2025-08-28T01:50:08.500Z] 🔍 DEBUG: section exists: true
+[2025-08-28T01:50:08.501Z] 🔍 DEBUG: section.title: "Reflexive Pronouns"
+[2025-08-28T01:50:08.502Z] 🔍 DEBUG: section.cleanTitle: "undefined"
+[2025-08-28T01:50:08.502Z] 🔍 DEBUG: nextSection exists: true
+[2025-08-28T01:50:08.502Z] 🔍 DEBUG: nextSection?.title: "The Present Perfect Simple Tense"
+[2025-08-28T01:50:08.503Z] 🔍 DEBUG: nextSection?.cleanTitle: "undefined"
+[2025-08-28T01:50:08.503Z] 🔍 DEBUG: allPages count: 97
+[2025-08-28T01:50:08.504Z] ⚠️ REFINEMENT: cleanTitle missing or invalid, generating from title "Reflexive Pronouns"
+[2025-08-28T01:50:08.504Z] ✅ REFINEMENT: Generated cleanTitle: "Reflexive Pronouns"
+[2025-08-28T01:50:08.505Z] 🔍 DEBUG: Processing 97 pages for text extraction
+[2025-08-28T01:50:08.505Z] 🔍 DEBUG: Combined text length: 191915
+[2025-08-28T01:50:08.506Z] 🔍 SEARCH: Looking for "Reflexive Pronouns" in text starting from position 0
+[2025-08-28T01:50:08.506Z] 🔍 DEBUG: text exists: true, length: 191915
+[2025-08-28T01:50:08.506Z] 🔍 DEBUG: cleanTitle type: string, value: "Reflexive Pronouns"
+[2025-08-28T01:50:08.507Z] 🔍 DEBUG: startFrom: 0
+[2025-08-28T01:50:08.507Z] 🔍 DEBUG: normalizedTitle after regex: "Reflexive Pronouns"
+[2025-08-28T01:50:08.507Z] 🔍 SEARCH: Normalized title: "Reflexive Pronouns"
+[2025-08-28T01:50:08.509Z] ✅ SEARCH: Found exact match at position 27952
+[2025-08-28T01:50:08.509Z] ✅ REFINEMENT: Found section start at position 27952
+[2025-08-28T01:50:08.509Z] ⚠️ REFINEMENT: Generated cleanTitle for next section: "The Present Perfect Simple Tense"
+[2025-08-28T01:50:08.509Z] 🔍 SEARCH: Looking for "The Present Perfect Simple Tense" in text starting from position 28002
+[2025-08-28T01:50:08.510Z] 🔍 DEBUG: text exists: true, length: 191915
+[2025-08-28T01:50:08.510Z] 🔍 DEBUG: cleanTitle type: string, value: "The Present Perfect Simple Tense"
+[2025-08-28T01:50:08.510Z] 🔍 DEBUG: startFrom: 28002
+[2025-08-28T01:50:08.510Z] 🔍 DEBUG: normalizedTitle after regex: "The Present Perfect Simple Tense"
+[2025-08-28T01:50:08.510Z] 🔍 SEARCH: Normalized title: "The Present Perfect Simple Tense"
+[2025-08-28T01:50:08.511Z] ✅ SEARCH: Found exact match at position 29218
+[2025-08-28T01:50:08.511Z] ✅ REFINEMENT: Found next section "The Present Perfect Simple Tense" at position 29218
+[2025-08-28T01:50:08.511Z] ✅ REFINEMENT: Successfully refined - 1260 chars, pages 19-20
+[2025-08-28T01:50:08.512Z] 🎯 ENHANCED: Refined section boundaries using title matching (1260 chars)
+[2025-08-28T01:50:08.537Z] 📄 SIMPLE: Processing section 13/35: "The Present Perfect Simple Tense" (pages 20-22)
+[2025-08-28T01:50:08.538Z] 📄 SIMPLE: Extracting section "The Present Perfect Simple Tense" from pages 20-22
+[2025-08-28T01:50:08.538Z] ✅ SIMPLE: Extracted 6496 chars from 3 pages (20, 21, 22)
+[2025-08-28T01:50:08.539Z] 📖 SIMPLE: Content preview: "REFLEXIVE PRONOUNS (POVRATNE ZAMENICE)
+
+Povratna zamenica u srpskom jeziku se izražava pomoću: «SEBE» ili «SE» i koristi se da se
+izrazi nešto što je neko sam učinio, bez ičije pomoći, uticaja ili ..."
+[2025-08-28T01:50:08.539Z] 📊 SIMPLE: Character positions - Start: 27952, End: 34448
+[2025-08-28T01:50:08.539Z] ✅ SIMPLE: Extracted 6496 chars from pages 20-22
+[2025-08-28T01:50:08.540Z] 🎯 REFINEMENT: Attempting to refine section "The Present Perfect Simple Tense" using title boundaries
+[2025-08-28T01:50:08.540Z] 🔍 DEBUG: pageBasedSection exists: true
+[2025-08-28T01:50:08.540Z] 🔍 DEBUG: section exists: true
+[2025-08-28T01:50:08.541Z] 🔍 DEBUG: section.title: "The Present Perfect Simple Tense"
+[2025-08-28T01:50:08.541Z] 🔍 DEBUG: section.cleanTitle: "undefined"
+[2025-08-28T01:50:08.541Z] 🔍 DEBUG: nextSection exists: true
+[2025-08-28T01:50:08.541Z] 🔍 DEBUG: nextSection?.title: "Past Simple and Present Pefrect"
+[2025-08-28T01:50:08.542Z] 🔍 DEBUG: nextSection?.cleanTitle: "undefined"
+[2025-08-28T01:50:08.542Z] 🔍 DEBUG: allPages count: 97
+[2025-08-28T01:50:08.542Z] ⚠️ REFINEMENT: cleanTitle missing or invalid, generating from title "The Present Perfect Simple Tense"
+[2025-08-28T01:50:08.542Z] ✅ REFINEMENT: Generated cleanTitle: "The Present Perfect Simple Tense"
+[2025-08-28T01:50:08.543Z] 🔍 DEBUG: Processing 97 pages for text extraction
+[2025-08-28T01:50:08.544Z] 🔍 DEBUG: Combined text length: 191915
+[2025-08-28T01:50:08.544Z] 🔍 SEARCH: Looking for "The Present Perfect Simple Tense" in text starting from position 0
+[2025-08-28T01:50:08.544Z] 🔍 DEBUG: text exists: true, length: 191915
+[2025-08-28T01:50:08.544Z] 🔍 DEBUG: cleanTitle type: string, value: "The Present Perfect Simple Tense"
+[2025-08-28T01:50:08.545Z] 🔍 DEBUG: startFrom: 0
+[2025-08-28T01:50:08.545Z] 🔍 DEBUG: normalizedTitle after regex: "The Present Perfect Simple Tense"
+[2025-08-28T01:50:08.545Z] 🔍 SEARCH: Normalized title: "The Present Perfect Simple Tense"
+[2025-08-28T01:50:08.546Z] ✅ SEARCH: Found exact match at position 29218
+[2025-08-28T01:50:08.546Z] ✅ REFINEMENT: Found section start at position 29218
+[2025-08-28T01:50:08.547Z] ⚠️ REFINEMENT: Generated cleanTitle for next section: "Past Simple and Present Pefrect"
+[2025-08-28T01:50:08.547Z] 🔍 SEARCH: Looking for "Past Simple and Present Pefrect" in text starting from position 29268
+[2025-08-28T01:50:08.547Z] 🔍 DEBUG: text exists: true, length: 191915
+[2025-08-28T01:50:08.547Z] 🔍 DEBUG: cleanTitle type: string, value: "Past Simple and Present Pefrect"
+[2025-08-28T01:50:08.548Z] 🔍 DEBUG: startFrom: 29268
+[2025-08-28T01:50:08.548Z] 🔍 DEBUG: normalizedTitle after regex: "Past Simple and Present Pefrect"
+[2025-08-28T01:50:08.548Z] 🔍 SEARCH: Normalized title: "Past Simple and Present Pefrect"
+[2025-08-28T01:50:08.552Z] 🔍 DEBUG: Split into chars: [p, a, s, t,  , s, i, m, p, l, e,  , a, n, d,  , p, r, e, s, e, n, t,  , p, e, f, r, e, c, t]
+[2025-08-28T01:50:08.552Z] 🔍 DEBUG: Generated variations: 50
+[2025-08-28T01:50:08.553Z] 🔍 SEARCH: Generated 50 space variations
+[2025-08-28T01:50:08.558Z] ❌ SEARCH: No match found for "Past Simple and Present Pefrect"
+[2025-08-28T01:50:08.558Z] ⚠️ REFINEMENT: Could not find next section "Past Simple and Present Pefrect" - using page boundaries
+[2025-08-28T01:50:08.582Z] 📄 SIMPLE: Processing section 14/35: "Past Simple and Present Pefrect" (pages 22-23)
+[2025-08-28T01:50:08.582Z] 📄 SIMPLE: Extracting section "Past Simple and Present Pefrect" from pages 22-23
+[2025-08-28T01:50:08.582Z] ✅ SIMPLE: Extracted 4969 chars from 2 pages (22, 23)
+[2025-08-28T01:50:08.583Z] 📖 SIMPLE: Content preview: "He has not (hasn't) worked – On nije They have not (haven't) worked – Oni
+radio nisu radili
+She has not (hasn't) worked – Ona
+nije radila
+It has not (hasn't) worked – Ono
+nije radilo
+
+Upotreba:..."
+[2025-08-28T01:50:08.585Z] 📊 SIMPLE: Character positions - Start: 32269, End: 37238
+[2025-08-28T01:50:08.586Z] ✅ SIMPLE: Extracted 4969 chars from pages 22-23
+[2025-08-28T01:50:08.586Z] 🎯 REFINEMENT: Attempting to refine section "Past Simple and Present Pefrect" using title boundaries
+[2025-08-28T01:50:08.587Z] 🔍 DEBUG: pageBasedSection exists: true
+[2025-08-28T01:50:08.588Z] 🔍 DEBUG: section exists: true
+[2025-08-28T01:50:08.588Z] 🔍 DEBUG: section.title: "Past Simple and Present Pefrect"
+[2025-08-28T01:50:08.589Z] 🔍 DEBUG: section.cleanTitle: "undefined"
+[2025-08-28T01:50:08.589Z] 🔍 DEBUG: nextSection exists: true
+[2025-08-28T01:50:08.589Z] 🔍 DEBUG: nextSection?.title: "Modal Verbs"
+[2025-08-28T01:50:08.589Z] 🔍 DEBUG: nextSection?.cleanTitle: "undefined"
+[2025-08-28T01:50:08.589Z] 🔍 DEBUG: allPages count: 97
+[2025-08-28T01:50:08.590Z] ⚠️ REFINEMENT: cleanTitle missing or invalid, generating from title "Past Simple and Present Pefrect"
+[2025-08-28T01:50:08.590Z] ✅ REFINEMENT: Generated cleanTitle: "Past Simple and Present Pefrect"
+[2025-08-28T01:50:08.590Z] 🔍 DEBUG: Processing 97 pages for text extraction
+[2025-08-28T01:50:08.591Z] 🔍 DEBUG: Combined text length: 191915
+[2025-08-28T01:50:08.591Z] 🔍 SEARCH: Looking for "Past Simple and Present Pefrect" in text starting from position 0
+[2025-08-28T01:50:08.592Z] 🔍 DEBUG: text exists: true, length: 191915
+[2025-08-28T01:50:08.592Z] 🔍 DEBUG: cleanTitle type: string, value: "Past Simple and Present Pefrect"
+[2025-08-28T01:50:08.592Z] 🔍 DEBUG: startFrom: 0
+[2025-08-28T01:50:08.592Z] 🔍 DEBUG: normalizedTitle after regex: "Past Simple and Present Pefrect"
+[2025-08-28T01:50:08.592Z] 🔍 SEARCH: Normalized title: "Past Simple and Present Pefrect"
+[2025-08-28T01:50:08.594Z] 🔍 DEBUG: Split into chars: [p, a, s, t,  , s, i, m, p, l, e,  , a, n, d,  , p, r, e, s, e, n, t,  , p, e, f, r, e, c, t]
+[2025-08-28T01:50:08.594Z] 🔍 DEBUG: Generated variations: 50
+[2025-08-28T01:50:08.595Z] 🔍 SEARCH: Generated 50 space variations
+[2025-08-28T01:50:08.599Z] ❌ SEARCH: No match found for "Past Simple and Present Pefrect"
+[2025-08-28T01:50:08.599Z] ⚠️ REFINEMENT: Could not find section title "Past Simple and Present Pefrect" - keeping page-based extraction
+[2025-08-28T01:50:08.625Z] 📄 SIMPLE: Processing section 15/35: "Modal Verbs" (pages 23-25)
+[2025-08-28T01:50:08.625Z] 📄 SIMPLE: Extracting section "Modal Verbs" from pages 23-25
+[2025-08-28T01:50:08.625Z] ✅ SIMPLE: Extracted 7886 chars from 3 pages (23, 24, 25)
+[2025-08-28T01:50:08.626Z] 📖 SIMPLE: Content preview: "Past Simple će se upotrebiti kada imamo vremensku frazu koja nam jasno ukazuje na to kada
+se nešto odigralo u prošlosti.
+
+Mary travelled to America last year. (Meri je putovala u Ameriku prošle god..."
+[2025-08-28T01:50:08.626Z] 📊 SIMPLE: Character positions - Start: 34450, End: 42336
+[2025-08-28T01:50:08.626Z] ✅ SIMPLE: Extracted 7886 chars from pages 23-25
+[2025-08-28T01:50:08.626Z] 🎯 REFINEMENT: Attempting to refine section "Modal Verbs" using title boundaries
+[2025-08-28T01:50:08.627Z] 🔍 DEBUG: pageBasedSection exists: true
+[2025-08-28T01:50:08.627Z] 🔍 DEBUG: section exists: true
+[2025-08-28T01:50:08.627Z] 🔍 DEBUG: section.title: "Modal Verbs"
+[2025-08-28T01:50:08.627Z] 🔍 DEBUG: section.cleanTitle: "undefined"
+[2025-08-28T01:50:08.628Z] 🔍 DEBUG: nextSection exists: true
+[2025-08-28T01:50:08.628Z] 🔍 DEBUG: nextSection?.title: "The Past Perfect Simple Tense"
+[2025-08-28T01:50:08.628Z] 🔍 DEBUG: nextSection?.cleanTitle: "undefined"
+[2025-08-28T01:50:08.628Z] 🔍 DEBUG: allPages count: 97
+[2025-08-28T01:50:08.628Z] ⚠️ REFINEMENT: cleanTitle missing or invalid, generating from title "Modal Verbs"
+[2025-08-28T01:50:08.629Z] ✅ REFINEMENT: Generated cleanTitle: "Modal Verbs"
+[2025-08-28T01:50:08.629Z] 🔍 DEBUG: Processing 97 pages for text extraction
+[2025-08-28T01:50:08.629Z] 🔍 DEBUG: Combined text length: 191915
+[2025-08-28T01:50:08.629Z] 🔍 SEARCH: Looking for "Modal Verbs" in text starting from position 0
+[2025-08-28T01:50:08.629Z] 🔍 DEBUG: text exists: true, length: 191915
+[2025-08-28T01:50:08.630Z] 🔍 DEBUG: cleanTitle type: string, value: "Modal Verbs"
+[2025-08-28T01:50:08.630Z] 🔍 DEBUG: startFrom: 0
+[2025-08-28T01:50:08.630Z] 🔍 DEBUG: normalizedTitle after regex: "Modal Verbs"
+[2025-08-28T01:50:08.630Z] 🔍 SEARCH: Normalized title: "Modal Verbs"
+[2025-08-28T01:50:08.633Z] ✅ SEARCH: Found exact match at position 35546
+[2025-08-28T01:50:08.635Z] ✅ REFINEMENT: Found section start at position 35546
+[2025-08-28T01:50:08.636Z] ⚠️ REFINEMENT: Generated cleanTitle for next section: "The Past Perfect Simple Tense"
+[2025-08-28T01:50:08.636Z] 🔍 SEARCH: Looking for "The Past Perfect Simple Tense" in text starting from position 35596
+[2025-08-28T01:50:08.637Z] 🔍 DEBUG: text exists: true, length: 191915
+[2025-08-28T01:50:08.638Z] 🔍 DEBUG: cleanTitle type: string, value: "The Past Perfect Simple Tense"
+[2025-08-28T01:50:08.638Z] 🔍 DEBUG: startFrom: 35596
+[2025-08-28T01:50:08.638Z] 🔍 DEBUG: normalizedTitle after regex: "The Past Perfect Simple Tense"
+[2025-08-28T01:50:08.638Z] 🔍 SEARCH: Normalized title: "The Past Perfect Simple Tense"
+[2025-08-28T01:50:08.639Z] ✅ SEARCH: Found exact match at position 40282
+[2025-08-28T01:50:08.639Z] ✅ REFINEMENT: Found next section "The Past Perfect Simple Tense" at position 40282
+[2025-08-28T01:50:08.640Z] ✅ REFINEMENT: Successfully refined - 4734 chars, pages 23-24
+[2025-08-28T01:50:08.640Z] 🎯 ENHANCED: Refined section boundaries using title matching (4734 chars)
+[2025-08-28T01:50:08.663Z] 📄 SIMPLE: Processing section 16/35: "The Past Perfect Simple Tense" (pages 25-27)
+[2025-08-28T01:50:08.663Z] 📄 SIMPLE: Extracting section "The Past Perfect Simple Tense" from pages 25-27
+[2025-08-28T01:50:08.663Z] ✅ SIMPLE: Extracted 5941 chars from 3 pages (25, 26, 27)
+[2025-08-28T01:50:08.664Z] 📖 SIMPLE: Content preview: "THE PAST PERFECT SIMPLE TENSE (DAVNO PROŠLO PROSTO VREME)
+
+Davno prošlo prosto vreme (past perfect simple tense) se gradi od pomoćnog glagola
+TO HAVE prošlom prostom vremenu (past simple tense-u), ..."
+[2025-08-28T01:50:08.665Z] 📊 SIMPLE: Character positions - Start: 40282, End: 46223
+[2025-08-28T01:50:08.665Z] ✅ SIMPLE: Extracted 5941 chars from pages 25-27
+[2025-08-28T01:50:08.665Z] 🎯 REFINEMENT: Attempting to refine section "The Past Perfect Simple Tense" using title boundaries
+[2025-08-28T01:50:08.666Z] 🔍 DEBUG: pageBasedSection exists: true
+[2025-08-28T01:50:08.666Z] 🔍 DEBUG: section exists: true
+[2025-08-28T01:50:08.666Z] 🔍 DEBUG: section.title: "The Past Perfect Simple Tense"
+[2025-08-28T01:50:08.667Z] 🔍 DEBUG: section.cleanTitle: "undefined"
+[2025-08-28T01:50:08.668Z] 🔍 DEBUG: nextSection exists: true
+[2025-08-28T01:50:08.669Z] 🔍 DEBUG: nextSection?.title: "Countable and Uncountabnle Nouns"
+[2025-08-28T01:50:08.669Z] 🔍 DEBUG: nextSection?.cleanTitle: "undefined"
+[2025-08-28T01:50:08.669Z] 🔍 DEBUG: allPages count: 97
+[2025-08-28T01:50:08.670Z] ⚠️ REFINEMENT: cleanTitle missing or invalid, generating from title "The Past Perfect Simple Tense"
+[2025-08-28T01:50:08.670Z] ✅ REFINEMENT: Generated cleanTitle: "The Past Perfect Simple Tense"
+[2025-08-28T01:50:08.671Z] 🔍 DEBUG: Processing 97 pages for text extraction
+[2025-08-28T01:50:08.672Z] 🔍 DEBUG: Combined text length: 191915
+[2025-08-28T01:50:08.672Z] 🔍 SEARCH: Looking for "The Past Perfect Simple Tense" in text starting from position 0
+[2025-08-28T01:50:08.672Z] 🔍 DEBUG: text exists: true, length: 191915
+[2025-08-28T01:50:08.673Z] 🔍 DEBUG: cleanTitle type: string, value: "The Past Perfect Simple Tense"
+[2025-08-28T01:50:08.673Z] 🔍 DEBUG: startFrom: 0
+[2025-08-28T01:50:08.673Z] 🔍 DEBUG: normalizedTitle after regex: "The Past Perfect Simple Tense"
+[2025-08-28T01:50:08.673Z] 🔍 SEARCH: Normalized title: "The Past Perfect Simple Tense"
+[2025-08-28T01:50:08.674Z] ✅ SEARCH: Found exact match at position 40282
+[2025-08-28T01:50:08.675Z] ✅ REFINEMENT: Found section start at position 40282
+[2025-08-28T01:50:08.675Z] ⚠️ REFINEMENT: Generated cleanTitle for next section: "Countable and Uncountabnle Nouns"
+[2025-08-28T01:50:08.675Z] 🔍 SEARCH: Looking for "Countable and Uncountabnle Nouns" in text starting from position 40332
+[2025-08-28T01:50:08.675Z] 🔍 DEBUG: text exists: true, length: 191915
+[2025-08-28T01:50:08.675Z] 🔍 DEBUG: cleanTitle type: string, value: "Countable and Uncountabnle Nouns"
+[2025-08-28T01:50:08.676Z] 🔍 DEBUG: startFrom: 40332
+[2025-08-28T01:50:08.676Z] 🔍 DEBUG: normalizedTitle after regex: "Countable and Uncountabnle Nouns"
+[2025-08-28T01:50:08.676Z] 🔍 SEARCH: Normalized title: "Countable and Uncountabnle Nouns"
+[2025-08-28T01:50:08.677Z] 🔍 DEBUG: Split into chars: [c, o, u, n, t, a, b, l, e,  , a, n, d,  , u, n, c, o, u, n, t, a, b, n, l, e,  , n, o, u, n, s]
+[2025-08-28T01:50:08.677Z] 🔍 DEBUG: Generated variations: 50
+[2025-08-28T01:50:08.677Z] 🔍 SEARCH: Generated 50 space variations
+[2025-08-28T01:50:08.680Z] ❌ SEARCH: No match found for "Countable and Uncountabnle Nouns"
+[2025-08-28T01:50:08.681Z] ⚠️ REFINEMENT: Could not find next section "Countable and Uncountabnle Nouns" - using page boundaries
+[2025-08-28T01:50:08.705Z] 📄 SIMPLE: Processing section 17/35: "Countable and Uncountabnle Nouns" (pages 27-27)
+[2025-08-28T01:50:08.705Z] 📄 SIMPLE: Extracting section "Countable and Uncountabnle Nouns" from pages 27-27
+[2025-08-28T01:50:08.705Z] ✅ SIMPLE: Extracted 2001 chars from 1 pages (27)
+[2025-08-28T01:50:08.706Z] 📖 SIMPLE: Content preview: "COUNTABLE AND UNCOUNTABLE NOUNS (BROJIVE I NEBROJIVE
+IMENICE)
+
+
+Brojive imenice (countable nouns) su imenice koje imaju množinu – mogu se brojati.
+book – knjiga books – knjige
+child – dete child..."
+[2025-08-28T01:50:08.707Z] 📊 SIMPLE: Character positions - Start: 44222, End: 46223
+[2025-08-28T01:50:08.707Z] ✅ SIMPLE: Extracted 2001 chars from pages 27-27
+[2025-08-28T01:50:08.707Z] 🎯 REFINEMENT: Attempting to refine section "Countable and Uncountabnle Nouns" using title boundaries
+[2025-08-28T01:50:08.708Z] 🔍 DEBUG: pageBasedSection exists: true
+[2025-08-28T01:50:08.708Z] 🔍 DEBUG: section exists: true
+[2025-08-28T01:50:08.708Z] 🔍 DEBUG: section.title: "Countable and Uncountabnle Nouns"
+[2025-08-28T01:50:08.709Z] 🔍 DEBUG: section.cleanTitle: "undefined"
+[2025-08-28T01:50:08.709Z] 🔍 DEBUG: nextSection exists: true
+[2025-08-28T01:50:08.709Z] 🔍 DEBUG: nextSection?.title: "Quantifiers"
+[2025-08-28T01:50:08.709Z] 🔍 DEBUG: nextSection?.cleanTitle: "undefined"
+[2025-08-28T01:50:08.710Z] 🔍 DEBUG: allPages count: 97
+[2025-08-28T01:50:08.710Z] ⚠️ REFINEMENT: cleanTitle missing or invalid, generating from title "Countable and Uncountabnle Nouns"
+[2025-08-28T01:50:08.710Z] ✅ REFINEMENT: Generated cleanTitle: "Countable and Uncountabnle Nouns"
+[2025-08-28T01:50:08.710Z] 🔍 DEBUG: Processing 97 pages for text extraction
+[2025-08-28T01:50:08.712Z] 🔍 DEBUG: Combined text length: 191915
+[2025-08-28T01:50:08.712Z] 🔍 SEARCH: Looking for "Countable and Uncountabnle Nouns" in text starting from position 0
+[2025-08-28T01:50:08.712Z] 🔍 DEBUG: text exists: true, length: 191915
+[2025-08-28T01:50:08.713Z] 🔍 DEBUG: cleanTitle type: string, value: "Countable and Uncountabnle Nouns"
+[2025-08-28T01:50:08.713Z] 🔍 DEBUG: startFrom: 0
+[2025-08-28T01:50:08.713Z] 🔍 DEBUG: normalizedTitle after regex: "Countable and Uncountabnle Nouns"
+[2025-08-28T01:50:08.713Z] 🔍 SEARCH: Normalized title: "Countable and Uncountabnle Nouns"
+[2025-08-28T01:50:08.714Z] 🔍 DEBUG: Split into chars: [c, o, u, n, t, a, b, l, e,  , a, n, d,  , u, n, c, o, u, n, t, a, b, n, l, e,  , n, o, u, n, s]
+[2025-08-28T01:50:08.715Z] 🔍 DEBUG: Generated variations: 50
+[2025-08-28T01:50:08.715Z] 🔍 SEARCH: Generated 50 space variations
+[2025-08-28T01:50:08.722Z] ❌ SEARCH: No match found for "Countable and Uncountabnle Nouns"
+[2025-08-28T01:50:08.723Z] ⚠️ REFINEMENT: Could not find section title "Countable and Uncountabnle Nouns" - keeping page-based extraction
+[2025-08-28T01:50:08.746Z] 📄 SIMPLE: Processing section 18/35: "Quantifiers" (pages 27-27)
+[2025-08-28T01:50:08.747Z] 📄 SIMPLE: Extracting section "Quantifiers" from pages 27-27
+[2025-08-28T01:50:08.747Z] ✅ SIMPLE: Extracted 2001 chars from 1 pages (27)
+[2025-08-28T01:50:08.747Z] 📖 SIMPLE: Content preview: "COUNTABLE AND UNCOUNTABLE NOUNS (BROJIVE I NEBROJIVE
+IMENICE)
+
+
+Brojive imenice (countable nouns) su imenice koje imaju množinu – mogu se brojati.
+book – knjiga books – knjige
+child – dete child..."
+[2025-08-28T01:50:08.748Z] 📊 SIMPLE: Character positions - Start: 44222, End: 46223
+[2025-08-28T01:50:08.748Z] ✅ SIMPLE: Extracted 2001 chars from pages 27-27
+[2025-08-28T01:50:08.749Z] 🎯 REFINEMENT: Attempting to refine section "Quantifiers" using title boundaries
+[2025-08-28T01:50:08.749Z] 🔍 DEBUG: pageBasedSection exists: true
+[2025-08-28T01:50:08.749Z] 🔍 DEBUG: section exists: true
+[2025-08-28T01:50:08.750Z] 🔍 DEBUG: section.title: "Quantifiers"
+[2025-08-28T01:50:08.751Z] 🔍 DEBUG: section.cleanTitle: "undefined"
+[2025-08-28T01:50:08.752Z] 🔍 DEBUG: nextSection exists: true
+[2025-08-28T01:50:08.753Z] 🔍 DEBUG: nextSection?.title: "Articles"
+[2025-08-28T01:50:08.753Z] 🔍 DEBUG: nextSection?.cleanTitle: "undefined"
+[2025-08-28T01:50:08.754Z] 🔍 DEBUG: allPages count: 97
+[2025-08-28T01:50:08.754Z] ⚠️ REFINEMENT: cleanTitle missing or invalid, generating from title "Quantifiers"
+[2025-08-28T01:50:08.755Z] ✅ REFINEMENT: Generated cleanTitle: "Quantifiers"
+[2025-08-28T01:50:08.755Z] 🔍 DEBUG: Processing 97 pages for text extraction
+[2025-08-28T01:50:08.756Z] 🔍 DEBUG: Combined text length: 191915
+[2025-08-28T01:50:08.756Z] 🔍 SEARCH: Looking for "Quantifiers" in text starting from position 0
+[2025-08-28T01:50:08.756Z] 🔍 DEBUG: text exists: true, length: 191915
+[2025-08-28T01:50:08.756Z] 🔍 DEBUG: cleanTitle type: string, value: "Quantifiers"
+[2025-08-28T01:50:08.757Z] 🔍 DEBUG: startFrom: 0
+[2025-08-28T01:50:08.757Z] 🔍 DEBUG: normalizedTitle after regex: "Quantifiers"
+[2025-08-28T01:50:08.758Z] 🔍 SEARCH: Normalized title: "Quantifiers"
+[2025-08-28T01:50:08.758Z] ✅ SEARCH: Found exact match at position 44544
+[2025-08-28T01:50:08.759Z] ✅ REFINEMENT: Found section start at position 44544
+[2025-08-28T01:50:08.759Z] ⚠️ REFINEMENT: Generated cleanTitle for next section: "Articles"
+[2025-08-28T01:50:08.759Z] 🔍 SEARCH: Looking for "Articles" in text starting from position 44594
+[2025-08-28T01:50:08.759Z] 🔍 DEBUG: text exists: true, length: 191915
+[2025-08-28T01:50:08.760Z] 🔍 DEBUG: cleanTitle type: string, value: "Articles"
+[2025-08-28T01:50:08.760Z] 🔍 DEBUG: startFrom: 44594
+[2025-08-28T01:50:08.760Z] 🔍 DEBUG: normalizedTitle after regex: "Articles"
+[2025-08-28T01:50:08.760Z] 🔍 SEARCH: Normalized title: "Articles"
+[2025-08-28T01:50:08.761Z] ✅ SEARCH: Found exact match at position 45657
+[2025-08-28T01:50:08.761Z] ✅ REFINEMENT: Found next section "Articles" at position 45657
+[2025-08-28T01:50:08.761Z] ✅ REFINEMENT: Successfully refined - 1107 chars, pages 27-27
+[2025-08-28T01:50:08.763Z] 🎯 ENHANCED: Refined section boundaries using title matching (1107 chars)
+[2025-08-28T01:50:08.786Z] 📄 SIMPLE: Processing section 19/35: "Articles" (pages 27-27)
+[2025-08-28T01:50:08.786Z] 📄 SIMPLE: Extracting section "Articles" from pages 27-27
+[2025-08-28T01:50:08.787Z] ✅ SIMPLE: Extracted 2001 chars from 1 pages (27)
+[2025-08-28T01:50:08.788Z] 📖 SIMPLE: Content preview: "COUNTABLE AND UNCOUNTABLE NOUNS (BROJIVE I NEBROJIVE
+IMENICE)
+
+
+Brojive imenice (countable nouns) su imenice koje imaju množinu – mogu se brojati.
+book – knjiga books – knjige
+child – dete child..."
+[2025-08-28T01:50:08.789Z] 📊 SIMPLE: Character positions - Start: 44222, End: 46223
+[2025-08-28T01:50:08.789Z] ✅ SIMPLE: Extracted 2001 chars from pages 27-27
+[2025-08-28T01:50:08.789Z] 🎯 REFINEMENT: Attempting to refine section "Articles" using title boundaries
+[2025-08-28T01:50:08.789Z] 🔍 DEBUG: pageBasedSection exists: true
+[2025-08-28T01:50:08.790Z] 🔍 DEBUG: section exists: true
+[2025-08-28T01:50:08.790Z] 🔍 DEBUG: section.title: "Articles"
+[2025-08-28T01:50:08.790Z] 🔍 DEBUG: section.cleanTitle: "undefined"
+[2025-08-28T01:50:08.790Z] 🔍 DEBUG: nextSection exists: true
+[2025-08-28T01:50:08.791Z] 🔍 DEBUG: nextSection?.title: "The Indefinite Article"
+[2025-08-28T01:50:08.791Z] 🔍 DEBUG: nextSection?.cleanTitle: "undefined"
+[2025-08-28T01:50:08.791Z] 🔍 DEBUG: allPages count: 97
+[2025-08-28T01:50:08.791Z] ⚠️ REFINEMENT: cleanTitle missing or invalid, generating from title "Articles"
+[2025-08-28T01:50:08.792Z] ✅ REFINEMENT: Generated cleanTitle: "Articles"
+[2025-08-28T01:50:08.792Z] 🔍 DEBUG: Processing 97 pages for text extraction
+[2025-08-28T01:50:08.793Z] 🔍 DEBUG: Combined text length: 191915
+[2025-08-28T01:50:08.793Z] 🔍 SEARCH: Looking for "Articles" in text starting from position 0
+[2025-08-28T01:50:08.794Z] 🔍 DEBUG: text exists: true, length: 191915
+[2025-08-28T01:50:08.794Z] 🔍 DEBUG: cleanTitle type: string, value: "Articles"
+[2025-08-28T01:50:08.794Z] 🔍 DEBUG: startFrom: 0
+[2025-08-28T01:50:08.794Z] 🔍 DEBUG: normalizedTitle after regex: "Articles"
+[2025-08-28T01:50:08.795Z] 🔍 SEARCH: Normalized title: "Articles"
+[2025-08-28T01:50:08.795Z] ✅ SEARCH: Found exact match at position 45657
+[2025-08-28T01:50:08.796Z] ✅ REFINEMENT: Found section start at position 45657
+[2025-08-28T01:50:08.796Z] ⚠️ REFINEMENT: Generated cleanTitle for next section: "The Indefinite Article"
+[2025-08-28T01:50:08.796Z] 🔍 SEARCH: Looking for "The Indefinite Article" in text starting from position 45707
+[2025-08-28T01:50:08.796Z] 🔍 DEBUG: text exists: true, length: 191915
+[2025-08-28T01:50:08.796Z] 🔍 DEBUG: cleanTitle type: string, value: "The Indefinite Article"
+[2025-08-28T01:50:08.796Z] 🔍 DEBUG: startFrom: 45707
+[2025-08-28T01:50:08.797Z] 🔍 DEBUG: normalizedTitle after regex: "The Indefinite Article"
+[2025-08-28T01:50:08.797Z] 🔍 SEARCH: Normalized title: "The Indefinite Article"
+[2025-08-28T01:50:08.798Z] 🔍 DEBUG: Split into chars: [t, h, e,  , i, n, d, e, f, i, n, i, t, e,  , a, r, t, i, c, l, e]
+[2025-08-28T01:50:08.798Z] 🔍 DEBUG: Generated variations: 50
+[2025-08-28T01:50:08.798Z] 🔍 SEARCH: Generated 50 space variations
+[2025-08-28T01:50:08.805Z] ❌ SEARCH: No match found for "The Indefinite Article"
+[2025-08-28T01:50:08.805Z] ⚠️ REFINEMENT: Could not find next section "The Indefinite Article" - using page boundaries
+[2025-08-28T01:50:08.828Z] 📄 SIMPLE: Processing section 20/35: "The Indefinite Article" (pages 27-28)
+[2025-08-28T01:50:08.828Z] 📄 SIMPLE: Extracting section "The Indefinite Article" from pages 27-28
+[2025-08-28T01:50:08.828Z] ✅ SIMPLE: Extracted 3534 chars from 2 pages (27, 28)
+[2025-08-28T01:50:08.828Z] 📖 SIMPLE: Content preview: "COUNTABLE AND UNCOUNTABLE NOUNS (BROJIVE I NEBROJIVE
+IMENICE)
+
+
+Brojive imenice (countable nouns) su imenice koje imaju množinu – mogu se brojati.
+book – knjiga books – knjige
+child – dete child..."
+[2025-08-28T01:50:08.829Z] 📊 SIMPLE: Character positions - Start: 44222, End: 47756
+[2025-08-28T01:50:08.829Z] ✅ SIMPLE: Extracted 3534 chars from pages 27-28
+[2025-08-28T01:50:08.830Z] 🎯 REFINEMENT: Attempting to refine section "The Indefinite Article" using title boundaries
+[2025-08-28T01:50:08.830Z] 🔍 DEBUG: pageBasedSection exists: true
+[2025-08-28T01:50:08.830Z] 🔍 DEBUG: section exists: true
+[2025-08-28T01:50:08.831Z] 🔍 DEBUG: section.title: "The Indefinite Article"
+[2025-08-28T01:50:08.831Z] 🔍 DEBUG: section.cleanTitle: "undefined"
+[2025-08-28T01:50:08.831Z] 🔍 DEBUG: nextSection exists: true
+[2025-08-28T01:50:08.831Z] 🔍 DEBUG: nextSection?.title: "The Definite Article"
+[2025-08-28T01:50:08.832Z] 🔍 DEBUG: nextSection?.cleanTitle: "undefined"
+[2025-08-28T01:50:08.832Z] 🔍 DEBUG: allPages count: 97
+[2025-08-28T01:50:08.832Z] ⚠️ REFINEMENT: cleanTitle missing or invalid, generating from title "The Indefinite Article"
+[2025-08-28T01:50:08.832Z] ✅ REFINEMENT: Generated cleanTitle: "The Indefinite Article"
+[2025-08-28T01:50:08.832Z] 🔍 DEBUG: Processing 97 pages for text extraction
+[2025-08-28T01:50:08.834Z] 🔍 DEBUG: Combined text length: 191915
+[2025-08-28T01:50:08.835Z] 🔍 SEARCH: Looking for "The Indefinite Article" in text starting from position 0
+[2025-08-28T01:50:08.835Z] 🔍 DEBUG: text exists: true, length: 191915
+[2025-08-28T01:50:08.836Z] 🔍 DEBUG: cleanTitle type: string, value: "The Indefinite Article"
+[2025-08-28T01:50:08.836Z] 🔍 DEBUG: startFrom: 0
+[2025-08-28T01:50:08.837Z] 🔍 DEBUG: normalizedTitle after regex: "The Indefinite Article"
+[2025-08-28T01:50:08.837Z] 🔍 SEARCH: Normalized title: "The Indefinite Article"
+[2025-08-28T01:50:08.838Z] 🔍 DEBUG: Split into chars: [t, h, e,  , i, n, d, e, f, i, n, i, t, e,  , a, r, t, i, c, l, e]
+[2025-08-28T01:50:08.838Z] 🔍 DEBUG: Generated variations: 50
+[2025-08-28T01:50:08.839Z] 🔍 SEARCH: Generated 50 space variations
+[2025-08-28T01:50:08.843Z] ❌ SEARCH: No match found for "The Indefinite Article"
+[2025-08-28T01:50:08.844Z] ⚠️ REFINEMENT: Could not find section title "The Indefinite Article" - keeping page-based extraction
+[2025-08-28T01:50:08.868Z] 📄 SIMPLE: Processing section 21/35: "The Definite Article" (pages 28-29)
+[2025-08-28T01:50:08.869Z] 📄 SIMPLE: Extracting section "The Definite Article" from pages 28-29
+[2025-08-28T01:50:08.869Z] ✅ SIMPLE: Extracted 2280 chars from 2 pages (28, 29)
+[2025-08-28T01:50:08.869Z] 📖 SIMPLE: Content preview: "Neodređeni član se koristi ispred imenskog dela predikata i profesija.
+I am a student. (Ja sam student.)
+The ugly duckling became a beautiful swan. (Ružno pače je postalo prelepi labud.)
+
+ODREĐENI..."
+[2025-08-28T01:50:08.870Z] 📊 SIMPLE: Character positions - Start: 46225, End: 48505
+[2025-08-28T01:50:08.870Z] ✅ SIMPLE: Extracted 2280 chars from pages 28-29
+[2025-08-28T01:50:08.871Z] 🎯 REFINEMENT: Attempting to refine section "The Definite Article" using title boundaries
+[2025-08-28T01:50:08.871Z] 🔍 DEBUG: pageBasedSection exists: true
+[2025-08-28T01:50:08.871Z] 🔍 DEBUG: section exists: true
+[2025-08-28T01:50:08.872Z] 🔍 DEBUG: section.title: "The Definite Article"
+[2025-08-28T01:50:08.872Z] 🔍 DEBUG: section.cleanTitle: "undefined"
+[2025-08-28T01:50:08.872Z] 🔍 DEBUG: nextSection exists: true
+[2025-08-28T01:50:08.873Z] 🔍 DEBUG: nextSection?.title: "No Article"
+[2025-08-28T01:50:08.873Z] 🔍 DEBUG: nextSection?.cleanTitle: "undefined"
+[2025-08-28T01:50:08.873Z] 🔍 DEBUG: allPages count: 97
+[2025-08-28T01:50:08.874Z] ⚠️ REFINEMENT: cleanTitle missing or invalid, generating from title "The Definite Article"
+[2025-08-28T01:50:08.874Z] ✅ REFINEMENT: Generated cleanTitle: "The Definite Article"
+[2025-08-28T01:50:08.874Z] 🔍 DEBUG: Processing 97 pages for text extraction
+[2025-08-28T01:50:08.876Z] 🔍 DEBUG: Combined text length: 191915
+[2025-08-28T01:50:08.876Z] 🔍 SEARCH: Looking for "The Definite Article" in text starting from position 0
+[2025-08-28T01:50:08.876Z] 🔍 DEBUG: text exists: true, length: 191915
+[2025-08-28T01:50:08.876Z] 🔍 DEBUG: cleanTitle type: string, value: "The Definite Article"
+[2025-08-28T01:50:08.877Z] 🔍 DEBUG: startFrom: 0
+[2025-08-28T01:50:08.877Z] 🔍 DEBUG: normalizedTitle after regex: "The Definite Article"
+[2025-08-28T01:50:08.877Z] 🔍 SEARCH: Normalized title: "The Definite Article"
+[2025-08-28T01:50:08.878Z] 🔍 DEBUG: Split into chars: [t, h, e,  , d, e, f, i, n, i, t, e,  , a, r, t, i, c, l, e]
+[2025-08-28T01:50:08.878Z] 🔍 DEBUG: Generated variations: 50
+[2025-08-28T01:50:08.879Z] 🔍 SEARCH: Generated 50 space variations
+[2025-08-28T01:50:08.887Z] ❌ SEARCH: No match found for "The Definite Article"
+[2025-08-28T01:50:08.887Z] ⚠️ REFINEMENT: Could not find section title "The Definite Article" - keeping page-based extraction
+[2025-08-28T01:50:08.910Z] 📄 SIMPLE: Processing section 22/35: "No Article" (pages 29-30)
+[2025-08-28T01:50:08.910Z] 📄 SIMPLE: Extracting section "No Article" from pages 29-30
+[2025-08-28T01:50:08.910Z] ✅ SIMPLE: Extracted 3258 chars from 2 pages (29, 30)
+[2025-08-28T01:50:08.911Z] 📖 SIMPLE: Content preview: "IZOSTAVLJANE ČLANA
+
+Član se ne koristi
+
+Sa imenicama u množini i nebrojivim imenicama kada govorimo uopšteno o nečemu
+
+Apples are very good for your health.
+We drink coffee and tea.
+
+Ispred i..."
+[2025-08-28T01:50:08.911Z] 📊 SIMPLE: Character positions - Start: 47758, End: 51016
+[2025-08-28T01:50:08.912Z] ✅ SIMPLE: Extracted 3258 chars from pages 29-30
+[2025-08-28T01:50:08.912Z] 🎯 REFINEMENT: Attempting to refine section "No Article" using title boundaries
+[2025-08-28T01:50:08.912Z] 🔍 DEBUG: pageBasedSection exists: true
+[2025-08-28T01:50:08.913Z] 🔍 DEBUG: section exists: true
+[2025-08-28T01:50:08.913Z] 🔍 DEBUG: section.title: "No Article"
+[2025-08-28T01:50:08.913Z] 🔍 DEBUG: section.cleanTitle: "undefined"
+[2025-08-28T01:50:08.913Z] 🔍 DEBUG: nextSection exists: true
+[2025-08-28T01:50:08.914Z] 🔍 DEBUG: nextSection?.title: "Verb Patterns"
+[2025-08-28T01:50:08.914Z] 🔍 DEBUG: nextSection?.cleanTitle: "undefined"
+[2025-08-28T01:50:08.914Z] 🔍 DEBUG: allPages count: 97
+[2025-08-28T01:50:08.914Z] ⚠️ REFINEMENT: cleanTitle missing or invalid, generating from title "No Article"
+[2025-08-28T01:50:08.914Z] ✅ REFINEMENT: Generated cleanTitle: "No Article"
+[2025-08-28T01:50:08.915Z] 🔍 DEBUG: Processing 97 pages for text extraction
+[2025-08-28T01:50:08.915Z] 🔍 DEBUG: Combined text length: 191915
+[2025-08-28T01:50:08.915Z] 🔍 SEARCH: Looking for "No Article" in text starting from position 0
+[2025-08-28T01:50:08.916Z] 🔍 DEBUG: text exists: true, length: 191915
+[2025-08-28T01:50:08.916Z] 🔍 DEBUG: cleanTitle type: string, value: "No Article"
+[2025-08-28T01:50:08.917Z] 🔍 DEBUG: startFrom: 0
+[2025-08-28T01:50:08.917Z] 🔍 DEBUG: normalizedTitle after regex: "No Article"
+[2025-08-28T01:50:08.918Z] 🔍 SEARCH: Normalized title: "No Article"
+[2025-08-28T01:50:08.919Z] 🔍 DEBUG: Split into chars: [n, o,  , a, r, t, i, c, l, e]
+[2025-08-28T01:50:08.920Z] 🔍 DEBUG: Generated variations: 30
+[2025-08-28T01:50:08.921Z] 🔍 SEARCH: Generated 30 space variations
+[2025-08-28T01:50:08.926Z] ❌ SEARCH: No match found for "No Article"
+[2025-08-28T01:50:08.926Z] ⚠️ REFINEMENT: Could not find section title "No Article" - keeping page-based extraction
+[2025-08-28T01:50:08.949Z] 📄 SIMPLE: Processing section 23/35: "Verb Patterns" (pages 30-30)
+[2025-08-28T01:50:08.949Z] 📄 SIMPLE: Extracting section "Verb Patterns" from pages 30-30
+[2025-08-28T01:50:08.949Z] ✅ SIMPLE: Extracted 2509 chars from 1 pages (30)
+[2025-08-28T01:50:08.952Z] 📖 SIMPLE: Content preview: "VERB PATTERNS (GLAGOLSKI OBRASCI)
+
+
+Određeni glagoli zahtevaju iza sebe gerund (glagolska osnova+nastavak -ing). Takvi glagoli
+su:
+
+love, like, hate, enjoy, prefer, detest, dislike kao i izrazi ..."
+[2025-08-28T01:50:08.954Z] 📊 SIMPLE: Character positions - Start: 48507, End: 51016
+[2025-08-28T01:50:08.955Z] ✅ SIMPLE: Extracted 2509 chars from pages 30-30
+[2025-08-28T01:50:08.955Z] 🎯 REFINEMENT: Attempting to refine section "Verb Patterns" using title boundaries
+[2025-08-28T01:50:08.955Z] 🔍 DEBUG: pageBasedSection exists: true
+[2025-08-28T01:50:08.956Z] 🔍 DEBUG: section exists: true
+[2025-08-28T01:50:08.956Z] 🔍 DEBUG: section.title: "Verb Patterns"
+[2025-08-28T01:50:08.956Z] 🔍 DEBUG: section.cleanTitle: "undefined"
+[2025-08-28T01:50:08.956Z] 🔍 DEBUG: nextSection exists: true
+[2025-08-28T01:50:08.957Z] 🔍 DEBUG: nextSection?.title: "Defining Relative Clauses"
+[2025-08-28T01:50:08.957Z] 🔍 DEBUG: nextSection?.cleanTitle: "undefined"
+[2025-08-28T01:50:08.957Z] 🔍 DEBUG: allPages count: 97
+[2025-08-28T01:50:08.958Z] ⚠️ REFINEMENT: cleanTitle missing or invalid, generating from title "Verb Patterns"
+[2025-08-28T01:50:08.958Z] ✅ REFINEMENT: Generated cleanTitle: "Verb Patterns"
+[2025-08-28T01:50:08.958Z] 🔍 DEBUG: Processing 97 pages for text extraction
+[2025-08-28T01:50:08.959Z] 🔍 DEBUG: Combined text length: 191915
+[2025-08-28T01:50:08.959Z] 🔍 SEARCH: Looking for "Verb Patterns" in text starting from position 0
+[2025-08-28T01:50:08.959Z] 🔍 DEBUG: text exists: true, length: 191915
+[2025-08-28T01:50:08.959Z] 🔍 DEBUG: cleanTitle type: string, value: "Verb Patterns"
+[2025-08-28T01:50:08.960Z] 🔍 DEBUG: startFrom: 0
+[2025-08-28T01:50:08.960Z] 🔍 DEBUG: normalizedTitle after regex: "Verb Patterns"
+[2025-08-28T01:50:08.960Z] 🔍 SEARCH: Normalized title: "Verb Patterns"
+[2025-08-28T01:50:08.962Z] ✅ SEARCH: Found exact match at position 48507
+[2025-08-28T01:50:08.962Z] ✅ REFINEMENT: Found section start at position 48507
+[2025-08-28T01:50:08.963Z] ⚠️ REFINEMENT: Generated cleanTitle for next section: "Defining Relative Clauses"
+[2025-08-28T01:50:08.963Z] 🔍 SEARCH: Looking for "Defining Relative Clauses" in text starting from position 48557
+[2025-08-28T01:50:08.963Z] 🔍 DEBUG: text exists: true, length: 191915
+[2025-08-28T01:50:08.964Z] 🔍 DEBUG: cleanTitle type: string, value: "Defining Relative Clauses"
+[2025-08-28T01:50:08.964Z] 🔍 DEBUG: startFrom: 48557
+[2025-08-28T01:50:08.964Z] 🔍 DEBUG: normalizedTitle after regex: "Defining Relative Clauses"
+[2025-08-28T01:50:08.964Z] 🔍 SEARCH: Normalized title: "Defining Relative Clauses"
+[2025-08-28T01:50:08.965Z] ✅ SEARCH: Found exact match at position 49506
+[2025-08-28T01:50:08.965Z] ✅ REFINEMENT: Found next section "Defining Relative Clauses" at position 49506
+[2025-08-28T01:50:08.965Z] ✅ REFINEMENT: Successfully refined - 989 chars, pages 29-30
+[2025-08-28T01:50:08.966Z] 🎯 ENHANCED: Refined section boundaries using title matching (989 chars)
+[2025-08-28T01:50:08.990Z] 📄 SIMPLE: Processing section 24/35: "Defining Relative Clauses" (pages 30-31)
+[2025-08-28T01:50:08.991Z] 📄 SIMPLE: Extracting section "Defining Relative Clauses" from pages 30-31
+[2025-08-28T01:50:08.991Z] ✅ SIMPLE: Extracted 5024 chars from 2 pages (30, 31)
+[2025-08-28T01:50:08.991Z] 📖 SIMPLE: Content preview: "VERB PATTERNS (GLAGOLSKI OBRASCI)
+
+
+Određeni glagoli zahtevaju iza sebe gerund (glagolska osnova+nastavak -ing). Takvi glagoli
+su:
+
+love, like, hate, enjoy, prefer, detest, dislike kao i izrazi ..."
+[2025-08-28T01:50:08.992Z] 📊 SIMPLE: Character positions - Start: 48507, End: 53531
+[2025-08-28T01:50:08.992Z] ✅ SIMPLE: Extracted 5024 chars from pages 30-31
+[2025-08-28T01:50:08.992Z] 🎯 REFINEMENT: Attempting to refine section "Defining Relative Clauses" using title boundaries
+[2025-08-28T01:50:08.992Z] 🔍 DEBUG: pageBasedSection exists: true
+[2025-08-28T01:50:08.993Z] 🔍 DEBUG: section exists: true
+[2025-08-28T01:50:08.993Z] 🔍 DEBUG: section.title: "Defining Relative Clauses"
+[2025-08-28T01:50:08.993Z] 🔍 DEBUG: section.cleanTitle: "undefined"
+[2025-08-28T01:50:08.993Z] 🔍 DEBUG: nextSection exists: true
+[2025-08-28T01:50:08.993Z] 🔍 DEBUG: nextSection?.title: "Reported Speech"
+[2025-08-28T01:50:08.994Z] 🔍 DEBUG: nextSection?.cleanTitle: "undefined"
+[2025-08-28T01:50:08.994Z] 🔍 DEBUG: allPages count: 97
+[2025-08-28T01:50:08.994Z] ⚠️ REFINEMENT: cleanTitle missing or invalid, generating from title "Defining Relative Clauses"
+[2025-08-28T01:50:08.994Z] ✅ REFINEMENT: Generated cleanTitle: "Defining Relative Clauses"
+[2025-08-28T01:50:08.994Z] 🔍 DEBUG: Processing 97 pages for text extraction
+[2025-08-28T01:50:08.995Z] 🔍 DEBUG: Combined text length: 191915
+[2025-08-28T01:50:08.995Z] 🔍 SEARCH: Looking for "Defining Relative Clauses" in text starting from position 0
+[2025-08-28T01:50:08.995Z] 🔍 DEBUG: text exists: true, length: 191915
+[2025-08-28T01:50:08.995Z] 🔍 DEBUG: cleanTitle type: string, value: "Defining Relative Clauses"
+[2025-08-28T01:50:08.996Z] 🔍 DEBUG: startFrom: 0
+[2025-08-28T01:50:08.996Z] 🔍 DEBUG: normalizedTitle after regex: "Defining Relative Clauses"
+[2025-08-28T01:50:08.996Z] 🔍 SEARCH: Normalized title: "Defining Relative Clauses"
+[2025-08-28T01:50:08.997Z] ✅ SEARCH: Found exact match at position 49506
+[2025-08-28T01:50:08.997Z] ✅ REFINEMENT: Found section start at position 49506
+[2025-08-28T01:50:08.997Z] ⚠️ REFINEMENT: Generated cleanTitle for next section: "Reported Speech"
+[2025-08-28T01:50:08.997Z] 🔍 SEARCH: Looking for "Reported Speech" in text starting from position 49556
+[2025-08-28T01:50:08.997Z] 🔍 DEBUG: text exists: true, length: 191915
+[2025-08-28T01:50:08.997Z] 🔍 DEBUG: cleanTitle type: string, value: "Reported Speech"
+[2025-08-28T01:50:08.998Z] 🔍 DEBUG: startFrom: 49556
+[2025-08-28T01:50:08.998Z] 🔍 DEBUG: normalizedTitle after regex: "Reported Speech"
+[2025-08-28T01:50:08.998Z] 🔍 SEARCH: Normalized title: "Reported Speech"
+[2025-08-28T01:50:08.998Z] ✅ SEARCH: Found exact match at position 51501
+[2025-08-28T01:50:08.999Z] ✅ REFINEMENT: Found next section "Reported Speech" at position 51501
+[2025-08-28T01:50:08.999Z] ✅ REFINEMENT: Successfully refined - 1985 chars, pages 30-31
+[2025-08-28T01:50:08.999Z] 🎯 ENHANCED: Refined section boundaries using title matching (1985 chars)
+[2025-08-28T01:50:09.023Z] 📄 SIMPLE: Processing section 25/35: "Reported Speech" (pages 31-31)
+[2025-08-28T01:50:09.024Z] 📄 SIMPLE: Extracting section "Reported Speech" from pages 31-31
+[2025-08-28T01:50:09.024Z] ✅ SIMPLE: Extracted 2513 chars from 1 pages (31)
+[2025-08-28T01:50:09.024Z] 📖 SIMPLE: Content preview: "ili u rečenici
+That is the dog that attacked me, that je takođe subjekat rečenice.
+Međutim, u rečenici
+The letter which she sent me was nice, which je objekat
+Ili u rečenici
+The man that I met ye..."
+[2025-08-28T01:50:09.025Z] 📊 SIMPLE: Character positions - Start: 51018, End: 53531
+[2025-08-28T01:50:09.025Z] ✅ SIMPLE: Extracted 2513 chars from pages 31-31
+[2025-08-28T01:50:09.025Z] 🎯 REFINEMENT: Attempting to refine section "Reported Speech" using title boundaries
+[2025-08-28T01:50:09.025Z] 🔍 DEBUG: pageBasedSection exists: true
+[2025-08-28T01:50:09.025Z] 🔍 DEBUG: section exists: true
+[2025-08-28T01:50:09.026Z] 🔍 DEBUG: section.title: "Reported Speech"
+[2025-08-28T01:50:09.026Z] 🔍 DEBUG: section.cleanTitle: "undefined"
+[2025-08-28T01:50:09.026Z] 🔍 DEBUG: nextSection exists: true
+[2025-08-28T01:50:09.026Z] 🔍 DEBUG: nextSection?.title: "Statements"
+[2025-08-28T01:50:09.027Z] 🔍 DEBUG: nextSection?.cleanTitle: "undefined"
+[2025-08-28T01:50:09.027Z] 🔍 DEBUG: allPages count: 97
+[2025-08-28T01:50:09.027Z] ⚠️ REFINEMENT: cleanTitle missing or invalid, generating from title "Reported Speech"
+[2025-08-28T01:50:09.027Z] ✅ REFINEMENT: Generated cleanTitle: "Reported Speech"
+[2025-08-28T01:50:09.027Z] 🔍 DEBUG: Processing 97 pages for text extraction
+[2025-08-28T01:50:09.029Z] 🔍 DEBUG: Combined text length: 191915
+[2025-08-28T01:50:09.029Z] 🔍 SEARCH: Looking for "Reported Speech" in text starting from position 0
+[2025-08-28T01:50:09.029Z] 🔍 DEBUG: text exists: true, length: 191915
+[2025-08-28T01:50:09.029Z] 🔍 DEBUG: cleanTitle type: string, value: "Reported Speech"
+[2025-08-28T01:50:09.029Z] 🔍 DEBUG: startFrom: 0
+[2025-08-28T01:50:09.030Z] 🔍 DEBUG: normalizedTitle after regex: "Reported Speech"
+[2025-08-28T01:50:09.030Z] 🔍 SEARCH: Normalized title: "Reported Speech"
+[2025-08-28T01:50:09.031Z] ✅ SEARCH: Found exact match at position 51501
+[2025-08-28T01:50:09.031Z] ✅ REFINEMENT: Found section start at position 51501
+[2025-08-28T01:50:09.031Z] ⚠️ REFINEMENT: Generated cleanTitle for next section: "Statements"
+[2025-08-28T01:50:09.031Z] 🔍 SEARCH: Looking for "Statements" in text starting from position 51551
+[2025-08-28T01:50:09.031Z] 🔍 DEBUG: text exists: true, length: 191915
+[2025-08-28T01:50:09.032Z] 🔍 DEBUG: cleanTitle type: string, value: "Statements"
+[2025-08-28T01:50:09.032Z] 🔍 DEBUG: startFrom: 51551
+[2025-08-28T01:50:09.032Z] 🔍 DEBUG: normalizedTitle after regex: "Statements"
+[2025-08-28T01:50:09.032Z] 🔍 SEARCH: Normalized title: "Statements"
+[2025-08-28T01:50:09.033Z] ✅ SEARCH: Found exact match at position 52136
+[2025-08-28T01:50:09.035Z] ✅ REFINEMENT: Found next section "Statements" at position 52136
+[2025-08-28T01:50:09.036Z] ✅ REFINEMENT: Successfully refined - 629 chars, pages 31-31
+[2025-08-28T01:50:09.037Z] 🎯 ENHANCED: Refined section boundaries using title matching (629 chars)
+[2025-08-28T01:50:09.060Z] 📄 SIMPLE: Processing section 26/35: "Statements" (pages 31-32)
+[2025-08-28T01:50:09.060Z] 📄 SIMPLE: Extracting section "Statements" from pages 31-32
+[2025-08-28T01:50:09.060Z] ✅ SIMPLE: Extracted 4927 chars from 2 pages (31, 32)
+[2025-08-28T01:50:09.061Z] 📖 SIMPLE: Content preview: "ili u rečenici
+That is the dog that attacked me, that je takođe subjekat rečenice.
+Međutim, u rečenici
+The letter which she sent me was nice, which je objekat
+Ili u rečenici
+The man that I met ye..."
+[2025-08-28T01:50:09.061Z] 📊 SIMPLE: Character positions - Start: 51018, End: 55945
+[2025-08-28T01:50:09.062Z] ✅ SIMPLE: Extracted 4927 chars from pages 31-32
+[2025-08-28T01:50:09.062Z] 🎯 REFINEMENT: Attempting to refine section "Statements" using title boundaries
+[2025-08-28T01:50:09.062Z] 🔍 DEBUG: pageBasedSection exists: true
+[2025-08-28T01:50:09.062Z] 🔍 DEBUG: section exists: true
+[2025-08-28T01:50:09.063Z] 🔍 DEBUG: section.title: "Statements"
+[2025-08-28T01:50:09.063Z] 🔍 DEBUG: section.cleanTitle: "undefined"
+[2025-08-28T01:50:09.063Z] 🔍 DEBUG: nextSection exists: true
+[2025-08-28T01:50:09.063Z] 🔍 DEBUG: nextSection?.title: "Questions"
+[2025-08-28T01:50:09.063Z] 🔍 DEBUG: nextSection?.cleanTitle: "undefined"
+[2025-08-28T01:50:09.064Z] 🔍 DEBUG: allPages count: 97
+[2025-08-28T01:50:09.064Z] ⚠️ REFINEMENT: cleanTitle missing or invalid, generating from title "Statements"
+[2025-08-28T01:50:09.064Z] ✅ REFINEMENT: Generated cleanTitle: "Statements"
+[2025-08-28T01:50:09.064Z] 🔍 DEBUG: Processing 97 pages for text extraction
+[2025-08-28T01:50:09.065Z] 🔍 DEBUG: Combined text length: 191915
+[2025-08-28T01:50:09.065Z] 🔍 SEARCH: Looking for "Statements" in text starting from position 0
+[2025-08-28T01:50:09.065Z] 🔍 DEBUG: text exists: true, length: 191915
+[2025-08-28T01:50:09.065Z] 🔍 DEBUG: cleanTitle type: string, value: "Statements"
+[2025-08-28T01:50:09.066Z] 🔍 DEBUG: startFrom: 0
+[2025-08-28T01:50:09.066Z] 🔍 DEBUG: normalizedTitle after regex: "Statements"
+[2025-08-28T01:50:09.066Z] 🔍 SEARCH: Normalized title: "Statements"
+[2025-08-28T01:50:09.068Z] ✅ SEARCH: Found exact match at position 52136
+[2025-08-28T01:50:09.069Z] ✅ REFINEMENT: Found section start at position 52136
+[2025-08-28T01:50:09.069Z] ⚠️ REFINEMENT: Generated cleanTitle for next section: "Questions"
+[2025-08-28T01:50:09.069Z] 🔍 SEARCH: Looking for "Questions" in text starting from position 52186
+[2025-08-28T01:50:09.070Z] 🔍 DEBUG: text exists: true, length: 191915
+[2025-08-28T01:50:09.072Z] 🔍 DEBUG: cleanTitle type: string, value: "Questions"
+[2025-08-28T01:50:09.072Z] 🔍 DEBUG: startFrom: 52186
+[2025-08-28T01:50:09.072Z] 🔍 DEBUG: normalizedTitle after regex: "Questions"
+[2025-08-28T01:50:09.072Z] 🔍 SEARCH: Normalized title: "Questions"
+[2025-08-28T01:50:09.073Z] ✅ SEARCH: Found exact match at position 54727
+[2025-08-28T01:50:09.073Z] ✅ REFINEMENT: Found next section "Questions" at position 54727
+[2025-08-28T01:50:09.073Z] ✅ REFINEMENT: Successfully refined - 2585 chars, pages 31-32
+[2025-08-28T01:50:09.073Z] 🎯 ENHANCED: Refined section boundaries using title matching (2585 chars)
+[2025-08-28T01:50:09.096Z] 📄 SIMPLE: Processing section 27/35: "Questions" (pages 32-33)
+[2025-08-28T01:50:09.096Z] 📄 SIMPLE: Extracting section "Questions" from pages 32-33
+[2025-08-28T01:50:09.096Z] ✅ SIMPLE: Extracted 4788 chars from 2 pages (32, 33)
+[2025-08-28T01:50:09.097Z] 📖 SIMPLE: Content preview: "Evo do kojih promena u vremenima dolazi pri slaganju vremena.
+
+Present Simple Tense prelazi u Past Simple Tense
+Present Continuous Tense prelazi u Past Continuous Tense
+Present Perfect Tense prela..."
+[2025-08-28T01:50:09.097Z] 📊 SIMPLE: Character positions - Start: 53533, End: 58321
+[2025-08-28T01:50:09.097Z] ✅ SIMPLE: Extracted 4788 chars from pages 32-33
+[2025-08-28T01:50:09.098Z] 🎯 REFINEMENT: Attempting to refine section "Questions" using title boundaries
+[2025-08-28T01:50:09.098Z] 🔍 DEBUG: pageBasedSection exists: true
+[2025-08-28T01:50:09.098Z] 🔍 DEBUG: section exists: true
+[2025-08-28T01:50:09.099Z] 🔍 DEBUG: section.title: "Questions"
+[2025-08-28T01:50:09.099Z] 🔍 DEBUG: section.cleanTitle: "undefined"
+[2025-08-28T01:50:09.099Z] 🔍 DEBUG: nextSection exists: true
+[2025-08-28T01:50:09.099Z] 🔍 DEBUG: nextSection?.title: "Orders"
+[2025-08-28T01:50:09.100Z] 🔍 DEBUG: nextSection?.cleanTitle: "undefined"
+[2025-08-28T01:50:09.100Z] 🔍 DEBUG: allPages count: 97
+[2025-08-28T01:50:09.102Z] ⚠️ REFINEMENT: cleanTitle missing or invalid, generating from title "Questions"
+[2025-08-28T01:50:09.102Z] ✅ REFINEMENT: Generated cleanTitle: "Questions"
+[2025-08-28T01:50:09.102Z] 🔍 DEBUG: Processing 97 pages for text extraction
+[2025-08-28T01:50:09.105Z] 🔍 DEBUG: Combined text length: 191915
+[2025-08-28T01:50:09.105Z] 🔍 SEARCH: Looking for "Questions" in text starting from position 0
+[2025-08-28T01:50:09.105Z] 🔍 DEBUG: text exists: true, length: 191915
+[2025-08-28T01:50:09.105Z] 🔍 DEBUG: cleanTitle type: string, value: "Questions"
+[2025-08-28T01:50:09.106Z] 🔍 DEBUG: startFrom: 0
+[2025-08-28T01:50:09.106Z] 🔍 DEBUG: normalizedTitle after regex: "Questions"
+[2025-08-28T01:50:09.106Z] 🔍 SEARCH: Normalized title: "Questions"
+[2025-08-28T01:50:09.107Z] ✅ SEARCH: Found exact match at position 1775
+[2025-08-28T01:50:09.107Z] ✅ REFINEMENT: Found section start at position 1775
+[2025-08-28T01:50:09.107Z] ⚠️ REFINEMENT: Generated cleanTitle for next section: "Orders"
+[2025-08-28T01:50:09.108Z] 🔍 SEARCH: Looking for "Orders" in text starting from position 1825
+[2025-08-28T01:50:09.108Z] 🔍 DEBUG: text exists: true, length: 191915
+[2025-08-28T01:50:09.108Z] 🔍 DEBUG: cleanTitle type: string, value: "Orders"
+[2025-08-28T01:50:09.108Z] 🔍 DEBUG: startFrom: 1825
+[2025-08-28T01:50:09.108Z] 🔍 DEBUG: normalizedTitle after regex: "Orders"
+[2025-08-28T01:50:09.109Z] 🔍 SEARCH: Normalized title: "Orders"
+[2025-08-28T01:50:09.110Z] ✅ SEARCH: Found exact match at position 56320
+[2025-08-28T01:50:09.110Z] ✅ REFINEMENT: Found next section "Orders" at position 56320
+[2025-08-28T01:50:09.110Z] ✅ REFINEMENT: Successfully refined - 54539 chars, pages 4-33
+[2025-08-28T01:50:09.110Z] 🎯 ENHANCED: Refined section boundaries using title matching (54539 chars)
+[2025-08-28T01:50:09.110Z] 📄 Splitting section "Questions" (54539 chars) for embedding
+[2025-08-28T01:50:09.110Z] 📄 Split "Questions" into 7 embedding-safe parts
+[2025-08-28T01:50:09.111Z] 📄 Split section "Questions" into 7 parts for embedding
+[2025-08-28T01:50:09.134Z] 📄 SIMPLE: Processing section 28/35: "Orders" (pages 33-33)
+[2025-08-28T01:50:09.134Z] 📄 SIMPLE: Extracting section "Orders" from pages 33-33
+[2025-08-28T01:50:09.135Z] ✅ SIMPLE: Extracted 2374 chars from 1 pages (33)
+[2025-08-28T01:50:09.135Z] 📖 SIMPLE: Content preview: "Ako se radi o Wh-pitanjima if nije potrebno. Wh- pitanja počinju upitnim rečima when,
+which, who, why...
+
+Ivana: ”Where does Mary live?” (Ivana: ”Gde živi Meri?”)
+Ivana asked where Mary lived. (Iv..."
+[2025-08-28T01:50:09.136Z] 📊 SIMPLE: Character positions - Start: 55947, End: 58321
+[2025-08-28T01:50:09.136Z] ✅ SIMPLE: Extracted 2374 chars from pages 33-33
+[2025-08-28T01:50:09.137Z] 🎯 REFINEMENT: Attempting to refine section "Orders" using title boundaries
+[2025-08-28T01:50:09.138Z] 🔍 DEBUG: pageBasedSection exists: true
+[2025-08-28T01:50:09.138Z] 🔍 DEBUG: section exists: true
+[2025-08-28T01:50:09.138Z] 🔍 DEBUG: section.title: "Orders"
+[2025-08-28T01:50:09.138Z] 🔍 DEBUG: section.cleanTitle: "undefined"
+[2025-08-28T01:50:09.138Z] 🔍 DEBUG: nextSection exists: true
+[2025-08-28T01:50:09.139Z] 🔍 DEBUG: nextSection?.title: "Conditional Sentences"
+[2025-08-28T01:50:09.139Z] 🔍 DEBUG: nextSection?.cleanTitle: "undefined"
+[2025-08-28T01:50:09.139Z] 🔍 DEBUG: allPages count: 97
+[2025-08-28T01:50:09.140Z] ⚠️ REFINEMENT: cleanTitle missing or invalid, generating from title "Orders"
+[2025-08-28T01:50:09.140Z] ✅ REFINEMENT: Generated cleanTitle: "Orders"
+[2025-08-28T01:50:09.140Z] 🔍 DEBUG: Processing 97 pages for text extraction
+[2025-08-28T01:50:09.140Z] 🔍 DEBUG: Combined text length: 191915
+[2025-08-28T01:50:09.141Z] 🔍 SEARCH: Looking for "Orders" in text starting from position 0
+[2025-08-28T01:50:09.141Z] 🔍 DEBUG: text exists: true, length: 191915
+[2025-08-28T01:50:09.141Z] 🔍 DEBUG: cleanTitle type: string, value: "Orders"
+[2025-08-28T01:50:09.141Z] 🔍 DEBUG: startFrom: 0
+[2025-08-28T01:50:09.142Z] 🔍 DEBUG: normalizedTitle after regex: "Orders"
+[2025-08-28T01:50:09.142Z] 🔍 SEARCH: Normalized title: "Orders"
+[2025-08-28T01:50:09.143Z] ✅ SEARCH: Found exact match at position 56320
+[2025-08-28T01:50:09.143Z] ✅ REFINEMENT: Found section start at position 56320
+[2025-08-28T01:50:09.143Z] ⚠️ REFINEMENT: Generated cleanTitle for next section: "Conditional Sentences"
+[2025-08-28T01:50:09.143Z] 🔍 SEARCH: Looking for "Conditional Sentences" in text starting from position 56370
+[2025-08-28T01:50:09.143Z] 🔍 DEBUG: text exists: true, length: 191915
+[2025-08-28T01:50:09.143Z] 🔍 DEBUG: cleanTitle type: string, value: "Conditional Sentences"
+[2025-08-28T01:50:09.144Z] 🔍 DEBUG: startFrom: 56370
+[2025-08-28T01:50:09.144Z] 🔍 DEBUG: normalizedTitle after regex: "Conditional Sentences"
+[2025-08-28T01:50:09.144Z] 🔍 SEARCH: Normalized title: "Conditional Sentences"
+[2025-08-28T01:50:09.144Z] ✅ SEARCH: Found exact match at position 57399
+[2025-08-28T01:50:09.144Z] ✅ REFINEMENT: Found next section "Conditional Sentences" at position 57399
+[2025-08-28T01:50:09.145Z] ✅ REFINEMENT: Successfully refined - 1069 chars, pages 33-33
+[2025-08-28T01:50:09.145Z] 🎯 ENHANCED: Refined section boundaries using title matching (1069 chars)
+[2025-08-28T01:50:09.168Z] 📄 SIMPLE: Processing section 29/35: "Conditional Sentences" (pages 33-33)
+[2025-08-28T01:50:09.169Z] 📄 SIMPLE: Extracting section "Conditional Sentences" from pages 33-33
+[2025-08-28T01:50:09.170Z] ✅ SIMPLE: Extracted 2374 chars from 1 pages (33)
+[2025-08-28T01:50:09.170Z] 📖 SIMPLE: Content preview: "Ako se radi o Wh-pitanjima if nije potrebno. Wh- pitanja počinju upitnim rečima when,
+which, who, why...
+
+Ivana: ”Where does Mary live?” (Ivana: ”Gde živi Meri?”)
+Ivana asked where Mary lived. (Iv..."
+[2025-08-28T01:50:09.171Z] 📊 SIMPLE: Character positions - Start: 55947, End: 58321
+[2025-08-28T01:50:09.171Z] ✅ SIMPLE: Extracted 2374 chars from pages 33-33
+[2025-08-28T01:50:09.172Z] 🎯 REFINEMENT: Attempting to refine section "Conditional Sentences" using title boundaries
+[2025-08-28T01:50:09.172Z] 🔍 DEBUG: pageBasedSection exists: true
+[2025-08-28T01:50:09.172Z] 🔍 DEBUG: section exists: true
+[2025-08-28T01:50:09.172Z] 🔍 DEBUG: section.title: "Conditional Sentences"
+[2025-08-28T01:50:09.173Z] 🔍 DEBUG: section.cleanTitle: "undefined"
+[2025-08-28T01:50:09.173Z] 🔍 DEBUG: nextSection exists: true
+[2025-08-28T01:50:09.173Z] 🔍 DEBUG: nextSection?.title: "The First Conditional"
+[2025-08-28T01:50:09.173Z] 🔍 DEBUG: nextSection?.cleanTitle: "undefined"
+[2025-08-28T01:50:09.174Z] 🔍 DEBUG: allPages count: 97
+[2025-08-28T01:50:09.174Z] ⚠️ REFINEMENT: cleanTitle missing or invalid, generating from title "Conditional Sentences"
+[2025-08-28T01:50:09.174Z] ✅ REFINEMENT: Generated cleanTitle: "Conditional Sentences"
+[2025-08-28T01:50:09.174Z] 🔍 DEBUG: Processing 97 pages for text extraction
+[2025-08-28T01:50:09.174Z] 🔍 DEBUG: Combined text length: 191915
+[2025-08-28T01:50:09.175Z] 🔍 SEARCH: Looking for "Conditional Sentences" in text starting from position 0
+[2025-08-28T01:50:09.175Z] 🔍 DEBUG: text exists: true, length: 191915
+[2025-08-28T01:50:09.175Z] 🔍 DEBUG: cleanTitle type: string, value: "Conditional Sentences"
+[2025-08-28T01:50:09.175Z] 🔍 DEBUG: startFrom: 0
+[2025-08-28T01:50:09.175Z] 🔍 DEBUG: normalizedTitle after regex: "Conditional Sentences"
+[2025-08-28T01:50:09.175Z] 🔍 SEARCH: Normalized title: "Conditional Sentences"
+[2025-08-28T01:50:09.176Z] ✅ SEARCH: Found exact match at position 57399
+[2025-08-28T01:50:09.176Z] ✅ REFINEMENT: Found section start at position 57399
+[2025-08-28T01:50:09.176Z] ⚠️ REFINEMENT: Generated cleanTitle for next section: "The First Conditional"
+[2025-08-28T01:50:09.177Z] 🔍 SEARCH: Looking for "The First Conditional" in text starting from position 57449
+[2025-08-28T01:50:09.177Z] 🔍 DEBUG: text exists: true, length: 191915
+[2025-08-28T01:50:09.177Z] 🔍 DEBUG: cleanTitle type: string, value: "The First Conditional"
+[2025-08-28T01:50:09.177Z] 🔍 DEBUG: startFrom: 57449
+[2025-08-28T01:50:09.177Z] 🔍 DEBUG: normalizedTitle after regex: "The First Conditional"
+[2025-08-28T01:50:09.177Z] 🔍 SEARCH: Normalized title: "The First Conditional"
+[2025-08-28T01:50:09.178Z] ✅ SEARCH: Found exact match at position 57666
+[2025-08-28T01:50:09.178Z] ✅ REFINEMENT: Found next section "The First Conditional" at position 57666
+[2025-08-28T01:50:09.178Z] ✅ REFINEMENT: Successfully refined - 263 chars, pages 33-33
+[2025-08-28T01:50:09.178Z] 🎯 ENHANCED: Refined section boundaries using title matching (263 chars)
+[2025-08-28T01:50:09.202Z] 📄 SIMPLE: Processing section 30/35: "The First Conditional" (pages 33-34)
+[2025-08-28T01:50:09.202Z] 📄 SIMPLE: Extracting section "The First Conditional" from pages 33-34
+[2025-08-28T01:50:09.202Z] ✅ SIMPLE: Extracted 5061 chars from 2 pages (33, 34)
+[2025-08-28T01:50:09.203Z] 📖 SIMPLE: Content preview: "Ako se radi o Wh-pitanjima if nije potrebno. Wh- pitanja počinju upitnim rečima when,
+which, who, why...
+
+Ivana: ”Where does Mary live?” (Ivana: ”Gde živi Meri?”)
+Ivana asked where Mary lived. (Iv..."
+[2025-08-28T01:50:09.204Z] 📊 SIMPLE: Character positions - Start: 55947, End: 61008
+[2025-08-28T01:50:09.205Z] ✅ SIMPLE: Extracted 5061 chars from pages 33-34
+[2025-08-28T01:50:09.205Z] 🎯 REFINEMENT: Attempting to refine section "The First Conditional" using title boundaries
+[2025-08-28T01:50:09.205Z] 🔍 DEBUG: pageBasedSection exists: true
+[2025-08-28T01:50:09.205Z] 🔍 DEBUG: section exists: true
+[2025-08-28T01:50:09.205Z] 🔍 DEBUG: section.title: "The First Conditional"
+[2025-08-28T01:50:09.206Z] 🔍 DEBUG: section.cleanTitle: "undefined"
+[2025-08-28T01:50:09.206Z] 🔍 DEBUG: nextSection exists: true
+[2025-08-28T01:50:09.206Z] 🔍 DEBUG: nextSection?.title: "The Second Conditional"
+[2025-08-28T01:50:09.206Z] 🔍 DEBUG: nextSection?.cleanTitle: "undefined"
+[2025-08-28T01:50:09.207Z] 🔍 DEBUG: allPages count: 97
+[2025-08-28T01:50:09.207Z] ⚠️ REFINEMENT: cleanTitle missing or invalid, generating from title "The First Conditional"
+[2025-08-28T01:50:09.207Z] ✅ REFINEMENT: Generated cleanTitle: "The First Conditional"
+[2025-08-28T01:50:09.207Z] 🔍 DEBUG: Processing 97 pages for text extraction
+[2025-08-28T01:50:09.208Z] 🔍 DEBUG: Combined text length: 191915
+[2025-08-28T01:50:09.208Z] 🔍 SEARCH: Looking for "The First Conditional" in text starting from position 0
+[2025-08-28T01:50:09.208Z] 🔍 DEBUG: text exists: true, length: 191915
+[2025-08-28T01:50:09.208Z] 🔍 DEBUG: cleanTitle type: string, value: "The First Conditional"
+[2025-08-28T01:50:09.209Z] 🔍 DEBUG: startFrom: 0
+[2025-08-28T01:50:09.209Z] 🔍 DEBUG: normalizedTitle after regex: "The First Conditional"
+[2025-08-28T01:50:09.209Z] 🔍 SEARCH: Normalized title: "The First Conditional"
+[2025-08-28T01:50:09.210Z] ✅ SEARCH: Found exact match at position 57666
+[2025-08-28T01:50:09.210Z] ✅ REFINEMENT: Found section start at position 57666
+[2025-08-28T01:50:09.210Z] ⚠️ REFINEMENT: Generated cleanTitle for next section: "The Second Conditional"
+[2025-08-28T01:50:09.211Z] 🔍 SEARCH: Looking for "The Second Conditional" in text starting from position 57716
+[2025-08-28T01:50:09.211Z] 🔍 DEBUG: text exists: true, length: 191915
+[2025-08-28T01:50:09.211Z] 🔍 DEBUG: cleanTitle type: string, value: "The Second Conditional"
+[2025-08-28T01:50:09.211Z] 🔍 DEBUG: startFrom: 57716
+[2025-08-28T01:50:09.211Z] 🔍 DEBUG: normalizedTitle after regex: "The Second Conditional"
+[2025-08-28T01:50:09.211Z] 🔍 SEARCH: Normalized title: "The Second Conditional"
+[2025-08-28T01:50:09.213Z] ✅ SEARCH: Found exact match at position 59024
+[2025-08-28T01:50:09.213Z] ✅ REFINEMENT: Found next section "The Second Conditional" at position 59024
+[2025-08-28T01:50:09.213Z] ✅ REFINEMENT: Successfully refined - 1352 chars, pages 33-34
+[2025-08-28T01:50:09.213Z] 🎯 ENHANCED: Refined section boundaries using title matching (1352 chars)
+[2025-08-28T01:50:09.242Z] 📄 SIMPLE: Processing section 31/35: "The Second Conditional" (pages 34-34)
+[2025-08-28T01:50:09.242Z] 📄 SIMPLE: Extracting section "The Second Conditional" from pages 34-34
+[2025-08-28T01:50:09.242Z] ✅ SIMPLE: Extracted 2685 chars from 1 pages (34)
+[2025-08-28T01:50:09.242Z] 📖 SIMPLE: Content preview: "Kao varijacije prvog kondicionala javljaju se sledeće izmene.
+
+Umesto oblika will+infinitiv mogu se javiti ostali modalni glagoli sa infinitivom.
+
+If you want to lose weight, you should/must eat l..."
+[2025-08-28T01:50:09.243Z] 📊 SIMPLE: Character positions - Start: 58323, End: 61008
+[2025-08-28T01:50:09.243Z] ✅ SIMPLE: Extracted 2685 chars from pages 34-34
+[2025-08-28T01:50:09.243Z] 🎯 REFINEMENT: Attempting to refine section "The Second Conditional" using title boundaries
+[2025-08-28T01:50:09.243Z] 🔍 DEBUG: pageBasedSection exists: true
+[2025-08-28T01:50:09.244Z] 🔍 DEBUG: section exists: true
+[2025-08-28T01:50:09.244Z] 🔍 DEBUG: section.title: "The Second Conditional"
+[2025-08-28T01:50:09.244Z] 🔍 DEBUG: section.cleanTitle: "undefined"
+[2025-08-28T01:50:09.244Z] 🔍 DEBUG: nextSection exists: true
+[2025-08-28T01:50:09.244Z] 🔍 DEBUG: nextSection?.title: "The Third Conditional"
+[2025-08-28T01:50:09.245Z] 🔍 DEBUG: nextSection?.cleanTitle: "undefined"
+[2025-08-28T01:50:09.245Z] 🔍 DEBUG: allPages count: 97
+[2025-08-28T01:50:09.245Z] ⚠️ REFINEMENT: cleanTitle missing or invalid, generating from title "The Second Conditional"
+[2025-08-28T01:50:09.245Z] ✅ REFINEMENT: Generated cleanTitle: "The Second Conditional"
+[2025-08-28T01:50:09.245Z] 🔍 DEBUG: Processing 97 pages for text extraction
+[2025-08-28T01:50:09.246Z] 🔍 DEBUG: Combined text length: 191915
+[2025-08-28T01:50:09.246Z] 🔍 SEARCH: Looking for "The Second Conditional" in text starting from position 0
+[2025-08-28T01:50:09.246Z] 🔍 DEBUG: text exists: true, length: 191915
+[2025-08-28T01:50:09.246Z] 🔍 DEBUG: cleanTitle type: string, value: "The Second Conditional"
+[2025-08-28T01:50:09.246Z] 🔍 DEBUG: startFrom: 0
+[2025-08-28T01:50:09.247Z] 🔍 DEBUG: normalizedTitle after regex: "The Second Conditional"
+[2025-08-28T01:50:09.247Z] 🔍 SEARCH: Normalized title: "The Second Conditional"
+[2025-08-28T01:50:09.247Z] ✅ SEARCH: Found exact match at position 59024
+[2025-08-28T01:50:09.247Z] ✅ REFINEMENT: Found section start at position 59024
+[2025-08-28T01:50:09.248Z] ⚠️ REFINEMENT: Generated cleanTitle for next section: "The Third Conditional"
+[2025-08-28T01:50:09.248Z] 🔍 SEARCH: Looking for "The Third Conditional" in text starting from position 59074
+[2025-08-28T01:50:09.248Z] 🔍 DEBUG: text exists: true, length: 191915
+[2025-08-28T01:50:09.248Z] 🔍 DEBUG: cleanTitle type: string, value: "The Third Conditional"
+[2025-08-28T01:50:09.248Z] 🔍 DEBUG: startFrom: 59074
+[2025-08-28T01:50:09.248Z] 🔍 DEBUG: normalizedTitle after regex: "The Third Conditional"
+[2025-08-28T01:50:09.248Z] 🔍 SEARCH: Normalized title: "The Third Conditional"
+[2025-08-28T01:50:09.249Z] ✅ SEARCH: Found exact match at position 59960
+[2025-08-28T01:50:09.249Z] ✅ REFINEMENT: Found next section "The Third Conditional" at position 59960
+[2025-08-28T01:50:09.249Z] ✅ REFINEMENT: Successfully refined - 930 chars, pages 34-34
+[2025-08-28T01:50:09.249Z] 🎯 ENHANCED: Refined section boundaries using title matching (930 chars)
+[2025-08-28T01:50:09.273Z] 📄 SIMPLE: Processing section 32/35: "The Third Conditional" (pages 34-35)
+[2025-08-28T01:50:09.273Z] 📄 SIMPLE: Extracting section "The Third Conditional" from pages 34-35
+[2025-08-28T01:50:09.274Z] ✅ SIMPLE: Extracted 4733 chars from 2 pages (34, 35)
+[2025-08-28T01:50:09.274Z] 📖 SIMPLE: Content preview: "Kao varijacije prvog kondicionala javljaju se sledeće izmene.
+
+Umesto oblika will+infinitiv mogu se javiti ostali modalni glagoli sa infinitivom.
+
+If you want to lose weight, you should/must eat l..."
+[2025-08-28T01:50:09.274Z] 📊 SIMPLE: Character positions - Start: 58323, End: 63056
+[2025-08-28T01:50:09.275Z] ✅ SIMPLE: Extracted 4733 chars from pages 34-35
+[2025-08-28T01:50:09.275Z] 🎯 REFINEMENT: Attempting to refine section "The Third Conditional" using title boundaries
+[2025-08-28T01:50:09.275Z] 🔍 DEBUG: pageBasedSection exists: true
+[2025-08-28T01:50:09.275Z] 🔍 DEBUG: section exists: true
+[2025-08-28T01:50:09.275Z] 🔍 DEBUG: section.title: "The Third Conditional"
+[2025-08-28T01:50:09.276Z] 🔍 DEBUG: section.cleanTitle: "undefined"
+[2025-08-28T01:50:09.276Z] 🔍 DEBUG: nextSection exists: true
+[2025-08-28T01:50:09.276Z] 🔍 DEBUG: nextSection?.title: "The Passive Voice"
+[2025-08-28T01:50:09.276Z] 🔍 DEBUG: nextSection?.cleanTitle: "undefined"
+[2025-08-28T01:50:09.276Z] 🔍 DEBUG: allPages count: 97
+[2025-08-28T01:50:09.277Z] ⚠️ REFINEMENT: cleanTitle missing or invalid, generating from title "The Third Conditional"
+[2025-08-28T01:50:09.277Z] ✅ REFINEMENT: Generated cleanTitle: "The Third Conditional"
+[2025-08-28T01:50:09.277Z] 🔍 DEBUG: Processing 97 pages for text extraction
+[2025-08-28T01:50:09.277Z] 🔍 DEBUG: Combined text length: 191915
+[2025-08-28T01:50:09.277Z] 🔍 SEARCH: Looking for "The Third Conditional" in text starting from position 0
+[2025-08-28T01:50:09.278Z] 🔍 DEBUG: text exists: true, length: 191915
+[2025-08-28T01:50:09.278Z] 🔍 DEBUG: cleanTitle type: string, value: "The Third Conditional"
+[2025-08-28T01:50:09.278Z] 🔍 DEBUG: startFrom: 0
+[2025-08-28T01:50:09.278Z] 🔍 DEBUG: normalizedTitle after regex: "The Third Conditional"
+[2025-08-28T01:50:09.278Z] 🔍 SEARCH: Normalized title: "The Third Conditional"
+[2025-08-28T01:50:09.279Z] ✅ SEARCH: Found exact match at position 59960
+[2025-08-28T01:50:09.279Z] ✅ REFINEMENT: Found section start at position 59960
+[2025-08-28T01:50:09.279Z] ⚠️ REFINEMENT: Generated cleanTitle for next section: "The Passive Voice"
+[2025-08-28T01:50:09.279Z] 🔍 SEARCH: Looking for "The Passive Voice" in text starting from position 60010
+[2025-08-28T01:50:09.280Z] 🔍 DEBUG: text exists: true, length: 191915
+[2025-08-28T01:50:09.280Z] 🔍 DEBUG: cleanTitle type: string, value: "The Passive Voice"
+[2025-08-28T01:50:09.280Z] 🔍 DEBUG: startFrom: 60010
+[2025-08-28T01:50:09.280Z] 🔍 DEBUG: normalizedTitle after regex: "The Passive Voice"
+[2025-08-28T01:50:09.280Z] 🔍 SEARCH: Normalized title: "The Passive Voice"
+[2025-08-28T01:50:09.281Z] ✅ SEARCH: Found exact match at position 61292
+[2025-08-28T01:50:09.281Z] ✅ REFINEMENT: Found next section "The Passive Voice" at position 61292
+[2025-08-28T01:50:09.281Z] ✅ REFINEMENT: Successfully refined - 1322 chars, pages 34-35
+[2025-08-28T01:50:09.281Z] 🎯 ENHANCED: Refined section boundaries using title matching (1322 chars)
+[2025-08-28T01:50:09.304Z] 📄 SIMPLE: Processing section 33/35: "The Passive Voice" (pages 35-37)
+[2025-08-28T01:50:09.304Z] 📄 SIMPLE: Extracting section "The Passive Voice" from pages 35-37
+[2025-08-28T01:50:09.304Z] ✅ SIMPLE: Extracted 4523 chars from 3 pages (35, 36, 37)
+[2025-08-28T01:50:09.305Z] 📖 SIMPLE: Content preview: "U uslovnoj rečenici se takođe mogu javiti neke varijacije. Umesto Past Perfect Tense-a može se
+javiti Past Perfect Continuous Tense.
+If we had been travelling by car, the accident might not have hap..."
+[2025-08-28T01:50:09.305Z] 📊 SIMPLE: Character positions - Start: 61010, End: 65533
+[2025-08-28T01:50:09.305Z] ✅ SIMPLE: Extracted 4523 chars from pages 35-37
+[2025-08-28T01:50:09.305Z] 🎯 REFINEMENT: Attempting to refine section "The Passive Voice" using title boundaries
+[2025-08-28T01:50:09.306Z] 🔍 DEBUG: pageBasedSection exists: true
+[2025-08-28T01:50:09.306Z] 🔍 DEBUG: section exists: true
+[2025-08-28T01:50:09.306Z] 🔍 DEBUG: section.title: "The Passive Voice"
+[2025-08-28T01:50:09.306Z] 🔍 DEBUG: section.cleanTitle: "undefined"
+[2025-08-28T01:50:09.306Z] 🔍 DEBUG: nextSection exists: true
+[2025-08-28T01:50:09.307Z] 🔍 DEBUG: nextSection?.title: "Exercises"
+[2025-08-28T01:50:09.307Z] 🔍 DEBUG: nextSection?.cleanTitle: "undefined"
+[2025-08-28T01:50:09.307Z] 🔍 DEBUG: allPages count: 97
+[2025-08-28T01:50:09.307Z] ⚠️ REFINEMENT: cleanTitle missing or invalid, generating from title "The Passive Voice"
+[2025-08-28T01:50:09.308Z] ✅ REFINEMENT: Generated cleanTitle: "The Passive Voice"
+[2025-08-28T01:50:09.308Z] 🔍 DEBUG: Processing 97 pages for text extraction
+[2025-08-28T01:50:09.308Z] 🔍 DEBUG: Combined text length: 191915
+[2025-08-28T01:50:09.308Z] 🔍 SEARCH: Looking for "The Passive Voice" in text starting from position 0
+[2025-08-28T01:50:09.308Z] 🔍 DEBUG: text exists: true, length: 191915
+[2025-08-28T01:50:09.309Z] 🔍 DEBUG: cleanTitle type: string, value: "The Passive Voice"
+[2025-08-28T01:50:09.309Z] 🔍 DEBUG: startFrom: 0
+[2025-08-28T01:50:09.309Z] 🔍 DEBUG: normalizedTitle after regex: "The Passive Voice"
+[2025-08-28T01:50:09.309Z] 🔍 SEARCH: Normalized title: "The Passive Voice"
+[2025-08-28T01:50:09.310Z] ✅ SEARCH: Found exact match at position 61292
+[2025-08-28T01:50:09.310Z] ✅ REFINEMENT: Found section start at position 61292
+[2025-08-28T01:50:09.310Z] ⚠️ REFINEMENT: Generated cleanTitle for next section: "Exercises"
+[2025-08-28T01:50:09.310Z] 🔍 SEARCH: Looking for "Exercises" in text starting from position 61342
+[2025-08-28T01:50:09.310Z] 🔍 DEBUG: text exists: true, length: 191915
+[2025-08-28T01:50:09.311Z] 🔍 DEBUG: cleanTitle type: string, value: "Exercises"
+[2025-08-28T01:50:09.311Z] 🔍 DEBUG: startFrom: 61342
+[2025-08-28T01:50:09.311Z] 🔍 DEBUG: normalizedTitle after regex: "Exercises"
+[2025-08-28T01:50:09.311Z] 🔍 SEARCH: Normalized title: "Exercises"
+[2025-08-28T01:50:09.311Z] ✅ SEARCH: Found exact match at position 63486
+[2025-08-28T01:50:09.312Z] ✅ REFINEMENT: Found next section "Exercises" at position 63486
+[2025-08-28T01:50:09.312Z] ✅ REFINEMENT: Successfully refined - 2192 chars, pages 35-36
+[2025-08-28T01:50:09.312Z] 🎯 ENHANCED: Refined section boundaries using title matching (2192 chars)
+[2025-08-28T01:50:09.335Z] 📄 SIMPLE: Processing section 34/35: "Exercises" (pages 37-100)
+[2025-08-28T01:50:09.336Z] 📄 SIMPLE: Extracting section "Exercises" from pages 37-100
+[2025-08-28T01:50:09.336Z] ✅ SIMPLE: Extracted 128429 chars from 64 pages (37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100)
+[2025-08-28T01:50:09.337Z] 📖 SIMPLE: Content preview: "EXERCISES (VEŽBANJA)
+
+Glagole u zagradama stavite u odgovarajuće vreme (present simple / present
+continuous).
+
+1. We _________________ (speak) Serbian. Serbian is our native language, but right n..."
+[2025-08-28T01:50:09.338Z] 📊 SIMPLE: Character positions - Start: 63486, End: 191915
+[2025-08-28T01:50:09.338Z] ✅ SIMPLE: Extracted 128429 chars from pages 37-100
+[2025-08-28T01:50:09.338Z] 🎯 REFINEMENT: Attempting to refine section "Exercises" using title boundaries
+[2025-08-28T01:50:09.339Z] 🔍 DEBUG: pageBasedSection exists: true
+[2025-08-28T01:50:09.339Z] 🔍 DEBUG: section exists: true
+[2025-08-28T01:50:09.339Z] 🔍 DEBUG: section.title: "Exercises"
+[2025-08-28T01:50:09.339Z] 🔍 DEBUG: section.cleanTitle: "undefined"
+[2025-08-28T01:50:09.339Z] 🔍 DEBUG: nextSection exists: true
+[2025-08-28T01:50:09.339Z] 🔍 DEBUG: nextSection?.title: "Literatura"
+[2025-08-28T01:50:09.340Z] 🔍 DEBUG: nextSection?.cleanTitle: "undefined"
+[2025-08-28T01:50:09.340Z] 🔍 DEBUG: allPages count: 97
+[2025-08-28T01:50:09.340Z] ⚠️ REFINEMENT: cleanTitle missing or invalid, generating from title "Exercises"
+[2025-08-28T01:50:09.340Z] ✅ REFINEMENT: Generated cleanTitle: "Exercises"
+[2025-08-28T01:50:09.340Z] 🔍 DEBUG: Processing 97 pages for text extraction
+[2025-08-28T01:50:09.341Z] 🔍 DEBUG: Combined text length: 191915
+[2025-08-28T01:50:09.341Z] 🔍 SEARCH: Looking for "Exercises" in text starting from position 0
+[2025-08-28T01:50:09.341Z] 🔍 DEBUG: text exists: true, length: 191915
+[2025-08-28T01:50:09.342Z] 🔍 DEBUG: cleanTitle type: string, value: "Exercises"
+[2025-08-28T01:50:09.342Z] 🔍 DEBUG: startFrom: 0
+[2025-08-28T01:50:09.342Z] 🔍 DEBUG: normalizedTitle after regex: "Exercises"
+[2025-08-28T01:50:09.343Z] 🔍 SEARCH: Normalized title: "Exercises"
+[2025-08-28T01:50:09.344Z] ✅ SEARCH: Found exact match at position 63486
+[2025-08-28T01:50:09.345Z] ✅ REFINEMENT: Found section start at position 63486
+[2025-08-28T01:50:09.345Z] ⚠️ REFINEMENT: Generated cleanTitle for next section: "Literatura"
+[2025-08-28T01:50:09.345Z] 🔍 SEARCH: Looking for "Literatura" in text starting from position 63536
+[2025-08-28T01:50:09.345Z] 🔍 DEBUG: text exists: true, length: 191915
+[2025-08-28T01:50:09.345Z] 🔍 DEBUG: cleanTitle type: string, value: "Literatura"
+[2025-08-28T01:50:09.346Z] 🔍 DEBUG: startFrom: 63536
+[2025-08-28T01:50:09.346Z] 🔍 DEBUG: normalizedTitle after regex: "Literatura"
+[2025-08-28T01:50:09.346Z] 🔍 SEARCH: Normalized title: "Literatura"
+[2025-08-28T01:50:09.347Z] ✅ SEARCH: Found exact match at position 191565
+[2025-08-28T01:50:09.347Z] ✅ REFINEMENT: Found next section "Literatura" at position 191565
+[2025-08-28T01:50:09.347Z] ⚠️ REFINEMENT: Content similar to page-based (0.3% difference) - keeping original
+[2025-08-28T01:50:09.347Z] 📄 Splitting section "Exercises" (128429 chars) for embedding
+[2025-08-28T01:50:09.348Z] 📄 Split "Exercises" into 15 embedding-safe parts
+[2025-08-28T01:50:09.348Z] 📄 Split section "Exercises" into 15 parts for embedding
+[2025-08-28T01:50:09.371Z] 📄 SIMPLE: Processing section 35/35: "Literatura" (pages 100-110)
+[2025-08-28T01:50:09.371Z] 📄 SIMPLE: Extracting section "Literatura" from pages 100-110
+[2025-08-28T01:50:09.371Z] ✅ SIMPLE: Extracted 350 chars from 1 pages (100)
+[2025-08-28T01:50:09.372Z] 📖 SIMPLE: Content preview: "Literatura
+
+New English File Intrermediate, Clive Oxenden, Christina Latham-Koenig, Oxford University
+Press, 2007
+
+New Headway Intermediate, Liz Soars, J. Soars, Oxford University Press, 2007
+
+..."
+[2025-08-28T01:50:09.373Z] 📊 SIMPLE: Character positions - Start: 191565, End: 191915
+[2025-08-28T01:50:09.373Z] ✅ SIMPLE: Extracted 350 chars from pages 100-110
+[2025-08-28T01:50:09.373Z] 🎯 REFINEMENT: Attempting to refine section "Literatura" using title boundaries
+[2025-08-28T01:50:09.374Z] 🔍 DEBUG: pageBasedSection exists: true
+[2025-08-28T01:50:09.374Z] 🔍 DEBUG: section exists: true
+[2025-08-28T01:50:09.374Z] 🔍 DEBUG: section.title: "Literatura"
+[2025-08-28T01:50:09.374Z] 🔍 DEBUG: section.cleanTitle: "undefined"
+[2025-08-28T01:50:09.375Z] 🔍 DEBUG: nextSection exists: false
+[2025-08-28T01:50:09.375Z] 🔍 DEBUG: nextSection?.title: "undefined"
+[2025-08-28T01:50:09.375Z] 🔍 DEBUG: nextSection?.cleanTitle: "undefined"
+[2025-08-28T01:50:09.375Z] 🔍 DEBUG: allPages count: 97
+[2025-08-28T01:50:09.376Z] ⚠️ REFINEMENT: cleanTitle missing or invalid, generating from title "Literatura"
+[2025-08-28T01:50:09.376Z] ✅ REFINEMENT: Generated cleanTitle: "Literatura"
+[2025-08-28T01:50:09.376Z] 🔍 DEBUG: Processing 97 pages for text extraction
+[2025-08-28T01:50:09.377Z] 🔍 DEBUG: Combined text length: 191915
+[2025-08-28T01:50:09.377Z] 🔍 SEARCH: Looking for "Literatura" in text starting from position 0
+[2025-08-28T01:50:09.377Z] 🔍 DEBUG: text exists: true, length: 191915
+[2025-08-28T01:50:09.377Z] 🔍 DEBUG: cleanTitle type: string, value: "Literatura"
+[2025-08-28T01:50:09.377Z] 🔍 DEBUG: startFrom: 0
+[2025-08-28T01:50:09.377Z] 🔍 DEBUG: normalizedTitle after regex: "Literatura"
+[2025-08-28T01:50:09.378Z] 🔍 SEARCH: Normalized title: "Literatura"
+[2025-08-28T01:50:09.379Z] ✅ SEARCH: Found exact match at position 191565
+[2025-08-28T01:50:09.379Z] ✅ REFINEMENT: Found section start at position 191565
+[2025-08-28T01:50:09.379Z] ⚠️ REFINEMENT: Content similar to page-based (0.0% difference) - keeping original
+[2025-08-28T01:50:09.402Z] ✅ SIMPLE: Processed 55 sections (including split sections)
+[2025-08-28T01:50:09.405Z] 📝 Legacy structure detection completed: 55 sections found
+[2025-08-28T01:50:09.430Z] Progress: embed - 75% - Processing sections and creating embeddings
+[2025-08-28T01:50:34.456Z] Progress: chunk - 85% - Creating and processing chunks
+[2025-08-28T01:50:58.599Z] Progress: done - 100% - Document processing completed
+[2025-08-28T01:50:58.625Z] INFO: 
+[2025-08-28T01:50:58.625Z] INFO: ------------------------------------------------------------
+[2025-08-28T01:50:58.625Z] INFO: SECTION: PROCESSING STATISTICS
+[2025-08-28T01:50:58.625Z] INFO: ------------------------------------------------------------
+[2025-08-28T01:50:58.625Z] INFO: total pages: 97
+[2025-08-28T01:50:58.625Z] INFO: total sections: 55
+[2025-08-28T01:50:58.625Z] INFO: total chunks: 58
+[2025-08-28T01:50:58.625Z] INFO: has o c r: false
+[2025-08-28T01:50:58.625Z] INFO: toc pages used: 2-3
+[2025-08-28T01:50:58.625Z] INFO: content start page: 4
+[2025-08-28T01:50:58.625Z] 🎉 Document processing completed successfully for material 68afb59cb89611e8ae01f466
+[2025-08-28T01:50:58.626Z] INFO: 
+[2025-08-28T01:50:58.626Z] INFO: ================================================================================
+[2025-08-28T01:50:58.626Z] INFO: End Time: 2025-08-28T01:50:58.626Z
+[2025-08-28T01:50:58.626Z] INFO: Total Processing Time: 97 seconds
+[2025-08-28T01:50:58.626Z] INFO: Total Log Entries: 1636
+[2025-08-28T01:50:58.626Z] INFO: ================================================================================

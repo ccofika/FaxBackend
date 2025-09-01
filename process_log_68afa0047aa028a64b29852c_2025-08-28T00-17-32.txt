@@ -1,0 +1,686 @@
+[2025-08-28T00:17:32.931Z] INFO: ================================================================================
+[2025-08-28T00:17:32.931Z] INFO: DOCUMENT PROCESSING LOG
+[2025-08-28T00:17:32.931Z] INFO: Material ID: 68afa0047aa028a64b29852c
+[2025-08-28T00:17:32.931Z] INFO: Start Time: 2025-08-28T00:17:32.931Z
+[2025-08-28T00:17:32.931Z] INFO: ================================================================================
+[2025-08-28T00:17:32.931Z] INFO: 
+[2025-08-28T00:17:32.931Z] INFO: Starting document processing for material: 68afa0047aa028a64b29852c
+[2025-08-28T00:17:32.931Z] INFO: TOC pages specified: 2-6
+[2025-08-28T00:17:32.931Z] INFO: Progress: probe [█-------------------] 5% - Starting document processing
+[2025-08-28T00:17:32.959Z] Progress: probe - 5% - Starting document processing
+[2025-08-28T00:17:32.959Z] INFO: 
+[2025-08-28T00:17:32.959Z] INFO: ------------------------------------------------------------
+[2025-08-28T00:17:32.959Z] INFO: SECTION: INITIALIZATION
+[2025-08-28T00:17:32.959Z] INFO: ------------------------------------------------------------
+[2025-08-28T00:17:32.959Z] INFO: Progress: probe [█-------------------] 7% - Clearing existing document data
+[2025-08-28T00:17:32.987Z] Progress: probe - 7% - Clearing existing document data
+[2025-08-28T00:17:33.502Z] INFO: Loading material from database
+[2025-08-28T00:17:33.524Z] INFO: Material loaded: MN_GAWD_veb_skripta (Subject: 68ad3dad85e324322914d037)
+[2025-08-28T00:17:33.576Z] Progress: probe - 10% - Downloading PDF from R2
+[2025-08-28T00:17:34.386Z] INFO: 
+[2025-08-28T00:17:34.386Z] INFO: ------------------------------------------------------------
+[2025-08-28T00:17:34.386Z] INFO: SECTION: PDF TEXT EXTRACTION
+[2025-08-28T00:17:34.386Z] INFO: ------------------------------------------------------------
+[2025-08-28T00:17:34.386Z] INFO: Progress: text [████----------------] 20% - Extracting text from entire PDF content (all pages from 7 onwards)
+[2025-08-28T00:17:34.386Z] INFO: Starting text extraction from page 7 onwards
+[2025-08-28T00:17:34.415Z] Progress: text - 20% - Extracting text from entire PDF content (all pages from 7 onwards)
+[2025-08-28T00:17:34.435Z] 🔄 Using node-poppler for true page-by-page extraction (pages 7 to 1006)
+[2025-08-28T00:17:34.466Z] 📁 Created temp PDF file: C:\Users\stefa\AppData\Local\Temp\temp_pdf_1756340254443.pdf
+[2025-08-28T00:17:36.035Z] 📚 PDF has 114 pages, extracting 7 to 114
+[2025-08-28T00:17:36.036Z] 📄 Extracting page 7/114...
+[2025-08-28T00:17:36.200Z] ✅ Page 7 extracted: 2865 characters
+[2025-08-28T00:17:36.200Z] 📖 Page 7 preview: "1 Osnovni pojmovi u veb-dizajnu
+
+
+
+Pre upoznavanja tehnike izrade samih veb-stranica, potrebno j..."
+[2025-08-28T00:17:36.201Z] 📄 Extracting page 8/114...
+[2025-08-28T00:17:36.233Z] ✅ Page 8 extracted: 2257 characters
+[2025-08-28T00:17:36.233Z] 📖 Page 8 preview: "samo jedan tip saobraćaja u okviru internet mreže.
+Ako se analizira naziv protokola za veb HTTP (Hy..."
+[2025-08-28T00:17:36.234Z] 📄 Extracting page 9/114...
+[2025-08-28T00:17:36.276Z] ✅ Page 9 extracted: 1601 characters
+[2025-08-28T00:17:36.276Z] 📖 Page 9 preview: "Veb-klijent (eng. web client) je računar, odnosno softver na nekom računaru, koji šalje zahtev
+veb-..."
+[2025-08-28T00:17:36.277Z] 📄 Extracting page 10/114...
+[2025-08-28T00:17:36.316Z] ✅ Page 10 extracted: 2176 characters
+[2025-08-28T00:17:36.316Z] 📖 Page 10 preview: "hova međusobna komunikacija i proširenje uređaja na kojima je dostupan sadržaj veba. Pojam obu-
+hva..."
+[2025-08-28T00:17:36.316Z] 📄 Extracting page 11/114...
+[2025-08-28T00:17:36.355Z] ✅ Page 11 extracted: 92 characters
+[2025-08-28T00:17:36.355Z] 📖 Page 11 preview: "Osobe koje realizuju čeoni deo veb-lokacije nazivaju se veb-dizajnerima (eng. web designer)...."
+[2025-08-28T00:17:36.356Z] 📄 Extracting page 12/114...
+[2025-08-28T00:17:36.389Z] ✅ Page 12 extracted: 959 characters
+[2025-08-28T00:17:36.389Z] 📖 Page 12 preview: "2 Uvod u HTML
+
+
+
+
+Postojanje veb-stranica je nemoguće bez HTML jezika. On je upravo i osmišljen..."
+[2025-08-28T00:17:36.389Z] 📄 Extracting page 13/114...
+[2025-08-28T00:17:36.429Z] ✅ Page 13 extracted: 2792 characters
+[2025-08-28T00:17:36.429Z] 📖 Page 13 preview: "jezika. Dodatno, osmislio je i program koji prikazuje i kreira ovakve dokumente. Drugim rečima,
+ono..."
+[2025-08-28T00:17:36.429Z] 📄 Extracting page 14/114...
+[2025-08-28T00:17:36.466Z] ✅ Page 14 extracted: 2879 characters
+[2025-08-28T00:17:36.466Z] 📖 Page 14 preview: "drugi inženjeri i naučnici zainteresovani da ova ideja zaživi. Na ovaj način stvoreni su uslovi za n..."
+[2025-08-28T00:17:36.466Z] 📄 Extracting page 15/114...
+[2025-08-28T00:17:36.503Z] ✅ Page 15 extracted: 2381 characters
+[2025-08-28T00:17:36.503Z] 📖 Page 15 preview: "U praksi, elementi i načini pisanja kȏda već su zaživeli. Tome doprinosi najviše podrška od stra-
+n..."
+[2025-08-28T00:17:36.504Z] 📄 Extracting page 16/114...
+[2025-08-28T00:17:36.544Z] ✅ Page 16 extracted: 2229 characters
+[2025-08-28T00:17:36.544Z] 📖 Page 16 preview: "nema, obe oznake bi bile identične.
+Sledeći primer je primer praznog elementa:
+
+
+
+
+Slika 4: Pr..."
+[2025-08-28T00:17:36.545Z] 📄 Extracting page 17/114...
+[2025-08-28T00:17:36.589Z] ✅ Page 17 extracted: 2655 characters
+[2025-08-28T00:17:36.589Z] 📖 Page 17 preview: "Osim uloge podsetnika, komentari mogu da poslužei kao način da se „isključi“ deo koda. Ako
+se deo k..."
+[2025-08-28T00:17:36.589Z] 📄 Extracting page 18/114...
+[2025-08-28T00:17:36.625Z] ✅ Page 18 extracted: 1798 characters
+[2025-08-28T00:17:36.626Z] 📖 Page 18 preview: "• upotreba malih slova za nazive oznaka, atributa i vrednosti atributa
+
+• ugnežđeni element je u n..."
+[2025-08-28T00:17:36.626Z] 📄 Extracting page 19/114...
+[2025-08-28T00:17:36.665Z] ✅ Page 19 extracted: 1996 characters
+[2025-08-28T00:17:36.666Z] 📖 Page 19 preview: "2. 4 HTML atributi
+
+
+HTML elementi mogu da sadrže atribute. Atributi služe da dodatno odrede osob..."
+[2025-08-28T00:17:36.666Z] 📄 Extracting page 20/114...
+[2025-08-28T00:17:36.707Z] ✅ Page 20 extracted: 1514 characters
+[2025-08-28T00:17:36.707Z] 📖 Page 20 preview: "• src, for, type, href, value
+
+• title, alt
+
+• role, aria-*
+
+Primer upotrebe redosleda:
+
+<in..."
+[2025-08-28T00:17:36.708Z] 📄 Extracting page 21/114...
+[2025-08-28T00:17:36.754Z] ✅ Page 21 extracted: 3016 characters
+[2025-08-28T00:17:36.755Z] 📖 Page 21 preview: "<head>
+<meta charset="UTF-8">
+<title>Naslov dokumenta</title>
+</head>
+<body>
+<!-- Sadržaj dokum..."
+[2025-08-28T00:17:36.755Z] 📄 Extracting page 22/114...
+[2025-08-28T00:17:36.800Z] ✅ Page 22 extracted: 1495 characters
+[2025-08-28T00:17:36.800Z] 📖 Page 22 preview: "U četvrtom redu, u navedenom kodu, definisan je kodni raspored 15. To je poželjno uraditi da bi
+veb..."
+[2025-08-28T00:17:36.800Z] 📄 Extracting page 23/114...
+[2025-08-28T00:17:36.840Z] ✅ Page 23 extracted: 1863 characters
+[2025-08-28T00:17:36.841Z] 📖 Page 23 preview: "3 Označavanje teksta
+
+
+
+Tekst je i dalje najzastupljeniji sadržaj u HTML dokumentima na vebu. U ..."
+[2025-08-28T00:17:36.841Z] 📄 Extracting page 24/114...
+[2025-08-28T00:17:36.887Z] ✅ Page 24 extracted: 2481 characters
+[2025-08-28T00:17:36.887Z] 📖 Page 24 preview: "<h2>Naslovi</h2>
+<h3>Podnaslovi</h3>
+<h2>Pasusi</h2>
+
+
+Preporučljivo je da svaki HTML dokument ..."
+[2025-08-28T00:17:36.887Z] 📄 Extracting page 25/114...
+[2025-08-28T00:17:36.937Z] ✅ Page 25 extracted: 1577 characters
+[2025-08-28T00:17:36.937Z] 📖 Page 25 preview: "3. 3 Liste
+
+
+Kada je potrebno označiti spisak, ili nabrajanje nekih pojmova, upotrebljavaju se oz..."
+[2025-08-28T00:17:36.937Z] 📄 Extracting page 26/114...
+[2025-08-28T00:17:36.985Z] ✅ Page 26 extracted: 1581 characters
+[2025-08-28T00:17:36.985Z] 📖 Page 26 preview: "Slika 6: Podrazumevani prikaz uređene liste
+Na slici iznad može se videti podrazumevani prikaz uređ..."
+[2025-08-28T00:17:36.985Z] 📄 Extracting page 27/114...
+[2025-08-28T00:17:37.036Z] ✅ Page 27 extracted: 1041 characters
+[2025-08-28T00:17:37.036Z] 📖 Page 27 preview: "plažu. U takvom spisku redosled nabrajanja nije od važnosti, važno je samo da su nabrojane sve po-
+..."
+[2025-08-28T00:17:37.036Z] 📄 Extracting page 28/114...
+[2025-08-28T00:17:37.074Z] ✅ Page 28 extracted: 1507 characters
+[2025-08-28T00:17:37.075Z] 📖 Page 28 preview: "Slika 8: Podrazumevani izgled ugnežđene liste
+
+
+3. 3. 4 Grupisanje sadržaja
+
+Tipičan primer gru..."
+[2025-08-28T00:17:37.075Z] 📄 Extracting page 29/114...
+[2025-08-28T00:17:37.119Z] ✅ Page 29 extracted: 2612 characters
+[2025-08-28T00:17:37.119Z] 📖 Page 29 preview: "reči ili delu rečenice. Naziv oznake b je od engleske reči bold.
+Iako će se tekst unutar ovog eleme..."
+[2025-08-28T00:17:37.119Z] 📄 Extracting page 30/114...
+[2025-08-28T00:17:37.162Z] ✅ Page 30 extracted: 2154 characters
+[2025-08-28T00:17:37.163Z] 📖 Page 30 preview: "upotrebiće se strong oznaka. Ovaj element naglašava označeni tekst. Podrazumevani prikaz ova-
+kvog ..."
+[2025-08-28T00:17:37.164Z] 📄 Extracting page 31/114...
+[2025-08-28T00:17:37.207Z] ✅ Page 31 extracted: 1419 characters
+[2025-08-28T00:17:37.207Z] 📖 Page 31 preview: "Ovde treba zapamtiti da ovaj element kontroliše značenje rečenice i da se to značenje gradi u za-
+v..."
+[2025-08-28T00:17:37.207Z] 📄 Extracting page 32/114...
+[2025-08-28T00:17:37.251Z] ✅ Page 32 extracted: 2255 characters
+[2025-08-28T00:17:37.251Z] 📖 Page 32 preview: "Slika 10: Izgled prelomljenog teksta pesme
+
+
+3. 5 Primer označavanja teksta
+
+
+Primer upotrebe ..."
+[2025-08-28T00:17:37.251Z] 📄 Extracting page 33/114...
+[2025-08-28T00:17:37.290Z] ✅ Page 33 extracted: 619 characters
+[2025-08-28T00:17:37.290Z] 📖 Page 33 preview: "termina.
+Sekvenca karaktera „&raquo;“ predstavlja tzv. HTML entitet. HTML entiteti su sekvence kara..."
+[2025-08-28T00:17:37.291Z] 📄 Extracting page 34/114...
+[2025-08-28T00:17:37.336Z] ✅ Page 34 extracted: 2712 characters
+[2025-08-28T00:17:37.336Z] 📖 Page 34 preview: "4 Označavanje hiperveza
+
+
+
+Hiperveza (eng. hyperlink) je konceptualni konstrukt koji predstavlja..."
+[2025-08-28T00:17:37.337Z] 📄 Extracting page 35/114...
+[2025-08-28T00:17:37.380Z] ✅ Page 35 extracted: 1805 characters
+[2025-08-28T00:17:37.380Z] 📖 Page 35 preview: "<p>Visoka škola strukovnih studija - <a
+href="http://www. its. edu. rs/">ITS</a></p>
+
+
+
+
+Slika..."
+[2025-08-28T00:17:37.381Z] 📄 Extracting page 36/114...
+[2025-08-28T00:17:37.430Z] ✅ Page 36 extracted: 2475 characters
+[2025-08-28T00:17:37.430Z] 📖 Page 36 preview: "Prva adresa izostavlja protokol. To znači da se on podrazumeva, odnosno očekuje se upotreba
+trenutn..."
+[2025-08-28T00:17:37.430Z] 📄 Extracting page 37/114...
+[2025-08-28T00:17:37.475Z] ✅ Page 37 extracted: 1805 characters
+[2025-08-28T00:17:37.475Z] 📖 Page 37 preview: "4. 3 Imejl hiperveza
+
+
+Osim referenciranja HTML resursa <a> element se može upotrebiti i za kreir..."
+[2025-08-28T00:17:37.475Z] 📄 Extracting page 38/114...
+[2025-08-28T00:17:37.519Z] ✅ Page 38 extracted: 299 characters
+[2025-08-28T00:17:37.519Z] 📖 Page 38 preview: "U primeru se upućuje na element koji se nalazi u okviru istog dokumenta. Tada samo se navodi
+znak „..."
+[2025-08-28T00:17:37.519Z] 📄 Extracting page 39/114...
+[2025-08-28T00:17:37.563Z] ✅ Page 39 extracted: 1989 characters
+[2025-08-28T00:17:37.564Z] 📖 Page 39 preview: "5 Označavanje tabelarnih podataka
+
+
+
+U svrhu označavanja tabelarnih podataka19 HTML specifikacij..."
+[2025-08-28T00:17:37.564Z] 📄 Extracting page 40/114...
+[2025-08-28T00:17:37.607Z] ✅ Page 40 extracted: 1900 characters
+[2025-08-28T00:17:37.607Z] 📖 Page 40 preview: "U tabeli iznad definisana su tri reda u kojima se nalaze tri ćelije. Prvi red sadrži samo naslove za..."
+[2025-08-28T00:17:37.608Z] 📄 Extracting page 41/114...
+[2025-08-28T00:17:37.649Z] ✅ Page 41 extracted: 931 characters
+[2025-08-28T00:17:37.650Z] 📖 Page 41 preview: "• caption – služi da definiše naslov tabele, ili kraći opis o tome koji su podaci u tabeli. Uko-
+li..."
+[2025-08-28T00:17:37.651Z] 📄 Extracting page 42/114...
+[2025-08-28T00:17:37.692Z] ✅ Page 42 extracted: 1880 characters
+[2025-08-28T00:17:37.692Z] 📖 Page 42 preview: "6 Upotreba slika u HTML dokumentu
+
+
+
+Referenciranje slika standardizuje se u HTML 2. 0 verziji. ..."
+[2025-08-28T00:17:37.693Z] 📄 Extracting page 43/114...
+[2025-08-28T00:17:37.742Z] ✅ Page 43 extracted: 2709 characters
+[2025-08-28T00:17:37.742Z] 📖 Page 43 preview: "ke koje ljudsko oko najmanje primećuje i na taj način smanjuje količinu podataka, odnosno veličinu
+..."
+[2025-08-28T00:17:37.743Z] 📄 Extracting page 44/114...
+[2025-08-28T00:17:37.790Z] ✅ Page 44 extracted: 2335 characters
+[2025-08-28T00:17:37.790Z] 📖 Page 44 preview: "i, na kraju, do zasićenja. Danas se ova mogućnost koristi samo po potrebi – kada je zaista neophod-..."
+[2025-08-28T00:17:37.790Z] 📄 Extracting page 45/114...
+[2025-08-28T00:17:37.838Z] ✅ Page 45 extracted: 3031 characters
+[2025-08-28T00:17:37.838Z] 📖 Page 45 preview: "CSS-ai JavaScripta. I to ne samo u pogledu promene konačnih dimenzija slike, većiu pogledu pro-
+men..."
+[2025-08-28T00:17:37.838Z] 📄 Extracting page 46/114...
+[2025-08-28T00:17:37.885Z] ✅ Page 46 extracted: 489 characters
+[2025-08-28T00:17:37.885Z] 📖 Page 46 preview: "<img src="slika1. jpg" alt="Portret Nikole Tesle">
+
+
+U primeru je navedena referenca ka slici koj..."
+[2025-08-28T00:17:37.885Z] 📄 Extracting page 47/114...
+[2025-08-28T00:17:37.931Z] ✅ Page 47 extracted: 1104 characters
+[2025-08-28T00:17:37.931Z] 📖 Page 47 preview: "7 Uvod u CSS
+
+
+
+
+Današnja praksa izrade veb-lokacija ne može se zamisliti bez upotrebe CSS jezi..."
+[2025-08-28T00:17:37.932Z] 📄 Extracting page 48/114...
+[2025-08-28T00:17:37.981Z] ✅ Page 48 extracted: 2391 characters
+[2025-08-28T00:17:37.982Z] 📖 Page 48 preview: "Prvu CSS specifikaciju CSS level 1 (CSS1) objavio je 1996. godine W3C. W3C je preuzeo od-
+govornost..."
+[2025-08-28T00:17:37.982Z] 📄 Extracting page 49/114...
+[2025-08-28T00:17:38.026Z] ✅ Page 49 extracted: 1282 characters
+[2025-08-28T00:17:38.026Z] 📖 Page 49 preview: "lektor je h1, a deklaracioni blok sadrži samo jednu deklaraciju color: #F00;.
+Deklaracioni blok se ..."
+[2025-08-28T00:17:38.028Z] 📄 Extracting page 50/114...
+[2025-08-28T00:17:38.075Z] ✅ Page 50 extracted: 1812 characters
+[2025-08-28T00:17:38.075Z] 📖 Page 50 preview: "7. 2. 2 Mala i velika slova
+
+Pri parsiranju CSS koda zanemaruju se velika i mala slova za sve klju..."
+[2025-08-28T00:17:38.075Z] 📄 Extracting page 51/114...
+[2025-08-28T00:17:38.121Z] ✅ Page 51 extracted: 2149 characters
+[2025-08-28T00:17:38.121Z] 📖 Page 51 preview: "7. 2. 6 Stil pisanja izvornog koda
+
+Beline ukȏdu se zanemaruju. To znači da se izvorni kȏd može fo..."
+[2025-08-28T00:17:38.122Z] 📄 Extracting page 52/114...
+[2025-08-28T00:17:38.170Z] ✅ Page 52 extracted: 3023 characters
+[2025-08-28T00:17:38.170Z] 📖 Page 52 preview: "1. Za dato svojstvo pronalaze se sve deklaracije koje su navedene za dati element;
+
+2. Sortiranje ..."
+[2025-08-28T00:17:38.170Z] 📄 Extracting page 53/114...
+[2025-08-28T00:17:38.218Z] ✅ Page 53 extracted: 1404 characters
+[2025-08-28T00:17:38.218Z] 📖 Page 53 preview: "kao način stilizacije HTML dokumenata iučinilo da on zaživi (pobedi).
+
+
+
+7. 4 Objektni model HTM..."
+[2025-08-28T00:17:38.219Z] 📄 Extracting page 54/114...
+[2025-08-28T00:17:38.267Z] ✅ Page 54 extracted: 2027 characters
+[2025-08-28T00:17:38.267Z] 📖 Page 54 preview: "elementa
+
+• unutrašnji (internal) – pravila stilizovanja se navode u <style> elementu koji se nala..."
+[2025-08-28T00:17:38.268Z] 📄 Extracting page 55/114...
+[2025-08-28T00:17:38.309Z] ✅ Page 55 extracted: 2635 characters
+[2025-08-28T00:17:38.310Z] 📖 Page 55 preview: "praktičnije koristiti ovaj način32. A takođe je i preglednije, jer je sav CSS kȏd na jednom mestu, š..."
+[2025-08-28T00:17:38.310Z] 📄 Extracting page 56/114...
+[2025-08-28T00:17:38.355Z] ✅ Page 56 extracted: 295 characters
+[2025-08-28T00:17:38.356Z] 📖 Page 56 preview: "bi se stekao osećaj da sve te stranice pripadaju jednoj istoj veb-lokaciji i da se izbegne zbunjivan..."
+[2025-08-28T00:17:38.356Z] 📄 Extracting page 57/114...
+[2025-08-28T00:17:38.403Z] ✅ Page 57 extracted: 2080 characters
+[2025-08-28T00:17:38.403Z] 📖 Page 57 preview: "8 CSS selektori
+
+
+
+Svako CSS pravilo počinje selektorom. Selektor se navodi kao sekvenca karakte..."
+[2025-08-28T00:17:38.404Z] 📄 Extracting page 58/114...
+[2025-08-28T00:17:38.448Z] ✅ Page 58 extracted: 2112 characters
+[2025-08-28T00:17:38.449Z] 📖 Page 58 preview: "* { font-family: sans-serif; }
+
+
+U primeru iznad svim elementima zadaje se font familija. Kada je..."
+[2025-08-28T00:17:38.449Z] 📄 Extracting page 59/114...
+[2025-08-28T00:17:38.494Z] ✅ Page 59 extracted: 1713 characters
+[2025-08-28T00:17:38.495Z] 📖 Page 59 preview: "8. 1. 3 Selektor klase
+
+Obeležava se imenom klase ispred kojeg je znak „. “ (tačka). Služi da obel..."
+[2025-08-28T00:17:38.496Z] 📄 Extracting page 60/114...
+[2025-08-28T00:17:38.539Z] ✅ Page 60 extracted: 1864 characters
+[2025-08-28T00:17:38.539Z] 📖 Page 60 preview: "Nazivi klasa treba da budu smisleni. Da govore čemu služi data klasa, koja joj je namena, a ne
+da o..."
+[2025-08-28T00:17:38.540Z] 📄 Extracting page 61/114...
+[2025-08-28T00:17:38.584Z] ✅ Page 61 extracted: 2370 characters
+[2025-08-28T00:17:38.585Z] 📖 Page 61 preview: "Selektor sa kombinatorima opisuje deo određene hijerarhije i ukoliko negde u HTML dokumen-
+tu posto..."
+[2025-08-28T00:17:38.585Z] 📄 Extracting page 62/114...
+[2025-08-28T00:17:38.631Z] ✅ Page 62 extracted: 2205 characters
+[2025-08-28T00:17:38.632Z] 📖 Page 62 preview: "<nav>
+<ul>
+<li><a href="index. html">Home</a></li>
+<li>Sections
+<ul>
+<li><a href="f. html">Firs..."
+[2025-08-28T00:17:38.632Z] 📄 Extracting page 63/114...
+[2025-08-28T00:17:38.677Z] ✅ Page 63 extracted: 1495 characters
+[2025-08-28T00:17:38.677Z] 📖 Page 63 preview: "Kombinator se gradi upotrebom znaka „+“ koji se postavlja između dva jednostavna selektora.
+Na prim..."
+[2025-08-28T00:17:38.678Z] 📄 Extracting page 64/114...
+[2025-08-28T00:17:38.724Z] ✅ Page 64 extracted: 1111 characters
+[2025-08-28T00:17:38.725Z] 📖 Page 64 preview: "ol ul li
+ol ul
+p > span > a
+li li li li li li p
+
+ul aa span
+
+li li li a
+Slika 16: Kombinator..."
+[2025-08-28T00:17:38.725Z] 📄 Extracting page 65/114...
+[2025-08-28T00:17:38.768Z] ✅ Page 65 extracted: 2296 characters
+[2025-08-28T00:17:38.768Z] 📖 Page 65 preview: "gorije selektora mogu se grupisati bez ograničenja:
+
+h1, p. zadnji, img, ul > li {border: 3px soli..."
+[2025-08-28T00:17:38.768Z] 📄 Extracting page 66/114...
+[2025-08-28T00:17:38.810Z] ✅ Page 66 extracted: 977 characters
+[2025-08-28T00:17:38.810Z] 📖 Page 66 preview: "Pobeđuje donja tabela, jer je u drugoj koloni osvojila više poena. To znači da je jedan deskriptor
+..."
+[2025-08-28T00:17:38.813Z] 📄 Extracting page 67/114...
+[2025-08-28T00:17:38.859Z] ✅ Page 67 extracted: 1852 characters
+[2025-08-28T00:17:38.859Z] 📖 Page 67 preview: "9 Određivanje boje u CSS-u
+
+
+
+Upotreba boje u CSS-u definisana je u posebnom modulu koji je u vr..."
+[2025-08-28T00:17:38.860Z] 📄 Extracting page 68/114...
+[2025-08-28T00:17:38.906Z] ✅ Page 68 extracted: 1864 characters
+[2025-08-28T00:17:38.906Z] 📖 Page 68 preview: "Podrazumevana boja teksta HTML dokumenta je crna. A inicijalno svaki element nasleđuje boju
+teksta ..."
+[2025-08-28T00:17:38.906Z] 📄 Extracting page 69/114...
+[2025-08-28T00:17:38.953Z] ✅ Page 69 extracted: 2151 characters
+[2025-08-28T00:17:38.953Z] 📖 Page 69 preview: "Ekrani većinom podržavaju 8 bitnu dubinu boje po kanalu, što znači 256 nijansi za svaku osnov-
+nu b..."
+[2025-08-28T00:17:38.953Z] 📄 Extracting page 70/114...
+[2025-08-28T00:17:38.998Z] ✅ Page 70 extracted: 1098 characters
+[2025-08-28T00:17:38.998Z] 📖 Page 70 preview: "stemu37. Tako se sada opseg kreće od 00 do FF, gde 00 predstavlja nulu, a FF je 256. Vrednost svake..."
+[2025-08-28T00:17:38.999Z] 📄 Extracting page 71/114...
+[2025-08-28T00:17:39.043Z] ✅ Page 71 extracted: 1102 characters
+[2025-08-28T00:17:39.044Z] 📖 Page 71 preview: "10 Model okvira i jedinice u CSS-u
+
+
+
+Model okvira (eng. box model) predstavlja koncept da se sv..."
+[2025-08-28T00:17:39.045Z] 📄 Extracting page 72/114...
+[2025-08-28T00:17:39.090Z] ✅ Page 72 extracted: 2034 characters
+[2025-08-28T00:17:39.091Z] 📖 Page 72 preview: "• relativne jedinice (eng. relative units)
+
+Svaka od ovih kategorija ima nekoliko jedinica koje su..."
+[2025-08-28T00:17:39.091Z] 📄 Extracting page 73/114...
+[2025-08-28T00:17:39.135Z] ✅ Page 73 extracted: 2185 characters
+[2025-08-28T00:17:39.135Z] 📖 Page 73 preview: "izračunati i prikazati na ekranu (u pikselima). To znači da se konačna vrednost konstantno izračuna-..."
+[2025-08-28T00:17:39.135Z] 📄 Extracting page 74/114...
+[2025-08-28T00:17:39.181Z] ✅ Page 74 extracted: 2609 characters
+[2025-08-28T00:17:39.181Z] 📖 Page 74 preview: "oblasti određena je samim sadržajem. Što je više sadržaja, oblast će biti veća, i obrnuto. Oblast se..."
+[2025-08-28T00:17:39.182Z] 📄 Extracting page 75/114...
+[2025-08-28T00:17:39.226Z] ✅ Page 75 extracted: 1150 characters
+[2025-08-28T00:17:39.226Z] 📖 Page 75 preview: "Slika 23: Vizuelni prikaz različitih vrednosti za svojstvo overflow
+
+Postoji i mogućnost kontrole ..."
+[2025-08-28T00:17:39.228Z] 📄 Extracting page 76/114...
+[2025-08-28T00:17:39.272Z] ✅ Page 76 extracted: 1435 characters
+[2025-08-28T00:17:39.272Z] 📖 Page 76 preview: "Slika 24: Padding područje
+
+Primer dimenzioniranja padding područja:
+
+padding-top: 5px;
+padding..."
+[2025-08-28T00:17:39.272Z] 📄 Extracting page 77/114...
+[2025-08-28T00:17:39.319Z] ✅ Page 77 extracted: 1364 characters
+[2025-08-28T00:17:39.319Z] 📖 Page 77 preview: "padding: 5px 10px;
+
+
+Gornja i donja strana biće veličine 5px, a leva i desna 10px.
+Boja padding ..."
+[2025-08-28T00:17:39.319Z] 📄 Extracting page 78/114...
+[2025-08-28T00:17:39.363Z] ✅ Page 78 extracted: 996 characters
+[2025-08-28T00:17:39.364Z] 📖 Page 78 preview: "Sve pogodnosti skraćivanja vrednosti važe isto kao kod padding svojstva. To znači da ako je
+debljin..."
+[2025-08-28T00:17:39.364Z] 📄 Extracting page 79/114...
+[2025-08-28T00:17:39.408Z] ✅ Page 79 extracted: 1810 characters
+[2025-08-28T00:17:39.408Z] 📖 Page 79 preview: "ukida ivicu kao none, a razlika između njih se može uočiti samo kod tabela. Kada tabela koristi ko-..."
+[2025-08-28T00:17:39.409Z] 📄 Extracting page 80/114...
+[2025-08-28T00:17:39.454Z] ✅ Page 80 extracted: 2517 characters
+[2025-08-28T00:17:39.454Z] 📖 Page 80 preview: "I u ovom obliku navode se sve tri karakteristike ivice, samo za svaku stranu ivice posebno.
+
+
+
+1..."
+[2025-08-28T00:17:39.454Z] 📄 Extracting page 81/114...
+[2025-08-28T00:17:39.502Z] ✅ Page 81 extracted: 1287 characters
+[2025-08-28T00:17:39.502Z] 📖 Page 81 preview: "Slika 27: Preklapanje margina
+Na slici je belom strelicom obeleženo ukupno rastojanje između elemen..."
+[2025-08-28T00:17:39.502Z] 📄 Extracting page 82/114...
+[2025-08-28T00:17:39.550Z] ✅ Page 82 extracted: 547 characters
+[2025-08-28T00:17:39.550Z] 📖 Page 82 preview: "Slika 28: Podrazumevani proračun ukupne dimenzije elementa
+Ono što treba uočiti ovde jeste činjenic..."
+[2025-08-28T00:17:39.550Z] 📄 Extracting page 83/114...
+[2025-08-28T00:17:39.594Z] ✅ Page 83 extracted: 2597 characters
+[2025-08-28T00:17:39.594Z] 📖 Page 83 preview: "11 Strukturiranje i razmeštaj sadržaja
+
+
+
+U uvodnom delu o HTML jeziku objašnjena je minimalna i..."
+[2025-08-28T00:17:39.595Z] 📄 Extracting page 84/114...
+[2025-08-28T00:17:39.642Z] ✅ Page 84 extracted: 2566 characters
+[2025-08-28T00:17:39.642Z] 📖 Page 84 preview: "• elementi za grupisanje – elementi samo grupišu (eng. grouping) sadržaj bez uticaja na šemu
+(eng. ..."
+[2025-08-28T00:17:39.643Z] 📄 Extracting page 85/114...
+[2025-08-28T00:17:39.690Z] ✅ Page 85 extracted: 1630 characters
+[2025-08-28T00:17:39.690Z] 📖 Page 85 preview: "1. 1. 1. Potpodnaslov (h3)
+1. 2. Podnaslov (h2)
+
+Primer hijerarhije upotrebom elemenata koji krei..."
+[2025-08-28T00:17:39.690Z] 📄 Extracting page 86/114...
+[2025-08-28T00:17:39.738Z] ✅ Page 86 extracted: 2435 characters
+[2025-08-28T00:17:39.738Z] 📖 Page 86 preview: "cija cele veb-lokacije
+
+• <section> – element predstavlja generički odeljak za grupisanje sadržaja..."
+[2025-08-28T00:17:39.739Z] 📄 Extracting page 87/114...
+[2025-08-28T00:17:39.789Z] ✅ Page 87 extracted: 2371 characters
+[2025-08-28T00:17:39.789Z] 📖 Page 87 preview: "11. 1. 5 Vizuelni razmeštaj sadržaja
+
+Posmatrano iz perspektive HTML-a, grupisanje se vrši, pre sv..."
+[2025-08-28T00:17:39.790Z] 📄 Extracting page 88/114...
+[2025-08-28T00:17:39.837Z] ✅ Page 88 extracted: 1153 characters
+[2025-08-28T00:17:39.837Z] 📖 Page 88 preview: "block inline
+
+
+
+
+Slika 29: Šematski prikaz block i inline ponašanja
+
+Na slici se vidi da su e..."
+[2025-08-28T00:17:39.837Z] 📄 Extracting page 89/114...
+[2025-08-28T00:17:39.886Z] ✅ Page 89 extracted: 1834 characters
+[2025-08-28T00:17:39.886Z] 📖 Page 89 preview: "display. Vrednosti za ovo svojstvo su block, inline i inline-block. Moguće je zadati inline
+element..."
+[2025-08-28T00:17:39.886Z] 📄 Extracting page 90/114...
+[2025-08-28T00:17:39.936Z] ✅ Page 90 extracted: 1303 characters
+[2025-08-28T00:17:39.936Z] 📖 Page 90 preview: "• left – izbacuje element iz normalnog toka i pomera ga ulevo do leve ivice roditelja ili do
+drugog..."
+[2025-08-28T00:17:39.936Z] 📄 Extracting page 91/114...
+[2025-08-28T00:17:39.988Z] ✅ Page 91 extracted: 998 characters
+[2025-08-28T00:17:39.988Z] 📖 Page 91 preview: "normalni tok float tok kombinovani tok
+
+
+
+
+Slika 32: Šematski prikaz moguće organizacije sadrža..."
+[2025-08-28T00:17:39.989Z] 📄 Extracting page 92/114...
+[2025-08-28T00:17:40.044Z] ✅ Page 92 extracted: 1915 characters
+[2025-08-28T00:17:40.045Z] 📖 Page 92 preview: "Na gornjoj slici svi potomci su block tipa. Levo, svi su u normalnom toku. Desno, prva dva po-
+tomk..."
+[2025-08-28T00:17:40.045Z] 📄 Extracting page 93/114...
+[2025-08-28T00:17:40.094Z] ✅ Page 93 extracted: 1609 characters
+[2025-08-28T00:17:40.095Z] 📖 Page 93 preview: "• both – spustiće element ispod plutajućih elemenata bez obzira na koju stranu plutaju
+
+• none – u..."
+[2025-08-28T00:17:40.096Z] 📄 Extracting page 94/114...
+[2025-08-28T00:17:40.170Z] ✅ Page 94 extracted: 1157 characters
+[2025-08-28T00:17:40.170Z] 📖 Page 94 preview: "stva koja nisu obrađena u ovom udžbeniku. U komentarima u okviru listinga koda objašnjena je
+ukratk..."
+[2025-08-28T00:17:40.171Z] 📄 Extracting page 95/114...
+[2025-08-28T00:17:40.221Z] ✅ Page 95 extracted: 2296 characters
+[2025-08-28T00:17:40.221Z] 📖 Page 95 preview: "<main>
+<div id="thumbnails-omot">
+<div class="kategorija">
+<a href="#"><img src="thumb_005. jpg" ..."
+[2025-08-28T00:17:40.221Z] 📄 Extracting page 96/114...
+[2025-08-28T00:17:40.274Z] ✅ Page 96 extracted: 1804 characters
+[2025-08-28T00:17:40.274Z] 📖 Page 96 preview: "@font-face {
+font-family: rubik-lajt;
+src: url('Rubik-Light. ttf');
+}
+@font-face {
+font-family:..."
+[2025-08-28T00:17:40.274Z] 📄 Extracting page 97/114...
+[2025-08-28T00:17:40.322Z] ✅ Page 97 extracted: 2000 characters
+[2025-08-28T00:17:40.322Z] 📖 Page 97 preview: "}
+div#thumbnails-omot {
+width: 720px;
+overflow: hidden; /* obezbeđenje da ne kolapsira visina */..."
+[2025-08-28T00:17:40.322Z] 📄 Extracting page 98/114...
+[2025-08-28T00:17:40.372Z] ✅ Page 98 extracted: 1728 characters
+[2025-08-28T00:17:40.372Z] 📖 Page 98 preview: "12 Uređivanje teksta
+
+
+
+U današnje vreme CSS pruža mnogo opcija za uređenje teksta, što omogućav..."
+[2025-08-28T00:17:40.373Z] 📄 Extracting page 99/114...
+[2025-08-28T00:17:40.426Z] ✅ Page 99 extracted: 1525 characters
+[2025-08-28T00:17:40.426Z] 📖 Page 99 preview: "italic verziju pisma u sklopu date familije, dok vrednost oblique samo iskošava normalnu verziju
+fo..."
+[2025-08-28T00:17:40.426Z] 📄 Extracting page 100/114...
+[2025-08-28T00:17:40.475Z] ✅ Page 100 extracted: 2280 characters
+[2025-08-28T00:17:40.475Z] 📖 Page 100 preview: "Primer upotrebe svojstva:
+
+*. boldTekst {
+font-weight: bold;
+}
+*. tanak {
+font-weight: 300;
+}..."
+[2025-08-28T00:17:40.476Z] 📄 Extracting page 101/114...
+[2025-08-28T00:17:40.530Z] ✅ Page 101 extracted: 1944 characters
+[2025-08-28T00:17:40.530Z] 📖 Page 101 preview: "Primer veličine fonta u zavisnosti od konteksta:
+
+<body>Tekst u body elementu
+<div>Tekst u div el..."
+[2025-08-28T00:17:40.531Z] 📄 Extracting page 102/114...
+[2025-08-28T00:17:40.580Z] ✅ Page 102 extracted: 2459 characters
+[2025-08-28T00:17:40.580Z] 📖 Page 102 preview: "Oba načina su validna i rade na isti način. Obično se koristi oblik bez jedinice.
+
+
+12. 1. 5 Svoj..."
+[2025-08-28T00:17:40.581Z] 📄 Extracting page 103/114...
+[2025-08-28T00:17:40.636Z] ✅ Page 103 extracted: 1944 characters
+[2025-08-28T00:17:40.636Z] 📖 Page 103 preview: "• fantasy – ovo su pisma koja su proizvoljnog dekorativnog izgleda
+
+• monospaced – ovo su pisma ko..."
+[2025-08-28T00:17:40.637Z] 📄 Extracting page 104/114...
+[2025-08-28T00:17:40.688Z] ✅ Page 104 extracted: 2089 characters
+[2025-08-28T00:17:40.688Z] 📖 Page 104 preview: "font: italic bold 18px/1. 3em Arial, sans-serif;
+
+
+Redosled navođenja vrednosti je sledeći:
+
+fo..."
+[2025-08-28T00:17:40.688Z] 📄 Extracting page 105/114...
+[2025-08-28T00:17:40.741Z] ✅ Page 105 extracted: 1174 characters
+[2025-08-28T00:17:40.741Z] 📖 Page 105 preview: "• right – ravna tekst po desnoj strani bloka
+
+• justify – ravna tekst s obe strane bloka
+
+Primer..."
+[2025-08-28T00:17:40.741Z] 📄 Extracting page 106/114...
+[2025-08-28T00:17:40.793Z] ✅ Page 106 extracted: 2344 characters
+[2025-08-28T00:17:40.793Z] 📖 Page 106 preview: "Slika 45: Primer menjanja tipa linije u talasastu i boje u crvenu boju
+
+
+
+Slika 44: Vizuelni pri..."
+[2025-08-28T00:17:40.793Z] 📄 Extracting page 107/114...
+[2025-08-28T00:17:40.842Z] ✅ Page 107 extracted: 626 characters
+[2025-08-28T00:17:40.843Z] 📖 Page 107 preview: "Slika 46: Web-safe fontovi
+
+Na veb-lokaciji https://www. cssfontstack. com/ vodi se evidencija kol..."
+[2025-08-28T00:17:40.843Z] 📄 Extracting page 108/114...
+[2025-08-28T00:17:40.901Z] ✅ Page 108 extracted: 2114 characters
+[2025-08-28T00:17:40.901Z] 📖 Page 108 preview: "13 Alati za izradu HTML dokumenata
+
+
+
+Za potrebe rada na predmetu ne treba mnogo alata, i svi al..."
+[2025-08-28T00:17:40.902Z] 📄 Extracting page 109/114...
+[2025-08-28T00:17:40.954Z] ✅ Page 109 extracted: 2569 characters
+[2025-08-28T00:17:40.954Z] 📖 Page 109 preview: "pregledač, tako da je moguće videti rezultate HTML i CSS kȏda bez izlaska iz njega. Ova opcija
+ima ..."
+[2025-08-28T00:17:40.954Z] 📄 Extracting page 110/114...
+[2025-08-28T00:17:41.009Z] ✅ Page 110 extracted: 1776 characters
+[2025-08-28T00:17:41.010Z] 📖 Page 110 preview: "ment.
+
+
+13. 2. 1 Firefox alati za razvoj veb-stranica
+
+U režimu za inspekciju elemenata otvara ..."
+[2025-08-28T00:17:41.012Z] 📄 Extracting page 111/114...
+[2025-08-28T00:17:41.068Z] ✅ Page 111 extracted: 1292 characters
+[2025-08-28T00:17:41.068Z] 📖 Page 111 preview: "• KHTML: Konqueror
+
+• EdgeHTML: Microsoft Edge
+
+Za razvoj stranica preporučeni pregledači su Fir..."
+[2025-08-28T00:17:41.069Z] 📄 Extracting page 112/114...
+[2025-08-28T00:17:41.130Z] ✅ Page 112 extracted: 1271 characters
+[2025-08-28T00:17:41.131Z] 📖 Page 112 preview: "14 Spisak značajnih veb-lokacija
+
+
+
+U ovom delu udžbenika navedene su veb-lokacije koje mogu pom..."
+[2025-08-28T00:17:41.131Z] 📄 Extracting page 113/114...
+[2025-08-28T00:17:41.186Z] ✅ Page 113 extracted: 573 characters
+[2025-08-28T00:17:41.187Z] 📖 Page 113 preview: "• http://www. w3schools. com – popularna veb-lokacija za učenje HTML, CSS i JS.
+Lokacija pruža preg..."
+[2025-08-28T00:17:41.187Z] 📄 Extracting page 114/114...
+[2025-08-28T00:17:41.239Z] ✅ Page 114 extracted: 840 characters
+[2025-08-28T00:17:41.239Z] 📖 Page 114 preview: "15 Literatura
+
+
+
+[1] Beaird, J., George, J. (2014). The Principles of Beautiful Web Design.: Sit..."
+[2025-08-28T00:17:41.241Z] INFO: Text extraction completed: 108 pages processed
+[2025-08-28T00:17:41.268Z] Progress: render - 35% - Rendering PDF pages
+[2025-08-28T00:17:42.053Z] Progress: text - 55% - Saving text files
+[2025-08-28T00:17:42.101Z] INFO: 
+[2025-08-28T00:17:42.101Z] INFO: ------------------------------------------------------------
+[2025-08-28T00:17:42.101Z] INFO: SECTION: DOCUMENT STRUCTURE ANALYSIS
+[2025-08-28T00:17:42.101Z] INFO: ------------------------------------------------------------
+[2025-08-28T00:17:42.101Z] INFO: Progress: sectioning [█████████████-------] 65% - Analyzing complete document structure with AI
+[2025-08-28T00:17:42.127Z] Progress: sectioning - 65% - Analyzing complete document structure with AI
+[2025-08-28T00:17:42.143Z] INFO: Checking for existing TOC analysis in database
+[2025-08-28T00:17:42.172Z] ⚠️ No TOC analysis found, using legacy structure detection
+[2025-08-28T00:17:42.183Z] WARNING: Using legacy fallback structure detection
+[2025-08-28T00:17:42.866Z] 🔄 Using node-poppler for true page-by-page extraction (pages 2 to 6)
+[2025-08-28T00:17:42.870Z] 📁 Created temp PDF file: C:\Users\stefa\AppData\Local\Temp\temp_pdf_1756340262867.pdf
+[2025-08-28T00:17:43.065Z] 📚 PDF has 114 pages, extracting 2 to 6
+[2025-08-28T00:17:43.066Z] 📄 Extracting page 2/6...
+[2025-08-28T00:17:43.124Z] ✅ Page 2 extracted: 4350 characters
+[2025-08-28T00:17:43.124Z] 📖 Page 2 preview: "Sadržaj
+
+1 Osnovni pojmovi u veb-dizajnu............................................................."
+[2025-08-28T00:17:43.125Z] 📄 Extracting page 3/6...
+[2025-08-28T00:17:43.163Z] ✅ Page 3 extracted: 4541 characters
+[2025-08-28T00:17:43.164Z] 📖 Page 3 preview: "3. 4. 4 Element <em>..................................................................................."
+[2025-08-28T00:17:43.164Z] 📄 Extracting page 4/6...
+[2025-08-28T00:17:43.209Z] ✅ Page 4 extracted: 4630 characters
+[2025-08-28T00:17:43.209Z] 📖 Page 4 preview: "7. 4 Objektni model HTML dokumenta (DOM)..............................................................."
+[2025-08-28T00:17:43.210Z] 📄 Extracting page 5/6...
+[2025-08-28T00:17:43.254Z] ✅ Page 5 extracted: 4504 characters
+[2025-08-28T00:17:43.255Z] 📖 Page 5 preview: "10. 4 Ivica okvira....................................................................................."
+[2025-08-28T00:17:43.255Z] 📄 Extracting page 6/6...
+[2025-08-28T00:17:43.293Z] ✅ Page 6 extracted: 1296 characters
+[2025-08-28T00:17:43.295Z] 📖 Page 6 preview: "13. 1. 1 Notepad++....................................................................................."
+[2025-08-28T00:20:14.950Z] INFO: Using SIMPLE page-based extraction - NO header searching
+[2025-08-28T00:20:14.950Z] 📚 ENHANCED: Processing 134 sections - attempting title-based boundaries with page fallback
+[2025-08-28T00:20:14.951Z] 📄 ENHANCED: Processing section 1/134: "1 Osnovni pojmovi u veb-dizajnu" (pages 7-12)
+[2025-08-28T00:20:14.951Z] 📄 ENHANCED: Processing section "1 Osnovni pojmovi u veb-dizajnu" with title boundary detection
+[2025-08-28T00:20:14.952Z] 🎯 TITLE-BASED: Searching for "1 Osnovni pojmovi u veb-dizajnu" and next section boundaries
+[2025-08-28T00:20:14.973Z] WARNING: No TOC specified, using content-based fallback
+[2025-08-28T00:20:14.974Z] 📝 Legacy structure detection completed: 25 sections found
+[2025-08-28T00:20:15.003Z] Progress: embed - 75% - Processing sections and creating embeddings
+[2025-08-28T00:20:29.478Z] Progress: chunk - 85% - Creating and processing chunks
+[2025-08-28T00:20:41.474Z] Progress: done - 100% - Document processing completed
+[2025-08-28T00:20:41.500Z] INFO: 
+[2025-08-28T00:20:41.500Z] INFO: ------------------------------------------------------------
+[2025-08-28T00:20:41.500Z] INFO: SECTION: PROCESSING STATISTICS
+[2025-08-28T00:20:41.500Z] INFO: ------------------------------------------------------------
+[2025-08-28T00:20:41.500Z] INFO: total pages: 108
+[2025-08-28T00:20:41.500Z] INFO: total sections: 25
+[2025-08-28T00:20:41.500Z] INFO: total chunks: 25
+[2025-08-28T00:20:41.500Z] INFO: has o c r: false
+[2025-08-28T00:20:41.500Z] INFO: toc pages used: 2-6
+[2025-08-28T00:20:41.500Z] INFO: content start page: 7
+[2025-08-28T00:20:41.500Z] 🎉 Document processing completed successfully for material 68afa0047aa028a64b29852c
+[2025-08-28T00:20:41.501Z] INFO: 
+[2025-08-28T00:20:41.501Z] INFO: ================================================================================
+[2025-08-28T00:20:41.501Z] INFO: End Time: 2025-08-28T00:20:41.501Z
+[2025-08-28T00:20:41.501Z] INFO: Total Processing Time: 189 seconds
+[2025-08-28T00:20:41.501Z] INFO: Total Log Entries: 408
+[2025-08-28T00:20:41.501Z] INFO: ================================================================================

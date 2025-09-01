@@ -1,0 +1,48 @@
+[2025-08-26T02:21:15.824Z] [INFO] ================================================================================
+[2025-08-26T02:21:15.824Z] [INFO] DOCUMENT PROCESSING LOG
+[2025-08-26T02:21:15.825Z] [INFO] Material ID: 68ad1a195c8561c2c634ea78
+[2025-08-26T02:21:15.825Z] [INFO] Start Time: 2025-08-26T02:21:15.824Z
+[2025-08-26T02:21:15.825Z] [INFO] ================================================================================
+[2025-08-26T02:21:15.825Z] [INFO] 
+[2025-08-26T02:21:15.826Z] [INFO] Starting document processing for material: 68ad1a195c8561c2c634ea78
+[2025-08-26T02:21:15.826Z] [INFO] TOC pages specified: 2-4
+[2025-08-26T02:21:15.827Z] [INFO] Progress: probe [█-------------------] 5% - Starting document processing
+[2025-08-26T02:21:15.853Z] [INFO] 
+[2025-08-26T02:21:15.854Z] [INFO] ------------------------------------------------------------
+[2025-08-26T02:21:15.854Z] [INFO] SECTION: INITIALIZATION
+[2025-08-26T02:21:15.854Z] [INFO] ------------------------------------------------------------
+[2025-08-26T02:21:15.855Z] [INFO] Progress: probe [█-------------------] 7% - Clearing existing test data
+[2025-08-26T02:21:16.488Z] [INFO] Loading material from database
+[2025-08-26T02:21:16.511Z] [INFO] Material loaded: RMT1 (Subject: 68ad15dfbd116b1322119aac)
+[2025-08-26T02:21:17.218Z] [INFO] 
+[2025-08-26T02:21:17.219Z] [INFO] ------------------------------------------------------------
+[2025-08-26T02:21:17.219Z] [INFO] SECTION: PDF TEXT EXTRACTION
+[2025-08-26T02:21:17.219Z] [INFO] ------------------------------------------------------------
+[2025-08-26T02:21:17.220Z] [INFO] Progress: text [████----------------] 20% - Extracting text from entire PDF content (all pages from 5 onwards)
+[2025-08-26T02:21:17.220Z] [INFO] Starting text extraction from page 5 onwards
+[2025-08-26T02:21:25.106Z] [INFO] Text extraction completed: 196 pages processed
+[2025-08-26T02:21:27.351Z] [INFO] 
+[2025-08-26T02:21:27.367Z] [INFO] ------------------------------------------------------------
+[2025-08-26T02:21:27.368Z] [INFO] SECTION: DOCUMENT STRUCTURE ANALYSIS
+[2025-08-26T02:21:27.368Z] [INFO] ------------------------------------------------------------
+[2025-08-26T02:21:27.368Z] [INFO] Progress: sectioning [█████████████-------] 65% - Analyzing complete document structure with AI
+[2025-08-26T02:21:27.396Z] [INFO] Checking for existing TOC analysis in database
+[2025-08-26T02:21:27.421Z] [WARNING] No TOC analysis found, using legacy structure detection
+[2025-08-26T02:24:20.440Z] [INFO] Legacy structure detection completed: 123 sections found
+[2025-08-26T02:25:54.274Z] [INFO] 
+[2025-08-26T02:25:54.274Z] [INFO] ------------------------------------------------------------
+[2025-08-26T02:25:54.275Z] [INFO] SECTION: PROCESSING STATISTICS
+[2025-08-26T02:25:54.275Z] [INFO] ------------------------------------------------------------
+[2025-08-26T02:25:54.276Z] [INFO] total pages: 196
+[2025-08-26T02:25:54.276Z] [INFO] total sections: 123
+[2025-08-26T02:25:54.276Z] [INFO] total chunks: 102
+[2025-08-26T02:25:54.277Z] [INFO] has o c r: false
+[2025-08-26T02:25:54.277Z] [INFO] toc pages used: 2-4
+[2025-08-26T02:25:54.277Z] [INFO] content start page: 5
+[2025-08-26T02:25:54.278Z] [INFO] Document processing completed successfully for material 68ad1a195c8561c2c634ea78
+[2025-08-26T02:25:54.279Z] [INFO] 
+[2025-08-26T02:25:54.280Z] [INFO] ================================================================================
+[2025-08-26T02:25:54.281Z] [INFO] End Time: 2025-08-26T02:25:54.279Z
+[2025-08-26T02:25:54.281Z] [INFO] Total Processing Time: 278 seconds
+[2025-08-26T02:25:54.282Z] [INFO] Total Log Entries: 46
+[2025-08-26T02:25:54.282Z] [INFO] ================================================================================

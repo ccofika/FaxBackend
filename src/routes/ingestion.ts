@@ -1,7 +1,7 @@
 import { Router } from 'express';
 import multer from 'multer';
 import { adminAuth } from '../middleware/adminAuth';
-import { Material, DocumentSection, DocumentChunk } from '../models';
+import { Material, DocumentSection, DocumentChunk, TocAnalysis } from '../models';
 import jobQueueService from '../services/jobQueueService';
 import qdrantService from '../services/qdrantService';
 import documentIngestionService from '../services/documentIngestionService';
@@ -256,27 +256,52 @@ router.post('/process/:materialId', async (req, res) => {
       },
     });
 
-    // Start processing entire book directly in background
-    console.log(`🚀 Starting complete book processing for material: ${materialId} with tocPage: ${tocPage || 'not specified'}, tocToPage: ${tocToPage || 'not specified'}`);
-    
-    setImmediate(async () => {
-      try {
-        await documentIngestionService.processDocument(materialId, tocPage, tocToPage);
-        console.log(`✅ Complete book processing finished for material: ${materialId}`);
-      } catch (processingError) {
-        console.error(`❌ Book processing failed for material ${materialId}:`, processingError);
-      }
-    });
+    // Check if TOC pages are specified - if yes, do TOC-only processing
+    if (tocPage && tocToPage) {
+      // Start TOC-only processing
+      console.log(`🚀 Starting TOC-only processing for material: ${materialId}, pages: ${tocPage}-${tocToPage}`);
+      
+      setImmediate(async () => {
+        try {
+          await documentIngestionService.processDocumentTOCOnly(materialId, tocPage, tocToPage);
+          console.log(`✅ TOC analysis completed for material: ${materialId}`);
+        } catch (processingError) {
+          console.error(`❌ TOC analysis failed for material ${materialId}:`, processingError);
+        }
+      });
 
-    res.json({
-      success: true,
-      message: 'Complete book processing started - no page restrictions',
-      options: {
-        tocPage: tocPage || null,
-        tocToPage: tocToPage || null,
-        processingScope: 'entire_book'
-      },
-    });
+      res.json({
+        success: true,
+        message: 'TOC analysis started - will stop after TOC creation for admin review',
+        options: {
+          tocPage: tocPage,
+          tocToPage: tocToPage,
+          processingScope: 'toc_only'
+        },
+      });
+    } else {
+      // No TOC pages specified - use legacy full processing (fallback)
+      console.log(`🚀 Starting legacy full processing for material: ${materialId} (no TOC pages specified)`);
+      
+      setImmediate(async () => {
+        try {
+          await documentIngestionService.processDocument(materialId, tocPage, tocToPage);
+          console.log(`✅ Full document processing finished for material: ${materialId}`);
+        } catch (processingError) {
+          console.error(`❌ Document processing failed for material ${materialId}:`, processingError);
+        }
+      });
+
+      res.json({
+        success: true,
+        message: 'Legacy full document processing started (no TOC pages specified)',
+        options: {
+          tocPage: null,
+          tocToPage: null,
+          processingScope: 'full_legacy'
+        },
+      });
+    }
   } catch (error) {
     console.error('Error starting document processing:', error);
     res.status(500).json({ success: false, message: 'Internal server error' });
@@ -508,22 +533,42 @@ router.post('/abort', async (req, res) => {
       }
     }
     
+    // DIRECTLY abort ALL active AI analyses
+    const aiPostProcessingService = require('../services/aiPostProcessingService').default;
+    const aiAbortedCount = aiPostProcessingService.abortAllAnalyses();
+    
+    // KILL ALL NODE.JS PROCESSES THAT MIGHT BE RUNNING AI ANALYSIS
+    console.log('🔪 KILLING ALL ANALYSIS PROCESSES');
+    process.kill(process.pid, 'SIGTERM');
+    
     // Set a global abort flag that processing functions can check
     (global as any).abortProcessing = true;
     
-    // Clear the abort flag after a delay
-    setTimeout(() => {
-      (global as any).abortProcessing = false;
-      console.log('🟢 Abort flag cleared, new processes can start');
-    }, 5000); // Clear after 5 seconds
+    // Keep the abort flag active longer for AI analysis (which can take hours)
+    // Clear any existing timeout
+    if ((global as any).abortTimeout) {
+      clearTimeout((global as any).abortTimeout);
+    }
     
-    console.log(`✅ Successfully aborted ${abortedCount} processing tasks`);
+    // Set new timeout for 60 seconds (enough time for AI analysis to detect and abort)
+    (global as any).abortTimeout = setTimeout(() => {
+      (global as any).abortProcessing = false;
+      (global as any).abortTimeout = null;
+      console.log('🟢 Abort flag cleared, new processes can start');
+    }, 60000); // Clear after 60 seconds
+    
+    console.log(`✅ Successfully aborted all processes:`);
+    console.log(`   - Material processing: ${abortedCount} tasks`);
+    console.log(`   - AI analyses: ${aiAbortedCount} active analyses`);
+    console.log(`🛑 Abort flag will remain active for 60 seconds`);
     
     res.json({
       success: true,
-      message: `Successfully aborted ${abortedCount} processing tasks`,
+      message: `Successfully aborted all processes. Material processing: ${abortedCount} tasks, AI analyses: ${aiAbortedCount} active analyses.`,
       abortedCount,
-      totalFound: processingMaterials.length
+      aiAbortedCount,
+      totalFound: processingMaterials.length,
+      abortDuration: '60 seconds'
     });
   } catch (error) {
     console.error('❌ Error aborting processes:', error);
@@ -532,6 +577,205 @@ router.post('/abort', async (req, res) => {
       message: 'Failed to abort processes',
       error: error instanceof Error ? error.message : 'Unknown error'
     });
+  }
+});
+
+// Process document TOC only
+router.post('/process-toc-only/:materialId', async (req, res) => {
+  try {
+    const { materialId } = req.params;
+    const { tocPage, tocToPage } = req.body;
+    
+    if (!tocPage || !tocToPage) {
+      return res.status(400).json({ 
+        success: false, 
+        message: 'TOC pages (tocPage and tocToPage) are required' 
+      });
+    }
+    
+    const material = await Material.findById(materialId);
+    if (!material) {
+      return res.status(404).json({ success: false, message: 'Material not found' });
+    }
+
+    if (material.status === 'processing') {
+      return res.status(400).json({ 
+        success: false, 
+        message: 'Document is already being processed' 
+      });
+    }
+
+    // Start TOC-only processing in background
+    console.log(`🚀 Starting TOC-only processing for material: ${materialId}, pages: ${tocPage}-${tocToPage}`);
+    
+    setImmediate(async () => {
+      try {
+        await documentIngestionService.processDocumentTOCOnly(materialId, tocPage, tocToPage);
+        console.log(`✅ TOC analysis completed for material: ${materialId}`);
+      } catch (processingError) {
+        console.error(`❌ TOC analysis failed for material ${materialId}:`, processingError);
+      }
+    });
+
+    res.json({
+      success: true,
+      message: 'TOC analysis started - will stop after TOC creation',
+      materialId,
+      tocPages: `${tocPage}-${tocToPage}`,
+    });
+  } catch (error) {
+    console.error('Error starting TOC-only processing:', error);
+    res.status(500).json({ success: false, message: 'Internal server error' });
+  }
+});
+
+// Get TOC analysis for editing
+router.get('/toc-analysis/:materialId', async (req, res) => {
+  try {
+    const { materialId } = req.params;
+    
+    const material = await Material.findById(materialId);
+    if (!material) {
+      return res.status(404).json({ success: false, message: 'Material not found' });
+    }
+    
+    const tocAnalysis = await TocAnalysis.findOne({ docId: materialId });
+    if (!tocAnalysis) {
+      return res.status(404).json({ 
+        success: false, 
+        message: 'No TOC analysis found for this material' 
+      });
+    }
+    
+    res.json({
+      success: true,
+      tocAnalysis: {
+        id: tocAnalysis._id,
+        materialId: tocAnalysis.docId,
+        materialTitle: material.title,
+        materialStatus: material.status,
+        tocPages: tocAnalysis.tocPages,
+        sections: tocAnalysis.sections.map(section => ({
+          title: section.title,
+          cleanTitle: section.cleanTitle,
+          level: section.level,
+          pageStart: section.pageStart,
+          pageEnd: section.pageEnd,
+          semanticType: section.semanticType,
+          processed: section.processed
+        })),
+        totalSections: tocAnalysis.totalSections,
+        processedSections: tocAnalysis.processedSections,
+        status: tocAnalysis.status,
+        createdAt: tocAnalysis.createdAt,
+        updatedAt: tocAnalysis.updatedAt
+      }
+    });
+  } catch (error) {
+    console.error('Error getting TOC analysis:', error);
+    res.status(500).json({ success: false, message: 'Internal server error' });
+  }
+});
+
+// Update TOC analysis sections
+router.put('/toc-analysis/:materialId', async (req, res) => {
+  try {
+    const { materialId } = req.params;
+    const { sections } = req.body;
+    
+    if (!sections || !Array.isArray(sections)) {
+      return res.status(400).json({ 
+        success: false, 
+        message: 'Sections array is required' 
+      });
+    }
+    
+    const material = await Material.findById(materialId);
+    if (!material) {
+      return res.status(404).json({ success: false, message: 'Material not found' });
+    }
+    
+    const tocAnalysis = await TocAnalysis.findOne({ docId: materialId });
+    if (!tocAnalysis) {
+      return res.status(404).json({ 
+        success: false, 
+        message: 'No TOC analysis found for this material' 
+      });
+    }
+    
+    // Validate and update sections
+    const updatedSections = sections.map((section: any) => ({
+      title: section.title?.trim(),
+      cleanTitle: section.cleanTitle?.trim() || section.title?.replace(/^[\d\.\s]+/, '').trim(),
+      level: parseInt(section.level) || 1,
+      pageStart: parseInt(section.pageStart) || 1,
+      pageEnd: parseInt(section.pageEnd) || parseInt(section.pageStart) || 1,
+      semanticType: section.semanticType || 'section',
+      processed: false, // Reset processed flag since sections were edited
+      parentSectionId: section.parentSectionId || null
+    }));
+    
+    // Update the TOC analysis
+    await TocAnalysis.findByIdAndUpdate(tocAnalysis._id, {
+      $set: {
+        sections: updatedSections,
+        totalSections: updatedSections.length,
+        processedSections: 0, // Reset since sections were edited
+        status: 'pending', // Reset status for re-processing
+        updatedAt: new Date()
+      }
+    });
+    
+    console.log(`📝 Updated TOC analysis for material ${materialId} with ${updatedSections.length} sections`);
+    
+    res.json({
+      success: true,
+      message: `TOC analysis updated with ${updatedSections.length} sections`,
+      updatedSections: updatedSections.length
+    });
+  } catch (error) {
+    console.error('Error updating TOC analysis:', error);
+    res.status(500).json({ success: false, message: 'Internal server error' });
+  }
+});
+
+// Continue processing after TOC review
+router.post('/continue-after-toc/:materialId', async (req, res) => {
+  try {
+    const { materialId } = req.params;
+    
+    const material = await Material.findById(materialId);
+    if (!material) {
+      return res.status(404).json({ success: false, message: 'Material not found' });
+    }
+
+    if (material.status !== 'toc_ready') {
+      return res.status(400).json({ 
+        success: false, 
+        message: `Cannot continue processing. Expected status: toc_ready, current status: ${material.status}` 
+      });
+    }
+
+    // Start continuation processing in background
+    console.log(`🚀 Continuing processing after TOC review for material: ${materialId}`);
+    
+    setImmediate(async () => {
+      try {
+        await documentIngestionService.continueProcessingAfterTOC(materialId);
+        console.log(`✅ Document processing completed for material: ${materialId}`);
+      } catch (processingError) {
+        console.error(`❌ Continue processing failed for material ${materialId}:`, processingError);
+      }
+    });
+
+    res.json({
+      success: true,
+      message: 'Processing continuation started - using reviewed TOC data',
+      materialId,
+    });
+  } catch (error) {
+    console.error('Error continuing processing after TOC:', error);
+    res.status(500).json({ success: false, message: 'Internal server error' });
   }
 });
 

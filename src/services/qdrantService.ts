@@ -84,13 +84,23 @@ class QdrantService {
   }
 
   private validateTextLength(text: string): string {
-    // Conservative token estimation: 1 token = 3 characters
-    const maxTokens = 8000; // Leave some margin from 8192 limit
-    const maxChars = maxTokens * 3;
+    // With section splitting, this should rarely trigger, but keep as safety net
+    const maxTokens = 7500; // Leave margin from 8192 limit
+    const maxChars = maxTokens * 1.6; // ~1.6 chars per token on average
+    const absoluteMax = 12000;
     
     if (text.length > maxChars) {
-      console.warn(`Text too long for embedding: ${text.length} chars (max: ${maxChars}). Truncating.`);
-      return text.substring(0, maxChars);
+      console.warn(`⚠️ Text still too long for embedding: ${text.length} chars (max: ${maxChars}). This should not happen with section splitting. Truncating as safety measure.`);
+      // This should rarely happen now that we split sections at 10k chars
+      const truncated = text.substring(0, absoluteMax);
+      const lastPeriod = truncated.lastIndexOf('.');
+      const lastNewline = truncated.lastIndexOf('\n');
+      const cutPoint = Math.max(lastPeriod, lastNewline);
+      
+      if (cutPoint > absoluteMax * 0.7) {
+        return text.substring(0, cutPoint + 1);
+      }
+      return truncated;
     }
     
     return text;
@@ -141,6 +151,9 @@ class QdrantService {
     metadata: {
       docId: string;
       subjectId: string;
+      facultyId?: string;
+      departmentId?: string;
+      year?: number;
       title: string;
       path: string;
       level: number;
@@ -150,7 +163,11 @@ class QdrantService {
     }
   ): Promise<string> {
     try {
-      const embedding = await this.generateEmbedding(content);
+      // Create enriched content for better embedding
+      // Include title and context to improve search relevance
+      const enrichedContent = `${metadata.title}\n\n${content}`;
+      
+      const embedding = await this.generateEmbedding(enrichedContent);
       // Generate UUID for vector ID
       const vectorId = uuidv4();
 
@@ -160,7 +177,9 @@ class QdrantService {
         payload: {
           ...metadata,
           sectionId: sectionId, // Store original sectionId in payload
-          content_preview: content.substring(0, 200), // Store preview only
+          content_preview: content.substring(0, 300), // Store longer preview
+          title_included: true, // Mark that title was included in embedding
+          // Additional scalability fields will be added by caller
         },
       }]);
 
@@ -211,7 +230,12 @@ class QdrantService {
 
   async searchSections(
     query: string,
-    subjectId: string,
+    filters: {
+      subjectId?: string;
+      facultyId?: string;
+      departmentId?: string;
+      year?: number;
+    },
     limit: number = 8
   ): Promise<SearchResult[]> {
     try {
@@ -219,14 +243,29 @@ class QdrantService {
       
       const queryEmbedding = await this.generateEmbedding(query);
 
+      // Build dynamic filter based on provided criteria
+      const mustFilters: any[] = [
+        { key: 'type', match: { value: 'section' } }
+      ];
+      
+      if (filters.subjectId) {
+        mustFilters.push({ key: 'subjectId', match: { value: filters.subjectId } });
+      }
+      if (filters.facultyId) {
+        mustFilters.push({ key: 'facultyId', match: { value: filters.facultyId } });
+      }
+      if (filters.departmentId) {
+        mustFilters.push({ key: 'departmentId', match: { value: filters.departmentId } });
+      }
+      if (filters.year) {
+        mustFilters.push({ key: 'year', match: { value: filters.year } });
+      }
+
       const searchResults = await this.client.search(this.collectionName, {
         vector: queryEmbedding,
         limit,
         filter: {
-          must: [
-            { key: 'subjectId', match: { value: subjectId } },
-            { key: 'type', match: { value: 'section' } },
-          ],
+          must: mustFilters,
         },
         with_payload: true,
       });

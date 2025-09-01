@@ -1,0 +1,42 @@
+[2025-09-01T16:12:56.496Z] INFO: ================================================================================
+[2025-09-01T16:12:56.496Z] INFO: DOCUMENT PROCESSING LOG
+[2025-09-01T16:12:56.496Z] INFO: Material ID: 68b5c602146672188888f363
+[2025-09-01T16:12:56.496Z] INFO: Start Time: 2025-09-01T16:12:56.496Z
+[2025-09-01T16:12:56.496Z] INFO: ================================================================================
+[2025-09-01T16:12:56.496Z] INFO: 
+[2025-09-01T16:12:56.496Z] INFO: Starting TOC-only processing for material: 68b5c602146672188888f363
+[2025-09-01T16:12:56.496Z] INFO: TOC pages specified: 2-3
+[2025-09-01T16:12:56.496Z] INFO: Progress: probe [█-------------------] 5% - Starting TOC analysis
+[2025-09-01T16:12:56.557Z] Progress: probe - 5% - Starting TOC analysis
+[2025-09-01T16:12:56.557Z] INFO: Loading material from database
+[2025-09-01T16:12:56.634Z] INFO: Material loaded: SPM1 (Subject: 68ad1be75c8561c2c634eda2)
+[2025-09-01T16:12:56.758Z] Progress: toc_analysis - 20% - Downloading PDF from R2
+[2025-09-01T16:12:57.570Z] INFO: 
+[2025-09-01T16:12:57.571Z] INFO: ------------------------------------------------------------
+[2025-09-01T16:12:57.571Z] INFO: SECTION: TOC ANALYSIS
+[2025-09-01T16:12:57.571Z] INFO: ------------------------------------------------------------
+[2025-09-01T16:12:57.571Z] INFO: Progress: toc_analysis [████████------------] 40% - Extracting TOC pages
+[2025-09-01T16:12:57.639Z] Progress: toc_analysis - 40% - Extracting TOC pages
+[2025-09-01T16:12:57.639Z] 🔄 Using node-poppler for true page-by-page extraction (pages 2 to 3)
+[2025-09-01T16:12:57.642Z] 📁 Created temp PDF file: C:\Users\stefa\AppData\Local\Temp\temp_pdf_1756743177639.pdf
+[2025-09-01T16:12:58.396Z] 📚 PDF has 105 pages, extracting 2 to 3
+[2025-09-01T16:12:58.396Z] 📄 Extracting page 2/3...
+[2025-09-01T16:12:58.475Z] ✅ Page 2 extracted: 2902 characters
+[2025-09-01T16:12:58.475Z] 📖 Page 2 preview: "Sadržaj
+Sadržaj......................................................................................."
+[2025-09-01T16:12:58.475Z] 📄 Extracting page 3/3...
+[2025-09-01T16:12:58.507Z] ✅ Page 3 extracted: 2762 characters
+[2025-09-01T16:12:58.508Z] 📖 Page 3 preview: "5. 6 Memorijska reprezentacija........................................................................."
+[2025-09-01T16:12:58.509Z] INFO: Progress: toc_analysis [██████████████------] 70% - Analyzing TOC with AI
+[2025-09-01T16:12:58.576Z] Progress: toc_analysis - 70% - Analyzing TOC with AI
+[2025-09-01T16:14:04.962Z] INFO: AI analysis completed: 50 sections found
+[2025-09-01T16:14:05.022Z] INFO: Progress: toc_analysis [████████████████████] 100% - TOC analysis completed - ready for review
+[2025-09-01T16:14:05.097Z] Progress: toc_analysis - 100% - TOC analysis completed - ready for review
+[2025-09-01T16:14:05.097Z] 🎉 TOC analysis completed successfully for material 68b5c602146672188888f363
+[2025-09-01T16:14:05.097Z] INFO: Material status updated to toc_ready - awaiting admin review
+[2025-09-01T16:14:05.097Z] INFO: 
+[2025-09-01T16:14:05.097Z] INFO: ================================================================================
+[2025-09-01T16:14:05.097Z] INFO: End Time: 2025-09-01T16:14:05.097Z
+[2025-09-01T16:14:05.097Z] INFO: Total Processing Time: 69 seconds
+[2025-09-01T16:14:05.097Z] INFO: Total Log Entries: 39
+[2025-09-01T16:14:05.097Z] INFO: ================================================================================

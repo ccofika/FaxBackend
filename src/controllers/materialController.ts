@@ -1,9 +1,10 @@
 import { Request, Response } from 'express';
-import { City, Faculty, Department, Subject, Material, DocumentSection, DocumentChunk } from '../models';
+import { City, Faculty, Department, Subject, Material, DocumentSection, DocumentChunk, TocAnalysis } from '../models';
 import jobQueueService from '../services/jobQueueService';
 import documentIngestionService from '../services/documentIngestionService';
 import r2Service from '../services/r2Service';
 import qdrantService from '../services/qdrantService';
+import aiPostProcessingService from '../services/aiPostProcessingService';
 
 // Cities
 export const getCities = async (req: Request, res: Response) => {
@@ -147,21 +148,58 @@ export const deleteFaculty = async (req: Request, res: Response) => {
   try {
     const { id } = req.params;
     
-    // Check if faculty has departments
-    const departmentCount = await Department.countDocuments({ facultyId: id });
-    if (departmentCount > 0) {
-      return res.status(400).json({ 
-        success: false, 
-        message: 'Cannot delete faculty with departments. Please delete departments first.' 
-      });
+    console.log(`🗑️ Deleting faculty with ID: ${id}`);
+    
+    // Find all materials for this faculty
+    const materials = await Material.find({ facultyId: id });
+    console.log(`📚 Found ${materials.length} materials to delete for faculty`);
+    
+    // Delete each material and its associated data
+    for (const material of materials) {
+      console.log(`🗑️ Deleting material: ${material.title} (${material._id})`);
+      
+      // Delete from R2 if it's a PDF material with R2 key
+      if (material.type === 'pdf' && material.r2Key) {
+        try {
+          await r2Service.delete(material.r2Key);
+          console.log(`✅ Deleted from R2: ${material.r2Key}`);
+        } catch (r2Error) {
+          console.error('⚠️ Failed to delete from R2:', r2Error);
+        }
+      }
+      
+      // Delete associated document sections, chunks, and TOC analysis
+      try {
+        await DocumentSection.deleteMany({ docId: material._id });
+        await DocumentChunk.deleteMany({ docId: material._id });
+        await TocAnalysis.deleteMany({ docId: material._id });
+        await qdrantService.deleteDocument(String(material._id));
+        console.log(`✅ Deleted associated data for material: ${material._id}`);
+      } catch (dbError) {
+        console.error('⚠️ Failed to delete associated data:', dbError);
+      }
     }
+    
+    // Delete all materials for this faculty
+    const materialDeleteResult = await Material.deleteMany({ facultyId: id });
+    console.log(`🗑️ Deleted ${materialDeleteResult.deletedCount} materials for faculty`);
+    
+    // Delete all subjects for this faculty
+    const subjectDeleteResult = await Subject.deleteMany({ facultyId: id });
+    console.log(`🗑️ Deleted ${subjectDeleteResult.deletedCount} subjects for faculty`);
+    
+    // Delete all departments for this faculty
+    const departmentDeleteResult = await Department.deleteMany({ facultyId: id });
+    console.log(`🗑️ Deleted ${departmentDeleteResult.deletedCount} departments for faculty`);
 
+    // Delete the faculty itself
     const faculty = await Faculty.findByIdAndDelete(id);
     if (!faculty) {
       return res.status(404).json({ success: false, message: 'Faculty not found' });
     }
     
-    res.json({ success: true, message: 'Faculty deleted successfully' });
+    console.log(`✅ Successfully deleted faculty: ${faculty.name} and all associated data`);
+    res.json({ success: true, message: 'Faculty and all associated data deleted successfully' });
   } catch (error) {
     console.error('Delete faculty error:', error);
     res.status(500).json({ success: false, message: 'Internal server error' });
@@ -324,21 +362,50 @@ export const deleteSubject = async (req: Request, res: Response) => {
   try {
     const { id } = req.params;
     
-    // Check if subject has materials
-    const materialCount = await Material.countDocuments({ subjectId: id });
-    if (materialCount > 0) {
-      return res.status(400).json({ 
-        success: false, 
-        message: 'Cannot delete subject with materials. Please delete materials first.' 
-      });
+    console.log(`🗑️ Deleting subject with ID: ${id}`);
+    
+    // Find all materials for this subject
+    const materials = await Material.find({ subjectId: id });
+    console.log(`📚 Found ${materials.length} materials to delete for subject`);
+    
+    // Delete each material and its associated data
+    for (const material of materials) {
+      console.log(`🗑️ Deleting material: ${material.title} (${material._id})`);
+      
+      // Delete from R2 if it's a PDF material with R2 key
+      if (material.type === 'pdf' && material.r2Key) {
+        try {
+          await r2Service.delete(material.r2Key);
+          console.log(`✅ Deleted from R2: ${material.r2Key}`);
+        } catch (r2Error) {
+          console.error('⚠️ Failed to delete from R2:', r2Error);
+        }
+      }
+      
+      // Delete associated document sections, chunks, and TOC analysis
+      try {
+        await DocumentSection.deleteMany({ docId: material._id });
+        await DocumentChunk.deleteMany({ docId: material._id });
+        await TocAnalysis.deleteMany({ docId: material._id });
+        await qdrantService.deleteDocument(String(material._id));
+        console.log(`✅ Deleted associated data for material: ${material._id}`);
+      } catch (dbError) {
+        console.error('⚠️ Failed to delete associated data:', dbError);
+      }
     }
+    
+    // Delete all materials for this subject
+    const materialDeleteResult = await Material.deleteMany({ subjectId: id });
+    console.log(`🗑️ Deleted ${materialDeleteResult.deletedCount} materials`);
 
+    // Delete the subject itself
     const subject = await Subject.findByIdAndDelete(id);
     if (!subject) {
       return res.status(404).json({ success: false, message: 'Subject not found' });
     }
     
-    res.json({ success: true, message: 'Subject deleted successfully' });
+    console.log(`✅ Successfully deleted subject: ${subject.name} and all associated data`);
+    res.json({ success: true, message: 'Subject and all associated materials deleted successfully' });
   } catch (error) {
     console.error('Delete subject error:', error);
     res.status(500).json({ success: false, message: 'Internal server error' });
@@ -516,6 +583,301 @@ export const deleteMaterial = async (req: Request, res: Response) => {
     res.json({ success: true, message: 'Material deleted successfully' });
   } catch (error) {
     console.error('Delete material error:', error);
+    res.status(500).json({ success: false, message: 'Internal server error' });
+  }
+};
+
+export const analyzeMaterial = async (req: Request, res: Response) => {
+  try {
+    const { id } = req.params;
+    
+    console.log(`🧠 Starting AI analysis for material: ${id}`);
+    
+    // Check if material exists
+    const material = await Material.findById(id);
+    if (!material) {
+      return res.status(404).json({ success: false, message: 'Material not found' });
+    }
+    
+    // Check if material has been processed (has sections)
+    const sectionCount = await DocumentSection.countDocuments({ docId: id });
+    if (sectionCount === 0) {
+      return res.status(400).json({ 
+        success: false, 
+        message: 'Material must be processed first before analysis. Please process the PDF first.' 
+      });
+    }
+    
+    // Run AI analysis
+    const result = await aiPostProcessingService.analyzeMaterial(id);
+    
+    if (result.success) {
+      res.json({ 
+        success: true, 
+        message: `AI analysis completed successfully. Processed ${result.processedSections} sections, skipped ${result.skippedSections}.`,
+        data: {
+          totalSections: result.totalSections,
+          processedSections: result.processedSections,
+          skippedSections: result.skippedSections
+        }
+      });
+    } else if (result.aborted) {
+      res.status(409).json({ 
+        success: false, 
+        message: `AI analysis was aborted by user. Processed ${result.processedSections} out of ${result.totalSections} sections before abort.`,
+        aborted: true,
+        data: {
+          totalSections: result.totalSections,
+          processedSections: result.processedSections,
+          skippedSections: result.skippedSections
+        }
+      });
+    } else {
+      res.status(500).json({ 
+        success: false, 
+        message: `AI analysis failed: ${result.error || 'Unknown error'}`,
+        data: {
+          totalSections: result.totalSections,
+          processedSections: result.processedSections,
+          skippedSections: result.skippedSections
+        }
+      });
+    }
+    
+  } catch (error) {
+    console.error('Analyze material error:', error);
+    res.status(500).json({ success: false, message: 'Internal server error' });
+  }
+};
+
+export const getAnalysisStatus = async (req: Request, res: Response) => {
+  try {
+    const { id } = req.params;
+    
+    const status = await aiPostProcessingService.getAnalysisStatus(id);
+    
+    res.json({ 
+      success: true, 
+      status: {
+        totalSections: status.totalSections,
+        analyzedSections: status.analyzedSections,
+        pendingSections: status.pendingSections,
+        isComplete: status.isComplete,
+        percentage: status.totalSections > 0 
+          ? Math.round((status.analyzedSections / status.totalSections) * 100)
+          : 0
+      }
+    });
+    
+  } catch (error) {
+    console.error('Get analysis status error:', error);
+    res.status(500).json({ success: false, message: 'Internal server error' });
+  }
+};
+
+export const getMaterialSections = async (req: Request, res: Response) => {
+  try {
+    const { id } = req.params;
+    
+    // Check if material exists
+    const material = await Material.findById(id);
+    if (!material) {
+      return res.status(404).json({ success: false, message: 'Material not found' });
+    }
+    
+    // Get all document sections for this material
+    const sections = await DocumentSection.find({ docId: id })
+      .sort({ pageNumber: 1, createdAt: 1 })
+      .select('-vectorId -embedding'); // Exclude vector data for performance
+    
+    res.json({ 
+      success: true, 
+      sections,
+      count: sections.length
+    });
+    
+  } catch (error) {
+    console.error('Get material sections error:', error);
+    res.status(500).json({ success: false, message: 'Internal server error' });
+  }
+};
+
+export const getMaterialAnalysis = async (req: Request, res: Response) => {
+  try {
+    const { id } = req.params;
+    
+    // Check if material exists
+    const material = await Material.findById(id);
+    if (!material) {
+      return res.status(404).json({ success: false, message: 'Material not found' });
+    }
+    
+    // For now, we'll create a mock analysis response based on the document sections
+    // In the future, this could be stored in a separate MaterialAnalysis collection
+    const sections = await DocumentSection.find({ docId: id });
+    
+    if (sections.length === 0) {
+      return res.json({ 
+        success: true, 
+        analysis: null,
+        message: 'No analysis available - material needs to be processed first'
+      });
+    }
+    
+    // Create a mock analysis based on available data
+    const mockAnalysis = {
+      _id: `analysis_${id}`,
+      materialId: id,
+      summary: `Ovaj materijal sadrži ${sections.length} sekcija sa različitim temama i konceptima relevantnim za predmet.`,
+      keyTopics: Array.from(new Set(sections.slice(0, 5).map(section => 
+        section.title.split(' ').slice(0, 2).join(' ')
+      ))).filter(topic => topic.length > 3),
+      difficulty: sections.length > 20 ? 'hard' : sections.length > 10 ? 'medium' : 'easy',
+      estimatedReadingTime: Math.round(sections.length * 2.5), // rough estimate
+      createdAt: new Date().toISOString(),
+      updatedAt: new Date().toISOString()
+    };
+    
+    res.json({ 
+      success: true, 
+      analysis: mockAnalysis
+    });
+    
+  } catch (error) {
+    console.error('Get material analysis error:', error);
+    res.status(500).json({ success: false, message: 'Internal server error' });
+  }
+};
+
+// Get TOC Analysis for material
+export const getMaterialTocAnalysis = async (req: Request, res: Response) => {
+  try {
+    const { id } = req.params;
+    
+    if (!id) {
+      return res.status(400).json({ success: false, message: 'Material ID is required' });
+    }
+
+    // Find TOC analysis for this material
+    const tocAnalysis = await TocAnalysis.findOne({ docId: id });
+    
+    if (!tocAnalysis) {
+      return res.json({ 
+        success: true, 
+        tocAnalysis: null,
+        message: 'No TOC analysis available - material needs to be processed first'
+      });
+    }
+    
+    res.json({ 
+      success: true, 
+      tocAnalysis 
+    });
+    
+  } catch (error) {
+    console.error('Get material TOC analysis error:', error);
+    res.status(500).json({ success: false, message: 'Internal server error' });
+  }
+};
+
+// Update material fields
+export const updateMaterialField = async (req: Request, res: Response) => {
+  try {
+    const { id } = req.params;
+    const { field, value } = req.body;
+    
+    if (!id || !field) {
+      return res.status(400).json({ success: false, message: 'Material ID and field are required' });
+    }
+
+    // Validate allowed fields
+    const allowedFields = ['title', 'note'];
+    if (!allowedFields.includes(field)) {
+      return res.status(400).json({ success: false, message: 'Invalid field' });
+    }
+
+    const updateData = { [field]: value };
+    const material = await Material.findByIdAndUpdate(id, updateData, { new: true });
+    
+    if (!material) {
+      return res.status(404).json({ success: false, message: 'Material not found' });
+    }
+    
+    res.json({ success: true, material });
+    
+  } catch (error) {
+    console.error('Update material field error:', error);
+    res.status(500).json({ success: false, message: 'Internal server error' });
+  }
+};
+
+// Update document section
+export const updateDocumentSection = async (req: Request, res: Response) => {
+  try {
+    const { sectionId } = req.params;
+    const { field, value } = req.body;
+    
+    if (!sectionId || !field) {
+      return res.status(400).json({ success: false, message: 'Section ID and field are required' });
+    }
+
+    // Validate allowed fields
+    const allowedFields = ['title', 'content', 'shortAbstract', 'keywords', 'queries'];
+    if (!allowedFields.includes(field)) {
+      return res.status(400).json({ success: false, message: 'Invalid field' });
+    }
+
+    const updateData = { [field]: value };
+    const section = await DocumentSection.findByIdAndUpdate(sectionId, updateData, { new: true });
+    
+    if (!section) {
+      return res.status(404).json({ success: false, message: 'Document section not found' });
+    }
+    
+    res.json({ success: true, section });
+    
+  } catch (error) {
+    console.error('Update document section error:', error);
+    res.status(500).json({ success: false, message: 'Internal server error' });
+  }
+};
+
+// Continue processing material after TOC review
+export const continueProcessingMaterial = async (req: Request, res: Response) => {
+  try {
+    const { id: materialId } = req.params;
+    
+    const material = await Material.findById(materialId);
+    if (!material) {
+      return res.status(404).json({ success: false, message: 'Material not found' });
+    }
+
+    if (material.status !== 'toc_ready') {
+      return res.status(400).json({ 
+        success: false, 
+        message: `Cannot continue processing. Expected status: toc_ready, current status: ${material.status}` 
+      });
+    }
+
+    // Start continuation processing in background
+    console.log(`🚀 Continuing processing after TOC review for material: ${materialId}`);
+    
+    setImmediate(async () => {
+      try {
+        await documentIngestionService.continueProcessingAfterTOC(materialId);
+        console.log(`✅ Document processing completed for material: ${materialId}`);
+      } catch (processingError) {
+        console.error(`❌ Continue processing failed for material ${materialId}:`, processingError);
+      }
+    });
+
+    res.json({
+      success: true,
+      message: 'Processing continuation started - using reviewed TOC data',
+      materialId,
+    });
+  } catch (error) {
+    console.error('Error continuing processing after TOC:', error);
     res.status(500).json({ success: false, message: 'Internal server error' });
   }
 };

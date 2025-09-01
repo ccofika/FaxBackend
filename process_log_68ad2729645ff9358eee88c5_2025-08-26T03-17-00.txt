@@ -1,0 +1,661 @@
+[2025-08-26T03:17:00.280Z] INFO: ================================================================================
+[2025-08-26T03:17:00.280Z] INFO: DOCUMENT PROCESSING LOG
+[2025-08-26T03:17:00.280Z] INFO: Material ID: 68ad2729645ff9358eee88c5
+[2025-08-26T03:17:00.280Z] INFO: Start Time: 2025-08-26T03:17:00.280Z
+[2025-08-26T03:17:00.280Z] INFO: ================================================================================
+[2025-08-26T03:17:00.280Z] INFO: 
+[2025-08-26T03:17:00.280Z] INFO: Starting document processing for material: 68ad2729645ff9358eee88c5
+[2025-08-26T03:17:00.280Z] INFO: TOC pages specified: 2-3
+[2025-08-26T03:17:00.280Z] INFO: Progress: probe [█-------------------] 5% - Starting document processing
+[2025-08-26T03:17:00.308Z] Progress: probe - 5% - Starting document processing
+[2025-08-26T03:17:00.309Z] INFO: 
+[2025-08-26T03:17:00.309Z] INFO: ------------------------------------------------------------
+[2025-08-26T03:17:00.309Z] INFO: SECTION: INITIALIZATION
+[2025-08-26T03:17:00.309Z] INFO: ------------------------------------------------------------
+[2025-08-26T03:17:00.309Z] INFO: Progress: probe [█-------------------] 7% - Clearing existing test data
+[2025-08-26T03:17:00.336Z] Progress: probe - 7% - Clearing existing test data
+[2025-08-26T03:17:00.946Z] INFO: Loading material from database
+[2025-08-26T03:17:00.968Z] INFO: Material loaded: SPM1 (Subject: 68ad1be75c8561c2c634eda2)
+[2025-08-26T03:17:01.021Z] Progress: probe - 10% - Downloading PDF from R2
+[2025-08-26T03:17:01.811Z] INFO: 
+[2025-08-26T03:17:01.811Z] INFO: ------------------------------------------------------------
+[2025-08-26T03:17:01.811Z] INFO: SECTION: PDF TEXT EXTRACTION
+[2025-08-26T03:17:01.811Z] INFO: ------------------------------------------------------------
+[2025-08-26T03:17:01.811Z] INFO: Progress: text [████----------------] 20% - Extracting text from entire PDF content (all pages from 4 onwards)
+[2025-08-26T03:17:01.811Z] INFO: Starting text extraction from page 4 onwards
+[2025-08-26T03:17:01.847Z] Progress: text - 20% - Extracting text from entire PDF content (all pages from 4 onwards)
+[2025-08-26T03:17:01.886Z] 🔄 Using node-poppler for true page-by-page extraction (pages 4 to 1003)
+[2025-08-26T03:17:01.900Z] 📁 Created temp PDF file: C:\Users\stefa\AppData\Local\Temp\temp_pdf_1756178221893.pdf
+[2025-08-26T03:17:02.188Z] 📚 PDF has 105 pages, extracting 4 to 105
+[2025-08-26T03:17:02.189Z] 📄 Extracting page 4/105...
+[2025-08-26T03:17:02.253Z] ✅ Page 4 extracted: 1440 characters
+[2025-08-26T03:17:02.253Z] 📖 Page 4 preview: "1 OSNOVNI POJMOVI
+
+Izuzetno brz razvoj savremenih informacionih tehnologija nameće pred programere..."
+[2025-08-26T03:17:02.253Z] 📄 Extracting page 5/105...
+[2025-08-26T03:17:02.284Z] ✅ Page 5 extracted: 2112 characters
+[2025-08-26T03:17:02.285Z] 📖 Page 5 preview: "Strukture podataka i algoritmi kao pojmovi egzistiraju u neraskidivoj vezi: naime,
+nemoguće je govo..."
+[2025-08-26T03:17:02.286Z] 📄 Extracting page 6/105...
+[2025-08-26T03:17:02.319Z] ✅ Page 6 extracted: 1399 characters
+[2025-08-26T03:17:02.319Z] 📖 Page 6 preview: "• algoritam predstavlja konačni niz instrukcija, od kojih svaka ima jasno značenje
+i može biti izvr..."
+[2025-08-26T03:17:02.320Z] 📄 Extracting page 7/105...
+[2025-08-26T03:17:02.353Z] ✅ Page 7 extracted: 2062 characters
+[2025-08-26T03:17:02.353Z] 📖 Page 7 preview: "2 O ALGORITMIMA
+2. 1 Pojam algoritma
+
+Pojam algoritma je usko vezan za rešavanje zadataka pomoću ..."
+[2025-08-26T03:17:02.353Z] 📄 Extracting page 8/105...
+[2025-08-26T03:17:02.386Z] ✅ Page 8 extracted: 1472 characters
+[2025-08-26T03:17:02.386Z] 📖 Page 8 preview: "• Dobijanje i analiza rezultata.
+
+Na sledećoj slici su data dva načina koji opisuju uzajamnu vezu ..."
+[2025-08-26T03:17:02.386Z] 📄 Extracting page 9/105...
+[2025-08-26T03:17:02.419Z] ✅ Page 9 extracted: 1994 characters
+[2025-08-26T03:17:02.419Z] 📖 Page 9 preview: "Projektovanje algoritma. Po Niklausu Virtu program se sastoji od algoritama i
+podataka. Postoji i n..."
+[2025-08-26T03:17:02.419Z] 📄 Extracting page 10/105...
+[2025-08-26T03:17:02.446Z] ✅ Page 10 extracted: 2364 characters
+[2025-08-26T03:17:02.447Z] 📖 Page 10 preview: "Pisanje i testiranje programa. Nakon razrade algoritma prelazi se na pisanje
+programa. Program mora..."
+[2025-08-26T03:17:02.447Z] 📄 Extracting page 11/105...
+[2025-08-26T03:17:02.563Z] ✅ Page 11 extracted: 1520 characters
+[2025-08-26T03:17:02.563Z] 📖 Page 11 preview: "Najpre, izdvojićemo dva grafi četku i kraju algoritma (u
+grafička elementa koja odgovaraju početku..."
+[2025-08-26T03:17:02.564Z] 📄 Extracting page 12/105...
+[2025-08-26T03:17:02.616Z] ✅ Page 12 extracted: 1199 characters
+[2025-08-26T03:17:02.617Z] 📖 Page 12 preview: "2. 2. 1 Primer – množenje dva broja
+
+množenj brojeva. Poznavaju
+Razmotrimo algoritam rešavanja za..."
+[2025-08-26T03:17:02.617Z] 📄 Extracting page 13/105...
+[2025-08-26T03:17:02.675Z] ✅ Page 13 extracted: 1198 characters
+[2025-08-26T03:17:02.675Z] 📖 Page 13 preview: "2. 2. 2 Primer - stepenovanje
+
+Sastaviti algoritamsku šemu za stepenovanje prirodnog broja X priro..."
+[2025-08-26T03:17:02.675Z] 📄 Extracting page 14/105...
+[2025-08-26T03:17:02.730Z] ✅ Page 14 extracted: 723 characters
+[2025-08-26T03:17:02.730Z] 📖 Page 14 preview: "Slika 2. 3-1 Primer linijske algoritmske šeme
+
+
+
+
+ored znaka jednakosti (=) koristi se i simbol..."
+[2025-08-26T03:17:02.731Z] 📄 Extracting page 15/105...
+[2025-08-26T03:17:02.822Z] ✅ Page 15 extracted: 645 characters
+[2025-08-26T03:17:02.822Z] 📖 Page 15 preview: "izvršie se samo jedna od prostih šema (P2 ili P3).
+U toku jednog izvršavanja algoritma izvršiće
+mo..."
+[2025-08-26T03:17:02.823Z] 📄 Extracting page 16/105...
+[2025-08-26T03:17:02.918Z] ✅ Page 16 extracted: 484 characters
+[2025-08-26T03:17:02.919Z] 📖 Page 16 preview: "2. 3. 3 Ciklične šeme
+
+ne algoritamske šeme su one šeme kod kojih se jedan ili više algoritamskih ..."
+[2025-08-26T03:17:02.919Z] 📄 Extracting page 17/105...
+[2025-08-26T03:17:02.996Z] ✅ Page 17 extracted: 704 characters
+[2025-08-26T03:17:02.997Z] 📖 Page 17 preview: "nih algoritamskih šema
+Slika 2. 3-55 Dve varijante modifikovanih cikličnih
+
+
+
+
+2. 3. 4 Konstan..."
+[2025-08-26T03:17:02.997Z] 📄 Extracting page 18/105...
+[2025-08-26T03:17:03.112Z] ✅ Page 18 extracted: 922 characters
+[2025-08-26T03:17:03.112Z] 📖 Page 18 preview: "Primer za promjenljive ciklične
+cikli čunava sumu:
+šeme: Sastaviti algoritam koji izračunava
+
+ ..."
+[2025-08-26T03:17:03.113Z] 📄 Extracting page 19/105...
+[2025-08-26T03:17:03.229Z] ✅ Page 19 extracted: 835 characters
+[2025-08-26T03:17:03.229Z] 📖 Page 19 preview: "Slika 2. 3-7 Primer složene algoritamske šeme
+
+
+
+
+2. 4 Predstavljanje algoritama pomoću blok di..."
+[2025-08-26T03:17:03.230Z] 📄 Extracting page 20/105...
+[2025-08-26T03:17:03.258Z] ✅ Page 20 extracted: 1624 characters
+[2025-08-26T03:17:03.258Z] 📖 Page 20 preview: " I instrukcije i podaci se nalaze (tokom izvršavanja prgrama) u radnoj
+memoriji računara (poznatij..."
+[2025-08-26T03:17:03.259Z] 📄 Extracting page 21/105...
+[2025-08-26T03:17:03.289Z] ✅ Page 21 extracted: 1401 characters
+[2025-08-26T03:17:03.289Z] 📖 Page 21 preview: "U koraku 1 se definiše vrednost promenljive Trad, au koraku 2 se, postupkom merenja,
+definiše vredn..."
+[2025-08-26T03:17:03.290Z] 📄 Extracting page 22/105...
+[2025-08-26T03:17:03.321Z] ✅ Page 22 extracted: 520 characters
+[2025-08-26T03:17:03.321Z] 📖 Page 22 preview: "Slika 2. 4-1. Blok dijagram rada klima uređaja
+
+
+
+
+Komentar algoritma
+
+Blok na Slika 2. 4-2 s..."
+[2025-08-26T03:17:03.321Z] 📄 Extracting page 23/105...
+[2025-08-26T03:17:03.353Z] ✅ Page 23 extracted: 976 characters
+[2025-08-26T03:17:03.353Z] 📖 Page 23 preview: "Slika 2. 4-3. Blok obrade
+
+
+
+
+Slika 2. 4-4. Blok obrade
+
+
+
+
+Slika 2. 4-5. Blokovi obrade
+..."
+[2025-08-26T03:17:03.354Z] 📄 Extracting page 24/105...
+[2025-08-26T03:17:03.385Z] ✅ Page 24 extracted: 1631 characters
+[2025-08-26T03:17:03.385Z] 📖 Page 24 preview: "2. 4. 2 Primer 2 – Projektor (podešavanje)
+
+Slika 2. 4-7 predstavlja opis (algoritam) korišćenja n..."
+[2025-08-26T03:17:03.386Z] 📄 Extracting page 25/105...
+[2025-08-26T03:17:03.414Z] ✅ Page 25 extracted: 537 characters
+[2025-08-26T03:17:03.415Z] 📖 Page 25 preview: "Slika 2. 4-8. Blok dijagram održavanja kamere
+Očigledno je da se na dijagramu vide samo moduli (pod..."
+[2025-08-26T03:17:03.417Z] 📄 Extracting page 26/105...
+[2025-08-26T03:17:03.446Z] ✅ Page 26 extracted: 184 characters
+[2025-08-26T03:17:03.446Z] 📖 Page 26 preview: "Slika 2. 4-9. Blok dijagram za modul 1
+Slika 2. 4-10. Blok dijagram za modul 2
+
+
+
+
+Slika 2. 4-..."
+[2025-08-26T03:17:03.448Z] 📄 Extracting page 27/105...
+[2025-08-26T03:17:03.478Z] ✅ Page 27 extracted: 2250 characters
+[2025-08-26T03:17:03.478Z] 📖 Page 27 preview: "Treba uočiti da smo u svim primerima prvo postavili pitanje da li je uslov (izlaska iz
+petlje) zado..."
+[2025-08-26T03:17:03.479Z] 📄 Extracting page 28/105...
+[2025-08-26T03:17:03.505Z] ✅ Page 28 extracted: 1088 characters
+[2025-08-26T03:17:03.506Z] 📖 Page 28 preview: "a. PRAVILO: svaka promenljiva MORA imati definisanu POČETNU vrednost,
+5. definiši jednu pomoćnu pro..."
+[2025-08-26T03:17:03.506Z] 📄 Extracting page 29/105...
+[2025-08-26T03:17:03.536Z] ✅ Page 29 extracted: 384 characters
+[2025-08-26T03:17:03.536Z] 📖 Page 29 preview: "POČETAK
+
+
+
+
+Učitaj: BROJEVI, N.
+Pomoćne promenljive:
+MIN, BROJAČ
+
+
+
+
+MIN=BROJEVI[0]
+BRO..."
+[2025-08-26T03:17:03.537Z] 📄 Extracting page 30/105...
+[2025-08-26T03:17:03.572Z] ✅ Page 30 extracted: 1583 characters
+[2025-08-26T03:17:03.572Z] 📖 Page 30 preview: "3 POLJA
+
+3. 1 Uvod
+
+emo osnovnu strukturu podataka poznatu kao polje.. Polje se ččesto koristi z..."
+[2025-08-26T03:17:03.573Z] 📄 Extracting page 31/105...
+[2025-08-26T03:17:03.607Z] ✅ Page 31 extracted: 2195 characters
+[2025-08-26T03:17:03.608Z] 📖 Page 31 preview: "koje slede za imenom i broj elemenata polja u okviru tih zagrada. Broj u uglastim zagradama
+ki zauz..."
+[2025-08-26T03:17:03.608Z] 📄 Extracting page 32/105...
+[2025-08-26T03:17:03.639Z] ✅ Page 32 extracted: 1911 characters
+[2025-08-26T03:17:03.640Z] 📖 Page 32 preview: "Pretraživanje neuređenog vektora vrši se linearnim traženjem. Složenost takvog traženja
+je ', gde..."
+[2025-08-26T03:17:03.640Z] 📄 Extracting page 33/105...
+[2025-08-26T03:17:03.673Z] ✅ Page 33 extracted: 1672 characters
+[2025-08-26T03:17:03.673Z] 📖 Page 33 preview: "3. 3 Dinamička polja
+
+Vrlo često veličine polja.
+esto u procesu izrade programa postoji potreba z..."
+[2025-08-26T03:17:03.673Z] 📄 Extracting page 34/105...
+[2025-08-26T03:17:03.707Z] ✅ Page 34 extracted: 1974 characters
+[2025-08-26T03:17:03.707Z] 📖 Page 34 preview: "Ovako zadatim formulama najbrže se menja poslednji indeks, a najsporije prvi. U
+aju dvodimenzionaln..."
+[2025-08-26T03:17:03.708Z] 📄 Extracting page 35/105...
+[2025-08-26T03:17:03.741Z] ✅ Page 35 extracted: 2148 characters
+[2025-08-26T03:17:03.741Z] 📖 Page 35 preview: "Matrica je simetrična ako je !*  *!, i tada je dovoljno memorisati samo elemente
+donje ili gornj..."
+[2025-08-26T03:17:03.742Z] 📄 Extracting page 36/105...
+[2025-08-26T03:17:03.773Z] ✅ Page 36 extracted: 1616 characters
+[2025-08-26T03:17:03.773Z] 📖 Page 36 preview: "3. 6. 2 Primer: Geometrijske transformacije
+
+matemati
+matematičkih problema,
+Vektori i matrice i..."
+[2025-08-26T03:17:03.774Z] 📄 Extracting page 37/105...
+[2025-08-26T03:17:03.806Z] ✅ Page 37 extracted: 1540 characters
+[2025-08-26T03:17:03.807Z] 📖 Page 37 preview: "Z-osi,
+gde su koeficijentima a, bic predstavljeni faktori skaliranja po X, YiZ
+respektivno. Transf..."
+[2025-08-26T03:17:03.807Z] 📄 Extracting page 38/105...
+[2025-08-26T03:17:03.838Z] ✅ Page 38 extracted: 1071 characters
+[2025-08-26T03:17:03.838Z] 📖 Page 38 preview: "ili u vektorskom obliku:
+
+
+
+gde je R gornja trougaona matrica. Rešenja ovakvog sistema dobijaju ..."
+[2025-08-26T03:17:03.839Z] 📄 Extracting page 39/105...
+[2025-08-26T03:17:03.867Z] ✅ Page 39 extracted: 107 characters
+[2025-08-26T03:17:03.868Z] 📖 Page 39 preview: "3
+jednač treba obezbediti ispunjenje uslova 33 1 0, za svako k.
+Zamenom redosleda jednačina
+
+..."
+[2025-08-26T03:17:03.868Z] 📄 Extracting page 40/105...
+[2025-08-26T03:17:03.900Z] ✅ Page 40 extracted: 1687 characters
+[2025-08-26T03:17:03.900Z] 📖 Page 40 preview: "4 LANČANE LISTE
+
+4. 1 Uvod
+
+Uz polja, lančane liste predstavljaju osnovnu strukturu za izgradnju..."
+[2025-08-26T03:17:03.901Z] 📄 Extracting page 41/105...
+[2025-08-26T03:17:03.932Z] ✅ Page 41 extracted: 1842 characters
+[2025-08-26T03:17:03.932Z] 📖 Page 41 preview: "- U nekim programskim jezicima lista je osnovni objekt od kojeg se grade svi ostali.
+Primer: LISP (..."
+[2025-08-26T03:17:03.933Z] 📄 Extracting page 42/105...
+[2025-08-26T03:17:03.962Z] ✅ Page 42 extracted: 2130 characters
+[2025-08-26T03:17:03.962Z] 📖 Page 42 preview: "Slika 4. 1-2 Povezana lista
+
+Lančane liste imaju primenu u problemima koji koriste kolekcije podat..."
+[2025-08-26T03:17:03.962Z] 📄 Extracting page 43/105...
+[2025-08-26T03:17:03.991Z] ✅ Page 43 extracted: 1641 characters
+[2025-08-26T03:17:03.991Z] 📖 Page 43 preview: "element mora biti struktura koja sadrži dva dela: jedan koji čuva neophodne podatke
+(nazovimo ga po..."
+[2025-08-26T03:17:03.991Z] 📄 Extracting page 44/105...
+[2025-08-26T03:17:04.024Z] ✅ Page 44 extracted: 2206 characters
+[2025-08-26T03:17:04.025Z] 📖 Page 44 preview: "Kružne liste se u praksi mogu primeniti na strukture podataka koje su po prirodi kružne. Jedan
+od t..."
+[2025-08-26T03:17:04.025Z] 📄 Extracting page 45/105...
+[2025-08-26T03:17:04.056Z] ✅ Page 45 extracted: 2361 characters
+[2025-08-26T03:17:04.056Z] 📖 Page 45 preview: "pisanja programa treba voditi računa da uvek postoji bar jedan pokazivač na početak liste, koji
+se ..."
+[2025-08-26T03:17:04.056Z] 📄 Extracting page 46/105...
+[2025-08-26T03:17:04.089Z] ✅ Page 46 extracted: 1596 characters
+[2025-08-26T03:17:04.089Z] 📖 Page 46 preview: "da znamo i pokazivačč na prethodni element u listi, kako bismo njegovom linku dodelili
+pokazivač na..."
+[2025-08-26T03:17:04.089Z] 📄 Extracting page 47/105...
+[2025-08-26T03:17:04.122Z] ✅ Page 47 extracted: 1436 characters
+[2025-08-26T03:17:04.122Z] 📖 Page 47 preview: "while (trenutni!= NULL)
+{
+->sledeci;
+sledeci = trenutni-
+>sledeci = prethodni;
+trenutni->sledec..."
+[2025-08-26T03:17:04.123Z] 📄 Extracting page 48/105...
+[2025-08-26T03:17:04.153Z] ✅ Page 48 extracted: 1355 characters
+[2025-08-26T03:17:04.153Z] 📖 Page 48 preview: "Ukoliko dođe do gubljenja veze u nekom elementu, ostali elementi postaju nedostupni.
+
+Ovi problemi..."
+[2025-08-26T03:17:04.153Z] 📄 Extracting page 49/105...
+[2025-08-26T03:17:04.183Z] ✅ Page 49 extracted: 1628 characters
+[2025-08-26T03:17:04.183Z] 📖 Page 49 preview: "novi element, a njegovom levom i desnom linku dodeljujemo pokazivače na element sa
+navedenim rednim..."
+[2025-08-26T03:17:04.184Z] 📄 Extracting page 50/105...
+[2025-08-26T03:17:04.213Z] ✅ Page 50 extracted: 1255 characters
+[2025-08-26T03:17:04.214Z] 📖 Page 50 preview: "Od ukupnog broja čvorova u listi sa preskokom, 1/2 njih ima samo jedno polje za
+referenciranje, 1/4..."
+[2025-08-26T03:17:04.215Z] 📄 Extracting page 51/105...
+[2025-08-26T03:17:04.243Z] ✅ Page 51 extracted: 1026 characters
+[2025-08-26T03:17:04.243Z] 📖 Page 51 preview: "Slika 4. 4-2 Primer memorijske reprezentacije polinoma 150x5-27x2+7x+5 korišćenjem jednostruko
+ulan..."
+[2025-08-26T03:17:04.243Z] 📄 Extracting page 52/105...
+[2025-08-26T03:17:04.272Z] ✅ Page 52 extracted: 745 characters
+[2025-08-26T03:17:04.273Z] 📖 Page 52 preview: "Primer: Lančana reprezentacija retko posednute matrice
+
+Retko posednute matrice imaju mnogo nultih..."
+[2025-08-26T03:17:04.273Z] 📄 Extracting page 53/105...
+[2025-08-26T03:17:04.304Z] ✅ Page 53 extracted: 1950 characters
+[2025-08-26T03:17:04.305Z] 📖 Page 53 preview: "5 MAGACIN, RED I DVOSTRANI RED
+5. 1 Uvod
+
+Magacin i red su među najprostijim i najčešće korišćeni..."
+[2025-08-26T03:17:04.305Z] 📄 Extracting page 54/105...
+[2025-08-26T03:17:04.338Z] ✅ Page 54 extracted: 1741 characters
+[2025-08-26T03:17:04.339Z] 📖 Page 54 preview: "Slika 5. 2-1 Grafički prikaz magacina
+
+Obzirom da se na vrhu magacina nalazi element koji je posle..."
+[2025-08-26T03:17:04.339Z] 📄 Extracting page 55/105...
+[2025-08-26T03:17:04.372Z] ✅ Page 55 extracted: 1912 characters
+[2025-08-26T03:17:04.373Z] 📖 Page 55 preview: "5. 2. 2 pomo liste
+Implementacija steka pomoću
+
+kori enjem povezanih lista tako što
+Magacin se m..."
+[2025-08-26T03:17:04.374Z] 📄 Extracting page 56/105...
+[2025-08-26T03:17:04.407Z] ✅ Page 56 extracted: 1269 characters
+[2025-08-26T03:17:04.407Z] 📖 Page 56 preview: "ematski prikaz dodavanja i skidanja elemenata sa steka predstavljenog povezanom listom
+Slika 5. 2-4..."
+[2025-08-26T03:17:04.407Z] 📄 Extracting page 57/105...
+[2025-08-26T03:17:04.442Z] ✅ Page 57 extracted: 2078 characters
+[2025-08-26T03:17:04.442Z] 📖 Page 57 preview: "stati ka b) dinamič
+Slika 5. 3-1 Memorijska reprezentacija magacina: a) statička dinamička
+
+enog ..."
+[2025-08-26T03:17:04.442Z] 📄 Extracting page 58/105...
+[2025-08-26T03:17:04.476Z] ✅ Page 58 extracted: 2233 characters
+[2025-08-26T03:17:04.476Z] 📖 Page 58 preview: "5. 4. 1 Primer: Uparivanje zagrada
+
+Jedan od zadataka kompilatora jeste provera sintaksne ispravno..."
+[2025-08-26T03:17:04.476Z] 📄 Extracting page 59/105...
+[2025-08-26T03:17:04.510Z] ✅ Page 59 extracted: 2005 characters
+[2025-08-26T03:17:04.510Z] 📖 Page 59 preview: "izraz koji u infix notaciji ima oblik: a + b * f, u postfix notaciji transformiše se u: abf * +, au..."
+[2025-08-26T03:17:04.510Z] 📄 Extracting page 60/105...
+[2025-08-26T03:17:04.544Z] ✅ Page 60 extracted: 2062 characters
+[2025-08-26T03:17:04.544Z] 📖 Page 60 preview: "5. 4. 3 brojeva
+Primer: Sabiranje vrlo velikih celih broje
+
+že efikasno koristiti i prilikom sabi..."
+[2025-08-26T03:17:04.544Z] 📄 Extracting page 61/105...
+[2025-08-26T03:17:04.575Z] ✅ Page 61 extracted: 1166 characters
+[2025-08-26T03:17:04.575Z] 📖 Page 61 preview: "su i dodavani na red. Iz tog razloga se ova struktura podataka često
+esto naziva i FIFO, što je
+sk..."
+[2025-08-26T03:17:04.576Z] 📄 Extracting page 62/105...
+[2025-08-26T03:17:04.607Z] ✅ Page 62 extracted: 1968 characters
+[2025-08-26T03:17:04.607Z] 📖 Page 62 preview: "5. 5. 1 Implementacija reda pomoću niza
+
+Kada se za implementaciju reda koristi niz, operacije dod..."
+[2025-08-26T03:17:04.608Z] 📄 Extracting page 63/105...
+[2025-08-26T03:17:04.640Z] ✅ Page 63 extracted: 1073 characters
+[2025-08-26T03:17:04.640Z] 📖 Page 63 preview: "ematski prikaz dodavanja i brisanja elemenata iz reda predstavljenog povezanom listom
+Slika 5. 5-3 ..."
+[2025-08-26T03:17:04.641Z] 📄 Extracting page 64/105...
+[2025-08-26T03:17:04.672Z] ✅ Page 64 extracted: 1716 characters
+[2025-08-26T03:17:04.673Z] 📖 Page 64 preview: "Na Slika 5. 5-4 prikazan je postupak dodavanja elemenata u red i brisanja elemenata iz
+reda. Inicij..."
+[2025-08-26T03:17:04.673Z] 📄 Extracting page 65/105...
+[2025-08-26T03:17:04.704Z] ✅ Page 65 extracted: 1797 characters
+[2025-08-26T03:17:04.704Z] 📖 Page 65 preview: "poželjno je da postoje pokazivačii na početak i na kraj liste, kao i dvostruko ulančavanje
+elemenat..."
+[2025-08-26T03:17:04.704Z] 📄 Extracting page 66/105...
+[2025-08-26T03:17:04.735Z] ✅ Page 66 extracted: 419 characters
+[2025-08-26T03:17:04.735Z] 📖 Page 66 preview: "Slika 5. 8-11 Primer dodavanja i brisanja elemenata iz dvostranog reda
+
+5. 9 Memorijska reprezenta..."
+[2025-08-26T03:17:04.735Z] 📄 Extracting page 67/105...
+[2025-08-26T03:17:04.768Z] ✅ Page 67 extracted: 1530 characters
+[2025-08-26T03:17:04.768Z] 📖 Page 67 preview: "6 STABLA
+6. 1 Uvod
+
+Stabla se koriste za predstavljanje hijerarhijske strukture neke kolekcije po..."
+[2025-08-26T03:17:04.768Z] 📄 Extracting page 68/105...
+[2025-08-26T03:17:04.801Z] ✅ Page 68 extracted: 1445 characters
+[2025-08-26T03:17:04.801Z] 📖 Page 68 preview: "Na Slika 6. 1-2 dat je primer stabla koje sadrži devet čvorova:
+vorova: A, B, C, D, E, F, G, HiI.
+..."
+[2025-08-26T03:17:04.802Z] 📄 Extracting page 69/105...
+[2025-08-26T03:17:04.830Z] ✅ Page 69 extracted: 1289 characters
+[2025-08-26T03:17:04.830Z] 📖 Page 69 preview: "Slika 6. 2-1.
+
+
+
+
+Slika 6. 2-1 Binarno stablo
+
+
+
+
+Ako T sadrži koren r, tada se binarna st..."
+[2025-08-26T03:17:04.833Z] 📄 Extracting page 70/105...
+[2025-08-26T03:17:04.863Z] ✅ Page 70 extracted: 1169 characters
+[2025-08-26T03:17:04.863Z] 📖 Page 70 preview: "brojevima od 1 do 2k -11 tako što bi se počelo
+po od korena, a zatim numerisao jedan po jedan
+nivo..."
+[2025-08-26T03:17:04.863Z] 📄 Extracting page 71/105...
+[2025-08-26T03:17:04.893Z] ✅ Page 71 extracted: 781 characters
+[2025-08-26T03:17:04.893Z] 📖 Page 71 preview: "Napomenimo da mogu postojati i iskošena stabla, kao što je to prikazano na Slika 6. 2-5:
+
+
+
+
+Is..."
+[2025-08-26T03:17:04.893Z] 📄 Extracting page 72/105...
+[2025-08-26T03:17:04.924Z] ✅ Page 72 extracted: 1122 characters
+[2025-08-26T03:17:04.924Z] 📖 Page 72 preview: "Slika 6. 2-7 Prikaz binarnog koda pomoću binarnog stabla.
+
+
+
+
+6. 3 Memorijska reprezentacija
+..."
+[2025-08-26T03:17:04.925Z] 📄 Extracting page 73/105...
+[2025-08-26T03:17:04.956Z] ✅ Page 73 extracted: 1249 characters
+[2025-08-26T03:17:04.956Z] 📖 Page 73 preview: "Statička implementacija stabala koristi strukturu polja. Kod potpunih i gotovo potpunih
+stabala sta..."
+[2025-08-26T03:17:04.956Z] 📄 Extracting page 74/105...
+[2025-08-26T03:17:04.988Z] ✅ Page 74 extracted: 887 characters
+[2025-08-26T03:17:04.988Z] 📖 Page 74 preview: "ću polja.
+Slika 6. 3-3 Implementacija potpunog binarnog stabla pomoću
+
+ra unaru pomoću
+Potpuno b..."
+[2025-08-26T03:17:04.989Z] 📄 Extracting page 75/105...
+[2025-08-26T03:17:05.022Z] ✅ Page 75 extracted: 1476 characters
+[2025-08-26T03:17:05.023Z] 📖 Page 75 preview: "Dinamička reprezentacija
+
+
+
+
+pomoću
+Statička reprezentacija pomoć
+jednodimenzionalnog polja
+..."
+[2025-08-26T03:17:05.023Z] 📄 Extracting page 76/105...
+[2025-08-26T03:17:05.054Z] ✅ Page 76 extracted: 1670 characters
+[2025-08-26T03:17:05.055Z] 📖 Page 76 preview: "• inorder ili
+• postorder.
+
+Kod preorder obilaska, najpre se obrađuje koren, a zatim se vrši preo..."
+[2025-08-26T03:17:05.055Z] 📄 Extracting page 77/105...
+[2025-08-26T03:17:05.088Z] ✅ Page 77 extracted: 1968 characters
+[2025-08-26T03:17:05.088Z] 📖 Page 77 preview: "Slika 6. 3-6 Aritmetički izraz predstavljen binarnim stablom
+
+
+
+
+Brisanje čvora enog binarnog s..."
+[2025-08-26T03:17:05.089Z] 📄 Extracting page 78/105...
+[2025-08-26T03:17:05.121Z] ✅ Page 78 extracted: 1732 characters
+[2025-08-26T03:17:05.122Z] 📖 Page 78 preview: "dolazi
+direktni desni potomak obrisanog čvora.
+
+Za razliku od brisanja kopiranjem, brisanje mešan..."
+[2025-08-26T03:17:05.122Z] 📄 Extracting page 79/105...
+[2025-08-26T03:17:05.156Z] ✅ Page 79 extracted: 1287 characters
+[2025-08-26T03:17:05.156Z] 📖 Page 79 preview: "• čvor estu korena pomera se ka listovima sve dok ne zauzme
+vor koji je trenutno na mestu
+svoje me..."
+[2025-08-26T03:17:05.156Z] 📄 Extracting page 80/105...
+[2025-08-26T03:17:05.188Z] ✅ Page 80 extracted: 1435 characters
+[2025-08-26T03:17:05.188Z] 📖 Page 80 preview: "6. 4. 2 odlučiv
+Primer: Stablo odlučivanja
+
+odlu ivanja, koja su nastala iz potrebe
+Važna klasa ..."
+[2025-08-26T03:17:05.189Z] 📄 Extracting page 81/105...
+[2025-08-26T03:17:05.219Z] ✅ Page 81 extracted: 499 characters
+[2025-08-26T03:17:05.219Z] 📖 Page 81 preview: "najnepovoljnijem slučaju ima složenost 'ℎ, gde je h visina stabla. Obzirom da je gomila
+gotovo pot..."
+[2025-08-26T03:17:05.219Z] 📄 Extracting page 82/105...
+[2025-08-26T03:17:05.252Z] ✅ Page 82 extracted: 1682 characters
+[2025-08-26T03:17:05.252Z] 📖 Page 82 preview: "7 ALGORITMI SORTIRANJA
+
+7. 1 Sortiranje izborom najmanjeg elementa (Selection sort)
+
+Algoritam s..."
+[2025-08-26T03:17:05.252Z] 📄 Extracting page 83/105...
+[2025-08-26T03:17:05.351Z] ✅ Page 83 extracted: 661 characters
+[2025-08-26T03:17:05.352Z] 📖 Page 83 preview: "min = i;
+for (j = i+1; j < n; j++)
+if (a[j] < a[min]) min = j;
+change (&a[i], &a[min]);
+}
+}
+vo..."
+[2025-08-26T03:17:05.352Z] 📄 Extracting page 84/105...
+[2025-08-26T03:17:05.381Z] ✅ Page 84 extracted: 1893 characters
+[2025-08-26T03:17:05.382Z] 📖 Page 84 preview: "7. 2 Sortiranje zamenom susednih elemenata (bubble sort)
+
+Algoritam sortiranja zamenom susednih el..."
+[2025-08-26T03:17:05.383Z] 📄 Extracting page 85/105...
+[2025-08-26T03:17:05.497Z] ✅ Page 85 extracted: 913 characters
+[2025-08-26T03:17:05.497Z] 📖 Page 85 preview: "3 11 8> 17 24 31 43
+
+Peti prolaz 3 11 8> 17 24 31 43
+
+3 8> 11 17 24 31 43
+
+Šesti prolaz 3 ..."
+[2025-08-26T03:17:05.498Z] 📄 Extracting page 86/105...
+[2025-08-26T03:17:05.525Z] ✅ Page 86 extracted: 1813 characters
+[2025-08-26T03:17:05.526Z] 📖 Page 86 preview: "for (i = 0, chg = 1; chg; i++) {
+chg = 0;
+for (j = 0; j < n-1-i; j++)
+if (a[j+1] < a[j]) { change..."
+[2025-08-26T03:17:05.526Z] 📄 Extracting page 87/105...
+[2025-08-26T03:17:05.629Z] ✅ Page 87 extracted: 992 characters
+[2025-08-26T03:17:05.629Z] 📖 Page 87 preview: "čen je senčenjem
+umećeu sortirani deo označen sen će element ozna
+dok je mesto gde se umeće označe..."
+[2025-08-26T03:17:05.630Z] 📄 Extracting page 88/105...
+[2025-08-26T03:17:05.660Z] ✅ Page 88 extracted: 1951 characters
+[2025-08-26T03:17:05.661Z] 📖 Page 88 preview: "Efikasnost algoritma sortiranja umetanjem ocenićemo analizom njegove vremenske
+složenosti.
+
+• U k..."
+[2025-08-26T03:17:05.661Z] 📄 Extracting page 89/105...
+[2025-08-26T03:17:05.697Z] ✅ Page 89 extracted: 1736 characters
+[2025-08-26T03:17:05.697Z] 📖 Page 89 preview: "Zamena elemenata na koje ukazuju kursori 17> 8 3 43 11 24 31
+
+4C 4D
+
+Pomeranje i zaustavljanje ..."
+[2025-08-26T03:17:05.698Z] 📄 Extracting page 90/105...
+[2025-08-26T03:17:05.732Z] ✅ Page 90 extracted: 1372 characters
+[2025-08-26T03:17:05.733Z] 📖 Page 90 preview: "}
+if (i>r) { /* pivot je najveci u polju */
+change(&a[r], &a[l]);
+quickSort(a, l, r-1);
+}
+else ..."
+[2025-08-26T03:17:05.733Z] 📄 Extracting page 91/105...
+[2025-08-26T03:17:05.763Z] ✅ Page 91 extracted: 1726 characters
+[2025-08-26T03:17:05.763Z] 📖 Page 91 preview: "Za realizaciju algoritma višestrukog sortiranja umetanjem potrebno je od originalnog
+polja formirat..."
+[2025-08-26T03:17:05.764Z] 📄 Extracting page 92/105...
+[2025-08-26T03:17:05.794Z] ✅ Page 92 extracted: 961 characters
+[2025-08-26T03:17:05.794Z] 📖 Page 92 preview: "Proces se ponavlja tako da u svakom koraku polje ima sve manje kolona, u zadnjem
+koraku ostaje samo..."
+[2025-08-26T03:17:05.795Z] 📄 Extracting page 93/105...
+[2025-08-26T03:17:05.825Z] ✅ Page 93 extracted: 1018 characters
+[2025-08-26T03:17:05.825Z] 📖 Page 93 preview: "Implementacija višestrukog sortiranja umetanjem (Shell sort-a) u jeziku C može se
+dobiti modifikaci..."
+[2025-08-26T03:17:05.825Z] 📄 Extracting page 94/105...
+[2025-08-26T03:17:05.854Z] ✅ Page 94 extracted: 1498 characters
+[2025-08-26T03:17:05.854Z] 📖 Page 94 preview: "8 PRETRAŽIVANJE
+
+
+
+Jedan od vrlo čestih zadataka u programiranju je pretraživanje. Pod pretaživa..."
+[2025-08-26T03:17:05.855Z] 📄 Extracting page 95/105...
+[2025-08-26T03:17:05.886Z] ✅ Page 95 extracted: 1625 characters
+[2025-08-26T03:17:05.886Z] 📖 Page 95 preview: "izlazak iz petlje neće biti potrebno testiranje da li je brojači dostigao ukupan broj elemenata
+(kr..."
+[2025-08-26T03:17:05.886Z] 📄 Extracting page 96/105...
+[2025-08-26T03:17:05.924Z] ✅ Page 96 extracted: 1735 characters
+[2025-08-26T03:17:05.924Z] 📖 Page 96 preview: "Binarno pretraživanje možemo modifikovati tako da se, umesto dva indeksa (donja i
+gornja granica za..."
+[2025-08-26T03:17:05.924Z] 📄 Extracting page 97/105...
+[2025-08-26T03:17:05.957Z] ✅ Page 97 extracted: 1610 characters
+[2025-08-26T03:17:05.957Z] 📖 Page 97 preview: "Slika 8. 3-1 Binarno stablo za pretraživanje
+
+Binarno stablo za pretraživanje je u osnovi binarno ..."
+[2025-08-26T03:17:05.957Z] 📄 Extracting page 98/105...
+[2025-08-26T03:17:05.991Z] ✅ Page 98 extracted: 2373 characters
+[2025-08-26T03:17:05.991Z] 📖 Page 98 preview: "Za kreiranje binarnog stabla za pretraživanje treba koristiti funkciju koja kreiraju novi
+čvor, dod..."
+[2025-08-26T03:17:05.992Z] 📄 Extracting page 99/105...
+[2025-08-26T03:17:06.025Z] ✅ Page 99 extracted: 1871 characters
+[2025-08-26T03:17:06.026Z] 📖 Page 99 preview: "Ukoliko je stablo list (nema potomaka), onda je broj čvorova
+vorova u njemu jednak jedan. Ovaj opis..."
+[2025-08-26T03:17:06.026Z] 📄 Extracting page 100/105...
+[2025-08-26T03:17:06.057Z] ✅ Page 100 extracted: 1871 characters
+[2025-08-26T03:17:06.057Z] 📖 Page 100 preview: "8. 7 Brisanje čvora iz binarnog stabla za pretraživanje
+
+Prikažimo i postupak kojim se neka vredno..."
+[2025-08-26T03:17:06.058Z] 📄 Extracting page 101/105...
+[2025-08-26T03:17:06.090Z] ✅ Page 101 extracted: 1230 characters
+[2025-08-26T03:17:06.090Z] 📖 Page 101 preview: "8. 7 Binarno stablo pre brisanja čvora na koji pokazuje x
+Slika 8. 7-1
+
+pokazivača pom, prolazimo..."
+[2025-08-26T03:17:06.091Z] 📄 Extracting page 102/105...
+[2025-08-26T03:17:06.122Z] ✅ Page 102 extracted: 878 characters
+[2025-08-26T03:17:06.122Z] 📖 Page 102 preview: "pokazivačq postavi za odgovarajućeg
+odgovar potomka čvora y. Ako pokazivačč na čvor y jeste NULL
+p..."
+[2025-08-26T03:17:06.123Z] 📄 Extracting page 103/105...
+[2025-08-26T03:17:06.154Z] ✅ Page 103 extracted: 672 characters
+[2025-08-26T03:17:06.154Z] 📖 Page 103 preview: "Slika 8. 7--5 Binarno stablo nakon brisanja čvora na koji pokazuje x
+
+8. 7. 3 Brisanje čvora koji ..."
+[2025-08-26T03:17:06.154Z] 📄 Extracting page 104/105...
+[2025-08-26T03:17:06.184Z] ✅ Page 104 extracted: 645 characters
+[2025-08-26T03:17:06.185Z] 📖 Page 104 preview: "8. 8 Pretraživanje po binarnom stablu za pretraživanje
+
+
+
+Najzad, možemo ispisati i funkciju koj..."
+[2025-08-26T03:17:06.185Z] 📄 Extracting page 105/105...
+[2025-08-26T03:17:06.218Z] ✅ Page 105 extracted: 752 characters
+[2025-08-26T03:17:06.218Z] 📖 Page 105 preview: "9 Literatura
+
+(1) S. Đorđević-Kajan, L. Stojmenov, A. Dimitrijević: STRUKTURE PODATAKA U
+JEZIKU C..."
+[2025-08-26T03:17:06.219Z] INFO: Text extraction completed: 102 pages processed
+[2025-08-26T03:17:06.245Z] Progress: render - 35% - Rendering PDF pages
+[2025-08-26T03:17:07.726Z] Progress: text - 55% - Saving text files
+[2025-08-26T03:17:07.727Z] INFO: 
+[2025-08-26T03:17:07.727Z] INFO: ------------------------------------------------------------
+[2025-08-26T03:17:07.727Z] INFO: SECTION: DOCUMENT STRUCTURE ANALYSIS
+[2025-08-26T03:17:07.727Z] INFO: ------------------------------------------------------------
+[2025-08-26T03:17:07.727Z] INFO: Progress: sectioning [█████████████-------] 65% - Analyzing complete document structure with AI
+[2025-08-26T03:17:07.753Z] Progress: sectioning - 65% - Analyzing complete document structure with AI
+[2025-08-26T03:17:07.754Z] INFO: Checking for existing TOC analysis in database
+[2025-08-26T03:17:07.779Z] ⚠️ No TOC analysis found, using legacy structure detection
+[2025-08-26T03:17:07.780Z] WARNING: Using legacy fallback structure detection
+[2025-08-26T03:17:08.434Z] 🔄 Using node-poppler for true page-by-page extraction (pages 2 to 3)
+[2025-08-26T03:17:08.437Z] 📁 Created temp PDF file: C:\Users\stefa\AppData\Local\Temp\temp_pdf_1756178228434.pdf
+[2025-08-26T03:17:08.608Z] 📚 PDF has 105 pages, extracting 2 to 3
+[2025-08-26T03:17:08.608Z] 📄 Extracting page 2/3...
+[2025-08-26T03:17:08.661Z] ✅ Page 2 extracted: 2902 characters
+[2025-08-26T03:17:08.662Z] 📖 Page 2 preview: "Sadržaj
+Sadržaj......................................................................................."
+[2025-08-26T03:17:08.663Z] 📄 Extracting page 3/3...
+[2025-08-26T03:17:08.690Z] ✅ Page 3 extracted: 2762 characters
+[2025-08-26T03:17:08.691Z] 📖 Page 3 preview: "5. 6 Memorijska reprezentacija........................................................................."
+[2025-08-26T03:18:39.898Z] 📝 Legacy structure detection completed: 55 sections found
+[2025-08-26T03:18:39.925Z] Progress: embed - 75% - Processing sections and creating embeddings
+[2025-08-26T03:19:04.800Z] Progress: chunk - 85% - Creating and processing chunks
+[2025-08-26T03:19:28.633Z] Progress: done - 100% - Document processing completed
+[2025-08-26T03:19:28.659Z] INFO: 
+[2025-08-26T03:19:28.659Z] INFO: ------------------------------------------------------------
+[2025-08-26T03:19:28.659Z] INFO: SECTION: PROCESSING STATISTICS
+[2025-08-26T03:19:28.659Z] INFO: ------------------------------------------------------------
+[2025-08-26T03:19:28.659Z] INFO: total pages: 102
+[2025-08-26T03:19:28.659Z] INFO: total sections: 55
+[2025-08-26T03:19:28.659Z] INFO: total chunks: 55
+[2025-08-26T03:19:28.659Z] INFO: has o c r: false
+[2025-08-26T03:19:28.659Z] INFO: toc pages used: 2-3
+[2025-08-26T03:19:28.659Z] INFO: content start page: 4
+[2025-08-26T03:19:28.659Z] 🎉 Document processing completed successfully for material 68ad2729645ff9358eee88c5
+[2025-08-26T03:19:28.659Z] INFO: 
+[2025-08-26T03:19:28.659Z] INFO: ================================================================================
+[2025-08-26T03:19:28.659Z] INFO: End Time: 2025-08-26T03:19:28.659Z
+[2025-08-26T03:19:28.659Z] INFO: Total Processing Time: 148 seconds
+[2025-08-26T03:19:28.659Z] INFO: Total Log Entries: 375
+[2025-08-26T03:19:28.659Z] INFO: ================================================================================

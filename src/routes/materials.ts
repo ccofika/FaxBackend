@@ -18,7 +18,15 @@ import {
   getMaterials,
   createMaterial,
   updateMaterial,
-  deleteMaterial
+  deleteMaterial,
+  analyzeMaterial,
+  getAnalysisStatus,
+  getMaterialSections,
+  getMaterialAnalysis,
+  getMaterialTocAnalysis,
+  updateMaterialField,
+  updateDocumentSection,
+  continueProcessingMaterial
 } from '../controllers/materialController';
 import { adminAuth } from '../middleware/adminAuth';
 
@@ -53,7 +61,19 @@ router.delete('/subjects/:id', deleteSubject);
 // Materials routes
 router.get('/materials', getMaterials);
 router.post('/materials', createMaterial);
-router.put('/materials/:id', updateMaterial);
-router.delete('/materials/:id', deleteMaterial);
+
+// AI Analysis routes - specific routes MUST come before generic :id routes
+router.post('/:id/analyze', analyzeMaterial);
+router.get('/:id/analysis-status', getAnalysisStatus);
+router.get('/:id/sections', getMaterialSections);
+router.get('/:id/analysis', getMaterialAnalysis);
+router.get('/:id/toc-analysis', getMaterialTocAnalysis);
+router.put('/:id/field', updateMaterialField);
+router.put('/section/:sectionId/field', updateDocumentSection);
+router.post('/:id/continue-processing', continueProcessingMaterial);
+
+// Generic material routes
+router.put('/:id', updateMaterial);
+router.delete('/:id', deleteMaterial);
 
 export default router;

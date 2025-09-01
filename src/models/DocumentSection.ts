@@ -2,7 +2,10 @@ import mongoose, { Document, Schema } from 'mongoose';
 
 export interface IDocumentSection extends Document {
   docId: mongoose.Types.ObjectId;      // References Material._id
-  subjectId: mongoose.Types.ObjectId;
+  subjectId: mongoose.Types.ObjectId;  // References Subject._id
+  facultyId: mongoose.Types.ObjectId;  // References Faculty._id (for faster querying)
+  departmentId: mongoose.Types.ObjectId; // References Department._id (for faster querying)
+  year: number;                        // Academic year (for faster querying)
   sectionId: string;                   // Unique identifier for this section
   title: string;
   path: string;                        // e.g., "1 → 1.2 → 1.2.3"
@@ -15,6 +18,13 @@ export interface IDocumentSection extends Document {
   charEnd: number;
   content?: string;                    // Full text content of the section
   vectorId?: string;                   // ID in vector database
+  totalParts?: number;                 // Total parts if section was split for embedding
+  partNumber?: number;                 // Part number if this is a split section (1, 2, 3...)
+  isMainPart?: boolean;                // True for the first part, false for follow-up parts
+  shortAbstract?: string;              // AI-generated 3-8 sentence summary
+  keywords?: string[];                 // AI-extracted keywords for lexical search
+  queries?: string[];                  // AI-generated potential user questions
+  analyzed?: boolean;                  // Whether AI analysis has been performed
   createdAt: Date;
   updatedAt: Date;
 }
@@ -29,6 +39,22 @@ const DocumentSectionSchema = new Schema<IDocumentSection>({
     type: Schema.Types.ObjectId,
     ref: 'Subject',
     required: [true, 'Subject ID is required']
+  },
+  facultyId: {
+    type: Schema.Types.ObjectId,
+    ref: 'Faculty',
+    required: [true, 'Faculty ID is required']
+  },
+  departmentId: {
+    type: Schema.Types.ObjectId,
+    ref: 'Department',
+    required: [true, 'Department ID is required']
+  },
+  year: {
+    type: Number,
+    required: [true, 'Year is required'],
+    min: 1,
+    max: 8
   },
   sectionId: {
     type: String,
@@ -88,15 +114,50 @@ const DocumentSectionSchema = new Schema<IDocumentSection>({
   vectorId: {
     type: String,
     trim: true
+  },
+  totalParts: {
+    type: Number,
+    min: 1,
+    default: 1
+  },
+  partNumber: {
+    type: Number,
+    min: 1,
+    default: 1
+  },
+  isMainPart: {
+    type: Boolean,
+    default: true
+  },
+  shortAbstract: {
+    type: String,
+    trim: true,
+    maxlength: [1000, 'Short abstract cannot exceed 1000 characters']
+  },
+  keywords: {
+    type: [String],
+    default: []
+  },
+  queries: {
+    type: [String],
+    default: []
+  },
+  analyzed: {
+    type: Boolean,
+    default: false
   }
 }, {
   timestamps: true
 });
 
-// Indexes for efficient querying
+// Indexes for efficient querying with large-scale data
 DocumentSectionSchema.index({ docId: 1, sectionId: 1 }, { unique: true });
-DocumentSectionSchema.index({ subjectId: 1 });
+DocumentSectionSchema.index({ subjectId: 1, level: 1 });
+DocumentSectionSchema.index({ facultyId: 1, departmentId: 1, year: 1 });
 DocumentSectionSchema.index({ docId: 1, level: 1, pageStart: 1 });
 DocumentSectionSchema.index({ vectorId: 1 });
+DocumentSectionSchema.index({ docId: 1, partNumber: 1 }); // For split sections
+DocumentSectionSchema.index({ subjectId: 1, isMainPart: 1 }); // For finding main parts only
+DocumentSectionSchema.index({ title: 'text', content: 'text' }); // Text search index
 
 export default mongoose.model<IDocumentSection>('DocumentSection', DocumentSectionSchema);

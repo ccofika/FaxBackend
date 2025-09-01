@@ -1,0 +1,52 @@
+[2025-08-29T04:54:35.402Z] INFO: ================================================================================
+[2025-08-29T04:54:35.402Z] INFO: DOCUMENT PROCESSING LOG
+[2025-08-29T04:54:35.402Z] INFO: Material ID: 68b1326a6fd969de30ed5d07
+[2025-08-29T04:54:35.402Z] INFO: Start Time: 2025-08-29T04:54:35.402Z
+[2025-08-29T04:54:35.402Z] INFO: ================================================================================
+[2025-08-29T04:54:35.402Z] INFO: 
+[2025-08-29T04:54:35.402Z] INFO: Starting TOC-only processing for material: 68b1326a6fd969de30ed5d07
+[2025-08-29T04:54:35.402Z] INFO: TOC pages specified: 2-6
+[2025-08-29T04:54:35.403Z] INFO: Progress: probe [█-------------------] 5% - Starting TOC analysis
+[2025-08-29T04:54:35.429Z] Progress: probe - 5% - Starting TOC analysis
+[2025-08-29T04:54:35.430Z] INFO: Loading material from database
+[2025-08-29T04:54:35.452Z] INFO: Material loaded: MN_GAWD_veb_skripta (Subject: 68ad3dad85e324322914d037)
+[2025-08-29T04:54:35.504Z] Progress: toc_analysis - 20% - Downloading PDF from R2
+[2025-08-29T04:54:36.223Z] INFO: 
+[2025-08-29T04:54:36.223Z] INFO: ------------------------------------------------------------
+[2025-08-29T04:54:36.223Z] INFO: SECTION: TOC ANALYSIS
+[2025-08-29T04:54:36.223Z] INFO: ------------------------------------------------------------
+[2025-08-29T04:54:36.223Z] INFO: Progress: toc_analysis [████████------------] 40% - Extracting TOC pages
+[2025-08-29T04:54:36.249Z] Progress: toc_analysis - 40% - Extracting TOC pages
+[2025-08-29T04:54:36.250Z] 🔄 Using node-poppler for true page-by-page extraction (pages 2 to 6)
+[2025-08-29T04:54:36.289Z] 📁 Created temp PDF file: C:\Users\stefa\AppData\Local\Temp\temp_pdf_1756443276250.pdf
+[2025-08-29T04:54:37.921Z] 📚 PDF has 114 pages, extracting 2 to 6
+[2025-08-29T04:54:37.921Z] 📄 Extracting page 2/6...
+[2025-08-29T04:54:38.054Z] ✅ Page 2 extracted: 4350 characters
+[2025-08-29T04:54:38.054Z] 📖 Page 2 preview: "Sadržaj
+
+1 Osnovni pojmovi u veb-dizajnu............................................................."
+[2025-08-29T04:54:38.055Z] 📄 Extracting page 3/6...
+[2025-08-29T04:54:38.085Z] ✅ Page 3 extracted: 4541 characters
+[2025-08-29T04:54:38.085Z] 📖 Page 3 preview: "3. 4. 4 Element <em>..................................................................................."
+[2025-08-29T04:54:38.086Z] 📄 Extracting page 4/6...
+[2025-08-29T04:54:38.117Z] ✅ Page 4 extracted: 4630 characters
+[2025-08-29T04:54:38.118Z] 📖 Page 4 preview: "7. 4 Objektni model HTML dokumenta (DOM)..............................................................."
+[2025-08-29T04:54:38.118Z] 📄 Extracting page 5/6...
+[2025-08-29T04:54:38.151Z] ✅ Page 5 extracted: 4504 characters
+[2025-08-29T04:54:38.151Z] 📖 Page 5 preview: "10. 4 Ivica okvira....................................................................................."
+[2025-08-29T04:54:38.151Z] 📄 Extracting page 6/6...
+[2025-08-29T04:54:38.180Z] ✅ Page 6 extracted: 1296 characters
+[2025-08-29T04:54:38.180Z] 📖 Page 6 preview: "13. 1. 1 Notepad++....................................................................................."
+[2025-08-29T04:54:38.182Z] INFO: Progress: toc_analysis [██████████████------] 70% - Analyzing TOC with AI
+[2025-08-29T04:54:38.208Z] Progress: toc_analysis - 70% - Analyzing TOC with AI
+[2025-08-29T04:56:58.422Z] INFO: AI analysis completed: 134 sections found
+[2025-08-29T04:56:58.447Z] INFO: Progress: toc_analysis [████████████████████] 100% - TOC analysis completed - ready for review
+[2025-08-29T04:56:58.472Z] Progress: toc_analysis - 100% - TOC analysis completed - ready for review
+[2025-08-29T04:56:58.472Z] 🎉 TOC analysis completed successfully for material 68b1326a6fd969de30ed5d07
+[2025-08-29T04:56:58.472Z] INFO: Material status updated to toc_ready - awaiting admin review
+[2025-08-29T04:56:58.473Z] INFO: 
+[2025-08-29T04:56:58.473Z] INFO: ================================================================================
+[2025-08-29T04:56:58.473Z] INFO: End Time: 2025-08-29T04:56:58.473Z
+[2025-08-29T04:56:58.473Z] INFO: Total Processing Time: 143 seconds
+[2025-08-29T04:56:58.473Z] INFO: Total Log Entries: 48
+[2025-08-29T04:56:58.473Z] INFO: ================================================================================

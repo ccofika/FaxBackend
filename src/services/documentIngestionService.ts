@@ -7,11 +7,13 @@ import Tesseract from 'tesseract.js';
 import sharp from 'sharp';
 import { Poppler } from 'node-poppler';
 
-import { Material, DocumentSection, DocumentChunk } from '../models';
+import { Material, DocumentSection, DocumentChunk, TocAnalysis } from '../models';
 import { IMaterial } from '../models/Material';
 import qdrantService from './qdrantService';
 import r2Service from './r2Service';
 import aiAnalysisService from './aiAnalysisService';
+import sectionProcessor from './sectionProcessor';
+import processLogger from '../utils/processLogger';
 
 interface PageText {
   pageNumber: number;
@@ -122,7 +124,7 @@ class DocumentIngestionService {
       }
 
       await Material.findByIdAndUpdate(materialId, updateData);
-      console.log(`Progress: ${step} - ${percent}% - ${message || ''}`);
+      processLogger.log(`Progress: ${step} - ${percent}% - ${message || ''}`);
     } catch (error) {
       console.error('Error logging progress:', error);
     }
@@ -274,14 +276,14 @@ class DocumentIngestionService {
     let tempFilePath: string = '';
     
     try {
-      console.log(`🔄 Using node-poppler for true page-by-page extraction (pages ${startPage} to ${startPage + maxPages - 1})`);
+      processLogger.log(`🔄 Using node-poppler for true page-by-page extraction (pages ${startPage} to ${startPage + maxPages - 1})`);
       
       // node-poppler needs a file path, not buffer, so create temp file
       const tempDir = require('os').tmpdir();
       tempFilePath = require('path').join(tempDir, `temp_pdf_${Date.now()}.pdf`);
       await fs.writeFile(tempFilePath, buffer);
       
-      console.log(`📁 Created temp PDF file: ${tempFilePath}`);
+      processLogger.log(`📁 Created temp PDF file: ${tempFilePath}`);
       
       const poppler = new Poppler();
       
@@ -300,14 +302,14 @@ class DocumentIngestionService {
       
       const endPage = Math.min(startPage + maxPages - 1, totalPageCount);
       
-      console.log(`📚 PDF has ${totalPageCount} pages, extracting ${startPage} to ${endPage}`);
+      processLogger.log(`📚 PDF has ${totalPageCount} pages, extracting ${startPage} to ${endPage}`);
       
       const pages: PageText[] = [];
       
       // Extract text for each page individually
       for (let pageNum = startPage; pageNum <= endPage; pageNum++) {
         try {
-          console.log(`📄 Extracting page ${pageNum}/${endPage}...`);
+          processLogger.log(`📄 Extracting page ${pageNum}/${endPage}...`);
           
           // Extract text for this specific page
           const pageText = await poppler.pdfToText(tempFilePath, undefined, {
@@ -321,8 +323,8 @@ class DocumentIngestionService {
           // Clean the extracted text
           const cleanedText = pageText ? this.cleanExtractedText(pageText) : '';
           
-          console.log(`✅ Page ${pageNum} extracted: ${cleanedText.length} characters`);
-          console.log(`📖 Page ${pageNum} preview: "${cleanedText.substring(0, 100)}..."`);
+          processLogger.log(`✅ Page ${pageNum} extracted: ${cleanedText.length} characters`);
+          processLogger.log(`📖 Page ${pageNum} preview: "${cleanedText.substring(0, 100)}..."`);
           
           pages.push({
             pageNumber: pageNum,
@@ -523,54 +525,32 @@ class DocumentIngestionService {
     return chunks.filter(chunk => chunk.length > 0);
   }
 
-  private async detectDocumentStructure(fullText: string, materialId: string, tocPage?: number, tocToPage?: number, contentStartPage?: number): Promise<DocumentStructure> {
-    // First, we need to extract text from the ENTIRE PDF to find the TOC
-    // since TOC is usually at the beginning (pages 2-4) but we might be processing later pages
-    let entirePdfText = '';
+  private async detectDocumentStructure(fullText: string, materialId: string, tocPage?: number, tocToPage?: number, contentStartPage?: number, allPages?: PageText[]): Promise<DocumentStructure> {
+    // Simplified structure detection - no automatic TOC searching
+    console.log('⚠️ Using legacy fallback structure detection');
+    processLogger.addLog('Using legacy fallback structure detection', 'WARNING');
     
-    try {
-      // Get the material to access the PDF again
-      const material = await Material.findById(materialId);
-      if (material && material.r2Key) {
-        console.log('Re-downloading PDF to extract complete text for TOC detection');
-        const pdfBuffer = await this.downloadFromR2(material.r2Key);
-        
-        // Extract text from entire PDF (no page limits)
-        const { pages: allPages } = await this.extractTextFromPDF(pdfBuffer, 1, 50); // Extract up to 50 pages to find TOC
-        entirePdfText = allPages.map(page => page.text).join('\n\n');
-        console.log(`Extracted complete PDF text: ${entirePdfText.length} characters`);
-      }
-    } catch (error) {
-      console.error('Error re-extracting PDF text for TOC:', error);
-      entirePdfText = fullText; // Fallback to provided text
-    }
-    
-    // Try AI-based TOC analysis if we have page range
+    // Only try AI analysis if explicitly provided TOC pages
     if (tocPage && tocToPage) {
       console.log(`🤖 Using AI to analyze TOC from pages ${tocPage} to ${tocToPage}`);
       try {
-        const aiStructure = await this.analyzeWithAI(entirePdfText, materialId, tocPage, tocToPage, fullText, contentStartPage);
+        const aiStructure = await this.analyzeWithAI(fullText, materialId, tocPage, tocToPage, fullText, contentStartPage, allPages);
         if (aiStructure && aiStructure.sections.length > 0) {
           console.log('✅ Using AI-based structure detection');
           return aiStructure;
         }
       } catch (error) {
         console.error('❌ AI analysis failed:', error);
+        processLogger.logError(error as Error, 'AI analysis');
       }
     }
     
-    // Fallback to pattern-based TOC detection
-    const tocBasedStructure = this.extractStructureFromTOC(entirePdfText, fullText, tocPage);
-    if (tocBasedStructure && tocBasedStructure.sections.length > 0) {
-      console.log('Using pattern-based TOC structure detection');
-      return tocBasedStructure;
-    }
-    
-    console.log('TOC not found, falling back to content-based detection');
+    console.log('No TOC specified or AI failed, using content-based fallback detection');
+    processLogger.addLog('No TOC specified, using content-based fallback', 'WARNING');
     return this.fallbackDocumentStructure(fullText);
   }
 
-  private async analyzeWithAI(entirePdfText: string, materialId: string, tocPage: number, tocToPage: number, currentPageText: string, contentStartPage?: number): Promise<DocumentStructure | null> {
+  private async analyzeWithAI(entirePdfText: string, materialId: string, tocPage: number, tocToPage: number, currentPageText: string, contentStartPage?: number, allPages?: PageText[]): Promise<DocumentStructure | null> {
     try {
       // Extract TOC text from the specified page range
       console.log(`📖 Extracting TOC text from pages ${tocPage} to ${tocToPage}`);
@@ -604,72 +584,73 @@ class DocumentIngestionService {
 
       // Analyze with AI
       console.log('🤖 Sending TOC to AI for analysis');
-      const aiResult = await aiAnalysisService.analyzeTOC(tocText, tocPage, tocToPage);
+      const aiResult = await aiAnalysisService.analyzeTOC(tocText, tocPage, tocToPage, materialId, material.subjectId?.toString());
       
       console.log(`🎯 AI found ${aiResult.sections.length} sections`);
       
-      console.log(`📚 AI will analyze ALL sections from TOC, processing range filtering removed`);
+      console.log(`📚 USING SIMPLE PAGE-BASED EXTRACTION - No header searching`);
       
-      // Process sections sequentially using proper header-based content extraction
-      console.log(`🎯 Processing ALL ${aiResult.sections.length} sections sequentially from complete TOC analysis`);
+      // Use REAL pages if available, otherwise extract them
+      let pageTextArray: PageText[] = [];
       
-      const sections: DocumentStructure['sections'] = [];
-      
-      // Process sections in sequential order to properly extract content between headers
-      for (let index = 0; index < aiResult.sections.length; index++) {
-        const section = aiResult.sections[index];
-        const sectionId = `section_${index + 1}`;
-        
-        console.log(`📝 Processing section ${index + 1}/${aiResult.sections.length}: "${section.title}"`);
-        
-        // Find the actual content for this section using enhanced header detection
-        const contentResult = this.extractSectionContentSequentially(
-          currentPageText, 
-          section, 
-          aiResult.sections, 
-          index
-        );
-        
-        // Create the main section
-        const mainSection = {
-          sectionId,
-          title: section.title,
-          path: this.generateAISectionPath(section, aiResult.sections),
-          level: section.level,
-          parentSectionId: section.parentSectionId,
-          semanticType: section.semanticType,
-          pageStart: section.pageStart,
-          pageEnd: section.pageEnd,
-          charStart: contentResult.charStart,
-          charEnd: contentResult.charEnd,
-          content: contentResult.content
-        };
-        
-        sections.push(mainSection);
-        
-        // Handle section splitting if content exceeds limits
-        if (contentResult.needsSplitting && contentResult.parts && contentResult.parts.length > 1) {
-          console.log(`📚 Creating ${contentResult.parts.length - 1} additional part sections for "${section.title}"`);
+      if (allPages && allPages.length > 0) {
+        // Use the actual pages that were passed
+        pageTextArray = allPages;
+        console.log(`📄 Using ${pageTextArray.length} ACTUAL pages for section processing`);
+      } else {
+        // Need to extract pages from PDF
+        console.log(`📄 Extracting pages from PDF for section processing`);
+        const material = await Material.findById(materialId);
+        if (material && material.r2Key) {
+          const pdfBuffer = await this.downloadFromR2(material.r2Key);
+          const { pages } = await this.extractTextFromPDF(pdfBuffer, contentStartPage || 1);
+          pageTextArray = pages;
+          console.log(`📄 Extracted ${pageTextArray.length} pages from PDF`);
+        } else {
+          // Fallback to text splitting if we can't get the PDF
+          console.warn(`⚠️ Cannot extract real pages, using text estimation`);
+          const avgCharsPerPage = 2500;
+          const totalPages = Math.ceil(currentPageText.length / avgCharsPerPage);
           
-          for (let partIndex = 1; partIndex < contentResult.parts.length; partIndex++) {
-            const partSection = {
-              sectionId: `${sectionId}_part${partIndex + 1}`,
-              title: `${section.title} - Part ${partIndex + 1}`,
-              path: `${this.generateAISectionPath(section, aiResult.sections)}.${partIndex + 1}`,
-              level: section.level,
-              parentSectionId: sectionId, // Parent is the main section
-              semanticType: section.semanticType,
-              pageStart: section.pageStart,
-              pageEnd: section.pageEnd,
-              charStart: contentResult.charStart + (partIndex * 8000), // Estimate char position
-              charEnd: contentResult.charStart + ((partIndex + 1) * 8000),
-              content: contentResult.parts[partIndex]
-            };
-            
-            sections.push(partSection);
+          for (let i = 0; i < totalPages; i++) {
+            const start = i * avgCharsPerPage;
+            const end = Math.min((i + 1) * avgCharsPerPage, currentPageText.length);
+            pageTextArray.push({
+              pageNumber: i + 1,
+              text: currentPageText.substring(start, end),
+              isOCR: false
+            });
           }
         }
       }
+      
+      console.log(`📄 Using ${pageTextArray.length} pages for section processing`);
+      
+      // Use the SIMPLE section processor
+      processLogger.addLog('Using SIMPLE page-based extraction - NO header searching');
+      const processedSections = await sectionProcessor.processTocSections(
+        aiResult,  // Pass the AI result as TOC analysis
+        pageTextArray,
+        materialId,
+        material.subjectId?.toString() || ''
+      );
+      
+      console.log(`✅ SIMPLE extraction completed: ${processedSections.length} sections processed`);
+      
+      // Convert ProcessedSection format to sections array format
+      const sections: DocumentStructure['sections'] = processedSections.map(proc => ({
+        sectionId: proc.sectionId,
+        title: proc.title,
+        path: proc.path,
+        level: proc.level,
+        parentSectionId: proc.parentSectionId,
+        semanticType: proc.semanticType,
+        pageStart: proc.pageStart,
+        pageEnd: proc.pageEnd,
+        charStart: proc.charStart,
+        charEnd: proc.charEnd,
+        content: proc.content
+      }));
 
       return { sections };
       
@@ -2301,43 +2282,63 @@ class DocumentIngestionService {
     return chunks;
   }
 
-  private async clearExistingData(): Promise<void> {
+  private async clearExistingDocumentData(materialId: string): Promise<void> {
     try {
-      // Clear DocumentSection collection
-      const deletedSections = await DocumentSection.deleteMany({});
-      console.log(`Deleted ${deletedSections.deletedCount} documents from DocumentSection collection`);
+      console.log(`🧹 Clearing existing data for material: ${materialId}`);
+      
+      // Delete DocumentSection collection entries for this document only
+      const deletedSections = await DocumentSection.deleteMany({ docId: materialId });
+      console.log(`Deleted ${deletedSections.deletedCount} sections for document ${materialId}`);
 
-      // Clear DocumentChunk collection
-      const deletedChunks = await DocumentChunk.deleteMany({});
-      console.log(`Deleted ${deletedChunks.deletedCount} documents from DocumentChunk collection`);
+      // Delete DocumentChunk collection entries for this document only  
+      const deletedChunks = await DocumentChunk.deleteMany({ docId: materialId });
+      console.log(`Deleted ${deletedChunks.deletedCount} chunks for document ${materialId}`);
+      
+      // Delete TocAnalysis for this document
+      const deletedTocAnalysis = await TocAnalysis.deleteMany({ docId: materialId });
+      console.log(`Deleted ${deletedTocAnalysis.deletedCount} TOC analyses for document ${materialId}`);
 
-      // Clear Qdrant collection
-      await qdrantService.clearCollection();
+      // Delete Qdrant vectors for this document only
+      await qdrantService.deleteDocument(materialId);
+      
+      console.log(`✅ Successfully cleared all existing data for document ${materialId}`);
     } catch (error) {
-      console.error('Error clearing existing data:', error);
+      console.error(`Error clearing existing data for document ${materialId}:`, error);
       throw error;
     }
   }
 
   async processDocument(materialId: string, tocPage?: number, tocToPage?: number): Promise<void> {
     try {
+      // Initialize process logging
+      processLogger.startLogging(materialId);
+      processLogger.addLog(`Starting document processing for material: ${materialId}`);
+      processLogger.addLog(`TOC pages specified: ${tocPage ? `${tocPage}-${tocToPage}` : 'None'}`);
+      
       // Check for abort signal at the start
       if ((global as any).abortProcessing) {
+        processLogger.addLog('Processing aborted by user signal', 'ERROR');
         await this.logProgress(materialId, 'aborted', 0, 'Processing aborted by user');
         throw new Error('Processing aborted by user');
       }
       
+      processLogger.logProgress('probe', 5, 'Starting document processing');
       await this.logProgress(materialId, 'probe', 5, 'Starting document processing');
 
       // Clear existing data from previous tests
-      await this.logProgress(materialId, 'probe', 7, 'Clearing existing test data');
-      await this.clearExistingData();
+      processLogger.addSection('INITIALIZATION');
+      processLogger.logProgress('probe', 7, 'Clearing existing document data');
+      await this.logProgress(materialId, 'probe', 7, 'Clearing existing document data');
+      await this.clearExistingDocumentData(materialId);
 
       // Get material from database
+      processLogger.addLog('Loading material from database');
       const material = await Material.findById(materialId) as IMaterial;
       if (!material || !material.r2Key) {
+        processLogger.logError(new Error('Material not found or missing R2 key'));
         throw new Error('Material not found or missing R2 key');
       }
+      processLogger.addLog(`Material loaded: ${material.title || 'Unnamed'} (Subject: ${material.subjectId})`);
 
       // Update status to processing
       await Material.findByIdAndUpdate(materialId, {
@@ -2388,8 +2389,12 @@ class DocumentIngestionService {
       }
 
       // Extract text from PDF - process entire document content without any page restrictions
+      processLogger.addSection('PDF TEXT EXTRACTION');
+      processLogger.logProgress('text', 20, `Extracting text from entire PDF content (all pages from ${contentStartPage} onwards)`);
+      processLogger.addLog(`Starting text extraction from page ${contentStartPage} onwards`);
       await this.logProgress(materialId, 'text', 20, `Extracting text from entire PDF content (all pages from ${contentStartPage} onwards)`);
       const { pages: textPages, pageCount } = await this.extractTextFromPDF(pdfBuffer, contentStartPage);
+      processLogger.addLog(`Text extraction completed: ${pageCount} pages processed`);
 
       // Render PDF pages to images
       await this.logProgress(materialId, 'render', 35, 'Rendering PDF pages');
@@ -2423,13 +2428,47 @@ class DocumentIngestionService {
       }
 
       // Detect document structure
+      processLogger.addSection('DOCUMENT STRUCTURE ANALYSIS');
+      processLogger.logProgress('sectioning', 65, 'Analyzing complete document structure with AI');
       await this.logProgress(materialId, 'sectioning', 65, 'Analyzing complete document structure with AI');
-      const structure = await this.detectDocumentStructure(fullText, materialId, tocPage, tocToPage, contentStartPage);
+      
+      // Check if we have TOC analysis saved
+      processLogger.addLog('Checking for existing TOC analysis in database');
+      const tocAnalysis = await TocAnalysis.findOne({ 
+        docId: materialId,
+        status: { $ne: 'failed' }
+      });
+      
+      let processedSections;
+      
+      if (tocAnalysis && tocAnalysis.sections.length > 0) {
+        processLogger.log(`📚 Using saved TOC analysis with ${tocAnalysis.sections.length} sections`);
+        processLogger.logTocAnalysis(tocAnalysis.sections);
+        processLogger.logProgress('sectioning', 70, `Processing ${tocAnalysis.sections.length} sections from TOC`);
+        await this.logProgress(materialId, 'sectioning', 70, `Processing ${tocAnalysis.sections.length} sections from TOC`);
+        
+        // Use the new section processor
+        processLogger.addLog('Starting section processing with fuzzy matching');
+        processedSections = await sectionProcessor.processTocSections(
+          tocAnalysis,
+          allPages,
+          materialId,
+          material.subjectId.toString()
+        );
+        processLogger.log(`✅ Section processing completed: ${processedSections.length} sections processed`);
+        
+      } else {
+        // Fallback to old method
+        processLogger.warn(`⚠️ No TOC analysis found, using legacy structure detection`);
+        const structure = await this.detectDocumentStructure(fullText, materialId, tocPage, tocToPage, contentStartPage, allPages);
+        processedSections = structure.sections;
+        processLogger.log(`📝 Legacy structure detection completed: ${processedSections.length} sections found`);
+      }
 
       // Save sections to database and vector store
       await this.logProgress(materialId, 'embed', 75, 'Processing sections and creating embeddings');
       
-      for (const section of structure.sections) {
+      for (const section of processedSections) {
         // Check abort signal during section processing
         if ((global as any).abortProcessing) {
           await this.logProgress(materialId, 'aborted', 0, 'Processing aborted by user');
@@ -2448,6 +2487,9 @@ class DocumentIngestionService {
         const documentSection = new DocumentSection({
           docId: materialId,
           subjectId: material.subjectId,
+          facultyId: material.facultyId,
+          departmentId: material.departmentId,
+          year: material.year,
           sectionId: section.sectionId,
           title: section.title,
           path: section.path,
@@ -2490,7 +2532,7 @@ class DocumentIngestionService {
       await this.logProgress(materialId, 'chunk', 85, 'Creating and processing chunks');
       
       let totalChunks = 0;
-      for (const section of structure.sections) {
+      for (const section of processedSections) {
         const chunks = this.chunkSection(section, material.r2Key);
         
         for (const chunk of chunks) {
@@ -2498,6 +2540,9 @@ class DocumentIngestionService {
           const documentChunk = new DocumentChunk({
             docId: materialId,
             subjectId: material.subjectId,
+            facultyId: material.facultyId,
+            departmentId: material.departmentId,
+            year: material.year,
             sectionId: chunk.sectionId,
             chunkId: chunk.chunkId,
             title: chunk.title,
@@ -2555,21 +2600,292 @@ class DocumentIngestionService {
             ocrPrefix: hasOCR ? ocrPrefix : undefined,
             pagesPrefix: undefined, // Not rendering pages for now
           },
-          'counters.sectionsFound': structure.sections.length,
+          'counters.sectionsFound': processedSections.length,
           'counters.chunksDone': totalChunks,
           'counters.pagesDone': pageCount,
         },
       });
 
-      console.log(`Document processing completed for material ${materialId}`);
+      // Update TOC analysis status if it exists
+      if (tocAnalysis) {
+        processLogger.addLog('Updating TOC analysis status to completed');
+        await TocAnalysis.findByIdAndUpdate(tocAnalysis._id, {
+          $set: { status: 'completed' }
+        });
+      }
+      
+      // Add final statistics
+      processLogger.addStatistics({
+        totalPages: pageCount,
+        totalSections: processedSections.length,
+        totalChunks: totalChunks,
+        hasOCR: hasOCR,
+        tocPagesUsed: tocPage && tocToPage ? `${tocPage}-${tocToPage}` : 'None',
+        contentStartPage: contentStartPage
+      });
+      
+      processLogger.log(`🎉 Document processing completed successfully for material ${materialId}`);
+      
+      // Save logs to file
+      await processLogger.saveToFile();
       
     } catch (error) {
+      processLogger.addSection('ERROR HANDLING');
+      processLogger.logError(error as Error, 'document processing');
+      processLogger.addLog('Updating material status to failed');
+      
       console.error('Error processing document:', error);
       await this.logError(materialId, `Processing failed: ${error instanceof Error ? error.message : 'Unknown error'}`);
       
       await Material.findByIdAndUpdate(materialId, {
         $set: { status: 'failed' },
       });
+      
+      // Save error logs to file
+      try {
+        await processLogger.saveToFile();
+      } catch (logError) {
+        console.error('Failed to save error logs:', logError);
+      }
+      
+      throw error;
+    }
+  }
+
+  /**
+   * Process document TOC only - creates TOC analysis and stops
+   */
+  async processDocumentTOCOnly(materialId: string, tocPage?: number, tocToPage?: number): Promise<void> {
+    try {
+      // Initialize process logging
+      processLogger.startLogging(materialId);
+      processLogger.addLog(`Starting TOC-only processing for material: ${materialId}`);
+      processLogger.addLog(`TOC pages specified: ${tocPage ? `${tocPage}-${tocToPage}` : 'None'}`);
+      
+      if (!tocPage || !tocToPage) {
+        throw new Error('TOC pages must be specified for TOC-only processing');
+      }
+      
+      processLogger.logProgress('probe', 5, 'Starting TOC analysis');
+      await this.logProgress(materialId, 'probe', 5, 'Starting TOC analysis');
+
+      // Get material from database
+      processLogger.addLog('Loading material from database');
+      const material = await Material.findById(materialId) as IMaterial;
+      if (!material || !material.r2Key) {
+        processLogger.logError(new Error('Material not found or missing R2 key'));
+        throw new Error('Material not found or missing R2 key');
+      }
+      processLogger.addLog(`Material loaded: ${material.title || 'Unnamed'} (Subject: ${material.subjectId})`);
+
+      // Update status to processing
+      await Material.findByIdAndUpdate(materialId, {
+        $set: { status: 'processing' },
+      });
+
+      // Download PDF from R2
+      await this.logProgress(materialId, 'toc_analysis', 20, 'Downloading PDF from R2');
+      const pdfBuffer = await this.downloadFromR2(material.r2Key);
+
+      // Extract TOC pages
+      processLogger.addSection('TOC ANALYSIS');
+      processLogger.logProgress('toc_analysis', 40, 'Extracting TOC pages');
+      await this.logProgress(materialId, 'toc_analysis', 40, 'Extracting TOC pages');
+      
+      console.log(`📖 Extracting TOC text from pages ${tocPage} to ${tocToPage}`);
+      const tocPageCount = tocToPage - tocPage + 1;
+      const { pages: tocPages } = await this.extractTextFromPDF(pdfBuffer, tocPage, tocPageCount);
+      
+      console.log(`📝 TOC extraction result: ${tocPages.length} pages extracted`);
+      const tocText = tocPages.map(page => page.text).join('\n\n');
+      console.log(`📝 Combined TOC text (${tocText.length} characters)`);
+      
+      if (tocText.length < 100) {
+        throw new Error('TOC text too short - insufficient content for analysis');
+      }
+
+      // Analyze with AI
+      processLogger.logProgress('toc_analysis', 70, 'Analyzing TOC with AI');
+      await this.logProgress(materialId, 'toc_analysis', 70, 'Analyzing TOC with AI');
+      
+      console.log('🤖 Sending TOC to AI for analysis');
+      const aiResult = await aiAnalysisService.analyzeTOC(tocText, tocPage, tocToPage, materialId, material.subjectId?.toString());
+      
+      console.log(`🎯 AI found ${aiResult.sections.length} sections`);
+      processLogger.addLog(`AI analysis completed: ${aiResult.sections.length} sections found`);
+
+      // Update material status to toc_ready
+      await Material.findByIdAndUpdate(materialId, {
+        $set: { 
+          status: 'toc_ready',  // New status indicating TOC is ready for review
+          tocAnalyzed: true,
+          tocPages: `${tocPage}-${tocToPage}`
+        },
+      });
+
+      processLogger.logProgress('toc_analysis', 100, 'TOC analysis completed - ready for review');
+      await this.logProgress(materialId, 'toc_analysis', 100, 'TOC analysis completed - ready for review');
+      
+      processLogger.log(`🎉 TOC analysis completed successfully for material ${materialId}`);
+      processLogger.addLog('Material status updated to toc_ready - awaiting admin review');
+      
+      // Save logs to file
+      await processLogger.saveToFile();
+      
+    } catch (error) {
+      processLogger.addSection('ERROR HANDLING');
+      processLogger.logError(error as Error, 'TOC analysis');
+      processLogger.addLog('Updating material status to failed');
+      
+      console.error('Error in TOC analysis:', error);
+      await this.logError(materialId, `TOC analysis failed: ${error instanceof Error ? error.message : 'Unknown error'}`);
+      
+      await Material.findByIdAndUpdate(materialId, {
+        $set: { status: 'failed' },
+      });
+      
+      // Save error logs to file
+      try {
+        await processLogger.saveToFile();
+      } catch (logError) {
+        console.error('Failed to save error logs:', logError);
+      }
+      
+      throw error;
+    }
+  }
+
+  /**
+   * Continue processing after TOC review and edits
+   */
+  async continueProcessingAfterTOC(materialId: string): Promise<void> {
+    try {
+      // Initialize process logging
+      processLogger.startLogging(materialId);
+      processLogger.addLog(`Continuing processing after TOC review for material: ${materialId}`);
+      
+      // Get material from database
+      processLogger.addLog('Loading material from database');
+      const material = await Material.findById(materialId) as IMaterial;
+      if (!material || !material.r2Key) {
+        processLogger.logError(new Error('Material not found or missing R2 key'));
+        throw new Error('Material not found or missing R2 key');
+      }
+      
+      if (material.status !== 'toc_ready') {
+        throw new Error(`Invalid material status: ${material.status}. Expected: toc_ready`);
+      }
+
+      processLogger.addLog(`Material loaded: ${material.title || 'Unnamed'} - continuing from TOC review`);
+
+      // Update status to processing
+      await Material.findByIdAndUpdate(materialId, {
+        $set: { status: 'processing' },
+      });
+
+      // Check for TOC analysis
+      processLogger.addLog('Loading TOC analysis from database');
+      const tocAnalysis = await TocAnalysis.findOne({ 
+        docId: materialId,
+        status: { $ne: 'failed' }
+      });
+
+      if (!tocAnalysis || tocAnalysis.sections.length === 0) {
+        throw new Error('No valid TOC analysis found - cannot continue processing');
+      }
+
+      processLogger.log(`📚 Using reviewed TOC analysis with ${tocAnalysis.sections.length} sections`);
+
+      // Download PDF and extract pages (we need this for section processing)
+      await this.logProgress(materialId, 'extract', 20, 'Re-downloading PDF for section extraction');
+      const pdfBuffer = await this.downloadFromR2(material.r2Key);
+
+      // Extract text from PDF
+      await this.logProgress(materialId, 'extract', 40, 'Extracting text from all pages');
+      const { pages: textPages } = await this.extractTextFromPDF(pdfBuffer);
+
+      // Skip OCR for now (can be added later if needed)
+      const allPages = textPages;
+      
+      // Process sections using the reviewed TOC analysis
+      processLogger.addSection('SECTION PROCESSING');
+      processLogger.logProgress('sectioning', 60, 'Processing sections from reviewed TOC');
+      await this.logProgress(materialId, 'sectioning', 60, 'Processing sections from reviewed TOC');
+      
+      const processedSections = await sectionProcessor.processTocSections(
+        tocAnalysis,
+        allPages,
+        materialId,
+        material.subjectId.toString()
+      );
+      
+      processLogger.log(`✅ Section processing completed: ${processedSections.length} sections processed`);
+
+      // Save sections to database and vector store
+      await this.logProgress(materialId, 'embed', 75, 'Processing sections and creating embeddings');
+      
+      for (const section of processedSections) {
+        // Skip sections with empty or too short content
+        if (!section.content || section.content.trim().length < 50) {
+          console.log(`⚠️ Skipping section "${section.title}" - content too short`);
+          continue;
+        }
+
+        try {
+          console.log(`💾 Saving section: ${section.title}`);
+          await sectionProcessor.saveSectionsToDatabase([section], materialId, material.subjectId.toString());
+          
+        } catch (sectionError) {
+          console.error(`❌ Error processing section "${section.title}":`, sectionError);
+        }
+      }
+
+      // Update TOC analysis status
+      if (tocAnalysis) {
+        processLogger.addLog('Updating TOC analysis status to completed');
+        await TocAnalysis.findByIdAndUpdate(tocAnalysis._id, {
+          $set: { 
+            status: 'completed',
+            processedSections: processedSections.length
+          }
+        });
+      }
+
+      // Final status update
+      await Material.findByIdAndUpdate(materialId, {
+        $set: { 
+          status: 'ready',
+          processedAt: new Date(),
+          processedSections: processedSections.length
+        },
+      });
+
+      processLogger.logProgress('complete', 100, 'Document processing completed successfully');
+      await this.logProgress(materialId, 'complete', 100, 'Document processing completed successfully');
+      
+      processLogger.log(`🎉 Document processing completed successfully for material ${materialId}`);
+      
+      // Save logs to file
+      await processLogger.saveToFile();
+      
+    } catch (error) {
+      processLogger.addSection('ERROR HANDLING');
+      processLogger.logError(error as Error, 'continue processing');
+      processLogger.addLog('Updating material status to failed');
+      
+      console.error('Error continuing processing:', error);
+      await this.logError(materialId, `Continue processing failed: ${error instanceof Error ? error.message : 'Unknown error'}`);
+      
+      await Material.findByIdAndUpdate(materialId, {
+        $set: { status: 'failed' },
+      });
+      
+      // Save error logs to file
+      try {
+        await processLogger.saveToFile();
+      } catch (logError) {
+        console.error('Failed to save error logs:', logError);
+      }
       
       throw error;
     }

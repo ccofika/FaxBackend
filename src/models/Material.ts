@@ -14,14 +14,14 @@ export interface IMaterial extends Document {
   order: number;
   
   // Document processing fields
-  status: 'uploaded' | 'processing' | 'ready' | 'failed';
+  status: 'uploaded' | 'processing' | 'ready' | 'failed' | 'toc_ready';
   pageCount?: number;
   hasOCR?: boolean;
   fileHash?: string;
   jobId?: string;
   
   progress?: {
-    step: 'probe' | 'render' | 'ocr' | 'text' | 'sectioning' | 'chunk' | 'embed' | 'index' | 'done';
+    step: 'probe' | 'render' | 'ocr' | 'text' | 'toc_analysis' | 'sectioning' | 'chunk' | 'embed' | 'index' | 'done';
     percent: number;
   };
   
@@ -108,7 +108,7 @@ const MaterialSchema = new Schema<IMaterial>({
   // Document processing fields
   status: {
     type: String,
-    enum: ['uploaded', 'processing', 'ready', 'failed'],
+    enum: ['uploaded', 'processing', 'ready', 'failed', 'toc_ready'],
     default: 'uploaded'
   },
   pageCount: {
@@ -131,7 +131,7 @@ const MaterialSchema = new Schema<IMaterial>({
   progress: {
     step: {
       type: String,
-      enum: ['probe', 'render', 'ocr', 'text', 'sectioning', 'chunk', 'embed', 'index', 'done']
+      enum: ['probe', 'render', 'ocr', 'text', 'toc_analysis', 'sectioning', 'chunk', 'embed', 'index', 'done']
     },
     percent: {
       type: Number,

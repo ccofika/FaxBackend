@@ -1,0 +1,2807 @@
+[2025-08-27T02:16:38.419Z] INFO: ================================================================================
+[2025-08-27T02:16:38.419Z] INFO: DOCUMENT PROCESSING LOG
+[2025-08-27T02:16:38.419Z] INFO: Material ID: 68ae6a828c8d0a9e6536a6d9
+[2025-08-27T02:16:38.419Z] INFO: Start Time: 2025-08-27T02:16:38.419Z
+[2025-08-27T02:16:38.419Z] INFO: ================================================================================
+[2025-08-27T02:16:38.419Z] INFO: 
+[2025-08-27T02:16:38.419Z] INFO: Starting document processing for material: 68ae6a828c8d0a9e6536a6d9
+[2025-08-27T02:16:38.419Z] INFO: TOC pages specified: 2-4
+[2025-08-27T02:16:38.420Z] INFO: Progress: probe [█-------------------] 5% - Starting document processing
+[2025-08-27T02:16:38.449Z] Progress: probe - 5% - Starting document processing
+[2025-08-27T02:16:38.449Z] INFO: 
+[2025-08-27T02:16:38.449Z] INFO: ------------------------------------------------------------
+[2025-08-27T02:16:38.449Z] INFO: SECTION: INITIALIZATION
+[2025-08-27T02:16:38.449Z] INFO: ------------------------------------------------------------
+[2025-08-27T02:16:38.449Z] INFO: Progress: probe [█-------------------] 7% - Clearing existing document data
+[2025-08-27T02:16:38.477Z] Progress: probe - 7% - Clearing existing document data
+[2025-08-27T02:16:38.972Z] INFO: Loading material from database
+[2025-08-27T02:16:38.999Z] INFO: Material loaded: IITskripta_2023 (Subject: 68a6307fc376782e58a8d6a1)
+[2025-08-27T02:16:39.055Z] Progress: probe - 10% - Downloading PDF from R2
+[2025-08-27T02:16:40.737Z] INFO: 
+[2025-08-27T02:16:40.737Z] INFO: ------------------------------------------------------------
+[2025-08-27T02:16:40.737Z] INFO: SECTION: PDF TEXT EXTRACTION
+[2025-08-27T02:16:40.737Z] INFO: ------------------------------------------------------------
+[2025-08-27T02:16:40.737Z] INFO: Progress: text [████----------------] 20% - Extracting text from entire PDF content (all pages from 5 onwards)
+[2025-08-27T02:16:40.737Z] INFO: Starting text extraction from page 5 onwards
+[2025-08-27T02:16:40.764Z] Progress: text - 20% - Extracting text from entire PDF content (all pages from 5 onwards)
+[2025-08-27T02:16:40.773Z] 🔄 Using node-poppler for true page-by-page extraction (pages 5 to 1004)
+[2025-08-27T02:16:40.805Z] 📁 Created temp PDF file: C:\Users\stefa\AppData\Local\Temp\temp_pdf_1756261000773.pdf
+[2025-08-27T02:16:41.710Z] 📚 PDF has 201 pages, extracting 5 to 201
+[2025-08-27T02:16:41.711Z] 📄 Extracting page 5/201...
+[2025-08-27T02:16:41.848Z] ✅ Page 5 extracted: 4723 characters
+[2025-08-27T02:16:41.848Z] 📖 Page 5 preview: "Informacione i internet tehnologije
+
+
+PREDGOVOR
+
+Ova skripta je namenjena studentima prve godin..."
+[2025-08-27T02:16:41.849Z] 📄 Extracting page 6/201...
+[2025-08-27T02:16:41.920Z] ✅ Page 6 extracted: 46 characters
+[2025-08-27T02:16:41.920Z] 📖 Page 6 preview: "Informacione i internet tehnologije
+
+
+
+
+6..."
+[2025-08-27T02:16:41.921Z] 📄 Extracting page 7/201...
+[2025-08-27T02:16:42.000Z] ✅ Page 7 extracted: 3398 characters
+[2025-08-27T02:16:42.000Z] 📖 Page 7 preview: "Informacione i internet tehnologije
+
+
+
+
+UVOD
+
+Pojam informacionih i komunikacionih tehnologij..."
+[2025-08-27T02:16:42.001Z] 📄 Extracting page 8/201...
+[2025-08-27T02:16:42.077Z] ✅ Page 8 extracted: 3965 characters
+[2025-08-27T02:16:42.077Z] 📖 Page 8 preview: "Informacione i internet tehnologije
+
+nego što je to uradila Evropska Unija. O nekim detaljima iz o..."
+[2025-08-27T02:16:42.077Z] 📄 Extracting page 9/201...
+[2025-08-27T02:16:42.150Z] ✅ Page 9 extracted: 3653 characters
+[2025-08-27T02:16:42.150Z] 📖 Page 9 preview: "Informacione i internet tehnologije
+
+Arhitektura i infrastruktura IT
+Osnovu svih informacionih si..."
+[2025-08-27T02:16:42.150Z] 📄 Extracting page 10/201...
+[2025-08-27T02:16:42.225Z] ✅ Page 10 extracted: 3102 characters
+[2025-08-27T02:16:42.225Z] 📖 Page 10 preview: "Informacione i internet tehnologije
+
+Ključne tehnologije za razvoj komunikacija, IT i interneta
+R..."
+[2025-08-27T02:16:42.226Z] 📄 Extracting page 11/201...
+[2025-08-27T02:16:42.301Z] ✅ Page 11 extracted: 1306 characters
+[2025-08-27T02:16:42.301Z] 📖 Page 11 preview: "Informacione i internet tehnologije
+
+- 1980. god. – oko milion PC računara u SAD,
+- 1981. god. – ..."
+[2025-08-27T02:16:42.302Z] 📄 Extracting page 12/201...
+[2025-08-27T02:16:42.382Z] ✅ Page 12 extracted: 4063 characters
+[2025-08-27T02:16:42.382Z] 📖 Page 12 preview: "Informacione i internet tehnologije
+
+- 1995. god. - Microsoft Windows 95, Pentium Pro processor,
+..."
+[2025-08-27T02:16:42.383Z] 📄 Extracting page 13/201...
+[2025-08-27T02:16:42.461Z] ✅ Page 13 extracted: 4186 characters
+[2025-08-27T02:16:42.462Z] 📖 Page 13 preview: "Informacione i internet tehnologije
+
+
+Društvene mrežei onlajn komunikacija
+Društvene mrežei onla..."
+[2025-08-27T02:16:42.462Z] 📄 Extracting page 14/201...
+[2025-08-27T02:16:42.537Z] ✅ Page 14 extracted: 3530 characters
+[2025-08-27T02:16:42.538Z] 📖 Page 14 preview: "Informacione i internet tehnologije
+
+Mnogi koji prognoziraju o IoT, predviđaju milijarde uređaja p..."
+[2025-08-27T02:16:42.538Z] 📄 Extracting page 15/201...
+[2025-08-27T02:16:42.616Z] ✅ Page 15 extracted: 1782 characters
+[2025-08-27T02:16:42.617Z] 📖 Page 15 preview: "Informacione i internet tehnologije
+
+
+
+
+1. HARDVER
+
+1. 1. Pojam i klasifikacija računara i ha..."
+[2025-08-27T02:16:42.618Z] 📄 Extracting page 16/201...
+[2025-08-27T02:16:42.698Z] ✅ Page 16 extracted: 2683 characters
+[2025-08-27T02:16:42.698Z] 📖 Page 16 preview: "Informacione i internet tehnologije
+
+Šta je hardver?
+Pod hardverom (hardware) se podrazumevaju fi..."
+[2025-08-27T02:16:42.699Z] 📄 Extracting page 17/201...
+[2025-08-27T02:16:42.778Z] ✅ Page 17 extracted: 4304 characters
+[2025-08-27T02:16:42.778Z] 📖 Page 17 preview: "Informacione i internet tehnologije
+
+Mikroračunari (Microcomputers), koji su danas mnogo poznatiji..."
+[2025-08-27T02:16:42.779Z] 📄 Extracting page 18/201...
+[2025-08-27T02:16:42.853Z] ✅ Page 18 extracted: 3465 characters
+[2025-08-27T02:16:42.853Z] 📖 Page 18 preview: "Informacione i internet tehnologije
+
+samostalan rad u trajanju od nekoliko časova. Najčešći oblik ..."
+[2025-08-27T02:16:42.854Z] 📄 Extracting page 19/201...
+[2025-08-27T02:16:42.935Z] ✅ Page 19 extracted: 3083 characters
+[2025-08-27T02:16:42.936Z] 📖 Page 19 preview: "Informacione i internet tehnologije
+
+Tablet PC
+Tablet PC predstavlja prenosni računar malih dimen..."
+[2025-08-27T02:16:42.936Z] 📄 Extracting page 20/201...
+[2025-08-27T02:16:43.008Z] ✅ Page 20 extracted: 977 characters
+[2025-08-27T02:16:43.008Z] 📖 Page 20 preview: "Informacione i internet tehnologije
+
+Prema drugom, smartphone je jednostavno telefon sa dodatim fu..."
+[2025-08-27T02:16:43.008Z] 📄 Extracting page 21/201...
+[2025-08-27T02:16:43.082Z] ✅ Page 21 extracted: 1534 characters
+[2025-08-27T02:16:43.083Z] 📖 Page 21 preview: "Informacione i internet tehnologije
+
+windows media audio (wma) i dr.), pregled slika (jpg, png, gi..."
+[2025-08-27T02:16:43.083Z] 📄 Extracting page 22/201...
+[2025-08-27T02:16:43.162Z] ✅ Page 22 extracted: 3575 characters
+[2025-08-27T02:16:43.162Z] 📖 Page 22 preview: "Informacione i internet tehnologije
+
+Grid računarstvo spaja neiskorišćene resurse procesiranja geo..."
+[2025-08-27T02:16:43.162Z] 📄 Extracting page 23/201...
+[2025-08-27T02:16:43.238Z] ✅ Page 23 extracted: 2206 characters
+[2025-08-27T02:16:43.238Z] 📖 Page 23 preview: "Informacione i internet tehnologije
+
+Zajednički oblak Oblak koji deli nekoliko organizacija. Infra..."
+[2025-08-27T02:16:43.238Z] 📄 Extracting page 24/201...
+[2025-08-27T02:16:43.315Z] ✅ Page 24 extracted: 1392 characters
+[2025-08-27T02:16:43.315Z] 📖 Page 24 preview: "Informacione i internet tehnologije
+
+7 - IDE konektor,
+8 - ATX 24-pinskikonektor za napajanje,
+9..."
+[2025-08-27T02:16:43.316Z] 📄 Extracting page 25/201...
+[2025-08-27T02:16:43.392Z] ✅ Page 25 extracted: 3907 characters
+[2025-08-27T02:16:43.392Z] 📖 Page 25 preview: "Informacione i internet tehnologije
+
+1. 2. 1. Slotovi, podnožja i priključci
+
+Svaka matična ploč..."
+[2025-08-27T02:16:43.393Z] 📄 Extracting page 26/201...
+[2025-08-27T02:16:43.471Z] ✅ Page 26 extracted: 3596 characters
+[2025-08-27T02:16:43.472Z] 📖 Page 26 preview: "Informacione i internet tehnologije
+
+Procesor kada želi da pročita nešto iz memorije, mora da zna ..."
+[2025-08-27T02:16:43.472Z] 📄 Extracting page 27/201...
+[2025-08-27T02:16:43.559Z] ✅ Page 27 extracted: 1483 characters
+[2025-08-27T02:16:43.560Z] 📖 Page 27 preview: "Informacione i internet tehnologije
+
+Centralna procesna jedinica savremenih računara je mikroproce..."
+[2025-08-27T02:16:43.560Z] 📄 Extracting page 28/201...
+[2025-08-27T02:16:43.638Z] ✅ Page 28 extracted: 3970 characters
+[2025-08-27T02:16:43.639Z] 📖 Page 28 preview: "Informacione i internet tehnologije
+
+• ultra veliki (Ultra Large) preko 100000 komponenata.
+
+Str..."
+[2025-08-27T02:16:43.639Z] 📄 Extracting page 29/201...
+[2025-08-27T02:16:43.716Z] ✅ Page 29 extracted: 2524 characters
+[2025-08-27T02:16:43.716Z] 📖 Page 29 preview: "Informacione i internet tehnologije
+
+1978. godine, imao 29 hiljada tranzistora, dok Intel-ov proce..."
+[2025-08-27T02:16:43.717Z] 📄 Extracting page 30/201...
+[2025-08-27T02:16:43.790Z] ✅ Page 30 extracted: 1303 characters
+[2025-08-27T02:16:43.790Z] 📖 Page 30 preview: "Informacione i internet tehnologije
+
+atomskom nivou. Po pitanju veličine tranzistora, približavanj..."
+[2025-08-27T02:16:43.790Z] 📄 Extracting page 31/201...
+[2025-08-27T02:16:43.868Z] ✅ Page 31 extracted: 2401 characters
+[2025-08-27T02:16:43.869Z] 📖 Page 31 preview: "Informacione i internet tehnologije
+
+Višejezgreni procesori su procesorski sistemi koji se sastoje..."
+[2025-08-27T02:16:43.869Z] 📄 Extracting page 32/201...
+[2025-08-27T02:16:43.944Z] ✅ Page 32 extracted: 2123 characters
+[2025-08-27T02:16:43.945Z] 📖 Page 32 preview: "Informacione i internet tehnologije
+
+Takođe se dosta greju i elementi koji su deo izvora napajanja..."
+[2025-08-27T02:16:43.945Z] 📄 Extracting page 33/201...
+[2025-08-27T02:16:44.021Z] ✅ Page 33 extracted: 2157 characters
+[2025-08-27T02:16:44.021Z] 📖 Page 33 preview: "Informacione i internet tehnologije
+
+𝑛𝑛−1
+
+𝑋𝑋 = � 𝑐𝑐𝑖𝑖 2𝑖𝑖
+𝑖𝑖=−𝑚𝑚
+
+Svaka cifra ..."
+[2025-08-27T02:16:44.022Z] 📄 Extracting page 34/201...
+[2025-08-27T02:16:44.098Z] ✅ Page 34 extracted: 3569 characters
+[2025-08-27T02:16:44.099Z] 📖 Page 34 preview: "Informacione i internet tehnologije
+
+LSB i MSB
+U binarnom broju, na primer 1101, krajnji desni bi..."
+[2025-08-27T02:16:44.099Z] 📄 Extracting page 35/201...
+[2025-08-27T02:16:44.181Z] ✅ Page 35 extracted: 3464 characters
+[2025-08-27T02:16:44.182Z] 📖 Page 35 preview: "Informacione i internet tehnologije
+
+
+
+1. 4. Memorija
+
+Treća najznačajnija komponenta računara..."
+[2025-08-27T02:16:44.182Z] 📄 Extracting page 36/201...
+[2025-08-27T02:16:44.261Z] ✅ Page 36 extracted: 3712 characters
+[2025-08-27T02:16:44.262Z] 📖 Page 36 preview: "Informacione i internet tehnologije
+
+
+
+
+(3) Optičke medije
+a. CD (Compact Disk) - prva generac..."
+[2025-08-27T02:16:44.262Z] 📄 Extracting page 37/201...
+[2025-08-27T02:16:44.338Z] ✅ Page 37 extracted: 3685 characters
+[2025-08-27T02:16:44.339Z] 📖 Page 37 preview: "Informacione i internet tehnologije
+
+sadrži 1024 kilobajta, gigabajt (GB), koji sadrži 1024 megaba..."
+[2025-08-27T02:16:44.339Z] 📄 Extracting page 38/201...
+[2025-08-27T02:16:44.414Z] ✅ Page 38 extracted: 1735 characters
+[2025-08-27T02:16:44.414Z] 📖 Page 38 preview: "Informacione i internet tehnologije
+
+radne memorije se gubi pri svakom isljučenju računara, te čes..."
+[2025-08-27T02:16:44.415Z] 📄 Extracting page 39/201...
+[2025-08-27T02:16:44.491Z] ✅ Page 39 extracted: 2782 characters
+[2025-08-27T02:16:44.491Z] 📖 Page 39 preview: "Informacione i internet tehnologije
+
+Ovo se rešava stalnim periodičnim osvežavanjem memorije, pa s..."
+[2025-08-27T02:16:44.492Z] 📄 Extracting page 40/201...
+[2025-08-27T02:16:44.569Z] ✅ Page 40 extracted: 2087 characters
+[2025-08-27T02:16:44.569Z] 📖 Page 40 preview: "Informacione i internet tehnologije
+
+I/O bafer između memorije i magistrale podataka i njegovoj fr..."
+[2025-08-27T02:16:44.569Z] 📄 Extracting page 41/201...
+[2025-08-27T02:16:44.645Z] ✅ Page 41 extracted: 2769 characters
+[2025-08-27T02:16:44.645Z] 📖 Page 41 preview: "Informacione i internet tehnologije
+
+DDR4 se zaustavio na 16-gigabitnim memorijskim čipovima, ali ..."
+[2025-08-27T02:16:44.646Z] 📄 Extracting page 42/201...
+[2025-08-27T02:16:44.721Z] ✅ Page 42 extracted: 2825 characters
+[2025-08-27T02:16:44.722Z] 📖 Page 42 preview: "Informacione i internet tehnologije
+
+
+
+
+1. 4. 4. Diskovi
+
+Hard disk, u oznaci HDD (Hard Disk ..."
+[2025-08-27T02:16:44.722Z] 📄 Extracting page 43/201...
+[2025-08-27T02:16:44.798Z] ✅ Page 43 extracted: 3370 characters
+[2025-08-27T02:16:44.798Z] 📖 Page 43 preview: "Informacione i internet tehnologije
+
+Teži se da ta komunikacja bude što brža. Ovi interfejsi omogu..."
+[2025-08-27T02:16:44.798Z] 📄 Extracting page 44/201...
+[2025-08-27T02:16:44.878Z] ✅ Page 44 extracted: 3364 characters
+[2025-08-27T02:16:44.878Z] 📖 Page 44 preview: "Informacione i internet tehnologije
+
+
+Solid State Drive (SSD)
+Razvijaju se nove tehnologije koje..."
+[2025-08-27T02:16:44.879Z] 📄 Extracting page 45/201...
+[2025-08-27T02:16:44.958Z] ✅ Page 45 extracted: 3014 characters
+[2025-08-27T02:16:44.958Z] 📖 Page 45 preview: "Informacione i internet tehnologije
+
+medij (CD RW) moguće izvršiti višestruki upis. Prvi audio (mu..."
+[2025-08-27T02:16:44.958Z] 📄 Extracting page 46/201...
+[2025-08-27T02:16:45.034Z] ✅ Page 46 extracted: 1933 characters
+[2025-08-27T02:16:45.034Z] 📖 Page 46 preview: "Informacione i internet tehnologije
+
+
+
+
+Slika 1. 4-8. DVD formati
+
+Dimenzije jamica na DVD me..."
+[2025-08-27T02:16:45.035Z] 📄 Extracting page 47/201...
+[2025-08-27T02:16:45.111Z] ✅ Page 47 extracted: 1522 characters
+[2025-08-27T02:16:45.112Z] 📖 Page 47 preview: "Informacione i internet tehnologije
+
+
+
+
+Slika 1. 4-9. Uvećani izgled jamice na DVD disku
+
+
+..."
+[2025-08-27T02:16:45.112Z] 📄 Extracting page 48/201...
+[2025-08-27T02:16:45.188Z] ✅ Page 48 extracted: 1539 characters
+[2025-08-27T02:16:45.188Z] 📖 Page 48 preview: "Informacione i internet tehnologije
+
+
+4× 144 18 23 45
+6× 216 27 15 30
+8× 288 36 12 23
+12× 432 ..."
+[2025-08-27T02:16:45.189Z] 📄 Extracting page 49/201...
+[2025-08-27T02:16:45.263Z] ✅ Page 49 extracted: 3104 characters
+[2025-08-27T02:16:45.263Z] 📖 Page 49 preview: "Informacione i internet tehnologije
+
+Grafička kartica je odgovorna za grafičku predstavu obrađivan..."
+[2025-08-27T02:16:45.264Z] 📄 Extracting page 50/201...
+[2025-08-27T02:16:45.336Z] ✅ Page 50 extracted: 1335 characters
+[2025-08-27T02:16:45.336Z] 📖 Page 50 preview: "Informacione i internet tehnologije
+
+1. 5. 2. TV i satelitske kartice
+
+
+TV kartica
+Nekada su p..."
+[2025-08-27T02:16:45.337Z] 📄 Extracting page 51/201...
+[2025-08-27T02:16:45.416Z] ✅ Page 51 extracted: 4495 characters
+[2025-08-27T02:16:45.416Z] 📖 Page 51 preview: "Informacione i internet tehnologije
+
+1. 5. 3. Monitori
+
+Monitor predstavlja osnovni uređaj na ko..."
+[2025-08-27T02:16:45.416Z] 📄 Extracting page 52/201...
+[2025-08-27T02:16:45.490Z] ✅ Page 52 extracted: 2264 characters
+[2025-08-27T02:16:45.490Z] 📖 Page 52 preview: "Informacione i internet tehnologije
+
+otkriven davne 1888. godine. Tečni kristal je dobijen zagreva..."
+[2025-08-27T02:16:45.490Z] 📄 Extracting page 53/201...
+[2025-08-27T02:16:45.567Z] ✅ Page 53 extracted: 2613 characters
+[2025-08-27T02:16:45.568Z] 📖 Page 53 preview: "Informacione i internet tehnologije
+
+definiciji predstavlja broj piksela po jedinici površine. Na ..."
+[2025-08-27T02:16:45.568Z] 📄 Extracting page 54/201...
+[2025-08-27T02:16:45.642Z] ✅ Page 54 extracted: 2152 characters
+[2025-08-27T02:16:45.642Z] 📖 Page 54 preview: "Informacione i internet tehnologije
+
+neintegrisanu zvučnu karticu, dok je za jednostavnije potrebe..."
+[2025-08-27T02:16:45.643Z] 📄 Extracting page 55/201...
+[2025-08-27T02:16:45.719Z] ✅ Page 55 extracted: 2635 characters
+[2025-08-27T02:16:45.719Z] 📖 Page 55 preview: "Informacione i internet tehnologije
+
+•  tastatura,
+•  miš,
+•  skener,
+•  mikrofon,
+•  senzorsk..."
+[2025-08-27T02:16:45.720Z] 📄 Extracting page 56/201...
+[2025-08-27T02:16:45.797Z] ✅ Page 56 extracted: 2943 characters
+[2025-08-27T02:16:45.798Z] 📖 Page 56 preview: "Informacione i internet tehnologije
+
+Miš (engl. mouse) je periferna hardverska komponenta računara..."
+[2025-08-27T02:16:45.798Z] 📄 Extracting page 57/201...
+[2025-08-27T02:16:45.873Z] ✅ Page 57 extracted: 2450 characters
+[2025-08-27T02:16:45.874Z] 📖 Page 57 preview: "Informacione i internet tehnologije
+
+• alfanumerička tastatura, koja predstavlja centralni i najve..."
+[2025-08-27T02:16:45.874Z] 📄 Extracting page 58/201...
+[2025-08-27T02:16:45.948Z] ✅ Page 58 extracted: 2389 characters
+[2025-08-27T02:16:45.948Z] 📖 Page 58 preview: "Informacione i internet tehnologije
+
+• dubina boje (broj bita za prikaz svakog podatka skeniranog ..."
+[2025-08-27T02:16:45.949Z] 📄 Extracting page 59/201...
+[2025-08-27T02:16:46.024Z] ✅ Page 59 extracted: 2346 characters
+[2025-08-27T02:16:46.024Z] 📖 Page 59 preview: "Informacione i internet tehnologije
+
+megapiksela, dok će slika od 3872x2592 imati 10036224 piksela..."
+[2025-08-27T02:16:46.025Z] 📄 Extracting page 60/201...
+[2025-08-27T02:16:46.098Z] ✅ Page 60 extracted: 2228 characters
+[2025-08-27T02:16:46.098Z] 📖 Page 60 preview: "Informacione i internet tehnologije
+
+
+
+
+Slika 1. 7-6. Matrični štampač (izvor:
+http://www2. pr..."
+[2025-08-27T02:16:46.099Z] 📄 Extracting page 61/201...
+[2025-08-27T02:16:46.176Z] ✅ Page 61 extracted: 3541 characters
+[2025-08-27T02:16:46.177Z] 📖 Page 61 preview: "Informacione i internet tehnologije
+
+Važne karakteristike: rezolucija slike, jačina svetla. Korist..."
+[2025-08-27T02:16:46.177Z] 📄 Extracting page 62/201...
+[2025-08-27T02:16:46.253Z] ✅ Page 62 extracted: 3126 characters
+[2025-08-27T02:16:46.253Z] 📖 Page 62 preview: "Informacione i internet tehnologije
+
+port. Prednosti ovog porta su što je jeftiniji išto koristi m..."
+[2025-08-27T02:16:46.254Z] 📄 Extracting page 63/201...
+[2025-08-27T02:16:46.327Z] ✅ Page 63 extracted: 1539 characters
+[2025-08-27T02:16:46.327Z] 📖 Page 63 preview: "Informacione i internet tehnologije
+
+Na slici 1. 8-2 je prikazano nekoliko priključaka: paralelni ..."
+[2025-08-27T02:16:46.327Z] 📄 Extracting page 64/201...
+[2025-08-27T02:16:46.407Z] ✅ Page 64 extracted: 2270 characters
+[2025-08-27T02:16:46.407Z] 📖 Page 64 preview: "Informacione i internet tehnologije
+
+
+
+
+Slika 1. 8-3. Priključci na računaru
+
+DVI konektor
+D..."
+[2025-08-27T02:16:46.408Z] 📄 Extracting page 65/201...
+[2025-08-27T02:16:46.483Z] ✅ Page 65 extracted: 1335 characters
+[2025-08-27T02:16:46.484Z] 📖 Page 65 preview: "Informacione i internet tehnologije
+
+bitna zbog hlađenja, pa je uvek bolje uzeti veće kućište. Sa ..."
+[2025-08-27T02:16:46.484Z] 📄 Extracting page 66/201...
+[2025-08-27T02:16:46.562Z] ✅ Page 66 extracted: 2823 characters
+[2025-08-27T02:16:46.562Z] 📖 Page 66 preview: "Informacione i internet tehnologije
+
+Prema nekim istraživanjima, od svih problema u radu računara ..."
+[2025-08-27T02:16:46.563Z] 📄 Extracting page 67/201...
+[2025-08-27T02:16:46.639Z] ✅ Page 67 extracted: 4063 characters
+[2025-08-27T02:16:46.639Z] 📖 Page 67 preview: "Informacione i internet tehnologije
+
+• poveća kapacitet radne memorije,
+• koristi bolja matična p..."
+[2025-08-27T02:16:46.639Z] 📄 Extracting page 68/201...
+[2025-08-27T02:16:46.716Z] ✅ Page 68 extracted: 4020 characters
+[2025-08-27T02:16:46.716Z] 📖 Page 68 preview: "Informacione i internet tehnologije
+
+koji može da uzrokuje čovek može biti dovoljno velik, posebno..."
+[2025-08-27T02:16:46.717Z] 📄 Extracting page 69/201...
+[2025-08-27T02:16:46.796Z] ✅ Page 69 extracted: 3243 characters
+[2025-08-27T02:16:46.796Z] 📖 Page 69 preview: "Informacione i internet tehnologije
+
+Pouzdanost je verovatnoća da će neki proizvod izvršavati zaht..."
+[2025-08-27T02:16:46.796Z] 📄 Extracting page 70/201...
+[2025-08-27T02:16:46.876Z] ✅ Page 70 extracted: 2861 characters
+[2025-08-27T02:16:46.877Z] 📖 Page 70 preview: "Informacione i internet tehnologije
+
+Pokazatelji pouzdanosti
+Najčešći pokazatelji pouzdanosti, u ..."
+[2025-08-27T02:16:46.877Z] 📄 Extracting page 71/201...
+[2025-08-27T02:16:46.957Z] ✅ Page 71 extracted: 3578 characters
+[2025-08-27T02:16:46.957Z] 📖 Page 71 preview: "Informacione i internet tehnologije
+
+
+
+2. SOFTVER
+
+2. 1. Pojam i klasifikacija softvera
+
+Har..."
+[2025-08-27T02:16:46.958Z] 📄 Extracting page 72/201...
+[2025-08-27T02:16:47.035Z] ✅ Page 72 extracted: 2405 characters
+[2025-08-27T02:16:47.035Z] 📖 Page 72 preview: "Informacione i internet tehnologije
+
+Korisnik može direktno koordinirati rad aplikativnog softvera..."
+[2025-08-27T02:16:47.036Z] 📄 Extracting page 73/201...
+[2025-08-27T02:16:47.114Z] ✅ Page 73 extracted: 3705 characters
+[2025-08-27T02:16:47.114Z] 📖 Page 73 preview: "Informacione i internet tehnologije
+
+brine, na primer, prikaz na ekranu ili rad sa ulaznim i izlaz..."
+[2025-08-27T02:16:47.115Z] 📄 Extracting page 74/201...
+[2025-08-27T02:16:47.185Z] ✅ Page 74 extracted: 1115 characters
+[2025-08-27T02:16:47.186Z] 📖 Page 74 preview: "Informacione i internet tehnologije
+
+
+
+
+Slika 2. 1-2. DistribucijaUbuntuLinux operativnog siste..."
+[2025-08-27T02:16:47.186Z] 📄 Extracting page 75/201...
+[2025-08-27T02:16:47.259Z] ✅ Page 75 extracted: 2216 characters
+[2025-08-27T02:16:47.259Z] 📖 Page 75 preview: "Informacione i internet tehnologije
+
+Prema rezultatima istraživanja iz avgusta 2019. godine 11, Wi..."
+[2025-08-27T02:16:47.259Z] 📄 Extracting page 76/201...
+[2025-08-27T02:16:47.329Z] ✅ Page 76 extracted: 170 characters
+[2025-08-27T02:16:47.330Z] 📖 Page 76 preview: "Informacione i internet tehnologije
+
+
+
+
+Slika 2. 1-5. Izgled Windows 1. 0
+
+
+
+
+Slika 2. 1-6..."
+[2025-08-27T02:16:47.330Z] 📄 Extracting page 77/201...
+[2025-08-27T02:16:47.405Z] ✅ Page 77 extracted: 1967 characters
+[2025-08-27T02:16:47.405Z] 📖 Page 77 preview: "Informacione i internet tehnologije
+
+
+
+
+2. 2. 2. Pomoćni sistemski programi
+
+Pomoćni sistemsk..."
+[2025-08-27T02:16:47.406Z] 📄 Extracting page 78/201...
+[2025-08-27T02:16:47.483Z] ✅ Page 78 extracted: 4294 characters
+[2025-08-27T02:16:47.484Z] 📖 Page 78 preview: "Informacione i internet tehnologije
+
+
+Programi za arhiviranje
+Ovi programi služe za arhiviranje ..."
+[2025-08-27T02:16:47.484Z] 📄 Extracting page 79/201...
+[2025-08-27T02:16:47.561Z] ✅ Page 79 extracted: 2429 characters
+[2025-08-27T02:16:47.561Z] 📖 Page 79 preview: "Informacione i internet tehnologije
+
+razbacani po hard disku i potrebno je više vremena da im se p..."
+[2025-08-27T02:16:47.562Z] 📄 Extracting page 80/201...
+[2025-08-27T02:16:47.634Z] ✅ Page 80 extracted: 2744 characters
+[2025-08-27T02:16:47.634Z] 📖 Page 80 preview: "Informacione i internet tehnologije
+
+linija sa alatkama (toolbar), padajući meni (shortcut meni), ..."
+[2025-08-27T02:16:47.635Z] 📄 Extracting page 81/201...
+[2025-08-27T02:16:47.709Z] ✅ Page 81 extracted: 2306 characters
+[2025-08-27T02:16:47.709Z] 📖 Page 81 preview: "Informacione i internet tehnologije
+
+
+
+
+Slika 2. 3-2. Ilustracija dokumenta u Microsoft Wordu i..."
+[2025-08-27T02:16:47.710Z] 📄 Extracting page 82/201...
+[2025-08-27T02:16:47.791Z] ✅ Page 82 extracted: 3834 characters
+[2025-08-27T02:16:47.791Z] 📖 Page 82 preview: "Informacione i internet tehnologije
+
+
+Program za rad sa bazama podataka
+Program za rad sa bazama..."
+[2025-08-27T02:16:47.792Z] 📄 Extracting page 83/201...
+[2025-08-27T02:16:47.869Z] ✅ Page 83 extracted: 4510 characters
+[2025-08-27T02:16:47.870Z] 📖 Page 83 preview: "Informacione i internet tehnologije
+
+mogućnost ovog programa i omogućava ubacivanje više slojeva n..."
+[2025-08-27T02:16:47.870Z] 📄 Extracting page 84/201...
+[2025-08-27T02:16:47.948Z] ✅ Page 84 extracted: 3091 characters
+[2025-08-27T02:16:47.948Z] 📖 Page 84 preview: "Informacione i internet tehnologije
+
+stečenog znanja. Postoje i interaktivni kursevi koji se izvod..."
+[2025-08-27T02:16:47.949Z] 📄 Extracting page 85/201...
+[2025-08-27T02:16:48.026Z] ✅ Page 85 extracted: 4160 characters
+[2025-08-27T02:16:48.026Z] 📖 Page 85 preview: "Informacione i internet tehnologije
+
+Softver za prepoznavanje govora omogućava korisnicima računar..."
+[2025-08-27T02:16:48.027Z] 📄 Extracting page 86/201...
+[2025-08-27T02:16:48.100Z] ✅ Page 86 extracted: 2297 characters
+[2025-08-27T02:16:48.100Z] 📖 Page 86 preview: "Informacione i internet tehnologije
+
+Čitači ekrana (screen reader)
+Čitači ekrana su softverske ap..."
+[2025-08-27T02:16:48.100Z] 📄 Extracting page 87/201...
+[2025-08-27T02:16:48.178Z] ✅ Page 87 extracted: 2643 characters
+[2025-08-27T02:16:48.178Z] 📖 Page 87 preview: "Informacione i internet tehnologije
+
+2. 4. Programerski softver
+
+Programerski softver pruža alat..."
+[2025-08-27T02:16:48.179Z] 📄 Extracting page 88/201...
+[2025-08-27T02:16:48.253Z] ✅ Page 88 extracted: 4862 characters
+[2025-08-27T02:16:48.254Z] 📖 Page 88 preview: "Informacione i internet tehnologije
+
+Asemblerski jezici jesu doneli unpređenje, ali programeri su ..."
+[2025-08-27T02:16:48.254Z] 📄 Extracting page 89/201...
+[2025-08-27T02:16:48.331Z] ✅ Page 89 extracted: 3568 characters
+[2025-08-27T02:16:48.331Z] 📖 Page 89 preview: "Informacione i internet tehnologije
+
+Softver za upravljanje projektima (engl. Project Management S..."
+[2025-08-27T02:16:48.332Z] 📄 Extracting page 90/201...
+[2025-08-27T02:16:48.406Z] ✅ Page 90 extracted: 3040 characters
+[2025-08-27T02:16:48.407Z] 📖 Page 90 preview: "Informacione i internet tehnologije
+
+• nastanka grešaka pri proizvodnji softvera (kopiranje, učita..."
+[2025-08-27T02:16:48.407Z] 📄 Extracting page 91/201...
+[2025-08-27T02:16:48.481Z] ✅ Page 91 extracted: 3039 characters
+[2025-08-27T02:16:48.481Z] 📖 Page 91 preview: "Informacione i internet tehnologije
+
+prouzrokovan, na primer, greškom u programu, onda će rezervni..."
+[2025-08-27T02:16:48.482Z] 📄 Extracting page 92/201...
+[2025-08-27T02:16:48.559Z] ✅ Page 92 extracted: 3217 characters
+[2025-08-27T02:16:48.560Z] 📖 Page 92 preview: "Informacione i internet tehnologije
+
+
+Predviđanje troškova održavanja
+Shodno velikom udelu u tro..."
+[2025-08-27T02:16:48.560Z] 📄 Extracting page 93/201...
+[2025-08-27T02:16:48.633Z] ✅ Page 93 extracted: 2821 characters
+[2025-08-27T02:16:48.633Z] 📖 Page 93 preview: "Informacione i internet tehnologije
+
+Prednosti i nedostaci softvera otvorenog koda
+Softver otvore..."
+[2025-08-27T02:16:48.634Z] 📄 Extracting page 94/201...
+[2025-08-27T02:16:48.706Z] ✅ Page 94 extracted: 47 characters
+[2025-08-27T02:16:48.706Z] 📖 Page 94 preview: "Informacione i internet tehnologije
+
+
+
+
+94..."
+[2025-08-27T02:16:48.706Z] 📄 Extracting page 95/201...
+[2025-08-27T02:16:48.788Z] ✅ Page 95 extracted: 3610 characters
+[2025-08-27T02:16:48.788Z] 📖 Page 95 preview: "Informacione i internet tehnologije
+
+3. UMREŽAVANJE I INTERNET
+
+3. 1. Računarske mreže
+
+Čini s..."
+[2025-08-27T02:16:48.789Z] 📄 Extracting page 96/201...
+[2025-08-27T02:16:48.864Z] ✅ Page 96 extracted: 4302 characters
+[2025-08-27T02:16:48.864Z] 📖 Page 96 preview: "Informacione i internet tehnologije
+
+Računarska mreža kao telekomunikacioni sistem
+Povezivanje ra..."
+[2025-08-27T02:16:48.865Z] 📄 Extracting page 97/201...
+[2025-08-27T02:16:48.939Z] ✅ Page 97 extracted: 2833 characters
+[2025-08-27T02:16:48.939Z] 📖 Page 97 preview: "Informacione i internet tehnologije
+
+Obično se jednim komunikacionim medijem prenose podaci iz viš..."
+[2025-08-27T02:16:48.940Z] 📄 Extracting page 98/201...
+[2025-08-27T02:16:49.019Z] ✅ Page 98 extracted: 4314 characters
+[2025-08-27T02:16:49.020Z] 📖 Page 98 preview: "Informacione i internet tehnologije
+
+Ponekad se za izražavanje brzine prenosa podataka koristi i b..."
+[2025-08-27T02:16:49.020Z] 📄 Extracting page 99/201...
+[2025-08-27T02:16:49.098Z] ✅ Page 99 extracted: 2382 characters
+[2025-08-27T02:16:49.098Z] 📖 Page 99 preview: "Informacione i internet tehnologije
+
+TCP/IP (Transmission Control Protocol/Internet Protocol) je s..."
+[2025-08-27T02:16:49.098Z] 📄 Extracting page 100/201...
+[2025-08-27T02:16:49.178Z] ✅ Page 100 extracted: 1683 characters
+[2025-08-27T02:16:49.178Z] 📖 Page 100 preview: "Informacione i internet tehnologije
+
+su njihovi lični računari), dok je komunikaciona podmreža naj..."
+[2025-08-27T02:16:49.179Z] 📄 Extracting page 101/201...
+[2025-08-27T02:16:49.250Z] ✅ Page 101 extracted: 1295 characters
+[2025-08-27T02:16:49.251Z] 📖 Page 101 preview: "Informacione i internet tehnologije
+
+
+
+
+Slika 3. 1-5. Topologija magistrala
+
+
+
+
+Slika 3. 1..."
+[2025-08-27T02:16:49.252Z] 📄 Extracting page 102/201...
+[2025-08-27T02:16:49.327Z] ✅ Page 102 extracted: 3497 characters
+[2025-08-27T02:16:49.327Z] 📖 Page 102 preview: "Informacione i internet tehnologije
+
+
+
+
+Slika 3. 1-7. Ring topologija
+
+Osnovni elementi mreže..."
+[2025-08-27T02:16:49.328Z] 📄 Extracting page 103/201...
+[2025-08-27T02:16:49.404Z] ✅ Page 103 extracted: 3335 characters
+[2025-08-27T02:16:49.405Z] 📖 Page 103 preview: "Informacione i internet tehnologije
+
+servera, čime se smanjuju troškovi. Troškovi se smanuju i kor..."
+[2025-08-27T02:16:49.405Z] 📄 Extracting page 104/201...
+[2025-08-27T02:16:49.476Z] ✅ Page 104 extracted: 1467 characters
+[2025-08-27T02:16:49.476Z] 📖 Page 104 preview: "Informacione i internet tehnologije
+
+
+
+
+Slika 3. 1-8. Skretnica (switch) prosleđuje paket odgov..."
+[2025-08-27T02:16:49.477Z] 📄 Extracting page 105/201...
+[2025-08-27T02:16:49.546Z] ✅ Page 105 extracted: 1142 characters
+[2025-08-27T02:16:49.546Z] 📖 Page 105 preview: "Informacione i internet tehnologije
+
+
+
+
+Slika 3. 3. 1-10. Usmerivač (router) prosleđuje pakete ..."
+[2025-08-27T02:16:49.547Z] 📄 Extracting page 106/201...
+[2025-08-27T02:16:49.628Z] ✅ Page 106 extracted: 4333 characters
+[2025-08-27T02:16:49.628Z] 📖 Page 106 preview: "Informacione i internet tehnologije
+
+povezivanja, od stručnosti osoblja kao i od fizičkog obezbeđe..."
+[2025-08-27T02:16:49.628Z] 📄 Extracting page 107/201...
+[2025-08-27T02:16:49.700Z] ✅ Page 107 extracted: 1109 characters
+[2025-08-27T02:16:49.700Z] 📖 Page 107 preview: "Informacione i internet tehnologije
+
+autoputevima i drumovima, komutatore paketa sa raskrsnicama, ..."
+[2025-08-27T02:16:49.701Z] 📄 Extracting page 108/201...
+[2025-08-27T02:16:49.780Z] ✅ Page 108 extracted: 4974 characters
+[2025-08-27T02:16:49.780Z] 📖 Page 108 preview: "Informacione i internet tehnologije
+
+pristup preko lokalne računarske mreže velike brzine i bežičn..."
+[2025-08-27T02:16:49.781Z] 📄 Extracting page 109/201...
+[2025-08-27T02:16:49.857Z] ✅ Page 109 extracted: 2984 characters
+[2025-08-27T02:16:49.858Z] 📖 Page 109 preview: "Informacione i internet tehnologije
+
+
+Kratak istorijat i pregled naučnih dostignuća koji su osnov..."
+[2025-08-27T02:16:49.858Z] 📄 Extracting page 110/201...
+[2025-08-27T02:16:49.930Z] ✅ Page 110 extracted: 901 characters
+[2025-08-27T02:16:49.930Z] 📖 Page 110 preview: "Informacione i internet tehnologije
+
+
+Statistika korišćenja interneta
+Na slikama 3. 2-3 do 3. 2-..."
+[2025-08-27T02:16:49.931Z] 📄 Extracting page 111/201...
+[2025-08-27T02:16:50.010Z] ✅ Page 111 extracted: 3346 characters
+[2025-08-27T02:16:50.011Z] 📖 Page 111 preview: "Informacione i internet tehnologije
+
+
+
+
+Slika 3. 2-5. Procenat korišćenja interneta po regionim..."
+[2025-08-27T02:16:50.011Z] 📄 Extracting page 112/201...
+[2025-08-27T02:16:50.089Z] ✅ Page 112 extracted: 4386 characters
+[2025-08-27T02:16:50.089Z] 📖 Page 112 preview: "Informacione i internet tehnologije
+
+se od skupa markup simbola tj. tagova koji govore brauzeru ka..."
+[2025-08-27T02:16:50.090Z] 📄 Extracting page 113/201...
+[2025-08-27T02:16:50.168Z] ✅ Page 113 extracted: 4538 characters
+[2025-08-27T02:16:50.169Z] 📖 Page 113 preview: "Informacione i internet tehnologije
+
+U vezi korišćenja pretraživačai pronalaženja informacija, važ..."
+[2025-08-27T02:16:50.169Z] 📄 Extracting page 114/201...
+[2025-08-27T02:16:50.245Z] ✅ Page 114 extracted: 4107 characters
+[2025-08-27T02:16:50.245Z] 📖 Page 114 preview: "Informacione i internet tehnologije
+
+Od 2004. godine u opticaju je termin veb 2. 0, а sada i web 3..."
+[2025-08-27T02:16:50.246Z] 📄 Extracting page 115/201...
+[2025-08-27T02:16:50.323Z] ✅ Page 115 extracted: 3851 characters
+[2025-08-27T02:16:50.323Z] 📖 Page 115 preview: "Informacione i internet tehnologije
+
+obrnut proces. VoIP zahteva da računar ima zvučnu karticu, zv..."
+[2025-08-27T02:16:50.324Z] 📄 Extracting page 116/201...
+[2025-08-27T02:16:50.400Z] ✅ Page 116 extracted: 3656 characters
+[2025-08-27T02:16:50.400Z] 📖 Page 116 preview: "Informacione i internet tehnologije
+
+sistema je to, što se sve može obavljati korišćenjem internet..."
+[2025-08-27T02:16:50.401Z] 📄 Extracting page 117/201...
+[2025-08-27T02:16:50.477Z] ✅ Page 117 extracted: 3618 characters
+[2025-08-27T02:16:50.478Z] 📖 Page 117 preview: "Informacione i internet tehnologije
+
+Elektronska plaćanja
+Plaćanja su sastavni deo poslovnih oper..."
+[2025-08-27T02:16:50.478Z] 📄 Extracting page 118/201...
+[2025-08-27T02:16:50.555Z] ✅ Page 118 extracted: 3951 characters
+[2025-08-27T02:16:50.555Z] 📖 Page 118 preview: "Informacione i internet tehnologije
+
+Tržište diktira primenu novih trendova i usvajanje standarda,..."
+[2025-08-27T02:16:50.555Z] 📄 Extracting page 119/201...
+[2025-08-27T02:16:50.636Z] ✅ Page 119 extracted: 4372 characters
+[2025-08-27T02:16:50.636Z] 📖 Page 119 preview: "Informacione i internet tehnologije
+
+• G2E – Government to Employee,
+• G2C – Government to Citize..."
+[2025-08-27T02:16:50.636Z] 📄 Extracting page 120/201...
+[2025-08-27T02:16:50.715Z] ✅ Page 120 extracted: 4364 characters
+[2025-08-27T02:16:50.715Z] 📖 Page 120 preview: "Informacione i internet tehnologije
+
+stepenom zaštite, neki sa višom. Takođe, svi zakoni i propisi..."
+[2025-08-27T02:16:50.716Z] 📄 Extracting page 121/201...
+[2025-08-27T02:16:50.793Z] ✅ Page 121 extracted: 3040 characters
+[2025-08-27T02:16:50.793Z] 📖 Page 121 preview: "Informacione i internet tehnologije
+
+ADSL Kod ove tehnologije se polazi od činjenice da većina int..."
+[2025-08-27T02:16:50.794Z] 📄 Extracting page 122/201...
+[2025-08-27T02:16:50.865Z] ✅ Page 122 extracted: 2550 characters
+[2025-08-27T02:16:50.866Z] 📖 Page 122 preview: "Informacione i internet tehnologije
+
+VDSL (Very high DSL) obezbeđuje velike brzine sa maksimumom o..."
+[2025-08-27T02:16:50.866Z] 📄 Extracting page 123/201...
+[2025-08-27T02:16:50.945Z] ✅ Page 123 extracted: 1821 characters
+[2025-08-27T02:16:50.945Z] 📖 Page 123 preview: "Informacione i internet tehnologije
+
+
+Tabela 3. 5-1. Komparacija DSL tehnologija
+Vrsta Maksimaln..."
+[2025-08-27T02:16:50.945Z] 📄 Extracting page 124/201...
+[2025-08-27T02:16:51.016Z] ✅ Page 124 extracted: 48 characters
+[2025-08-27T02:16:51.017Z] 📖 Page 124 preview: "Informacione i internet tehnologije
+
+
+
+
+124..."
+[2025-08-27T02:16:51.017Z] 📄 Extracting page 125/201...
+[2025-08-27T02:16:51.093Z] ✅ Page 125 extracted: 2992 characters
+[2025-08-27T02:16:51.093Z] 📖 Page 125 preview: "Informacione i internet tehnologije
+
+
+
+
+4. BEŽIČNE I MOBILNE KOMUNIKACIJE
+
+
+4. 1. Razvoj i p..."
+[2025-08-27T02:16:51.094Z] 📄 Extracting page 126/201...
+[2025-08-27T02:16:51.169Z] ✅ Page 126 extracted: 2321 characters
+[2025-08-27T02:16:51.169Z] 📖 Page 126 preview: "Informacione i internet tehnologije
+
+Princip trankinga polazi od pretpostavke da je za profesional..."
+[2025-08-27T02:16:51.169Z] 📄 Extracting page 127/201...
+[2025-08-27T02:16:51.247Z] ✅ Page 127 extracted: 2856 characters
+[2025-08-27T02:16:51.248Z] 📖 Page 127 preview: "Informacione i internet tehnologije
+
+• podeli geografskog područja na manje oblasti – ćelije, i
+•..."
+[2025-08-27T02:16:51.248Z] 📄 Extracting page 128/201...
+[2025-08-27T02:16:51.327Z] ✅ Page 128 extracted: 4066 characters
+[2025-08-27T02:16:51.328Z] 📖 Page 128 preview: "Informacione i internet tehnologije
+
+oblast prečnika 30-300 m, a može da opsluži do 4 telefonska a..."
+[2025-08-27T02:16:51.328Z] 📄 Extracting page 129/201...
+[2025-08-27T02:16:51.401Z] ✅ Page 129 extracted: 1669 characters
+[2025-08-27T02:16:51.401Z] 📖 Page 129 preview: "Informacione i internet tehnologije
+
+popravljati, pa nema potrebe za izlazkom majstora na teren. M..."
+[2025-08-27T02:16:51.402Z] 📄 Extracting page 130/201...
+[2025-08-27T02:16:51.479Z] ✅ Page 130 extracted: 2218 characters
+[2025-08-27T02:16:51.480Z] 📖 Page 130 preview: "Informacione i internet tehnologije
+
+Tabela 4. 2-1 Frekventni opsezi i njima odgovarajuće talasne ..."
+[2025-08-27T02:16:51.480Z] 📄 Extracting page 131/201...
+[2025-08-27T02:16:51.553Z] ✅ Page 131 extracted: 2432 characters
+[2025-08-27T02:16:51.553Z] 📖 Page 131 preview: "Informacione i internet tehnologije
+
+Zračenje EMT i antene
+Za formiranje slobodnih EMT, tj. talas..."
+[2025-08-27T02:16:51.554Z] 📄 Extracting page 132/201...
+[2025-08-27T02:16:51.631Z] ✅ Page 132 extracted: 2291 characters
+[2025-08-27T02:16:51.631Z] 📖 Page 132 preview: "Informacione i internet tehnologije
+
+vidi se oblik preseka dijagrama zračenja dipol antene u ravni..."
+[2025-08-27T02:16:51.632Z] 📄 Extracting page 133/201...
+[2025-08-27T02:16:51.703Z] ✅ Page 133 extracted: 1155 characters
+[2025-08-27T02:16:51.704Z] 📖 Page 133 preview: "Informacione i internet tehnologije
+
+može zamisliti kao niz slojeva čiji se indeks refrakcije razl..."
+[2025-08-27T02:16:51.704Z] 📄 Extracting page 134/201...
+[2025-08-27T02:16:51.780Z] ✅ Page 134 extracted: 1314 characters
+[2025-08-27T02:16:51.781Z] 📖 Page 134 preview: "Informacione i internet tehnologije
+
+Očigledno da su, za bežični prenos, potrebne antene na predaj..."
+[2025-08-27T02:16:51.781Z] 📄 Extracting page 135/201...
+[2025-08-27T02:16:51.858Z] ✅ Page 135 extracted: 1813 characters
+[2025-08-27T02:16:51.858Z] 📖 Page 135 preview: "Informacione i internet tehnologije
+
+
+Bel (B)
+Osim kao neimenovan broj (broj bez dimenzije), poj..."
+[2025-08-27T02:16:51.858Z] 📄 Extracting page 136/201...
+[2025-08-27T02:16:51.936Z] ✅ Page 136 extracted: 3681 characters
+[2025-08-27T02:16:51.937Z] 📖 Page 136 preview: "Informacione i internet tehnologije
+
+
+
+4. 3. Standardi bežičnog umrežavanja
+
+Umrežavanje je, k..."
+[2025-08-27T02:16:51.937Z] 📄 Extracting page 137/201...
+[2025-08-27T02:16:52.014Z] ✅ Page 137 extracted: 3670 characters
+[2025-08-27T02:16:52.014Z] 📖 Page 137 preview: "Informacione i internet tehnologije
+
+bežičnih računara i ostatka mreže koja koristi bakarne ili op..."
+[2025-08-27T02:16:52.014Z] 📄 Extracting page 138/201...
+[2025-08-27T02:16:52.091Z] ✅ Page 138 extracted: 3959 characters
+[2025-08-27T02:16:52.091Z] 📖 Page 138 preview: "Informacione i internet tehnologije
+
+Os digitalnih pomoćnika, Pocket PC uređaja, nekih mobilnih te..."
+[2025-08-27T02:16:52.092Z] 📄 Extracting page 139/201...
+[2025-08-27T02:16:52.170Z] ✅ Page 139 extracted: 1538 characters
+[2025-08-27T02:16:52.170Z] 📖 Page 139 preview: "Informacione i internet tehnologije
+
+• IEEE 802. 15. 3 ili UWB (Ultra-WideBand), za personalne mre..."
+[2025-08-27T02:16:52.170Z] 📄 Extracting page 140/201...
+[2025-08-27T02:16:52.245Z] ✅ Page 140 extracted: 3726 characters
+[2025-08-27T02:16:52.246Z] 📖 Page 140 preview: "Informacione i internet tehnologije
+
+4. 4. 1. Bežične lokalne računarske mreže (WiFi)
+
+Sredinom ..."
+[2025-08-27T02:16:52.246Z] 📄 Extracting page 141/201...
+[2025-08-27T02:16:52.322Z] ✅ Page 141 extracted: 2351 characters
+[2025-08-27T02:16:52.323Z] 📖 Page 141 preview: "Informacione i internet tehnologije
+
+• radi osnovnom brzinom od 54 Mb/s ili na 25 Mb/s stvarne pro..."
+[2025-08-27T02:16:52.323Z] 📄 Extracting page 142/201...
+[2025-08-27T02:16:52.400Z] ✅ Page 142 extracted: 3423 characters
+[2025-08-27T02:16:52.400Z] 📖 Page 142 preview: "Informacione i internet tehnologije
+
+• promeniti lozinke koje se podrazumevaju (uobičajena imena i..."
+[2025-08-27T02:16:52.401Z] 📄 Extracting page 143/201...
+[2025-08-27T02:16:52.478Z] ✅ Page 143 extracted: 3687 characters
+[2025-08-27T02:16:52.479Z] 📖 Page 143 preview: "Informacione i internet tehnologije
+
+Pikomreža
+Pikomreža se formira kada dva ili više uređaja pre..."
+[2025-08-27T02:16:52.479Z] 📄 Extracting page 144/201...
+[2025-08-27T02:16:52.555Z] ✅ Page 144 extracted: 2221 characters
+[2025-08-27T02:16:52.555Z] 📖 Page 144 preview: "Informacione i internet tehnologije
+
+WiMax oprema se može primetiti i po tome što se u kući ili ka..."
+[2025-08-27T02:16:52.556Z] 📄 Extracting page 145/201...
+[2025-08-27T02:16:52.633Z] ✅ Page 145 extracted: 2464 characters
+[2025-08-27T02:16:52.633Z] 📖 Page 145 preview: "Informacione i internet tehnologije
+
+WAP i mobilni telefon
+Pored toga, WAP uređaji mogu direktno ..."
+[2025-08-27T02:16:52.634Z] 📄 Extracting page 146/201...
+[2025-08-27T02:16:52.707Z] ✅ Page 146 extracted: 2326 characters
+[2025-08-27T02:16:52.708Z] 📖 Page 146 preview: "Informacione i internet tehnologije
+
+moguća je primena kod radara vrlo visokih rezolucija, u siste..."
+[2025-08-27T02:16:52.708Z] 📄 Extracting page 147/201...
+[2025-08-27T02:16:52.790Z] ✅ Page 147 extracted: 2920 characters
+[2025-08-27T02:16:52.790Z] 📖 Page 147 preview: "Informacione i internet tehnologije
+
+4. 5. 2. LORA
+
+Iako ZigBee i Z-Wave mogu da obezbede domet ..."
+[2025-08-27T02:16:52.791Z] 📄 Extracting page 148/201...
+[2025-08-27T02:16:52.866Z] ✅ Page 148 extracted: 3015 characters
+[2025-08-27T02:16:52.867Z] 📖 Page 148 preview: "Informacione i internet tehnologije
+
+Pogodna je za nadgradnju nedovoljnih kapaciteta fiksne telefo..."
+[2025-08-27T02:16:52.867Z] 📄 Extracting page 149/201...
+[2025-08-27T02:16:52.996Z] ✅ Page 149 extracted: 2674 characters
+[2025-08-27T02:16:52.997Z] 📖 Page 149 preview: "Informacione i internet tehnologije
+
+
+Tabela 4. 6-1. Poređenje karakteristika različitih generaci..."
+[2025-08-27T02:16:52.997Z] 📄 Extracting page 150/201...
+[2025-08-27T02:16:53.083Z] ✅ Page 150 extracted: 1206 characters
+[2025-08-27T02:16:53.083Z] 📖 Page 150 preview: "Informacione i internet tehnologije
+
+
+
+
+Slika 4. 6-1. Klasteri ćelija mobilne telefonije
+
+
+..."
+[2025-08-27T02:16:53.084Z] 📄 Extracting page 151/201...
+[2025-08-27T02:16:53.161Z] ✅ Page 151 extracted: 3179 characters
+[2025-08-27T02:16:53.161Z] 📖 Page 151 preview: "Informacione i internet tehnologije
+
+i dimenzije uređaja, na prijemu i predaji zavise od veličine ..."
+[2025-08-27T02:16:53.162Z] 📄 Extracting page 152/201...
+[2025-08-27T02:16:53.236Z] ✅ Page 152 extracted: 2358 characters
+[2025-08-27T02:16:53.236Z] 📖 Page 152 preview: "Informacione i internet tehnologije
+
+neusmerene antene, većih visina (npr. 6 - 12 m) ili usmerene ..."
+[2025-08-27T02:16:53.236Z] 📄 Extracting page 153/201...
+[2025-08-27T02:16:53.314Z] ✅ Page 153 extracted: 1923 characters
+[2025-08-27T02:16:53.314Z] 📖 Page 153 preview: "Informacione i internet tehnologije
+
+
+
+
+Tabela 4. 7-1. Frekventni opsezi satelitskih komunikaci..."
+[2025-08-27T02:16:53.314Z] 📄 Extracting page 154/201...
+[2025-08-27T02:16:53.389Z] ✅ Page 154 extracted: 2609 characters
+[2025-08-27T02:16:53.390Z] 📖 Page 154 preview: "Informacione i internet tehnologije
+
+
+
+
+Slika 4. 7-3. Satelitske distributivne mreže tipa tačka..."
+[2025-08-27T02:16:53.390Z] 📄 Extracting page 155/201...
+[2025-08-27T02:16:53.464Z] ✅ Page 155 extracted: 2865 characters
+[2025-08-27T02:16:53.464Z] 📖 Page 155 preview: "Informacione i internet tehnologije
+
+
+
+4. 8. Globalni sistem za pozicioniranje (GPS)
+
+Namena G..."
+[2025-08-27T02:16:53.465Z] 📄 Extracting page 156/201...
+[2025-08-27T02:16:53.537Z] ✅ Page 156 extracted: 2084 characters
+[2025-08-27T02:16:53.538Z] 📖 Page 156 preview: "Informacione i internet tehnologije
+
+
+
+
+Slika 4. 8-1. Princip određivanja pozicije pomoću signa..."
+[2025-08-27T02:16:53.538Z] 📄 Extracting page 157/201...
+[2025-08-27T02:16:53.615Z] ✅ Page 157 extracted: 2065 characters
+[2025-08-27T02:16:53.615Z] 📖 Page 157 preview: "Informacione i internet tehnologije
+
+Odlukom Predsednika SAD, od 01. 05. 2000. godine SAD su prest..."
+[2025-08-27T02:16:53.616Z] 📄 Extracting page 158/201...
+[2025-08-27T02:16:53.684Z] ✅ Page 158 extracted: 48 characters
+[2025-08-27T02:16:53.684Z] 📖 Page 158 preview: "Informacione i internet tehnologije
+
+
+
+
+158..."
+[2025-08-27T02:16:53.685Z] 📄 Extracting page 159/201...
+[2025-08-27T02:16:53.766Z] ✅ Page 159 extracted: 3517 characters
+[2025-08-27T02:16:53.766Z] 📖 Page 159 preview: "Informacione i internet tehnologije
+
+
+
+
+5. INFORMACIONE TEHNOLOGIJE I DRUŠTVO
+
+5. 1. Uticaj i..."
+[2025-08-27T02:16:53.767Z] 📄 Extracting page 160/201...
+[2025-08-27T02:16:53.846Z] ✅ Page 160 extracted: 3330 characters
+[2025-08-27T02:16:53.846Z] 📖 Page 160 preview: "Informacione i internet tehnologije
+
+Decembra 1999. godine je lansirana tzv. e-Evropa, kako bi EU ..."
+[2025-08-27T02:16:53.847Z] 📄 Extracting page 161/201...
+[2025-08-27T02:16:53.922Z] ✅ Page 161 extracted: 3740 characters
+[2025-08-27T02:16:53.923Z] 📖 Page 161 preview: "Informacione i internet tehnologije
+
+tržište i da, na primer, koristi svoju kupovnu moć da pomogne..."
+[2025-08-27T02:16:53.923Z] 📄 Extracting page 162/201...
+[2025-08-27T02:16:54.006Z] ✅ Page 162 extracted: 4481 characters
+[2025-08-27T02:16:54.007Z] 📖 Page 162 preview: "Informacione i internet tehnologije
+
+dovodi kablovske TV programe, omogućuje pristup internetu i p..."
+[2025-08-27T02:16:54.007Z] 📄 Extracting page 163/201...
+[2025-08-27T02:16:54.085Z] ✅ Page 163 extracted: 3540 characters
+[2025-08-27T02:16:54.086Z] 📖 Page 163 preview: "Informacione i internet tehnologije
+
+• smanjenje negativnog uticaja na okolinu, smanjenje potrošnj..."
+[2025-08-27T02:16:54.086Z] 📄 Extracting page 164/201...
+[2025-08-27T02:16:54.165Z] ✅ Page 164 extracted: 4107 characters
+[2025-08-27T02:16:54.165Z] 📖 Page 164 preview: "Informacione i internet tehnologije
+
+davne prošlosti kada su se znanja prenosila pričama starih lj..."
+[2025-08-27T02:16:54.166Z] 📄 Extracting page 165/201...
+[2025-08-27T02:16:54.243Z] ✅ Page 165 extracted: 3546 characters
+[2025-08-27T02:16:54.244Z] 📖 Page 165 preview: "Informacione i internet tehnologije
+
+• inteligentni tutorski sistemi,
+• video zapis po zahtevu, a..."
+[2025-08-27T02:16:54.244Z] 📄 Extracting page 166/201...
+[2025-08-27T02:16:54.322Z] ✅ Page 166 extracted: 3271 characters
+[2025-08-27T02:16:54.322Z] 📖 Page 166 preview: "Informacione i internet tehnologije
+
+• smanjenje prostornih i vremenskih ograničenja;
+• ne gubi s..."
+[2025-08-27T02:16:54.323Z] 📄 Extracting page 167/201...
+[2025-08-27T02:16:54.398Z] ✅ Page 167 extracted: 3862 characters
+[2025-08-27T02:16:54.398Z] 📖 Page 167 preview: "Informacione i internet tehnologije
+
+interfejsa i veb interfejsa. Istraživačiu ovoj oblasti su zai..."
+[2025-08-27T02:16:54.399Z] 📄 Extracting page 168/201...
+[2025-08-27T02:16:54.476Z] ✅ Page 168 extracted: 3214 characters
+[2025-08-27T02:16:54.476Z] 📖 Page 168 preview: "Informacione i internet tehnologije
+
+Projektovanje okrenuto korisniku
+User-centered design (UCD) ..."
+[2025-08-27T02:16:54.477Z] 📄 Extracting page 169/201...
+[2025-08-27T02:16:54.551Z] ✅ Page 169 extracted: 2594 characters
+[2025-08-27T02:16:54.551Z] 📖 Page 169 preview: "Informacione i internet tehnologije
+
+Tipovi poruka koji se koriste kod izlaza:
+• prompt – zahtev ..."
+[2025-08-27T02:16:54.552Z] 📄 Extracting page 170/201...
+[2025-08-27T02:16:54.626Z] ✅ Page 170 extracted: 2777 characters
+[2025-08-27T02:16:54.627Z] 📖 Page 170 preview: "Informacione i internet tehnologije
+
+Položaj tela prilikom rada na računaru
+Pravilan položaj tela..."
+[2025-08-27T02:16:54.627Z] 📄 Extracting page 171/201...
+[2025-08-27T02:16:54.703Z] ✅ Page 171 extracted: 2594 characters
+[2025-08-27T02:16:54.703Z] 📖 Page 171 preview: "Informacione i internet tehnologije
+
+RSI poremećaji su trenutno jedan od pet najčešćih povreda na ..."
+[2025-08-27T02:16:54.704Z] 📄 Extracting page 172/201...
+[2025-08-27T02:16:54.776Z] ✅ Page 172 extracted: 2279 characters
+[2025-08-27T02:16:54.777Z] 📖 Page 172 preview: "Informacione i internet tehnologije
+
+
+Bol u leđima
+Muskuloskeletni problemi su danas u najvećoj ..."
+[2025-08-27T02:16:54.777Z] 📄 Extracting page 173/201...
+[2025-08-27T02:16:54.853Z] ✅ Page 173 extracted: 2745 characters
+[2025-08-27T02:16:54.854Z] 📖 Page 173 preview: "Informacione i internet tehnologije
+
+Dehidracija Kada smo za računarom, da li češće pijemo kafu il..."
+[2025-08-27T02:16:54.854Z] 📄 Extracting page 174/201...
+[2025-08-27T02:16:54.930Z] ✅ Page 174 extracted: 3967 characters
+[2025-08-27T02:16:54.931Z] 📖 Page 174 preview: "Informacione i internet tehnologije
+
+– duže vreme ostaju i duševni poremećaji, kao što su strah, n..."
+[2025-08-27T02:16:54.931Z] 📄 Extracting page 175/201...
+[2025-08-27T02:16:55.010Z] ✅ Page 175 extracted: 3960 characters
+[2025-08-27T02:16:55.010Z] 📖 Page 175 preview: "Informacione i internet tehnologije
+
+razgrađuju prirodnim putem čak i decenijama. Bez uvođenja rec..."
+[2025-08-27T02:16:55.011Z] 📄 Extracting page 176/201...
+[2025-08-27T02:16:55.085Z] ✅ Page 176 extracted: 4369 characters
+[2025-08-27T02:16:55.085Z] 📖 Page 176 preview: "Informacione i internet tehnologije
+
+Jedno od mesta gde se „chat“ sve više primenjuje su i onlajn ..."
+[2025-08-27T02:16:55.086Z] 📄 Extracting page 177/201...
+[2025-08-27T02:16:55.162Z] ✅ Page 177 extracted: 3017 characters
+[2025-08-27T02:16:55.163Z] 📖 Page 177 preview: "Informacione i internet tehnologije
+
+
+
+
+Slika 5. 5-6. Deo emotikona iz programa Skype
+
+Razvoj..."
+[2025-08-27T02:16:55.163Z] 📄 Extracting page 178/201...
+[2025-08-27T02:16:55.238Z] ✅ Page 178 extracted: 2181 characters
+[2025-08-27T02:16:55.239Z] 📖 Page 178 preview: "Informacione i internet tehnologije
+
+proširena da uz audio uključii video zapis. Naziv “podcast” j..."
+[2025-08-27T02:16:55.239Z] 📄 Extracting page 179/201...
+[2025-08-27T02:16:55.317Z] ✅ Page 179 extracted: 4445 characters
+[2025-08-27T02:16:55.317Z] 📖 Page 179 preview: "Informacione i internet tehnologije
+
+6. ZAŠTITA I PRAVO
+
+6. 1. Zaštita računara i podataka
+
+Za..."
+[2025-08-27T02:16:55.318Z] 📄 Extracting page 180/201...
+[2025-08-27T02:16:55.397Z] ✅ Page 180 extracted: 3754 characters
+[2025-08-27T02:16:55.397Z] 📖 Page 180 preview: "Informacione i internet tehnologije
+
+Problem zaštite podataka (gubitka, oštećenja, falsifikovanja,..."
+[2025-08-27T02:16:55.397Z] 📄 Extracting page 181/201...
+[2025-08-27T02:16:55.472Z] ✅ Page 181 extracted: 3045 characters
+[2025-08-27T02:16:55.472Z] 📖 Page 181 preview: "Informacione i internet tehnologije
+
+Zaštita od gubitka podataka
+Izrada rezervnih kopija Najbolji..."
+[2025-08-27T02:16:55.473Z] 📄 Extracting page 182/201...
+[2025-08-27T02:16:55.551Z] ✅ Page 182 extracted: 2104 characters
+[2025-08-27T02:16:55.551Z] 📖 Page 182 preview: "Informacione i internet tehnologije
+
+
+Vrste izrade rezervnih kopija. Postoje tri načina pravljenj..."
+[2025-08-27T02:16:55.551Z] 📄 Extracting page 183/201...
+[2025-08-27T02:16:55.630Z] ✅ Page 183 extracted: 4217 characters
+[2025-08-27T02:16:55.630Z] 📖 Page 183 preview: "Informacione i internet tehnologije
+
+
+Virusi
+Definicija virusa Virusi, trojanci, crvi, spyware, ..."
+[2025-08-27T02:16:55.631Z] 📄 Extracting page 184/201...
+[2025-08-27T02:16:55.708Z] ✅ Page 184 extracted: 4257 characters
+[2025-08-27T02:16:55.708Z] 📖 Page 184 preview: "Informacione i internet tehnologije
+
+
+Zaštita od virusa
+Najbolja zaštita od virusa je praćenje t..."
+[2025-08-27T02:16:55.709Z] 📄 Extracting page 185/201...
+[2025-08-27T02:16:55.790Z] ✅ Page 185 extracted: 4643 characters
+[2025-08-27T02:16:55.790Z] 📖 Page 185 preview: "Informacione i internet tehnologije
+
+vezi sa računarom na internetu, na primer sa veb serverom, ve..."
+[2025-08-27T02:16:55.790Z] 📄 Extracting page 186/201...
+[2025-08-27T02:16:55.868Z] ✅ Page 186 extracted: 2069 characters
+[2025-08-27T02:16:55.868Z] 📖 Page 186 preview: "Informacione i internet tehnologije
+
+izlazi van lokalne računarske mreže. Ukoliko se stranica ne n..."
+[2025-08-27T02:16:55.869Z] 📄 Extracting page 187/201...
+[2025-08-27T02:16:55.947Z] ✅ Page 187 extracted: 3435 characters
+[2025-08-27T02:16:55.947Z] 📖 Page 187 preview: "Informacione i internet tehnologije
+
+Principles, World Summit on the Information Society, Internat..."
+[2025-08-27T02:16:55.948Z] 📄 Extracting page 188/201...
+[2025-08-27T02:16:56.024Z] ✅ Page 188 extracted: 3629 characters
+[2025-08-27T02:16:56.024Z] 📖 Page 188 preview: "Informacione i internet tehnologije
+
+• neovlašćeno prisluškivanje i snimanje (član 143),
+• neovla..."
+[2025-08-27T02:16:56.025Z] 📄 Extracting page 189/201...
+[2025-08-27T02:16:56.103Z] ✅ Page 189 extracted: 3908 characters
+[2025-08-27T02:16:56.103Z] 📖 Page 189 preview: "Informacione i internet tehnologije
+
+komisije su pored tržišnih inspektora tog ministartsva i pred..."
+[2025-08-27T02:16:56.104Z] 📄 Extracting page 190/201...
+[2025-08-27T02:16:56.183Z] ✅ Page 190 extracted: 3917 characters
+[2025-08-27T02:16:56.183Z] 📖 Page 190 preview: "Informacione i internet tehnologije
+
+Postoje dve varijante ovog softvera, jedna, koja je već spome..."
+[2025-08-27T02:16:56.183Z] 📄 Extracting page 191/201...
+[2025-08-27T02:16:56.260Z] ✅ Page 191 extracted: 3905 characters
+[2025-08-27T02:16:56.260Z] 📖 Page 191 preview: "Informacione i internet tehnologije
+
+koautorskom delu. Ako je tako ostvareno delo nedeljiva celina..."
+[2025-08-27T02:16:56.261Z] 📄 Extracting page 192/201...
+[2025-08-27T02:16:56.333Z] ✅ Page 192 extracted: 48 characters
+[2025-08-27T02:16:56.333Z] 📖 Page 192 preview: "Informacione i internet tehnologije
+
+
+
+
+192..."
+[2025-08-27T02:16:56.334Z] 📄 Extracting page 193/201...
+[2025-08-27T02:16:56.407Z] ✅ Page 193 extracted: 3286 characters
+[2025-08-27T02:16:56.408Z] 📖 Page 193 preview: "Informacione i internet tehnologije
+
+
+
+
+LITERATURA
+1.  Bigelow J. S.: Računarske mreže: instal..."
+[2025-08-27T02:16:56.409Z] 📄 Extracting page 194/201...
+[2025-08-27T02:16:56.483Z] ✅ Page 194 extracted: 48 characters
+[2025-08-27T02:16:56.483Z] 📖 Page 194 preview: "Informacione i internet tehnologije
+
+
+
+
+194..."
+[2025-08-27T02:16:56.483Z] 📄 Extracting page 195/201...
+[2025-08-27T02:16:56.557Z] ✅ Page 195 extracted: 843 characters
+[2025-08-27T02:16:56.557Z] 📖 Page 195 preview: "Informacione i internet tehnologije
+
+
+PRILOZI
+
+PREFIKSI ZA OZNAČAVANJE VELIKIH I MALIH MERNIH J..."
+[2025-08-27T02:16:56.558Z] 📄 Extracting page 196/201...
+[2025-08-27T02:16:56.628Z] ✅ Page 196 extracted: 48 characters
+[2025-08-27T02:16:56.628Z] 📖 Page 196 preview: "Informacione i internet tehnologije
+
+
+
+
+196..."
+[2025-08-27T02:16:56.629Z] 📄 Extracting page 197/201...
+[2025-08-27T02:16:56.705Z] ✅ Page 197 extracted: 2247 characters
+[2025-08-27T02:16:56.705Z] 📖 Page 197 preview: "Informacione i internet tehnologije
+
+
+
+
+INDEKS
+Brzina rada računara, 66
+Brzina štampe, 59
+. ..."
+[2025-08-27T02:16:56.706Z] 📄 Extracting page 198/201...
+[2025-08-27T02:16:56.784Z] ✅ Page 198 extracted: 2517 characters
+[2025-08-27T02:16:56.784Z] 📖 Page 198 preview: "Informacione i internet tehnologije
+
+DIMM, 41 Frequency-hopping Spread Spectrum, 142
+Dinamički RA..."
+[2025-08-27T02:16:56.784Z] 📄 Extracting page 199/201...
+[2025-08-27T02:16:56.861Z] ✅ Page 199 extracted: 2383 characters
+[2025-08-27T02:16:56.861Z] 📖 Page 199 preview: "Informacione i internet tehnologije
+
+Instant messaging, 114 Memorijska kartica, 48
+Integrated Dev..."
+[2025-08-27T02:16:56.862Z] 📄 Extracting page 200/201...
+[2025-08-27T02:16:56.938Z] ✅ Page 200 extracted: 2361 characters
+[2025-08-27T02:16:56.939Z] 📖 Page 200 preview: "Informacione i internet tehnologije
+
+P Razvodnik, 103
+Really Simple Syndication, 177
+Packet Data..."
+[2025-08-27T02:16:56.939Z] 📄 Extracting page 201/201...
+[2025-08-27T02:16:57.016Z] ✅ Page 201 extracted: 2160 characters
+[2025-08-27T02:16:57.017Z] 📖 Page 201 preview: "Informacione i internet tehnologije
+
+Super High Frequency, 130 Vector Graphics Editor, 82
+Super r..."
+[2025-08-27T02:16:57.020Z] INFO: Text extraction completed: 197 pages processed
+[2025-08-27T02:16:57.049Z] Progress: render - 35% - Rendering PDF pages
+[2025-08-27T02:16:59.709Z] Progress: text - 55% - Saving text files
+[2025-08-27T02:16:59.710Z] INFO: 
+[2025-08-27T02:16:59.710Z] INFO: ------------------------------------------------------------
+[2025-08-27T02:16:59.710Z] INFO: SECTION: DOCUMENT STRUCTURE ANALYSIS
+[2025-08-27T02:16:59.710Z] INFO: ------------------------------------------------------------
+[2025-08-27T02:16:59.710Z] INFO: Progress: sectioning [█████████████-------] 65% - Analyzing complete document structure with AI
+[2025-08-27T02:16:59.736Z] Progress: sectioning - 65% - Analyzing complete document structure with AI
+[2025-08-27T02:16:59.737Z] INFO: Checking for existing TOC analysis in database
+[2025-08-27T02:16:59.764Z] ⚠️ No TOC analysis found, using legacy structure detection
+[2025-08-27T02:16:59.765Z] WARNING: Using legacy fallback structure detection
+[2025-08-27T02:17:01.262Z] 🔄 Using node-poppler for true page-by-page extraction (pages 2 to 4)
+[2025-08-27T02:17:01.269Z] 📁 Created temp PDF file: C:\Users\stefa\AppData\Local\Temp\temp_pdf_1756261021262.pdf
+[2025-08-27T02:17:01.465Z] 📚 PDF has 201 pages, extracting 2 to 4
+[2025-08-27T02:17:01.465Z] 📄 Extracting page 2/4...
+[2025-08-27T02:17:01.561Z] ✅ Page 2 extracted: 4318 characters
+[2025-08-27T02:17:01.561Z] 📖 Page 2 preview: "Informacione i internet tehnologije
+
+
+Sadržaj
+
+
+PREDGOVOR ____________________________________..."
+[2025-08-27T02:17:01.562Z] 📄 Extracting page 3/4...
+[2025-08-27T02:17:01.640Z] ✅ Page 3 extracted: 4364 characters
+[2025-08-27T02:17:01.641Z] 📖 Page 3 preview: "Informacione i internet tehnologije
+
+1. 9. Kućište i napajanje ___________________________________..."
+[2025-08-27T02:17:01.641Z] 📄 Extracting page 4/4...
+[2025-08-27T02:17:01.720Z] ✅ Page 4 extracted: 3118 characters
+[2025-08-27T02:17:01.720Z] 📖 Page 4 preview: "Informacione i internet tehnologije
+
+4. 4. 1. Bežične lokalne računarske mreže (WiFi) ____________..."
+[2025-08-27T02:19:11.043Z] INFO: Using SIMPLE page-based extraction - NO header searching
+[2025-08-27T02:19:11.044Z] 📚 SIMPLIFIED: Processing 118 sections - ONLY by pages, NO header searching
+[2025-08-27T02:19:11.044Z] 📄 SIMPLE: Processing section 1/118: "PREDGOVOR" (pages 5-7)
+[2025-08-27T02:19:11.044Z] 📄 SIMPLE: Extracting section "PREDGOVOR" from pages 5-7
+[2025-08-27T02:19:11.045Z] ✅ SIMPLE: Extracted 8171 chars from 3 pages (5, 6, 7)
+[2025-08-27T02:19:11.045Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+
+PREDGOVOR
+
+Ova skripta je namenjena studentima prve godine studija na Visokoj školi strukovnih studija za
+Informacione tehnologije (Information Technology S..."
+[2025-08-27T02:19:11.046Z] 📊 SIMPLE: Character positions - Start: 0, End: 8171
+[2025-08-27T02:19:11.047Z] ✅ SIMPLE: Extracted 8171 chars from pages 5-7
+[2025-08-27T02:19:11.071Z] 📄 SIMPLE: Processing section 2/118: "UVOD" (pages 7-15)
+[2025-08-27T02:19:11.071Z] 📄 SIMPLE: Extracting section "UVOD" from pages 7-15
+[2025-08-27T02:19:11.071Z] ✅ SIMPLE: Extracted 29001 chars from 9 pages (7, 8, 9, 10, 11, 12, 13, 14, 15)
+[2025-08-27T02:19:11.072Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+
+
+
+UVOD
+
+Pojam informacionih i komunikacionih tehnologija
+
+U naslovu ovog predmeta ključni pojam jeinformacija, pa ćemo prvo objasniti šta se pod njim
+po..."
+[2025-08-27T02:19:11.073Z] 📊 SIMPLE: Character positions - Start: 4773, End: 33774
+[2025-08-27T02:19:11.073Z] ✅ SIMPLE: Extracted 29001 chars from pages 7-15
+[2025-08-27T02:19:11.074Z] 📄 Splitting section "UVOD" (29001 chars) for embedding
+[2025-08-27T02:19:11.074Z] 📄 Split "UVOD" into 4 embedding-safe parts
+[2025-08-27T02:19:11.075Z] 📄 Split section "UVOD" into 4 parts for embedding
+[2025-08-27T02:19:11.101Z] 📄 SIMPLE: Processing section 3/118: "1. HARDVER" (pages 15-71)
+[2025-08-27T02:19:11.101Z] 📄 SIMPLE: Extracting section "1. HARDVER" from pages 15-71
+[2025-08-27T02:19:11.102Z] ✅ SIMPLE: Extracted 153300 chars from 57 pages (15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71)
+[2025-08-27T02:19:11.102Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+
+
+
+1. HARDVER
+
+1. 1. Pojam i klasifikacija računara i hardvera
+
+
+Iz uvoda se može zaključiti da je u osnovi primene savremenih informacionih tehnologija ..."
+[2025-08-27T02:19:11.103Z] 📊 SIMPLE: Character positions - Start: 31992, End: 185292
+[2025-08-27T02:19:11.103Z] ✅ SIMPLE: Extracted 153300 chars from pages 15-71
+[2025-08-27T02:19:11.103Z] 📄 Splitting section "1. HARDVER" (153300 chars) for embedding
+[2025-08-27T02:19:11.104Z] 📄 Split "1. HARDVER" into 18 embedding-safe parts
+[2025-08-27T02:19:11.104Z] 📄 Split section "1. HARDVER" into 18 parts for embedding
+[2025-08-27T02:19:11.127Z] 📄 SIMPLE: Processing section 4/118: "1. 1. Pojam i klasifikacija računara i hardvera" (pages 15-16)
+[2025-08-27T02:19:11.128Z] 📄 SIMPLE: Extracting section "1. 1. Pojam i klasifikacija računara i hardvera" from pages 15-16
+[2025-08-27T02:19:11.129Z] ✅ SIMPLE: Extracted 4467 chars from 2 pages (15, 16)
+[2025-08-27T02:19:11.129Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+
+
+
+1. HARDVER
+
+1. 1. Pojam i klasifikacija računara i hardvera
+
+
+Iz uvoda se može zaključiti da je u osnovi primene savremenih informacionih tehnologija ..."
+[2025-08-27T02:19:11.130Z] 📊 SIMPLE: Character positions - Start: 31992, End: 36459
+[2025-08-27T02:19:11.131Z] ✅ SIMPLE: Extracted 4467 chars from pages 15-16
+[2025-08-27T02:19:11.154Z] 📄 SIMPLE: Processing section 5/118: "1. 1. 1. Klasifikacija računara" (pages 16-17)
+[2025-08-27T02:19:11.154Z] 📄 SIMPLE: Extracting section "1. 1. 1. Klasifikacija računara" from pages 16-17
+[2025-08-27T02:19:11.155Z] ✅ SIMPLE: Extracted 6989 chars from 2 pages (16, 17)
+[2025-08-27T02:19:11.156Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+Šta je hardver?
+Pod hardverom (hardware) se podrazumevaju fizički opipljivi delovi računara. Prema tome centralni
+procesor, operativna memorija, eksterna memor..."
+[2025-08-27T02:19:11.156Z] 📊 SIMPLE: Character positions - Start: 33776, End: 40765
+[2025-08-27T02:19:11.156Z] ✅ SIMPLE: Extracted 6989 chars from pages 16-17
+[2025-08-27T02:19:11.179Z] 📄 SIMPLE: Processing section 6/118: "1. 1. 2. Prenosni računari" (pages 17-19)
+[2025-08-27T02:19:11.179Z] 📄 SIMPLE: Extracting section "1. 1. 2. Prenosni računari" from pages 17-19
+[2025-08-27T02:19:11.180Z] ✅ SIMPLE: Extracted 10856 chars from 3 pages (17, 18, 19)
+[2025-08-27T02:19:11.180Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+Mikroračunari (Microcomputers), koji su danas mnogo poznatiji pod nazivom personalni računari
+(Personal Computer, PC) su danas najzastupljenija, pa i najjeftini..."
+[2025-08-27T02:19:11.180Z] 📊 SIMPLE: Character positions - Start: 36461, End: 47317
+[2025-08-27T02:19:11.181Z] ✅ SIMPLE: Extracted 10856 chars from pages 17-19
+[2025-08-27T02:19:11.181Z] 📄 Splitting section "1. 1. 2. Prenosni računari" (10856 chars) for embedding
+[2025-08-27T02:19:11.182Z] 📄 Split "1. 1. 2. Prenosni računari" into 2 embedding-safe parts
+[2025-08-27T02:19:11.182Z] 📄 Split section "1. 1. 2. Prenosni računari" into 2 parts for embedding
+[2025-08-27T02:19:11.206Z] 📄 SIMPLE: Processing section 7/118: "1. 1. 3. Mobilni računarski uređaji" (pages 19-21)
+[2025-08-27T02:19:11.206Z] 📄 SIMPLE: Extracting section "1. 1. 3. Mobilni računarski uređaji" from pages 19-21
+[2025-08-27T02:19:11.207Z] ✅ SIMPLE: Extracted 5598 chars from 3 pages (19, 20, 21)
+[2025-08-27T02:19:11.207Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+Tablet PC
+Tablet PC predstavlja prenosni računar malih dimenzija, opremljen sa ekranom sa dodirnom
+maskom (touchscreen) za rad pomoću digitalne olovke, umesto ..."
+[2025-08-27T02:19:11.207Z] 📊 SIMPLE: Character positions - Start: 44234, End: 49832
+[2025-08-27T02:19:11.208Z] ✅ SIMPLE: Extracted 5598 chars from pages 19-21
+[2025-08-27T02:19:11.232Z] 📄 SIMPLE: Processing section 8/118: "1. 1. 4. Inovacije u korišćenju hardvera" (pages 21-22)
+[2025-08-27T02:19:11.232Z] 📄 SIMPLE: Extracting section "1. 1. 4. Inovacije u korišćenju hardvera" from pages 21-22
+[2025-08-27T02:19:11.233Z] ✅ SIMPLE: Extracted 5111 chars from 2 pages (21, 22)
+[2025-08-27T02:19:11.233Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+windows media audio (wma) i dr.), pregled slika (jpg, png, gif i dr.), i video reprodukcija (mpeg4, windows
+media video (wmv), avi i dr.). Na slici 1. 1-8je pri..."
+[2025-08-27T02:19:11.233Z] 📊 SIMPLE: Character positions - Start: 48298, End: 53409
+[2025-08-27T02:19:11.234Z] ✅ SIMPLE: Extracted 5111 chars from pages 21-22
+[2025-08-27T02:19:11.256Z] 📄 SIMPLE: Processing section 9/118: "1. 1. 5. Računarstvo u oblaku" (pages 22-23)
+[2025-08-27T02:19:11.256Z] 📄 SIMPLE: Extracting section "1. 1. 5. Računarstvo u oblaku" from pages 22-23
+[2025-08-27T02:19:11.257Z] ✅ SIMPLE: Extracted 5783 chars from 2 pages (22, 23)
+[2025-08-27T02:19:11.257Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+Grid računarstvo spaja neiskorišćene resurse procesiranja geografski udaljenih računara u
+jedinstvenu mrežui tako formiraju virtuelni superračunar.
+Kod uslužno..."
+[2025-08-27T02:19:11.257Z] 📊 SIMPLE: Character positions - Start: 49834, End: 55617
+[2025-08-27T02:19:11.257Z] ✅ SIMPLE: Extracted 5783 chars from pages 22-23
+[2025-08-27T02:19:11.282Z] 📄 SIMPLE: Processing section 10/118: "1. 2. Matična ploča" (pages 23-25)
+[2025-08-27T02:19:11.282Z] 📄 SIMPLE: Extracting section "1. 2. Matična ploča" from pages 23-25
+[2025-08-27T02:19:11.282Z] ✅ SIMPLE: Extracted 7509 chars from 3 pages (23, 24, 25)
+[2025-08-27T02:19:11.283Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+Zajednički oblak Oblak koji deli nekoliko organizacija. Infrastruktura podržava posebne zajednice
+koje imaju zajedničke potrebe, misije, zahteve sigurnosti i sl..."
+[2025-08-27T02:19:11.283Z] 📊 SIMPLE: Character positions - Start: 53411, End: 60920
+[2025-08-27T02:19:11.283Z] ✅ SIMPLE: Extracted 7509 chars from pages 23-25
+[2025-08-27T02:19:11.306Z] 📄 SIMPLE: Processing section 11/118: "1. 2. 1. Slotovi, podnožja i priključci" (pages 25-25)
+[2025-08-27T02:19:11.306Z] 📄 SIMPLE: Extracting section "1. 2. 1. Slotovi, podnožja i priključci" from pages 25-25
+[2025-08-27T02:19:11.307Z] ✅ SIMPLE: Extracted 3907 chars from 1 pages (25)
+[2025-08-27T02:19:11.307Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+1. 2. 1. Slotovi, podnožja i priključci
+
+Svaka matična ploča sadrži određen broj ležišta odnosno proreza (engl. slot), u koje se stavljaju
+elementi, kao što s..."
+[2025-08-27T02:19:11.307Z] 📊 SIMPLE: Character positions - Start: 57013, End: 60920
+[2025-08-27T02:19:11.308Z] ✅ SIMPLE: Extracted 3907 chars from pages 25-25
+[2025-08-27T02:19:11.334Z] 📄 SIMPLE: Processing section 12/118: "1. 2. 2. Magistrale" (pages 25-26)
+[2025-08-27T02:19:11.334Z] 📄 SIMPLE: Extracting section "1. 2. 2. Magistrale" from pages 25-26
+[2025-08-27T02:19:11.334Z] ✅ SIMPLE: Extracted 7505 chars from 2 pages (25, 26)
+[2025-08-27T02:19:11.334Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+1. 2. 1. Slotovi, podnožja i priključci
+
+Svaka matična ploča sadrži određen broj ležišta odnosno proreza (engl. slot), u koje se stavljaju
+elementi, kao što s..."
+[2025-08-27T02:19:11.335Z] 📊 SIMPLE: Character positions - Start: 57013, End: 64518
+[2025-08-27T02:19:11.335Z] ✅ SIMPLE: Extracted 7505 chars from pages 25-26
+[2025-08-27T02:19:11.359Z] 📄 SIMPLE: Processing section 13/118: "1. 2. 3. Integrisane i neintegrisane matične ploče" (pages 26-26)
+[2025-08-27T02:19:11.359Z] 📄 SIMPLE: Extracting section "1. 2. 3. Integrisane i neintegrisane matične ploče" from pages 26-26
+[2025-08-27T02:19:11.360Z] ✅ SIMPLE: Extracted 3596 chars from 1 pages (26)
+[2025-08-27T02:19:11.360Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+Procesor kada želi da pročita nešto iz memorije, mora da zna adresu na kojoj se nalazi sadržaj koji
+želi da pročita, a ta adresa se postavlja na adresnu magistr..."
+[2025-08-27T02:19:11.361Z] 📊 SIMPLE: Character positions - Start: 60922, End: 64518
+[2025-08-27T02:19:11.361Z] ✅ SIMPLE: Extracted 3596 chars from pages 26-26
+[2025-08-27T02:19:11.384Z] 📄 SIMPLE: Processing section 14/118: "1. 2. 4. Izbor matične ploče" (pages 26-26)
+[2025-08-27T02:19:11.384Z] 📄 SIMPLE: Extracting section "1. 2. 4. Izbor matične ploče" from pages 26-26
+[2025-08-27T02:19:11.385Z] ✅ SIMPLE: Extracted 3596 chars from 1 pages (26)
+[2025-08-27T02:19:11.385Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+Procesor kada želi da pročita nešto iz memorije, mora da zna adresu na kojoj se nalazi sadržaj koji
+želi da pročita, a ta adresa se postavlja na adresnu magistr..."
+[2025-08-27T02:19:11.385Z] 📊 SIMPLE: Character positions - Start: 60922, End: 64518
+[2025-08-27T02:19:11.386Z] ✅ SIMPLE: Extracted 3596 chars from pages 26-26
+[2025-08-27T02:19:11.409Z] 📄 SIMPLE: Processing section 15/118: "1. 3. Procesor" (pages 26-28)
+[2025-08-27T02:19:11.409Z] 📄 SIMPLE: Extracting section "1. 3. Procesor" from pages 26-28
+[2025-08-27T02:19:11.410Z] ✅ SIMPLE: Extracted 9053 chars from 3 pages (26, 27, 28)
+[2025-08-27T02:19:11.410Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+Procesor kada želi da pročita nešto iz memorije, mora da zna adresu na kojoj se nalazi sadržaj koji
+želi da pročita, a ta adresa se postavlja na adresnu magistr..."
+[2025-08-27T02:19:11.411Z] 📊 SIMPLE: Character positions - Start: 60922, End: 69975
+[2025-08-27T02:19:11.411Z] ✅ SIMPLE: Extracted 9053 chars from pages 26-28
+[2025-08-27T02:19:11.434Z] 📄 SIMPLE: Processing section 16/118: "1. 3. 1. Brzina procesora" (pages 28-29)
+[2025-08-27T02:19:11.434Z] 📄 SIMPLE: Extracting section "1. 3. 1. Brzina procesora" from pages 28-29
+[2025-08-27T02:19:11.435Z] ✅ SIMPLE: Extracted 6496 chars from 2 pages (28, 29)
+[2025-08-27T02:19:11.435Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+• ultra veliki (Ultra Large) preko 100000 komponenata.
+
+Struktura i princip rada mikroprocesora
+Mikroprocesor se sastoji od:
+• aritmetičko-logičke jedinice (..."
+[2025-08-27T02:19:11.436Z] 📊 SIMPLE: Character positions - Start: 66005, End: 72501
+[2025-08-27T02:19:11.436Z] ✅ SIMPLE: Extracted 6496 chars from pages 28-29
+[2025-08-27T02:19:11.460Z] 📄 SIMPLE: Processing section 17/118: "1. 3. 2. Murov zakon" (pages 29-30)
+[2025-08-27T02:19:11.460Z] 📄 SIMPLE: Extracting section "1. 3. 2. Murov zakon" from pages 29-30
+[2025-08-27T02:19:11.461Z] ✅ SIMPLE: Extracted 3829 chars from 2 pages (29, 30)
+[2025-08-27T02:19:11.461Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+1978. godine, imao 29 hiljada tranzistora, dok Intel-ov procesor Core 2 Yorkfield, koji se pojavio 2007.
+godine, ima čak 820 miliona tranizistora, sa 2x6 MB keš..."
+[2025-08-27T02:19:11.461Z] 📊 SIMPLE: Character positions - Start: 69977, End: 73806
+[2025-08-27T02:19:11.462Z] ✅ SIMPLE: Extracted 3829 chars from pages 29-30
+[2025-08-27T02:19:11.485Z] 📄 SIMPLE: Processing section 18/118: "1. 3. 3. Modeli i proizvođači procesora" (pages 30-31)
+[2025-08-27T02:19:11.485Z] 📄 SIMPLE: Extracting section "1. 3. 3. Modeli i proizvođači procesora" from pages 30-31
+[2025-08-27T02:19:11.486Z] ✅ SIMPLE: Extracted 3706 chars from 2 pages (30, 31)
+[2025-08-27T02:19:11.486Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+atomskom nivou. Po pitanju veličine tranzistora, približavanje veličini atoma je fundamentalna barijera,
+koja će po procenama biti dostignuta za 10 do 20 godina..."
+[2025-08-27T02:19:11.486Z] 📊 SIMPLE: Character positions - Start: 72503, End: 76209
+[2025-08-27T02:19:11.486Z] ✅ SIMPLE: Extracted 3706 chars from pages 30-31
+[2025-08-27T02:19:11.510Z] 📄 SIMPLE: Processing section 19/118: "1. 3. 4. Hlađenje mikroprocesora i računara" (pages 31-32)
+[2025-08-27T02:19:11.511Z] 📄 SIMPLE: Extracting section "1. 3. 4. Hlađenje mikroprocesora i računara" from pages 31-32
+[2025-08-27T02:19:11.511Z] ✅ SIMPLE: Extracted 4526 chars from 2 pages (31, 32)
+[2025-08-27T02:19:11.512Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+Višejezgreni procesori su procesorski sistemi koji se sastoje od dva ili više nezavisnih jezgara. Dual-
+core procesori sadrže dva jezgra, dok quad-core procesor..."
+[2025-08-27T02:19:11.512Z] 📊 SIMPLE: Character positions - Start: 73808, End: 78334
+[2025-08-27T02:19:11.512Z] ✅ SIMPLE: Extracted 4526 chars from pages 31-32
+[2025-08-27T02:19:11.535Z] 📄 SIMPLE: Processing section 20/118: "1. 3. 5. Binarni brojni sistemi" (pages 32-34)
+[2025-08-27T02:19:11.535Z] 📄 SIMPLE: Extracting section "1. 3. 5. Binarni brojni sistemi" from pages 32-34
+[2025-08-27T02:19:11.536Z] ✅ SIMPLE: Extracted 7853 chars from 3 pages (32, 33, 34)
+[2025-08-27T02:19:11.536Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+Takođe se dosta greju i elementi koji su deo izvora napajanja u računaru, pa je potrebno i njihovo
+hlađenje.
+Na svakom mikroprocesoru postoji hladnjak (engl. C..."
+[2025-08-27T02:19:11.536Z] 📊 SIMPLE: Character positions - Start: 76211, End: 84064
+[2025-08-27T02:19:11.537Z] ✅ SIMPLE: Extracted 7853 chars from pages 32-34
+[2025-08-27T02:19:11.560Z] 📄 SIMPLE: Processing section 21/118: "1. 3. 6. Heksadecimalni brojni system" (pages 34-35)
+[2025-08-27T02:19:11.561Z] 📄 SIMPLE: Extracting section "1. 3. 6. Heksadecimalni brojni system" from pages 34-35
+[2025-08-27T02:19:11.561Z] ✅ SIMPLE: Extracted 7035 chars from 2 pages (34, 35)
+[2025-08-27T02:19:11.561Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+LSB i MSB
+U binarnom broju, na primer 1101, krajnji desni bit ima najmanju težinsku vrednost, odnosno to je
+bit najmanje vrednosti, ili najmanje značajan bit (..."
+[2025-08-27T02:19:11.562Z] 📊 SIMPLE: Character positions - Start: 80495, End: 87530
+[2025-08-27T02:19:11.562Z] ✅ SIMPLE: Extracted 7035 chars from pages 34-35
+[2025-08-27T02:19:11.587Z] 📄 SIMPLE: Processing section 22/118: "1. 4. Memorija" (pages 35-35)
+[2025-08-27T02:19:11.588Z] 📄 SIMPLE: Extracting section "1. 4. Memorija" from pages 35-35
+[2025-08-27T02:19:11.588Z] ✅ SIMPLE: Extracted 3464 chars from 1 pages (35)
+[2025-08-27T02:19:11.588Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+
+
+1. 4. Memorija
+
+Treća najznačajnija komponenta računara uz matičnu pločui procesor je memorija. Računarsko
+memorisanje ili smeštanje podataka odnosi se na..."
+[2025-08-27T02:19:11.589Z] 📊 SIMPLE: Character positions - Start: 84066, End: 87530
+[2025-08-27T02:19:11.589Z] ✅ SIMPLE: Extracted 3464 chars from pages 35-35
+[2025-08-27T02:19:11.612Z] 📄 SIMPLE: Processing section 23/118: "1. 4. 1. Klasifikacije memorija" (pages 35-36)
+[2025-08-27T02:19:11.612Z] 📄 SIMPLE: Extracting section "1. 4. 1. Klasifikacije memorija" from pages 35-36
+[2025-08-27T02:19:11.613Z] ✅ SIMPLE: Extracted 7178 chars from 2 pages (35, 36)
+[2025-08-27T02:19:11.613Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+
+
+1. 4. Memorija
+
+Treća najznačajnija komponenta računara uz matičnu pločui procesor je memorija. Računarsko
+memorisanje ili smeštanje podataka odnosi se na..."
+[2025-08-27T02:19:11.614Z] 📊 SIMPLE: Character positions - Start: 84066, End: 91244
+[2025-08-27T02:19:11.615Z] ✅ SIMPLE: Extracted 7178 chars from pages 35-36
+[2025-08-27T02:19:11.638Z] 📄 SIMPLE: Processing section 24/118: "1. 4. 2. Kapacitet memorije" (pages 36-38)
+[2025-08-27T02:19:11.638Z] 📄 SIMPLE: Extracting section "1. 4. 2. Kapacitet memorije" from pages 36-38
+[2025-08-27T02:19:11.639Z] ✅ SIMPLE: Extracted 9136 chars from 3 pages (36, 37, 38)
+[2025-08-27T02:19:11.639Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+
+
+
+(3) Optičke medije
+a. CD (Compact Disk) - prva generacija optičkih uređaja za skladištenje podataka predstavljena
+je CD ROM-om (Compact Disc Read Only Me..."
+[2025-08-27T02:19:11.640Z] 📊 SIMPLE: Character positions - Start: 87532, End: 96668
+[2025-08-27T02:19:11.640Z] ✅ SIMPLE: Extracted 9136 chars from pages 36-38
+[2025-08-27T02:19:11.665Z] 📄 SIMPLE: Processing section 25/118: "1. 4. 3. Radna memorija" (pages 38-42)
+[2025-08-27T02:19:11.666Z] 📄 SIMPLE: Extracting section "1. 4. 3. Radna memorija" from pages 38-42
+[2025-08-27T02:19:11.666Z] ✅ SIMPLE: Extracted 12206 chars from 5 pages (38, 39, 40, 41, 42)
+[2025-08-27T02:19:11.666Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+radne memorije se gubi pri svakom isljučenju računara, te često snimanje na hard disk tokom rada
+predstavlja dobru praksu.
+
+
+
+Veća
+brzina
+
+
+
+
+Manja
+c..."
+[2025-08-27T02:19:11.667Z] 📊 SIMPLE: Character positions - Start: 94933, End: 107139
+[2025-08-27T02:19:11.668Z] ✅ SIMPLE: Extracted 12206 chars from pages 38-42
+[2025-08-27T02:19:11.668Z] 📄 Splitting section "1. 4. 3. Radna memorija" (12206 chars) for embedding
+[2025-08-27T02:19:11.668Z] 📄 Split "1. 4. 3. Radna memorija" into 2 embedding-safe parts
+[2025-08-27T02:19:11.669Z] 📄 Split section "1. 4. 3. Radna memorija" into 2 parts for embedding
+[2025-08-27T02:19:11.692Z] 📄 SIMPLE: Processing section 26/118: "1. 4. 4. Diskovi" (pages 42-44)
+[2025-08-27T02:19:11.693Z] 📄 SIMPLE: Extracting section "1. 4. 4. Diskovi" from pages 42-44
+[2025-08-27T02:19:11.693Z] ✅ SIMPLE: Extracted 9563 chars from 3 pages (42, 43, 44)
+[2025-08-27T02:19:11.694Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+
+
+
+1. 4. 4. Diskovi
+
+Hard disk, u oznaci HDD (Hard Disk Drive), naziva se jošičvrsti disk, tvrdi disk, predstavlja trajnu,
+spoljašnju ili eksternu memoriju..."
+[2025-08-27T02:19:11.694Z] 📊 SIMPLE: Character positions - Start: 104314, End: 113877
+[2025-08-27T02:19:11.695Z] ✅ SIMPLE: Extracted 9563 chars from pages 42-44
+[2025-08-27T02:19:11.717Z] 📄 SIMPLE: Processing section 27/118: "1. 4. 5. Optički mediji" (pages 44-47)
+[2025-08-27T02:19:11.718Z] 📄 SIMPLE: Extracting section "1. 4. 5. Optički mediji" from pages 44-47
+[2025-08-27T02:19:11.718Z] ✅ SIMPLE: Extracted 9839 chars from 4 pages (44, 45, 46, 47)
+[2025-08-27T02:19:11.718Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+
+Solid State Drive (SSD)
+Razvijaju se nove tehnologije koje treba da povećaju gustinu pakovanja podataka i izbore se sa
+potencijalnom konkurencijom - flash dr..."
+[2025-08-27T02:19:11.719Z] 📊 SIMPLE: Character positions - Start: 110513, End: 120352
+[2025-08-27T02:19:11.719Z] ✅ SIMPLE: Extracted 9839 chars from pages 44-47
+[2025-08-27T02:19:11.742Z] 📄 SIMPLE: Processing section 28/118: "1. 4. 6. Fleš memorije" (pages 47-48)
+[2025-08-27T02:19:11.743Z] 📄 SIMPLE: Extracting section "1. 4. 6. Fleš memorije" from pages 47-48
+[2025-08-27T02:19:11.743Z] ✅ SIMPLE: Extracted 3063 chars from 2 pages (47, 48)
+[2025-08-27T02:19:11.744Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+
+
+
+Slika 1. 4-9. Uvećani izgled jamice na DVD disku
+
+
+
+
+Slika 1. 4-10. Gustina smeštanja jamica na DVD i CD mediju
+
+Tokom nekoliko godina trajalo je ve..."
+[2025-08-27T02:19:11.745Z] 📊 SIMPLE: Character positions - Start: 118830, End: 121893
+[2025-08-27T02:19:11.745Z] ✅ SIMPLE: Extracted 3063 chars from pages 47-48
+[2025-08-27T02:19:11.768Z] 📄 SIMPLE: Processing section 29/118: "1. 5. Grafički sistem" (pages 48-48)
+[2025-08-27T02:19:11.768Z] 📄 SIMPLE: Extracting section "1. 5. Grafički sistem" from pages 48-48
+[2025-08-27T02:19:11.768Z] ✅ SIMPLE: Extracted 1539 chars from 1 pages (48)
+[2025-08-27T02:19:11.769Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+
+4× 144 18 23 45
+6× 216 27 15 30
+8× 288 36 12 23
+12× 432 54 8 15
+
+
+
+
+Slika 1. 4-11. Primer Blu-ray uređaja
+
+Memorijske kartice
+Memorijska kartica (me..."
+[2025-08-27T02:19:11.770Z] 📊 SIMPLE: Character positions - Start: 120354, End: 121893
+[2025-08-27T02:19:11.770Z] ✅ SIMPLE: Extracted 1539 chars from pages 48-48
+[2025-08-27T02:19:11.793Z] 📄 SIMPLE: Processing section 30/118: "1. 5. 1. Grafička kartica" (pages 48-50)
+[2025-08-27T02:19:11.794Z] 📄 SIMPLE: Extracting section "1. 5. 1. Grafička kartica" from pages 48-50
+[2025-08-27T02:19:11.795Z] ✅ SIMPLE: Extracted 5982 chars from 3 pages (48, 49, 50)
+[2025-08-27T02:19:11.795Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+
+4× 144 18 23 45
+6× 216 27 15 30
+8× 288 36 12 23
+12× 432 54 8 15
+
+
+
+
+Slika 1. 4-11. Primer Blu-ray uređaja
+
+Memorijske kartice
+Memorijska kartica (me..."
+[2025-08-27T02:19:11.796Z] 📊 SIMPLE: Character positions - Start: 120354, End: 126336
+[2025-08-27T02:19:11.797Z] ✅ SIMPLE: Extracted 5982 chars from pages 48-50
+[2025-08-27T02:19:11.819Z] 📄 SIMPLE: Processing section 31/118: "1. 5. 2. TV i satelitske kartice" (pages 50-51)
+[2025-08-27T02:19:11.820Z] 📄 SIMPLE: Extracting section "1. 5. 2. TV i satelitske kartice" from pages 50-51
+[2025-08-27T02:19:11.820Z] ✅ SIMPLE: Extracted 5832 chars from 2 pages (50, 51)
+[2025-08-27T02:19:11.820Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+1. 5. 2. TV i satelitske kartice
+
+
+TV kartica
+Nekada su postojale TV kartice, koje su omogućavale upotrebu monitora kućnog PC računara kao
+TV prijemnika. TV..."
+[2025-08-27T02:19:11.821Z] 📊 SIMPLE: Character positions - Start: 125001, End: 130833
+[2025-08-27T02:19:11.821Z] ✅ SIMPLE: Extracted 5832 chars from pages 50-51
+[2025-08-27T02:19:11.844Z] 📄 SIMPLE: Processing section 32/118: "1. 5. 3. Monitori" (pages 51-53)
+[2025-08-27T02:19:11.845Z] 📄 SIMPLE: Extracting section "1. 5. 3. Monitori" from pages 51-53
+[2025-08-27T02:19:11.845Z] ✅ SIMPLE: Extracted 9376 chars from 3 pages (51, 52, 53)
+[2025-08-27T02:19:11.845Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+1. 5. 3. Monitori
+
+Monitor predstavlja osnovni uređaj na kome se prikazuju obrađivani podaci, i radi u tesnoj sprezi sa
+grafičkom karticom. Postoje, uglavnom,..."
+[2025-08-27T02:19:11.845Z] 📊 SIMPLE: Character positions - Start: 126338, End: 135714
+[2025-08-27T02:19:11.846Z] ✅ SIMPLE: Extracted 9376 chars from pages 51-53
+[2025-08-27T02:19:11.868Z] 📄 SIMPLE: Processing section 33/118: "1. 6. Komponente za zvuk" (pages 53-53)
+[2025-08-27T02:19:11.869Z] 📄 SIMPLE: Extracting section "1. 6. Komponente za zvuk" from pages 53-53
+[2025-08-27T02:19:11.869Z] ✅ SIMPLE: Extracted 2613 chars from 1 pages (53)
+[2025-08-27T02:19:11.869Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+definiciji predstavlja broj piksela po jedinici površine. Na primer, rezolucija 1024x768 predstavlja sliku
+široku 1024 i visoku 768 piksela.
+Veličina ekrana (S..."
+[2025-08-27T02:19:11.870Z] 📊 SIMPLE: Character positions - Start: 133101, End: 135714
+[2025-08-27T02:19:11.870Z] ✅ SIMPLE: Extracted 2613 chars from pages 53-53
+[2025-08-27T02:19:11.893Z] 📄 SIMPLE: Processing section 34/118: "1. 6. 1. Zvučna kartica" (pages 53-54)
+[2025-08-27T02:19:11.894Z] 📄 SIMPLE: Extracting section "1. 6. 1. Zvučna kartica" from pages 53-54
+[2025-08-27T02:19:11.894Z] ✅ SIMPLE: Extracted 4767 chars from 2 pages (53, 54)
+[2025-08-27T02:19:11.894Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+definiciji predstavlja broj piksela po jedinici površine. Na primer, rezolucija 1024x768 predstavlja sliku
+široku 1024 i visoku 768 piksela.
+Veličina ekrana (S..."
+[2025-08-27T02:19:11.895Z] 📊 SIMPLE: Character positions - Start: 133101, End: 137868
+[2025-08-27T02:19:11.895Z] ✅ SIMPLE: Extracted 4767 chars from pages 53-54
+[2025-08-27T02:19:11.918Z] 📄 SIMPLE: Processing section 35/118: "1. 6. 2. Zvučnici" (pages 54-54)
+[2025-08-27T02:19:11.918Z] 📄 SIMPLE: Extracting section "1. 6. 2. Zvučnici" from pages 54-54
+[2025-08-27T02:19:11.919Z] ✅ SIMPLE: Extracted 2152 chars from 1 pages (54)
+[2025-08-27T02:19:11.919Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+neintegrisanu zvučnu karticu, dok je za jednostavnije potrebe dovoljna i integrisana zvučna kartica. Danas
+veliki broj matičnih ploča imaju integrisanu zvučnu k..."
+[2025-08-27T02:19:11.919Z] 📊 SIMPLE: Character positions - Start: 135716, End: 137868
+[2025-08-27T02:19:11.920Z] ✅ SIMPLE: Extracted 2152 chars from pages 54-54
+[2025-08-27T02:19:11.943Z] 📄 SIMPLE: Processing section 36/118: "1. 7. Periferni uređaji" (pages 54-55)
+[2025-08-27T02:19:11.944Z] 📄 SIMPLE: Extracting section "1. 7. Periferni uređaji" from pages 54-55
+[2025-08-27T02:19:11.944Z] ✅ SIMPLE: Extracted 4789 chars from 2 pages (54, 55)
+[2025-08-27T02:19:11.944Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+neintegrisanu zvučnu karticu, dok je za jednostavnije potrebe dovoljna i integrisana zvučna kartica. Danas
+veliki broj matičnih ploča imaju integrisanu zvučnu k..."
+[2025-08-27T02:19:11.945Z] 📊 SIMPLE: Character positions - Start: 135716, End: 140505
+[2025-08-27T02:19:11.945Z] ✅ SIMPLE: Extracted 4789 chars from pages 54-55
+[2025-08-27T02:19:11.968Z] 📄 SIMPLE: Processing section 37/118: "1. 7. 1. Ulazni uređaji" (pages 55-59)
+[2025-08-27T02:19:11.968Z] 📄 SIMPLE: Extracting section "1. 7. 1. Ulazni uređaji" from pages 55-59
+[2025-08-27T02:19:11.968Z] ✅ SIMPLE: Extracted 12771 chars from 5 pages (55, 56, 57, 58, 59)
+[2025-08-27T02:19:11.969Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+•  tastatura,
+•  miš,
+•  skener,
+•  mikrofon,
+•  senzorska pločica (touch pad),
+•  svetlosna olovka (light pen),
+•  kotrljajuća lopta (tracker ball),
+•  d..."
+[2025-08-27T02:19:11.969Z] 📊 SIMPLE: Character positions - Start: 137870, End: 150641
+[2025-08-27T02:19:11.970Z] ✅ SIMPLE: Extracted 12771 chars from pages 55-59
+[2025-08-27T02:19:11.970Z] 📄 Splitting section "1. 7. 1. Ulazni uređaji" (12771 chars) for embedding
+[2025-08-27T02:19:11.970Z] 📄 Split "1. 7. 1. Ulazni uređaji" into 2 embedding-safe parts
+[2025-08-27T02:19:11.971Z] 📄 Split section "1. 7. 1. Ulazni uređaji" into 2 parts for embedding
+[2025-08-27T02:19:11.994Z] 📄 SIMPLE: Processing section 38/118: "1. 7. 2. Izlazni uređaji" (pages 59-61)
+[2025-08-27T02:19:11.995Z] 📄 SIMPLE: Extracting section "1. 7. 2. Izlazni uređaji" from pages 59-61
+[2025-08-27T02:19:11.995Z] ✅ SIMPLE: Extracted 8119 chars from 3 pages (59, 60, 61)
+[2025-08-27T02:19:11.995Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+megapiksela, dok će slika od 3872x2592 imati 10036224 piksela, ili približno 10 megapiksela. Većina foto
+aparata poseduje softver koji omogućava direktan pregle..."
+[2025-08-27T02:19:11.995Z] 📊 SIMPLE: Character positions - Start: 148295, End: 156414
+[2025-08-27T02:19:11.996Z] ✅ SIMPLE: Extracted 8119 chars from pages 59-61
+[2025-08-27T02:19:12.019Z] 📄 SIMPLE: Processing section 39/118: "1. 7. 3. Ulazno/izlazni uređaji" (pages 61-61)
+[2025-08-27T02:19:12.019Z] 📄 SIMPLE: Extracting section "1. 7. 3. Ulazno/izlazni uređaji" from pages 61-61
+[2025-08-27T02:19:12.019Z] ✅ SIMPLE: Extracted 3541 chars from 1 pages (61)
+[2025-08-27T02:19:12.020Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+Važne karakteristike: rezolucija slike, jačina svetla. Koriste sijalice, koje su osetljive i skupe i imaju određeni
+broj sati trajanja.
+
+1. 7. 3. Ulazno/izlaz..."
+[2025-08-27T02:19:12.020Z] 📊 SIMPLE: Character positions - Start: 152873, End: 156414
+[2025-08-27T02:19:12.020Z] ✅ SIMPLE: Extracted 3541 chars from pages 61-61
+[2025-08-27T02:19:12.044Z] 📄 SIMPLE: Processing section 40/118: "1. 8. Portovi i konektori" (pages 61-64)
+[2025-08-27T02:19:12.044Z] 📄 SIMPLE: Extracting section "1. 8. Portovi i konektori" from pages 61-64
+[2025-08-27T02:19:12.045Z] ✅ SIMPLE: Extracted 10482 chars from 4 pages (61, 62, 63, 64)
+[2025-08-27T02:19:12.045Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+Važne karakteristike: rezolucija slike, jačina svetla. Koriste sijalice, koje su osetljive i skupe i imaju određeni
+broj sati trajanja.
+
+1. 7. 3. Ulazno/izlaz..."
+[2025-08-27T02:19:12.046Z] 📊 SIMPLE: Character positions - Start: 152873, End: 163355
+[2025-08-27T02:19:12.047Z] ✅ SIMPLE: Extracted 10482 chars from pages 61-64
+[2025-08-27T02:19:12.047Z] 📄 Splitting section "1. 8. Portovi i konektori" (10482 chars) for embedding
+[2025-08-27T02:19:12.047Z] 📄 Split "1. 8. Portovi i konektori" into 2 embedding-safe parts
+[2025-08-27T02:19:12.048Z] 📄 Split section "1. 8. Portovi i konektori" into 2 parts for embedding
+[2025-08-27T02:19:12.070Z] 📄 SIMPLE: Processing section 41/118: "1. 9. Kućište i napajanje" (pages 64-64)
+[2025-08-27T02:19:12.071Z] 📄 SIMPLE: Extracting section "1. 9. Kućište i napajanje" from pages 64-64
+[2025-08-27T02:19:12.071Z] ✅ SIMPLE: Extracted 2270 chars from 1 pages (64)
+[2025-08-27T02:19:12.071Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+
+
+
+Slika 1. 8-3. Priključci na računaru
+
+DVI konektor
+DVI (Digital Visual Interface) predstavlja digitalni konektor. DVI interfejs prenosi signal od grafič..."
+[2025-08-27T02:19:12.072Z] 📊 SIMPLE: Character positions - Start: 161085, End: 163355
+[2025-08-27T02:19:12.072Z] ✅ SIMPLE: Extracted 2270 chars from pages 64-64
+[2025-08-27T02:19:12.095Z] 📄 SIMPLE: Processing section 42/118: "1. 9. 1. Kućište" (pages 64-65)
+[2025-08-27T02:19:12.095Z] 📄 SIMPLE: Extracting section "1. 9. 1. Kućište" from pages 64-65
+[2025-08-27T02:19:12.096Z] ✅ SIMPLE: Extracted 3607 chars from 2 pages (64, 65)
+[2025-08-27T02:19:12.096Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+
+
+
+Slika 1. 8-3. Priključci na računaru
+
+DVI konektor
+DVI (Digital Visual Interface) predstavlja digitalni konektor. DVI interfejs prenosi signal od grafič..."
+[2025-08-27T02:19:12.097Z] 📊 SIMPLE: Character positions - Start: 161085, End: 164692
+[2025-08-27T02:19:12.098Z] ✅ SIMPLE: Extracted 3607 chars from pages 64-65
+[2025-08-27T02:19:12.120Z] 📄 SIMPLE: Processing section 43/118: "1. 9. 2. Napajanje" (pages 65-66)
+[2025-08-27T02:19:12.121Z] 📄 SIMPLE: Extracting section "1. 9. 2. Napajanje" from pages 65-66
+[2025-08-27T02:19:12.121Z] ✅ SIMPLE: Extracted 4160 chars from 2 pages (65, 66)
+[2025-08-27T02:19:12.121Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+bitna zbog hlađenja, pa je uvek bolje uzeti veće kućište. Sa zadnje strane kućišta postoji prekidač za
+isključenje napajanja, koje je uvek potrebno koristiti pr..."
+[2025-08-27T02:19:12.122Z] 📊 SIMPLE: Character positions - Start: 163357, End: 167517
+[2025-08-27T02:19:12.122Z] ✅ SIMPLE: Extracted 4160 chars from pages 65-66
+[2025-08-27T02:19:12.144Z] 📄 SIMPLE: Processing section 44/118: "1. 10. Izbor računara i sastavljanje konfiguracije" (pages 66-68)
+[2025-08-27T02:19:12.145Z] 📄 SIMPLE: Extracting section "1. 10. Izbor računara i sastavljanje konfiguracije" from pages 66-68
+[2025-08-27T02:19:12.145Z] ✅ SIMPLE: Extracted 10910 chars from 3 pages (66, 67, 68)
+[2025-08-27T02:19:12.146Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+Prema nekim istraživanjima, od svih problema u radu računara na napajanje otpada 30%, mada
+učestvuju samo sa 5% u ukupnoj ceni računara. Prema tome, važno je uz..."
+[2025-08-27T02:19:12.146Z] 📊 SIMPLE: Character positions - Start: 164694, End: 175604
+[2025-08-27T02:19:12.147Z] ✅ SIMPLE: Extracted 10910 chars from pages 66-68
+[2025-08-27T02:19:12.147Z] 📄 Splitting section "1. 10. Izbor računara i sastavljanje konfiguracije" (10910 chars) for embedding
+[2025-08-27T02:19:12.147Z] 📄 Split "1. 10. Izbor računara i sastavljanje konfiguracije" into 2 embedding-safe parts
+[2025-08-27T02:19:12.147Z] 📄 Split section "1. 10. Izbor računara i sastavljanje konfiguracije" into 2 parts for embedding
+[2025-08-27T02:19:12.170Z] 📄 SIMPLE: Processing section 45/118: "1. 11. Pouzdanost hardvera" (pages 68-71)
+[2025-08-27T02:19:12.170Z] 📄 SIMPLE: Extracting section "1. 11. Pouzdanost hardvera" from pages 68-71
+[2025-08-27T02:19:12.171Z] ✅ SIMPLE: Extracted 13708 chars from 4 pages (68, 69, 70, 71)
+[2025-08-27T02:19:12.171Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+koji može da uzrokuje čovek može biti dovoljno velik, posebno po suvom i hladnom vremenu, da, iako
+pražnjenje elektrostatičkog elektriciteta traje veoma kratko,..."
+[2025-08-27T02:19:12.171Z] 📊 SIMPLE: Character positions - Start: 171584, End: 185292
+[2025-08-27T02:19:12.172Z] ✅ SIMPLE: Extracted 13708 chars from pages 68-71
+[2025-08-27T02:19:12.172Z] 📄 Splitting section "1. 11. Pouzdanost hardvera" (13708 chars) for embedding
+[2025-08-27T02:19:12.172Z] 📄 Split "1. 11. Pouzdanost hardvera" into 2 embedding-safe parts
+[2025-08-27T02:19:12.173Z] 📄 Split section "1. 11. Pouzdanost hardvera" into 2 parts for embedding
+[2025-08-27T02:19:12.195Z] 📄 SIMPLE: Processing section 46/118: "2. SOFTVER" (pages 71-95)
+[2025-08-27T02:19:12.195Z] 📄 SIMPLE: Extracting section "2. SOFTVER" from pages 71-95
+[2025-08-27T02:19:12.196Z] ✅ SIMPLE: Extracted 71716 chars from 25 pages (71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95)
+[2025-08-27T02:19:12.196Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+
+
+2. SOFTVER
+
+2. 1. Pojam i klasifikacija softvera
+
+Hardver sam nije dovoljan za uspešan rad računara. Potreban mu je i softver, odnosno svi
+neophodni pro..."
+[2025-08-27T02:19:12.197Z] 📊 SIMPLE: Character positions - Start: 181714, End: 253430
+[2025-08-27T02:19:12.198Z] ✅ SIMPLE: Extracted 71716 chars from pages 71-95
+[2025-08-27T02:19:12.198Z] 📄 Splitting section "2. SOFTVER" (71716 chars) for embedding
+[2025-08-27T02:19:12.198Z] 📄 Split "2. SOFTVER" into 8 embedding-safe parts
+[2025-08-27T02:19:12.199Z] 📄 Split section "2. SOFTVER" into 8 parts for embedding
+[2025-08-27T02:19:12.222Z] 📄 SIMPLE: Processing section 47/118: "2. 1. Pojam i klasifikacija softvera" (pages 71-72)
+[2025-08-27T02:19:12.222Z] 📄 SIMPLE: Extracting section "2. 1. Pojam i klasifikacija softvera" from pages 71-72
+[2025-08-27T02:19:12.223Z] ✅ SIMPLE: Extracted 5985 chars from 2 pages (71, 72)
+[2025-08-27T02:19:12.223Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+
+
+2. SOFTVER
+
+2. 1. Pojam i klasifikacija softvera
+
+Hardver sam nije dovoljan za uspešan rad računara. Potreban mu je i softver, odnosno svi
+neophodni pro..."
+[2025-08-27T02:19:12.223Z] 📊 SIMPLE: Character positions - Start: 181714, End: 187699
+[2025-08-27T02:19:12.223Z] ✅ SIMPLE: Extracted 5985 chars from pages 71-72
+[2025-08-27T02:19:12.247Z] 📄 SIMPLE: Processing section 48/118: "2. 2. Sistemski softver" (pages 72-72)
+[2025-08-27T02:19:12.247Z] 📄 SIMPLE: Extracting section "2. 2. Sistemski softver" from pages 72-72
+[2025-08-27T02:19:12.247Z] ✅ SIMPLE: Extracted 2405 chars from 1 pages (72)
+[2025-08-27T02:19:12.247Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+Korisnik može direktno koordinirati rad aplikativnog softvera i operativnog sistema. Drugim rečima, korisnik
+može pokretati i zatvarati određene programe, koji ..."
+[2025-08-27T02:19:12.248Z] 📊 SIMPLE: Character positions - Start: 185294, End: 187699
+[2025-08-27T02:19:12.248Z] ✅ SIMPLE: Extracted 2405 chars from pages 72-72
+[2025-08-27T02:19:12.271Z] 📄 SIMPLE: Processing section 49/118: "2. 2. 1. Operativni sistemi" (pages 72-77)
+[2025-08-27T02:19:12.271Z] 📄 SIMPLE: Extracting section "2. 2. 1. Operativni sistemi" from pages 72-77
+[2025-08-27T02:19:12.271Z] ✅ SIMPLE: Extracted 11588 chars from 6 pages (72, 73, 74, 75, 76, 77)
+[2025-08-27T02:19:12.272Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+Korisnik može direktno koordinirati rad aplikativnog softvera i operativnog sistema. Drugim rečima, korisnik
+može pokretati i zatvarati određene programe, koji ..."
+[2025-08-27T02:19:12.272Z] 📊 SIMPLE: Character positions - Start: 185294, End: 196882
+[2025-08-27T02:19:12.272Z] ✅ SIMPLE: Extracted 11588 chars from pages 72-77
+[2025-08-27T02:19:12.273Z] 📄 Splitting section "2. 2. 1. Operativni sistemi" (11588 chars) for embedding
+[2025-08-27T02:19:12.273Z] 📄 Split "2. 2. 1. Operativni sistemi" into 2 embedding-safe parts
+[2025-08-27T02:19:12.273Z] 📄 Split section "2. 2. 1. Operativni sistemi" into 2 parts for embedding
+[2025-08-27T02:19:12.296Z] 📄 SIMPLE: Processing section 50/118: "2. 2. 2. Pomoćni sistemski programi" (pages 77-79)
+[2025-08-27T02:19:12.296Z] 📄 SIMPLE: Extracting section "2. 2. 2. Pomoćni sistemski programi" from pages 77-79
+[2025-08-27T02:19:12.297Z] ✅ SIMPLE: Extracted 8694 chars from 3 pages (77, 78, 79)
+[2025-08-27T02:19:12.297Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+
+
+
+2. 2. 2. Pomoćni sistemski programi
+
+Pomoćni sistemski programi (Utility software) omogućavaju korisniku određena podešavanja
+hardvera, upravljanje i or..."
+[2025-08-27T02:19:12.298Z] 📊 SIMPLE: Character positions - Start: 194915, End: 203609
+[2025-08-27T02:19:12.298Z] ✅ SIMPLE: Extracted 8694 chars from pages 77-79
+[2025-08-27T02:19:12.321Z] 📄 SIMPLE: Processing section 51/118: "2. 3. Aplikativni softver" (pages 79-80)
+[2025-08-27T02:19:12.321Z] 📄 SIMPLE: Extracting section "2. 3. Aplikativni softver" from pages 79-80
+[2025-08-27T02:19:12.322Z] ✅ SIMPLE: Extracted 5175 chars from 2 pages (79, 80)
+[2025-08-27T02:19:12.322Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+razbacani po hard disku i potrebno je više vremena da im se pristupi. Navedeni elementi praznog
+prostora nazivaju se fragmenti. U tom smislu se radi defragmenta..."
+[2025-08-27T02:19:12.322Z] 📊 SIMPLE: Character positions - Start: 201180, End: 206355
+[2025-08-27T02:19:12.323Z] ✅ SIMPLE: Extracted 5175 chars from pages 79-80
+[2025-08-27T02:19:12.345Z] 📄 SIMPLE: Processing section 52/118: "2. 3. 1. Programi za obradu teksta" (pages 80-81)
+[2025-08-27T02:19:12.346Z] 📄 SIMPLE: Extracting section "2. 3. 1. Programi za obradu teksta" from pages 80-81
+[2025-08-27T02:19:12.346Z] ✅ SIMPLE: Extracted 5052 chars from 2 pages (80, 81)
+[2025-08-27T02:19:12.346Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+linija sa alatkama (toolbar), padajući meni (shortcut meni), sam prozor (window) u kome se izvršava
+aplikacija i na dnu je statusna linija u kojoj se prikazuju ..."
+[2025-08-27T02:19:12.347Z] 📊 SIMPLE: Character positions - Start: 203611, End: 208663
+[2025-08-27T02:19:12.347Z] ✅ SIMPLE: Extracted 5052 chars from pages 80-81
+[2025-08-27T02:19:12.370Z] 📄 SIMPLE: Processing section 53/118: "2. 3. 2. Programi za tabelarne proračune" (pages 81-81)
+[2025-08-27T02:19:12.370Z] 📄 SIMPLE: Extracting section "2. 3. 2. Programi za tabelarne proračune" from pages 81-81
+[2025-08-27T02:19:12.371Z] ✅ SIMPLE: Extracted 2306 chars from 1 pages (81)
+[2025-08-27T02:19:12.371Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+
+
+
+Slika 2. 3-2. Ilustracija dokumenta u Microsoft Wordu i odštampanog dokumenta
+
+
+2. 3. 2. Programi za tabelarne proračune
+
+Programi za tabelarne prorač..."
+[2025-08-27T02:19:12.372Z] 📊 SIMPLE: Character positions - Start: 206357, End: 208663
+[2025-08-27T02:19:12.372Z] ✅ SIMPLE: Extracted 2306 chars from pages 81-81
+[2025-08-27T02:19:12.395Z] 📄 SIMPLE: Processing section 54/118: "2. 3. 3. Programi za rad sa bazama podataka" (pages 81-82)
+[2025-08-27T02:19:12.395Z] 📄 SIMPLE: Extracting section "2. 3. 3. Programi za rad sa bazama podataka" from pages 81-82
+[2025-08-27T02:19:12.396Z] ✅ SIMPLE: Extracted 6142 chars from 2 pages (81, 82)
+[2025-08-27T02:19:12.396Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+
+
+
+Slika 2. 3-2. Ilustracija dokumenta u Microsoft Wordu i odštampanog dokumenta
+
+
+2. 3. 2. Programi za tabelarne proračune
+
+Programi za tabelarne prorač..."
+[2025-08-27T02:19:12.397Z] 📊 SIMPLE: Character positions - Start: 206357, End: 212499
+[2025-08-27T02:19:12.397Z] ✅ SIMPLE: Extracted 6142 chars from pages 81-82
+[2025-08-27T02:19:12.422Z] 📄 SIMPLE: Processing section 55/118: "2. 3. 4. Programi za izradu prezentacija" (pages 82-82)
+[2025-08-27T02:19:12.422Z] 📄 SIMPLE: Extracting section "2. 3. 4. Programi za izradu prezentacija" from pages 82-82
+[2025-08-27T02:19:12.422Z] ✅ SIMPLE: Extracted 3834 chars from 1 pages (82)
+[2025-08-27T02:19:12.423Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+
+Program za rad sa bazama podataka
+Program za rad sa bazama podataka (database software) je softver koji omogućava kreiranje,
+pristup i upravljanje bazom poda..."
+[2025-08-27T02:19:12.423Z] 📊 SIMPLE: Character positions - Start: 208665, End: 212499
+[2025-08-27T02:19:12.423Z] ✅ SIMPLE: Extracted 3834 chars from pages 82-82
+[2025-08-27T02:19:12.446Z] 📄 SIMPLE: Processing section 56/118: "2. 3. 5. Programi za grafičku obradu" (pages 82-83)
+[2025-08-27T02:19:12.446Z] 📄 SIMPLE: Extracting section "2. 3. 5. Programi za grafičku obradu" from pages 82-83
+[2025-08-27T02:19:12.446Z] ✅ SIMPLE: Extracted 8346 chars from 2 pages (82, 83)
+[2025-08-27T02:19:12.447Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+
+Program za rad sa bazama podataka
+Program za rad sa bazama podataka (database software) je softver koji omogućava kreiranje,
+pristup i upravljanje bazom poda..."
+[2025-08-27T02:19:12.448Z] 📊 SIMPLE: Character positions - Start: 208665, End: 217011
+[2025-08-27T02:19:12.448Z] ✅ SIMPLE: Extracted 8346 chars from pages 82-83
+[2025-08-27T02:19:12.471Z] 📄 SIMPLE: Processing section 57/118: "2. 3. 6. Programi za projektovanje" (pages 83-83)
+[2025-08-27T02:19:12.471Z] 📄 SIMPLE: Extracting section "2. 3. 6. Programi za projektovanje" from pages 83-83
+[2025-08-27T02:19:12.471Z] ✅ SIMPLE: Extracted 4510 chars from 1 pages (83)
+[2025-08-27T02:19:12.472Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+mogućnost ovog programa i omogućava ubacivanje više slojeva na istu sliku. Velika paleta filtera se koristi
+za kreiranje specijalnih efekata. Slike se mogu obra..."
+[2025-08-27T02:19:12.472Z] 📊 SIMPLE: Character positions - Start: 212501, End: 217011
+[2025-08-27T02:19:12.472Z] ✅ SIMPLE: Extracted 4510 chars from pages 83-83
+[2025-08-27T02:19:12.497Z] 📄 SIMPLE: Processing section 58/118: "2. 3. 7. Multimedijalni programi" (pages 83-84)
+[2025-08-27T02:19:12.498Z] 📄 SIMPLE: Extracting section "2. 3. 7. Multimedijalni programi" from pages 83-84
+[2025-08-27T02:19:12.498Z] ✅ SIMPLE: Extracted 7603 chars from 2 pages (83, 84)
+[2025-08-27T02:19:12.499Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+mogućnost ovog programa i omogućava ubacivanje više slojeva na istu sliku. Velika paleta filtera se koristi
+za kreiranje specijalnih efekata. Slike se mogu obra..."
+[2025-08-27T02:19:12.499Z] 📊 SIMPLE: Character positions - Start: 212501, End: 220104
+[2025-08-27T02:19:12.499Z] ✅ SIMPLE: Extracted 7603 chars from pages 83-84
+[2025-08-27T02:19:12.522Z] 📄 SIMPLE: Processing section 59/118: "2. 3. 8. Programi za specijalne potrebe" (pages 84-86)
+[2025-08-27T02:19:12.522Z] 📄 SIMPLE: Extracting section "2. 3. 8. Programi za specijalne potrebe" from pages 84-86
+[2025-08-27T02:19:12.522Z] ✅ SIMPLE: Extracted 9552 chars from 3 pages (84, 85, 86)
+[2025-08-27T02:19:12.523Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+stečenog znanja. Postoje i interaktivni kursevi koji se izvode putem interneta (onlajn kursevi), gde polaznici
+mogu da postavljaju pitanja instruktoru, učestvuj..."
+[2025-08-27T02:19:12.523Z] 📊 SIMPLE: Character positions - Start: 217013, End: 226565
+[2025-08-27T02:19:12.523Z] ✅ SIMPLE: Extracted 9552 chars from pages 84-86
+[2025-08-27T02:19:12.546Z] 📄 SIMPLE: Processing section 60/118: "2. 3. 9. Software Suites" (pages 86-87)
+[2025-08-27T02:19:12.546Z] 📄 SIMPLE: Extracting section "2. 3. 9. Software Suites" from pages 86-87
+[2025-08-27T02:19:12.547Z] ✅ SIMPLE: Extracted 4942 chars from 2 pages (86, 87)
+[2025-08-27T02:19:12.547Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+Čitači ekrana (screen reader)
+Čitači ekrana su softverske aplikacije koje pokušavaju da identifikuju i interpretiraju ono što je
+prikazano na ekranu. Ova inter..."
+[2025-08-27T02:19:12.548Z] 📊 SIMPLE: Character positions - Start: 224268, End: 229210
+[2025-08-27T02:19:12.548Z] ✅ SIMPLE: Extracted 4942 chars from pages 86-87
+[2025-08-27T02:19:12.571Z] 📄 SIMPLE: Processing section 61/118: "2. 4. Programerski softver" (pages 87-89)
+[2025-08-27T02:19:12.571Z] 📄 SIMPLE: Extracting section "2. 4. Programerski softver" from pages 87-89
+[2025-08-27T02:19:12.571Z] ✅ SIMPLE: Extracted 11077 chars from 3 pages (87, 88, 89)
+[2025-08-27T02:19:12.572Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+2. 4. Programerski softver
+
+Programerski softver pruža alate programerima u pisanju (razvoju) softverskih programa, koristeći
+razne programske jezike na najpo..."
+[2025-08-27T02:19:12.572Z] 📊 SIMPLE: Character positions - Start: 226567, End: 237644
+[2025-08-27T02:19:12.572Z] ✅ SIMPLE: Extracted 11077 chars from pages 87-89
+[2025-08-27T02:19:12.573Z] 📄 Splitting section "2. 4. Programerski softver" (11077 chars) for embedding
+[2025-08-27T02:19:12.573Z] 📄 Split "2. 4. Programerski softver" into 2 embedding-safe parts
+[2025-08-27T02:19:12.573Z] 📄 Split section "2. 4. Programerski softver" into 2 parts for embedding
+[2025-08-27T02:19:12.600Z] 📄 SIMPLE: Processing section 62/118: "2. 5. Pouzdanost i održavanje softvera" (pages 89-89)
+[2025-08-27T02:19:12.600Z] 📄 SIMPLE: Extracting section "2. 5. Pouzdanost i održavanje softvera" from pages 89-89
+[2025-08-27T02:19:12.601Z] ✅ SIMPLE: Extracted 3568 chars from 1 pages (89)
+[2025-08-27T02:19:12.601Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+Softver za upravljanje projektima (engl. Project Management Software)
+Ovu vrstu softvera koriste saradnici iučesnici na jednom projektu, odnosno na jednom radno..."
+[2025-08-27T02:19:12.601Z] 📊 SIMPLE: Character positions - Start: 234076, End: 237644
+[2025-08-27T02:19:12.601Z] ✅ SIMPLE: Extracted 3568 chars from pages 89-89
+[2025-08-27T02:19:12.635Z] 📄 SIMPLE: Processing section 63/118: "2. 6. 1. Pouzdanost softvera" (pages 89-91)
+[2025-08-27T02:19:12.635Z] 📄 SIMPLE: Extracting section "2. 6. 1. Pouzdanost softvera" from pages 89-91
+[2025-08-27T02:19:12.635Z] ✅ SIMPLE: Extracted 9651 chars from 3 pages (89, 90, 91)
+[2025-08-27T02:19:12.636Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+Softver za upravljanje projektima (engl. Project Management Software)
+Ovu vrstu softvera koriste saradnici iučesnici na jednom projektu, odnosno na jednom radno..."
+[2025-08-27T02:19:12.636Z] 📊 SIMPLE: Character positions - Start: 234076, End: 243727
+[2025-08-27T02:19:12.636Z] ✅ SIMPLE: Extracted 9651 chars from pages 89-91
+[2025-08-27T02:19:12.662Z] 📄 SIMPLE: Processing section 64/118: "2. 6. 2. Održavanje softvera" (pages 91-92)
+[2025-08-27T02:19:12.662Z] 📄 SIMPLE: Extracting section "2. 6. 2. Održavanje softvera" from pages 91-92
+[2025-08-27T02:19:12.663Z] ✅ SIMPLE: Extracted 6258 chars from 2 pages (91, 92)
+[2025-08-27T02:19:12.663Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+prouzrokovan, na primer, greškom u programu, onda će rezervni softver otkazati pod istim uslovima.
+Moguće rešenje je da softver za istu namenu rade dva različit..."
+[2025-08-27T02:19:12.663Z] 📊 SIMPLE: Character positions - Start: 240688, End: 246946
+[2025-08-27T02:19:12.664Z] ✅ SIMPLE: Extracted 6258 chars from pages 91-92
+[2025-08-27T02:19:12.687Z] 📄 SIMPLE: Processing section 65/118: "2. 6. Neka pitanja i problemi u vezi softvera" (pages 92-95)
+[2025-08-27T02:19:12.687Z] 📄 SIMPLE: Extracting section "2. 6. Neka pitanja i problemi u vezi softvera" from pages 92-95
+[2025-08-27T02:19:12.687Z] ✅ SIMPLE: Extracted 9701 chars from 4 pages (92, 93, 94, 95)
+[2025-08-27T02:19:12.688Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+
+Predviđanje troškova održavanja
+Shodno velikom udelu u troškovima poželjno je na vreme uraditi planiranje i predvideti:
+• koji delovi sistema će najverovatni..."
+[2025-08-27T02:19:12.688Z] 📊 SIMPLE: Character positions - Start: 243729, End: 253430
+[2025-08-27T02:19:12.688Z] ✅ SIMPLE: Extracted 9701 chars from pages 92-95
+[2025-08-27T02:19:12.711Z] 📄 SIMPLE: Processing section 66/118: "3. UMREŽAVANJE I INTERNET" (pages 95-125)
+[2025-08-27T02:19:12.712Z] 📄 SIMPLE: Extracting section "3. UMREŽAVANJE I INTERNET" from pages 95-125
+[2025-08-27T02:19:12.712Z] ✅ SIMPLE: Extracted 94861 chars from 31 pages (95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125)
+[2025-08-27T02:19:12.713Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+3. UMREŽAVANJE I INTERNET
+
+3. 1. Računarske mreže
+
+Čini se da su računarske mreže svuda oko nas, odnosno sveprisutne. Od radnih mesta sa
+umreženim računarim..."
+[2025-08-27T02:19:12.714Z] 📊 SIMPLE: Character positions - Start: 249820, End: 344681
+[2025-08-27T02:19:12.714Z] ✅ SIMPLE: Extracted 94861 chars from pages 95-125
+[2025-08-27T02:19:12.714Z] 📄 Splitting section "3. UMREŽAVANJE I INTERNET" (94861 chars) for embedding
+[2025-08-27T02:19:12.715Z] 📄 Split "3. UMREŽAVANJE I INTERNET" into 12 embedding-safe parts
+[2025-08-27T02:19:12.715Z] 📄 Split section "3. UMREŽAVANJE I INTERNET" into 12 parts for embedding
+[2025-08-27T02:19:12.738Z] 📄 SIMPLE: Processing section 67/118: "3. 1. Računarske mreže" (pages 95-95)
+[2025-08-27T02:19:12.738Z] 📄 SIMPLE: Extracting section "3. 1. Računarske mreže" from pages 95-95
+[2025-08-27T02:19:12.739Z] ✅ SIMPLE: Extracted 3610 chars from 1 pages (95)
+[2025-08-27T02:19:12.739Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+3. UMREŽAVANJE I INTERNET
+
+3. 1. Računarske mreže
+
+Čini se da su računarske mreže svuda oko nas, odnosno sveprisutne. Od radnih mesta sa
+umreženim računarim..."
+[2025-08-27T02:19:12.739Z] 📊 SIMPLE: Character positions - Start: 249820, End: 253430
+[2025-08-27T02:19:12.740Z] ✅ SIMPLE: Extracted 3610 chars from pages 95-95
+[2025-08-27T02:19:12.762Z] 📄 SIMPLE: Processing section 68/118: "3. 1. 1. Pojam računarske mreže" (pages 95-99)
+[2025-08-27T02:19:12.763Z] 📄 SIMPLE: Extracting section "3. 1. 1. Pojam računarske mreže" from pages 95-99
+[2025-08-27T02:19:12.763Z] ✅ SIMPLE: Extracted 17449 chars from 5 pages (95, 96, 97, 98, 99)
+[2025-08-27T02:19:12.764Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+3. UMREŽAVANJE I INTERNET
+
+3. 1. Računarske mreže
+
+Čini se da su računarske mreže svuda oko nas, odnosno sveprisutne. Od radnih mesta sa
+umreženim računarim..."
+[2025-08-27T02:19:12.764Z] 📊 SIMPLE: Character positions - Start: 249820, End: 267269
+[2025-08-27T02:19:12.765Z] ✅ SIMPLE: Extracted 17449 chars from pages 95-99
+[2025-08-27T02:19:12.765Z] 📄 Splitting section "3. 1. 1. Pojam računarske mreže" (17449 chars) for embedding
+[2025-08-27T02:19:12.766Z] 📄 Split "3. 1. 1. Pojam računarske mreže" into 2 embedding-safe parts
+[2025-08-27T02:19:12.766Z] 📄 Split section "3. 1. 1. Pojam računarske mreže" into 2 parts for embedding
+[2025-08-27T02:19:12.789Z] 📄 SIMPLE: Processing section 69/118: "3. 1. 2. Klasifikacija računarskih mreža" (pages 99-100)
+[2025-08-27T02:19:12.789Z] 📄 SIMPLE: Extracting section "3. 1. 2. Klasifikacija računarskih mreža" from pages 99-100
+[2025-08-27T02:19:12.789Z] ✅ SIMPLE: Extracted 4067 chars from 2 pages (99, 100)
+[2025-08-27T02:19:12.790Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+TCP/IP (Transmission Control Protocol/Internet Protocol) je skup protokola za razmenu paketa za
+prenos fajlova koji može da prenosi velike datoteke ili informac..."
+[2025-08-27T02:19:12.790Z] 📊 SIMPLE: Character positions - Start: 264887, End: 268954
+[2025-08-27T02:19:12.791Z] ✅ SIMPLE: Extracted 4067 chars from pages 99-100
+[2025-08-27T02:19:12.818Z] 📄 SIMPLE: Processing section 70/118: "3. 1. 3. Mrežne topologije i elementi mreže" (pages 100-103)
+[2025-08-27T02:19:12.818Z] 📄 SIMPLE: Extracting section "3. 1. 3. Mrežne topologije i elementi mreže" from pages 100-103
+[2025-08-27T02:19:12.818Z] ✅ SIMPLE: Extracted 9816 chars from 4 pages (100, 101, 102, 103)
+[2025-08-27T02:19:12.819Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+su njihovi lični računari), dok je komunikaciona podmreža najčešće vlasništvo telefonske kompanije ili
+davaoca internet usluga, koji je i održavaju.
+
+MAN
+Mre..."
+[2025-08-27T02:19:12.819Z] 📊 SIMPLE: Character positions - Start: 267271, End: 277087
+[2025-08-27T02:19:12.819Z] ✅ SIMPLE: Extracted 9816 chars from pages 100-103
+[2025-08-27T02:19:12.844Z] 📄 SIMPLE: Processing section 71/118: "3. 1. 4. Mrežni uređaji" (pages 103-105)
+[2025-08-27T02:19:12.845Z] 📄 SIMPLE: Extracting section "3. 1. 4. Mrežni uređaji" from pages 103-105
+[2025-08-27T02:19:12.845Z] ✅ SIMPLE: Extracted 5948 chars from 3 pages (103, 104, 105)
+[2025-08-27T02:19:12.845Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+servera, čime se smanjuju troškovi. Troškovi se smanuju i korišćenjem istog štampačau mreži, jer nije
+neophodno da svaki računar ima svoj zaseban štampač. Osim ..."
+[2025-08-27T02:19:12.846Z] 📊 SIMPLE: Character positions - Start: 273752, End: 279700
+[2025-08-27T02:19:12.846Z] ✅ SIMPLE: Extracted 5948 chars from pages 103-105
+[2025-08-27T02:19:12.869Z] 📄 SIMPLE: Processing section 72/118: "3. 1. 5. Brzina, stabilnost i sigurnost mreže" (pages 105-106)
+[2025-08-27T02:19:12.869Z] 📄 SIMPLE: Extracting section "3. 1. 5. Brzina, stabilnost i sigurnost mreže" from pages 105-106
+[2025-08-27T02:19:12.869Z] ✅ SIMPLE: Extracted 5477 chars from 2 pages (105, 106)
+[2025-08-27T02:19:12.869Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+
+
+
+Slika 3. 3. 1-10. Usmerivač (router) prosleđuje pakete između različitih mreža
+
+
+
+
+Slika 3. 1-11. Primeri povezivanja računarske mreže
+
+
+3. 1. 5. B..."
+[2025-08-27T02:19:12.870Z] 📊 SIMPLE: Character positions - Start: 278558, End: 284035
+[2025-08-27T02:19:12.871Z] ✅ SIMPLE: Extracted 5477 chars from pages 105-106
+[2025-08-27T02:19:12.894Z] 📄 SIMPLE: Processing section 73/118: "3. 2. Internet" (pages 106-111)
+[2025-08-27T02:19:12.895Z] 📄 SIMPLE: Extracting section "3. 2. Internet" from pages 106-111
+[2025-08-27T02:19:12.896Z] ✅ SIMPLE: Extracted 17657 chars from 6 pages (106, 107, 108, 109, 110, 111)
+[2025-08-27T02:19:12.896Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+povezivanja, od stručnosti osoblja kao i od fizičkog obezbeđenja mreže. Nestabilna mreža je gora od
+nepostojeće mreže.
+
+Obezbeđenje mreže
+Mrežu je potrebno o..."
+[2025-08-27T02:19:12.897Z] 📊 SIMPLE: Character positions - Start: 279702, End: 297359
+[2025-08-27T02:19:12.897Z] ✅ SIMPLE: Extracted 17657 chars from pages 106-111
+[2025-08-27T02:19:12.898Z] 📄 Splitting section "3. 2. Internet" (17657 chars) for embedding
+[2025-08-27T02:19:12.898Z] 📄 Split "3. 2. Internet" into 2 embedding-safe parts
+[2025-08-27T02:19:12.898Z] 📄 Split section "3. 2. Internet" into 2 parts for embedding
+[2025-08-27T02:19:12.921Z] 📄 SIMPLE: Processing section 74/118: "3. 3. Internet protokoli" (pages 111-112)
+[2025-08-27T02:19:12.922Z] 📄 SIMPLE: Extracting section "3. 3. Internet protokoli" from pages 111-112
+[2025-08-27T02:19:12.922Z] ✅ SIMPLE: Extracted 7734 chars from 2 pages (111, 112)
+[2025-08-27T02:19:12.922Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+
+
+
+Slika 3. 2-5. Procenat korišćenja interneta po regionima, podaci od 30. juna 2019. (izvor:
+http://www. internetworldstats. com)
+
+
+3. 3. Internet protok..."
+[2025-08-27T02:19:12.923Z] 📊 SIMPLE: Character positions - Start: 294013, End: 301747
+[2025-08-27T02:19:12.923Z] ✅ SIMPLE: Extracted 7734 chars from pages 111-112
+[2025-08-27T02:19:12.947Z] 📄 SIMPLE: Processing section 75/118: "3. 4. Internet servisi" (pages 112-112)
+[2025-08-27T02:19:12.948Z] 📄 SIMPLE: Extracting section "3. 4. Internet servisi" from pages 112-112
+[2025-08-27T02:19:12.948Z] ✅ SIMPLE: Extracted 4386 chars from 1 pages (112)
+[2025-08-27T02:19:12.949Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+se od skupa markup simbola tj. tagova koji govore brauzeru kako da prikaže veb strane internet korisniku.
+HTML kodiranje dozvoljava linkovanje ka drugim fajlovi..."
+[2025-08-27T02:19:12.949Z] 📊 SIMPLE: Character positions - Start: 297361, End: 301747
+[2025-08-27T02:19:12.949Z] ✅ SIMPLE: Extracted 4386 chars from pages 112-112
+[2025-08-27T02:19:12.973Z] 📄 SIMPLE: Processing section 76/118: "3. 4. 1. Veb pretraživanje, komunikacija i saradnja" (pages 112-116)
+[2025-08-27T02:19:12.973Z] 📄 SIMPLE: Extracting section "3. 4. 1. Veb pretraživanje, komunikacija i saradnja" from pages 112-116
+[2025-08-27T02:19:12.973Z] ✅ SIMPLE: Extracted 20546 chars from 5 pages (112, 113, 114, 115, 116)
+[2025-08-27T02:19:12.974Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+se od skupa markup simbola tj. tagova koji govore brauzeru kako da prikaže veb strane internet korisniku.
+HTML kodiranje dozvoljava linkovanje ka drugim fajlovi..."
+[2025-08-27T02:19:12.974Z] 📊 SIMPLE: Character positions - Start: 297361, End: 317907
+[2025-08-27T02:19:12.975Z] ✅ SIMPLE: Extracted 20546 chars from pages 112-116
+[2025-08-27T02:19:12.975Z] 📄 Splitting section "3. 4. 1. Veb pretraživanje, komunikacija i saradnja" (20546 chars) for embedding
+[2025-08-27T02:19:12.975Z] 📄 Split "3. 4. 1. Veb pretraživanje, komunikacija i saradnja" into 3 embedding-safe parts
+[2025-08-27T02:19:12.976Z] 📄 Split section "3. 4. 1. Veb pretraživanje, komunikacija i saradnja" into 3 parts for embedding
+[2025-08-27T02:19:13.000Z] 📄 SIMPLE: Processing section 77/118: "3. 4. 2. Elektronsko poslovanje" (pages 116-117)
+[2025-08-27T02:19:13.001Z] 📄 SIMPLE: Extracting section "3. 4. 2. Elektronsko poslovanje" from pages 116-117
+[2025-08-27T02:19:13.001Z] ✅ SIMPLE: Extracted 7276 chars from 2 pages (116, 117)
+[2025-08-27T02:19:13.001Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+sistema je to, što se sve može obavljati korišćenjem internet infrastrukture, preko telefonskih linija. Primer
+primene ove tehnologije je daljinsko očitavanje u..."
+[2025-08-27T02:19:13.002Z] 📊 SIMPLE: Character positions - Start: 314251, End: 321527
+[2025-08-27T02:19:13.002Z] ✅ SIMPLE: Extracted 7276 chars from pages 116-117
+[2025-08-27T02:19:13.026Z] 📄 SIMPLE: Processing section 78/118: "3. 4. 3. Elektronsko bankarstvo" (pages 117-118)
+[2025-08-27T02:19:13.028Z] 📄 SIMPLE: Extracting section "3. 4. 3. Elektronsko bankarstvo" from pages 117-118
+[2025-08-27T02:19:13.030Z] ✅ SIMPLE: Extracted 7571 chars from 2 pages (117, 118)
+[2025-08-27T02:19:13.030Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+Elektronska plaćanja
+Plaćanja su sastavni deo poslovnih operacija, bez obzira na to da li je rečo tradicionalnom ili onlajn
+poslovanju. Jedan od najpogodnijih ..."
+[2025-08-27T02:19:13.031Z] 📊 SIMPLE: Character positions - Start: 317909, End: 325480
+[2025-08-27T02:19:13.031Z] ✅ SIMPLE: Extracted 7571 chars from pages 117-118
+[2025-08-27T02:19:13.054Z] 📄 SIMPLE: Processing section 79/118: "3. 4. 4. Elektronska uprava" (pages 118-120)
+[2025-08-27T02:19:13.055Z] 📄 SIMPLE: Extracting section "3. 4. 4. Elektronska uprava" from pages 118-120
+[2025-08-27T02:19:13.055Z] ✅ SIMPLE: Extracted 12691 chars from 3 pages (118, 119, 120)
+[2025-08-27T02:19:13.055Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+Tržište diktira primenu novih trendova i usvajanje standarda, te će banke koje ne omoguće internet
+usluge gubiti svoje klijente. Da bi se internet bankarstvo pr..."
+[2025-08-27T02:19:13.055Z] 📊 SIMPLE: Character positions - Start: 321529, End: 334220
+[2025-08-27T02:19:13.056Z] ✅ SIMPLE: Extracted 12691 chars from pages 118-120
+[2025-08-27T02:19:13.056Z] 📄 Splitting section "3. 4. 4. Elektronska uprava" (12691 chars) for embedding
+[2025-08-27T02:19:13.056Z] 📄 Split "3. 4. 4. Elektronska uprava" into 2 embedding-safe parts
+[2025-08-27T02:19:13.056Z] 📄 Split section "3. 4. 4. Elektronska uprava" into 2 parts for embedding
+[2025-08-27T02:19:13.081Z] 📄 SIMPLE: Processing section 80/118: "3. 5. Načini povezivanja na internet" (pages 120-125)
+[2025-08-27T02:19:13.082Z] 📄 SIMPLE: Extracting section "3. 5. Načini povezivanja na internet" from pages 120-125
+[2025-08-27T02:19:13.082Z] ✅ SIMPLE: Extracted 14825 chars from 6 pages (120, 121, 122, 123, 124, 125)
+[2025-08-27T02:19:13.083Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+stepenom zaštite, neki sa višom. Takođe, svi zakoni i propisi iz ove oblasti moraju biti jasno definisani, i
+preventivno postavljeni sa jasnim kaznenim odredbam..."
+[2025-08-27T02:19:13.083Z] 📊 SIMPLE: Character positions - Start: 329856, End: 344681
+[2025-08-27T02:19:13.083Z] ✅ SIMPLE: Extracted 14825 chars from pages 120-125
+[2025-08-27T02:19:13.083Z] 📄 Splitting section "3. 5. Načini povezivanja na internet" (14825 chars) for embedding
+[2025-08-27T02:19:13.084Z] 📄 Split "3. 5. Načini povezivanja na internet" into 2 embedding-safe parts
+[2025-08-27T02:19:13.084Z] 📄 Split section "3. 5. Načini povezivanja na internet" into 2 parts for embedding
+[2025-08-27T02:19:13.106Z] 📄 SIMPLE: Processing section 81/118: "4. BEŽIČNE I MOBILNE KOMUNIKACIJE" (pages 125-159)
+[2025-08-27T02:19:13.107Z] 📄 SIMPLE: Extracting section "4. BEŽIČNE I MOBILNE KOMUNIKACIJE" from pages 125-159
+[2025-08-27T02:19:13.107Z] ✅ SIMPLE: Extracted 88704 chars from 35 pages (125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159)
+[2025-08-27T02:19:13.107Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+
+
+
+4. BEŽIČNE I MOBILNE KOMUNIKACIJE
+
+
+4. 1. Razvoj i perspektive bežičnih i mobilnih komunikacija
+
+Upotreba bežičnih komunikacija, počev od mobilne tele..."
+[2025-08-27T02:19:13.110Z] 📊 SIMPLE: Character positions - Start: 341689, End: 430393
+[2025-08-27T02:19:13.113Z] ✅ SIMPLE: Extracted 88704 chars from pages 125-159
+[2025-08-27T02:19:13.113Z] 📄 Splitting section "4. BEŽIČNE I MOBILNE KOMUNIKACIJE" (88704 chars) for embedding
+[2025-08-27T02:19:13.113Z] 📄 Split "4. BEŽIČNE I MOBILNE KOMUNIKACIJE" into 10 embedding-safe parts
+[2025-08-27T02:19:13.114Z] 📄 Split section "4. BEŽIČNE I MOBILNE KOMUNIKACIJE" into 10 parts for embedding
+[2025-08-27T02:19:13.137Z] 📄 SIMPLE: Processing section 82/118: "4. 1. Razvoj i perspektive bežičnih i mobilnih komunikacija" (pages 125-129)
+[2025-08-27T02:19:13.138Z] 📄 SIMPLE: Extracting section "4. 1. Razvoj i perspektive bežičnih i mobilnih komunikacija" from pages 125-129
+[2025-08-27T02:19:13.138Z] ✅ SIMPLE: Extracted 13912 chars from 5 pages (125, 126, 127, 128, 129)
+[2025-08-27T02:19:13.138Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+
+
+
+4. BEŽIČNE I MOBILNE KOMUNIKACIJE
+
+
+4. 1. Razvoj i perspektive bežičnih i mobilnih komunikacija
+
+Upotreba bežičnih komunikacija, počev od mobilne tele..."
+[2025-08-27T02:19:13.139Z] 📊 SIMPLE: Character positions - Start: 341689, End: 355601
+[2025-08-27T02:19:13.139Z] ✅ SIMPLE: Extracted 13912 chars from pages 125-129
+[2025-08-27T02:19:13.139Z] 📄 Splitting section "4. 1. Razvoj i perspektive bežičnih i mobilnih komunikacija" (13912 chars) for embedding
+[2025-08-27T02:19:13.139Z] 📄 Split "4. 1. Razvoj i perspektive bežičnih i mobilnih komunikacija" into 2 embedding-safe parts
+[2025-08-27T02:19:13.140Z] 📄 Split section "4. 1. Razvoj i perspektive bežičnih i mobilnih komunikacija" into 2 parts for embedding
+[2025-08-27T02:19:13.163Z] 📄 SIMPLE: Processing section 83/118: "4. 2. Osnove bežičnih komunikacija" (pages 129-136)
+[2025-08-27T02:19:13.163Z] 📄 SIMPLE: Extracting section "4. 2. Osnove bežičnih komunikacija" from pages 129-136
+[2025-08-27T02:19:13.164Z] ✅ SIMPLE: Extracted 16587 chars from 8 pages (129, 130, 131, 132, 133, 134, 135, 136)
+[2025-08-27T02:19:13.164Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+popravljati, pa nema potrebe za izlazkom majstora na teren. Moguć je daljinski nadzor. Odatle je samo
+korak do kućnog robota. Sve je to sada poznato kao Interne..."
+[2025-08-27T02:19:13.164Z] 📊 SIMPLE: Character positions - Start: 353932, End: 370519
+[2025-08-27T02:19:13.165Z] ✅ SIMPLE: Extracted 16587 chars from pages 129-136
+[2025-08-27T02:19:13.165Z] 📄 Splitting section "4. 2. Osnove bežičnih komunikacija" (16587 chars) for embedding
+[2025-08-27T02:19:13.165Z] 📄 Split "4. 2. Osnove bežičnih komunikacija" into 2 embedding-safe parts
+[2025-08-27T02:19:13.165Z] 📄 Split section "4. 2. Osnove bežičnih komunikacija" into 2 parts for embedding
+[2025-08-27T02:19:13.188Z] 📄 SIMPLE: Processing section 84/118: "4. 3. Standardi bežičnog umrežavanja" (pages 136-139)
+[2025-08-27T02:19:13.189Z] 📄 SIMPLE: Extracting section "4. 3. Standardi bežičnog umrežavanja" from pages 136-139
+[2025-08-27T02:19:13.189Z] ✅ SIMPLE: Extracted 12854 chars from 4 pages (136, 137, 138, 139)
+[2025-08-27T02:19:13.190Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+
+
+4. 3. Standardi bežičnog umrežavanja
+
+Umrežavanje je, kako je već ranije rečeno, povezivanje korisnika putem povezivanja računara ili
+drugih komunikacioni..."
+[2025-08-27T02:19:13.190Z] 📊 SIMPLE: Character positions - Start: 366838, End: 379692
+[2025-08-27T02:19:13.191Z] ✅ SIMPLE: Extracted 12854 chars from pages 136-139
+[2025-08-27T02:19:13.191Z] 📄 Splitting section "4. 3. Standardi bežičnog umrežavanja" (12854 chars) for embedding
+[2025-08-27T02:19:13.192Z] 📄 Split "4. 3. Standardi bežičnog umrežavanja" into 2 embedding-safe parts
+[2025-08-27T02:19:13.192Z] 📄 Split section "4. 3. Standardi bežičnog umrežavanja" into 2 parts for embedding
+[2025-08-27T02:19:13.218Z] 📄 SIMPLE: Processing section 85/118: "4. 4. Bežične mreže" (pages 139-140)
+[2025-08-27T02:19:13.218Z] 📄 SIMPLE: Extracting section "4. 4. Bežične mreže" from pages 139-140
+[2025-08-27T02:19:13.219Z] ✅ SIMPLE: Extracted 5266 chars from 2 pages (139, 140)
+[2025-08-27T02:19:13.219Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+• IEEE 802. 15. 3 ili UWB (Ultra-WideBand), za personalne mreže,
+• IEEE 802. 15. 4 ili ZigBee,
+• IEEE 802. 16 ili WiMax (umrežavanje na većem prostoru),
+• WAP..."
+[2025-08-27T02:19:13.220Z] 📊 SIMPLE: Character positions - Start: 378154, End: 383420
+[2025-08-27T02:19:13.220Z] ✅ SIMPLE: Extracted 5266 chars from pages 139-140
+[2025-08-27T02:19:13.244Z] 📄 SIMPLE: Processing section 86/118: "4. 4. 1. Bežične lokalne računarske mreže (WiFi)" (pages 140-142)
+[2025-08-27T02:19:13.245Z] 📄 SIMPLE: Extracting section "4. 4. 1. Bežične lokalne računarske mreže (WiFi)" from pages 140-142
+[2025-08-27T02:19:13.247Z] ✅ SIMPLE: Extracted 9504 chars from 3 pages (140, 141, 142)
+[2025-08-27T02:19:13.247Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+4. 4. 1. Bežične lokalne računarske mreže (WiFi)
+
+Sredinom devedesetih godina usvaja se IEEE 802. 11 standard za bežične komunikacije (ratifikovan
+1997. godin..."
+[2025-08-27T02:19:13.249Z] 📊 SIMPLE: Character positions - Start: 379694, End: 389198
+[2025-08-27T02:19:13.249Z] ✅ SIMPLE: Extracted 9504 chars from pages 140-142
+[2025-08-27T02:19:13.274Z] 📄 SIMPLE: Processing section 87/118: "4. 4. 2. Bluetooth" (pages 142-143)
+[2025-08-27T02:19:13.275Z] 📄 SIMPLE: Extracting section "4. 4. 2. Bluetooth" from pages 142-143
+[2025-08-27T02:19:13.276Z] ✅ SIMPLE: Extracted 7112 chars from 2 pages (142, 143)
+[2025-08-27T02:19:13.276Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+• promeniti lozinke koje se podrazumevaju (uobičajena imena i slično, a koja se lako mogu otkriti),
+• koristiti bezbednosne funkcije operativnog sistema za kont..."
+[2025-08-27T02:19:13.278Z] 📊 SIMPLE: Character positions - Start: 385775, End: 392887
+[2025-08-27T02:19:13.278Z] ✅ SIMPLE: Extracted 7112 chars from pages 142-143
+[2025-08-27T02:19:13.304Z] 📄 SIMPLE: Processing section 88/118: "4. 4. 3. WiMax" (pages 143-144)
+[2025-08-27T02:19:13.304Z] 📄 SIMPLE: Extracting section "4. 4. 3. WiMax" from pages 143-144
+[2025-08-27T02:19:13.305Z] ✅ SIMPLE: Extracted 5910 chars from 2 pages (143, 144)
+[2025-08-27T02:19:13.305Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+Pikomreža
+Pikomreža se formira kada dva ili više uređaja prepoznaju jedan drugog i počnu komunikaciju.
+Može da ima najviše 8 uređaja (jer je adresa duga samo 3..."
+[2025-08-27T02:19:13.306Z] 📊 SIMPLE: Character positions - Start: 389200, End: 395110
+[2025-08-27T02:19:13.306Z] ✅ SIMPLE: Extracted 5910 chars from pages 143-144
+[2025-08-27T02:19:13.331Z] 📄 SIMPLE: Processing section 89/118: "4. 4. 4. WAP" (pages 144-145)
+[2025-08-27T02:19:13.332Z] 📄 SIMPLE: Extracting section "4. 4. 4. WAP" from pages 144-145
+[2025-08-27T02:19:13.333Z] ✅ SIMPLE: Extracted 4687 chars from 2 pages (144, 145)
+[2025-08-27T02:19:13.334Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+WiMax oprema se može primetiti i po tome što se u kući ili kancelariji montira na prozoru ili krovu.
+Princip rada WiMax se može sagledati sa slike 4. 4-1. WiMAX..."
+[2025-08-27T02:19:13.335Z] 📊 SIMPLE: Character positions - Start: 392889, End: 397576
+[2025-08-27T02:19:13.335Z] ✅ SIMPLE: Extracted 4687 chars from pages 144-145
+[2025-08-27T02:19:13.360Z] 📄 SIMPLE: Processing section 90/118: "4. 4. 5. ZigBee" (pages 145-145)
+[2025-08-27T02:19:13.361Z] 📄 SIMPLE: Extracting section "4. 4. 5. ZigBee" from pages 145-145
+[2025-08-27T02:19:13.362Z] ✅ SIMPLE: Extracted 2464 chars from 1 pages (145)
+[2025-08-27T02:19:13.363Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+WAP i mobilni telefon
+Pored toga, WAP uređaji mogu direktno da komuniciraju sa serverom aplikacija bežične telefonije
+(WTA, Wireless Telephony Application).
+P..."
+[2025-08-27T02:19:13.364Z] 📊 SIMPLE: Character positions - Start: 395112, End: 397576
+[2025-08-27T02:19:13.365Z] ✅ SIMPLE: Extracted 2464 chars from pages 145-145
+[2025-08-27T02:19:13.390Z] 📄 SIMPLE: Processing section 91/118: "4. 4. 6. UWB" (pages 145-146)
+[2025-08-27T02:19:13.391Z] 📄 SIMPLE: Extracting section "4. 4. 6. UWB" from pages 145-146
+[2025-08-27T02:19:13.391Z] ✅ SIMPLE: Extracted 4792 chars from 2 pages (145, 146)
+[2025-08-27T02:19:13.392Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+WAP i mobilni telefon
+Pored toga, WAP uređaji mogu direktno da komuniciraju sa serverom aplikacija bežične telefonije
+(WTA, Wireless Telephony Application).
+P..."
+[2025-08-27T02:19:13.393Z] 📊 SIMPLE: Character positions - Start: 395112, End: 399904
+[2025-08-27T02:19:13.394Z] ✅ SIMPLE: Extracted 4792 chars from pages 145-146
+[2025-08-27T02:19:13.419Z] 📄 SIMPLE: Processing section 92/118: "4. 5. Još neke mreže za IoT i smart homes" (pages 146-146)
+[2025-08-27T02:19:13.420Z] 📄 SIMPLE: Extracting section "4. 5. Još neke mreže za IoT i smart homes" from pages 146-146
+[2025-08-27T02:19:13.420Z] ✅ SIMPLE: Extracted 2326 chars from 1 pages (146)
+[2025-08-27T02:19:13.421Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+moguća je primena kod radara vrlo visokih rezolucija, u sistemima za određivanje položaja (sa
+centimetarskom tačnošću), te u sistemima za praćenje, kao i drugim..."
+[2025-08-27T02:19:13.421Z] 📊 SIMPLE: Character positions - Start: 397578, End: 399904
+[2025-08-27T02:19:13.422Z] ✅ SIMPLE: Extracted 2326 chars from pages 146-146
+[2025-08-27T02:19:13.446Z] 📄 SIMPLE: Processing section 93/118: "4. 5. 1. Z-Wave" (pages 146-147)
+[2025-08-27T02:19:13.446Z] 📄 SIMPLE: Extracting section "4. 5. 1. Z-Wave" from pages 146-147
+[2025-08-27T02:19:13.448Z] ✅ SIMPLE: Extracted 5248 chars from 2 pages (146, 147)
+[2025-08-27T02:19:13.448Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+moguća je primena kod radara vrlo visokih rezolucija, u sistemima za određivanje položaja (sa
+centimetarskom tačnošću), te u sistemima za praćenje, kao i drugim..."
+[2025-08-27T02:19:13.449Z] 📊 SIMPLE: Character positions - Start: 397578, End: 402826
+[2025-08-27T02:19:13.449Z] ✅ SIMPLE: Extracted 5248 chars from pages 146-147
+[2025-08-27T02:19:13.474Z] 📄 SIMPLE: Processing section 94/118: "4. 5. 2. LORA" (pages 147-147)
+[2025-08-27T02:19:13.475Z] 📄 SIMPLE: Extracting section "4. 5. 2. LORA" from pages 147-147
+[2025-08-27T02:19:13.475Z] ✅ SIMPLE: Extracted 2920 chars from 1 pages (147)
+[2025-08-27T02:19:13.476Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+4. 5. 2. LORA
+
+Iako ZigBee i Z-Wave mogu da obezbede domet do 300 m, oni nisu namenjeni za bežićne mreže
+velikog dometa i male snage (engl. Long-range low-pow..."
+[2025-08-27T02:19:13.478Z] 📊 SIMPLE: Character positions - Start: 399906, End: 402826
+[2025-08-27T02:19:13.479Z] ✅ SIMPLE: Extracted 2920 chars from pages 147-147
+[2025-08-27T02:19:13.503Z] 📄 SIMPLE: Processing section 95/118: "4. 5. 3. Sigfox" (pages 147-147)
+[2025-08-27T02:19:13.504Z] 📄 SIMPLE: Extracting section "4. 5. 3. Sigfox" from pages 147-147
+[2025-08-27T02:19:13.504Z] ✅ SIMPLE: Extracted 2920 chars from 1 pages (147)
+[2025-08-27T02:19:13.505Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+4. 5. 2. LORA
+
+Iako ZigBee i Z-Wave mogu da obezbede domet do 300 m, oni nisu namenjeni za bežićne mreže
+velikog dometa i male snage (engl. Long-range low-pow..."
+[2025-08-27T02:19:13.506Z] 📊 SIMPLE: Character positions - Start: 399906, End: 402826
+[2025-08-27T02:19:13.506Z] ✅ SIMPLE: Extracted 2920 chars from pages 147-147
+[2025-08-27T02:19:13.531Z] 📄 SIMPLE: Processing section 96/118: "4. 5. 4. Narrowband-IoT" (pages 147-147)
+[2025-08-27T02:19:13.532Z] 📄 SIMPLE: Extracting section "4. 5. 4. Narrowband-IoT" from pages 147-147
+[2025-08-27T02:19:13.532Z] ✅ SIMPLE: Extracted 2920 chars from 1 pages (147)
+[2025-08-27T02:19:13.533Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+4. 5. 2. LORA
+
+Iako ZigBee i Z-Wave mogu da obezbede domet do 300 m, oni nisu namenjeni za bežićne mreže
+velikog dometa i male snage (engl. Long-range low-pow..."
+[2025-08-27T02:19:13.533Z] 📊 SIMPLE: Character positions - Start: 399906, End: 402826
+[2025-08-27T02:19:13.534Z] ✅ SIMPLE: Extracted 2920 chars from pages 147-147
+[2025-08-27T02:19:13.557Z] 📄 SIMPLE: Processing section 97/118: "4. 5. 6. Sensor Networks" (pages 147-147)
+[2025-08-27T02:19:13.558Z] 📄 SIMPLE: Extracting section "4. 5. 6. Sensor Networks" from pages 147-147
+[2025-08-27T02:19:13.558Z] ✅ SIMPLE: Extracted 2920 chars from 1 pages (147)
+[2025-08-27T02:19:13.560Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+4. 5. 2. LORA
+
+Iako ZigBee i Z-Wave mogu da obezbede domet do 300 m, oni nisu namenjeni za bežićne mreže
+velikog dometa i male snage (engl. Long-range low-pow..."
+[2025-08-27T02:19:13.561Z] 📊 SIMPLE: Character positions - Start: 399906, End: 402826
+[2025-08-27T02:19:13.561Z] ✅ SIMPLE: Extracted 2920 chars from pages 147-147
+[2025-08-27T02:19:13.585Z] 📄 SIMPLE: Processing section 98/118: "4. 6. Javni ćelijski mobilni sistemi" (pages 147-152)
+[2025-08-27T02:19:13.586Z] 📄 SIMPLE: Extracting section "4. 6. Javni ćelijski mobilni sistemi" from pages 147-152
+[2025-08-27T02:19:13.586Z] ✅ SIMPLE: Extracted 15362 chars from 6 pages (147, 148, 149, 150, 151, 152)
+[2025-08-27T02:19:13.587Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+4. 5. 2. LORA
+
+Iako ZigBee i Z-Wave mogu da obezbede domet do 300 m, oni nisu namenjeni za bežićne mreže
+velikog dometa i male snage (engl. Long-range low-pow..."
+[2025-08-27T02:19:13.587Z] 📊 SIMPLE: Character positions - Start: 399906, End: 415268
+[2025-08-27T02:19:13.588Z] ✅ SIMPLE: Extracted 15362 chars from pages 147-152
+[2025-08-27T02:19:13.588Z] 📄 Splitting section "4. 6. Javni ćelijski mobilni sistemi" (15362 chars) for embedding
+[2025-08-27T02:19:13.588Z] 📄 Split "4. 6. Javni ćelijski mobilni sistemi" into 2 embedding-safe parts
+[2025-08-27T02:19:13.589Z] 📄 Split section "4. 6. Javni ćelijski mobilni sistemi" into 2 parts for embedding
+[2025-08-27T02:19:13.613Z] 📄 SIMPLE: Processing section 99/118: "4. 7. Satelitske komunikacije" (pages 152-155)
+[2025-08-27T02:19:13.614Z] 📄 SIMPLE: Extracting section "4. 7. Satelitske komunikacije" from pages 152-155
+[2025-08-27T02:19:13.614Z] ✅ SIMPLE: Extracted 9761 chars from 4 pages (152, 153, 154, 155)
+[2025-08-27T02:19:13.614Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+neusmerene antene, većih visina (npr. 6 - 12 m) ili usmerene antene sa uglom zračenja 30o, 60o, 120o za
+sektorisane ćelije. Opciona mogućnost je prostorni diver..."
+[2025-08-27T02:19:13.615Z] 📊 SIMPLE: Character positions - Start: 412910, End: 422671
+[2025-08-27T02:19:13.616Z] ✅ SIMPLE: Extracted 9761 chars from pages 152-155
+[2025-08-27T02:19:13.654Z] 📄 SIMPLE: Processing section 100/118: "4. 8. Globalni sistem za pozicioniranje (GPS)" (pages 155-159)
+[2025-08-27T02:19:13.654Z] 📄 SIMPLE: Extracting section "4. 8. Globalni sistem za pozicioniranje (GPS)" from pages 155-159
+[2025-08-27T02:19:13.655Z] ✅ SIMPLE: Extracted 10587 chars from 5 pages (155, 156, 157, 158, 159)
+[2025-08-27T02:19:13.655Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+
+
+4. 8. Globalni sistem za pozicioniranje (GPS)
+
+Namena GPS-a
+GPS (Global Positioning System), odnosno globalni pozicioni sistem, je satelitski radio-naviga..."
+[2025-08-27T02:19:13.656Z] 📊 SIMPLE: Character positions - Start: 419806, End: 430393
+[2025-08-27T02:19:13.656Z] ✅ SIMPLE: Extracted 10587 chars from pages 155-159
+[2025-08-27T02:19:13.656Z] 📄 Splitting section "4. 8. Globalni sistem za pozicioniranje (GPS)" (10587 chars) for embedding
+[2025-08-27T02:19:13.657Z] 📄 Split "4. 8. Globalni sistem za pozicioniranje (GPS)" into 2 embedding-safe parts
+[2025-08-27T02:19:13.657Z] 📄 Split section "4. 8. Globalni sistem za pozicioniranje (GPS)" into 2 parts for embedding
+[2025-08-27T02:19:13.682Z] 📄 SIMPLE: Processing section 101/118: "5. INFORMACIONE TEHNOLOGIJE I DRUŠTVO" (pages 159-179)
+[2025-08-27T02:19:13.682Z] 📄 SIMPLE: Extracting section "5. INFORMACIONE TEHNOLOGIJE I DRUŠTVO" from pages 159-179
+[2025-08-27T02:19:13.683Z] ✅ SIMPLE: Extracted 71576 chars from 21 pages (159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179)
+[2025-08-27T02:19:13.683Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+
+
+
+5. INFORMACIONE TEHNOLOGIJE I DRUŠTVO
+
+5. 1. Uticaj informacionih tehnologija na društvo i pojedinca
+
+Uticaj informacionih tehnologija na privatni i po..."
+[2025-08-27T02:19:13.685Z] 📊 SIMPLE: Character positions - Start: 426876, End: 498452
+[2025-08-27T02:19:13.685Z] ✅ SIMPLE: Extracted 71576 chars from pages 159-179
+[2025-08-27T02:19:13.685Z] 📄 Splitting section "5. INFORMACIONE TEHNOLOGIJE I DRUŠTVO" (71576 chars) for embedding
+[2025-08-27T02:19:13.685Z] 📄 Split "5. INFORMACIONE TEHNOLOGIJE I DRUŠTVO" into 9 embedding-safe parts
+[2025-08-27T02:19:13.686Z] 📄 Split section "5. INFORMACIONE TEHNOLOGIJE I DRUŠTVO" into 9 parts for embedding
+[2025-08-27T02:19:13.709Z] 📄 SIMPLE: Processing section 102/118: "5. 1. Uticaj informacionih tehnologija na društvo i pojedinca" (pages 159-162)
+[2025-08-27T02:19:13.710Z] 📄 SIMPLE: Extracting section "5. 1. Uticaj informacionih tehnologija na društvo i pojedinca" from pages 159-162
+[2025-08-27T02:19:13.710Z] ✅ SIMPLE: Extracted 15074 chars from 4 pages (159, 160, 161, 162)
+[2025-08-27T02:19:13.711Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+
+
+
+5. INFORMACIONE TEHNOLOGIJE I DRUŠTVO
+
+5. 1. Uticaj informacionih tehnologija na društvo i pojedinca
+
+Uticaj informacionih tehnologija na privatni i po..."
+[2025-08-27T02:19:13.712Z] 📊 SIMPLE: Character positions - Start: 426876, End: 441950
+[2025-08-27T02:19:13.712Z] ✅ SIMPLE: Extracted 15074 chars from pages 159-162
+[2025-08-27T02:19:13.712Z] 📄 Splitting section "5. 1. Uticaj informacionih tehnologija na društvo i pojedinca" (15074 chars) for embedding
+[2025-08-27T02:19:13.713Z] 📄 Split "5. 1. Uticaj informacionih tehnologija na društvo i pojedinca" into 2 embedding-safe parts
+[2025-08-27T02:19:13.713Z] 📄 Split section "5. 1. Uticaj informacionih tehnologija na društvo i pojedinca" into 2 parts for embedding
+[2025-08-27T02:19:13.736Z] 📄 SIMPLE: Processing section 103/118: "5. 2. Računari u svakodnevnom životu" (pages 162-163)
+[2025-08-27T02:19:13.736Z] 📄 SIMPLE: Extracting section "5. 2. Računari u svakodnevnom životu" from pages 162-163
+[2025-08-27T02:19:13.737Z] ✅ SIMPLE: Extracted 8023 chars from 2 pages (162, 163)
+[2025-08-27T02:19:13.737Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+dovodi kablovske TV programe, omogućuje pristup internetu i prenos glasa putem telefona. Upotreba
+optičkih vlakana u telefonskoj/zemaljskoj mreži doprineće razv..."
+[2025-08-27T02:19:13.737Z] 📊 SIMPLE: Character positions - Start: 437469, End: 445492
+[2025-08-27T02:19:13.737Z] ✅ SIMPLE: Extracted 8023 chars from pages 162-163
+[2025-08-27T02:19:13.761Z] 📄 SIMPLE: Processing section 104/118: "5. 3. Softverski podržano učenje" (pages 163-166)
+[2025-08-27T02:19:13.761Z] 📄 SIMPLE: Extracting section "5. 3. Softverski podržano učenje" from pages 163-166
+[2025-08-27T02:19:13.762Z] ✅ SIMPLE: Extracted 14470 chars from 4 pages (163, 164, 165, 166)
+[2025-08-27T02:19:13.762Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+• smanjenje negativnog uticaja na okolinu, smanjenje potrošnje naftnih derivata prilikom prevoza
+(ličnog ili gradskog),
+• ne postojanje striktnog radnog vremen..."
+[2025-08-27T02:19:13.763Z] 📊 SIMPLE: Character positions - Start: 441952, End: 456422
+[2025-08-27T02:19:13.763Z] ✅ SIMPLE: Extracted 14470 chars from pages 163-166
+[2025-08-27T02:19:13.763Z] 📄 Splitting section "5. 3. Softverski podržano učenje" (14470 chars) for embedding
+[2025-08-27T02:19:13.763Z] 📄 Split "5. 3. Softverski podržano učenje" into 2 embedding-safe parts
+[2025-08-27T02:19:13.764Z] 📄 Split section "5. 3. Softverski podržano učenje" into 2 parts for embedding
+[2025-08-27T02:19:13.787Z] 📄 SIMPLE: Processing section 105/118: "5. 4. Interakcija čovek - računar" (pages 166-169)
+[2025-08-27T02:19:13.787Z] 📄 SIMPLE: Extracting section "5. 4. Interakcija čovek - računar" from pages 166-169
+[2025-08-27T02:19:13.788Z] ✅ SIMPLE: Extracted 12947 chars from 4 pages (166, 167, 168, 169)
+[2025-08-27T02:19:13.788Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+• smanjenje prostornih i vremenskih ograničenja;
+• ne gubi se vreme u putu do škole;
+• pored sticanja informacija o onome što uče, studenti rade sa različitim ..."
+[2025-08-27T02:19:13.788Z] 📊 SIMPLE: Character positions - Start: 453151, End: 466098
+[2025-08-27T02:19:13.789Z] ✅ SIMPLE: Extracted 12947 chars from pages 166-169
+[2025-08-27T02:19:13.789Z] 📄 Splitting section "5. 4. Interakcija čovek - računar" (12947 chars) for embedding
+[2025-08-27T02:19:13.789Z] 📄 Split "5. 4. Interakcija čovek - računar" into 2 embedding-safe parts
+[2025-08-27T02:19:13.789Z] 📄 Split section "5. 4. Interakcija čovek - računar" into 2 parts for embedding
+[2025-08-27T02:19:13.811Z] 📄 SIMPLE: Processing section 106/118: "5. 5. Rad za računarom i zdravlje" (pages 169-175)
+[2025-08-27T02:19:13.812Z] 📄 SIMPLE: Extracting section "5. 5. Rad za računarom i zdravlje" from pages 169-175
+[2025-08-27T02:19:13.813Z] ✅ SIMPLE: Extracted 20928 chars from 7 pages (169, 170, 171, 172, 173, 174, 175)
+[2025-08-27T02:19:13.813Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+Tipovi poruka koji se koriste kod izlaza:
+• prompt – zahtev za korisnikov ulaz,
+• podaci – podaci iz aplikacije koji slede korisnikov zahtev,
+• status – obave..."
+[2025-08-27T02:19:13.814Z] 📊 SIMPLE: Character positions - Start: 463504, End: 484432
+[2025-08-27T02:19:13.814Z] ✅ SIMPLE: Extracted 20928 chars from pages 169-175
+[2025-08-27T02:19:13.814Z] 📄 Splitting section "5. 5. Rad za računarom i zdravlje" (20928 chars) for embedding
+[2025-08-27T02:19:13.815Z] 📄 Split "5. 5. Rad za računarom i zdravlje" into 3 embedding-safe parts
+[2025-08-27T02:19:13.815Z] 📄 Split section "5. 5. Rad za računarom i zdravlje" into 3 parts for embedding
+[2025-08-27T02:19:13.842Z] 📄 SIMPLE: Processing section 107/118: "5. 6. Virtuelne zajednice" (pages 175-177)
+[2025-08-27T02:19:13.843Z] 📄 SIMPLE: Extracting section "5. 6. Virtuelne zajednice" from pages 175-177
+[2025-08-27T02:19:13.844Z] ✅ SIMPLE: Extracted 11350 chars from 3 pages (175, 176, 177)
+[2025-08-27T02:19:13.845Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+razgrađuju prirodnim putem čak i decenijama. Bez uvođenja reciklažeu svakodnevni život nemoguće je
+zamisliti bilo kakav sistem upravljanja otpadom.
+U dnu mnogi..."
+[2025-08-27T02:19:13.846Z] 📊 SIMPLE: Character positions - Start: 480472, End: 491822
+[2025-08-27T02:19:13.846Z] ✅ SIMPLE: Extracted 11350 chars from pages 175-177
+[2025-08-27T02:19:13.846Z] 📄 Splitting section "5. 6. Virtuelne zajednice" (11350 chars) for embedding
+[2025-08-27T02:19:13.847Z] 📄 Split "5. 6. Virtuelne zajednice" into 2 embedding-safe parts
+[2025-08-27T02:19:13.847Z] 📄 Split section "5. 6. Virtuelne zajednice" into 2 parts for embedding
+[2025-08-27T02:19:13.879Z] 📄 SIMPLE: Processing section 108/118: "5. 7. Nove tehnologije i komunikacije" (pages 177-179)
+[2025-08-27T02:19:13.879Z] 📄 SIMPLE: Extracting section "5. 7. Nove tehnologije i komunikacije" from pages 177-179
+[2025-08-27T02:19:13.879Z] ✅ SIMPLE: Extracted 9647 chars from 3 pages (177, 178, 179)
+[2025-08-27T02:19:13.880Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+
+
+
+Slika 5. 5-6. Deo emotikona iz programa Skype
+
+Razvoj računarske tehnologije rezultira stvaranjem nove klase, „informatičke elite“, suprotstavljene
+"inf..."
+[2025-08-27T02:19:13.880Z] 📊 SIMPLE: Character positions - Start: 488805, End: 498452
+[2025-08-27T02:19:13.880Z] ✅ SIMPLE: Extracted 9647 chars from pages 177-179
+[2025-08-27T02:19:13.904Z] 📄 SIMPLE: Processing section 109/118: "6. ZAŠTITA I PRAVO" (pages 179-193)
+[2025-08-27T02:19:13.904Z] 📄 SIMPLE: Extracting section "6. ZAŠTITA I PRAVO" from pages 179-193
+[2025-08-27T02:19:13.904Z] ✅ SIMPLE: Extracted 50690 chars from 15 pages (179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193)
+[2025-08-27T02:19:13.905Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+6. ZAŠTITA I PRAVO
+
+6. 1. Zaštita računara i podataka
+
+Zaštita objekata i računara
+Kada govorimo o zaštiti računara postoji više načina na koji se ova oblas..."
+[2025-08-27T02:19:13.905Z] 📊 SIMPLE: Character positions - Start: 494007, End: 544697
+[2025-08-27T02:19:13.905Z] ✅ SIMPLE: Extracted 50690 chars from pages 179-193
+[2025-08-27T02:19:13.906Z] 📄 Splitting section "6. ZAŠTITA I PRAVO" (50690 chars) for embedding
+[2025-08-27T02:19:13.906Z] 📄 Split "6. ZAŠTITA I PRAVO" into 6 embedding-safe parts
+[2025-08-27T02:19:13.906Z] 📄 Split section "6. ZAŠTITA I PRAVO" into 6 parts for embedding
+[2025-08-27T02:19:13.928Z] 📄 SIMPLE: Processing section 110/118: "6. 1. Zaštita računara i podataka" (pages 179-182)
+[2025-08-27T02:19:13.928Z] 📄 SIMPLE: Extracting section "6. 1. Zaštita računara i podataka" from pages 179-182
+[2025-08-27T02:19:13.929Z] ✅ SIMPLE: Extracted 13354 chars from 4 pages (179, 180, 181, 182)
+[2025-08-27T02:19:13.929Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+6. ZAŠTITA I PRAVO
+
+6. 1. Zaštita računara i podataka
+
+Zaštita objekata i računara
+Kada govorimo o zaštiti računara postoji više načina na koji se ova oblas..."
+[2025-08-27T02:19:13.930Z] 📊 SIMPLE: Character positions - Start: 494007, End: 507361
+[2025-08-27T02:19:13.930Z] ✅ SIMPLE: Extracted 13354 chars from pages 179-182
+[2025-08-27T02:19:13.930Z] 📄 Splitting section "6. 1. Zaštita računara i podataka" (13354 chars) for embedding
+[2025-08-27T02:19:13.931Z] 📄 Split "6. 1. Zaštita računara i podataka" into 2 embedding-safe parts
+[2025-08-27T02:19:13.931Z] 📄 Split section "6. 1. Zaštita računara i podataka" into 2 parts for embedding
+[2025-08-27T02:19:13.954Z] 📄 SIMPLE: Processing section 111/118: "6. 2. Zaštita od virusa i upada u računar" (pages 182-186)
+[2025-08-27T02:19:13.954Z] 📄 SIMPLE: Extracting section "6. 2. Zaštita od virusa i upada u računar" from pages 182-186
+[2025-08-27T02:19:13.955Z] ✅ SIMPLE: Extracted 17298 chars from 5 pages (182, 183, 184, 185, 186)
+[2025-08-27T02:19:13.955Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+
+Vrste izrade rezervnih kopija. Postoje tri načina pravljenja bekapa:
+• Full backup je potpuni bekap, odnosno, izrada kopije kompletnog hard diska. Ovo je ujed..."
+[2025-08-27T02:19:13.955Z] 📊 SIMPLE: Character positions - Start: 505257, End: 522555
+[2025-08-27T02:19:13.956Z] ✅ SIMPLE: Extracted 17298 chars from pages 182-186
+[2025-08-27T02:19:13.956Z] 📄 Splitting section "6. 2. Zaštita od virusa i upada u računar" (17298 chars) for embedding
+[2025-08-27T02:19:13.956Z] 📄 Split "6. 2. Zaštita od virusa i upada u računar" into 2 embedding-safe parts
+[2025-08-27T02:19:13.956Z] 📄 Split section "6. 2. Zaštita od virusa i upada u računar" into 2 parts for embedding
+[2025-08-27T02:19:13.979Z] 📄 SIMPLE: Processing section 112/118: "6. 3. Informaciono društvo i zakonodavni okvir" (pages 186-189)
+[2025-08-27T02:19:13.979Z] 📄 SIMPLE: Extracting section "6. 3. Informaciono društvo i zakonodavni okvir" from pages 186-189
+[2025-08-27T02:19:13.979Z] ✅ SIMPLE: Extracted 13047 chars from 4 pages (186, 187, 188, 189)
+[2025-08-27T02:19:13.979Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+izlazi van lokalne računarske mreže. Ukoliko se stranica ne nalazi u kešu onda se zahtev korisnika prosleđuje
+van lokalne računarske mreže. Ukoliko se korisničk..."
+[2025-08-27T02:19:13.980Z] 📊 SIMPLE: Character positions - Start: 520486, End: 533533
+[2025-08-27T02:19:13.980Z] ✅ SIMPLE: Extracted 13047 chars from pages 186-189
+[2025-08-27T02:19:13.980Z] 📄 Splitting section "6. 3. Informaciono društvo i zakonodavni okvir" (13047 chars) for embedding
+[2025-08-27T02:19:13.981Z] 📄 Split "6. 3. Informaciono društvo i zakonodavni okvir" into 2 embedding-safe parts
+[2025-08-27T02:19:13.981Z] 📄 Split section "6. 3. Informaciono društvo i zakonodavni okvir" into 2 parts for embedding
+[2025-08-27T02:19:14.004Z] 📄 SIMPLE: Processing section 113/118: "6. 4. Licenciranje" (pages 189-190)
+[2025-08-27T02:19:14.004Z] 📄 SIMPLE: Extracting section "6. 4. Licenciranje" from pages 189-190
+[2025-08-27T02:19:14.004Z] ✅ SIMPLE: Extracted 7827 chars from 2 pages (189, 190)
+[2025-08-27T02:19:14.004Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+komisije su pored tržišnih inspektora tog ministartsva i predstavnici iz Ministarstva unutrašnjih poslova,
+Uprave carina, Ministarstva pravde i Ministarstva kul..."
+[2025-08-27T02:19:14.005Z] 📊 SIMPLE: Character positions - Start: 529625, End: 537452
+[2025-08-27T02:19:14.005Z] ✅ SIMPLE: Extracted 7827 chars from pages 189-190
+[2025-08-27T02:19:14.028Z] 📄 SIMPLE: Processing section 114/118: "6. 5. Autorska prava" (pages 190-193)
+[2025-08-27T02:19:14.028Z] 📄 SIMPLE: Extracting section "6. 5. Autorska prava" from pages 190-193
+[2025-08-27T02:19:14.028Z] ✅ SIMPLE: Extracted 11162 chars from 4 pages (190, 191, 192, 193)
+[2025-08-27T02:19:14.029Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+Postoje dve varijante ovog softvera, jedna, koja je već spomenuta, gde korisnik ima kompletnu
+verziju, ali mu je vreme korišćenja ograničeno. Druga varijanta je..."
+[2025-08-27T02:19:14.029Z] 📊 SIMPLE: Character positions - Start: 533535, End: 544697
+[2025-08-27T02:19:14.030Z] ✅ SIMPLE: Extracted 11162 chars from pages 190-193
+[2025-08-27T02:19:14.030Z] 📄 Splitting section "6. 5. Autorska prava" (11162 chars) for embedding
+[2025-08-27T02:19:14.030Z] 📄 Split "6. 5. Autorska prava" into 2 embedding-safe parts
+[2025-08-27T02:19:14.030Z] 📄 Split section "6. 5. Autorska prava" into 2 parts for embedding
+[2025-08-27T02:19:14.053Z] 📄 SIMPLE: Processing section 115/118: "LITERATURA" (pages 193-195)
+[2025-08-27T02:19:14.054Z] 📄 SIMPLE: Extracting section "LITERATURA" from pages 193-195
+[2025-08-27T02:19:14.054Z] ✅ SIMPLE: Extracted 4181 chars from 3 pages (193, 194, 195)
+[2025-08-27T02:19:14.054Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+
+
+
+LITERATURA
+1.  Bigelow J. S.: Računarske mreže: instaliranje, održavanje, popravljanje, Mikro knjiga, Beograd, 2004.
+2.  Cano C. C., Berrios V., Garcia B..."
+[2025-08-27T02:19:14.055Z] 📊 SIMPLE: Character positions - Start: 541411, End: 545592
+[2025-08-27T02:19:14.055Z] ✅ SIMPLE: Extracted 4181 chars from pages 193-195
+[2025-08-27T02:19:14.079Z] 📄 SIMPLE: Processing section 116/118: "PRILOZI" (pages 195-195)
+[2025-08-27T02:19:14.079Z] 📄 SIMPLE: Extracting section "PRILOZI" from pages 195-195
+[2025-08-27T02:19:14.080Z] ✅ SIMPLE: Extracted 843 chars from 1 pages (195)
+[2025-08-27T02:19:14.080Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+
+PRILOZI
+
+PREFIKSI ZA OZNAČAVANJE VELIKIH I MALIH MERNIH JEDINICA
+
+
+
+
+MNOŽITELJ PREFIKS OZNAKA
+
+1024= 1 000 000 000 000 000 000 000 000 јоtа Y
+
+1021=..."
+[2025-08-27T02:19:14.081Z] 📊 SIMPLE: Character positions - Start: 544749, End: 545592
+[2025-08-27T02:19:14.082Z] ✅ SIMPLE: Extracted 843 chars from pages 195-195
+[2025-08-27T02:19:14.106Z] 📄 SIMPLE: Processing section 117/118: "PREFIKSI ZA OZNAČAVANJE VELIKIH I MALIH MERNIH JEDINICA" (pages 195-197)
+[2025-08-27T02:19:14.106Z] 📄 SIMPLE: Extracting section "PREFIKSI ZA OZNAČAVANJE VELIKIH I MALIH MERNIH JEDINICA" from pages 195-197
+[2025-08-27T02:19:14.106Z] ✅ SIMPLE: Extracted 3142 chars from 3 pages (195, 196, 197)
+[2025-08-27T02:19:14.107Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+
+PRILOZI
+
+PREFIKSI ZA OZNAČAVANJE VELIKIH I MALIH MERNIH JEDINICA
+
+
+
+
+MNOŽITELJ PREFIKS OZNAKA
+
+1024= 1 000 000 000 000 000 000 000 000 јоtа Y
+
+1021=..."
+[2025-08-27T02:19:14.107Z] 📊 SIMPLE: Character positions - Start: 544749, End: 547891
+[2025-08-27T02:19:14.108Z] ✅ SIMPLE: Extracted 3142 chars from pages 195-197
+[2025-08-27T02:19:14.133Z] 📄 SIMPLE: Processing section 118/118: "INDEKS" (pages 197-212)
+[2025-08-27T02:19:14.133Z] 📄 SIMPLE: Extracting section "INDEKS" from pages 197-212
+[2025-08-27T02:19:14.133Z] ✅ SIMPLE: Extracted 11676 chars from 5 pages (197, 198, 199, 200, 201)
+[2025-08-27T02:19:14.134Z] 📖 SIMPLE: Content preview: "Informacione i internet tehnologije
+
+
+
+
+INDEKS
+Brzina rada računara, 66
+Brzina štampe, 59
+. BS, 149
+. NET, 88 Business to Business, 116
+Business to Consumer, 116
+Byte, 36
+A
+Access Point, ..."
+[2025-08-27T02:19:14.135Z] 📊 SIMPLE: Character positions - Start: 545644, End: 557320
+[2025-08-27T02:19:14.135Z] ✅ SIMPLE: Extracted 11676 chars from pages 197-212
+[2025-08-27T02:19:14.135Z] 📄 Splitting section "INDEKS" (11676 chars) for embedding
+[2025-08-27T02:19:14.135Z] 📄 Split "INDEKS" into 2 embedding-safe parts
+[2025-08-27T02:19:14.136Z] 📄 Split section "INDEKS" into 2 parts for embedding
+[2025-08-27T02:19:14.165Z] ✅ SIMPLE: Processed 208 sections (including split sections)
+[2025-08-27T02:19:14.166Z] 📝 Legacy structure detection completed: 208 sections found
+[2025-08-27T02:19:14.194Z] Progress: embed - 75% - Processing sections and creating embeddings
+[2025-08-27T02:19:14.198Z] INFO: 
+[2025-08-27T02:19:14.198Z] INFO: ------------------------------------------------------------
+[2025-08-27T02:19:14.198Z] INFO: SECTION: ERROR HANDLING
+[2025-08-27T02:19:14.198Z] INFO: ------------------------------------------------------------
+[2025-08-27T02:19:14.198Z] ERROR: ERROR in document processing: DocumentSection validation failed: year: Year is required, departmentId: Department ID is required, facultyId: Faculty ID is required
+[2025-08-27T02:19:14.199Z] ERROR: Stack trace:
+[2025-08-27T02:19:14.199Z] ERROR:   ValidationError: DocumentSection validation failed: year: Year is required, departmentId: Department ID is required, facultyId: Faculty ID is required
+[2025-08-27T02:19:14.199Z] ERROR:       at model.Document.invalidate (D:\faxit1\FaxBackend\node_modules\mongoose\lib\document.js:3358:32)
+[2025-08-27T02:19:14.199Z] ERROR:       at D:\faxit1\FaxBackend\node_modules\mongoose\lib\document.js:3119:17
+[2025-08-27T02:19:14.199Z] ERROR:       at D:\faxit1\FaxBackend\node_modules\mongoose\lib\schemaType.js:1410:9
+[2025-08-27T02:19:14.199Z] ERROR:       at processTicksAndRejections (node:internal/process/task_queues:85:11)
+[2025-08-27T02:19:14.199Z] INFO: Updating material status to failed
+[2025-08-27T02:19:14.278Z] INFO: 
+[2025-08-27T02:19:14.278Z] INFO: ================================================================================
+[2025-08-27T02:19:14.278Z] INFO: End Time: 2025-08-27T02:19:14.278Z
+[2025-08-27T02:19:14.278Z] INFO: Total Processing Time: 156 seconds
+[2025-08-27T02:19:14.278Z] INFO: Total Log Entries: 1478
+[2025-08-27T02:19:14.278Z] INFO: ================================================================================

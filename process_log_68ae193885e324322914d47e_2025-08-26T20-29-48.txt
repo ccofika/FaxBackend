@@ -1,0 +1,568 @@
+[2025-08-26T20:29:48.762Z] INFO: ================================================================================
+[2025-08-26T20:29:48.762Z] INFO: DOCUMENT PROCESSING LOG
+[2025-08-26T20:29:48.762Z] INFO: Material ID: 68ae193885e324322914d47e
+[2025-08-26T20:29:48.762Z] INFO: Start Time: 2025-08-26T20:29:48.762Z
+[2025-08-26T20:29:48.762Z] INFO: ================================================================================
+[2025-08-26T20:29:48.762Z] INFO: 
+[2025-08-26T20:29:48.762Z] INFO: Starting document processing for material: 68ae193885e324322914d47e
+[2025-08-26T20:29:48.762Z] INFO: TOC pages specified: 2-3
+[2025-08-26T20:29:48.762Z] INFO: Progress: probe [█-------------------] 5% - Starting document processing
+[2025-08-26T20:29:48.791Z] Progress: probe - 5% - Starting document processing
+[2025-08-26T20:29:48.791Z] INFO: 
+[2025-08-26T20:29:48.791Z] INFO: ------------------------------------------------------------
+[2025-08-26T20:29:48.791Z] INFO: SECTION: INITIALIZATION
+[2025-08-26T20:29:48.791Z] INFO: ------------------------------------------------------------
+[2025-08-26T20:29:48.791Z] INFO: Progress: probe [█-------------------] 7% - Clearing existing test data
+[2025-08-26T20:29:48.818Z] Progress: probe - 7% - Clearing existing test data
+[2025-08-26T20:29:49.817Z] INFO: Loading material from database
+[2025-08-26T20:29:49.842Z] INFO: Material loaded: skripta_E1_2013 (Subject: 68ae193285e324322914d443)
+[2025-08-26T20:29:49.891Z] Progress: probe - 10% - Downloading PDF from R2
+[2025-08-26T20:29:50.163Z] INFO: 
+[2025-08-26T20:29:50.163Z] INFO: ------------------------------------------------------------
+[2025-08-26T20:29:50.163Z] INFO: SECTION: PDF TEXT EXTRACTION
+[2025-08-26T20:29:50.163Z] INFO: ------------------------------------------------------------
+[2025-08-26T20:29:50.164Z] INFO: Progress: text [████----------------] 20% - Extracting text from entire PDF content (all pages from 4 onwards)
+[2025-08-26T20:29:50.164Z] INFO: Starting text extraction from page 4 onwards
+[2025-08-26T20:29:50.188Z] Progress: text - 20% - Extracting text from entire PDF content (all pages from 4 onwards)
+[2025-08-26T20:29:50.189Z] 🔄 Using node-poppler for true page-by-page extraction (pages 4 to 1003)
+[2025-08-26T20:29:50.190Z] 📁 Created temp PDF file: C:\Users\stefa\AppData\Local\Temp\temp_pdf_1756240190189.pdf
+[2025-08-26T20:29:51.172Z] 📚 PDF has 100 pages, extracting 4 to 100
+[2025-08-26T20:29:51.172Z] 📄 Extracting page 4/100...
+[2025-08-26T20:29:51.255Z] ✅ Page 4 extracted: 2016 characters
+[2025-08-26T20:29:51.255Z] 📖 Page 4 preview: "THE SIMPLE PRESENT TENSE (PROSTO SADAŠNJE VREME)
+
+Prosto sadašnje vreme (present simple tense) se ..."
+[2025-08-26T20:29:51.255Z] 📄 Extracting page 5/100...
+[2025-08-26T20:29:51.282Z] ✅ Page 5 extracted: 1609 characters
+[2025-08-26T20:29:51.282Z] 📖 Page 5 preview: "Does she work? – Da li ona radi?
+Does it work? – Da li ono radi?
+
+Na Yes/No pitanja se odgovara k..."
+[2025-08-26T20:29:51.283Z] 📄 Extracting page 6/100...
+[2025-08-26T20:29:51.311Z] ✅ Page 6 extracted: 1742 characters
+[2025-08-26T20:29:51.311Z] 📖 Page 6 preview: "The English drink tea at 5 o'clock in the afternoon. (Englezi piju čaj u 5 sati popodne.)
+
+U ovom ..."
+[2025-08-26T20:29:51.312Z] 📄 Extracting page 7/100...
+[2025-08-26T20:29:51.348Z] ✅ Page 7 extracted: 1704 characters
+[2025-08-26T20:29:51.348Z] 📖 Page 7 preview: "Ako se glagol završava na jedan suglasnik ispred kojeg stoji kratak, naglašen samoglasnik,
+krajnji ..."
+[2025-08-26T20:29:51.349Z] 📄 Extracting page 8/100...
+[2025-08-26T20:29:51.396Z] ✅ Page 8 extracted: 1561 characters
+[2025-08-26T20:29:51.396Z] 📖 Page 8 preview: "Where is he working? – Gde on radi? Where are they working? – Gde oni
+Where is she working? – Gde o..."
+[2025-08-26T20:29:51.397Z] 📄 Extracting page 9/100...
+[2025-08-26T20:29:51.434Z] ✅ Page 9 extracted: 1679 characters
+[2025-08-26T20:29:51.434Z] 📖 Page 9 preview: "understand – razumeti,
+wish – želeti,
+want – hteti,
+know – znati, itd.
+
+Oni su, umesto u presen..."
+[2025-08-26T20:29:51.435Z] 📄 Extracting page 10/100...
+[2025-08-26T20:29:51.472Z] ✅ Page 10 extracted: 1969 characters
+[2025-08-26T20:29:51.472Z] 📖 Page 10 preview: "Ukoliko se infinitiv završava na jedan suglasnik ispred koga je kratak, naglašen
+samoglasnik, taj k..."
+[2025-08-26T20:29:51.473Z] 📄 Extracting page 11/100...
+[2025-08-26T20:29:51.504Z] ✅ Page 11 extracted: 1673 characters
+[2025-08-26T20:29:51.506Z] 📖 Page 11 preview: "Kod rečenice:
+Who called you? (Ko te je pozvao?) odgovor na pitanje glasi
+John called me.
+Odgovor..."
+[2025-08-26T20:29:51.506Z] 📄 Extracting page 12/100...
+[2025-08-26T20:29:51.545Z] ✅ Page 12 extracted: 1801 characters
+[2025-08-26T20:29:51.546Z] 📖 Page 12 preview: "My father built this house in 1997. (Moj otac je sagradio ovu kuću 1997.-e)
+The day before yesterda..."
+[2025-08-26T20:29:51.546Z] 📄 Extracting page 13/100...
+[2025-08-26T20:29:51.582Z] ✅ Page 13 extracted: 1646 characters
+[2025-08-26T20:29:51.582Z] 📖 Page 13 preview: "Jednina (singular) Množina (plural)
+Where was I working? – Gde sam ja Where were we working? – Gde ..."
+[2025-08-26T20:29:51.583Z] 📄 Extracting page 14/100...
+[2025-08-26T20:29:51.617Z] ✅ Page 14 extracted: 1203 characters
+[2025-08-26T20:29:51.617Z] 📖 Page 14 preview: "When we arrived they were playing cards. (Kada smo stigli oni su igrali karte.)
+
+Napomena: Glagoli..."
+[2025-08-26T20:29:51.617Z] 📄 Extracting page 15/100...
+[2025-08-26T20:29:51.651Z] ✅ Page 15 extracted: 2316 characters
+[2025-08-26T20:29:51.651Z] 📖 Page 15 preview: "COMPARISON OF ADJECTIVES (POREĐENJE PRIDEVA)
+
+Kod jednosložnih i nekih dvosložnih prideva komparat..."
+[2025-08-26T20:29:51.652Z] 📄 Extracting page 16/100...
+[2025-08-26T20:29:51.686Z] ✅ Page 16 extracted: 1942 characters
+[2025-08-26T20:29:51.687Z] 📖 Page 16 preview: "THE FUTURE SIMPLE TENSE (PROSTO BUDUĆE VREME)
+
+
+Future Simple Tense (Prosto buduće vreme) se grad..."
+[2025-08-26T20:29:51.687Z] 📄 Extracting page 17/100...
+[2025-08-26T20:29:51.727Z] ✅ Page 17 extracted: 2089 characters
+[2025-08-26T20:29:51.728Z] 📖 Page 17 preview: "Odrični oblik
+
+Jednina (singular) Množina (plural)
+I will not (won’t) work – Ja neću We will not ..."
+[2025-08-26T20:29:51.729Z] 📄 Extracting page 18/100...
+[2025-08-26T20:29:51.764Z] ✅ Page 18 extracted: 2044 characters
+[2025-08-26T20:29:51.764Z] 📖 Page 18 preview: "PREPOSITIONS OF PLACE (PREDLOZI ZA MESTO)
+
+Kao predlog za mesto at služi da odredi mesto gde se ne..."
+[2025-08-26T20:29:51.764Z] 📄 Extracting page 19/100...
+[2025-08-26T20:29:51.798Z] ✅ Page 19 extracted: 926 characters
+[2025-08-26T20:29:51.799Z] 📖 Page 19 preview: "PREPOSITIONS OF TIME (PREDLOZI ZA VREME)
+
+Kao predlog za vreme at se koristi za izražavanje sati i..."
+[2025-08-26T20:29:51.799Z] 📄 Extracting page 20/100...
+[2025-08-26T20:29:51.835Z] ✅ Page 20 extracted: 2120 characters
+[2025-08-26T20:29:51.835Z] 📖 Page 20 preview: "REFLEXIVE PRONOUNS (POVRATNE ZAMENICE)
+
+Povratna zamenica u srpskom jeziku se izražava pomoću: «SE..."
+[2025-08-26T20:29:51.836Z] 📄 Extracting page 21/100...
+[2025-08-26T20:29:51.873Z] ✅ Page 21 extracted: 2193 characters
+[2025-08-26T20:29:51.873Z] 📖 Page 21 preview: "Jednina (singular) Množina (plural)
+I have (I've) slept – Ja sam spavao We have slept (We've) – Mi ..."
+[2025-08-26T20:29:51.875Z] 📄 Extracting page 22/100...
+[2025-08-26T20:29:51.918Z] ✅ Page 22 extracted: 2179 characters
+[2025-08-26T20:29:51.918Z] 📖 Page 22 preview: "He has not (hasn't) worked – On nije They have not (haven't) worked – Oni
+radio nisu radili
+She ha..."
+[2025-08-26T20:29:51.921Z] 📄 Extracting page 23/100...
+[2025-08-26T20:29:51.966Z] ✅ Page 23 extracted: 2788 characters
+[2025-08-26T20:29:51.967Z] 📖 Page 23 preview: "Past Simple će se upotrebiti kada imamo vremensku frazu koja nam jasno ukazuje na to kada
+se nešto ..."
+[2025-08-26T20:29:51.967Z] 📄 Extracting page 24/100...
+[2025-08-26T20:29:52.005Z] ✅ Page 24 extracted: 3040 characters
+[2025-08-26T20:29:52.005Z] 📖 Page 24 preview: "Ovom konstrukciojm možemo i zabranjivati.
+You are not allowed to smoke in the classroom. (Ne dozvol..."
+[2025-08-26T20:29:52.006Z] 📄 Extracting page 25/100...
+[2025-08-26T20:29:52.041Z] ✅ Page 25 extracted: 2054 characters
+[2025-08-26T20:29:52.041Z] 📖 Page 25 preview: "THE PAST PERFECT SIMPLE TENSE (DAVNO PROŠLO PROSTO VREME)
+
+Davno prošlo prosto vreme (past perfect..."
+[2025-08-26T20:29:52.041Z] 📄 Extracting page 26/100...
+[2025-08-26T20:29:52.075Z] ✅ Page 26 extracted: 1882 characters
+[2025-08-26T20:29:52.076Z] 📖 Page 26 preview: "Upitni oblik – Wh- questions
+
+Jednina (singular) Množina (plural)
+Where had I worked? – Gde sam j..."
+[2025-08-26T20:29:52.077Z] 📄 Extracting page 27/100...
+[2025-08-26T20:29:52.106Z] ✅ Page 27 extracted: 2001 characters
+[2025-08-26T20:29:52.106Z] 📖 Page 27 preview: "COUNTABLE AND UNCOUNTABLE NOUNS (BROJIVE I NEBROJIVE
+IMENICE)
+
+
+Brojive imenice (countable nouns..."
+[2025-08-26T20:29:52.107Z] 📄 Extracting page 28/100...
+[2025-08-26T20:29:52.139Z] ✅ Page 28 extracted: 1531 characters
+[2025-08-26T20:29:52.139Z] 📖 Page 28 preview: "Neodređeni član se koristi ispred imenskog dela predikata i profesija.
+I am a student. (Ja sam stud..."
+[2025-08-26T20:29:52.140Z] 📄 Extracting page 29/100...
+[2025-08-26T20:29:52.168Z] ✅ Page 29 extracted: 747 characters
+[2025-08-26T20:29:52.168Z] 📖 Page 29 preview: "IZOSTAVLJANE ČLANA
+
+Član se ne koristi
+
+Sa imenicama u množini i nebrojivim imenicama kada govor..."
+[2025-08-26T20:29:52.170Z] 📄 Extracting page 30/100...
+[2025-08-26T20:29:52.202Z] ✅ Page 30 extracted: 2509 characters
+[2025-08-26T20:29:52.202Z] 📖 Page 30 preview: "VERB PATTERNS (GLAGOLSKI OBRASCI)
+
+
+Određeni glagoli zahtevaju iza sebe gerund (glagolska osnova+..."
+[2025-08-26T20:29:52.202Z] 📄 Extracting page 31/100...
+[2025-08-26T20:29:52.241Z] ✅ Page 31 extracted: 2513 characters
+[2025-08-26T20:29:52.241Z] 📖 Page 31 preview: "ili u rečenici
+That is the dog that attacked me, that je takođe subjekat rečenice.
+Međutim, u reče..."
+[2025-08-26T20:29:52.241Z] 📄 Extracting page 32/100...
+[2025-08-26T20:29:52.279Z] ✅ Page 32 extracted: 2412 characters
+[2025-08-26T20:29:52.280Z] 📖 Page 32 preview: "Evo do kojih promena u vremenima dolazi pri slaganju vremena.
+
+Present Simple Tense prelazi u Past..."
+[2025-08-26T20:29:52.280Z] 📄 Extracting page 33/100...
+[2025-08-26T20:29:52.316Z] ✅ Page 33 extracted: 2374 characters
+[2025-08-26T20:29:52.316Z] 📖 Page 33 preview: "Ako se radi o Wh-pitanjima if nije potrebno. Wh- pitanja počinju upitnim rečima when,
+which, who, w..."
+[2025-08-26T20:29:52.317Z] 📄 Extracting page 34/100...
+[2025-08-26T20:29:52.355Z] ✅ Page 34 extracted: 2685 characters
+[2025-08-26T20:29:52.355Z] 📖 Page 34 preview: "Kao varijacije prvog kondicionala javljaju se sledeće izmene.
+
+Umesto oblika will+infinitiv mogu s..."
+[2025-08-26T20:29:52.356Z] 📄 Extracting page 35/100...
+[2025-08-26T20:29:52.390Z] ✅ Page 35 extracted: 2046 characters
+[2025-08-26T20:29:52.391Z] 📖 Page 35 preview: "U uslovnoj rečenici se takođe mogu javiti neke varijacije. Umesto Past Perfect Tense-a može se
+javi..."
+[2025-08-26T20:29:52.391Z] 📄 Extracting page 36/100...
+[2025-08-26T20:29:52.426Z] ✅ Page 36 extracted: 426 characters
+[2025-08-26T20:29:52.427Z] 📖 Page 36 preview: "The house was built in the 19th century. (Kuća je izgranena u 19.-om veku.)
+Kada izvršilac radnje n..."
+[2025-08-26T20:29:52.427Z] 📄 Extracting page 37/100...
+[2025-08-26T20:29:52.460Z] ✅ Page 37 extracted: 2047 characters
+[2025-08-26T20:29:52.460Z] 📖 Page 37 preview: "EXERCISES (VEŽBANJA)
+
+Glagole u zagradama stavite u odgovarajuće vreme (present simple / present
+..."
+[2025-08-26T20:29:52.460Z] 📄 Extracting page 38/100...
+[2025-08-26T20:29:52.497Z] ✅ Page 38 extracted: 1800 characters
+[2025-08-26T20:29:52.497Z] 📖 Page 38 preview: "22. Pera _________________ (be) in his cafe. At the moment four
+guests_________________ (have) a sn..."
+[2025-08-26T20:29:52.497Z] 📄 Extracting page 39/100...
+[2025-08-26T20:29:52.528Z] ✅ Page 39 extracted: 2037 characters
+[2025-08-26T20:29:52.529Z] 📖 Page 39 preview: "3. We couldn’t afford to keep our car, so we _____________ it.
+
+4. I was very thirsty. I _________..."
+[2025-08-26T20:29:52.529Z] 📄 Extracting page 40/100...
+[2025-08-26T20:29:52.567Z] ✅ Page 40 extracted: 2580 characters
+[2025-08-26T20:29:52.567Z] 📖 Page 40 preview: "4. ‘Was Carol at the party last night?’ ‘Yes, she ______________________ (wear)
+a really nice dress..."
+[2025-08-26T20:29:52.568Z] 📄 Extracting page 41/100...
+[2025-08-26T20:29:52.604Z] ✅ Page 41 extracted: 1975 characters
+[2025-08-26T20:29:52.604Z] 📖 Page 41 preview: "26. This time yesterday I ______________________ (prepare) my lessons.
+
+27. Mary _________________..."
+[2025-08-26T20:29:52.605Z] 📄 Extracting page 42/100...
+[2025-08-26T20:29:52.638Z] ✅ Page 42 extracted: 1817 characters
+[2025-08-26T20:29:52.638Z] 📖 Page 42 preview: "2. We’re going _______ a concert tomorrow evening.
+
+3. I went _______ New York last year.
+
+4. Ho..."
+[2025-08-26T20:29:52.639Z] 📄 Extracting page 43/100...
+[2025-08-26T20:29:52.667Z] ✅ Page 43 extracted: 1160 characters
+[2025-08-26T20:29:52.667Z] 📖 Page 43 preview: "19. Will you be _______ home tomorrow afternoon?
+
+20. Who is that man _______ the photograph? Do y..."
+[2025-08-26T20:29:52.668Z] 📄 Extracting page 44/100...
+[2025-08-26T20:29:52.701Z] ✅ Page 44 extracted: 1264 characters
+[2025-08-26T20:29:52.702Z] 📖 Page 44 preview: "We arrived ________5 o'clock _____the morning.
+
+Mozart was born in Salzburg ______1756.
+
+I met A..."
+[2025-08-26T20:29:52.702Z] 📄 Extracting page 45/100...
+[2025-08-26T20:29:52.732Z] ✅ Page 45 extracted: 1844 characters
+[2025-08-26T20:29:52.732Z] 📖 Page 45 preview: "6. Maria ________(be) more nervous yesterday than she _________(be) today.
+
+7. My relatives ______..."
+[2025-08-26T20:29:52.733Z] 📄 Extracting page 46/100...
+[2025-08-26T20:29:52.764Z] ✅ Page 46 extracted: 2369 characters
+[2025-08-26T20:29:52.764Z] 📖 Page 46 preview: "10. A: The ceiling in this room doesn’t look very safe, does it?
+B: No, it looks as if ____________..."
+[2025-08-26T20:29:52.764Z] 📄 Extracting page 47/100...
+[2025-08-26T20:29:52.799Z] ✅ Page 47 extracted: 3002 characters
+[2025-08-26T20:29:52.800Z] 📖 Page 47 preview: "8. Mr. Brown always _______________ (read) his newspapers in the evenings. Mrs. Brown
+sometimes ___..."
+[2025-08-26T20:29:52.800Z] 📄 Extracting page 48/100...
+[2025-08-26T20:29:52.839Z] ✅ Page 48 extracted: 3153 characters
+[2025-08-26T20:29:52.840Z] 📖 Page 48 preview: "2. He ___________ (say) he ___________ (come) to London next week and ___________
+(want) us to meet..."
+[2025-08-26T20:29:52.841Z] 📄 Extracting page 49/100...
+[2025-08-26T20:29:52.879Z] ✅ Page 49 extracted: 3210 characters
+[2025-08-26T20:29:52.880Z] 📖 Page 49 preview: "Look! He _______________ (put) a ticket on Tom’s car. Tom will be furious when he
+_______________ (..."
+[2025-08-26T20:29:52.880Z] 📄 Extracting page 50/100...
+[2025-08-26T20:29:52.920Z] ✅ Page 50 extracted: 2689 characters
+[2025-08-26T20:29:52.921Z] 📖 Page 50 preview: "Jack: And _________ you ___________ (come) back to England after that or
+_________ you __________ (..."
+[2025-08-26T20:29:52.921Z] 📄 Extracting page 51/100...
+[2025-08-26T20:29:52.964Z] ✅ Page 51 extracted: 2585 characters
+[2025-08-26T20:29:52.964Z] 📖 Page 51 preview: "3. She lent you enough money. _______________________________
+
+4. They flew to New York. _________..."
+[2025-08-26T20:29:52.964Z] 📄 Extracting page 52/100...
+[2025-08-26T20:29:53.002Z] ✅ Page 52 extracted: 2395 characters
+[2025-08-26T20:29:53.003Z] 📖 Page 52 preview: "16. We can’t promise _____________ (provide) good weather for your trip – British weather
+is very c..."
+[2025-08-26T20:29:53.003Z] 📄 Extracting page 53/100...
+[2025-08-26T20:29:53.041Z] ✅ Page 53 extracted: 1827 characters
+[2025-08-26T20:29:53.041Z] 📖 Page 53 preview: "______________________________________________________________
+
+12. Kakva užasna situacija! Mrzim ..."
+[2025-08-26T20:29:53.042Z] 📄 Extracting page 54/100...
+[2025-08-26T20:29:53.075Z] ✅ Page 54 extracted: 1890 characters
+[2025-08-26T20:29:53.075Z] 📖 Page 54 preview: "(excit-)
+It will be an ___________________ experience for her.
+Going to new places is always _____..."
+[2025-08-26T20:29:53.076Z] 📄 Extracting page 55/100...
+[2025-08-26T20:29:53.111Z] ✅ Page 55 extracted: 2301 characters
+[2025-08-26T20:29:53.112Z] 📖 Page 55 preview: "7. The lecture was __________________. I fell asleep.
+
+8. I asked Emily if she wanted to come out ..."
+[2025-08-26T20:29:53.113Z] 📄 Extracting page 56/100...
+[2025-08-26T20:29:53.152Z] ✅ Page 56 extracted: 2838 characters
+[2025-08-26T20:29:53.152Z] 📖 Page 56 preview: "_______________ (do)?
+
+18. The boys _______________ (play) cards when they _____________ (hear) th..."
+[2025-08-26T20:29:53.153Z] 📄 Extracting page 57/100...
+[2025-08-26T20:29:53.189Z] ✅ Page 57 extracted: 2936 characters
+[2025-08-26T20:29:53.189Z] 📖 Page 57 preview: "34. I ___________ (come) in very late last night and unfortunately the dog
+______________ (wake) up..."
+[2025-08-26T20:29:53.190Z] 📄 Extracting page 58/100...
+[2025-08-26T20:29:53.227Z] ✅ Page 58 extracted: 1731 characters
+[2025-08-26T20:29:53.227Z] 📖 Page 58 preview: "their way home. A couple of men __________________________ (argue) over the price
+of a leather belt..."
+[2025-08-26T20:29:53.227Z] 📄 Extracting page 59/100...
+[2025-08-26T20:29:53.256Z] ✅ Page 59 extracted: 1219 characters
+[2025-08-26T20:29:53.256Z] 📖 Page 59 preview: "Kompletirajte rečenice koristeći reč koja je data i tako da se zadrži isti smisao.
+Koristiti dve do..."
+[2025-08-26T20:29:53.256Z] 📄 Extracting page 60/100...
+[2025-08-26T20:29:53.288Z] ✅ Page 60 extracted: 2593 characters
+[2025-08-26T20:29:53.289Z] 📖 Page 60 preview: "Popunite rečenice koristeći past simple ili present perfect glagola datih u zagradama.
+
+1. A: Did ..."
+[2025-08-26T20:29:53.289Z] 📄 Extracting page 61/100...
+[2025-08-26T20:29:53.328Z] ✅ Page 61 extracted: 3021 characters
+[2025-08-26T20:29:53.328Z] 📖 Page 61 preview: "Popunite rečenice koristeći past simple ili present perfect glagola datih u zagradama.
+
+1. Who ___..."
+[2025-08-26T20:29:53.329Z] 📄 Extracting page 62/100...
+[2025-08-26T20:29:53.366Z] ✅ Page 62 extracted: 2073 characters
+[2025-08-26T20:29:53.366Z] 📖 Page 62 preview: "her cousin, Lucy. ‘Hello, Lucy.’ she _______________ (exclaim).’ I_______________
+(not know) that y..."
+[2025-08-26T20:29:53.366Z] 📄 Extracting page 63/100...
+[2025-08-26T20:29:53.400Z] ✅ Page 63 extracted: 2165 characters
+[2025-08-26T20:29:53.400Z] 📖 Page 63 preview: "4. Have you read any of Shakespeare’s plays?
+______________________________________________________..."
+[2025-08-26T20:29:53.400Z] 📄 Extracting page 64/100...
+[2025-08-26T20:29:53.435Z] ✅ Page 64 extracted: 2170 characters
+[2025-08-26T20:29:53.435Z] 📖 Page 64 preview: "2. Claire Fox (1957-) is a doctor. She ______________ (develop) new treatments for
+several diseases..."
+[2025-08-26T20:29:53.436Z] 📄 Extracting page 65/100...
+[2025-08-26T20:29:53.476Z] ✅ Page 65 extracted: 2301 characters
+[2025-08-26T20:29:53.476Z] 📖 Page 65 preview: "Popunite rečenice koristeći past simple ili present perfect glagola datih u zagradama.
+
+1. Where _..."
+[2025-08-26T20:29:53.476Z] 📄 Extracting page 66/100...
+[2025-08-26T20:29:53.505Z] ✅ Page 66 extracted: 2203 characters
+[2025-08-26T20:29:53.505Z] 📖 Page 66 preview: "Unfortunately, this tourism ___________ (start) to cause problems. Scientific studies
+___________ (..."
+[2025-08-26T20:29:53.505Z] 📄 Extracting page 67/100...
+[2025-08-26T20:29:53.535Z] ✅ Page 67 extracted: 1705 characters
+[2025-08-26T20:29:53.535Z] 📖 Page 67 preview: "Dovršite rečenice koristeći MUST ili CAN'T i jedan od ponuđenih glagola.
+
+be
+belong
+speak
+come..."
+[2025-08-26T20:29:53.536Z] 📄 Extracting page 68/100...
+[2025-08-26T20:29:53.570Z] ✅ Page 68 extracted: 2172 characters
+[2025-08-26T20:29:53.570Z] 📖 Page 68 preview: "3. He has just been taken to hospital with a broken leg.
+I’m sorry to hear that. I________________ ..."
+[2025-08-26T20:29:53.570Z] 📄 Extracting page 69/100...
+[2025-08-26T20:29:53.601Z] ✅ Page 69 extracted: 2411 characters
+[2025-08-26T20:29:53.601Z] 📖 Page 69 preview: "4. A: Why are you filling that bucket with water?
+B: ____________________________ the car. (I/wash)..."
+[2025-08-26T20:29:53.601Z] 📄 Extracting page 70/100...
+[2025-08-26T20:29:53.637Z] ✅ Page 70 extracted: 1825 characters
+[2025-08-26T20:29:53.637Z] 📖 Page 70 preview: "ANN: That’s no problem. ____________________________ you (I/take). What time is
+your flight?
+JOHN:..."
+[2025-08-26T20:29:53.637Z] 📄 Extracting page 71/100...
+[2025-08-26T20:29:53.677Z] ✅ Page 71 extracted: 1778 characters
+[2025-08-26T20:29:53.678Z] 📖 Page 71 preview: "8. A man was slightly injured in the accident but he _______________________________
+to hospital.
+..."
+[2025-08-26T20:29:53.679Z] 📄 Extracting page 72/100...
+[2025-08-26T20:29:53.719Z] ✅ Page 72 extracted: 1897 characters
+[2025-08-26T20:29:53.719Z] 📖 Page 72 preview: "run
+sleep
+wait
+
+1. I’m afraid I can’t come to your party next week.
+
+2. When Tim was 16, he wa..."
+[2025-08-26T20:29:53.721Z] 📄 Extracting page 73/100...
+[2025-08-26T20:29:53.761Z] ✅ Page 73 extracted: 2080 characters
+[2025-08-26T20:29:53.762Z] 📖 Page 73 preview: "9. A girl fell into the river but fortunately we___________________________ rescue her.
+
+10. I had..."
+[2025-08-26T20:29:53.763Z] 📄 Extracting page 74/100...
+[2025-08-26T20:29:53.798Z] ✅ Page 74 extracted: 2357 characters
+[2025-08-26T20:29:53.798Z] 📖 Page 74 preview: "______________________________________________________________________
+
+Who will fetch the milk to..."
+[2025-08-26T20:29:53.799Z] 📄 Extracting page 75/100...
+[2025-08-26T20:29:53.832Z] ✅ Page 75 extracted: 1995 characters
+[2025-08-26T20:29:53.833Z] 📖 Page 75 preview: "Why does she complain about her salary when she gets on badly with everyone?
+______________________..."
+[2025-08-26T20:29:53.833Z] 📄 Extracting page 76/100...
+[2025-08-26T20:29:53.867Z] ✅ Page 76 extracted: 1990 characters
+[2025-08-26T20:29:53.867Z] 📖 Page 76 preview: "Please, don't tell anybody what happened!
+_________________________________________________________..."
+[2025-08-26T20:29:53.867Z] 📄 Extracting page 77/100...
+[2025-08-26T20:29:53.904Z] ✅ Page 77 extracted: 2162 characters
+[2025-08-26T20:29:53.905Z] 📖 Page 77 preview: "14. She asked me:” When will you get back from your trip?”
+________________________________________..."
+[2025-08-26T20:29:53.907Z] 📄 Extracting page 78/100...
+[2025-08-26T20:29:53.938Z] ✅ Page 78 extracted: 1697 characters
+[2025-08-26T20:29:53.939Z] 📖 Page 78 preview: "4. The people who work in the office are very friendly.
+
+5. The people who I talked to were very a..."
+[2025-08-26T20:29:53.939Z] 📄 Extracting page 79/100...
+[2025-08-26T20:29:53.974Z] ✅ Page 79 extracted: 1990 characters
+[2025-08-26T20:29:53.976Z] 📖 Page 79 preview: "Prevedite sledeće rečenice na engleski jezik.
+
+1. Žena koja živi pored mene je doktor.
+__________..."
+[2025-08-26T20:29:53.976Z] 📄 Extracting page 80/100...
+[2025-08-26T20:29:54.043Z] ✅ Page 80 extracted: 1660 characters
+[2025-08-26T20:29:54.044Z] 📖 Page 80 preview: "17. The car was an invention ______________ changed the world.
+
+18. Is this the shop _____________..."
+[2025-08-26T20:29:54.073Z] 📄 Extracting page 81/100...
+[2025-08-26T20:29:54.167Z] ✅ Page 81 extracted: 1503 characters
+[2025-08-26T20:29:54.167Z] 📖 Page 81 preview: "6. Our guests ate all the cakes.
+______________________________________
+
+7. We bought a new car y..."
+[2025-08-26T20:29:54.168Z] 📄 Extracting page 82/100...
+[2025-08-26T20:29:54.199Z] ✅ Page 82 extracted: 1989 characters
+[2025-08-26T20:29:54.199Z] 📖 Page 82 preview: "3. The book was taken from the table by him.
+_____________________________________________
+
+4. Th..."
+[2025-08-26T20:29:54.200Z] 📄 Extracting page 83/100...
+[2025-08-26T20:29:54.239Z] ✅ Page 83 extracted: 2045 characters
+[2025-08-26T20:29:54.241Z] 📖 Page 83 preview: "______________________________________________________________
+
+14. A police car is following that..."
+[2025-08-26T20:29:54.241Z] 📄 Extracting page 84/100...
+[2025-08-26T20:29:54.270Z] ✅ Page 84 extracted: 1696 characters
+[2025-08-26T20:29:54.270Z] 📖 Page 84 preview: "7. Juče su otkazali let jer je vreme bilo loše.
+___________________________________________________..."
+[2025-08-26T20:29:54.270Z] 📄 Extracting page 85/100...
+[2025-08-26T20:29:54.305Z] ✅ Page 85 extracted: 2085 characters
+[2025-08-26T20:29:54.306Z] 📖 Page 85 preview: "Stavite sledeće rečenice u pasiv.
+
+1. She makes these cakes only of flour and fruit.
+____________..."
+[2025-08-26T20:29:54.307Z] 📄 Extracting page 86/100...
+[2025-08-26T20:29:54.343Z] ✅ Page 86 extracted: 1077 characters
+[2025-08-26T20:29:54.344Z] 📖 Page 86 preview: "Zaokružite odgovrajuće vreme.
+
+1. She _________________at six every evening.
+a) finishes
+b) has ..."
+[2025-08-26T20:29:54.344Z] 📄 Extracting page 87/100...
+[2025-08-26T20:29:54.379Z] ✅ Page 87 extracted: 981 characters
+[2025-08-26T20:29:54.379Z] 📖 Page 87 preview: "b) has lived
+c) is living
+
+13. They _____________to Belgrade in 2005.
+a) will move
+b) have move..."
+[2025-08-26T20:29:54.380Z] 📄 Extracting page 88/100...
+[2025-08-26T20:29:54.416Z] ✅ Page 88 extracted: 1147 characters
+[2025-08-26T20:29:54.416Z] 📖 Page 88 preview: "c) as
+
+9. Anthony is _______intelligent than John.
+a) least
+b) more
+c) most
+
+10. My house is ..."
+[2025-08-26T20:29:54.417Z] 📄 Extracting page 89/100...
+[2025-08-26T20:29:54.451Z] ✅ Page 89 extracted: 2054 characters
+[2025-08-26T20:29:54.451Z] 📖 Page 89 preview: "10. She __________(speak) about that yesterday.
+
+11.______________(listen) to him when Sara ______..."
+[2025-08-26T20:29:54.452Z] 📄 Extracting page 90/100...
+[2025-08-26T20:29:54.486Z] ✅ Page 90 extracted: 2063 characters
+[2025-08-26T20:29:54.486Z] 📖 Page 90 preview: "mistakes.
+
+22. If he ________________________________ (be) late we’ll go without him.
+
+23. If he..."
+[2025-08-26T20:29:54.487Z] 📄 Extracting page 91/100...
+[2025-08-26T20:29:54.522Z] ✅ Page 91 extracted: 2057 characters
+[2025-08-26T20:29:54.522Z] 📖 Page 91 preview: "43. I’ll probably get lost unless he ________________________________ (come) with me.
+
+44. You ___..."
+[2025-08-26T20:29:54.523Z] 📄 Extracting page 92/100...
+[2025-08-26T20:29:54.562Z] ✅ Page 92 extracted: 2383 characters
+[2025-08-26T20:29:54.563Z] 📖 Page 92 preview: "65. If his pronunciation ________________________________ (be) better, he would have
+got a better j..."
+[2025-08-26T20:29:54.563Z] 📄 Extracting page 93/100...
+[2025-08-26T20:29:54.599Z] ✅ Page 93 extracted: 2143 characters
+[2025-08-26T20:29:54.599Z] 📖 Page 93 preview: "19. Ićićemo na plažu ove subote, ako vreme bude dovoljno toplo.
+___________________________________..."
+[2025-08-26T20:29:54.599Z] 📄 Extracting page 94/100...
+[2025-08-26T20:29:54.635Z] ✅ Page 94 extracted: 2545 characters
+[2025-08-26T20:29:54.635Z] 📖 Page 94 preview: "Prevedite rečenice u nastavku.
+
+1. Vino treba otvoriti tri sata pre nego što se pije.
+___________..."
+[2025-08-26T20:29:54.636Z] 📄 Extracting page 95/100...
+[2025-08-26T20:29:54.670Z] ✅ Page 95 extracted: 1969 characters
+[2025-08-26T20:29:54.670Z] 📖 Page 95 preview: "______________________________________________________________
+
+17. Pomorandže se uglavnom uvoze u..."
+[2025-08-26T20:29:54.671Z] 📄 Extracting page 96/100...
+[2025-08-26T20:29:54.707Z] ✅ Page 96 extracted: 1890 characters
+[2025-08-26T20:29:54.707Z] 📖 Page 96 preview: "8. I was surprising by the news. I didn’t expect it.
+
+9. My job is very varied. I find it interest..."
+[2025-08-26T20:29:54.708Z] 📄 Extracting page 97/100...
+[2025-08-26T20:29:54.754Z] ✅ Page 97 extracted: 1656 characters
+[2025-08-26T20:29:54.754Z] 📖 Page 97 preview: "to the cinema and a night club in the evening. What is 13 _______
+
+there to do in the country? Goi..."
+[2025-08-26T20:29:54.756Z] 📄 Extracting page 98/100...
+[2025-08-26T20:29:54.795Z] ✅ Page 98 extracted: 1450 characters
+[2025-08-26T20:29:54.795Z] 📖 Page 98 preview: "4. I’ve never drank champagne.
+I’ve never drunk champagne.
+
+5. Tom has ever been to America.
+Tom..."
+[2025-08-26T20:29:54.796Z] 📄 Extracting page 99/100...
+[2025-08-26T20:29:54.829Z] ✅ Page 99 extracted: 306 characters
+[2025-08-26T20:29:54.829Z] 📖 Page 99 preview: "7. We ______________(not/take) the opportunity when we had the chance.
+
+8. Things ______________(n..."
+[2025-08-26T20:29:54.829Z] 📄 Extracting page 100/100...
+[2025-08-26T20:29:54.868Z] ✅ Page 100 extracted: 350 characters
+[2025-08-26T20:29:54.868Z] 📖 Page 100 preview: "Literatura
+
+New English File Intrermediate, Clive Oxenden, Christina Latham-Koenig, Oxford Univers..."
+[2025-08-26T20:29:54.869Z] INFO: Text extraction completed: 97 pages processed
+[2025-08-26T20:29:54.896Z] Progress: render - 35% - Rendering PDF pages
+[2025-08-26T20:29:55.317Z] Progress: text - 55% - Saving text files
+[2025-08-26T20:29:55.317Z] INFO: 
+[2025-08-26T20:29:55.317Z] INFO: ------------------------------------------------------------
+[2025-08-26T20:29:55.317Z] INFO: SECTION: DOCUMENT STRUCTURE ANALYSIS
+[2025-08-26T20:29:55.317Z] INFO: ------------------------------------------------------------
+[2025-08-26T20:29:55.317Z] INFO: Progress: sectioning [█████████████-------] 65% - Analyzing complete document structure with AI
+[2025-08-26T20:29:55.344Z] Progress: sectioning - 65% - Analyzing complete document structure with AI
+[2025-08-26T20:29:55.344Z] INFO: Checking for existing TOC analysis in database
+[2025-08-26T20:29:55.371Z] ⚠️ No TOC analysis found, using legacy structure detection
+[2025-08-26T20:29:55.371Z] WARNING: Using legacy fallback structure detection
+[2025-08-26T20:29:55.612Z] 🔄 Using node-poppler for true page-by-page extraction (pages 2 to 3)
+[2025-08-26T20:29:55.613Z] 📁 Created temp PDF file: C:\Users\stefa\AppData\Local\Temp\temp_pdf_1756240195612.pdf
+[2025-08-26T20:29:55.783Z] 📚 PDF has 100 pages, extracting 2 to 3
+[2025-08-26T20:29:55.783Z] 📄 Extracting page 2/3...
+[2025-08-26T20:29:55.833Z] ✅ Page 2 extracted: 3507 characters
+[2025-08-26T20:29:55.833Z] 📖 Page 2 preview: "Sadržaj:
+
+
+The Simple Present Tense................................................................."
+[2025-08-26T20:29:55.834Z] 📄 Extracting page 3/3...
+[2025-08-26T20:29:55.862Z] ✅ Page 3 extracted: 606 characters
+[2025-08-26T20:29:55.863Z] 📖 Page 3 preview: "The Second Conditional................................................................................."
+[2025-08-26T20:30:37.380Z] 📝 Legacy structure detection completed: 53 sections found
+[2025-08-26T20:30:37.407Z] Progress: embed - 75% - Processing sections and creating embeddings
+[2025-08-26T20:31:06.032Z] Progress: chunk - 85% - Creating and processing chunks
+[2025-08-26T20:31:36.516Z] Progress: done - 100% - Document processing completed
+[2025-08-26T20:31:36.544Z] INFO: 
+[2025-08-26T20:31:36.544Z] INFO: ------------------------------------------------------------
+[2025-08-26T20:31:36.544Z] INFO: SECTION: PROCESSING STATISTICS
+[2025-08-26T20:31:36.544Z] INFO: ------------------------------------------------------------
+[2025-08-26T20:31:36.544Z] INFO: total pages: 97
+[2025-08-26T20:31:36.544Z] INFO: total sections: 53
+[2025-08-26T20:31:36.544Z] INFO: total chunks: 53
+[2025-08-26T20:31:36.544Z] INFO: has o c r: false
+[2025-08-26T20:31:36.544Z] INFO: toc pages used: 2-3
+[2025-08-26T20:31:36.544Z] INFO: content start page: 4
+[2025-08-26T20:31:36.544Z] 🎉 Document processing completed successfully for material 68ae193885e324322914d47e
+[2025-08-26T20:31:36.545Z] INFO: 
+[2025-08-26T20:31:36.545Z] INFO: ================================================================================
+[2025-08-26T20:31:36.545Z] INFO: End Time: 2025-08-26T20:31:36.545Z
+[2025-08-26T20:31:36.545Z] INFO: Total Processing Time: 108 seconds
+[2025-08-26T20:31:36.545Z] INFO: Total Log Entries: 360
+[2025-08-26T20:31:36.545Z] INFO: ================================================================================

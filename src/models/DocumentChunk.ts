@@ -2,7 +2,10 @@ import mongoose, { Document, Schema } from 'mongoose';
 
 export interface IDocumentChunk extends Document {
   docId: mongoose.Types.ObjectId;      // References Material._id
-  subjectId: mongoose.Types.ObjectId;
+  subjectId: mongoose.Types.ObjectId;  // References Subject._id
+  facultyId: mongoose.Types.ObjectId;  // References Faculty._id (for faster querying)
+  departmentId: mongoose.Types.ObjectId; // References Department._id (for faster querying)
+  year: number;                        // Academic year (for faster querying)
   sectionId: string;                   // References DocumentSection.sectionId
   chunkId: string;                     // Unique identifier for this chunk
   title?: string;                      // Optional title/heading
@@ -34,6 +37,22 @@ const DocumentChunkSchema = new Schema<IDocumentChunk>({
     type: Schema.Types.ObjectId,
     ref: 'Subject',
     required: [true, 'Subject ID is required']
+  },
+  facultyId: {
+    type: Schema.Types.ObjectId,
+    ref: 'Faculty',
+    required: [true, 'Faculty ID is required']
+  },
+  departmentId: {
+    type: Schema.Types.ObjectId,
+    ref: 'Department',
+    required: [true, 'Department ID is required']
+  },
+  year: {
+    type: Number,
+    required: [true, 'Year is required'],
+    min: 1,
+    max: 8
   },
   sectionId: {
     type: String,
@@ -113,11 +132,13 @@ const DocumentChunkSchema = new Schema<IDocumentChunk>({
   timestamps: true
 });
 
-// Indexes for efficient querying
+// Indexes for efficient querying with large-scale data
 DocumentChunkSchema.index({ docId: 1, chunkId: 1 }, { unique: true });
-DocumentChunkSchema.index({ subjectId: 1 });
+DocumentChunkSchema.index({ subjectId: 1, paragraphIdx: 1 });
+DocumentChunkSchema.index({ facultyId: 1, departmentId: 1, year: 1 });
 DocumentChunkSchema.index({ sectionId: 1, paragraphIdx: 1 });
 DocumentChunkSchema.index({ vectorId: 1 });
 DocumentChunkSchema.index({ docId: 1, page: 1 });
+DocumentChunkSchema.index({ title: 'text', content: 'text' }); // Text search index
 
 export default mongoose.model<IDocumentChunk>('DocumentChunk', DocumentChunkSchema);

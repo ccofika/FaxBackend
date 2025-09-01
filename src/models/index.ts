@@ -9,3 +9,4 @@ export { default as Subject } from './Subject';
 export { default as Material } from './Material';
 export { default as DocumentSection } from './DocumentSection';
 export { default as DocumentChunk } from './DocumentChunk';
+export { default as TocAnalysis } from './TocAnalysis';

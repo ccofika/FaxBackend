@@ -1,0 +1,1432 @@
+[2025-08-26T04:26:51.325Z] INFO: ================================================================================
+[2025-08-26T04:26:51.325Z] INFO: DOCUMENT PROCESSING LOG
+[2025-08-26T04:26:51.325Z] INFO: Material ID: 68ad378885e324322914cd33
+[2025-08-26T04:26:51.325Z] INFO: Start Time: 2025-08-26T04:26:51.325Z
+[2025-08-26T04:26:51.325Z] INFO: ================================================================================
+[2025-08-26T04:26:51.325Z] INFO: 
+[2025-08-26T04:26:51.325Z] INFO: Starting document processing for material: 68ad378885e324322914cd33
+[2025-08-26T04:26:51.325Z] INFO: TOC pages specified: 2-4
+[2025-08-26T04:26:51.325Z] INFO: Progress: probe [█-------------------] 5% - Starting document processing
+[2025-08-26T04:26:51.351Z] Progress: probe - 5% - Starting document processing
+[2025-08-26T04:26:51.351Z] INFO: 
+[2025-08-26T04:26:51.351Z] INFO: ------------------------------------------------------------
+[2025-08-26T04:26:51.351Z] INFO: SECTION: INITIALIZATION
+[2025-08-26T04:26:51.351Z] INFO: ------------------------------------------------------------
+[2025-08-26T04:26:51.351Z] INFO: Progress: probe [█-------------------] 7% - Clearing existing test data
+[2025-08-26T04:26:51.376Z] Progress: probe - 7% - Clearing existing test data
+[2025-08-26T04:26:52.070Z] INFO: Loading material from database
+[2025-08-26T04:26:52.092Z] INFO: Material loaded: RMT1 (Subject: 68ad15dfbd116b1322119aac)
+[2025-08-26T04:26:52.143Z] Progress: probe - 10% - Downloading PDF from R2
+[2025-08-26T04:26:52.762Z] INFO: 
+[2025-08-26T04:26:52.762Z] INFO: ------------------------------------------------------------
+[2025-08-26T04:26:52.762Z] INFO: SECTION: PDF TEXT EXTRACTION
+[2025-08-26T04:26:52.762Z] INFO: ------------------------------------------------------------
+[2025-08-26T04:26:52.762Z] INFO: Progress: text [████----------------] 20% - Extracting text from entire PDF content (all pages from 5 onwards)
+[2025-08-26T04:26:52.762Z] INFO: Starting text extraction from page 5 onwards
+[2025-08-26T04:26:52.789Z] Progress: text - 20% - Extracting text from entire PDF content (all pages from 5 onwards)
+[2025-08-26T04:26:52.789Z] 🔄 Using node-poppler for true page-by-page extraction (pages 5 to 1004)
+[2025-08-26T04:26:52.792Z] 📁 Created temp PDF file: C:\Users\stefa\AppData\Local\Temp\temp_pdf_1756182412790.pdf
+[2025-08-26T04:26:52.934Z] 📚 PDF has 200 pages, extracting 5 to 200
+[2025-08-26T04:26:52.934Z] 📄 Extracting page 5/200...
+[2025-08-26T04:26:52.991Z] ✅ Page 5 extracted: 2110 characters
+[2025-08-26T04:26:52.992Z] 📖 Page 5 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+
+1. ..."
+[2025-08-26T04:26:52.992Z] 📄 Extracting page 6/200...
+[2025-08-26T04:26:53.024Z] ✅ Page 6 extracted: 1892 characters
+[2025-08-26T04:26:53.024Z] 📖 Page 6 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+ Izraz..."
+[2025-08-26T04:26:53.025Z] 📄 Extracting page 7/200...
+[2025-08-26T04:26:53.058Z] ✅ Page 7 extracted: 1174 characters
+[2025-08-26T04:26:53.058Z] 📖 Page 7 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+Primer:..."
+[2025-08-26T04:26:53.058Z] 📄 Extracting page 8/200...
+[2025-08-26T04:26:53.090Z] ✅ Page 8 extracted: 1514 characters
+[2025-08-26T04:26:53.090Z] 📖 Page 8 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+
+ZA ..."
+[2025-08-26T04:26:53.091Z] 📄 Extracting page 9/200...
+[2025-08-26T04:26:53.121Z] ✅ Page 9 extracted: 1162 characters
+[2025-08-26T04:26:53.122Z] 📖 Page 9 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+¬ (p ∧ ..."
+[2025-08-26T04:26:53.122Z] 📄 Extracting page 10/200...
+[2025-08-26T04:26:53.155Z] ✅ Page 10 extracted: 1070 characters
+[2025-08-26T04:26:53.155Z] 📖 Page 10 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+• Skupo..."
+[2025-08-26T04:26:53.155Z] 📄 Extracting page 11/200...
+[2025-08-26T04:26:53.184Z] ✅ Page 11 extracted: 858 characters
+[2025-08-26T04:26:53.184Z] 📖 Page 11 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+
+Jed..."
+[2025-08-26T04:26:53.185Z] 📄 Extracting page 12/200...
+[2025-08-26T04:26:53.213Z] ✅ Page 12 extracted: 682 characters
+[2025-08-26T04:26:53.213Z] 📖 Page 12 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+
+• P..."
+[2025-08-26T04:26:53.214Z] 📄 Extracting page 13/200...
+[2025-08-26T04:26:53.314Z] ✅ Page 13 extracted: 517 characters
+[2025-08-26T04:26:53.315Z] 📖 Page 13 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+
+x∈A..."
+[2025-08-26T04:26:53.316Z] 📄 Extracting page 14/200...
+[2025-08-26T04:26:53.350Z] ✅ Page 14 extracted: 451 characters
+[2025-08-26T04:26:53.350Z] 📖 Page 14 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+
+Cs(..."
+[2025-08-26T04:26:53.351Z] 📄 Extracting page 15/200...
+[2025-08-26T04:26:53.381Z] ✅ Page 15 extracted: 957 characters
+[2025-08-26T04:26:53.381Z] 📖 Page 15 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+
+A∆B..."
+[2025-08-26T04:26:53.382Z] 📄 Extracting page 16/200...
+[2025-08-26T04:26:53.413Z] ✅ Page 16 extracted: 900 characters
+[2025-08-26T04:26:53.414Z] 📖 Page 16 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+x∈A∪(B∩..."
+[2025-08-26T04:26:53.414Z] 📄 Extracting page 17/200...
+[2025-08-26T04:26:53.443Z] ✅ Page 17 extracted: 653 characters
+[2025-08-26T04:26:53.443Z] 📖 Page 17 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+
+Ure..."
+[2025-08-26T04:26:53.444Z] 📄 Extracting page 18/200...
+[2025-08-26T04:26:53.476Z] ✅ Page 18 extracted: 1242 characters
+[2025-08-26T04:26:53.476Z] 📖 Page 18 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+• S dru..."
+[2025-08-26T04:26:53.477Z] 📄 Extracting page 19/200...
+[2025-08-26T04:26:53.509Z] ✅ Page 19 extracted: 1590 characters
+[2025-08-26T04:26:53.510Z] 📖 Page 19 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+vrednos..."
+[2025-08-26T04:26:53.510Z] 📄 Extracting page 20/200...
+[2025-08-26T04:26:53.540Z] ✅ Page 20 extracted: 540 characters
+[2025-08-26T04:26:53.540Z] 📖 Page 20 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+
+Rel..."
+[2025-08-26T04:26:53.541Z] 📄 Extracting page 21/200...
+[2025-08-26T04:26:53.572Z] ✅ Page 21 extracted: 967 characters
+[2025-08-26T04:26:53.572Z] 📖 Page 21 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+1. 4 ..."
+[2025-08-26T04:26:53.573Z] 📄 Extracting page 22/200...
+[2025-08-26T04:26:53.602Z] ✅ Page 22 extracted: 596 characters
+[2025-08-26T04:26:53.602Z] 📖 Page 22 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+
+Ova..."
+[2025-08-26T04:26:53.604Z] 📄 Extracting page 23/200...
+[2025-08-26T04:26:53.632Z] ✅ Page 23 extracted: 790 characters
+[2025-08-26T04:26:53.632Z] 📖 Page 23 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+
+ρ3:..."
+[2025-08-26T04:26:53.633Z] 📄 Extracting page 24/200...
+[2025-08-26T04:26:53.661Z] ✅ Page 24 extracted: 258 characters
+[2025-08-26T04:26:53.661Z] 📖 Page 24 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+
+2° ..."
+[2025-08-26T04:26:53.662Z] 📄 Extracting page 25/200...
+[2025-08-26T04:26:53.694Z] ✅ Page 25 extracted: 1737 characters
+[2025-08-26T04:26:53.695Z] 📖 Page 25 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+
+2. ..."
+[2025-08-26T04:26:53.695Z] 📄 Extracting page 26/200...
+[2025-08-26T04:26:53.727Z] ✅ Page 26 extracted: 1771 characters
+[2025-08-26T04:26:53.728Z] 📖 Page 26 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+
+ S..."
+[2025-08-26T04:26:53.728Z] 📄 Extracting page 27/200...
+[2025-08-26T04:26:53.761Z] ✅ Page 27 extracted: 1856 characters
+[2025-08-26T04:26:53.761Z] 📖 Page 27 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+
+ Z..."
+[2025-08-26T04:26:53.762Z] 📄 Extracting page 28/200...
+[2025-08-26T04:26:53.795Z] ✅ Page 28 extracted: 1612 characters
+[2025-08-26T04:26:53.796Z] 📖 Page 28 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+ Broj ..."
+[2025-08-26T04:26:53.796Z] 📄 Extracting page 29/200...
+[2025-08-26T04:26:53.830Z] ✅ Page 29 extracted: 844 characters
+[2025-08-26T04:26:53.830Z] 📖 Page 29 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+a  a..."
+[2025-08-26T04:26:53.831Z] 📄 Extracting page 30/200...
+[2025-08-26T04:26:53.865Z] ✅ Page 30 extracted: 1376 characters
+[2025-08-26T04:26:53.866Z] 📖 Page 30 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+2. 2 ..."
+[2025-08-26T04:26:53.867Z] 📄 Extracting page 31/200...
+[2025-08-26T04:26:53.906Z] ✅ Page 31 extracted: 1007 characters
+[2025-08-26T04:26:53.906Z] 📖 Page 31 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+
+sli..."
+[2025-08-26T04:26:53.907Z] 📄 Extracting page 32/200...
+[2025-08-26T04:26:53.936Z] ✅ Page 32 extracted: 1496 characters
+[2025-08-26T04:26:53.936Z] 📖 Page 32 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+
+Nap..."
+[2025-08-26T04:26:53.939Z] 📄 Extracting page 33/200...
+[2025-08-26T04:26:53.974Z] ✅ Page 33 extracted: 1228 characters
+[2025-08-26T04:26:53.974Z] 📖 Page 33 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+
+1. ..."
+[2025-08-26T04:26:53.974Z] 📄 Extracting page 34/200...
+[2025-08-26T04:26:54.010Z] ✅ Page 34 extracted: 1298 characters
+[2025-08-26T04:26:54.010Z] 📖 Page 34 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+z = ρ (..."
+[2025-08-26T04:26:54.010Z] 📄 Extracting page 35/200...
+[2025-08-26T04:26:54.045Z] ✅ Page 35 extracted: 1212 characters
+[2025-08-26T04:26:54.045Z] 📖 Page 35 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+ Stepe..."
+[2025-08-26T04:26:54.045Z] 📄 Extracting page 36/200...
+[2025-08-26T04:26:54.085Z] ✅ Page 36 extracted: 626 characters
+[2025-08-26T04:26:54.085Z] 📖 Page 36 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+
+z2..."
+[2025-08-26T04:26:54.086Z] 📄 Extracting page 37/200...
+[2025-08-26T04:26:54.113Z] ✅ Page 37 extracted: 456 characters
+[2025-08-26T04:26:54.114Z] 📖 Page 37 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+2. 2. 3..."
+[2025-08-26T04:26:54.114Z] 📄 Extracting page 38/200...
+[2025-08-26T04:26:54.151Z] ✅ Page 38 extracted: 1524 characters
+[2025-08-26T04:26:54.151Z] 📖 Page 38 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+3. EL..."
+[2025-08-26T04:26:54.152Z] 📄 Extracting page 39/200...
+[2025-08-26T04:26:54.188Z] ✅ Page 39 extracted: 1204 characters
+[2025-08-26T04:26:54.188Z] 📖 Page 39 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+ Matri..."
+[2025-08-26T04:26:54.189Z] 📄 Extracting page 40/200...
+[2025-08-26T04:26:54.222Z] ✅ Page 40 extracted: 1146 characters
+[2025-08-26T04:26:54.223Z] 📖 Page 40 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+3. 1. 2..."
+[2025-08-26T04:26:54.223Z] 📄 Extracting page 41/200...
+[2025-08-26T04:26:54.261Z] ✅ Page 41 extracted: 1347 characters
+[2025-08-26T04:26:54.261Z] 📖 Page 41 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+1 2 ..."
+[2025-08-26T04:26:54.261Z] 📄 Extracting page 42/200...
+[2025-08-26T04:26:54.297Z] ✅ Page 42 extracted: 1236 characters
+[2025-08-26T04:26:54.297Z] 📖 Page 42 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+ZA DAC ..."
+[2025-08-26T04:26:54.304Z] 📄 Extracting page 43/200...
+[2025-08-26T04:26:54.362Z] ✅ Page 43 extracted: 1157 characters
+[2025-08-26T04:26:54.362Z] 📖 Page 43 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+1 −1 ..."
+[2025-08-26T04:26:54.363Z] 📄 Extracting page 44/200...
+[2025-08-26T04:26:54.402Z] ✅ Page 44 extracted: 1132 characters
+[2025-08-26T04:26:54.404Z] 📖 Page 44 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+3. 2 ..."
+[2025-08-26T04:26:54.405Z] 📄 Extracting page 45/200...
+[2025-08-26T04:26:54.451Z] ✅ Page 45 extracted: 1562 characters
+[2025-08-26T04:26:54.451Z] 📖 Page 45 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+1 2 31 ..."
+[2025-08-26T04:26:54.452Z] 📄 Extracting page 46/200...
+[2025-08-26T04:26:54.494Z] ✅ Page 46 extracted: 1216 characters
+[2025-08-26T04:26:54.494Z] 📖 Page 46 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+n
+D ..."
+[2025-08-26T04:26:54.495Z] 📄 Extracting page 47/200...
+[2025-08-26T04:26:54.538Z] ✅ Page 47 extracted: 1500 characters
+[2025-08-26T04:26:54.538Z] 📖 Page 47 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+ Ako s..."
+[2025-08-26T04:26:54.539Z] 📄 Extracting page 48/200...
+[2025-08-26T04:26:54.569Z] ✅ Page 48 extracted: 1105 characters
+[2025-08-26T04:26:54.569Z] 📖 Page 48 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+ A11..."
+[2025-08-26T04:26:54.570Z] 📄 Extracting page 49/200...
+[2025-08-26T04:26:54.603Z] ✅ Page 49 extracted: 1518 characters
+[2025-08-26T04:26:54.604Z] 📖 Page 49 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+3. 2. 4..."
+[2025-08-26T04:26:54.605Z] 📄 Extracting page 50/200...
+[2025-08-26T04:26:54.644Z] ✅ Page 50 extracted: 1813 characters
+[2025-08-26T04:26:54.644Z] 📖 Page 50 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+3. 3 ..."
+[2025-08-26T04:26:54.645Z] 📄 Extracting page 51/200...
+[2025-08-26T04:26:54.689Z] ✅ Page 51 extracted: 968 characters
+[2025-08-26T04:26:54.690Z] 📖 Page 51 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+
+Pri..."
+[2025-08-26T04:26:54.690Z] 📄 Extracting page 52/200...
+[2025-08-26T04:26:54.725Z] ✅ Page 52 extracted: 1045 characters
+[2025-08-26T04:26:54.725Z] 📖 Page 52 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+determi..."
+[2025-08-26T04:26:54.726Z] 📄 Extracting page 53/200...
+[2025-08-26T04:26:54.761Z] ✅ Page 53 extracted: 974 characters
+[2025-08-26T04:26:54.761Z] 📖 Page 53 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+3. 3. 3..."
+[2025-08-26T04:26:54.761Z] 📄 Extracting page 54/200...
+[2025-08-26T04:26:54.799Z] ✅ Page 54 extracted: 1110 characters
+[2025-08-26T04:26:54.800Z] 📖 Page 54 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+ a11..."
+[2025-08-26T04:26:54.802Z] 📄 Extracting page 55/200...
+[2025-08-26T04:26:54.840Z] ✅ Page 55 extracted: 1393 characters
+[2025-08-26T04:26:54.840Z] 📖 Page 55 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+4. VE..."
+[2025-08-26T04:26:54.841Z] 📄 Extracting page 56/200...
+[2025-08-26T04:26:54.876Z] ✅ Page 56 extracted: 1191 characters
+[2025-08-26T04:26:54.876Z] 📖 Page 56 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+
+bbb..."
+[2025-08-26T04:26:54.877Z] 📄 Extracting page 57/200...
+[2025-08-26T04:26:54.913Z] ✅ Page 57 extracted: 913 characters
+[2025-08-26T04:26:54.913Z] 📖 Page 57 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+B
+
+
+..."
+[2025-08-26T04:26:54.914Z] 📄 Extracting page 58/200...
+[2025-08-26T04:26:54.947Z] ✅ Page 58 extracted: 1516 characters
+[2025-08-26T04:26:54.947Z] 📖 Page 58 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+Def: Or..."
+[2025-08-26T04:26:54.948Z] 📄 Extracting page 59/200...
+[2025-08-26T04:26:54.988Z] ✅ Page 59 extracted: 1423 characters
+[2025-08-26T04:26:54.988Z] 📖 Page 59 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+
+Def..."
+[2025-08-26T04:26:54.989Z] 📄 Extracting page 60/200...
+[2025-08-26T04:26:55.024Z] ✅ Page 60 extracted: 1456 characters
+[2025-08-26T04:26:55.024Z] 📖 Page 60 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+4. 2 SK..."
+[2025-08-26T04:26:55.024Z] 📄 Extracting page 61/200...
+[2025-08-26T04:26:55.059Z] ✅ Page 61 extracted: 870 characters
+[2025-08-26T04:26:55.059Z] 📖 Page 61 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+rrr r
+gd..."
+[2025-08-26T04:26:55.059Z] 📄 Extracting page 62/200...
+[2025-08-26T04:26:55.092Z] ✅ Page 62 extracted: 1212 characters
+[2025-08-26T04:26:55.092Z] 📖 Page 62 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+4. 3 VE..."
+[2025-08-26T04:26:55.093Z] 📄 Extracting page 63/200...
+[2025-08-26T04:26:55.128Z] ✅ Page 63 extracted: 1221 characters
+[2025-08-26T04:26:55.128Z] 📖 Page 63 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+ijk
+..."
+[2025-08-26T04:26:55.129Z] 📄 Extracting page 64/200...
+[2025-08-26T04:26:55.166Z] ✅ Page 64 extracted: 1228 characters
+[2025-08-26T04:26:55.166Z] 📖 Page 64 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+gde j..."
+[2025-08-26T04:26:55.167Z] 📄 Extracting page 65/200...
+[2025-08-26T04:26:55.197Z] ✅ Page 65 extracted: 231 characters
+[2025-08-26T04:26:55.197Z] 📖 Page 65 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+Ako su ..."
+[2025-08-26T04:26:55.197Z] 📄 Extracting page 66/200...
+[2025-08-26T04:26:55.232Z] ✅ Page 66 extracted: 1611 characters
+[2025-08-26T04:26:55.232Z] 📖 Page 66 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+6. FU..."
+[2025-08-26T04:26:55.233Z] 📄 Extracting page 67/200...
+[2025-08-26T04:26:55.267Z] ✅ Page 67 extracted: 1407 characters
+[2025-08-26T04:26:55.267Z] 📖 Page 67 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+xx
+Pri..."
+[2025-08-26T04:26:55.268Z] 📄 Extracting page 68/200...
+[2025-08-26T04:26:55.297Z] ✅ Page 68 extracted: 1410 characters
+[2025-08-26T04:26:55.297Z] 📖 Page 68 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+f (x) =..."
+[2025-08-26T04:26:55.298Z] 📄 Extracting page 69/200...
+[2025-08-26T04:26:55.328Z] ✅ Page 69 extracted: 1755 characters
+[2025-08-26T04:26:55.328Z] 📖 Page 69 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+Primer ..."
+[2025-08-26T04:26:55.328Z] 📄 Extracting page 70/200...
+[2025-08-26T04:26:55.362Z] ✅ Page 70 extracted: 821 characters
+[2025-08-26T04:26:55.363Z] 📖 Page 70 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+
+Reš..."
+[2025-08-26T04:26:55.363Z] 📄 Extracting page 71/200...
+[2025-08-26T04:26:55.395Z] ✅ Page 71 extracted: 1339 characters
+[2025-08-26T04:26:55.395Z] 📖 Page 71 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+Funkc..."
+[2025-08-26T04:26:55.395Z] 📄 Extracting page 72/200...
+[2025-08-26T04:26:55.426Z] ✅ Page 72 extracted: 1017 characters
+[2025-08-26T04:26:55.426Z] 📖 Page 72 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+
+(
+..."
+[2025-08-26T04:26:55.427Z] 📄 Extracting page 73/200...
+[2025-08-26T04:26:55.458Z] ✅ Page 73 extracted: 839 characters
+[2025-08-26T04:26:55.458Z] 📖 Page 73 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+Teore..."
+[2025-08-26T04:26:55.458Z] 📄 Extracting page 74/200...
+[2025-08-26T04:26:55.490Z] ✅ Page 74 extracted: 994 characters
+[2025-08-26T04:26:55.490Z] 📖 Page 74 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+
+Tad..."
+[2025-08-26T04:26:55.490Z] 📄 Extracting page 75/200...
+[2025-08-26T04:26:55.521Z] ✅ Page 75 extracted: 1178 characters
+[2025-08-26T04:26:55.521Z] 📖 Page 75 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+ax
+l..."
+[2025-08-26T04:26:55.522Z] 📄 Extracting page 76/200...
+[2025-08-26T04:26:55.553Z] ✅ Page 76 extracted: 1023 characters
+[2025-08-26T04:26:55.553Z] 📖 Page 76 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+Dakle, ..."
+[2025-08-26T04:26:55.556Z] 📄 Extracting page 77/200...
+[2025-08-26T04:26:55.596Z] ✅ Page 77 extracted: 1403 characters
+[2025-08-26T04:26:55.596Z] 📖 Page 77 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+ZA DAC ..."
+[2025-08-26T04:26:55.597Z] 📄 Extracting page 78/200...
+[2025-08-26T04:26:55.628Z] ✅ Page 78 extracted: 1457 characters
+[2025-08-26T04:26:55.628Z] 📖 Page 78 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+lim 3..."
+[2025-08-26T04:26:55.628Z] 📄 Extracting page 79/200...
+[2025-08-26T04:26:55.693Z] ✅ Page 79 extracted: 1425 characters
+[2025-08-26T04:26:55.694Z] 📖 Page 79 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+3 3 6..."
+[2025-08-26T04:26:55.695Z] 📄 Extracting page 80/200...
+[2025-08-26T04:26:55.727Z] ✅ Page 80 extracted: 830 characters
+[2025-08-26T04:26:55.727Z] 📖 Page 80 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+
+yy..."
+[2025-08-26T04:26:55.728Z] 📄 Extracting page 81/200...
+[2025-08-26T04:26:55.760Z] ✅ Page 81 extracted: 769 characters
+[2025-08-26T04:26:55.761Z] 📖 Page 81 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+1 1
+Ka..."
+[2025-08-26T04:26:55.761Z] 📄 Extracting page 82/200...
+[2025-08-26T04:26:55.795Z] ✅ Page 82 extracted: 1708 characters
+[2025-08-26T04:26:55.795Z] 📖 Page 82 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+6. DI..."
+[2025-08-26T04:26:55.796Z] 📄 Extracting page 83/200...
+[2025-08-26T04:26:55.827Z] ✅ Page 83 extracted: 1518 characters
+[2025-08-26T04:26:55.827Z] 📖 Page 83 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+f (x + ..."
+[2025-08-26T04:26:55.828Z] 📄 Extracting page 84/200...
+[2025-08-26T04:26:55.863Z] ✅ Page 84 extracted: 1395 characters
+[2025-08-26T04:26:55.863Z] 📖 Page 84 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+v) y = ..."
+[2025-08-26T04:26:55.864Z] 📄 Extracting page 85/200...
+[2025-08-26T04:26:55.897Z] ✅ Page 85 extracted: 1232 characters
+[2025-08-26T04:26:55.897Z] 📖 Page 85 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+
+Pri..."
+[2025-08-26T04:26:55.899Z] 📄 Extracting page 86/200...
+[2025-08-26T04:26:55.930Z] ✅ Page 86 extracted: 1200 characters
+[2025-08-26T04:26:55.930Z] 📖 Page 86 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+v) y = ..."
+[2025-08-26T04:26:55.931Z] 📄 Extracting page 87/200...
+[2025-08-26T04:26:55.965Z] ✅ Page 87 extracted: 1247 characters
+[2025-08-26T04:26:55.966Z] 📖 Page 87 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+6. 4 I ..."
+[2025-08-26T04:26:55.966Z] 📄 Extracting page 88/200...
+[2025-08-26T04:26:55.997Z] ✅ Page 88 extracted: 824 characters
+[2025-08-26T04:26:55.997Z] 📖 Page 88 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+f ′(x..."
+[2025-08-26T04:26:55.998Z] 📄 Extracting page 89/200...
+[2025-08-26T04:26:56.036Z] ✅ Page 89 extracted: 1244 characters
+[2025-08-26T04:26:56.037Z] 📖 Page 89 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+6. 6 I ..."
+[2025-08-26T04:26:56.037Z] 📄 Extracting page 90/200...
+[2025-08-26T04:26:56.071Z] ✅ Page 90 extracted: 1326 characters
+[2025-08-26T04:26:56.071Z] 📖 Page 90 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+Rešenje..."
+[2025-08-26T04:26:56.072Z] 📄 Extracting page 91/200...
+[2025-08-26T04:26:56.107Z] ✅ Page 91 extracted: 1304 characters
+[2025-08-26T04:26:56.107Z] 📖 Page 91 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+Jednači..."
+[2025-08-26T04:26:56.108Z] 📄 Extracting page 92/200...
+[2025-08-26T04:26:56.141Z] ✅ Page 92 extracted: 1391 characters
+[2025-08-26T04:26:56.141Z] 📖 Page 92 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+d (cf) ..."
+[2025-08-26T04:26:56.142Z] 📄 Extracting page 93/200...
+[2025-08-26T04:26:56.177Z] ✅ Page 93 extracted: 1422 characters
+[2025-08-26T04:26:56.178Z] 📖 Page 93 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+(c ⋅ ..."
+[2025-08-26T04:26:56.178Z] 📄 Extracting page 94/200...
+[2025-08-26T04:26:56.210Z] ✅ Page 94 extracted: 1216 characters
+[2025-08-26T04:26:56.210Z] 📖 Page 94 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+6. 1 1 ..."
+[2025-08-26T04:26:56.210Z] 📄 Extracting page 95/200...
+[2025-08-26T04:26:56.243Z] ✅ Page 95 extracted: 1708 characters
+[2025-08-26T04:26:56.243Z] 📖 Page 95 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+ Ako j..."
+[2025-08-26T04:26:56.243Z] 📄 Extracting page 96/200...
+[2025-08-26T04:26:56.277Z] ✅ Page 96 extracted: 1730 characters
+[2025-08-26T04:26:56.277Z] 📖 Page 96 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+Na osno..."
+[2025-08-26T04:26:56.278Z] 📄 Extracting page 97/200...
+[2025-08-26T04:26:56.309Z] ✅ Page 97 extracted: 1530 characters
+[2025-08-26T04:26:56.309Z] 📖 Page 97 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+Kako je..."
+[2025-08-26T04:26:56.310Z] 📄 Extracting page 98/200...
+[2025-08-26T04:26:56.344Z] ✅ Page 98 extracted: 878 characters
+[2025-08-26T04:26:56.344Z] 📖 Page 98 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+Interva..."
+[2025-08-26T04:26:56.345Z] 📄 Extracting page 99/200...
+[2025-08-26T04:26:56.377Z] ✅ Page 99 extracted: 889 characters
+[2025-08-26T04:26:56.377Z] 📖 Page 99 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+
+c) ..."
+[2025-08-26T04:26:56.377Z] 📄 Extracting page 100/200...
+[2025-08-26T04:26:56.412Z] ✅ Page 100 extracted: 1002 characters
+[2025-08-26T04:26:56.412Z] 📖 Page 100 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+Interva..."
+[2025-08-26T04:26:56.412Z] 📄 Extracting page 101/200...
+[2025-08-26T04:26:56.447Z] ✅ Page 101 extracted: 1081 characters
+[2025-08-26T04:26:56.447Z] 📖 Page 101 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+
+3
+..."
+[2025-08-26T04:26:56.448Z] 📄 Extracting page 102/200...
+[2025-08-26T04:26:56.480Z] ✅ Page 102 extracted: 1102 characters
+[2025-08-26T04:26:56.480Z] 📖 Page 102 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+Asimpto..."
+[2025-08-26T04:26:56.481Z] 📄 Extracting page 103/200...
+[2025-08-26T04:26:56.514Z] ✅ Page 103 extracted: 902 characters
+[2025-08-26T04:26:56.515Z] 📖 Page 103 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+
+x2 ..."
+[2025-08-26T04:26:56.516Z] 📄 Extracting page 104/200...
+[2025-08-26T04:26:56.547Z] ✅ Page 104 extracted: 1526 characters
+[2025-08-26T04:26:56.547Z] 📖 Page 104 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+6. 1 3 ..."
+[2025-08-26T04:26:56.548Z] 📄 Extracting page 105/200...
+[2025-08-26T04:26:56.576Z] ✅ Page 105 extracted: 934 characters
+[2025-08-26T04:26:56.577Z] 📖 Page 105 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+
+ 1..."
+[2025-08-26T04:26:56.577Z] 📄 Extracting page 106/200...
+[2025-08-26T04:26:56.647Z] ✅ Page 106 extracted: 958 characters
+[2025-08-26T04:26:56.647Z] 📖 Page 106 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+7. NE..."
+[2025-08-26T04:26:56.648Z] 📄 Extracting page 107/200...
+[2025-08-26T04:26:56.704Z] ✅ Page 107 extracted: 809 characters
+[2025-08-26T04:26:56.704Z] 📖 Page 107 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+U tabli..."
+[2025-08-26T04:26:56.704Z] 📄 Extracting page 108/200...
+[2025-08-26T04:26:56.763Z] ✅ Page 108 extracted: 682 characters
+[2025-08-26T04:26:56.763Z] 📖 Page 108 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+7. 4 DI..."
+[2025-08-26T04:26:56.764Z] 📄 Extracting page 109/200...
+[2025-08-26T04:26:56.816Z] ✅ Page 109 extracted: 961 characters
+[2025-08-26T04:26:56.816Z] 📖 Page 109 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+=
+
+..."
+[2025-08-26T04:26:56.817Z] 📄 Extracting page 110/200...
+[2025-08-26T04:26:56.891Z] ✅ Page 110 extracted: 362 characters
+[2025-08-26T04:26:56.891Z] 📖 Page 110 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+Zato će..."
+[2025-08-26T04:26:56.891Z] 📄 Extracting page 111/200...
+[2025-08-26T04:26:56.950Z] ✅ Page 111 extracted: 933 characters
+[2025-08-26T04:26:56.950Z] 📖 Page 111 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+Primer ..."
+[2025-08-26T04:26:56.951Z] 📄 Extracting page 112/200...
+[2025-08-26T04:26:57.006Z] ✅ Page 112 extracted: 865 characters
+[2025-08-26T04:26:57.007Z] 📖 Page 112 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+ b ..."
+[2025-08-26T04:26:57.007Z] 📄 Extracting page 113/200...
+[2025-08-26T04:26:57.080Z] ✅ Page 113 extracted: 621 characters
+[2025-08-26T04:26:57.080Z] 📖 Page 113 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+
+Ovo..."
+[2025-08-26T04:26:57.080Z] 📄 Extracting page 114/200...
+[2025-08-26T04:26:57.140Z] ✅ Page 114 extracted: 845 characters
+[2025-08-26T04:26:57.140Z] 📖 Page 114 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+
+Sad..."
+[2025-08-26T04:26:57.141Z] 📄 Extracting page 115/200...
+[2025-08-26T04:26:57.174Z] ✅ Page 115 extracted: 1443 characters
+[2025-08-26T04:26:57.175Z] 📖 Page 115 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+dt
+2 x..."
+[2025-08-26T04:26:57.175Z] 📄 Extracting page 116/200...
+[2025-08-26T04:26:57.242Z] ✅ Page 116 extracted: 708 characters
+[2025-08-26T04:26:57.243Z] 📖 Page 116 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+=
+Odak..."
+[2025-08-26T04:26:57.243Z] 📄 Extracting page 117/200...
+[2025-08-26T04:26:57.306Z] ✅ Page 117 extracted: 782 characters
+[2025-08-26T04:26:57.306Z] 📖 Page 117 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+Gde su ..."
+[2025-08-26T04:26:57.307Z] 📄 Extracting page 118/200...
+[2025-08-26T04:26:57.342Z] ✅ Page 118 extracted: 1528 characters
+[2025-08-26T04:26:57.342Z] 📖 Page 118 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+
+= =..."
+[2025-08-26T04:26:57.343Z] 📄 Extracting page 119/200...
+[2025-08-26T04:26:57.376Z] ✅ Page 119 extracted: 1578 characters
+[2025-08-26T04:26:57.376Z] 📖 Page 119 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+
+Int..."
+[2025-08-26T04:26:57.377Z] 📄 Extracting page 120/200...
+[2025-08-26T04:26:57.409Z] ✅ Page 120 extracted: 1009 characters
+[2025-08-26T04:26:57.410Z] 📖 Page 120 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+()
+x 3..."
+[2025-08-26T04:26:57.410Z] 📄 Extracting page 121/200...
+[2025-08-26T04:26:57.443Z] ✅ Page 121 extracted: 1053 characters
+[2025-08-26T04:26:57.443Z] 📖 Page 121 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+x −3 3 ..."
+[2025-08-26T04:26:57.443Z] 📄 Extracting page 122/200...
+[2025-08-26T04:26:57.518Z] ✅ Page 122 extracted: 638 characters
+[2025-08-26T04:26:57.518Z] 📖 Page 122 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+7. 8 IN..."
+[2025-08-26T04:26:57.518Z] 📄 Extracting page 123/200...
+[2025-08-26T04:26:57.557Z] ✅ Page 123 extracted: 840 characters
+[2025-08-26T04:26:57.557Z] 📖 Page 123 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+
+7. ..."
+[2025-08-26T04:26:57.558Z] 📄 Extracting page 124/200...
+[2025-08-26T04:26:57.611Z] ✅ Page 124 extracted: 359 characters
+[2025-08-26T04:26:57.611Z] 📖 Page 124 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+1
+I =∫..."
+[2025-08-26T04:26:57.611Z] 📄 Extracting page 125/200...
+[2025-08-26T04:26:57.658Z] ✅ Page 125 extracted: 847 characters
+[2025-08-26T04:26:57.658Z] 📖 Page 125 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+8. OD..."
+[2025-08-26T04:26:57.658Z] 📄 Extracting page 126/200...
+[2025-08-26T04:26:57.710Z] ✅ Page 126 extracted: 1147 characters
+[2025-08-26T04:26:57.710Z] 📖 Page 126 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+8. 1 OS..."
+[2025-08-26T04:26:57.710Z] 📄 Extracting page 127/200...
+[2025-08-26T04:26:57.788Z] ✅ Page 127 extracted: 689 characters
+[2025-08-26T04:26:57.789Z] 📖 Page 127 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+
+Sad..."
+[2025-08-26T04:26:57.790Z] 📄 Extracting page 128/200...
+[2025-08-26T04:26:57.844Z] ✅ Page 128 extracted: 1280 characters
+[2025-08-26T04:26:57.844Z] 📖 Page 128 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+
+3. ..."
+[2025-08-26T04:26:57.845Z] 📄 Extracting page 129/200...
+[2025-08-26T04:26:57.877Z] ✅ Page 129 extracted: 1379 characters
+[2025-08-26T04:26:57.878Z] 📖 Page 129 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+Dakle i..."
+[2025-08-26T04:26:57.878Z] 📄 Extracting page 130/200...
+[2025-08-26T04:26:57.919Z] ✅ Page 130 extracted: 962 characters
+[2025-08-26T04:26:57.919Z] 📖 Page 130 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+1 1
+x ..."
+[2025-08-26T04:26:57.920Z] 📄 Extracting page 131/200...
+[2025-08-26T04:26:57.956Z] ✅ Page 131 extracted: 1204 characters
+[2025-08-26T04:26:57.956Z] 📖 Page 131 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+
+Gra..."
+[2025-08-26T04:26:57.957Z] 📄 Extracting page 132/200...
+[2025-08-26T04:26:57.992Z] ✅ Page 132 extracted: 1050 characters
+[2025-08-26T04:26:57.993Z] 📖 Page 132 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+b
+V = ..."
+[2025-08-26T04:26:57.993Z] 📄 Extracting page 133/200...
+[2025-08-26T04:26:58.051Z] ✅ Page 133 extracted: 792 characters
+[2025-08-26T04:26:58.051Z] 📖 Page 133 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+
+π π..."
+[2025-08-26T04:26:58.051Z] 📄 Extracting page 134/200...
+[2025-08-26T04:26:58.083Z] ✅ Page 134 extracted: 100 characters
+[2025-08-26T04:26:58.084Z] 📖 Page 134 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+
+134..."
+[2025-08-26T04:26:58.084Z] 📄 Extracting page 135/200...
+[2025-08-26T04:26:58.120Z] ✅ Page 135 extracted: 1010 characters
+[2025-08-26T04:26:58.121Z] 📖 Page 135 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+9. BR..."
+[2025-08-26T04:26:58.122Z] 📄 Extracting page 136/200...
+[2025-08-26T04:26:58.159Z] ✅ Page 136 extracted: 1210 characters
+[2025-08-26T04:26:58.160Z] 📖 Page 136 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+Rešenje..."
+[2025-08-26T04:26:58.160Z] 📄 Extracting page 137/200...
+[2025-08-26T04:26:58.194Z] ✅ Page 137 extracted: 1294 characters
+[2025-08-26T04:26:58.194Z] 📖 Page 137 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+∞
+1
+4..."
+[2025-08-26T04:26:58.195Z] 📄 Extracting page 138/200...
+[2025-08-26T04:26:58.238Z] ✅ Page 138 extracted: 1420 characters
+[2025-08-26T04:26:58.239Z] 📖 Page 138 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+9. 3 PO..."
+[2025-08-26T04:26:58.239Z] 📄 Extracting page 139/200...
+[2025-08-26T04:26:58.272Z] ✅ Page 139 extracted: 1493 characters
+[2025-08-26T04:26:58.272Z] 📖 Page 139 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+∞ ∞
+Ak..."
+[2025-08-26T04:26:58.273Z] 📄 Extracting page 140/200...
+[2025-08-26T04:26:58.308Z] ✅ Page 140 extracted: 1598 characters
+[2025-08-26T04:26:58.308Z] 📖 Page 140 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+9. 5. 1..."
+[2025-08-26T04:26:58.308Z] 📄 Extracting page 141/200...
+[2025-08-26T04:26:58.343Z] ✅ Page 141 extracted: 1094 characters
+[2025-08-26T04:26:58.344Z] 📖 Page 141 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+∞
+1..."
+[2025-08-26T04:26:58.344Z] 📄 Extracting page 142/200...
+[2025-08-26T04:26:58.378Z] ✅ Page 142 extracted: 819 characters
+[2025-08-26T04:26:58.379Z] 📖 Page 142 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+∞
+100k..."
+[2025-08-26T04:26:58.379Z] 📄 Extracting page 143/200...
+[2025-08-26T04:26:58.411Z] ✅ Page 143 extracted: 904 characters
+[2025-08-26T04:26:58.411Z] 📖 Page 143 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+∞
+k
+1..."
+[2025-08-26T04:26:58.411Z] 📄 Extracting page 144/200...
+[2025-08-26T04:26:58.445Z] ✅ Page 144 extracted: 718 characters
+[2025-08-26T04:26:58.445Z] 📖 Page 144 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+17. ∑..."
+[2025-08-26T04:26:58.445Z] 📄 Extracting page 145/200...
+[2025-08-26T04:26:58.479Z] ✅ Page 145 extracted: 1008 characters
+[2025-08-26T04:26:58.479Z] 📖 Page 145 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+
+9. ..."
+[2025-08-26T04:26:58.480Z] 📄 Extracting page 146/200...
+[2025-08-26T04:26:58.513Z] ✅ Page 146 extracted: 1020 characters
+[2025-08-26T04:26:58.513Z] 📖 Page 146 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+1
+l= <..."
+[2025-08-26T04:26:58.514Z] 📄 Extracting page 147/200...
+[2025-08-26T04:26:58.550Z] ✅ Page 147 extracted: 1555 characters
+[2025-08-26T04:26:58.550Z] 📖 Page 147 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+9. 5. 4..."
+[2025-08-26T04:26:58.552Z] 📄 Extracting page 148/200...
+[2025-08-26T04:26:58.583Z] ✅ Page 148 extracted: 1369 characters
+[2025-08-26T04:26:58.583Z] 📖 Page 148 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+∞
+1
+2..."
+[2025-08-26T04:26:58.584Z] 📄 Extracting page 149/200...
+[2025-08-26T04:26:58.621Z] ✅ Page 149 extracted: 1172 characters
+[2025-08-26T04:26:58.622Z] 📖 Page 149 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+ako je ..."
+[2025-08-26T04:26:58.622Z] 📄 Extracting page 150/200...
+[2025-08-26T04:26:58.656Z] ✅ Page 150 extracted: 891 characters
+[2025-08-26T04:26:58.656Z] 📖 Page 150 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+1 − x2..."
+[2025-08-26T04:26:58.657Z] 📄 Extracting page 151/200...
+[2025-08-26T04:26:58.709Z] ✅ Page 151 extracted: 999 characters
+[2025-08-26T04:26:58.709Z] 📖 Page 151 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+10. F..."
+[2025-08-26T04:26:58.709Z] 📄 Extracting page 152/200...
+[2025-08-26T04:26:58.774Z] ✅ Page 152 extracted: 907 characters
+[2025-08-26T04:26:58.774Z] 📖 Page 152 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+10. 2 G..."
+[2025-08-26T04:26:58.774Z] 📄 Extracting page 153/200...
+[2025-08-26T04:26:58.822Z] ✅ Page 153 extracted: 976 characters
+[2025-08-26T04:26:58.822Z] 📖 Page 153 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+
+b)..."
+[2025-08-26T04:26:58.822Z] 📄 Extracting page 154/200...
+[2025-08-26T04:26:58.856Z] ✅ Page 154 extracted: 1132 characters
+[2025-08-26T04:26:58.856Z] 📖 Page 154 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+∂  ∂z ..."
+[2025-08-26T04:26:58.857Z] 📄 Extracting page 155/200...
+[2025-08-26T04:26:58.896Z] ✅ Page 155 extracted: 1172 characters
+[2025-08-26T04:26:58.896Z] 📖 Page 155 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+∂z (x, ..."
+[2025-08-26T04:26:58.896Z] 📄 Extracting page 156/200...
+[2025-08-26T04:26:58.951Z] ✅ Page 156 extracted: 1222 characters
+[2025-08-26T04:26:58.951Z] 📖 Page 156 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+Rešenje..."
+[2025-08-26T04:26:58.952Z] 📄 Extracting page 157/200...
+[2025-08-26T04:26:59.005Z] ✅ Page 157 extracted: 852 characters
+[2025-08-26T04:26:59.006Z] 📖 Page 157 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+Ovi usl..."
+[2025-08-26T04:26:59.006Z] 📄 Extracting page 158/200...
+[2025-08-26T04:26:59.062Z] ✅ Page 158 extracted: 1102 characters
+[2025-08-26T04:26:59.062Z] 📖 Page 158 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+
+Ako..."
+[2025-08-26T04:26:59.063Z] 📄 Extracting page 159/200...
+[2025-08-26T04:26:59.129Z] ✅ Page 159 extracted: 420 characters
+[2025-08-26T04:26:59.130Z] 📖 Page 159 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+
+Dak..."
+[2025-08-26T04:26:59.130Z] 📄 Extracting page 160/200...
+[2025-08-26T04:26:59.177Z] ✅ Page 160 extracted: 1088 characters
+[2025-08-26T04:26:59.178Z] 📖 Page 160 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+Definic..."
+[2025-08-26T04:26:59.178Z] 📄 Extracting page 161/200...
+[2025-08-26T04:26:59.208Z] ✅ Page 161 extracted: 1396 characters
+[2025-08-26T04:26:59.209Z] 📖 Page 161 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+11. D..."
+[2025-08-26T04:26:59.209Z] 📄 Extracting page 162/200...
+[2025-08-26T04:26:59.240Z] ✅ Page 162 extracted: 1657 characters
+[2025-08-26T04:26:59.240Z] 📖 Page 162 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+Definic..."
+[2025-08-26T04:26:59.241Z] 📄 Extracting page 163/200...
+[2025-08-26T04:26:59.272Z] ✅ Page 163 extracted: 1130 characters
+[2025-08-26T04:26:59.272Z] 📖 Page 163 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+sin(0) ..."
+[2025-08-26T04:26:59.272Z] 📄 Extracting page 164/200...
+[2025-08-26T04:26:59.306Z] ✅ Page 164 extracted: 1026 characters
+[2025-08-26T04:26:59.306Z] 📖 Page 164 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+ZADACI..."
+[2025-08-26T04:26:59.307Z] 📄 Extracting page 165/200...
+[2025-08-26T04:26:59.339Z] ✅ Page 165 extracted: 1017 characters
+[2025-08-26T04:26:59.339Z] 📖 Page 165 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+4. Od..."
+[2025-08-26T04:26:59.340Z] 📄 Extracting page 166/200...
+[2025-08-26T04:26:59.375Z] ✅ Page 166 extracted: 1012 characters
+[2025-08-26T04:26:59.375Z] 📖 Page 166 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+y dx y ..."
+[2025-08-26T04:26:59.376Z] 📄 Extracting page 167/200...
+[2025-08-26T04:26:59.407Z] ✅ Page 167 extracted: 974 characters
+[2025-08-26T04:26:59.408Z] 📖 Page 167 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+Funkc..."
+[2025-08-26T04:26:59.409Z] 📄 Extracting page 168/200...
+[2025-08-26T04:26:59.442Z] ✅ Page 168 extracted: 926 characters
+[2025-08-26T04:26:59.443Z] 📖 Page 168 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+
+y2..."
+[2025-08-26T04:26:59.443Z] 📄 Extracting page 169/200...
+[2025-08-26T04:26:59.474Z] ✅ Page 169 extracted: 1102 characters
+[2025-08-26T04:26:59.474Z] 📖 Page 169 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+11. 2. ..."
+[2025-08-26T04:26:59.474Z] 📄 Extracting page 170/200...
+[2025-08-26T04:26:59.508Z] ✅ Page 170 extracted: 1030 characters
+[2025-08-26T04:26:59.508Z] 📖 Page 170 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+y
+smen..."
+[2025-08-26T04:26:59.508Z] 📄 Extracting page 171/200...
+[2025-08-26T04:26:59.544Z] ✅ Page 171 extracted: 1035 characters
+[2025-08-26T04:26:59.544Z] 📖 Page 171 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+1 u 1+ ..."
+[2025-08-26T04:26:59.544Z] 📄 Extracting page 172/200...
+[2025-08-26T04:26:59.579Z] ✅ Page 172 extracted: 1129 characters
+[2025-08-26T04:26:59.579Z] 📖 Page 172 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+∫ x =..."
+[2025-08-26T04:26:59.580Z] 📄 Extracting page 173/200...
+[2025-08-26T04:26:59.616Z] ✅ Page 173 extracted: 1050 characters
+[2025-08-26T04:26:59.616Z] 📖 Page 173 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+u 2 − 1..."
+[2025-08-26T04:26:59.616Z] 📄 Extracting page 174/200...
+[2025-08-26T04:26:59.650Z] ✅ Page 174 extracted: 1174 characters
+[2025-08-26T04:26:59.651Z] 📖 Page 174 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+1 + 3u ..."
+[2025-08-26T04:26:59.651Z] 📄 Extracting page 175/200...
+[2025-08-26T04:26:59.685Z] ✅ Page 175 extracted: 1042 characters
+[2025-08-26T04:26:59.686Z] 📖 Page 175 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+y  y
+C..."
+[2025-08-26T04:26:59.687Z] 📄 Extracting page 176/200...
+[2025-08-26T04:26:59.722Z] ✅ Page 176 extracted: 891 characters
+[2025-08-26T04:26:59.723Z] 📖 Page 176 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+cos z d..."
+[2025-08-26T04:26:59.724Z] 📄 Extracting page 177/200...
+[2025-08-26T04:26:59.760Z] ✅ Page 177 extracted: 1263 characters
+[2025-08-26T04:26:59.761Z] 📖 Page 177 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+11. 2. ..."
+[2025-08-26T04:26:59.761Z] 📄 Extracting page 178/200...
+[2025-08-26T04:26:59.800Z] ✅ Page 178 extracted: 940 characters
+[2025-08-26T04:26:59.800Z] 📖 Page 178 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+
+ZAD..."
+[2025-08-26T04:26:59.800Z] 📄 Extracting page 179/200...
+[2025-08-26T04:26:59.840Z] ✅ Page 179 extracted: 1244 characters
+[2025-08-26T04:26:59.841Z] 📖 Page 179 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+u = x ..."
+[2025-08-26T04:26:59.841Z] 📄 Extracting page 180/200...
+[2025-08-26T04:26:59.880Z] ✅ Page 180 extracted: 1106 characters
+[2025-08-26T04:26:59.881Z] 📖 Page 180 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+y=e ∫..."
+[2025-08-26T04:26:59.882Z] 📄 Extracting page 181/200...
+[2025-08-26T04:26:59.917Z] ✅ Page 181 extracted: 1058 characters
+[2025-08-26T04:26:59.918Z] 📖 Page 181 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+Rešenje..."
+[2025-08-26T04:26:59.918Z] 📄 Extracting page 182/200...
+[2025-08-26T04:26:59.962Z] ✅ Page 182 extracted: 1284 characters
+[2025-08-26T04:26:59.962Z] 📖 Page 182 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+ − ∫ d..."
+[2025-08-26T04:26:59.962Z] 📄 Extracting page 183/200...
+[2025-08-26T04:27:00.000Z] ✅ Page 183 extracted: 1360 characters
+[2025-08-26T04:27:00.000Z] 📖 Page 183 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+je opšt..."
+[2025-08-26T04:27:00.001Z] 📄 Extracting page 184/200...
+[2025-08-26T04:27:00.042Z] ✅ Page 184 extracted: 1194 characters
+[2025-08-26T04:27:00.042Z] 📖 Page 184 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+Partiku..."
+[2025-08-26T04:27:00.042Z] 📄 Extracting page 185/200...
+[2025-08-26T04:27:00.079Z] ✅ Page 185 extracted: 1044 characters
+[2025-08-26T04:27:00.079Z] 📖 Page 185 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+17. y′ ..."
+[2025-08-26T04:27:00.080Z] 📄 Extracting page 186/200...
+[2025-08-26T04:27:00.114Z] ✅ Page 186 extracted: 995 characters
+[2025-08-26T04:27:00.114Z] 📖 Page 186 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+ZADACI..."
+[2025-08-26T04:27:00.115Z] 📄 Extracting page 187/200...
+[2025-08-26T04:27:00.153Z] ✅ Page 187 extracted: 1094 characters
+[2025-08-26T04:27:00.154Z] 📖 Page 187 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+1 1
+−..."
+[2025-08-26T04:27:00.154Z] 📄 Extracting page 188/200...
+[2025-08-26T04:27:00.191Z] ✅ Page 188 extracted: 1089 characters
+[2025-08-26T04:27:00.191Z] 📖 Page 188 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+−1
+ −..."
+[2025-08-26T04:27:00.191Z] 📄 Extracting page 189/200...
+[2025-08-26T04:27:00.233Z] ✅ Page 189 extracted: 1156 characters
+[2025-08-26T04:27:00.233Z] 📖 Page 189 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+2
+Ako ..."
+[2025-08-26T04:27:00.234Z] 📄 Extracting page 190/200...
+[2025-08-26T04:27:00.263Z] ✅ Page 190 extracted: 662 characters
+[2025-08-26T04:27:00.264Z] 📖 Page 190 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+1
+Ako ..."
+[2025-08-26T04:27:00.265Z] 📄 Extracting page 191/200...
+[2025-08-26T04:27:00.300Z] ✅ Page 191 extracted: 1481 characters
+[2025-08-26T04:27:00.301Z] 📖 Page 191 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+
+11...."
+[2025-08-26T04:27:00.303Z] 📄 Extracting page 192/200...
+[2025-08-26T04:27:00.342Z] ✅ Page 192 extracted: 1398 characters
+[2025-08-26T04:27:00.342Z] 📖 Page 192 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+− 3 ±..."
+[2025-08-26T04:27:00.342Z] 📄 Extracting page 193/200...
+[2025-08-26T04:27:00.379Z] ✅ Page 193 extracted: 1498 characters
+[2025-08-26T04:27:00.380Z] 📖 Page 193 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+U tehni..."
+[2025-08-26T04:27:00.380Z] 📄 Extracting page 194/200...
+[2025-08-26T04:27:00.414Z] ✅ Page 194 extracted: 1343 characters
+[2025-08-26T04:27:00.415Z] 📖 Page 194 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+2a2 =1..."
+[2025-08-26T04:27:00.415Z] 📄 Extracting page 195/200...
+[2025-08-26T04:27:00.448Z] ✅ Page 195 extracted: 1078 characters
+[2025-08-26T04:27:00.448Z] 📖 Page 195 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+6C1 + 2..."
+[2025-08-26T04:27:00.449Z] 📄 Extracting page 196/200...
+[2025-08-26T04:27:00.487Z] ✅ Page 196 extracted: 1031 characters
+[2025-08-26T04:27:00.487Z] 📖 Page 196 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+PRILO..."
+[2025-08-26T04:27:00.487Z] 📄 Extracting page 197/200...
+[2025-08-26T04:27:00.523Z] ✅ Page 197 extracted: 934 characters
+[2025-08-26T04:27:00.523Z] 📖 Page 197 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+Pretv..."
+[2025-08-26T04:27:00.523Z] 📄 Extracting page 198/200...
+[2025-08-26T04:27:00.558Z] ✅ Page 198 extracted: 931 characters
+[2025-08-26T04:27:00.558Z] 📖 Page 198 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+ANALI..."
+[2025-08-26T04:27:00.558Z] 📄 Extracting page 199/200...
+[2025-08-26T04:27:00.593Z] ✅ Page 199 extracted: 1185 characters
+[2025-08-26T04:27:00.594Z] 📖 Page 199 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+a1 b1
+..."
+[2025-08-26T04:27:00.594Z] 📄 Extracting page 200/200...
+[2025-08-26T04:27:00.628Z] ✅ Page 200 extracted: 1590 characters
+[2025-08-26T04:27:00.628Z] 📖 Page 200 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+LITER..."
+[2025-08-26T04:27:00.630Z] INFO: Text extraction completed: 196 pages processed
+[2025-08-26T04:27:00.657Z] Progress: render - 35% - Rendering PDF pages
+[2025-08-26T04:27:02.766Z] Progress: text - 55% - Saving text files
+[2025-08-26T04:27:02.768Z] INFO: 
+[2025-08-26T04:27:02.768Z] INFO: ------------------------------------------------------------
+[2025-08-26T04:27:02.768Z] INFO: SECTION: DOCUMENT STRUCTURE ANALYSIS
+[2025-08-26T04:27:02.768Z] INFO: ------------------------------------------------------------
+[2025-08-26T04:27:02.768Z] INFO: Progress: sectioning [█████████████-------] 65% - Analyzing complete document structure with AI
+[2025-08-26T04:27:02.795Z] Progress: sectioning - 65% - Analyzing complete document structure with AI
+[2025-08-26T04:27:02.795Z] INFO: Checking for existing TOC analysis in database
+[2025-08-26T04:27:02.820Z] ⚠️ No TOC analysis found, using legacy structure detection
+[2025-08-26T04:27:02.821Z] WARNING: Using legacy fallback structure detection
+[2025-08-26T04:27:03.462Z] 🔄 Using node-poppler for true page-by-page extraction (pages 2 to 4)
+[2025-08-26T04:27:03.465Z] 📁 Created temp PDF file: C:\Users\stefa\AppData\Local\Temp\temp_pdf_1756182423462.pdf
+[2025-08-26T04:27:03.636Z] 📚 PDF has 200 pages, extracting 2 to 4
+[2025-08-26T04:27:03.637Z] 📄 Extracting page 2/4...
+[2025-08-26T04:27:03.687Z] ✅ Page 2 extracted: 1972 characters
+[2025-08-26T04:27:03.687Z] 📖 Page 2 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+
+
+SAD..."
+[2025-08-26T04:27:03.688Z] 📄 Extracting page 3/4...
+[2025-08-26T04:27:03.722Z] ✅ Page 3 extracted: 2254 characters
+[2025-08-26T04:27:03.722Z] 📖 Page 3 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+4. 3 Ve..."
+[2025-08-26T04:27:03.722Z] 📄 Extracting page 4/4...
+[2025-08-26T04:27:03.754Z] ✅ Page 4 extracted: 1851 characters
+[2025-08-26T04:27:03.754Z] 📖 Page 4 preview: "Računarska matematika ITS - Visoka škola strukovnih studija za informacione tehnologije
+
+
+9. 4 Re..."
+[2025-08-26T04:28:49.730Z] 📝 Legacy structure detection completed: 124 sections found
+[2025-08-26T04:28:49.758Z] Progress: embed - 75% - Processing sections and creating embeddings
+[2025-08-26T04:29:33.226Z] Progress: chunk - 85% - Creating and processing chunks
+[2025-08-26T04:30:17.051Z] Progress: done - 100% - Document processing completed
+[2025-08-26T04:30:17.081Z] INFO: 
+[2025-08-26T04:30:17.081Z] INFO: ------------------------------------------------------------
+[2025-08-26T04:30:17.081Z] INFO: SECTION: PROCESSING STATISTICS
+[2025-08-26T04:30:17.081Z] INFO: ------------------------------------------------------------
+[2025-08-26T04:30:17.081Z] INFO: total pages: 196
+[2025-08-26T04:30:17.081Z] INFO: total sections: 124
+[2025-08-26T04:30:17.081Z] INFO: total chunks: 100
+[2025-08-26T04:30:17.081Z] INFO: has o c r: false
+[2025-08-26T04:30:17.081Z] INFO: toc pages used: 2-4
+[2025-08-26T04:30:17.081Z] INFO: content start page: 5
+[2025-08-26T04:30:17.081Z] 🎉 Document processing completed successfully for material 68ad378885e324322914cd33
+[2025-08-26T04:30:17.082Z] INFO: 
+[2025-08-26T04:30:17.082Z] INFO: ================================================================================
+[2025-08-26T04:30:17.082Z] INFO: End Time: 2025-08-26T04:30:17.082Z
+[2025-08-26T04:30:17.082Z] INFO: Total Processing Time: 206 seconds
+[2025-08-26T04:30:17.082Z] INFO: Total Log Entries: 660
+[2025-08-26T04:30:17.082Z] INFO: ================================================================================

@@ -1,0 +1,49 @@
+[2025-08-26T02:44:14.045Z] INFO: 📝 ================================================================================
+[2025-08-26T02:44:14.045Z] INFO: 📝 DOCUMENT PROCESSING LOG
+[2025-08-26T02:44:14.045Z] INFO: 📝 Material ID: 68ad1f7b24c15bf4a9508406
+[2025-08-26T02:44:14.046Z] INFO: 📝 Start Time: 2025-08-26T02:44:14.044Z
+[2025-08-26T02:44:14.046Z] INFO: 📝 ================================================================================
+[2025-08-26T02:44:14.046Z] INFO: 📝 
+[2025-08-26T02:44:14.046Z] INFO: 📝 Starting document processing for material: 68ad1f7b24c15bf4a9508406
+[2025-08-26T02:44:14.046Z] INFO: 📝 TOC pages specified: 2-3
+[2025-08-26T02:44:14.047Z] INFO: 📝 Progress: probe [█-------------------] 5% - Starting document processing
+[2025-08-26T02:44:14.076Z] INFO: 📝 
+[2025-08-26T02:44:14.076Z] INFO: 📝 ------------------------------------------------------------
+[2025-08-26T02:44:14.076Z] INFO: 📝 SECTION: INITIALIZATION
+[2025-08-26T02:44:14.077Z] INFO: 📝 ------------------------------------------------------------
+[2025-08-26T02:44:14.077Z] INFO: 📝 Progress: probe [█-------------------] 7% - Clearing existing test data
+[2025-08-26T02:44:14.767Z] INFO: 📝 Loading material from database
+[2025-08-26T02:44:14.789Z] INFO: 📝 Material loaded: SPM1 (Subject: 68ad1be75c8561c2c634eda2)
+[2025-08-26T02:44:15.578Z] INFO: 📝 
+[2025-08-26T02:44:15.578Z] INFO: 📝 ------------------------------------------------------------
+[2025-08-26T02:44:15.579Z] INFO: 📝 SECTION: PDF TEXT EXTRACTION
+[2025-08-26T02:44:15.579Z] INFO: 📝 ------------------------------------------------------------
+[2025-08-26T02:44:15.579Z] INFO: 📝 Progress: text [████----------------] 20% - Extracting text from entire PDF content (all pages from 4 onwards)
+[2025-08-26T02:44:15.580Z] INFO: 📝 Starting text extraction from page 4 onwards
+[2025-08-26T02:44:20.070Z] INFO: 📝 Text extraction completed: 102 pages processed
+[2025-08-26T02:44:21.661Z] INFO: 📝 
+[2025-08-26T02:44:21.662Z] INFO: 📝 ------------------------------------------------------------
+[2025-08-26T02:44:21.662Z] INFO: 📝 SECTION: DOCUMENT STRUCTURE ANALYSIS
+[2025-08-26T02:44:21.662Z] INFO: 📝 ------------------------------------------------------------
+[2025-08-26T02:44:21.663Z] INFO: 📝 Progress: sectioning [█████████████-------] 65% - Analyzing complete document structure with AI
+[2025-08-26T02:44:21.693Z] INFO: 📝 Checking for existing TOC analysis in database
+[2025-08-26T02:44:21.717Z] WARNING: ⚠️ No TOC analysis found, using legacy structure detection
+[2025-08-26T02:44:21.719Z] WARNING: ⚠️ Using legacy fallback structure detection
+[2025-08-26T02:45:25.770Z] INFO: 📝 Legacy structure detection completed: 56 sections found
+[2025-08-26T02:46:12.736Z] INFO: 📝 
+[2025-08-26T02:46:12.737Z] INFO: 📝 ------------------------------------------------------------
+[2025-08-26T02:46:12.737Z] INFO: 📝 SECTION: PROCESSING STATISTICS
+[2025-08-26T02:46:12.737Z] INFO: 📝 ------------------------------------------------------------
+[2025-08-26T02:46:12.738Z] INFO: 📝 total pages: 102
+[2025-08-26T02:46:12.738Z] INFO: 📝 total sections: 56
+[2025-08-26T02:46:12.739Z] INFO: 📝 total chunks: 56
+[2025-08-26T02:46:12.739Z] INFO: 📝 has o c r: false
+[2025-08-26T02:46:12.739Z] INFO: 📝 toc pages used: 2-3
+[2025-08-26T02:46:12.740Z] INFO: 📝 content start page: 4
+[2025-08-26T02:46:12.740Z] INFO: 📝 Document processing completed successfully for material 68ad1f7b24c15bf4a9508406
+[2025-08-26T02:46:12.741Z] INFO: 📝 
+[2025-08-26T02:46:12.741Z] INFO: 📝 ================================================================================
+[2025-08-26T02:46:12.741Z] INFO: 📝 End Time: 2025-08-26T02:46:12.741Z
+[2025-08-26T02:46:12.741Z] INFO: 📝 Total Processing Time: 119 seconds
+[2025-08-26T02:46:12.742Z] INFO: 📝 Total Log Entries: 47
+[2025-08-26T02:46:12.742Z] INFO: 📝 ================================================================================
