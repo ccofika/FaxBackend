@@ -1,0 +1,44 @@
+[2025-09-01T23:04:26.911Z] INFO: ================================================================================
+[2025-09-01T23:04:26.911Z] INFO: DOCUMENT PROCESSING LOG
+[2025-09-01T23:04:26.911Z] INFO: Material ID: 68b62677db2dcc0d6216a4b0
+[2025-09-01T23:04:26.911Z] INFO: Start Time: 2025-09-01T23:04:26.911Z
+[2025-09-01T23:04:26.911Z] INFO: ================================================================================
+[2025-09-01T23:04:26.911Z] INFO: 
+[2025-09-01T23:04:26.911Z] INFO: Starting TOC-only processing for material: 68b62677db2dcc0d6216a4b0
+[2025-09-01T23:04:26.911Z] INFO: TOC pages specified: 2-3
+[2025-09-01T23:04:26.911Z] INFO: Progress: probe [█-------------------] 5% - Starting TOC analysis
+[2025-09-01T23:04:26.970Z] Progress: probe - 5% - Starting TOC analysis
+[2025-09-01T23:04:26.971Z] INFO: Loading material from database
+[2025-09-01T23:04:27.179Z] INFO: Material loaded: skripta_E1_2013 (Subject: 68ae193285e324322914d443)
+[2025-09-01T23:04:27.292Z] Progress: toc_analysis - 20% - Downloading PDF from R2
+[2025-09-01T23:04:27.615Z] INFO: 
+[2025-09-01T23:04:27.615Z] INFO: ------------------------------------------------------------
+[2025-09-01T23:04:27.615Z] INFO: SECTION: TOC ANALYSIS
+[2025-09-01T23:04:27.615Z] INFO: ------------------------------------------------------------
+[2025-09-01T23:04:27.615Z] INFO: Progress: toc_analysis [████████------------] 40% - Extracting TOC pages
+[2025-09-01T23:04:27.681Z] Progress: toc_analysis - 40% - Extracting TOC pages
+[2025-09-01T23:04:27.681Z] 🔄 Using node-poppler for true page-by-page extraction (pages 2 to 3)
+[2025-09-01T23:04:27.683Z] 📁 Created temp PDF file: C:\Users\ccofi\AppData\Local\Temp\temp_pdf_1756767867682.pdf
+[2025-09-01T23:04:27.808Z] 📚 PDF has 100 pages, extracting 2 to 3
+[2025-09-01T23:04:27.809Z] 📄 Extracting page 2/3...
+[2025-09-01T23:04:27.851Z] ✅ Page 2 extracted: 3507 characters
+[2025-09-01T23:04:27.851Z] 📖 Page 2 preview: "Sadržaj:
+
+
+The Simple Present Tense................................................................."
+[2025-09-01T23:04:27.851Z] 📄 Extracting page 3/3...
+[2025-09-01T23:04:27.873Z] ✅ Page 3 extracted: 606 characters
+[2025-09-01T23:04:27.874Z] 📖 Page 3 preview: "The Second Conditional................................................................................."
+[2025-09-01T23:04:27.875Z] INFO: Progress: toc_analysis [██████████████------] 70% - Analyzing TOC with AI
+[2025-09-01T23:04:27.940Z] Progress: toc_analysis - 70% - Analyzing TOC with AI
+[2025-09-01T23:05:31.820Z] INFO: AI analysis completed: 35 sections found
+[2025-09-01T23:05:31.866Z] INFO: Progress: toc_analysis [████████████████████] 100% - TOC analysis completed - ready for review
+[2025-09-01T23:05:31.914Z] Progress: toc_analysis - 100% - TOC analysis completed - ready for review
+[2025-09-01T23:05:31.914Z] 🎉 TOC analysis completed successfully for material 68b62677db2dcc0d6216a4b0
+[2025-09-01T23:05:31.914Z] INFO: Material status updated to toc_ready - awaiting admin review
+[2025-09-01T23:05:31.914Z] INFO: 
+[2025-09-01T23:05:31.914Z] INFO: ================================================================================
+[2025-09-01T23:05:31.914Z] INFO: End Time: 2025-09-01T23:05:31.914Z
+[2025-09-01T23:05:31.914Z] INFO: Total Processing Time: 65 seconds
+[2025-09-01T23:05:31.914Z] INFO: Total Log Entries: 39
+[2025-09-01T23:05:31.914Z] INFO: ================================================================================

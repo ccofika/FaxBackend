@@ -62,15 +62,17 @@ class SectionProcessor {
         continue;
       }
       
-      processLogger.log(`✅ SIMPLE: Extracted ${sectionContent.content.length} chars from pages ${section.pageStart}-${section.pageEnd}`);
+      processLogger.log(`✅ TOC-ONLY: Extracted ${sectionContent.content.length} chars from TOC pages ${sectionContent.pageStart}-${sectionContent.pageEnd}`);
       
-      // ADDITIONAL ENHANCEMENT: Try to refine section boundaries using title matching
+      // Try to refine section boundaries within TOC pages
       const nextSection = i < sections.length - 1 ? sections[i + 1] : null;
       const refinedSection = this.refineSection(sectionContent, section, nextSection, pdfPages);
       
       const finalSection = refinedSection || sectionContent;
       if (refinedSection) {
-        processLogger.log(`🎯 ENHANCED: Refined section boundaries using title matching (${refinedSection.content.length} chars)`);
+        processLogger.log(`🎯 TOC-SCOPED: Refined section within TOC pages (${refinedSection.content.length} chars)`);
+      } else {
+        processLogger.log(`📄 TOC-ONLY: Using complete TOC pages content`);
       }
       
       // Handle long sections that exceed the embedding character limit
@@ -91,7 +93,7 @@ class SectionProcessor {
   }
   
   /**
-   * SIMPLE: Extract section content by pages ONLY - no header searching, no fallbacks
+   * STRICT TOC-ONLY: Extract section content using ONLY TOC pages - no global search
    */
   private extractSectionByPagesOnly(
     section: ITocSection,
@@ -99,7 +101,7 @@ class SectionProcessor {
     sectionIndex: number,
     materialId: string
   ): ProcessedSection | null {
-    processLogger.log(`📄 SIMPLE: Extracting section "${section.title}" from pages ${section.pageStart}-${section.pageEnd}`);
+    processLogger.log(`📄 TOC-ONLY: Extracting section "${section.title}" from TOC pages ${section.pageStart}-${section.pageEnd}`);
     
     // Get pages for this section - EXACT range from TOC analysis
     const sectionPages = pdfPages.filter(
@@ -107,22 +109,22 @@ class SectionProcessor {
     );
     
     if (sectionPages.length === 0) {
-      processLogger.error(`❌ No pages found for section "${section.title}" (pages ${section.pageStart}-${section.pageEnd})`);
-      processLogger.error(`❌ Available pages: ${pdfPages.map(p => p.pageNumber).join(', ')}`);
-      return null;
+      processLogger.log(`⚠️ SKIPPING: Section "${section.title}" references non-existent pages ${section.pageStart}-${section.pageEnd}`);
+      processLogger.log(`📄 Document only has pages: ${Math.min(...pdfPages.map(p => p.pageNumber))}-${Math.max(...pdfPages.map(p => p.pageNumber))}`);
+      return null; // Skip this section instead of failing the entire process
     }
     
-    // Combine ALL text from ALL pages in the range - NO header searching
+    // Combine ALL text from ALL TOC pages - no filtering, no searching
     const content = sectionPages.map(p => p.text).join('\n\n').trim();
     
-    processLogger.log(`✅ SIMPLE: Extracted ${content.length} chars from ${sectionPages.length} pages (${sectionPages.map(p => p.pageNumber).join(', ')})`);
-    processLogger.log(`📖 SIMPLE: Content preview: "${content.substring(0, 200)}..."`);
+    processLogger.log(`✅ TOC-ONLY: Extracted ${content.length} chars from ${sectionPages.length} TOC pages (${sectionPages.map(p => p.pageNumber).join(', ')})`);
+    processLogger.log(`📖 TOC-ONLY: Content preview: "${content.substring(0, 200)}..."`);
     
     // Calculate character positions relative to the entire document
     const charStart = this.calculateAbsoluteCharPosition(pdfPages, section.pageStart, 0);
     const charEnd = charStart + content.length;
     
-    processLogger.log(`📊 SIMPLE: Character positions - Start: ${charStart}, End: ${charEnd}`);
+    processLogger.log(`📊 TOC-ONLY: Character positions - Start: ${charStart}, End: ${charEnd}`);
     
     return {
       sectionId: `section_${materialId}_${sectionIndex}`,
@@ -130,8 +132,8 @@ class SectionProcessor {
       cleanTitle: section.cleanTitle,
       path: this.generateSectionPath(section.level, sectionIndex),
       level: section.level,
-      pageStart: section.pageStart,
-      pageEnd: section.pageEnd,
+      pageStart: section.pageStart, // ALWAYS use TOC pages
+      pageEnd: section.pageEnd,     // ALWAYS use TOC pages
       charStart,
       charEnd,
       content,
@@ -140,8 +142,9 @@ class SectionProcessor {
     };
   }
 
+
   /**
-   * ADDITIONAL: Refine section boundaries using title matching after page-based extraction
+   * TOC-SCOPED REFINEMENT: Try to find exact section boundaries within TOC pages only
    */
   private refineSection(
     pageBasedSection: ProcessedSection,
@@ -149,135 +152,80 @@ class SectionProcessor {
     nextSection: ITocSection | null,
     allPages: PageText[]
   ): ProcessedSection | null {
-    processLogger.log(`🎯 REFINEMENT: Attempting to refine section "${section.title}" using title boundaries`);
+    processLogger.log(`🎯 TOC-SCOPED REFINEMENT: Refining "${section.title}" within TOC pages ${section.pageStart}-${section.pageEnd}`);
     
-    // Debug: Check all input parameters
-    processLogger.log(`🔍 DEBUG: pageBasedSection exists: ${!!pageBasedSection}`);
-    processLogger.log(`🔍 DEBUG: section exists: ${!!section}`);
-    processLogger.log(`🔍 DEBUG: section.title: "${section?.title || 'undefined'}"`);
-    processLogger.log(`🔍 DEBUG: section.cleanTitle: "${section?.cleanTitle || 'undefined'}"`);
-    processLogger.log(`🔍 DEBUG: nextSection exists: ${!!nextSection}`);
-    processLogger.log(`🔍 DEBUG: nextSection?.title: "${nextSection?.title || 'undefined'}"`);
-    processLogger.log(`🔍 DEBUG: nextSection?.cleanTitle: "${nextSection?.cleanTitle || 'undefined'}"`);
-    processLogger.log(`🔍 DEBUG: allPages count: ${allPages?.length || 0}`);
-    
-    // Safety check for required parameters
-    if (!pageBasedSection || !section || !allPages || allPages.length === 0) {
-      processLogger.log(`❌ REFINEMENT: Missing required parameters, skipping refinement`);
-      return null;
-    }
-    
-    // Generate cleanTitle if it doesn't exist or is invalid
+    // Generate cleanTitle if needed
     let cleanTitle: string = section.cleanTitle;
     if (!cleanTitle || typeof cleanTitle !== 'string') {
-      processLogger.log(`⚠️ REFINEMENT: cleanTitle missing or invalid, generating from title "${section.title}"`);
       const generatedCleanTitle = this.generateCleanTitle(section.title);
       if (!generatedCleanTitle) {
-        processLogger.log(`❌ REFINEMENT: Cannot generate valid cleanTitle from "${section.title}", skipping refinement`);
+        processLogger.log(`❌ Cannot generate cleanTitle from "${section.title}", using whole TOC pages`);
         return null;
       }
       cleanTitle = generatedCleanTitle;
-      processLogger.log(`✅ REFINEMENT: Generated cleanTitle: "${cleanTitle}"`);
     }
     
     try {
-      // Get all PDF text as one continuous string for title searching
-      let allText;
-      try {
-        processLogger.log(`🔍 DEBUG: Processing ${allPages.length} pages for text extraction`);
-        allText = allPages.map((p, index) => {
-          if (!p || typeof p.text !== 'string') {
-            processLogger.log(`⚠️ DEBUG: Page ${index} has invalid text: ${typeof p?.text}`);
-            return '';
-          }
-          return p.text;
-        }).join('\n\n');
-        processLogger.log(`🔍 DEBUG: Combined text length: ${allText.length}`);
-      } catch (mapError) {
-        processLogger.log(`❌ REFINEMENT: Error processing pages: ${mapError}`);
+      // Get ONLY the TOC pages for this section (not entire document)
+      const tocPages = allPages.filter(
+        page => page.pageNumber >= section.pageStart && page.pageNumber <= section.pageEnd
+      );
+      
+      if (tocPages.length === 0) {
+        processLogger.log(`⚠️ No TOC pages found for refinement, using whole pages`);
         return null;
       }
       
-      // Find the start position of current section title using enhanced matching
-      const startResult = this.findTitleWithSpaceVariations(allText, cleanTitle);
+      // Get text from ONLY these TOC pages
+      const tocText = tocPages.map(p => p.text).join('\n\n');
+      processLogger.log(`🔍 TOC-SCOPED: Searching within TOC pages text (${tocText.length} chars)`);
+      
+      // Find section title within TOC pages
+      const startResult = this.findTitleWithSpaceVariations(tocText, cleanTitle);
       if (!startResult.found) {
-        processLogger.log(`⚠️ REFINEMENT: Could not find section title "${cleanTitle}" - keeping page-based extraction`);
+        processLogger.log(`⚠️ Section title "${cleanTitle}" not found within TOC pages, using whole pages`);
         return null;
       }
       
-      processLogger.log(`✅ REFINEMENT: Found section start at position ${startResult.position}`);
+      processLogger.log(`✅ TOC-SCOPED: Found section start at position ${startResult.position} within TOC pages`);
       
-      // Determine end position
-      let endPosition = allText.length; // Default to end of document
-      let foundNextTitle = false;
+      // Find end position within TOC pages
+      let endPosition = tocText.length; // Default to end of TOC pages
       
       if (nextSection) {
-        // Generate cleanTitle for next section if needed
-        let nextCleanTitle: string | null = nextSection.cleanTitle;
-        if (!nextCleanTitle || typeof nextCleanTitle !== 'string') {
-          nextCleanTitle = this.generateCleanTitle(nextSection.title);
-          if (nextCleanTitle) {
-            processLogger.log(`⚠️ REFINEMENT: Generated cleanTitle for next section: "${nextCleanTitle}"`);
-          }
-        }
-        
-        if (nextCleanTitle && typeof nextCleanTitle === 'string') {
-          // Try to find the next section title using enhanced matching
-          const endResult = this.findTitleWithSpaceVariations(allText, nextCleanTitle, startResult.position + 50);
+        let nextCleanTitle = nextSection.cleanTitle || this.generateCleanTitle(nextSection.title);
+        if (nextCleanTitle) {
+          // Look for next section title within the same TOC page range
+          const endResult = this.findTitleWithSpaceVariations(tocText, nextCleanTitle, startResult.position + 50);
           if (endResult.found) {
             endPosition = endResult.position;
-            foundNextTitle = true;
-            processLogger.log(`✅ REFINEMENT: Found next section "${nextCleanTitle}" at position ${endPosition}`);
-          } else {
-            processLogger.log(`⚠️ REFINEMENT: Could not find next section "${nextCleanTitle}" - using page boundaries`);
-            return null;
+            processLogger.log(`✅ TOC-SCOPED: Found next section "${nextCleanTitle}" at position ${endPosition} within TOC pages`);
           }
-        } else {
-          processLogger.log(`❌ REFINEMENT: Cannot generate cleanTitle for next section "${nextSection.title}"`);
-          return null;
         }
       }
       
-      // Only proceed if we found both boundaries or we're at the last section
-      if (!nextSection || foundNextTitle) {
-        // Extract content between start and end positions
-        const refinedContent = allText.substring(startResult.position, endPosition).trim();
-        
-        if (refinedContent.length < 50) {
-          processLogger.log(`⚠️ REFINEMENT: Content too short (${refinedContent.length} chars) - keeping original`);
-          return null;
-        }
-        
-        // Check if refined content is significantly different from page-based content
-        const sizeDifference = Math.abs(refinedContent.length - pageBasedSection.content.length);
-        const sizeDifferencePercent = sizeDifference / pageBasedSection.content.length * 100;
-        
-        // Only use refined version if it's significantly different (more than 10% difference)
-        if (sizeDifferencePercent < 10) {
-          processLogger.log(`⚠️ REFINEMENT: Content similar to page-based (${sizeDifferencePercent.toFixed(1)}% difference) - keeping original`);
-          return null;
-        }
-        
-        // Calculate which pages this refined content spans
-        const actualStartPage = this.findPageForPosition(allPages, startResult.position);
-        const actualEndPage = this.findPageForPosition(allPages, endPosition);
-        
-        processLogger.log(`✅ REFINEMENT: Successfully refined - ${refinedContent.length} chars, pages ${actualStartPage}-${actualEndPage}`);
-        
-        return {
-          ...pageBasedSection,
-          content: refinedContent,
-          pageStart: actualStartPage,
-          pageEnd: actualEndPage,
-          charStart: startResult.position,
-          charEnd: endPosition
-        };
+      // Extract refined content from within TOC pages
+      const refinedContent = tocText.substring(startResult.position, endPosition).trim();
+      
+      if (refinedContent.length < 50) {
+        processLogger.log(`⚠️ Refined content too short (${refinedContent.length} chars), using whole TOC pages`);
+        return null;
       }
       
-      return null;
+      processLogger.log(`✅ TOC-SCOPED REFINEMENT: Successfully refined - ${refinedContent.length} chars within TOC pages ${section.pageStart}-${section.pageEnd}`);
+      
+      // Return refined section with SAME TOC pages (not recalculated)
+      return {
+        ...pageBasedSection,
+        content: refinedContent,
+        pageStart: section.pageStart, // KEEP original TOC pages
+        pageEnd: section.pageEnd,     // KEEP original TOC pages
+        charStart: pageBasedSection.charStart + startResult.position,
+        charEnd: pageBasedSection.charStart + endPosition
+      };
       
     } catch (error) {
-      processLogger.error(`❌ REFINEMENT: Error refining section "${section.title}": ${error}`);
+      processLogger.error(`❌ TOC-SCOPED REFINEMENT error for "${section.title}": ${error}`);
       return null;
     }
   }

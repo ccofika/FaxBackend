@@ -26,7 +26,9 @@ import {
   getMaterialTocAnalysis,
   updateMaterialField,
   updateDocumentSection,
-  continueProcessingMaterial
+  continueProcessingMaterial,
+  deleteMaterialSections,
+  resetTocProcessingStatus
 } from '../controllers/materialController';
 import { adminAuth } from '../middleware/adminAuth';
 
@@ -70,6 +72,8 @@ router.get('/:id/analysis', getMaterialAnalysis);
 router.get('/:id/toc-analysis', getMaterialTocAnalysis);
 router.put('/:id/field', updateMaterialField);
 router.put('/section/:sectionId/field', updateDocumentSection);
+router.delete('/:id/sections', deleteMaterialSections);
+router.post('/:id/reset-toc-status', resetTocProcessingStatus);
 router.post('/:id/continue-processing', continueProcessingMaterial);
 
 // Generic material routes

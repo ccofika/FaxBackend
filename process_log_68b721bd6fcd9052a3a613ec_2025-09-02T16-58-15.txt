@@ -1,0 +1,601 @@
+[2025-09-02T16:58:15.824Z] INFO: ================================================================================
+[2025-09-02T16:58:15.824Z] INFO: DOCUMENT PROCESSING LOG
+[2025-09-02T16:58:15.824Z] INFO: Material ID: 68b721bd6fcd9052a3a613ec
+[2025-09-02T16:58:15.824Z] INFO: Start Time: 2025-09-02T16:58:15.824Z
+[2025-09-02T16:58:15.824Z] INFO: ================================================================================
+[2025-09-02T16:58:15.824Z] INFO: 
+[2025-09-02T16:58:15.824Z] INFO: Continuing processing after TOC review for material: 68b721bd6fcd9052a3a613ec
+[2025-09-02T16:58:15.824Z] INFO: Loading material from database
+[2025-09-02T16:58:15.870Z] INFO: Material loaded: Upravljanje_projektima1 - continuing from TOC review
+[2025-09-02T16:58:15.918Z] INFO: Loading TOC analysis from database
+[2025-09-02T16:58:15.967Z] 📚 Using reviewed TOC analysis with 13 sections
+[2025-09-02T16:58:16.016Z] Progress: extract - 20% - Re-downloading PDF for section extraction
+[2025-09-02T16:58:16.226Z] Progress: extract - 40% - Extracting text from all pages
+[2025-09-02T16:58:16.226Z] 🔄 Using node-poppler for true page-by-page extraction (pages 1 to 1000)
+[2025-09-02T16:58:16.228Z] 📁 Created temp PDF file: C:\Users\ccofi\AppData\Local\Temp\temp_pdf_1756832296226.pdf
+[2025-09-02T16:58:16.352Z] 📚 PDF has 28 pages, extracting 1 to 28
+[2025-09-02T16:58:16.352Z] 📄 Extracting page 1/28...
+[2025-09-02T16:58:16.392Z] ✅ Page 1 extracted: 145 characters
+[2025-09-02T16:58:16.392Z] 📖 Page 1 preview: "VISOKA ŠKOLA STRUKOVNIH STUDIJA ZA
+INFORMACIONE TEHNOLOGIJE
+
+
+
+
+UPRAVLJANJE PROJEKTIMA
+Skript..."
+[2025-09-02T16:58:16.392Z] 📄 Extracting page 2/28...
+[2025-09-02T16:58:16.418Z] ✅ Page 2 extracted: 1626 characters
+[2025-09-02T16:58:16.418Z] 📖 Page 2 preview: "Sadržaj
+
+1. Pojam i osobine projekta................................................................."
+[2025-09-02T16:58:16.418Z] 📄 Extracting page 3/28...
+[2025-09-02T16:58:16.476Z] ✅ Page 3 extracted: 1621 characters
+[2025-09-02T16:58:16.476Z] 📖 Page 3 preview: "1. Pojam i osobine projekta
+
+
+Termin projekat u savremenom svetu sve više počinje da se upotreblj..."
+[2025-09-02T16:58:16.477Z] 📄 Extracting page 4/28...
+[2025-09-02T16:58:16.500Z] ✅ Page 4 extracted: 2410 characters
+[2025-09-02T16:58:16.501Z] 📖 Page 4 preview: "2. neponovljivost poduhvata,
+3. složenost zadatka
+4. podrška
+
+U okviru ovih kategorija moguće je..."
+[2025-09-02T16:58:16.501Z] 📄 Extracting page 5/28...
+[2025-09-02T16:58:16.525Z] ✅ Page 5 extracted: 2172 characters
+[2025-09-02T16:58:16.526Z] 📖 Page 5 preview: "1. projekat predstavlja niz aktivnosti koje imaju svoj početak i kraj, pa tako i sam projekat.
+Proj..."
+[2025-09-02T16:58:16.526Z] 📄 Extracting page 6/28...
+[2025-09-02T16:58:16.551Z] ✅ Page 6 extracted: 3164 characters
+[2025-09-02T16:58:16.551Z] 📖 Page 6 preview: "2. Koncept upravljanja projektom
+
+
+Disciplina upravljanja projektima, pa i sam koncept po prvi pu..."
+[2025-09-02T16:58:16.551Z] 📄 Extracting page 7/28...
+[2025-09-02T16:58:16.577Z] ✅ Page 7 extracted: 2038 characters
+[2025-09-02T16:58:16.577Z] 📖 Page 7 preview: "3. Treća opšta karakteristika je da su projekti zasnovani na mrežnom planiranju i da
+ono ima izraže..."
+[2025-09-02T16:58:16.577Z] 📄 Extracting page 8/28...
+[2025-09-02T16:58:16.603Z] ✅ Page 8 extracted: 1190 characters
+[2025-09-02T16:58:16.603Z] 📖 Page 8 preview: "Slika 2. 1. Opšti model upravljanja projektom
+
+Na slici je predstavljen opšti model upravljanja pr..."
+[2025-09-02T16:58:16.604Z] 📄 Extracting page 9/28...
+[2025-09-02T16:58:16.633Z] ✅ Page 9 extracted: 2482 characters
+[2025-09-02T16:58:16.633Z] 📖 Page 9 preview: "Pod funkcijom Upravljanje integracijom podrazumeva se izrada projektnog plana, izvršenje
+projekta i..."
+[2025-09-02T16:58:16.633Z] 📄 Extracting page 10/28...
+[2025-09-02T16:58:16.660Z] ✅ Page 10 extracted: 1623 characters
+[2025-09-02T16:58:16.660Z] 📖 Page 10 preview: "3. Životni ciklus projekta
+
+
+Period od ideje do završetka realizacije projekta naziva se životni ..."
+[2025-09-02T16:58:16.660Z] 📄 Extracting page 11/28...
+[2025-09-02T16:58:16.686Z] ✅ Page 11 extracted: 937 characters
+[2025-09-02T16:58:16.687Z] 📖 Page 11 preview: "Slika 3. 1. Životni ciklus projekta
+
+Na slici je predstavljen životni ciklus projekta u odnosu na ..."
+[2025-09-02T16:58:16.687Z] 📄 Extracting page 12/28...
+[2025-09-02T16:58:16.714Z] ✅ Page 12 extracted: 2563 characters
+[2025-09-02T16:58:16.714Z] 📖 Page 12 preview: "Na slici je predstavljen opšti model životnog ciklusa projekta. Kao što se može primetiti, životni
+..."
+[2025-09-02T16:58:16.715Z] 📄 Extracting page 13/28...
+[2025-09-02T16:58:16.739Z] ✅ Page 13 extracted: 950 characters
+[2025-09-02T16:58:16.739Z] 📖 Page 13 preview: "Faza 5: Zatvaranje
+
+U završnoj fazi se analiziraju rezultati koje smo ostvarili realizacijom proje..."
+[2025-09-02T16:58:16.740Z] 📄 Extracting page 14/28...
+[2025-09-02T16:58:16.764Z] ✅ Page 14 extracted: 2356 characters
+[2025-09-02T16:58:16.764Z] 📖 Page 14 preview: "Slika 3. 4. Životni ciklus instalacije kompjutera
+
+Na slici 4. prikazan je životni ciklus instalac..."
+[2025-09-02T16:58:16.765Z] 📄 Extracting page 15/28...
+[2025-09-02T16:58:16.790Z] ✅ Page 15 extracted: 1426 characters
+[2025-09-02T16:58:16.790Z] 📖 Page 15 preview: "U fazi izvršenja se odvija realizacija projekta, odnosno programeri u sotfverskoj kompaniji rade
+na..."
+[2025-09-02T16:58:16.790Z] 📄 Extracting page 16/28...
+[2025-09-02T16:58:16.815Z] ✅ Page 16 extracted: 2139 characters
+[2025-09-02T16:58:16.815Z] 📖 Page 16 preview: "4. Organizaciona struktura i tipovi organizacije
+
+
+
+4. 1. Organizaciona struktura
+
+Radi efikas..."
+[2025-09-02T16:58:16.816Z] 📄 Extracting page 17/28...
+[2025-09-02T16:58:16.841Z] ✅ Page 17 extracted: 1530 characters
+[2025-09-02T16:58:16.841Z] 📖 Page 17 preview: "4. 2. Klasični pristup
+
+1. Funkcionalna organizacija
+
+Kod funkcionalne organizacije za realizaci..."
+[2025-09-02T16:58:16.841Z] 📄 Extracting page 18/28...
+[2025-09-02T16:58:16.866Z] ✅ Page 18 extracted: 1724 characters
+[2025-09-02T16:58:16.867Z] 📖 Page 18 preview: "Slika 4. 2. Funkcionalna organizacija
+
+Na slici je predstavljena jedna uopštena funkcionalna forma..."
+[2025-09-02T16:58:16.867Z] 📄 Extracting page 19/28...
+[2025-09-02T16:58:16.894Z] ✅ Page 19 extracted: 552 characters
+[2025-09-02T16:58:16.894Z] 📖 Page 19 preview: "preduzeća, a istovremeno specijalizuje postojeća organizacija, što se direktno odražava na
+efikasno..."
+[2025-09-02T16:58:16.894Z] 📄 Extracting page 20/28...
+[2025-09-02T16:58:16.919Z] ✅ Page 20 extracted: 1504 characters
+[2025-09-02T16:58:16.920Z] 📖 Page 20 preview: "Na slici je predstavljena projektna organizacija stalnog karaktera, gde, između ostalih
+organizacio..."
+[2025-09-02T16:58:16.920Z] 📄 Extracting page 21/28...
+[2025-09-02T16:58:16.948Z] ✅ Page 21 extracted: 1711 characters
+[2025-09-02T16:58:16.948Z] 📖 Page 21 preview: "Matrična organizaciona forma, iako veoma interesantna za praktično korišćenje, ima niz
+pozitivnih i..."
+[2025-09-02T16:58:16.948Z] 📄 Extracting page 22/28...
+[2025-09-02T16:58:16.973Z] ✅ Page 22 extracted: 1646 characters
+[2025-09-02T16:58:16.973Z] 📖 Page 22 preview: "Slika 4. 6. Projektni ekspeditor
+
+
+Rukovodilac projekta, koji se ovde zove projektni ekspeditor, ..."
+[2025-09-02T16:58:16.974Z] 📄 Extracting page 23/28...
+[2025-09-02T16:58:16.996Z] ✅ Page 23 extracted: 548 characters
+[2025-09-02T16:58:16.997Z] 📖 Page 23 preview: " Pravljenje finansijskih, proceduralnih i planskih odluka.
+ Utvrđivanje za izmenu ishoda izazvani..."
+[2025-09-02T16:58:16.997Z] 📄 Extracting page 24/28...
+[2025-09-02T16:58:17.023Z] ✅ Page 24 extracted: 1968 characters
+[2025-09-02T16:58:17.023Z] 📖 Page 24 preview: "5. Klasifikacija projekata
+
+
+Klasifikacija projekata i definisanje određenih tipova projekata sa ..."
+[2025-09-02T16:58:17.023Z] 📄 Extracting page 25/28...
+[2025-09-02T16:58:17.049Z] ✅ Page 25 extracted: 1768 characters
+[2025-09-02T16:58:17.049Z] 📖 Page 25 preview: "poduhvat bi podrazumevao intenzivne istraživačko-razvojne aktivnosti, velike troškove i veliki
+rizi..."
+[2025-09-02T16:58:17.049Z] 📄 Extracting page 26/28...
+[2025-09-02T16:58:17.075Z] ✅ Page 26 extracted: 2586 characters
+[2025-09-02T16:58:17.075Z] 📖 Page 26 preview: "Karakteristična je i podela investicionih projekata prema privrednim granama i oblastima. U tom
+kon..."
+[2025-09-02T16:58:17.075Z] 📄 Extracting page 27/28...
+[2025-09-02T16:58:17.100Z] ✅ Page 27 extracted: 785 characters
+[2025-09-02T16:58:17.100Z] 📖 Page 27 preview: "Projekti
+Investicioni Biznis
+Veoma su složeni Manje složeni
+Dugotrajni su Kratki
+Uključene velik..."
+[2025-09-02T16:58:17.100Z] 📄 Extracting page 28/28...
+[2025-09-02T16:58:17.126Z] ✅ Page 28 extracted: 1094 characters
+[2025-09-02T16:58:17.126Z] 📖 Page 28 preview: "6. Literatura
+
+
+1. Jovanović P. Upravljanje projektom, FON, Beograd, 2008.
+2. Hanc A. i ostali, ..."
+[2025-09-02T16:58:17.127Z] INFO: 
+[2025-09-02T16:58:17.127Z] INFO: ------------------------------------------------------------
+[2025-09-02T16:58:17.127Z] INFO: SECTION: SECTION PROCESSING
+[2025-09-02T16:58:17.127Z] INFO: ------------------------------------------------------------
+[2025-09-02T16:58:17.127Z] INFO: Progress: sectioning [████████████--------] 60% - Processing sections from reviewed TOC
+[2025-09-02T16:58:17.175Z] Progress: sectioning - 60% - Processing sections from reviewed TOC
+[2025-09-02T16:58:17.175Z] 📚 SIMPLIFIED: Processing 13 sections - ONLY by pages, NO header searching
+[2025-09-02T16:58:17.176Z] 📄 SIMPLE: Processing section 1/13: "Pojam i osobine projekta" (pages 3-6)
+[2025-09-02T16:58:17.176Z] 📄 TOC-ONLY: Extracting section "Pojam i osobine projekta" from TOC pages 3-6
+[2025-09-02T16:58:17.176Z] ✅ TOC-ONLY: Extracted 9373 chars from 4 TOC pages (3, 4, 5, 6)
+[2025-09-02T16:58:17.176Z] 📖 TOC-ONLY: Content preview: "1. Pojam i osobine projekta
+
+
+Termin projekat u savremenom svetu sve više počinje da se upotrebljava prilikom realizacije
+različitih poduhvata. Svaki projekat je jedinstven, odnosno ne postoje dva..."
+[2025-09-02T16:58:17.177Z] 📊 TOC-ONLY: Character positions - Start: 1775, End: 11148
+[2025-09-02T16:58:17.177Z] ✅ TOC-ONLY: Extracted 9373 chars from TOC pages 3-6
+[2025-09-02T16:58:17.177Z] 🎯 TOC-SCOPED REFINEMENT: Refining "Pojam i osobine projekta" within TOC pages 3-6
+[2025-09-02T16:58:17.178Z] 🔍 TOC-SCOPED: Searching within TOC pages text (9373 chars)
+[2025-09-02T16:58:17.178Z] 🔍 SEARCH: Looking for "Pojam i osobine projekta" in text starting from position 0
+[2025-09-02T16:58:17.178Z] 🔍 DEBUG: text exists: true, length: 9373
+[2025-09-02T16:58:17.178Z] 🔍 DEBUG: cleanTitle type: string, value: "Pojam i osobine projekta"
+[2025-09-02T16:58:17.178Z] 🔍 DEBUG: startFrom: 0
+[2025-09-02T16:58:17.178Z] 🔍 DEBUG: normalizedTitle after regex: "Pojam i osobine projekta"
+[2025-09-02T16:58:17.179Z] 🔍 SEARCH: Normalized title: "Pojam i osobine projekta"
+[2025-09-02T16:58:17.179Z] ✅ SEARCH: Found exact match at position 3
+[2025-09-02T16:58:17.179Z] ✅ TOC-SCOPED: Found section start at position 3 within TOC pages
+[2025-09-02T16:58:17.179Z] 🔍 SEARCH: Looking for "Koncept upravljanja projektom" in text starting from position 53
+[2025-09-02T16:58:17.179Z] 🔍 DEBUG: text exists: true, length: 9373
+[2025-09-02T16:58:17.179Z] 🔍 DEBUG: cleanTitle type: string, value: "Koncept upravljanja projektom"
+[2025-09-02T16:58:17.179Z] 🔍 DEBUG: startFrom: 53
+[2025-09-02T16:58:17.180Z] 🔍 DEBUG: normalizedTitle after regex: "Koncept upravljanja projektom"
+[2025-09-02T16:58:17.180Z] 🔍 SEARCH: Normalized title: "Koncept upravljanja projektom"
+[2025-09-02T16:58:17.180Z] ✅ SEARCH: Found exact match at position 6212
+[2025-09-02T16:58:17.180Z] ✅ TOC-SCOPED: Found next section "Koncept upravljanja projektom" at position 6212 within TOC pages
+[2025-09-02T16:58:17.180Z] ✅ TOC-SCOPED REFINEMENT: Successfully refined - 6208 chars within TOC pages 3-6
+[2025-09-02T16:58:17.180Z] 🎯 TOC-SCOPED: Refined section within TOC pages (6208 chars)
+[2025-09-02T16:58:17.229Z] 📄 SIMPLE: Processing section 2/13: "Koncept upravljanja projektom" (pages 6-10)
+[2025-09-02T16:58:17.230Z] 📄 TOC-ONLY: Extracting section "Koncept upravljanja projektom" from TOC pages 6-10
+[2025-09-02T16:58:17.230Z] ✅ TOC-ONLY: Extracted 10505 chars from 5 TOC pages (6, 7, 8, 9, 10)
+[2025-09-02T16:58:17.230Z] 📖 TOC-ONLY: Content preview: "2. Koncept upravljanja projektom
+
+
+Disciplina upravljanja projektima, pa i sam koncept po prvi put su kao takvi počeli ozbiljno da se
+primenjuju sredinom XX veka. Iako se pre oko 50-ak godina prvi..."
+[2025-09-02T16:58:17.230Z] 📊 TOC-ONLY: Character positions - Start: 7984, End: 18489
+[2025-09-02T16:58:17.230Z] ✅ TOC-ONLY: Extracted 10505 chars from TOC pages 6-10
+[2025-09-02T16:58:17.230Z] 🎯 TOC-SCOPED REFINEMENT: Refining "Koncept upravljanja projektom" within TOC pages 6-10
+[2025-09-02T16:58:17.231Z] 🔍 TOC-SCOPED: Searching within TOC pages text (10505 chars)
+[2025-09-02T16:58:17.231Z] 🔍 SEARCH: Looking for "Koncept upravljanja projektom" in text starting from position 0
+[2025-09-02T16:58:17.231Z] 🔍 DEBUG: text exists: true, length: 10505
+[2025-09-02T16:58:17.231Z] 🔍 DEBUG: cleanTitle type: string, value: "Koncept upravljanja projektom"
+[2025-09-02T16:58:17.231Z] 🔍 DEBUG: startFrom: 0
+[2025-09-02T16:58:17.232Z] 🔍 DEBUG: normalizedTitle after regex: "Koncept upravljanja projektom"
+[2025-09-02T16:58:17.232Z] 🔍 SEARCH: Normalized title: "Koncept upravljanja projektom"
+[2025-09-02T16:58:17.232Z] ✅ SEARCH: Found exact match at position 3
+[2025-09-02T16:58:17.232Z] ✅ TOC-SCOPED: Found section start at position 3 within TOC pages
+[2025-09-02T16:58:17.232Z] 🔍 SEARCH: Looking for "Osnovne karakteristike koncepta upravljanja projektom" in text starting from position 53
+[2025-09-02T16:58:17.232Z] 🔍 DEBUG: text exists: true, length: 10505
+[2025-09-02T16:58:17.232Z] 🔍 DEBUG: cleanTitle type: string, value: "Osnovne karakteristike koncepta upravljanja projektom"
+[2025-09-02T16:58:17.233Z] 🔍 DEBUG: startFrom: 53
+[2025-09-02T16:58:17.233Z] 🔍 DEBUG: normalizedTitle after regex: "Osnovne karakteristike koncepta upravljanja projektom"
+[2025-09-02T16:58:17.233Z] 🔍 SEARCH: Normalized title: "Osnovne karakteristike koncepta upravljanja projektom"
+[2025-09-02T16:58:17.233Z] ✅ SEARCH: Found exact match at position 2094
+[2025-09-02T16:58:17.233Z] ✅ TOC-SCOPED: Found next section "Osnovne karakteristike koncepta upravljanja projektom" at position 2094 within TOC pages
+[2025-09-02T16:58:17.233Z] ✅ TOC-SCOPED REFINEMENT: Successfully refined - 2090 chars within TOC pages 6-10
+[2025-09-02T16:58:17.233Z] 🎯 TOC-SCOPED: Refined section within TOC pages (2090 chars)
+[2025-09-02T16:58:17.281Z] 📄 SIMPLE: Processing section 3/13: "2. 1. Osnovne karakteristike koncepta upravljanja projektom" (pages 6-8)
+[2025-09-02T16:58:17.281Z] 📄 TOC-ONLY: Extracting section "2. 1. Osnovne karakteristike koncepta upravljanja projektom" from TOC pages 6-8
+[2025-09-02T16:58:17.281Z] ✅ TOC-ONLY: Extracted 6396 chars from 3 TOC pages (6, 7, 8)
+[2025-09-02T16:58:17.282Z] 📖 TOC-ONLY: Content preview: "2. Koncept upravljanja projektom
+
+
+Disciplina upravljanja projektima, pa i sam koncept po prvi put su kao takvi počeli ozbiljno da se
+primenjuju sredinom XX veka. Iako se pre oko 50-ak godina prvi..."
+[2025-09-02T16:58:17.282Z] 📊 TOC-ONLY: Character positions - Start: 7984, End: 14380
+[2025-09-02T16:58:17.282Z] ✅ TOC-ONLY: Extracted 6396 chars from TOC pages 6-8
+[2025-09-02T16:58:17.282Z] 🎯 TOC-SCOPED REFINEMENT: Refining "2. 1. Osnovne karakteristike koncepta upravljanja projektom" within TOC pages 6-8
+[2025-09-02T16:58:17.282Z] 🔍 TOC-SCOPED: Searching within TOC pages text (6396 chars)
+[2025-09-02T16:58:17.283Z] 🔍 SEARCH: Looking for "Osnovne karakteristike koncepta upravljanja projektom" in text starting from position 0
+[2025-09-02T16:58:17.283Z] 🔍 DEBUG: text exists: true, length: 6396
+[2025-09-02T16:58:17.283Z] 🔍 DEBUG: cleanTitle type: string, value: "Osnovne karakteristike koncepta upravljanja projektom"
+[2025-09-02T16:58:17.283Z] 🔍 DEBUG: startFrom: 0
+[2025-09-02T16:58:17.283Z] 🔍 DEBUG: normalizedTitle after regex: "Osnovne karakteristike koncepta upravljanja projektom"
+[2025-09-02T16:58:17.283Z] 🔍 SEARCH: Normalized title: "Osnovne karakteristike koncepta upravljanja projektom"
+[2025-09-02T16:58:17.283Z] ✅ SEARCH: Found exact match at position 2094
+[2025-09-02T16:58:17.283Z] ✅ TOC-SCOPED: Found section start at position 2094 within TOC pages
+[2025-09-02T16:58:17.284Z] 🔍 SEARCH: Looking for "Upravljanje projektima po PMI (Project Management Institute) metodologiji" in text starting from position 2144
+[2025-09-02T16:58:17.284Z] 🔍 DEBUG: text exists: true, length: 6396
+[2025-09-02T16:58:17.284Z] 🔍 DEBUG: cleanTitle type: string, value: "Upravljanje projektima po PMI (Project Management Institute) metodologiji"
+[2025-09-02T16:58:17.284Z] 🔍 DEBUG: startFrom: 2144
+[2025-09-02T16:58:17.284Z] 🔍 DEBUG: normalizedTitle after regex: "Upravljanje projektima po PMI (Project Management Institute) metodologiji"
+[2025-09-02T16:58:17.284Z] 🔍 SEARCH: Normalized title: "Upravljanje projektima po PMI (Project Management Institute) metodologiji"
+[2025-09-02T16:58:17.284Z] ✅ SEARCH: Found exact match at position 5700
+[2025-09-02T16:58:17.284Z] ✅ TOC-SCOPED: Found next section "Upravljanje projektima po PMI (Project Management Institute) metodologiji" at position 5700 within TOC pages
+[2025-09-02T16:58:17.285Z] ✅ TOC-SCOPED REFINEMENT: Successfully refined - 3605 chars within TOC pages 6-8
+[2025-09-02T16:58:17.285Z] 🎯 TOC-SCOPED: Refined section within TOC pages (3605 chars)
+[2025-09-02T16:58:17.332Z] 📄 SIMPLE: Processing section 4/13: "2. 2. Upravljanje projektima po PMI (Project Management Institute) metodologiji" (pages 8-10)
+[2025-09-02T16:58:17.332Z] 📄 TOC-ONLY: Extracting section "2. 2. Upravljanje projektima po PMI (Project Management Institute) metodologiji" from TOC pages 8-10
+[2025-09-02T16:58:17.332Z] ✅ TOC-ONLY: Extracted 5299 chars from 3 TOC pages (8, 9, 10)
+[2025-09-02T16:58:17.333Z] 📖 TOC-ONLY: Content preview: "Slika 2. 1. Opšti model upravljanja projektom
+
+Na slici je predstavljen opšti model upravljanja projektom. Kao što se može primetiti, potrebno
+je da postoji jasno definisan cilj u okviru koga bi tr..."
+[2025-09-02T16:58:17.333Z] 📊 TOC-ONLY: Character positions - Start: 13190, End: 18489
+[2025-09-02T16:58:17.333Z] ✅ TOC-ONLY: Extracted 5299 chars from TOC pages 8-10
+[2025-09-02T16:58:17.333Z] 🎯 TOC-SCOPED REFINEMENT: Refining "2. 2. Upravljanje projektima po PMI (Project Management Institute) metodologiji" within TOC pages 8-10
+[2025-09-02T16:58:17.333Z] 🔍 TOC-SCOPED: Searching within TOC pages text (5299 chars)
+[2025-09-02T16:58:17.334Z] 🔍 SEARCH: Looking for "Upravljanje projektima po PMI (Project Management Institute) metodologiji" in text starting from position 0
+[2025-09-02T16:58:17.334Z] 🔍 DEBUG: text exists: true, length: 5299
+[2025-09-02T16:58:17.334Z] 🔍 DEBUG: cleanTitle type: string, value: "Upravljanje projektima po PMI (Project Management Institute) metodologiji"
+[2025-09-02T16:58:17.334Z] 🔍 DEBUG: startFrom: 0
+[2025-09-02T16:58:17.334Z] 🔍 DEBUG: normalizedTitle after regex: "Upravljanje projektima po PMI (Project Management Institute) metodologiji"
+[2025-09-02T16:58:17.334Z] 🔍 SEARCH: Normalized title: "Upravljanje projektima po PMI (Project Management Institute) metodologiji"
+[2025-09-02T16:58:17.334Z] ✅ SEARCH: Found exact match at position 494
+[2025-09-02T16:58:17.334Z] ✅ TOC-SCOPED: Found section start at position 494 within TOC pages
+[2025-09-02T16:58:17.335Z] 🔍 SEARCH: Looking for "Životni ciklus projekta" in text starting from position 544
+[2025-09-02T16:58:17.335Z] 🔍 DEBUG: text exists: true, length: 5299
+[2025-09-02T16:58:17.335Z] 🔍 DEBUG: cleanTitle type: string, value: "Životni ciklus projekta"
+[2025-09-02T16:58:17.335Z] 🔍 DEBUG: startFrom: 544
+[2025-09-02T16:58:17.335Z] 🔍 DEBUG: normalizedTitle after regex: "Životni ciklus projekta"
+[2025-09-02T16:58:17.335Z] 🔍 SEARCH: Normalized title: "Životni ciklus projekta"
+[2025-09-02T16:58:17.335Z] ✅ SEARCH: Found exact match at position 3679
+[2025-09-02T16:58:17.335Z] ✅ TOC-SCOPED: Found next section "Životni ciklus projekta" at position 3679 within TOC pages
+[2025-09-02T16:58:17.336Z] ✅ TOC-SCOPED REFINEMENT: Successfully refined - 3184 chars within TOC pages 8-10
+[2025-09-02T16:58:17.336Z] 🎯 TOC-SCOPED: Refined section within TOC pages (3184 chars)
+[2025-09-02T16:58:17.384Z] 📄 SIMPLE: Processing section 5/13: "3. Životni ciklus projekta" (pages 10-16)
+[2025-09-02T16:58:17.384Z] 📄 TOC-ONLY: Extracting section "3. Životni ciklus projekta" from TOC pages 10-16
+[2025-09-02T16:58:17.385Z] ✅ TOC-ONLY: Extracted 12006 chars from 7 TOC pages (10, 11, 12, 13, 14, 15, 16)
+[2025-09-02T16:58:17.385Z] 📖 TOC-ONLY: Content preview: "3. Životni ciklus projekta
+
+
+Period od ideje do završetka realizacije projekta naziva se životni ciklus projekta. U tom
+vremenu projekat prolazi kroz mnoge faze. Faze razvoja projekta i napredovan..."
+[2025-09-02T16:58:17.385Z] 📊 TOC-ONLY: Character positions - Start: 16866, End: 28872
+[2025-09-02T16:58:17.385Z] ✅ TOC-ONLY: Extracted 12006 chars from TOC pages 10-16
+[2025-09-02T16:58:17.385Z] 🎯 TOC-SCOPED REFINEMENT: Refining "3. Životni ciklus projekta" within TOC pages 10-16
+[2025-09-02T16:58:17.385Z] 🔍 TOC-SCOPED: Searching within TOC pages text (12006 chars)
+[2025-09-02T16:58:17.385Z] 🔍 SEARCH: Looking for "Životni ciklus projekta" in text starting from position 0
+[2025-09-02T16:58:17.386Z] 🔍 DEBUG: text exists: true, length: 12006
+[2025-09-02T16:58:17.386Z] 🔍 DEBUG: cleanTitle type: string, value: "Životni ciklus projekta"
+[2025-09-02T16:58:17.386Z] 🔍 DEBUG: startFrom: 0
+[2025-09-02T16:58:17.386Z] 🔍 DEBUG: normalizedTitle after regex: "Životni ciklus projekta"
+[2025-09-02T16:58:17.386Z] 🔍 SEARCH: Normalized title: "Životni ciklus projekta"
+[2025-09-02T16:58:17.386Z] ✅ SEARCH: Found exact match at position 3
+[2025-09-02T16:58:17.386Z] ✅ TOC-SCOPED: Found section start at position 3 within TOC pages
+[2025-09-02T16:58:17.387Z] 🔍 SEARCH: Looking for "Faze životnog ciklusa projekta" in text starting from position 53
+[2025-09-02T16:58:17.387Z] 🔍 DEBUG: text exists: true, length: 12006
+[2025-09-02T16:58:17.387Z] 🔍 DEBUG: cleanTitle type: string, value: "Faze životnog ciklusa projekta"
+[2025-09-02T16:58:17.387Z] 🔍 DEBUG: startFrom: 53
+[2025-09-02T16:58:17.387Z] 🔍 DEBUG: normalizedTitle after regex: "Faze životnog ciklusa projekta"
+[2025-09-02T16:58:17.387Z] 🔍 SEARCH: Normalized title: "Faze životnog ciklusa projekta"
+[2025-09-02T16:58:17.388Z] ✅ SEARCH: Found exact match at position 965
+[2025-09-02T16:58:17.388Z] ✅ TOC-SCOPED: Found next section "Faze životnog ciklusa projekta" at position 965 within TOC pages
+[2025-09-02T16:58:17.389Z] ✅ TOC-SCOPED REFINEMENT: Successfully refined - 961 chars within TOC pages 10-16
+[2025-09-02T16:58:17.389Z] 🎯 TOC-SCOPED: Refined section within TOC pages (961 chars)
+[2025-09-02T16:58:17.435Z] 📄 SIMPLE: Processing section 6/13: "3. 1. Faze životnog ciklusa projekta" (pages 10-16)
+[2025-09-02T16:58:17.436Z] 📄 TOC-ONLY: Extracting section "3. 1. Faze životnog ciklusa projekta" from TOC pages 10-16
+[2025-09-02T16:58:17.436Z] ✅ TOC-ONLY: Extracted 12006 chars from 7 TOC pages (10, 11, 12, 13, 14, 15, 16)
+[2025-09-02T16:58:17.436Z] 📖 TOC-ONLY: Content preview: "3. Životni ciklus projekta
+
+
+Period od ideje do završetka realizacije projekta naziva se životni ciklus projekta. U tom
+vremenu projekat prolazi kroz mnoge faze. Faze razvoja projekta i napredovan..."
+[2025-09-02T16:58:17.436Z] 📊 TOC-ONLY: Character positions - Start: 16866, End: 28872
+[2025-09-02T16:58:17.437Z] ✅ TOC-ONLY: Extracted 12006 chars from TOC pages 10-16
+[2025-09-02T16:58:17.437Z] 🎯 TOC-SCOPED REFINEMENT: Refining "3. 1. Faze životnog ciklusa projekta" within TOC pages 10-16
+[2025-09-02T16:58:17.437Z] 🔍 TOC-SCOPED: Searching within TOC pages text (12006 chars)
+[2025-09-02T16:58:17.437Z] 🔍 SEARCH: Looking for "Faze životnog ciklusa projekta" in text starting from position 0
+[2025-09-02T16:58:17.437Z] 🔍 DEBUG: text exists: true, length: 12006
+[2025-09-02T16:58:17.437Z] 🔍 DEBUG: cleanTitle type: string, value: "Faze životnog ciklusa projekta"
+[2025-09-02T16:58:17.437Z] 🔍 DEBUG: startFrom: 0
+[2025-09-02T16:58:17.437Z] 🔍 DEBUG: normalizedTitle after regex: "Faze životnog ciklusa projekta"
+[2025-09-02T16:58:17.438Z] 🔍 SEARCH: Normalized title: "Faze životnog ciklusa projekta"
+[2025-09-02T16:58:17.438Z] ✅ SEARCH: Found exact match at position 965
+[2025-09-02T16:58:17.438Z] ✅ TOC-SCOPED: Found section start at position 965 within TOC pages
+[2025-09-02T16:58:17.438Z] 🔍 SEARCH: Looking for "Organizaciona struktura i tipovi organizacije" in text starting from position 1015
+[2025-09-02T16:58:17.438Z] 🔍 DEBUG: text exists: true, length: 12006
+[2025-09-02T16:58:17.438Z] 🔍 DEBUG: cleanTitle type: string, value: "Organizaciona struktura i tipovi organizacije"
+[2025-09-02T16:58:17.439Z] 🔍 DEBUG: startFrom: 1015
+[2025-09-02T16:58:17.439Z] 🔍 DEBUG: normalizedTitle after regex: "Organizaciona struktura i tipovi organizacije"
+[2025-09-02T16:58:17.439Z] 🔍 SEARCH: Normalized title: "Organizaciona struktura i tipovi organizacije"
+[2025-09-02T16:58:17.439Z] ✅ SEARCH: Found exact match at position 9870
+[2025-09-02T16:58:17.439Z] ✅ TOC-SCOPED: Found next section "Organizaciona struktura i tipovi organizacije" at position 9870 within TOC pages
+[2025-09-02T16:58:17.439Z] ✅ TOC-SCOPED REFINEMENT: Successfully refined - 8904 chars within TOC pages 10-16
+[2025-09-02T16:58:17.440Z] 🎯 TOC-SCOPED: Refined section within TOC pages (8904 chars)
+[2025-09-02T16:58:17.488Z] 📄 SIMPLE: Processing section 7/13: "4. Organizaciona struktura i tipovi organizacije" (pages 16-24)
+[2025-09-02T16:58:17.488Z] 📄 TOC-ONLY: Extracting section "4. Organizaciona struktura i tipovi organizacije" from TOC pages 16-24
+[2025-09-02T16:58:17.489Z] ✅ TOC-ONLY: Extracted 13338 chars from 9 TOC pages (16, 17, 18, 19, 20, 21, 22, 23, 24)
+[2025-09-02T16:58:17.489Z] 📖 TOC-ONLY: Content preview: "4. Organizaciona struktura i tipovi organizacije
+
+
+
+4. 1. Organizaciona struktura
+
+Radi efikasne primene koncepta upravljanja projektom potrebno je definisati organizacionu
+strukturu, odnosno d..."
+[2025-09-02T16:58:17.489Z] 📊 TOC-ONLY: Character positions - Start: 26733, End: 40071
+[2025-09-02T16:58:17.489Z] ✅ TOC-ONLY: Extracted 13338 chars from TOC pages 16-24
+[2025-09-02T16:58:17.489Z] 🎯 TOC-SCOPED REFINEMENT: Refining "4. Organizaciona struktura i tipovi organizacije" within TOC pages 16-24
+[2025-09-02T16:58:17.489Z] 🔍 TOC-SCOPED: Searching within TOC pages text (13338 chars)
+[2025-09-02T16:58:17.489Z] 🔍 SEARCH: Looking for "Organizaciona struktura i tipovi organizacije" in text starting from position 0
+[2025-09-02T16:58:17.490Z] 🔍 DEBUG: text exists: true, length: 13338
+[2025-09-02T16:58:17.490Z] 🔍 DEBUG: cleanTitle type: string, value: "Organizaciona struktura i tipovi organizacije"
+[2025-09-02T16:58:17.490Z] 🔍 DEBUG: startFrom: 0
+[2025-09-02T16:58:17.490Z] 🔍 DEBUG: normalizedTitle after regex: "Organizaciona struktura i tipovi organizacije"
+[2025-09-02T16:58:17.490Z] 🔍 SEARCH: Normalized title: "Organizaciona struktura i tipovi organizacije"
+[2025-09-02T16:58:17.490Z] ✅ SEARCH: Found exact match at position 3
+[2025-09-02T16:58:17.490Z] ✅ TOC-SCOPED: Found section start at position 3 within TOC pages
+[2025-09-02T16:58:17.490Z] 🔍 SEARCH: Looking for "Organizaciona struktura" in text starting from position 53
+[2025-09-02T16:58:17.490Z] 🔍 DEBUG: text exists: true, length: 13338
+[2025-09-02T16:58:17.491Z] 🔍 DEBUG: cleanTitle type: string, value: "Organizaciona struktura"
+[2025-09-02T16:58:17.491Z] 🔍 DEBUG: startFrom: 53
+[2025-09-02T16:58:17.491Z] 🔍 DEBUG: normalizedTitle after regex: "Organizaciona struktura"
+[2025-09-02T16:58:17.491Z] 🔍 SEARCH: Normalized title: "Organizaciona struktura"
+[2025-09-02T16:58:17.491Z] ✅ SEARCH: Found exact match at position 62
+[2025-09-02T16:58:17.491Z] ✅ TOC-SCOPED: Found next section "Organizaciona struktura" at position 62 within TOC pages
+[2025-09-02T16:58:17.491Z] ✅ TOC-SCOPED REFINEMENT: Successfully refined - 58 chars within TOC pages 16-24
+[2025-09-02T16:58:17.492Z] 🎯 TOC-SCOPED: Refined section within TOC pages (58 chars)
+[2025-09-02T16:58:17.540Z] 📄 SIMPLE: Processing section 8/13: "4. 1. Organizaciona struktura" (pages 16-17)
+[2025-09-02T16:58:17.540Z] 📄 TOC-ONLY: Extracting section "4. 1. Organizaciona struktura" from TOC pages 16-17
+[2025-09-02T16:58:17.540Z] ✅ TOC-ONLY: Extracted 3671 chars from 2 TOC pages (16, 17)
+[2025-09-02T16:58:17.540Z] 📖 TOC-ONLY: Content preview: "4. Organizaciona struktura i tipovi organizacije
+
+
+
+4. 1. Organizaciona struktura
+
+Radi efikasne primene koncepta upravljanja projektom potrebno je definisati organizacionu
+strukturu, odnosno d..."
+[2025-09-02T16:58:17.541Z] 📊 TOC-ONLY: Character positions - Start: 26733, End: 30404
+[2025-09-02T16:58:17.541Z] ✅ TOC-ONLY: Extracted 3671 chars from TOC pages 16-17
+[2025-09-02T16:58:17.541Z] 🎯 TOC-SCOPED REFINEMENT: Refining "4. 1. Organizaciona struktura" within TOC pages 16-17
+[2025-09-02T16:58:17.541Z] 🔍 TOC-SCOPED: Searching within TOC pages text (3671 chars)
+[2025-09-02T16:58:17.541Z] 🔍 SEARCH: Looking for "Organizaciona struktura" in text starting from position 0
+[2025-09-02T16:58:17.541Z] 🔍 DEBUG: text exists: true, length: 3671
+[2025-09-02T16:58:17.541Z] 🔍 DEBUG: cleanTitle type: string, value: "Organizaciona struktura"
+[2025-09-02T16:58:17.541Z] 🔍 DEBUG: startFrom: 0
+[2025-09-02T16:58:17.541Z] 🔍 DEBUG: normalizedTitle after regex: "Organizaciona struktura"
+[2025-09-02T16:58:17.542Z] 🔍 SEARCH: Normalized title: "Organizaciona struktura"
+[2025-09-02T16:58:17.542Z] ✅ SEARCH: Found exact match at position 3
+[2025-09-02T16:58:17.542Z] ✅ TOC-SCOPED: Found section start at position 3 within TOC pages
+[2025-09-02T16:58:17.542Z] 🔍 SEARCH: Looking for "Klasični pristup" in text starting from position 53
+[2025-09-02T16:58:17.542Z] 🔍 DEBUG: text exists: true, length: 3671
+[2025-09-02T16:58:17.542Z] 🔍 DEBUG: cleanTitle type: string, value: "Klasični pristup"
+[2025-09-02T16:58:17.542Z] 🔍 DEBUG: startFrom: 53
+[2025-09-02T16:58:17.542Z] 🔍 DEBUG: normalizedTitle after regex: "Klasični pristup"
+[2025-09-02T16:58:17.542Z] 🔍 SEARCH: Normalized title: "Klasični pristup"
+[2025-09-02T16:58:17.542Z] ✅ SEARCH: Found exact match at position 2147
+[2025-09-02T16:58:17.543Z] ✅ TOC-SCOPED: Found next section "Klasični pristup" at position 2147 within TOC pages
+[2025-09-02T16:58:17.543Z] ✅ TOC-SCOPED REFINEMENT: Successfully refined - 2143 chars within TOC pages 16-17
+[2025-09-02T16:58:17.543Z] 🎯 TOC-SCOPED: Refined section within TOC pages (2143 chars)
+[2025-09-02T16:58:17.590Z] 📄 SIMPLE: Processing section 9/13: "4. 2. Klasični pristup" (pages 17-21)
+[2025-09-02T16:58:17.590Z] 📄 TOC-ONLY: Extracting section "4. 2. Klasični pristup" from TOC pages 17-21
+[2025-09-02T16:58:17.590Z] ✅ TOC-ONLY: Extracted 7029 chars from 5 TOC pages (17, 18, 19, 20, 21)
+[2025-09-02T16:58:17.591Z] 📖 TOC-ONLY: Content preview: "4. 2. Klasični pristup
+
+1. Funkcionalna organizacija
+
+Kod funkcionalne organizacije za realizaciju projekta, princip organizovanja je autentičan kao i
+kod drugih poslovnih organizacija i svodi se..."
+[2025-09-02T16:58:17.591Z] 📊 TOC-ONLY: Character positions - Start: 28874, End: 35903
+[2025-09-02T16:58:17.591Z] ✅ TOC-ONLY: Extracted 7029 chars from TOC pages 17-21
+[2025-09-02T16:58:17.591Z] 🎯 TOC-SCOPED REFINEMENT: Refining "4. 2. Klasični pristup" within TOC pages 17-21
+[2025-09-02T16:58:17.592Z] 🔍 TOC-SCOPED: Searching within TOC pages text (7029 chars)
+[2025-09-02T16:58:17.592Z] 🔍 SEARCH: Looking for "Klasični pristup" in text starting from position 0
+[2025-09-02T16:58:17.592Z] 🔍 DEBUG: text exists: true, length: 7029
+[2025-09-02T16:58:17.592Z] 🔍 DEBUG: cleanTitle type: string, value: "Klasični pristup"
+[2025-09-02T16:58:17.592Z] 🔍 DEBUG: startFrom: 0
+[2025-09-02T16:58:17.592Z] 🔍 DEBUG: normalizedTitle after regex: "Klasični pristup"
+[2025-09-02T16:58:17.593Z] 🔍 SEARCH: Normalized title: "Klasični pristup"
+[2025-09-02T16:58:17.593Z] ✅ SEARCH: Found exact match at position 6
+[2025-09-02T16:58:17.593Z] ✅ TOC-SCOPED: Found section start at position 6 within TOC pages
+[2025-09-02T16:58:17.593Z] 🔍 SEARCH: Looking for "Kontigencijski pristup" in text starting from position 56
+[2025-09-02T16:58:17.593Z] 🔍 DEBUG: text exists: true, length: 7029
+[2025-09-02T16:58:17.593Z] 🔍 DEBUG: cleanTitle type: string, value: "Kontigencijski pristup"
+[2025-09-02T16:58:17.593Z] 🔍 DEBUG: startFrom: 56
+[2025-09-02T16:58:17.593Z] 🔍 DEBUG: normalizedTitle after regex: "Kontigencijski pristup"
+[2025-09-02T16:58:17.594Z] 🔍 SEARCH: Normalized title: "Kontigencijski pristup"
+[2025-09-02T16:58:17.594Z] ✅ SEARCH: Found exact match at position 5925
+[2025-09-02T16:58:17.594Z] ✅ TOC-SCOPED: Found next section "Kontigencijski pristup" at position 5925 within TOC pages
+[2025-09-02T16:58:17.594Z] ✅ TOC-SCOPED REFINEMENT: Successfully refined - 5918 chars within TOC pages 17-21
+[2025-09-02T16:58:17.594Z] 🎯 TOC-SCOPED: Refined section within TOC pages (5918 chars)
+[2025-09-02T16:58:17.642Z] 📄 SIMPLE: Processing section 10/13: "4. 3. Kontigencijski pristup" (pages 21-24)
+[2025-09-02T16:58:17.643Z] 📄 TOC-ONLY: Extracting section "4. 3. Kontigencijski pristup" from TOC pages 21-24
+[2025-09-02T16:58:17.643Z] ✅ TOC-ONLY: Extracted 5879 chars from 4 TOC pages (21, 22, 23, 24)
+[2025-09-02T16:58:17.643Z] 📖 TOC-ONLY: Content preview: "Matrična organizaciona forma, iako veoma interesantna za praktično korišćenje, ima niz
+pozitivnih i negativnih osobina.
+
+MATRIČNA ORGANIZACIJA
+PREDNOSTI NEDOSTACI
+Moguće je istovremeno upravljati..."
+[2025-09-02T16:58:17.644Z] 📊 TOC-ONLY: Character positions - Start: 34192, End: 40071
+[2025-09-02T16:58:17.644Z] ✅ TOC-ONLY: Extracted 5879 chars from TOC pages 21-24
+[2025-09-02T16:58:17.644Z] 🎯 TOC-SCOPED REFINEMENT: Refining "4. 3. Kontigencijski pristup" within TOC pages 21-24
+[2025-09-02T16:58:17.644Z] 🔍 TOC-SCOPED: Searching within TOC pages text (5879 chars)
+[2025-09-02T16:58:17.644Z] 🔍 SEARCH: Looking for "Kontigencijski pristup" in text starting from position 0
+[2025-09-02T16:58:17.644Z] 🔍 DEBUG: text exists: true, length: 5879
+[2025-09-02T16:58:17.644Z] 🔍 DEBUG: cleanTitle type: string, value: "Kontigencijski pristup"
+[2025-09-02T16:58:17.645Z] 🔍 DEBUG: startFrom: 0
+[2025-09-02T16:58:17.645Z] 🔍 DEBUG: normalizedTitle after regex: "Kontigencijski pristup"
+[2025-09-02T16:58:17.645Z] 🔍 SEARCH: Normalized title: "Kontigencijski pristup"
+[2025-09-02T16:58:17.645Z] ✅ SEARCH: Found exact match at position 607
+[2025-09-02T16:58:17.645Z] ✅ TOC-SCOPED: Found section start at position 607 within TOC pages
+[2025-09-02T16:58:17.645Z] 🔍 SEARCH: Looking for "Klasifikacija projekata" in text starting from position 657
+[2025-09-02T16:58:17.645Z] 🔍 DEBUG: text exists: true, length: 5879
+[2025-09-02T16:58:17.645Z] 🔍 DEBUG: cleanTitle type: string, value: "Klasifikacija projekata"
+[2025-09-02T16:58:17.645Z] 🔍 DEBUG: startFrom: 657
+[2025-09-02T16:58:17.646Z] 🔍 DEBUG: normalizedTitle after regex: "Klasifikacija projekata"
+[2025-09-02T16:58:17.646Z] 🔍 SEARCH: Normalized title: "Klasifikacija projekata"
+[2025-09-02T16:58:17.646Z] ✅ SEARCH: Found exact match at position 3914
+[2025-09-02T16:58:17.646Z] ✅ TOC-SCOPED: Found next section "Klasifikacija projekata" at position 3914 within TOC pages
+[2025-09-02T16:58:17.646Z] ✅ TOC-SCOPED REFINEMENT: Successfully refined - 3306 chars within TOC pages 21-24
+[2025-09-02T16:58:17.646Z] 🎯 TOC-SCOPED: Refined section within TOC pages (3306 chars)
+[2025-09-02T16:58:17.694Z] 📄 SIMPLE: Processing section 11/13: "5. Klasifikacija projekata" (pages 24-28)
+[2025-09-02T16:58:17.694Z] 📄 TOC-ONLY: Extracting section "5. Klasifikacija projekata" from TOC pages 24-28
+[2025-09-02T16:58:17.695Z] ✅ TOC-ONLY: Extracted 8209 chars from 5 TOC pages (24, 25, 26, 27, 28)
+[2025-09-02T16:58:17.695Z] 📖 TOC-ONLY: Content preview: "5. Klasifikacija projekata
+
+
+Klasifikacija projekata i definisanje određenih tipova projekata sa sličnim karakteristikama
+omogućava da se precizno utvrde specifičnosti određenih tipova projekata. ..."
+[2025-09-02T16:58:17.695Z] 📊 TOC-ONLY: Character positions - Start: 38103, End: 46312
+[2025-09-02T16:58:17.695Z] ✅ TOC-ONLY: Extracted 8209 chars from TOC pages 24-28
+[2025-09-02T16:58:17.695Z] 🎯 TOC-SCOPED REFINEMENT: Refining "5. Klasifikacija projekata" within TOC pages 24-28
+[2025-09-02T16:58:17.695Z] 🔍 TOC-SCOPED: Searching within TOC pages text (8209 chars)
+[2025-09-02T16:58:17.695Z] 🔍 SEARCH: Looking for "Klasifikacija projekata" in text starting from position 0
+[2025-09-02T16:58:17.695Z] 🔍 DEBUG: text exists: true, length: 8209
+[2025-09-02T16:58:17.696Z] 🔍 DEBUG: cleanTitle type: string, value: "Klasifikacija projekata"
+[2025-09-02T16:58:17.696Z] 🔍 DEBUG: startFrom: 0
+[2025-09-02T16:58:17.696Z] 🔍 DEBUG: normalizedTitle after regex: "Klasifikacija projekata"
+[2025-09-02T16:58:17.696Z] 🔍 SEARCH: Normalized title: "Klasifikacija projekata"
+[2025-09-02T16:58:17.696Z] ✅ SEARCH: Found exact match at position 3
+[2025-09-02T16:58:17.696Z] ✅ TOC-SCOPED: Found section start at position 3 within TOC pages
+[2025-09-02T16:58:17.696Z] 🔍 SEARCH: Looking for "Investicioni i biznis projekti" in text starting from position 53
+[2025-09-02T16:58:17.696Z] 🔍 DEBUG: text exists: true, length: 8209
+[2025-09-02T16:58:17.696Z] 🔍 DEBUG: cleanTitle type: string, value: "Investicioni i biznis projekti"
+[2025-09-02T16:58:17.696Z] 🔍 DEBUG: startFrom: 53
+[2025-09-02T16:58:17.697Z] 🔍 DEBUG: normalizedTitle after regex: "Investicioni i biznis projekti"
+[2025-09-02T16:58:17.697Z] 🔍 SEARCH: Normalized title: "Investicioni i biznis projekti"
+[2025-09-02T16:58:17.697Z] ✅ SEARCH: Found exact match at position 2368
+[2025-09-02T16:58:17.697Z] ✅ TOC-SCOPED: Found next section "Investicioni i biznis projekti" at position 2368 within TOC pages
+[2025-09-02T16:58:17.697Z] ✅ TOC-SCOPED REFINEMENT: Successfully refined - 2364 chars within TOC pages 24-28
+[2025-09-02T16:58:17.697Z] 🎯 TOC-SCOPED: Refined section within TOC pages (2364 chars)
+[2025-09-02T16:58:17.744Z] 📄 SIMPLE: Processing section 12/13: "5. 1. Investicioni i biznis projekti" (pages 25-28)
+[2025-09-02T16:58:17.744Z] 📄 TOC-ONLY: Extracting section "5. 1. Investicioni i biznis projekti" from TOC pages 25-28
+[2025-09-02T16:58:17.744Z] ✅ TOC-ONLY: Extracted 6239 chars from 4 TOC pages (25, 26, 27, 28)
+[2025-09-02T16:58:17.744Z] 📖 TOC-ONLY: Content preview: "poduhvat bi podrazumevao intenzivne istraživačko-razvojne aktivnosti, velike troškove i veliki
+rizik od neuspeha. Kao primer jednog organizacionog projekta možemo navesti pripajanje
+kompanija Daimle..."
+[2025-09-02T16:58:17.744Z] 📊 TOC-ONLY: Character positions - Start: 40073, End: 46312
+[2025-09-02T16:58:17.744Z] ✅ TOC-ONLY: Extracted 6239 chars from TOC pages 25-28
+[2025-09-02T16:58:17.745Z] 🎯 TOC-SCOPED REFINEMENT: Refining "5. 1. Investicioni i biznis projekti" within TOC pages 25-28
+[2025-09-02T16:58:17.745Z] 🔍 TOC-SCOPED: Searching within TOC pages text (6239 chars)
+[2025-09-02T16:58:17.745Z] 🔍 SEARCH: Looking for "Investicioni i biznis projekti" in text starting from position 0
+[2025-09-02T16:58:17.745Z] 🔍 DEBUG: text exists: true, length: 6239
+[2025-09-02T16:58:17.745Z] 🔍 DEBUG: cleanTitle type: string, value: "Investicioni i biznis projekti"
+[2025-09-02T16:58:17.745Z] 🔍 DEBUG: startFrom: 0
+[2025-09-02T16:58:17.745Z] 🔍 DEBUG: normalizedTitle after regex: "Investicioni i biznis projekti"
+[2025-09-02T16:58:17.745Z] 🔍 SEARCH: Normalized title: "Investicioni i biznis projekti"
+[2025-09-02T16:58:17.745Z] ✅ SEARCH: Found exact match at position 398
+[2025-09-02T16:58:17.745Z] ✅ TOC-SCOPED: Found section start at position 398 within TOC pages
+[2025-09-02T16:58:17.746Z] 🔍 SEARCH: Looking for "Literatura" in text starting from position 448
+[2025-09-02T16:58:17.746Z] 🔍 DEBUG: text exists: true, length: 6239
+[2025-09-02T16:58:17.746Z] 🔍 DEBUG: cleanTitle type: string, value: "Literatura"
+[2025-09-02T16:58:17.746Z] 🔍 DEBUG: startFrom: 448
+[2025-09-02T16:58:17.746Z] 🔍 DEBUG: normalizedTitle after regex: "Literatura"
+[2025-09-02T16:58:17.746Z] 🔍 SEARCH: Normalized title: "Literatura"
+[2025-09-02T16:58:17.746Z] ✅ SEARCH: Found exact match at position 5148
+[2025-09-02T16:58:17.746Z] ✅ TOC-SCOPED: Found next section "Literatura" at position 5148 within TOC pages
+[2025-09-02T16:58:17.747Z] ✅ TOC-SCOPED REFINEMENT: Successfully refined - 4749 chars within TOC pages 25-28
+[2025-09-02T16:58:17.747Z] 🎯 TOC-SCOPED: Refined section within TOC pages (4749 chars)
+[2025-09-02T16:58:17.794Z] 📄 SIMPLE: Processing section 13/13: "6. Literatura" (pages 28-38)
+[2025-09-02T16:58:17.794Z] 📄 TOC-ONLY: Extracting section "6. Literatura" from TOC pages 28-38
+[2025-09-02T16:58:17.795Z] ✅ TOC-ONLY: Extracted 1094 chars from 1 TOC pages (28)
+[2025-09-02T16:58:17.795Z] 📖 TOC-ONLY: Content preview: "6. Literatura
+
+
+1. Jovanović P. Upravljanje projektom, FON, Beograd, 2008.
+2. Hanc A. i ostali, Upravljanje projektima, KIZ kultura, Beograd, 1989.
+3. Adams J. R. et all, Managing by Project Mana..."
+[2025-09-02T16:58:17.795Z] 📊 TOC-ONLY: Character positions - Start: 45218, End: 46312
+[2025-09-02T16:58:17.795Z] ✅ TOC-ONLY: Extracted 1094 chars from TOC pages 28-38
+[2025-09-02T16:58:17.795Z] 🎯 TOC-SCOPED REFINEMENT: Refining "6. Literatura" within TOC pages 28-38
+[2025-09-02T16:58:17.795Z] 🔍 TOC-SCOPED: Searching within TOC pages text (1094 chars)
+[2025-09-02T16:58:17.795Z] 🔍 SEARCH: Looking for "Literatura" in text starting from position 0
+[2025-09-02T16:58:17.796Z] 🔍 DEBUG: text exists: true, length: 1094
+[2025-09-02T16:58:17.796Z] 🔍 DEBUG: cleanTitle type: string, value: "Literatura"
+[2025-09-02T16:58:17.796Z] 🔍 DEBUG: startFrom: 0
+[2025-09-02T16:58:17.796Z] 🔍 DEBUG: normalizedTitle after regex: "Literatura"
+[2025-09-02T16:58:17.796Z] 🔍 SEARCH: Normalized title: "Literatura"
+[2025-09-02T16:58:17.796Z] ✅ SEARCH: Found exact match at position 3
+[2025-09-02T16:58:17.796Z] ✅ TOC-SCOPED: Found section start at position 3 within TOC pages
+[2025-09-02T16:58:17.796Z] ✅ TOC-SCOPED REFINEMENT: Successfully refined - 1091 chars within TOC pages 28-38
+[2025-09-02T16:58:17.796Z] 🎯 TOC-SCOPED: Refined section within TOC pages (1091 chars)
+[2025-09-02T16:58:17.845Z] ✅ SIMPLE: Processed 13 sections (including split sections)
+[2025-09-02T16:58:17.845Z] ✅ Section processing completed: 13 sections processed
+[2025-09-02T16:58:17.894Z] Progress: embed - 75% - Processing sections and creating embeddings
+[2025-09-02T16:58:18.002Z] DEBUG:   Generating embedding for section: section_68b721bd6fcd9052a3a613ec_0
+[2025-09-02T16:58:19.738Z] DEBUG:   Embedding created for section_68b721bd6fcd9052a3a613ec_0 -> Vector ID: dffbcf50-e549-4085-af85-7038f8bf1002
+[2025-09-02T16:58:19.880Z] DEBUG:   Generating embedding for section: section_68b721bd6fcd9052a3a613ec_1
+[2025-09-02T16:58:20.647Z] DEBUG:   Embedding created for section_68b721bd6fcd9052a3a613ec_1 -> Vector ID: 5a9f33e9-61c1-4a97-a6cd-6f21c919ffa0
+[2025-09-02T16:58:20.789Z] DEBUG:   Generating embedding for section: section_68b721bd6fcd9052a3a613ec_2
+[2025-09-02T16:58:23.257Z] DEBUG:   Embedding created for section_68b721bd6fcd9052a3a613ec_2 -> Vector ID: 80664adf-ef86-4bea-93f2-c714eeb4460b
+[2025-09-02T16:58:23.399Z] DEBUG:   Generating embedding for section: section_68b721bd6fcd9052a3a613ec_3
+[2025-09-02T16:58:24.418Z] DEBUG:   Embedding created for section_68b721bd6fcd9052a3a613ec_3 -> Vector ID: 81618b9c-42e4-4dee-aba9-e5f36865cc3f
+[2025-09-02T16:58:24.559Z] DEBUG:   Generating embedding for section: section_68b721bd6fcd9052a3a613ec_4
+[2025-09-02T16:58:25.277Z] DEBUG:   Embedding created for section_68b721bd6fcd9052a3a613ec_4 -> Vector ID: 9ae9e7f3-5b83-489f-b24d-e207ac746e6e
+[2025-09-02T16:58:25.425Z] DEBUG:   Generating embedding for section: section_68b721bd6fcd9052a3a613ec_5
+[2025-09-02T16:58:25.940Z] DEBUG:   Embedding created for section_68b721bd6fcd9052a3a613ec_5 -> Vector ID: 96db7b64-ea3c-43b8-b469-316e5e2fe376
+[2025-09-02T16:58:26.096Z] DEBUG:   Generating embedding for section: section_68b721bd6fcd9052a3a613ec_6
+[2025-09-02T16:58:27.715Z] DEBUG:   Embedding created for section_68b721bd6fcd9052a3a613ec_6 -> Vector ID: 1bc0bc4f-ac88-4660-bfe0-343824d8d0d0
+[2025-09-02T16:58:27.853Z] DEBUG:   Generating embedding for section: section_68b721bd6fcd9052a3a613ec_7
+[2025-09-02T16:58:28.829Z] DEBUG:   Embedding created for section_68b721bd6fcd9052a3a613ec_7 -> Vector ID: ad5a7ad6-9283-4475-9e3c-3407283feff2
+[2025-09-02T16:58:28.975Z] DEBUG:   Generating embedding for section: section_68b721bd6fcd9052a3a613ec_8
+[2025-09-02T16:58:30.230Z] DEBUG:   Embedding created for section_68b721bd6fcd9052a3a613ec_8 -> Vector ID: 33485f53-a8ab-4492-843e-54784a669db1
+[2025-09-02T16:58:30.374Z] DEBUG:   Generating embedding for section: section_68b721bd6fcd9052a3a613ec_9
+[2025-09-02T16:58:31.745Z] DEBUG:   Embedding created for section_68b721bd6fcd9052a3a613ec_9 -> Vector ID: 2cf92757-2659-4f6d-8033-2dde1228859d
+[2025-09-02T16:58:31.890Z] DEBUG:   Generating embedding for section: section_68b721bd6fcd9052a3a613ec_10
+[2025-09-02T16:58:32.275Z] DEBUG:   Embedding created for section_68b721bd6fcd9052a3a613ec_10 -> Vector ID: 0e0cea48-ac3c-4b80-8fb3-cba6b45330a5
+[2025-09-02T16:58:32.438Z] DEBUG:   Generating embedding for section: section_68b721bd6fcd9052a3a613ec_11
+[2025-09-02T16:58:33.308Z] DEBUG:   Embedding created for section_68b721bd6fcd9052a3a613ec_11 -> Vector ID: 28a874de-1e8d-4a74-ba07-9e6c9ea20bb3
+[2025-09-02T16:58:33.463Z] DEBUG:   Generating embedding for section: section_68b721bd6fcd9052a3a613ec_12
+[2025-09-02T16:58:34.015Z] DEBUG:   Embedding created for section_68b721bd6fcd9052a3a613ec_12 -> Vector ID: 0671545a-b2d6-4b0d-a091-8a4491fb77ab
+[2025-09-02T16:58:34.063Z] INFO: Updating TOC analysis status to completed
+[2025-09-02T16:58:34.157Z] INFO: Progress: complete [████████████████████] 100% - Document processing completed successfully
+[2025-09-02T16:58:34.205Z] Progress: complete - 100% - Document processing completed successfully
+[2025-09-02T16:58:34.205Z] 🎉 Document processing completed successfully for material 68b721bd6fcd9052a3a613ec
+[2025-09-02T16:58:34.205Z] INFO: 
+[2025-09-02T16:58:34.205Z] INFO: ================================================================================
+[2025-09-02T16:58:34.205Z] INFO: End Time: 2025-09-02T16:58:34.205Z
+[2025-09-02T16:58:34.205Z] INFO: Total Processing Time: 18 seconds
+[2025-09-02T16:58:34.205Z] INFO: Total Log Entries: 474
+[2025-09-02T16:58:34.205Z] INFO: ================================================================================

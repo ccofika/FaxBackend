@@ -1,0 +1,1724 @@
+[2025-09-03T18:20:07.405Z] INFO: ================================================================================
+[2025-09-03T18:20:07.405Z] INFO: DOCUMENT PROCESSING LOG
+[2025-09-03T18:20:07.405Z] INFO: Material ID: 68b8859eab89f80ec00aef7a
+[2025-09-03T18:20:07.405Z] INFO: Start Time: 2025-09-03T18:20:07.405Z
+[2025-09-03T18:20:07.405Z] INFO: ================================================================================
+[2025-09-03T18:20:07.405Z] INFO: 
+[2025-09-03T18:20:07.405Z] INFO: Continuing processing after TOC review for material: 68b8859eab89f80ec00aef7a
+[2025-09-03T18:20:07.405Z] INFO: Loading material from database
+[2025-09-03T18:20:07.448Z] INFO: Material loaded: excel-test - continuing from TOC review
+[2025-09-03T18:20:07.495Z] INFO: Loading TOC analysis from database
+[2025-09-03T18:20:07.632Z] 📚 Using reviewed TOC analysis with 313 sections
+[2025-09-03T18:20:07.680Z] Progress: extract - 20% - Re-downloading PDF for section extraction
+[2025-09-03T18:20:07.970Z] Progress: extract - 40% - Extracting text from all pages
+[2025-09-03T18:20:07.970Z] 🔄 Using node-poppler for true page-by-page extraction (pages 1 to 1000)
+[2025-09-03T18:20:07.973Z] 📁 Created temp PDF file: C:\Users\ccofi\AppData\Local\Temp\temp_pdf_1756923607970.pdf
+[2025-09-03T18:20:08.102Z] 📚 PDF has 96 pages, extracting 1 to 96
+[2025-09-03T18:20:08.103Z] 📄 Extracting page 1/96...
+[2025-09-03T18:20:08.148Z] ✅ Page 1 extracted: 0 characters
+[2025-09-03T18:20:08.148Z] 📖 Page 1 preview: "..."
+[2025-09-03T18:20:08.148Z] 📄 Extracting page 2/96...
+[2025-09-03T18:20:08.179Z] ✅ Page 2 extracted: 179 characters
+[2025-09-03T18:20:08.180Z] 📖 Page 2 preview: "Microsoft Excel Data
+Analysis and Business
+Modeling (Office 2021
+and Microsoft 365)
+7th Edition..."
+[2025-09-03T18:20:08.180Z] 📄 Extracting page 3/96...
+[2025-09-03T18:20:08.215Z] ✅ Page 3 extracted: 2874 characters
+[2025-09-03T18:20:08.216Z] 📖 Page 3 preview: "MICROSOFT EXCEL DATA ANALYSIS AND BUSINESS MODELING EDITOR-IN-CHIEF
+(OFFICE 2021 AND MICROSOFT 365)..."
+[2025-09-03T18:20:08.216Z] 📄 Extracting page 4/96...
+[2025-09-03T18:20:08.249Z] ✅ Page 4 extracted: 1808 characters
+[2025-09-03T18:20:08.249Z] 📖 Page 4 preview: "Pearson’s Commitment to Diversity, Equity, and
+Inclusion
+Pearson is dedicated to creating bias-fre..."
+[2025-09-03T18:20:08.250Z] 📄 Extracting page 5/96...
+[2025-09-03T18:20:08.282Z] ✅ Page 5 extracted: 162 characters
+[2025-09-03T18:20:08.282Z] 📖 Page 5 preview: "Dedication
+
+To Vivian, Jen, and Greg. You are all so great, and I love all of you
+so much!
+
+
+..."
+[2025-09-03T18:20:08.282Z] 📄 Extracting page 6/96...
+[2025-09-03T18:20:08.317Z] ✅ Page 6 extracted: 1356 characters
+[2025-09-03T18:20:08.318Z] 📖 Page 6 preview: "Contents at a Glance
+
+About the Author xxiii
+Introduction xxv
+CHAPTER 1 Basic worksheet modeling..."
+[2025-09-03T18:20:08.318Z] 📄 Extracting page 7/96...
+[2025-09-03T18:20:08.353Z] ✅ Page 7 extracted: 1613 characters
+[2025-09-03T18:20:08.353Z] 📖 Page 7 preview: "CHAPTER 26  pin buttons, scrollbars, option buttons,
+S
+check boxes, combo boxes, and group list b..."
+[2025-09-03T18:20:08.353Z] 📄 Extracting page 8/96...
+[2025-09-03T18:20:08.386Z] ✅ Page 8 extracted: 1814 characters
+[2025-09-03T18:20:08.386Z] 📖 Page 8 preview: "CHAPTER 57 Ratio-to-moving-average forecast method 749
+CHAPTER 58 An introduction to probability 75..."
+[2025-09-03T18:20:08.387Z] 📄 Extracting page 9/96...
+[2025-09-03T18:20:08.419Z] ✅ Page 9 extracted: 850 characters
+[2025-09-03T18:20:08.419Z] 📖 Page 9 preview: "CHAPTER 83 Using resampling to analyze data 947
+CHAPTER 84 Pricing stock options 953
+CHAPTER 85 De..."
+[2025-09-03T18:20:08.419Z] 📄 Extracting page 10/96...
+[2025-09-03T18:20:08.452Z] ✅ Page 10 extracted: 1720 characters
+[2025-09-03T18:20:08.452Z] 📖 Page 10 preview: "Contents
+About the Author...................................................  xxiii
+Introduction....."
+[2025-09-03T18:20:08.452Z] 📄 Extracting page 11/96...
+[2025-09-03T18:20:08.484Z] ✅ Page 11 extracted: 1617 characters
+[2025-09-03T18:20:08.484Z] 📖 Page 11 preview: "Chapter 5 The MATCH function 43
+Syntax of the MATCH function.........................................."
+[2025-09-03T18:20:08.484Z] 📄 Extracting page 12/96...
+[2025-09-03T18:20:08.516Z] ✅ Page 12 extracted: 1838 characters
+[2025-09-03T18:20:08.516Z] 📖 Page 12 preview: "Chapter 12 IF, IFERROR, IFS, CHOOSE, SWITCH,
+and the IS functions 123
+Answers to this chapter’s qu..."
+[2025-09-03T18:20:08.516Z] 📄 Extracting page 13/96...
+[2025-09-03T18:20:08.548Z] ✅ Page 13 extracted: 1753 characters
+[2025-09-03T18:20:08.548Z] 📖 Page 13 preview: "Chapter 19 Using the Scenario Manager for sensitivity analysis 203
+Answer to this chapter’s questio..."
+[2025-09-03T18:20:08.548Z] 📄 Extracting page 14/96...
+[2025-09-03T18:20:08.580Z] ✅ Page 14 extracted: 1752 characters
+[2025-09-03T18:20:08.580Z] 📖 Page 14 preview: "Chapter 26 Spin buttons, scrollbars, option buttons,
+check boxes, combo boxes, and group list boxes..."
+[2025-09-03T18:20:08.580Z] 📄 Extracting page 15/96...
+[2025-09-03T18:20:08.612Z] ✅ Page 15 extracted: 1719 characters
+[2025-09-03T18:20:08.612Z] 📖 Page 15 preview: "Chapter 34 Summarizing data with database
+statistical functions 429
+Answers to this chapter’s ques..."
+[2025-09-03T18:20:08.613Z] 📄 Extracting page 16/96...
+[2025-09-03T18:20:08.645Z] ✅ Page 16 extracted: 1581 characters
+[2025-09-03T18:20:08.645Z] 📖 Page 16 preview: "Chapter 42 Creating subtotals 577
+Answers to this chapter’s questions................................."
+[2025-09-03T18:20:08.645Z] 📄 Extracting page 17/96...
+[2025-09-03T18:20:08.677Z] ✅ Page 17 extracted: 1761 characters
+[2025-09-03T18:20:08.677Z] 📖 Page 17 preview: "Chapter 50 Using correlations to summarize relationships 689
+Answers to this chapter’s questions......"
+[2025-09-03T18:20:08.677Z] 📄 Extracting page 18/96...
+[2025-09-03T18:20:08.708Z] ✅ Page 18 extracted: 1649 characters
+[2025-09-03T18:20:08.709Z] 📖 Page 18 preview: "Chapter 58 An introduction to probability 753
+Answers to this chapter’s questions....................."
+[2025-09-03T18:20:08.709Z] 📄 Extracting page 19/96...
+[2025-09-03T18:20:08.741Z] ✅ Page 19 extracted: 1828 characters
+[2025-09-03T18:20:08.741Z] 📖 Page 19 preview: "Chapter 65 Importing past stock prices, exchange rates,
+and cryptocurrency prices with the
+STOCKHI..."
+[2025-09-03T18:20:08.741Z] 📄 Extracting page 20/96...
+[2025-09-03T18:20:08.773Z] ✅ Page 20 extracted: 1874 characters
+[2025-09-03T18:20:08.773Z] 📖 Page 20 preview: "Chapter 73 The Winters method and the Forecast Sheet tool 859
+Answers to this chapter’s questions....."
+[2025-09-03T18:20:08.773Z] 📄 Extracting page 21/96...
+[2025-09-03T18:20:08.806Z] ✅ Page 21 extracted: 1759 characters
+[2025-09-03T18:20:08.806Z] 📖 Page 21 preview: "Chapter 81 Simulating stock prices and
+asset-allocation modeling 925
+Answers to this chapter’s que..."
+[2025-09-03T18:20:08.806Z] 📄 Extracting page 22/96...
+[2025-09-03T18:20:08.840Z] ✅ Page 22 extracted: 1721 characters
+[2025-09-03T18:20:08.840Z] 📖 Page 22 preview: "Chapter 89 Estimating a demand curve 993
+Answers to this chapter’s questions.........................."
+[2025-09-03T18:20:08.840Z] 📄 Extracting page 23/96...
+[2025-09-03T18:20:08.872Z] ✅ Page 23 extracted: 34 characters
+[2025-09-03T18:20:08.873Z] 📖 Page 23 preview: "This page intentionally left blank..."
+[2025-09-03T18:20:08.873Z] 📄 Extracting page 24/96...
+[2025-09-03T18:20:08.903Z] ✅ Page 24 extracted: 579 characters
+[2025-09-03T18:20:08.903Z] 📖 Page 24 preview: "About the Author
+Wayne L. Winston is Professor Emeritus of Decision
+Sciences at the Indiana Univer..."
+[2025-09-03T18:20:08.904Z] 📄 Extracting page 25/96...
+[2025-09-03T18:20:08.938Z] ✅ Page 25 extracted: 34 characters
+[2025-09-03T18:20:08.938Z] 📖 Page 25 preview: "This page intentionally left blank..."
+[2025-09-03T18:20:08.938Z] 📄 Extracting page 26/96...
+[2025-09-03T18:20:08.972Z] ✅ Page 26 extracted: 2713 characters
+[2025-09-03T18:20:08.972Z] 📖 Page 26 preview: "Introduction
+
+W hether you work for a Fortune 500 corporation, a small company, a government
+agen..."
+[2025-09-03T18:20:08.972Z] 📄 Extracting page 27/96...
+[2025-09-03T18:20:09.007Z] ✅ Page 27 extracted: 2821 characters
+[2025-09-03T18:20:09.007Z] 📖 Page 27 preview: "■■ I’ve written the book as though I am talking to the reader. I hope this approach
+transfers the s..."
+[2025-09-03T18:20:09.007Z] 📄 Extracting page 28/96...
+[2025-09-03T18:20:09.039Z] ✅ Page 28 extracted: 2137 characters
+[2025-09-03T18:20:09.039Z] 📖 Page 28 preview: "What you should know before reading this book
+To follow the examples in this book, you do not need ..."
+[2025-09-03T18:20:09.039Z] 📄 Extracting page 29/96...
+[2025-09-03T18:20:09.073Z] ✅ Page 29 extracted: 2045 characters
+[2025-09-03T18:20:09.073Z] 📖 Page 29 preview: "■■ Chapter 6 contains a discussion of how Excel deals with special formats such as
+phone numbers an..."
+[2025-09-03T18:20:09.073Z] 📄 Extracting page 30/96...
+[2025-09-03T18:20:09.108Z] ✅ Page 30 extracted: 2437 characters
+[2025-09-03T18:20:09.108Z] 📖 Page 30 preview: "Downloads
+This book features a companion website that makes available to you all the sample files,..."
+[2025-09-03T18:20:09.108Z] 📄 Extracting page 31/96...
+[2025-09-03T18:20:09.141Z] ✅ Page 31 extracted: 1215 characters
+[2025-09-03T18:20:09.141Z] 📖 Page 31 preview: "Alex Blanton, formerly of Microsoft Press, championed this project at the start and
+shared my visio..."
+[2025-09-03T18:20:09.141Z] 📄 Extracting page 32/96...
+[2025-09-03T18:20:09.177Z] ✅ Page 32 extracted: 1188 characters
+[2025-09-03T18:20:09.177Z] 📖 Page 32 preview: "CHAPTER 4
+
+
+The INDEX function
+
+Questions answered in this chapter:
+
+■■ I have a list of dist..."
+[2025-09-03T18:20:09.178Z] 📄 Extracting page 33/96...
+[2025-09-03T18:20:09.214Z] ✅ Page 33 extracted: 1771 characters
+[2025-09-03T18:20:09.214Z] 📖 Page 33 preview: "FIGURE 4-1 You can use the INDEX function to calculate the distance between cities.
+
+Suppose you w..."
+[2025-09-03T18:20:09.214Z] 📄 Extracting page 34/96...
+[2025-09-03T18:20:09.251Z] ✅ Page 34 extracted: 2269 characters
+[2025-09-03T18:20:09.251Z] 📖 Page 34 preview: "Is there a way I can write a formula that references the entire column containing the distances
+bet..."
+[2025-09-03T18:20:09.251Z] 📄 Extracting page 35/96...
+[2025-09-03T18:20:09.288Z] ✅ Page 35 extracted: 2415 characters
+[2025-09-03T18:20:09.288Z] 📖 Page 35 preview: "Index
+
+
+Symbols 80–20 rule, 374
+95 percent confidence interval, for mean profit, 914
+& (ampersa..."
+[2025-09-03T18:20:09.288Z] 📄 Extracting page 36/96...
+[2025-09-03T18:20:09.328Z] ✅ Page 36 extracted: 2989 characters
+[2025-09-03T18:20:09.328Z] 📖 Page 36 preview: "alerts, error
+
+
+alerts, error, 474–475 Arrange Windows dialog box, 572
+algebra problems, Goal Se..."
+[2025-09-03T18:20:09.328Z] 📄 Extracting page 37/96...
+[2025-09-03T18:20:09.368Z] ✅ Page 37 extracted: 2758 characters
+[2025-09-03T18:20:09.368Z] 📖 Page 37 preview: "binary changing cells
+
+
+At Each Change In menu commands
+Location, 578
+B
+bakery case study, cos..."
+[2025-09-03T18:20:09.368Z] 📄 Extracting page 38/96...
+[2025-09-03T18:20:09.407Z] ✅ Page 38 extracted: 2877 characters
+[2025-09-03T18:20:09.407Z] 📖 Page 38 preview: "BINOM. DIST function
+
+
+BINOM. DIST function Boolean arrays, 450
+examples of, 771–772 bootstrappi..."
+[2025-09-03T18:20:09.407Z] 📄 Extracting page 39/96...
+[2025-09-03T18:20:09.446Z] ✅ Page 39 extracted: 2865 characters
+[2025-09-03T18:20:09.446Z] 📖 Page 39 preview: "cells
+
+
+dependent variables, 665–666 problems for, 842–844
+Format Trendline options, 666–667 sof..."
+[2025-09-03T18:20:09.447Z] 📄 Extracting page 40/96...
+[2025-09-03T18:20:09.485Z] ✅ Page 40 extracted: 2663 characters
+[2025-09-03T18:20:09.485Z] 📖 Page 40 preview: "cells
+
+
+dependents transportation problem, 831
+analyzing with Inquire add-in, 182 Changing Cells..."
+[2025-09-03T18:20:09.485Z] 📄 Extracting page 41/96...
+[2025-09-03T18:20:09.526Z] ✅ Page 41 extracted: 2896 characters
+[2025-09-03T18:20:09.526Z] 📖 Page 41 preview: "Companydata. xlsx file
+
+
+PivotCharts, 498–499, 529–531 Coke/Pepsi preference example, 771
+proble..."
+[2025-09-03T18:20:09.526Z] 📄 Extracting page 42/96...
+[2025-09-03T18:20:09.563Z] ✅ Page 42 extracted: 2824 characters
+[2025-09-03T18:20:09.563Z] 📖 Page 42 preview: "complements, law of
+
+
+complements, law of, 754 nested/dependent drop-down menus, 478–480
+compoun..."
+[2025-09-03T18:20:09.564Z] 📄 Extracting page 43/96...
+[2025-09-03T18:20:09.602Z] ✅ Page 43 extracted: 2999 characters
+[2025-09-03T18:20:09.602Z] 📖 Page 43 preview: "Customers. xlsx file
+
+
+correlations, 689–695 Craps. xlsx file, 938
+CORREL function, 692 Create C..."
+[2025-09-03T18:20:09.602Z] 📄 Extracting page 44/96...
+[2025-09-03T18:20:09.639Z] ✅ Page 44 extracted: 2683 characters
+[2025-09-03T18:20:09.639Z] 📖 Page 44 preview: "Customize Data Card dialog box
+
+
+Customize Data Card dialog box, 651 overview of, 689–691
+Custom..."
+[2025-09-03T18:20:09.639Z] 📄 Extracting page 45/96...
+[2025-09-03T18:20:09.676Z] ✅ Page 45 extracted: 2462 characters
+[2025-09-03T18:20:09.677Z] 📖 Page 45 preview: "DATEDIF function
+
+
+geometric mean, 388–389 Plants, 354
+kurtosis, 381 problems for, 362
+mean and..."
+[2025-09-03T18:20:09.677Z] 📄 Extracting page 46/96...
+[2025-09-03T18:20:09.714Z] ✅ Page 46 extracted: 2788 characters
+[2025-09-03T18:20:09.715Z] 📖 Page 46 preview: "Datedif. xlsx file
+
+
+Datedif. xlsx file, 79 Define Name option, 15–16
+Datelookup. xlsx file, 30 ..."
+[2025-09-03T18:20:09.715Z] 📄 Extracting page 47/96...
+[2025-09-03T18:20:09.753Z] ✅ Page 47 extracted: 2922 characters
+[2025-09-03T18:20:09.754Z] 📖 Page 47 preview: "dialog boxes
+
+
+overview of, 377–378 Custom Lists, 404
+percentile rankings, 385–386 Customize Dat..."
+[2025-09-03T18:20:09.754Z] 📄 Extracting page 48/96...
+[2025-09-03T18:20:09.792Z] ✅ Page 48 extracted: 2834 characters
+[2025-09-03T18:20:09.792Z] 📖 Page 48 preview: "dialog boxes
+
+
+Insert Calculated Field, 516, 522 Solve, 821, 833
+Insert Calculated Item, 521 Sub..."
+[2025-09-03T18:20:09.792Z] 📄 Extracting page 49/96...
+[2025-09-03T18:20:09.831Z] ✅ Page 49 extracted: 2994 characters
+[2025-09-03T18:20:09.831Z] 📖 Page 49 preview: "EOQ (economic order quantity) inventory model
+
+
+drug distribution problem, 831–834 Edit Default L..."
+[2025-09-03T18:20:09.831Z] 📄 Extracting page 50/96...
+[2025-09-03T18:20:09.869Z] ✅ Page 50 extracted: 2702 characters
+[2025-09-03T18:20:09.869Z] 📖 Page 50 preview: "EOQ (economic order quantity) inventory model
+
+
+problems for, 977–978 assigning employees to work..."
+[2025-09-03T18:20:09.869Z] 📄 Extracting page 51/96...
+[2025-09-03T18:20:09.908Z] ✅ Page 51 extracted: 2569 characters
+[2025-09-03T18:20:09.908Z] 📖 Page 51 preview: "files
+
+
+EXP function, 679, 723 federal aid, determining 99th percentile of demand for,
+expanding..."
+[2025-09-03T18:20:09.908Z] 📄 Extracting page 52/96...
+[2025-09-03T18:20:09.946Z] ✅ Page 52 extracted: 2441 characters
+[2025-09-03T18:20:09.946Z] 📖 Page 52 preview: "files
+
+
+BOM. xlsx, 1021 Combobox. xlsx, 312
+Boxplotmultiple. xlsx, 392 Commodities. xlsx, 804
+B..."
+[2025-09-03T18:20:09.946Z] 📄 Extracting page 53/96...
+[2025-09-03T18:20:09.985Z] ✅ Page 53 extracted: 2351 characters
+[2025-09-03T18:20:09.985Z] 📖 Page 53 preview: "files
+
+
+Duedates. xlsx, 278 Highlightcells. xlsx, 255–257
+DVDsales. xlsx, 237 Historicalinvest20..."
+[2025-09-03T18:20:09.985Z] 📄 Extracting page 54/96...
+[2025-09-03T18:20:10.023Z] ✅ Page 54 extracted: 2516 characters
+[2025-09-03T18:20:10.023Z] 📖 Page 54 preview: "files
+
+
+Machinedates. xlsx, 83 NBA. xlsx, 215, 222
+Makeup2007. xlsx, 218–219, 222, 223 Negbinom...."
+[2025-09-03T18:20:10.023Z] 📄 Extracting page 55/96...
+[2025-09-03T18:20:10.061Z] ✅ Page 55 extracted: 2603 characters
+[2025-09-03T18:20:10.061Z] 📖 Page 55 preview: "files
+
+
+Problem6data. xlsx, 894 Qb2013. xlsx, 37
+Problem7data. xlsx, 376, 680 Qd. xlsx, 1017
+Pr..."
+[2025-09-03T18:20:10.061Z] 📄 Extracting page 56/96...
+[2025-09-03T18:20:10.099Z] ✅ Page 56 extracted: 2446 characters
+[2025-09-03T18:20:10.100Z] 📖 Page 56 preview: "files
+
+
+Statedv. xlsx, 477 USC. xlsx, 794
+Stateincome. xlsx, 657 USfilledmapstemp. xlsx, 646
+St..."
+[2025-09-03T18:20:10.100Z] 📄 Extracting page 57/96...
+[2025-09-03T18:20:10.139Z] ✅ Page 57 extracted: 2814 characters
+[2025-09-03T18:20:10.139Z] 📖 Page 57 preview: "Format Trendline pane
+
+
+IRR, 94 problems for, 867
+MIRR, 97–98 making probability statements from..."
+[2025-09-03T18:20:10.140Z] 📄 Extracting page 58/96...
+[2025-09-03T18:20:10.179Z] ✅ Page 58 extracted: 2515 characters
+[2025-09-03T18:20:10.179Z] 📖 Page 58 preview: "Format Trendline pane
+
+
+Moving Average option, 746 four-period moving average, 745–746
+Number se..."
+[2025-09-03T18:20:10.179Z] 📄 Extracting page 59/96...
+[2025-09-03T18:20:10.218Z] ✅ Page 59 extracted: 2350 characters
+[2025-09-03T18:20:10.219Z] 📖 Page 59 preview: "functions
+
+
+syntax of, 209–210 hedging example with, 125–126
+COUNTIFS, 449 IFERROR, 134–136
+exa..."
+[2025-09-03T18:20:10.219Z] 📄 Extracting page 60/96...
+[2025-09-03T18:20:10.258Z] ✅ Page 60 extracted: 2311 characters
+[2025-09-03T18:20:10.258Z] 📖 Page 60 preview: "functions
+
+
+LOGEST, 715–718 syntax of, 87
+LOGNORM. DIST, 797–798 OFFSET, 225–237
+LOGNORM. INV, ..."
+[2025-09-03T18:20:10.258Z] 📄 Extracting page 61/96...
+[2025-09-03T18:20:10.297Z] ✅ Page 61 extracted: 2453 characters
+[2025-09-03T18:20:10.298Z] 📖 Page 61 preview: "Get & Transform Data group
+
+
+SORT, 464–466, 479, 480 syntax of, 25–26
+SORTBY, 464–466, 916 wildc..."
+[2025-09-03T18:20:10.298Z] 📄 Extracting page 62/96...
+[2025-09-03T18:20:10.338Z] ✅ Page 62 extracted: 2542 characters
+[2025-09-03T18:20:10.338Z] 📖 Page 62 preview: "Get & Transform Data options
+
+
+Excel tables elements in, 609–610
+creating from flat files, 328–3..."
+[2025-09-03T18:20:10.339Z] 📄 Extracting page 63/96...
+[2025-09-03T18:20:10.382Z] ✅ Page 63 extracted: 2809 characters
+[2025-09-03T18:20:10.383Z] 📖 Page 63 preview: "HYPERLINK function
+
+
+moving-average, 745–746 hiding
+greater than or equal to (>=) operator, 212 ..."
+[2025-09-03T18:20:10.383Z] 📄 Extracting page 64/96...
+[2025-09-03T18:20:10.426Z] ✅ Page 64 extracted: 3219 characters
+[2025-09-03T18:20:10.426Z] 📖 Page 64 preview: "hyperlinks
+
+
+hyperlinks, 167–169, 181 on stock, 799–801
+Hyperlinkstemp. xlsx file, 167 Power Que..."
+[2025-09-03T18:20:10.426Z] 📄 Extracting page 65/96...
+[2025-09-03T18:20:10.468Z] ✅ Page 65 extracted: 3165 characters
+[2025-09-03T18:20:10.469Z] 📖 Page 65 preview: "IRR function
+
+
+Insert Calculated Field dialog box, 516, 522 development of, 973
+Insert Calculate..."
+[2025-09-03T18:20:10.469Z] 📄 Extracting page 66/96...
+[2025-09-03T18:20:10.510Z] ✅ Page 66 extracted: 2387 characters
+[2025-09-03T18:20:10.511Z] 📖 Page 66 preview: "irregularly spaced cash flows
+
+
+irregularly spaced cash flows dynamic labels for, 620–621, 923
+I..."
+[2025-09-03T18:20:10.511Z] 📄 Extracting page 67/96...
+[2025-09-03T18:20:10.552Z] ✅ Page 67 extracted: 2811 characters
+[2025-09-03T18:20:10.552Z] 📖 Page 67 preview: "lookup functions
+
+
+length of time worked by employees, calculating, cumulative. See cumulative in..."
+[2025-09-03T18:20:10.552Z] 📄 Extracting page 68/96...
+[2025-09-03T18:20:10.594Z] ✅ Page 68 extracted: 2741 characters
+[2025-09-03T18:20:10.595Z] 📖 Page 68 preview: "lookup functions
+
+
+syntax of, 26–27 weekly changes in sales, 1041–1044
+two-way lookups, 48–49 ru..."
+[2025-09-03T18:20:10.595Z] 📄 Extracting page 69/96...
+[2025-09-03T18:20:10.636Z] ✅ Page 69 extracted: 2715 characters
+[2025-09-03T18:20:10.636Z] 📖 Page 69 preview: "Merton, Robert
+
+
+Maps button, 644 Evaluate Formula feature, 229–231
+Marker Color option (Sparkli..."
+[2025-09-03T18:20:10.636Z] 📄 Extracting page 70/96...
+[2025-09-03T18:20:10.677Z] ✅ Page 70 extracted: 3080 characters
+[2025-09-03T18:20:10.677Z] 📖 Page 70 preview: "messages
+
+
+messages overview of, 853–854
+“Set values do not converge”, 820–821 problems for, 856..."
+[2025-09-03T18:20:10.677Z] 📄 Extracting page 71/96...
+[2025-09-03T18:20:10.718Z] ✅ Page 71 extracted: 2970 characters
+[2025-09-03T18:20:10.718Z] 📖 Page 71 preview: "Movies data type
+
+
+MOD function, 78–80 craps, 937–939
+mode five-card draw poker, 939–942
+defini..."
+[2025-09-03T18:20:10.718Z] 📄 Extracting page 72/96...
+[2025-09-03T18:20:10.758Z] ✅ Page 72 extracted: 2926 characters
+[2025-09-03T18:20:10.758Z] 📖 Page 72 preview: "Movies. xlsx file
+
+
+Movies. xlsx file, 229–231 Name columns, sorting data by, 580
+Moving Average..."
+[2025-09-03T18:20:10.758Z] 📄 Extracting page 73/96...
+[2025-09-03T18:20:10.799Z] ✅ Page 73 extracted: 3179 characters
+[2025-09-03T18:20:10.799Z] 📖 Page 73 preview: "NPV (net present value)
+
+
+Nba02_03. xlsx file, 857 Noncontigtemp. xlsx file, 13
+Nbadvl. xlsx fil..."
+[2025-09-03T18:20:10.799Z] 📄 Extracting page 74/96...
+[2025-09-03T18:20:10.839Z] ✅ Page 74 extracted: 2873 characters
+[2025-09-03T18:20:10.839Z] 📖 Page 74 preview: "NPV (net present value)
+
+
+NPV function, 968–969 dynamic ranges, 232–234
+problems for, 969–971 Ev..."
+[2025-09-03T18:20:10.839Z] 📄 Extracting page 75/96...
+[2025-09-03T18:20:10.879Z] ✅ Page 75 extracted: 2996 characters
+[2025-09-03T18:20:10.879Z] 📖 Page 75 preview: "Pastespecial. xlsx file
+
+
+optimal product mix, determining with Solver, 813–823 worksheet protect..."
+[2025-09-03T18:20:10.880Z] 📄 Extracting page 76/96...
+[2025-09-03T18:20:10.920Z] ✅ Page 76 extracted: 3107 characters
+[2025-09-03T18:20:10.920Z] 📖 Page 76 preview: "pattern-recognition technology, Flash Fill
+
+
+pattern-recognition technology, Flash Fill, 62–64 co..."
+[2025-09-03T18:20:10.921Z] 📄 Extracting page 77/96...
+[2025-09-03T18:20:10.962Z] ✅ Page 77 extracted: 2990 characters
+[2025-09-03T18:20:10.962Z] 📖 Page 77 preview: "prices and pricing
+
+
+“Please excuse my dear Aunt Sally” (PEMDAS), 6–7 hardware store data
+plus s..."
+[2025-09-03T18:20:10.963Z] 📄 Extracting page 78/96...
+[2025-09-03T18:20:11.003Z] ✅ Page 78 extracted: 2936 characters
+[2025-09-03T18:20:11.003Z] 📖 Page 78 preview: "prices and pricing
+
+
+customer’s willingness to pay and, 997 Bayes’ theorem, 758–759
+definition o..."
+[2025-09-03T18:20:11.003Z] 📄 Extracting page 79/96...
+[2025-09-03T18:20:11.044Z] ✅ Page 79 extracted: 3020 characters
+[2025-09-03T18:20:11.045Z] 📖 Page 79 preview: "problems
+
+
+Problem6data. xlsx file, 894 counting cells in ranges, 214–215
+Problem7data. xlsx fil..."
+[2025-09-03T18:20:11.045Z] 📄 Extracting page 80/96...
+[2025-09-03T18:20:11.085Z] ✅ Page 80 extracted: 2973 characters
+[2025-09-03T18:20:11.085Z] 📖 Page 80 preview: "problems
+
+
+PowerPivot, 570 Productsalespaste. xlsx file, 163
+probability, 759–762 profit-maximiz..."
+[2025-09-03T18:20:11.086Z] 📄 Extracting page 81/96...
+[2025-09-03T18:20:11.127Z] ✅ Page 81 extracted: 2799 characters
+[2025-09-03T18:20:11.127Z] 📖 Page 81 preview: "range_lookup argument (VLOOKUP function)
+
+
+quantitative independent variables, in multiple- conti..."
+[2025-09-03T18:20:11.127Z] 📄 Extracting page 82/96...
+[2025-09-03T18:20:11.167Z] ✅ Page 82 extracted: 2871 characters
+[2025-09-03T18:20:11.167Z] 📖 Page 82 preview: "ranges
+
+
+ranges, 381–382 real options, 963–964
+counting cells in, 209–215 Reapply option, Excel ..."
+[2025-09-03T18:20:11.168Z] 📄 Extracting page 83/96...
+[2025-09-03T18:20:11.209Z] ✅ Page 83 extracted: 2919 characters
+[2025-09-03T18:20:11.209Z] 📖 Page 83 preview: "revenues
+
+
+testing for presence of, 720–723 problems for, 672–673
+predicted monthly operating co..."
+[2025-09-03T18:20:11.209Z] 📄 Extracting page 84/96...
+[2025-09-03T18:20:11.250Z] ✅ Page 84 extracted: 2935 characters
+[2025-09-03T18:20:11.250Z] 📖 Page 84 preview: "revenues
+
+
+GROWTH function, 679–680 total sales, named ranges for, 17–18
+modeling, 676–678 trend..."
+[2025-09-03T18:20:11.250Z] 📄 Extracting page 85/96...
+[2025-09-03T18:20:11.291Z] ✅ Page 85 extracted: 3105 characters
+[2025-09-03T18:20:11.291Z] 📖 Page 85 preview: "SKEW function
+
+
+examples of, 895–896 example of, 203–208
+problems for, 898–899 merging scenarios..."
+[2025-09-03T18:20:11.291Z] 📄 Extracting page 86/96...
+[2025-09-03T18:20:11.332Z] ✅ Page 86 extracted: 3196 characters
+[2025-09-03T18:20:11.332Z] 📖 Page 86 preview: "skewness measure
+
+
+skewness measure, 381, 920 songs longer than average length, 212
+skewed left ..."
+[2025-09-03T18:20:11.332Z] 📄 Extracting page 87/96...
+[2025-09-03T18:20:11.377Z] ✅ Page 87 extracted: 3083 characters
+[2025-09-03T18:20:11.377Z] 📖 Page 87 preview: "Stocks worksheet
+
+
+Sparklines. xlsx file, 659 statistics, descriptive. See descriptive statistics..."
+[2025-09-03T18:20:11.377Z] 📄 Extracting page 88/96...
+[2025-09-03T18:20:11.419Z] ✅ Page 88 extracted: 2908 characters
+[2025-09-03T18:20:11.419Z] 📖 Page 88 preview: "Stock. xlsx file
+
+
+Stock. xlsx file, 373, 376, 383, 393 sales by each salesperson, 580–581
+Stop ..."
+[2025-09-03T18:20:11.419Z] 📄 Extracting page 89/96...
+[2025-09-03T18:20:11.463Z] ✅ Page 89 extracted: 2989 characters
+[2025-09-03T18:20:11.463Z] 📖 Page 89 preview: "tables
+
+
+skewed left (negatively skewed), 372 flattening, 327–328
+skewed right (positively skewe..."
+[2025-09-03T18:20:11.464Z] 📄 Extracting page 90/96...
+[2025-09-03T18:20:11.506Z] ✅ Page 90 extracted: 2697 characters
+[2025-09-03T18:20:11.506Z] 📖 Page 90 preview: "tables
+
+
+mortgage payment analysis, 188–189 LOWER, 54
+one-way data tables, 184, 185–186 MID, 53,..."
+[2025-09-03T18:20:11.507Z] 📄 Extracting page 91/96...
+[2025-09-03T18:20:11.550Z] ✅ Page 91 extracted: 2791 characters
+[2025-09-03T18:20:11.550Z] 📖 Page 91 preview: "trading data, importing
+
+
+Threetimes. xlsx file, 280 displaying current, 151
+tie-ins, pricing pr..."
+[2025-09-03T18:20:11.551Z] 📄 Extracting page 92/96...
+[2025-09-03T18:20:11.595Z] ✅ Page 92 extracted: 2885 characters
+[2025-09-03T18:20:11.595Z] 📖 Page 92 preview: "Transactiondata. xlsx file
+
+
+Transactiondata. xlsx file, 237 two-bin policy. See reorder-point po..."
+[2025-09-03T18:20:11.596Z] 📄 Extracting page 93/96...
+[2025-09-03T18:20:11.639Z] ✅ Page 93 extracted: 2742 characters
+[2025-09-03T18:20:11.639Z] 📖 Page 93 preview: "variables, random
+
+
+Unemployment. xlsx file, 376 numeric values, 476–477
+Unfreeze Panes command ..."
+[2025-09-03T18:20:11.640Z] 📄 Extracting page 94/96...
+[2025-09-03T18:20:11.683Z] ✅ Page 94 extracted: 2867 characters
+[2025-09-03T18:20:11.683Z] 📖 Page 94 preview: "variables, random
+
+
+modeling future prices of stock as, 796–797 volatility
+problems for, 798 his..."
+[2025-09-03T18:20:11.683Z] 📄 Extracting page 95/96...
+[2025-09-03T18:20:11.727Z] ✅ Page 95 extracted: 2952 characters
+[2025-09-03T18:20:11.727Z] 📖 Page 95 preview: "worksheets
+
+
+wildcard characters, 31, 44 consolidating data in
+willingness to pay, demand curve ..."
+[2025-09-03T18:20:11.727Z] 📄 Extracting page 96/96...
+[2025-09-03T18:20:11.769Z] ✅ Page 96 extracted: 837 characters
+[2025-09-03T18:20:11.769Z] 📖 Page 96 preview: "worksheets
+
+
+multiple-worksheet workbooks examples of, 31–34
+hyperlinks in, 167–169 syntax of, 2..."
+[2025-09-03T18:20:11.770Z] INFO: 
+[2025-09-03T18:20:11.770Z] INFO: ------------------------------------------------------------
+[2025-09-03T18:20:11.770Z] INFO: SECTION: SECTION PROCESSING
+[2025-09-03T18:20:11.770Z] INFO: ------------------------------------------------------------
+[2025-09-03T18:20:11.770Z] INFO: Progress: sectioning [████████████--------] 60% - Processing sections from reviewed TOC
+[2025-09-03T18:20:11.815Z] Progress: sectioning - 60% - Processing sections from reviewed TOC
+[2025-09-03T18:20:11.816Z] 📚 SIMPLIFIED: Processing 313 sections - ONLY by pages, NO header searching
+[2025-09-03T18:20:11.816Z] 📄 SIMPLE: Processing section 1/313: "Chapter 1 Basic worksheet modeling" (pages 1-11)
+[2025-09-03T18:20:11.816Z] 📄 TOC-ONLY: Extracting section "Chapter 1 Basic worksheet modeling" from TOC pages 1-11
+[2025-09-03T18:20:11.816Z] ✅ TOC-ONLY: Extracted 14011 chars from 11 TOC pages (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11)
+[2025-09-03T18:20:11.817Z] 📖 TOC-ONLY: Content preview: "Microsoft Excel Data
+Analysis and Business
+Modeling (Office 2021
+and Microsoft 365)
+7th Edition
+
+
+
+
+Wayne Winston
+
+
+
+
+A01_Winston_FM_pi-xxx. indd 1 27/10/21 2: 20 PM
+
+MICROSOFT EXCEL DAT..."
+[2025-09-03T18:20:11.817Z] 📊 TOC-ONLY: Character positions - Start: 0, End: 14011
+[2025-09-03T18:20:11.818Z] ✅ TOC-ONLY: Extracted 14011 chars from TOC pages 1-11
+[2025-09-03T18:20:11.818Z] 🎯 TOC-SCOPED REFINEMENT: Refining "Chapter 1 Basic worksheet modeling" within TOC pages 1-11
+[2025-09-03T18:20:11.818Z] 🔍 TOC-SCOPED: Searching within TOC pages text (14013 chars)
+[2025-09-03T18:20:11.818Z] 🔍 SEARCH: Looking for "Chapter 1 Basic worksheet modeling" in text starting from position 0
+[2025-09-03T18:20:11.819Z] 🔍 DEBUG: text exists: true, length: 14013
+[2025-09-03T18:20:11.819Z] 🔍 DEBUG: cleanTitle type: string, value: "Chapter 1 Basic worksheet modeling"
+[2025-09-03T18:20:11.819Z] 🔍 DEBUG: startFrom: 0
+[2025-09-03T18:20:11.819Z] 🔍 DEBUG: normalizedTitle after regex: "Chapter 1 Basic worksheet modeling"
+[2025-09-03T18:20:11.819Z] 🔍 SEARCH: Normalized title: "Chapter 1 Basic worksheet modeling"
+[2025-09-03T18:20:11.819Z] ✅ SEARCH: Found exact match at position 5099
+[2025-09-03T18:20:11.819Z] ✅ TOC-SCOPED: Found section start at position 5099 within TOC pages
+[2025-09-03T18:20:11.820Z] 🔍 SEARCH: Looking for "Answers to this chapter’s questions" in text starting from position 5149
+[2025-09-03T18:20:11.820Z] 🔍 DEBUG: text exists: true, length: 14013
+[2025-09-03T18:20:11.820Z] 🔍 DEBUG: cleanTitle type: string, value: "Answers to this chapter’s questions"
+[2025-09-03T18:20:11.820Z] 🔍 DEBUG: startFrom: 5149
+[2025-09-03T18:20:11.820Z] 🔍 DEBUG: normalizedTitle after regex: "Answers to this chapter’s questions"
+[2025-09-03T18:20:11.820Z] 🔍 SEARCH: Normalized title: "Answers to this chapter’s questions"
+[2025-09-03T18:20:11.820Z] ✅ SEARCH: Found exact match at position 10874
+[2025-09-03T18:20:11.820Z] ✅ TOC-SCOPED: Found next section "Answers to this chapter’s questions" at position 10874 within TOC pages
+[2025-09-03T18:20:11.820Z] ✅ TOC-SCOPED REFINEMENT: Successfully refined - 5773 chars within TOC pages 1-11
+[2025-09-03T18:20:11.821Z] 🎯 TOC-SCOPED: Refined section within TOC pages (5773 chars)
+[2025-09-03T18:20:11.963Z] 📄 SIMPLE: Processing section 2/313: "Answers to this chapter’s questions" (pages 1-9)
+[2025-09-03T18:20:11.964Z] 📄 TOC-ONLY: Extracting section "Answers to this chapter’s questions" from TOC pages 1-9
+[2025-09-03T18:20:11.964Z] ✅ TOC-ONLY: Extracted 10670 chars from 9 TOC pages (1, 2, 3, 4, 5, 6, 7, 8, 9)
+[2025-09-03T18:20:11.964Z] 📖 TOC-ONLY: Content preview: "Microsoft Excel Data
+Analysis and Business
+Modeling (Office 2021
+and Microsoft 365)
+7th Edition
+
+
+
+
+Wayne Winston
+
+
+
+
+A01_Winston_FM_pi-xxx. indd 1 27/10/21 2: 20 PM
+
+MICROSOFT EXCEL DAT..."
+[2025-09-03T18:20:11.964Z] 📊 TOC-ONLY: Character positions - Start: 0, End: 10670
+[2025-09-03T18:20:11.965Z] ✅ TOC-ONLY: Extracted 10670 chars from TOC pages 1-9
+[2025-09-03T18:20:11.965Z] 🎯 TOC-SCOPED REFINEMENT: Refining "Answers to this chapter’s questions" within TOC pages 1-9
+[2025-09-03T18:20:11.965Z] 🔍 TOC-SCOPED: Searching within TOC pages text (10672 chars)
+[2025-09-03T18:20:11.965Z] 🔍 SEARCH: Looking for "Answers to this chapter’s questions" in text starting from position 0
+[2025-09-03T18:20:11.965Z] 🔍 DEBUG: text exists: true, length: 10672
+[2025-09-03T18:20:11.965Z] 🔍 DEBUG: cleanTitle type: string, value: "Answers to this chapter’s questions"
+[2025-09-03T18:20:11.965Z] 🔍 DEBUG: startFrom: 0
+[2025-09-03T18:20:11.965Z] 🔍 DEBUG: normalizedTitle after regex: "Answers to this chapter’s questions"
+[2025-09-03T18:20:11.966Z] 🔍 SEARCH: Normalized title: "Answers to this chapter’s questions"
+[2025-09-03T18:20:11.966Z] 🔍 DEBUG: Split into chars: [a, n, s, w, e, r, s,  , t, o,  , t, h, i, s,  , c, h, a, p, t, e, r, ’, s,  , q, u, e, s, t, i, o, n, s]
+[2025-09-03T18:20:11.966Z] 🔍 DEBUG: Generated variations: 50
+[2025-09-03T18:20:11.966Z] 🔍 SEARCH: Generated 50 space variations
+[2025-09-03T18:20:11.967Z] ❌ SEARCH: No match found for "Answers to this chapter’s questions"
+[2025-09-03T18:20:11.967Z] ⚠️ Section title "Answers to this chapter’s questions" not found within TOC pages, using whole pages
+[2025-09-03T18:20:11.967Z] 📄 TOC-ONLY: Using complete TOC pages content
+[2025-09-03T18:20:11.968Z] 📄 Splitting section "Answers to this chapter’s questions" (10670 chars) for embedding
+[2025-09-03T18:20:11.968Z] 📄 Split "Answers to this chapter’s questions" into 2 embedding-safe parts
+[2025-09-03T18:20:11.968Z] 📄 Split section "Answers to this chapter’s questions" into 2 parts for embedding
+[2025-09-03T18:20:12.064Z] 📄 SIMPLE: Processing section 3/313: "Problems" (pages 9-11)
+[2025-09-03T18:20:12.064Z] 📄 TOC-ONLY: Extracting section "Problems" from TOC pages 9-11
+[2025-09-03T18:20:12.065Z] ✅ TOC-ONLY: Extracted 4191 chars from 3 TOC pages (9, 10, 11)
+[2025-09-03T18:20:12.065Z] 📖 TOC-ONLY: Content preview: "CHAPTER 83 Using resampling to analyze data 947
+CHAPTER 84 Pricing stock options 953
+CHAPTER 85 Determining customer value 967
+CHAPTER 86 The economic order quantity inventory model 973
+CHAPTER 87..."
+[2025-09-03T18:20:12.065Z] 📊 TOC-ONLY: Character positions - Start: 9822, End: 14013
+[2025-09-03T18:20:12.065Z] ✅ TOC-ONLY: Extracted 4191 chars from TOC pages 9-11
+[2025-09-03T18:20:12.065Z] 🎯 TOC-SCOPED REFINEMENT: Refining "Problems" within TOC pages 9-11
+[2025-09-03T18:20:12.065Z] 🔍 TOC-SCOPED: Searching within TOC pages text (4191 chars)
+[2025-09-03T18:20:12.066Z] 🔍 SEARCH: Looking for "Problems" in text starting from position 0
+[2025-09-03T18:20:12.066Z] 🔍 DEBUG: text exists: true, length: 4191
+[2025-09-03T18:20:12.066Z] 🔍 DEBUG: cleanTitle type: string, value: "Problems"
+[2025-09-03T18:20:12.066Z] 🔍 DEBUG: startFrom: 0
+[2025-09-03T18:20:12.066Z] 🔍 DEBUG: normalizedTitle after regex: "Problems"
+[2025-09-03T18:20:12.066Z] 🔍 SEARCH: Normalized title: "Problems"
+[2025-09-03T18:20:12.066Z] ✅ SEARCH: Found exact match at position 1126
+[2025-09-03T18:20:12.066Z] ✅ TOC-SCOPED: Found section start at position 1126 within TOC pages
+[2025-09-03T18:20:12.066Z] 🔍 SEARCH: Looking for "Chapter 2 Range names" in text starting from position 1176
+[2025-09-03T18:20:12.066Z] 🔍 DEBUG: text exists: true, length: 4191
+[2025-09-03T18:20:12.067Z] 🔍 DEBUG: cleanTitle type: string, value: "Chapter 2 Range names"
+[2025-09-03T18:20:12.067Z] 🔍 DEBUG: startFrom: 1176
+[2025-09-03T18:20:12.067Z] 🔍 DEBUG: normalizedTitle after regex: "Chapter 2 Range names"
+[2025-09-03T18:20:12.067Z] 🔍 SEARCH: Normalized title: "Chapter 2 Range names"
+[2025-09-03T18:20:12.067Z] ✅ SEARCH: Found exact match at position 1202
+[2025-09-03T18:20:12.067Z] ✅ TOC-SCOPED: Found next section "Chapter 2 Range names" at position 1202 within TOC pages
+[2025-09-03T18:20:12.067Z] ✅ TOC-SCOPED REFINEMENT: Successfully refined - 70 chars within TOC pages 9-11
+[2025-09-03T18:20:12.067Z] 🎯 TOC-SCOPED: Refined section within TOC pages (70 chars)
+[2025-09-03T18:20:12.124Z] 📄 SIMPLE: Processing section 4/313: "Chapter 2 Range names" (pages 11-25)
+[2025-09-03T18:20:12.124Z] 📄 TOC-ONLY: Extracting section "Chapter 2 Range names" from TOC pages 11-25
+[2025-09-03T18:20:12.124Z] ✅ TOC-ONLY: Extracted 21527 chars from 15 TOC pages (11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25)
+[2025-09-03T18:20:12.124Z] 📖 TOC-ONLY: Content preview: "Chapter 5 The MATCH function 43
+Syntax of the MATCH function........................................ 43
+Answers to this chapter’s questions................................... 45
+Problems.............."
+[2025-09-03T18:20:12.124Z] 📊 TOC-ONLY: Character positions - Start: 12396, End: 33923
+[2025-09-03T18:20:12.125Z] ✅ TOC-ONLY: Extracted 21527 chars from TOC pages 11-25
+[2025-09-03T18:20:12.125Z] 🎯 TOC-SCOPED REFINEMENT: Refining "Chapter 2 Range names" within TOC pages 11-25
+[2025-09-03T18:20:12.125Z] 🔍 TOC-SCOPED: Searching within TOC pages text (21527 chars)
+[2025-09-03T18:20:12.126Z] 🔍 SEARCH: Looking for "Chapter 2 Range names" in text starting from position 0
+[2025-09-03T18:20:12.126Z] 🔍 DEBUG: text exists: true, length: 21527
+[2025-09-03T18:20:12.126Z] 🔍 DEBUG: cleanTitle type: string, value: "Chapter 2 Range names"
+[2025-09-03T18:20:12.126Z] 🔍 DEBUG: startFrom: 0
+[2025-09-03T18:20:12.126Z] 🔍 DEBUG: normalizedTitle after regex: "Chapter 2 Range names"
+[2025-09-03T18:20:12.126Z] 🔍 SEARCH: Normalized title: "Chapter 2 Range names"
+[2025-09-03T18:20:12.126Z] 🔍 DEBUG: Split into chars: [c, h, a, p, t, e, r,  , 2,  , r, a, n, g, e,  , n, a, m, e, s]
+[2025-09-03T18:20:12.127Z] 🔍 DEBUG: Generated variations: 50
+[2025-09-03T18:20:12.127Z] 🔍 SEARCH: Generated 50 space variations
+[2025-09-03T18:20:12.127Z] ❌ SEARCH: No match found for "Chapter 2 Range names"
+[2025-09-03T18:20:12.127Z] ⚠️ Section title "Chapter 2 Range names" not found within TOC pages, using whole pages
+[2025-09-03T18:20:12.127Z] 📄 TOC-ONLY: Using complete TOC pages content
+[2025-09-03T18:20:12.128Z] 📄 Splitting section "Chapter 2 Range names" (21527 chars) for embedding
+[2025-09-03T18:20:12.128Z] 📄 Split "Chapter 2 Range names" into 3 embedding-safe parts
+[2025-09-03T18:20:12.128Z] 📄 Split section "Chapter 2 Range names" into 3 parts for embedding
+[2025-09-03T18:20:12.182Z] 📄 SIMPLE: Processing section 5/313: "How can I create named ranges?" (pages 11-12)
+[2025-09-03T18:20:12.182Z] 📄 TOC-ONLY: Extracting section "How can I create named ranges?" from TOC pages 11-12
+[2025-09-03T18:20:12.182Z] ✅ TOC-ONLY: Extracted 3457 chars from 2 TOC pages (11, 12)
+[2025-09-03T18:20:12.182Z] 📖 TOC-ONLY: Content preview: "Chapter 5 The MATCH function 43
+Syntax of the MATCH function........................................ 43
+Answers to this chapter’s questions................................... 45
+Problems.............."
+[2025-09-03T18:20:12.182Z] 📊 TOC-ONLY: Character positions - Start: 12396, End: 15853
+[2025-09-03T18:20:12.183Z] ✅ TOC-ONLY: Extracted 3457 chars from TOC pages 11-12
+[2025-09-03T18:20:12.183Z] 🎯 TOC-SCOPED REFINEMENT: Refining "How can I create named ranges?" within TOC pages 11-12
+[2025-09-03T18:20:12.183Z] 🔍 TOC-SCOPED: Searching within TOC pages text (3457 chars)
+[2025-09-03T18:20:12.183Z] 🔍 SEARCH: Looking for "How can I create named ranges?" in text starting from position 0
+[2025-09-03T18:20:12.183Z] 🔍 DEBUG: text exists: true, length: 3457
+[2025-09-03T18:20:12.183Z] 🔍 DEBUG: cleanTitle type: string, value: "How can I create named ranges?"
+[2025-09-03T18:20:12.183Z] 🔍 DEBUG: startFrom: 0
+[2025-09-03T18:20:12.183Z] 🔍 DEBUG: normalizedTitle after regex: "How can I create named ranges?"
+[2025-09-03T18:20:12.183Z] 🔍 SEARCH: Normalized title: "How can I create named ranges?"
+[2025-09-03T18:20:12.183Z] 🔍 DEBUG: Split into chars: [h, o, w,  , c, a, n,  , i,  , c, r, e, a, t, e,  , n, a, m, e, d,  , r, a, n, g, e, s, ?]
+[2025-09-03T18:20:12.184Z] 🔍 DEBUG: Generated variations: 50
+[2025-09-03T18:20:12.184Z] 🔍 SEARCH: Generated 50 space variations
+[2025-09-03T18:20:12.184Z] ❌ SEARCH: No match found for "How can I create named ranges?"
+[2025-09-03T18:20:12.184Z] ⚠️ Section title "How can I create named ranges?" not found within TOC pages, using whole pages
+[2025-09-03T18:20:12.184Z] 📄 TOC-ONLY: Using complete TOC pages content
+[2025-09-03T18:20:12.238Z] 📄 SIMPLE: Processing section 6/313: "Using the Name box to create a range name" (pages 12-13)
+[2025-09-03T18:20:12.239Z] 📄 TOC-ONLY: Extracting section "Using the Name box to create a range name" from TOC pages 12-13
+[2025-09-03T18:20:12.239Z] ✅ TOC-ONLY: Extracted 3593 chars from 2 TOC pages (12, 13)
+[2025-09-03T18:20:12.239Z] 📖 TOC-ONLY: Content preview: "Chapter 12 IF, IFERROR, IFS, CHOOSE, SWITCH,
+and the IS functions 123
+Answers to this chapter’s questions.................................. 124
+Problems................................................"
+[2025-09-03T18:20:12.239Z] 📊 TOC-ONLY: Character positions - Start: 14015, End: 17608
+[2025-09-03T18:20:12.239Z] ✅ TOC-ONLY: Extracted 3593 chars from TOC pages 12-13
+[2025-09-03T18:20:12.239Z] 🎯 TOC-SCOPED REFINEMENT: Refining "Using the Name box to create a range name" within TOC pages 12-13
+[2025-09-03T18:20:12.240Z] 🔍 TOC-SCOPED: Searching within TOC pages text (3593 chars)
+[2025-09-03T18:20:12.240Z] 🔍 SEARCH: Looking for "Using the Name box to create a range name" in text starting from position 0
+[2025-09-03T18:20:12.240Z] 🔍 DEBUG: text exists: true, length: 3593
+[2025-09-03T18:20:12.240Z] 🔍 DEBUG: cleanTitle type: string, value: "Using the Name box to create a range name"
+[2025-09-03T18:20:12.240Z] 🔍 DEBUG: startFrom: 0
+[2025-09-03T18:20:12.240Z] 🔍 DEBUG: normalizedTitle after regex: "Using the Name box to create a range name"
+[2025-09-03T18:20:12.240Z] 🔍 SEARCH: Normalized title: "Using the Name box to create a range name"
+[2025-09-03T18:20:12.240Z] 🔍 DEBUG: Split into chars: [u, s, i, n, g,  , t, h, e,  , n, a, m, e,  , b, o, x,  , t, o,  , c, r, e, a, t, e,  , a,  , r, a, n, g, e,  , n, a, m, e]
+[2025-09-03T18:20:12.240Z] 🔍 DEBUG: Generated variations: 50
+[2025-09-03T18:20:12.241Z] 🔍 SEARCH: Generated 50 space variations
+[2025-09-03T18:20:12.241Z] ❌ SEARCH: No match found for "Using the Name box to create a range name"
+[2025-09-03T18:20:12.241Z] ⚠️ Section title "Using the Name box to create a range name" not found within TOC pages, using whole pages
+[2025-09-03T18:20:12.241Z] 📄 TOC-ONLY: Using complete TOC pages content
+[2025-09-03T18:20:12.303Z] 📄 SIMPLE: Processing section 7/313: "Creating named ranges using the Create from Selection option." (pages 13-15)
+[2025-09-03T18:20:12.303Z] 📄 TOC-ONLY: Extracting section "Creating named ranges using the Create from Selection option." from TOC pages 13-15
+[2025-09-03T18:20:12.303Z] ✅ TOC-ONLY: Extracted 5228 chars from 3 TOC pages (13, 14, 15)
+[2025-09-03T18:20:12.303Z] 📖 TOC-ONLY: Content preview: "Chapter 19 Using the Scenario Manager for sensitivity analysis 203
+Answer to this chapter’s question...................................  203
+Remarks....................................................."
+[2025-09-03T18:20:12.304Z] 📊 TOC-ONLY: Character positions - Start: 15855, End: 21083
+[2025-09-03T18:20:12.304Z] ✅ TOC-ONLY: Extracted 5228 chars from TOC pages 13-15
+[2025-09-03T18:20:12.304Z] 🎯 TOC-SCOPED REFINEMENT: Refining "Creating named ranges using the Create from Selection option." within TOC pages 13-15
+[2025-09-03T18:20:12.304Z] 🔍 TOC-SCOPED: Searching within TOC pages text (5228 chars)
+[2025-09-03T18:20:12.304Z] 🔍 SEARCH: Looking for "Creating named ranges using the Create from Selection option." in text starting from position 0
+[2025-09-03T18:20:12.304Z] 🔍 DEBUG: text exists: true, length: 5228
+[2025-09-03T18:20:12.304Z] 🔍 DEBUG: cleanTitle type: string, value: "Creating named ranges using the Create from Selection option."
+[2025-09-03T18:20:12.305Z] 🔍 DEBUG: startFrom: 0
+[2025-09-03T18:20:12.305Z] 🔍 DEBUG: normalizedTitle after regex: "Creating named ranges using the Create from Selection option."
+[2025-09-03T18:20:12.305Z] 🔍 SEARCH: Normalized title: "Creating named ranges using the Create from Selection option."
+[2025-09-03T18:20:12.305Z] 🔍 DEBUG: Split into chars: [c, r, e, a, t, i, n, g,  , n, a, m, e, d,  , r, a, n, g, e, s,  , u, s, i, n, g,  , t, h, e,  , c, r, e, a, t, e,  , f, r, o, m,  , s, e, l, e, c, t, i, o, n,  , o, p, t, i, o, n, .]
+[2025-09-03T18:20:12.305Z] 🔍 DEBUG: Generated variations: 50
+[2025-09-03T18:20:12.305Z] 🔍 SEARCH: Generated 50 space variations
+[2025-09-03T18:20:12.306Z] ❌ SEARCH: No match found for "Creating named ranges using the Create from Selection option."
+[2025-09-03T18:20:12.306Z] ⚠️ Section title "Creating named ranges using the Create from Selection option." not found within TOC pages, using whole pages
+[2025-09-03T18:20:12.306Z] 📄 TOC-ONLY: Using complete TOC pages content
+[2025-09-03T18:20:12.359Z] 📄 SIMPLE: Processing section 8/313: "Creating range names using the Define Name option............" (pages 15-16)
+[2025-09-03T18:20:12.359Z] 📄 TOC-ONLY: Extracting section "Creating range names using the Define Name option............" from TOC pages 15-16
+[2025-09-03T18:20:12.360Z] ✅ TOC-ONLY: Extracted 3302 chars from 2 TOC pages (15, 16)
+[2025-09-03T18:20:12.360Z] 📖 TOC-ONLY: Content preview: "Chapter 34 Summarizing data with database
+statistical functions 429
+Answers to this chapter’s questions.................................. 431
+Problems.................................................."
+[2025-09-03T18:20:12.360Z] 📊 TOC-ONLY: Character positions - Start: 19364, End: 22666
+[2025-09-03T18:20:12.360Z] ✅ TOC-ONLY: Extracted 3302 chars from TOC pages 15-16
+[2025-09-03T18:20:12.360Z] 🎯 TOC-SCOPED REFINEMENT: Refining "Creating range names using the Define Name option............" within TOC pages 15-16
+[2025-09-03T18:20:12.360Z] 🔍 TOC-SCOPED: Searching within TOC pages text (3302 chars)
+[2025-09-03T18:20:12.360Z] 🔍 SEARCH: Looking for "Creating range names using the Define Name option" in text starting from position 0
+[2025-09-03T18:20:12.361Z] 🔍 DEBUG: text exists: true, length: 3302
+[2025-09-03T18:20:12.361Z] 🔍 DEBUG: cleanTitle type: string, value: "Creating range names using the Define Name option"
+[2025-09-03T18:20:12.361Z] 🔍 DEBUG: startFrom: 0
+[2025-09-03T18:20:12.361Z] 🔍 DEBUG: normalizedTitle after regex: "Creating range names using the Define Name option"
+[2025-09-03T18:20:12.361Z] 🔍 SEARCH: Normalized title: "Creating range names using the Define Name option"
+[2025-09-03T18:20:12.361Z] 🔍 DEBUG: Split into chars: [c, r, e, a, t, i, n, g,  , r, a, n, g, e,  , n, a, m, e, s,  , u, s, i, n, g,  , t, h, e,  , d, e, f, i, n, e,  , n, a, m, e,  , o, p, t, i, o, n]
+[2025-09-03T18:20:12.361Z] 🔍 DEBUG: Generated variations: 50
+[2025-09-03T18:20:12.361Z] 🔍 SEARCH: Generated 50 space variations
+[2025-09-03T18:20:12.362Z] ❌ SEARCH: No match found for "Creating range names using the Define Name option"
+[2025-09-03T18:20:12.362Z] ⚠️ Section title "Creating range names using the Define Name option" not found within TOC pages, using whole pages
+[2025-09-03T18:20:12.362Z] 📄 TOC-ONLY: Using complete TOC pages content
+[2025-09-03T18:20:12.419Z] 📄 SIMPLE: Processing section 9/313: "The Name Manager............................................" (pages 16-17)
+[2025-09-03T18:20:12.420Z] 📄 TOC-ONLY: Extracting section "The Name Manager............................................" from TOC pages 16-17
+[2025-09-03T18:20:12.420Z] ✅ TOC-ONLY: Extracted 3344 chars from 2 TOC pages (16, 17)
+[2025-09-03T18:20:12.420Z] 📖 TOC-ONLY: Content preview: "Chapter 42 Creating subtotals 577
+Answers to this chapter’s questions.................................  577
+Problems..........................................................  583
+
+
+Chapter 43 Ba..."
+[2025-09-03T18:20:12.420Z] 📊 TOC-ONLY: Character positions - Start: 21085, End: 24429
+[2025-09-03T18:20:12.420Z] ✅ TOC-ONLY: Extracted 3344 chars from TOC pages 16-17
+[2025-09-03T18:20:12.420Z] 🎯 TOC-SCOPED REFINEMENT: Refining "The Name Manager............................................" within TOC pages 16-17
+[2025-09-03T18:20:12.421Z] 🔍 TOC-SCOPED: Searching within TOC pages text (3344 chars)
+[2025-09-03T18:20:12.421Z] 🔍 SEARCH: Looking for "The Name Manager" in text starting from position 0
+[2025-09-03T18:20:12.421Z] 🔍 DEBUG: text exists: true, length: 3344
+[2025-09-03T18:20:12.421Z] 🔍 DEBUG: cleanTitle type: string, value: "The Name Manager"
+[2025-09-03T18:20:12.421Z] 🔍 DEBUG: startFrom: 0
+[2025-09-03T18:20:12.421Z] 🔍 DEBUG: normalizedTitle after regex: "The Name Manager"
+[2025-09-03T18:20:12.421Z] 🔍 SEARCH: Normalized title: "The Name Manager"
+[2025-09-03T18:20:12.421Z] 🔍 DEBUG: Split into chars: [t, h, e,  , n, a, m, e,  , m, a, n, a, g, e, r]
+[2025-09-03T18:20:12.421Z] 🔍 DEBUG: Generated variations: 42
+[2025-09-03T18:20:12.422Z] 🔍 SEARCH: Generated 42 space variations
+[2025-09-03T18:20:12.422Z] ❌ SEARCH: No match found for "The Name Manager"
+[2025-09-03T18:20:12.422Z] ⚠️ Section title "The Name Manager" not found within TOC pages, using whole pages
+[2025-09-03T18:20:12.422Z] 📄 TOC-ONLY: Using complete TOC pages content
+[2025-09-03T18:20:12.475Z] 📄 SIMPLE: Processing section 10/313: "Answers to this chapter’s questions.................................." (pages 17-23)
+[2025-09-03T18:20:12.475Z] 📄 TOC-ONLY: Extracting section "Answers to this chapter’s questions.................................." from TOC pages 17-23
+[2025-09-03T18:20:12.475Z] ✅ TOC-ONLY: Extracted 10638 chars from 7 TOC pages (17, 18, 19, 20, 21, 22, 23)
+[2025-09-03T18:20:12.475Z] 📖 TOC-ONLY: Content preview: "Chapter 50 Using correlations to summarize relationships 689
+Answers to this chapter’s questions.................................. 691
+Problems.........................................................."
+[2025-09-03T18:20:12.476Z] 📊 TOC-ONLY: Character positions - Start: 22668, End: 33306
+[2025-09-03T18:20:12.476Z] ✅ TOC-ONLY: Extracted 10638 chars from TOC pages 17-23
+[2025-09-03T18:20:12.476Z] 🎯 TOC-SCOPED REFINEMENT: Refining "Answers to this chapter’s questions.................................." within TOC pages 17-23
+[2025-09-03T18:20:12.476Z] 🔍 TOC-SCOPED: Searching within TOC pages text (10638 chars)
+[2025-09-03T18:20:12.476Z] 🔍 SEARCH: Looking for "Answers to this chapter’s questions" in text starting from position 0
+[2025-09-03T18:20:12.476Z] 🔍 DEBUG: text exists: true, length: 10638
+[2025-09-03T18:20:12.476Z] 🔍 DEBUG: cleanTitle type: string, value: "Answers to this chapter’s questions"
+[2025-09-03T18:20:12.477Z] 🔍 DEBUG: startFrom: 0
+[2025-09-03T18:20:12.477Z] 🔍 DEBUG: normalizedTitle after regex: "Answers to this chapter’s questions"
+[2025-09-03T18:20:12.477Z] 🔍 SEARCH: Normalized title: "Answers to this chapter’s questions"
+[2025-09-03T18:20:12.477Z] ✅ SEARCH: Found exact match at position 62
+[2025-09-03T18:20:12.477Z] ✅ TOC-SCOPED: Found section start at position 62 within TOC pages
+[2025-09-03T18:20:12.477Z] 🔍 SEARCH: Looking for "Remarks" in text starting from position 112
+[2025-09-03T18:20:12.477Z] 🔍 DEBUG: text exists: true, length: 10638
+[2025-09-03T18:20:12.477Z] 🔍 DEBUG: cleanTitle type: string, value: "Remarks"
+[2025-09-03T18:20:12.478Z] 🔍 DEBUG: startFrom: 112
+[2025-09-03T18:20:12.478Z] 🔍 DEBUG: normalizedTitle after regex: "Remarks"
+[2025-09-03T18:20:12.478Z] 🔍 SEARCH: Normalized title: "Remarks"
+[2025-09-03T18:20:12.478Z] ✅ SEARCH: Found exact match at position 3187
+[2025-09-03T18:20:12.478Z] ✅ TOC-SCOPED: Found next section "Remarks" at position 3187 within TOC pages
+[2025-09-03T18:20:12.478Z] ✅ TOC-SCOPED REFINEMENT: Successfully refined - 3123 chars within TOC pages 17-23
+[2025-09-03T18:20:12.478Z] 🎯 TOC-SCOPED: Refined section within TOC pages (3123 chars)
+[2025-09-03T18:20:12.533Z] 📄 SIMPLE: Processing section 11/313: "Remarks............................................................." (pages 23-23)
+[2025-09-03T18:20:12.533Z] 📄 TOC-ONLY: Extracting section "Remarks............................................................." from TOC pages 23-23
+[2025-09-03T18:20:12.533Z] ✅ TOC-ONLY: Extracted 34 chars from 1 TOC pages (23)
+[2025-09-03T18:20:12.533Z] 📖 TOC-ONLY: Content preview: "This page intentionally left blank..."
+[2025-09-03T18:20:12.533Z] 📊 TOC-ONLY: Character positions - Start: 33272, End: 33306
+[2025-09-03T18:20:12.533Z] ⚠️ Section "Remarks............................................................." has insufficient content (34 chars), skipping
+[2025-09-03T18:20:12.534Z] 📄 SIMPLE: Processing section 12/313: "Problems............................................................" (pages 23-25)
+[2025-09-03T18:20:12.534Z] 📄 TOC-ONLY: Extracting section "Problems............................................................" from TOC pages 23-25
+[2025-09-03T18:20:12.534Z] ✅ TOC-ONLY: Extracted 651 chars from 3 TOC pages (23, 24, 25)
+[2025-09-03T18:20:12.534Z] 📖 TOC-ONLY: Content preview: "This page intentionally left blank
+
+About the Author
+Wayne L. Winston is Professor Emeritus of Decision
+Sciences at the Indiana University School of Business. He has
+also taught at the University o..."
+[2025-09-03T18:20:12.534Z] 📊 TOC-ONLY: Character positions - Start: 33272, End: 33923
+[2025-09-03T18:20:12.534Z] ✅ TOC-ONLY: Extracted 651 chars from TOC pages 23-25
+[2025-09-03T18:20:12.534Z] 🎯 TOC-SCOPED REFINEMENT: Refining "Problems............................................................" within TOC pages 23-25
+[2025-09-03T18:20:12.535Z] 🔍 TOC-SCOPED: Searching within TOC pages text (651 chars)
+[2025-09-03T18:20:12.535Z] 🔍 SEARCH: Looking for "Problems" in text starting from position 0
+[2025-09-03T18:20:12.535Z] 🔍 DEBUG: text exists: true, length: 651
+[2025-09-03T18:20:12.535Z] 🔍 DEBUG: cleanTitle type: string, value: "Problems"
+[2025-09-03T18:20:12.535Z] 🔍 DEBUG: startFrom: 0
+[2025-09-03T18:20:12.535Z] 🔍 DEBUG: normalizedTitle after regex: "Problems"
+[2025-09-03T18:20:12.535Z] 🔍 SEARCH: Normalized title: "Problems"
+[2025-09-03T18:20:12.535Z] 🔍 DEBUG: Split into chars: [p, r, o, b, l, e, m, s]
+[2025-09-03T18:20:12.535Z] 🔍 DEBUG: Generated variations: 26
+[2025-09-03T18:20:12.536Z] 🔍 SEARCH: Generated 26 space variations
+[2025-09-03T18:20:12.536Z] ❌ SEARCH: No match found for "Problems"
+[2025-09-03T18:20:12.536Z] ⚠️ Section title "Problems" not found within TOC pages, using whole pages
+[2025-09-03T18:20:12.536Z] 📄 TOC-ONLY: Using complete TOC pages content
+[2025-09-03T18:20:12.590Z] 📄 SIMPLE: Processing section 13/313: "Chapter 3 Lookup functions" (pages 25-39)
+[2025-09-03T18:20:12.590Z] 📄 TOC-ONLY: Extracting section "Chapter 3 Lookup functions" from TOC pages 25-39
+[2025-09-03T18:20:12.590Z] ✅ TOC-ONLY: Extracted 32562 chars from 15 TOC pages (25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39)
+[2025-09-03T18:20:12.590Z] 📖 TOC-ONLY: Content preview: "This page intentionally left blank
+
+Introduction
+
+W hether you work for a Fortune 500 corporation, a small company, a government
+agency, or a not-for-profit organization, if you’re reading this int..."
+[2025-09-03T18:20:12.591Z] 📊 TOC-ONLY: Character positions - Start: 33889, End: 66451
+[2025-09-03T18:20:12.591Z] ✅ TOC-ONLY: Extracted 32562 chars from TOC pages 25-39
+[2025-09-03T18:20:12.591Z] 🎯 TOC-SCOPED REFINEMENT: Refining "Chapter 3 Lookup functions" within TOC pages 25-39
+[2025-09-03T18:20:12.591Z] 🔍 TOC-SCOPED: Searching within TOC pages text (32562 chars)
+[2025-09-03T18:20:12.591Z] 🔍 SEARCH: Looking for "Chapter 3 Lookup functions" in text starting from position 0
+[2025-09-03T18:20:12.591Z] 🔍 DEBUG: text exists: true, length: 32562
+[2025-09-03T18:20:12.591Z] 🔍 DEBUG: cleanTitle type: string, value: "Chapter 3 Lookup functions"
+[2025-09-03T18:20:12.591Z] 🔍 DEBUG: startFrom: 0
+[2025-09-03T18:20:12.592Z] 🔍 DEBUG: normalizedTitle after regex: "Chapter 3 Lookup functions"
+[2025-09-03T18:20:12.592Z] 🔍 SEARCH: Normalized title: "Chapter 3 Lookup functions"
+[2025-09-03T18:20:12.592Z] 🔍 DEBUG: Split into chars: [c, h, a, p, t, e, r,  , 3,  , l, o, o, k, u, p,  , f, u, n, c, t, i, o, n, s]
+[2025-09-03T18:20:12.592Z] 🔍 DEBUG: Generated variations: 50
+[2025-09-03T18:20:12.592Z] 🔍 SEARCH: Generated 50 space variations
+[2025-09-03T18:20:12.593Z] ❌ SEARCH: No match found for "Chapter 3 Lookup functions"
+[2025-09-03T18:20:12.593Z] ⚠️ Section title "Chapter 3 Lookup functions" not found within TOC pages, using whole pages
+[2025-09-03T18:20:12.593Z] 📄 TOC-ONLY: Using complete TOC pages content
+[2025-09-03T18:20:12.593Z] 📄 Splitting section "Chapter 3 Lookup functions" (32562 chars) for embedding
+[2025-09-03T18:20:12.594Z] 📄 Split "Chapter 3 Lookup functions" into 4 embedding-safe parts
+[2025-09-03T18:20:12.594Z] 📄 Split section "Chapter 3 Lookup functions" into 4 parts for embedding
+[2025-09-03T18:20:12.648Z] 📄 SIMPLE: Processing section 14/313: "Syntax of the lookup functions................................" (pages 25-25)
+[2025-09-03T18:20:12.648Z] 📄 TOC-ONLY: Extracting section "Syntax of the lookup functions................................" from TOC pages 25-25
+[2025-09-03T18:20:12.648Z] ✅ TOC-ONLY: Extracted 34 chars from 1 TOC pages (25)
+[2025-09-03T18:20:12.648Z] 📖 TOC-ONLY: Content preview: "This page intentionally left blank..."
+[2025-09-03T18:20:12.649Z] 📊 TOC-ONLY: Character positions - Start: 33889, End: 33923
+[2025-09-03T18:20:12.649Z] ⚠️ Section "Syntax of the lookup functions................................" has insufficient content (34 chars), skipping
+[2025-09-03T18:20:12.649Z] 📄 SIMPLE: Processing section 15/313: "VLOOKUP syntax..............................................." (pages 25-26)
+[2025-09-03T18:20:12.649Z] 📄 TOC-ONLY: Extracting section "VLOOKUP syntax..............................................." from TOC pages 25-26
+[2025-09-03T18:20:12.649Z] ✅ TOC-ONLY: Extracted 2749 chars from 2 TOC pages (25, 26)
+[2025-09-03T18:20:12.649Z] 📖 TOC-ONLY: Content preview: "This page intentionally left blank
+
+Introduction
+
+W hether you work for a Fortune 500 corporation, a small company, a government
+agency, or a not-for-profit organization, if you’re reading this int..."
+[2025-09-03T18:20:12.650Z] 📊 TOC-ONLY: Character positions - Start: 33889, End: 36638
+[2025-09-03T18:20:12.650Z] ✅ TOC-ONLY: Extracted 2749 chars from TOC pages 25-26
+[2025-09-03T18:20:12.650Z] 🎯 TOC-SCOPED REFINEMENT: Refining "VLOOKUP syntax..............................................." within TOC pages 25-26
+[2025-09-03T18:20:12.650Z] 🔍 TOC-SCOPED: Searching within TOC pages text (2749 chars)
+[2025-09-03T18:20:12.650Z] 🔍 SEARCH: Looking for "VLOOKUP syntax" in text starting from position 0
+[2025-09-03T18:20:12.650Z] 🔍 DEBUG: text exists: true, length: 2749
+[2025-09-03T18:20:12.651Z] 🔍 DEBUG: cleanTitle type: string, value: "VLOOKUP syntax"
+[2025-09-03T18:20:12.651Z] 🔍 DEBUG: startFrom: 0
+[2025-09-03T18:20:12.651Z] 🔍 DEBUG: normalizedTitle after regex: "VLOOKUP syntax"
+[2025-09-03T18:20:12.651Z] 🔍 SEARCH: Normalized title: "VLOOKUP syntax"
+[2025-09-03T18:20:12.651Z] 🔍 DEBUG: Split into chars: [v, l, o, o, k, u, p,  , s, y, n, t, a, x]
+[2025-09-03T18:20:12.651Z] 🔍 DEBUG: Generated variations: 38
+[2025-09-03T18:20:12.651Z] 🔍 SEARCH: Generated 38 space variations
+[2025-09-03T18:20:12.652Z] ❌ SEARCH: No match found for "VLOOKUP syntax"
+[2025-09-03T18:20:12.652Z] ⚠️ Section title "VLOOKUP syntax" not found within TOC pages, using whole pages
+[2025-09-03T18:20:12.652Z] 📄 TOC-ONLY: Using complete TOC pages content
+[2025-09-03T18:20:12.706Z] 📄 SIMPLE: Processing section 16/313: "HLOOKUP syntax.............................................." (pages 26-26)
+[2025-09-03T18:20:12.706Z] 📄 TOC-ONLY: Extracting section "HLOOKUP syntax.............................................." from TOC pages 26-26
+[2025-09-03T18:20:12.706Z] ✅ TOC-ONLY: Extracted 2713 chars from 1 TOC pages (26)
+[2025-09-03T18:20:12.706Z] 📖 TOC-ONLY: Content preview: "Introduction
+
+W hether you work for a Fortune 500 corporation, a small company, a government
+agency, or a not-for-profit organization, if you’re reading this introduction, the
+chances are you use ..."
+[2025-09-03T18:20:12.707Z] 📊 TOC-ONLY: Character positions - Start: 33925, End: 36638
+[2025-09-03T18:20:12.707Z] ✅ TOC-ONLY: Extracted 2713 chars from TOC pages 26-26
+[2025-09-03T18:20:12.707Z] 🎯 TOC-SCOPED REFINEMENT: Refining "HLOOKUP syntax.............................................." within TOC pages 26-26
+[2025-09-03T18:20:12.707Z] 🔍 TOC-SCOPED: Searching within TOC pages text (2713 chars)
+[2025-09-03T18:20:12.707Z] 🔍 SEARCH: Looking for "HLOOKUP syntax" in text starting from position 0
+[2025-09-03T18:20:12.707Z] 🔍 DEBUG: text exists: true, length: 2713
+[2025-09-03T18:20:12.707Z] 🔍 DEBUG: cleanTitle type: string, value: "HLOOKUP syntax"
+[2025-09-03T18:20:12.707Z] 🔍 DEBUG: startFrom: 0
+[2025-09-03T18:20:12.708Z] 🔍 DEBUG: normalizedTitle after regex: "HLOOKUP syntax"
+[2025-09-03T18:20:12.708Z] 🔍 SEARCH: Normalized title: "HLOOKUP syntax"
+[2025-09-03T18:20:12.708Z] 🔍 DEBUG: Split into chars: [h, l, o, o, k, u, p,  , s, y, n, t, a, x]
+[2025-09-03T18:20:12.708Z] 🔍 DEBUG: Generated variations: 37
+[2025-09-03T18:20:12.708Z] 🔍 SEARCH: Generated 37 space variations
+[2025-09-03T18:20:12.708Z] ❌ SEARCH: No match found for "HLOOKUP syntax"
+[2025-09-03T18:20:12.708Z] ⚠️ Section title "HLOOKUP syntax" not found within TOC pages, using whole pages
+[2025-09-03T18:20:12.709Z] 📄 TOC-ONLY: Using complete TOC pages content
+[2025-09-03T18:20:12.763Z] 📄 SIMPLE: Processing section 17/313: "XLOOKUP syntax.............................................." (pages 26-27)
+[2025-09-03T18:20:12.763Z] 📄 TOC-ONLY: Extracting section "XLOOKUP syntax.............................................." from TOC pages 26-27
+[2025-09-03T18:20:12.763Z] ✅ TOC-ONLY: Extracted 5536 chars from 2 TOC pages (26, 27)
+[2025-09-03T18:20:12.763Z] 📖 TOC-ONLY: Content preview: "Introduction
+
+W hether you work for a Fortune 500 corporation, a small company, a government
+agency, or a not-for-profit organization, if you’re reading this introduction, the
+chances are you use ..."
+[2025-09-03T18:20:12.764Z] 📊 TOC-ONLY: Character positions - Start: 33925, End: 39461
+[2025-09-03T18:20:12.764Z] ✅ TOC-ONLY: Extracted 5536 chars from TOC pages 26-27
+[2025-09-03T18:20:12.764Z] 🎯 TOC-SCOPED REFINEMENT: Refining "XLOOKUP syntax.............................................." within TOC pages 26-27
+[2025-09-03T18:20:12.764Z] 🔍 TOC-SCOPED: Searching within TOC pages text (5536 chars)
+[2025-09-03T18:20:12.764Z] 🔍 SEARCH: Looking for "XLOOKUP syntax" in text starting from position 0
+[2025-09-03T18:20:12.764Z] 🔍 DEBUG: text exists: true, length: 5536
+[2025-09-03T18:20:12.764Z] 🔍 DEBUG: cleanTitle type: string, value: "XLOOKUP syntax"
+[2025-09-03T18:20:12.765Z] 🔍 DEBUG: startFrom: 0
+[2025-09-03T18:20:12.765Z] 🔍 DEBUG: normalizedTitle after regex: "XLOOKUP syntax"
+[2025-09-03T18:20:12.765Z] 🔍 SEARCH: Normalized title: "XLOOKUP syntax"
+[2025-09-03T18:20:12.765Z] 🔍 DEBUG: Split into chars: [x, l, o, o, k, u, p,  , s, y, n, t, a, x]
+[2025-09-03T18:20:12.765Z] 🔍 DEBUG: Generated variations: 38
+[2025-09-03T18:20:12.765Z] 🔍 SEARCH: Generated 38 space variations
+[2025-09-03T18:20:12.766Z] ❌ SEARCH: No match found for "XLOOKUP syntax"
+[2025-09-03T18:20:12.766Z] ⚠️ Section title "XLOOKUP syntax" not found within TOC pages, using whole pages
+[2025-09-03T18:20:12.766Z] 📄 TOC-ONLY: Using complete TOC pages content
+[2025-09-03T18:20:12.819Z] 📄 SIMPLE: Processing section 18/313: "Answers to this chapter’s questions..................................." (pages 27-35)
+[2025-09-03T18:20:12.819Z] 📄 TOC-ONLY: Extracting section "Answers to this chapter’s questions..................................." from TOC pages 27-35
+[2025-09-03T18:20:12.820Z] ✅ TOC-ONLY: Extracted 18314 chars from 9 TOC pages (27, 28, 29, 30, 31, 32, 33, 34, 35)
+[2025-09-03T18:20:12.820Z] 📖 TOC-ONLY: Content preview: "■■ I’ve written the book as though I am talking to the reader. I hope this approach
+transfers the spirit of a successful classroom environment to the written page.
+
+■■ I teach by example, which mak..."
+[2025-09-03T18:20:12.820Z] 📊 TOC-ONLY: Character positions - Start: 36640, End: 54954
+[2025-09-03T18:20:12.820Z] ✅ TOC-ONLY: Extracted 18314 chars from TOC pages 27-35
+[2025-09-03T18:20:12.820Z] 🎯 TOC-SCOPED REFINEMENT: Refining "Answers to this chapter’s questions..................................." within TOC pages 27-35
+[2025-09-03T18:20:12.820Z] 🔍 TOC-SCOPED: Searching within TOC pages text (18314 chars)
+[2025-09-03T18:20:12.821Z] 🔍 SEARCH: Looking for "Answers to this chapter’s questions" in text starting from position 0
+[2025-09-03T18:20:12.821Z] 🔍 DEBUG: text exists: true, length: 18314
+[2025-09-03T18:20:12.821Z] 🔍 DEBUG: cleanTitle type: string, value: "Answers to this chapter’s questions"
+[2025-09-03T18:20:12.821Z] 🔍 DEBUG: startFrom: 0
+[2025-09-03T18:20:12.821Z] 🔍 DEBUG: normalizedTitle after regex: "Answers to this chapter’s questions"
+[2025-09-03T18:20:12.821Z] 🔍 SEARCH: Normalized title: "Answers to this chapter’s questions"
+[2025-09-03T18:20:12.821Z] ✅ SEARCH: Found exact match at position 11440
+[2025-09-03T18:20:12.821Z] ✅ TOC-SCOPED: Found section start at position 11440 within TOC pages
+[2025-09-03T18:20:12.821Z] 🔍 SEARCH: Looking for "Problems" in text starting from position 11490
+[2025-09-03T18:20:12.822Z] 🔍 DEBUG: text exists: true, length: 18314
+[2025-09-03T18:20:12.822Z] 🔍 DEBUG: cleanTitle type: string, value: "Problems"
+[2025-09-03T18:20:12.822Z] 🔍 DEBUG: startFrom: 11490
+[2025-09-03T18:20:12.822Z] 🔍 DEBUG: normalizedTitle after regex: "Problems"
+[2025-09-03T18:20:12.822Z] 🔍 SEARCH: Normalized title: "Problems"
+[2025-09-03T18:20:12.822Z] ✅ SEARCH: Found exact match at position 14544
+[2025-09-03T18:20:12.822Z] ✅ TOC-SCOPED: Found next section "Problems" at position 14544 within TOC pages
+[2025-09-03T18:20:12.822Z] ✅ TOC-SCOPED REFINEMENT: Successfully refined - 3096 chars within TOC pages 27-35
+[2025-09-03T18:20:12.822Z] 🎯 TOC-SCOPED: Refined section within TOC pages (3096 chars)
+[2025-09-03T18:20:12.876Z] 📄 SIMPLE: Processing section 19/313: "Problems............................................................" (pages 35-39)
+[2025-09-03T18:20:12.877Z] 📄 TOC-ONLY: Extracting section "Problems............................................................" from TOC pages 35-39
+[2025-09-03T18:20:12.877Z] ✅ TOC-ONLY: Extracted 13912 chars from 5 TOC pages (35, 36, 37, 38, 39)
+[2025-09-03T18:20:12.877Z] 📖 TOC-ONLY: Content preview: "Index
+
+
+Symbols 80–20 rule, 374
+95 percent confidence interval, for mean profit, 914
+& (ampersand), 54, 212
+95 percent service level, 982–985
+* (asterisk), 31, 212, 443
+[ ] (brackets), 25
+^ (..."
+[2025-09-03T18:20:12.877Z] 📊 TOC-ONLY: Character positions - Start: 52539, End: 66451
+[2025-09-03T18:20:12.878Z] ✅ TOC-ONLY: Extracted 13912 chars from TOC pages 35-39
+[2025-09-03T18:20:12.878Z] 🎯 TOC-SCOPED REFINEMENT: Refining "Problems............................................................" within TOC pages 35-39
+[2025-09-03T18:20:12.878Z] 🔍 TOC-SCOPED: Searching within TOC pages text (13912 chars)
+[2025-09-03T18:20:12.878Z] 🔍 SEARCH: Looking for "Problems" in text starting from position 0
+[2025-09-03T18:20:12.878Z] 🔍 DEBUG: text exists: true, length: 13912
+[2025-09-03T18:20:12.878Z] 🔍 DEBUG: cleanTitle type: string, value: "Problems"
+[2025-09-03T18:20:12.878Z] 🔍 DEBUG: startFrom: 0
+[2025-09-03T18:20:12.878Z] 🔍 DEBUG: normalizedTitle after regex: "Problems"
+[2025-09-03T18:20:12.879Z] 🔍 SEARCH: Normalized title: "Problems"
+[2025-09-03T18:20:12.879Z] ✅ SEARCH: Found exact match at position 2206
+[2025-09-03T18:20:12.879Z] ✅ TOC-SCOPED: Found section start at position 2206 within TOC pages
+[2025-09-03T18:20:12.879Z] 🔍 SEARCH: Looking for "Chapter 4 The INDEX function" in text starting from position 2256
+[2025-09-03T18:20:12.879Z] 🔍 DEBUG: text exists: true, length: 13912
+[2025-09-03T18:20:12.879Z] 🔍 DEBUG: cleanTitle type: string, value: "Chapter 4 The INDEX function"
+[2025-09-03T18:20:12.879Z] 🔍 DEBUG: startFrom: 2256
+[2025-09-03T18:20:12.880Z] 🔍 DEBUG: normalizedTitle after regex: "Chapter 4 The INDEX function"
+[2025-09-03T18:20:12.880Z] 🔍 SEARCH: Normalized title: "Chapter 4 The INDEX function"
+[2025-09-03T18:20:12.880Z] 🔍 DEBUG: Split into chars: [c, h, a, p, t, e, r,  , 4,  , t, h, e,  , i, n, d, e, x,  , f, u, n, c, t, i, o, n]
+[2025-09-03T18:20:12.880Z] 🔍 DEBUG: Generated variations: 50
+[2025-09-03T18:20:12.880Z] 🔍 SEARCH: Generated 50 space variations
+[2025-09-03T18:20:12.881Z] ❌ SEARCH: No match found for "Chapter 4 The INDEX function"
+[2025-09-03T18:20:12.881Z] ✅ TOC-SCOPED REFINEMENT: Successfully refined - 11706 chars within TOC pages 35-39
+[2025-09-03T18:20:12.881Z] 🎯 TOC-SCOPED: Refined section within TOC pages (11706 chars)
+[2025-09-03T18:20:12.882Z] 📄 Splitting section "Problems............................................................" (11706 chars) for embedding
+[2025-09-03T18:20:12.882Z] 📄 Split "Problems............................................................" into 2 embedding-safe parts
+[2025-09-03T18:20:12.882Z] 📄 Split section "Problems............................................................" into 2 parts for embedding
+[2025-09-03T18:20:12.936Z] 📄 SIMPLE: Processing section 20/313: "Chapter 4 The INDEX function" (pages 39-43)
+[2025-09-03T18:20:12.936Z] 📄 TOC-ONLY: Extracting section "Chapter 4 The INDEX function" from TOC pages 39-43
+[2025-09-03T18:20:12.936Z] ✅ TOC-ONLY: Extracted 14255 chars from 5 TOC pages (39, 40, 41, 42, 43)
+[2025-09-03T18:20:12.936Z] 📖 TOC-ONLY: Content preview: "cells
+
+
+dependent variables, 665–666 problems for, 842–844
+Format Trendline options, 666–667 software project selection problem, 837–840
+independent variables, 665–666 Capitalizefirstletter. xlsx..."
+[2025-09-03T18:20:12.936Z] 📊 TOC-ONLY: Character positions - Start: 63586, End: 77841
+[2025-09-03T18:20:12.937Z] ✅ TOC-ONLY: Extracted 14255 chars from TOC pages 39-43
+[2025-09-03T18:20:12.937Z] 🎯 TOC-SCOPED REFINEMENT: Refining "Chapter 4 The INDEX function" within TOC pages 39-43
+[2025-09-03T18:20:12.937Z] 🔍 TOC-SCOPED: Searching within TOC pages text (14255 chars)
+[2025-09-03T18:20:12.937Z] 🔍 SEARCH: Looking for "Chapter 4 The INDEX function" in text starting from position 0
+[2025-09-03T18:20:12.937Z] 🔍 DEBUG: text exists: true, length: 14255
+[2025-09-03T18:20:12.937Z] 🔍 DEBUG: cleanTitle type: string, value: "Chapter 4 The INDEX function"
+[2025-09-03T18:20:12.937Z] 🔍 DEBUG: startFrom: 0
+[2025-09-03T18:20:12.937Z] 🔍 DEBUG: normalizedTitle after regex: "Chapter 4 The INDEX function"
+[2025-09-03T18:20:12.937Z] 🔍 SEARCH: Normalized title: "Chapter 4 The INDEX function"
+[2025-09-03T18:20:12.938Z] 🔍 DEBUG: Split into chars: [c, h, a, p, t, e, r,  , 4,  , t, h, e,  , i, n, d, e, x,  , f, u, n, c, t, i, o, n]
+[2025-09-03T18:20:12.938Z] 🔍 DEBUG: Generated variations: 50
+[2025-09-03T18:20:12.938Z] 🔍 SEARCH: Generated 50 space variations
+[2025-09-03T18:20:12.938Z] ❌ SEARCH: No match found for "Chapter 4 The INDEX function"
+[2025-09-03T18:20:12.938Z] ⚠️ Section title "Chapter 4 The INDEX function" not found within TOC pages, using whole pages
+[2025-09-03T18:20:12.939Z] 📄 TOC-ONLY: Using complete TOC pages content
+[2025-09-03T18:20:12.939Z] 📄 Splitting section "Chapter 4 The INDEX function" (14255 chars) for embedding
+[2025-09-03T18:20:12.939Z] 📄 Split "Chapter 4 The INDEX function" into 2 embedding-safe parts
+[2025-09-03T18:20:12.939Z] 📄 Split section "Chapter 4 The INDEX function" into 2 parts for embedding
+[2025-09-03T18:20:12.992Z] 📄 SIMPLE: Processing section 21/313: "Syntax of the INDEX function........................................." (pages 39-39)
+[2025-09-03T18:20:12.992Z] 📄 TOC-ONLY: Extracting section "Syntax of the INDEX function........................................." from TOC pages 39-39
+[2025-09-03T18:20:12.993Z] ✅ TOC-ONLY: Extracted 2865 chars from 1 TOC pages (39)
+[2025-09-03T18:20:12.993Z] 📖 TOC-ONLY: Content preview: "cells
+
+
+dependent variables, 665–666 problems for, 842–844
+Format Trendline options, 666–667 software project selection problem, 837–840
+independent variables, 665–666 Capitalizefirstletter. xlsx..."
+[2025-09-03T18:20:12.993Z] 📊 TOC-ONLY: Character positions - Start: 63586, End: 66451
+[2025-09-03T18:20:12.993Z] ✅ TOC-ONLY: Extracted 2865 chars from TOC pages 39-39
+[2025-09-03T18:20:12.993Z] 🎯 TOC-SCOPED REFINEMENT: Refining "Syntax of the INDEX function........................................." within TOC pages 39-39
+[2025-09-03T18:20:12.993Z] 🔍 TOC-SCOPED: Searching within TOC pages text (2865 chars)
+[2025-09-03T18:20:12.994Z] 🔍 SEARCH: Looking for "Syntax of the INDEX function" in text starting from position 0
+[2025-09-03T18:20:12.994Z] 🔍 DEBUG: text exists: true, length: 2865
+[2025-09-03T18:20:12.994Z] 🔍 DEBUG: cleanTitle type: string, value: "Syntax of the INDEX function"
+[2025-09-03T18:20:12.994Z] 🔍 DEBUG: startFrom: 0
+[2025-09-03T18:20:12.994Z] 🔍 DEBUG: normalizedTitle after regex: "Syntax of the INDEX function"
+[2025-09-03T18:20:12.994Z] 🔍 SEARCH: Normalized title: "Syntax of the INDEX function"
+[2025-09-03T18:20:12.994Z] 🔍 DEBUG: Split into chars: [s, y, n, t, a, x,  , o, f,  , t, h, e,  , i, n, d, e, x,  , f, u, n, c, t, i, o, n]
+[2025-09-03T18:20:12.995Z] 🔍 DEBUG: Generated variations: 50
+[2025-09-03T18:20:12.995Z] 🔍 SEARCH: Generated 50 space variations
+[2025-09-03T18:20:12.995Z] ❌ SEARCH: No match found for "Syntax of the INDEX function"
+[2025-09-03T18:20:12.995Z] ⚠️ Section title "Syntax of the INDEX function" not found within TOC pages, using whole pages
+[2025-09-03T18:20:12.995Z] 📄 TOC-ONLY: Using complete TOC pages content
+[2025-09-03T18:20:13.049Z] 📄 SIMPLE: Processing section 22/313: "Answers to this chapter’s questions.................................." (pages 39-41)
+[2025-09-03T18:20:13.049Z] 📄 TOC-ONLY: Extracting section "Answers to this chapter’s questions.................................." from TOC pages 39-41
+[2025-09-03T18:20:13.049Z] ✅ TOC-ONLY: Extracted 8428 chars from 3 TOC pages (39, 40, 41)
+[2025-09-03T18:20:13.050Z] 📖 TOC-ONLY: Content preview: "cells
+
+
+dependent variables, 665–666 problems for, 842–844
+Format Trendline options, 666–667 software project selection problem, 837–840
+independent variables, 665–666 Capitalizefirstletter. xlsx..."
+[2025-09-03T18:20:13.050Z] 📊 TOC-ONLY: Character positions - Start: 63586, End: 72014
+[2025-09-03T18:20:13.050Z] ✅ TOC-ONLY: Extracted 8428 chars from TOC pages 39-41
+[2025-09-03T18:20:13.050Z] 🎯 TOC-SCOPED REFINEMENT: Refining "Answers to this chapter’s questions.................................." within TOC pages 39-41
+[2025-09-03T18:20:13.050Z] 🔍 TOC-SCOPED: Searching within TOC pages text (8428 chars)
+[2025-09-03T18:20:13.050Z] 🔍 SEARCH: Looking for "Answers to this chapter’s questions" in text starting from position 0
+[2025-09-03T18:20:13.050Z] 🔍 DEBUG: text exists: true, length: 8428
+[2025-09-03T18:20:13.050Z] 🔍 DEBUG: cleanTitle type: string, value: "Answers to this chapter’s questions"
+[2025-09-03T18:20:13.051Z] 🔍 DEBUG: startFrom: 0
+[2025-09-03T18:20:13.051Z] 🔍 DEBUG: normalizedTitle after regex: "Answers to this chapter’s questions"
+[2025-09-03T18:20:13.051Z] 🔍 SEARCH: Normalized title: "Answers to this chapter’s questions"
+[2025-09-03T18:20:13.051Z] 🔍 DEBUG: Split into chars: [a, n, s, w, e, r, s,  , t, o,  , t, h, i, s,  , c, h, a, p, t, e, r, ’, s,  , q, u, e, s, t, i, o, n, s]
+[2025-09-03T18:20:13.051Z] 🔍 DEBUG: Generated variations: 50
+[2025-09-03T18:20:13.051Z] 🔍 SEARCH: Generated 50 space variations
+[2025-09-03T18:20:13.052Z] ❌ SEARCH: No match found for "Answers to this chapter’s questions"
+[2025-09-03T18:20:13.052Z] ⚠️ Section title "Answers to this chapter’s questions" not found within TOC pages, using whole pages
+[2025-09-03T18:20:13.052Z] 📄 TOC-ONLY: Using complete TOC pages content
+[2025-09-03T18:20:13.105Z] 📄 SIMPLE: Processing section 23/313: "Problems............................................................" (pages 41-43)
+[2025-09-03T18:20:13.105Z] 📄 TOC-ONLY: Extracting section "Problems............................................................" from TOC pages 41-43
+[2025-09-03T18:20:13.105Z] ✅ TOC-ONLY: Extracted 8723 chars from 3 TOC pages (41, 42, 43)
+[2025-09-03T18:20:13.106Z] 📖 TOC-ONLY: Content preview: "Companydata. xlsx file
+
+
+PivotCharts, 498–499, 529–531 Coke/Pepsi preference example, 771
+problems for, 614–615, 641–642 collapsing PivotTable fields, 492–493
+radar, 607–608 Collegedata. xlsx fil..."
+[2025-09-03T18:20:13.106Z] 📊 TOC-ONLY: Character positions - Start: 69118, End: 77841
+[2025-09-03T18:20:13.106Z] ✅ TOC-ONLY: Extracted 8723 chars from TOC pages 41-43
+[2025-09-03T18:20:13.106Z] 🎯 TOC-SCOPED REFINEMENT: Refining "Problems............................................................" within TOC pages 41-43
+[2025-09-03T18:20:13.106Z] 🔍 TOC-SCOPED: Searching within TOC pages text (8723 chars)
+[2025-09-03T18:20:13.106Z] 🔍 SEARCH: Looking for "Problems" in text starting from position 0
+[2025-09-03T18:20:13.106Z] 🔍 DEBUG: text exists: true, length: 8723
+[2025-09-03T18:20:13.106Z] 🔍 DEBUG: cleanTitle type: string, value: "Problems"
+[2025-09-03T18:20:13.107Z] 🔍 DEBUG: startFrom: 0
+[2025-09-03T18:20:13.107Z] 🔍 DEBUG: normalizedTitle after regex: "Problems"
+[2025-09-03T18:20:13.107Z] 🔍 SEARCH: Normalized title: "Problems"
+[2025-09-03T18:20:13.107Z] ✅ SEARCH: Found exact match at position 94
+[2025-09-03T18:20:13.107Z] ✅ TOC-SCOPED: Found section start at position 94 within TOC pages
+[2025-09-03T18:20:13.107Z] 🔍 SEARCH: Looking for "Chapter 5 The MATCH function" in text starting from position 144
+[2025-09-03T18:20:13.107Z] 🔍 DEBUG: text exists: true, length: 8723
+[2025-09-03T18:20:13.107Z] 🔍 DEBUG: cleanTitle type: string, value: "Chapter 5 The MATCH function"
+[2025-09-03T18:20:13.107Z] 🔍 DEBUG: startFrom: 144
+[2025-09-03T18:20:13.107Z] 🔍 DEBUG: normalizedTitle after regex: "Chapter 5 The MATCH function"
+[2025-09-03T18:20:13.108Z] 🔍 SEARCH: Normalized title: "Chapter 5 The MATCH function"
+[2025-09-03T18:20:13.108Z] 🔍 DEBUG: Split into chars: [c, h, a, p, t, e, r,  , 5,  , t, h, e,  , m, a, t, c, h,  , f, u, n, c, t, i, o, n]
+[2025-09-03T18:20:13.108Z] 🔍 DEBUG: Generated variations: 50
+[2025-09-03T18:20:13.108Z] 🔍 SEARCH: Generated 50 space variations
+[2025-09-03T18:20:13.108Z] ❌ SEARCH: No match found for "Chapter 5 The MATCH function"
+[2025-09-03T18:20:13.109Z] ✅ TOC-SCOPED REFINEMENT: Successfully refined - 8629 chars within TOC pages 41-43
+[2025-09-03T18:20:13.109Z] 🎯 TOC-SCOPED: Refined section within TOC pages (8629 chars)
+[2025-09-03T18:20:13.163Z] 📄 SIMPLE: Processing section 24/313: "Chapter 5 The MATCH function" (pages 43-51)
+[2025-09-03T18:20:13.163Z] 📄 TOC-ONLY: Extracting section "Chapter 5 The MATCH function" from TOC pages 43-51
+[2025-09-03T18:20:13.163Z] ✅ TOC-ONLY: Extracted 24969 chars from 9 TOC pages (43, 44, 45, 46, 47, 48, 49, 50, 51)
+[2025-09-03T18:20:13.163Z] 📖 TOC-ONLY: Content preview: "Customers. xlsx file
+
+
+correlations, 689–695 Craps. xlsx file, 938
+CORREL function, 692 Create Custom Combo Chart button, 593
+Correlation dialog box, 692–693 Create Data Type dialog box, 360
+cor..."
+[2025-09-03T18:20:13.164Z] 📊 TOC-ONLY: Character positions - Start: 74842, End: 99811
+[2025-09-03T18:20:13.164Z] ✅ TOC-ONLY: Extracted 24969 chars from TOC pages 43-51
+[2025-09-03T18:20:13.164Z] 🎯 TOC-SCOPED REFINEMENT: Refining "Chapter 5 The MATCH function" within TOC pages 43-51
+[2025-09-03T18:20:13.164Z] 🔍 TOC-SCOPED: Searching within TOC pages text (24969 chars)
+[2025-09-03T18:20:13.164Z] 🔍 SEARCH: Looking for "Chapter 5 The MATCH function" in text starting from position 0
+[2025-09-03T18:20:13.164Z] 🔍 DEBUG: text exists: true, length: 24969
+[2025-09-03T18:20:13.164Z] 🔍 DEBUG: cleanTitle type: string, value: "Chapter 5 The MATCH function"
+[2025-09-03T18:20:13.165Z] 🔍 DEBUG: startFrom: 0
+[2025-09-03T18:20:13.165Z] 🔍 DEBUG: normalizedTitle after regex: "Chapter 5 The MATCH function"
+[2025-09-03T18:20:13.165Z] 🔍 SEARCH: Normalized title: "Chapter 5 The MATCH function"
+[2025-09-03T18:20:13.165Z] 🔍 DEBUG: Split into chars: [c, h, a, p, t, e, r,  , 5,  , t, h, e,  , m, a, t, c, h,  , f, u, n, c, t, i, o, n]
+[2025-09-03T18:20:13.165Z] 🔍 DEBUG: Generated variations: 50
+[2025-09-03T18:20:13.165Z] 🔍 SEARCH: Generated 50 space variations
+[2025-09-03T18:20:13.166Z] ❌ SEARCH: No match found for "Chapter 5 The MATCH function"
+[2025-09-03T18:20:13.166Z] ⚠️ Section title "Chapter 5 The MATCH function" not found within TOC pages, using whole pages
+[2025-09-03T18:20:13.166Z] 📄 TOC-ONLY: Using complete TOC pages content
+[2025-09-03T18:20:13.166Z] 📄 Splitting section "Chapter 5 The MATCH function" (24969 chars) for embedding
+[2025-09-03T18:20:13.166Z] 📄 Split "Chapter 5 The MATCH function" into 3 embedding-safe parts
+[2025-09-03T18:20:13.166Z] 📄 Split section "Chapter 5 The MATCH function" into 3 parts for embedding
+[2025-09-03T18:20:13.221Z] 📄 SIMPLE: Processing section 25/313: "Syntax of the MATCH function........................................" (pages 43-45)
+[2025-09-03T18:20:13.222Z] 📄 TOC-ONLY: Extracting section "Syntax of the MATCH function........................................" from TOC pages 43-45
+[2025-09-03T18:20:13.222Z] ✅ TOC-ONLY: Extracted 8148 chars from 3 TOC pages (43, 44, 45)
+[2025-09-03T18:20:13.222Z] 📖 TOC-ONLY: Content preview: "Customers. xlsx file
+
+
+correlations, 689–695 Craps. xlsx file, 938
+CORREL function, 692 Create Custom Combo Chart button, 593
+Correlation dialog box, 692–693 Create Data Type dialog box, 360
+cor..."
+[2025-09-03T18:20:13.222Z] 📊 TOC-ONLY: Character positions - Start: 74842, End: 82990
+[2025-09-03T18:20:13.222Z] ✅ TOC-ONLY: Extracted 8148 chars from TOC pages 43-45
+[2025-09-03T18:20:13.222Z] 🎯 TOC-SCOPED REFINEMENT: Refining "Syntax of the MATCH function........................................" within TOC pages 43-45
+[2025-09-03T18:20:13.223Z] 🔍 TOC-SCOPED: Searching within TOC pages text (8148 chars)
+[2025-09-03T18:20:13.223Z] 🔍 SEARCH: Looking for "Syntax of the MATCH function" in text starting from position 0
+[2025-09-03T18:20:13.223Z] 🔍 DEBUG: text exists: true, length: 8148
+[2025-09-03T18:20:13.223Z] 🔍 DEBUG: cleanTitle type: string, value: "Syntax of the MATCH function"
+[2025-09-03T18:20:13.223Z] 🔍 DEBUG: startFrom: 0
+[2025-09-03T18:20:13.223Z] 🔍 DEBUG: normalizedTitle after regex: "Syntax of the MATCH function"
+[2025-09-03T18:20:13.223Z] 🔍 SEARCH: Normalized title: "Syntax of the MATCH function"
+[2025-09-03T18:20:13.223Z] 🔍 DEBUG: Split into chars: [s, y, n, t, a, x,  , o, f,  , t, h, e,  , m, a, t, c, h,  , f, u, n, c, t, i, o, n]
+[2025-09-03T18:20:13.223Z] 🔍 DEBUG: Generated variations: 50
+[2025-09-03T18:20:13.224Z] 🔍 SEARCH: Generated 50 space variations
+[2025-09-03T18:20:13.224Z] ❌ SEARCH: No match found for "Syntax of the MATCH function"
+[2025-09-03T18:20:13.224Z] ⚠️ Section title "Syntax of the MATCH function" not found within TOC pages, using whole pages
+[2025-09-03T18:20:13.224Z] 📄 TOC-ONLY: Using complete TOC pages content
+[2025-09-03T18:20:13.278Z] 📄 SIMPLE: Processing section 26/313: "Answers to this chapter’s questions.................................." (pages 45-49)
+[2025-09-03T18:20:13.279Z] 📄 TOC-ONLY: Extracting section "Answers to this chapter’s questions.................................." from TOC pages 45-49
+[2025-09-03T18:20:13.279Z] ✅ TOC-ONLY: Extracted 14008 chars from 5 TOC pages (45, 46, 47, 48, 49)
+[2025-09-03T18:20:13.279Z] 📖 TOC-ONLY: Content preview: "DATEDIF function
+
+
+geometric mean, 388–389 Plants, 354
+kurtosis, 381 problems for, 362
+mean and standard deviation, 379, 382–384 Space, 351
+mode, 380–381 Stock, 349–350
+outliers, conditional fo..."
+[2025-09-03T18:20:13.279Z] 📊 TOC-ONLY: Character positions - Start: 80528, End: 94536
+[2025-09-03T18:20:13.279Z] ✅ TOC-ONLY: Extracted 14008 chars from TOC pages 45-49
+[2025-09-03T18:20:13.280Z] 🎯 TOC-SCOPED REFINEMENT: Refining "Answers to this chapter’s questions.................................." within TOC pages 45-49
+[2025-09-03T18:20:13.280Z] 🔍 TOC-SCOPED: Searching within TOC pages text (14008 chars)
+[2025-09-03T18:20:13.280Z] 🔍 SEARCH: Looking for "Answers to this chapter’s questions" in text starting from position 0
+[2025-09-03T18:20:13.280Z] 🔍 DEBUG: text exists: true, length: 14008
+[2025-09-03T18:20:13.280Z] 🔍 DEBUG: cleanTitle type: string, value: "Answers to this chapter’s questions"
+[2025-09-03T18:20:13.280Z] 🔍 DEBUG: startFrom: 0
+[2025-09-03T18:20:13.280Z] 🔍 DEBUG: normalizedTitle after regex: "Answers to this chapter’s questions"
+[2025-09-03T18:20:13.280Z] 🔍 SEARCH: Normalized title: "Answers to this chapter’s questions"
+[2025-09-03T18:20:13.281Z] 🔍 DEBUG: Split into chars: [a, n, s, w, e, r, s,  , t, o,  , t, h, i, s,  , c, h, a, p, t, e, r, ’, s,  , q, u, e, s, t, i, o, n, s]
+[2025-09-03T18:20:13.281Z] 🔍 DEBUG: Generated variations: 50
+[2025-09-03T18:20:13.281Z] 🔍 SEARCH: Generated 50 space variations
+[2025-09-03T18:20:13.281Z] ❌ SEARCH: No match found for "Answers to this chapter’s questions"
+[2025-09-03T18:20:13.281Z] ⚠️ Section title "Answers to this chapter’s questions" not found within TOC pages, using whole pages
+[2025-09-03T18:20:13.281Z] 📄 TOC-ONLY: Using complete TOC pages content
+[2025-09-03T18:20:13.281Z] 📄 Splitting section "Answers to this chapter’s questions.................................." (14008 chars) for embedding
+[2025-09-03T18:20:13.282Z] 📄 Split "Answers to this chapter’s questions.................................." into 2 embedding-safe parts
+[2025-09-03T18:20:13.282Z] 📄 Split section "Answers to this chapter’s questions.................................." into 2 parts for embedding
+[2025-09-03T18:20:13.337Z] 📄 SIMPLE: Processing section 27/313: "Problems............................................................" (pages 49-51)
+[2025-09-03T18:20:13.337Z] 📄 TOC-ONLY: Extracting section "Problems............................................................" from TOC pages 49-51
+[2025-09-03T18:20:13.337Z] ✅ TOC-ONLY: Extracted 8269 chars from 3 TOC pages (49, 50, 51)
+[2025-09-03T18:20:13.337Z] 📖 TOC-ONLY: Content preview: "EOQ (economic order quantity) inventory model
+
+
+drug distribution problem, 831–834 Edit Default Layout dialog box, 530
+drug sales, forecasts for, 792–793 Edit In Formula Bar option (Error Checking..."
+[2025-09-03T18:20:13.337Z] 📊 TOC-ONLY: Character positions - Start: 91542, End: 99811
+[2025-09-03T18:20:13.337Z] ✅ TOC-ONLY: Extracted 8269 chars from TOC pages 49-51
+[2025-09-03T18:20:13.338Z] 🎯 TOC-SCOPED REFINEMENT: Refining "Problems............................................................" within TOC pages 49-51
+[2025-09-03T18:20:13.338Z] 🔍 TOC-SCOPED: Searching within TOC pages text (8269 chars)
+[2025-09-03T18:20:13.338Z] 🔍 SEARCH: Looking for "Problems" in text starting from position 0
+[2025-09-03T18:20:13.338Z] 🔍 DEBUG: text exists: true, length: 8269
+[2025-09-03T18:20:13.338Z] 🔍 DEBUG: cleanTitle type: string, value: "Problems"
+[2025-09-03T18:20:13.338Z] 🔍 DEBUG: startFrom: 0
+[2025-09-03T18:20:13.338Z] 🔍 DEBUG: normalizedTitle after regex: "Problems"
+[2025-09-03T18:20:13.338Z] 🔍 SEARCH: Normalized title: "Problems"
+[2025-09-03T18:20:13.339Z] ✅ SEARCH: Found exact match at position 486
+[2025-09-03T18:20:13.339Z] ✅ TOC-SCOPED: Found section start at position 486 within TOC pages
+[2025-09-03T18:20:13.339Z] 🔍 SEARCH: Looking for "Chapter 6 Text functions and Flash Fill" in text starting from position 536
+[2025-09-03T18:20:13.339Z] 🔍 DEBUG: text exists: true, length: 8269
+[2025-09-03T18:20:13.339Z] 🔍 DEBUG: cleanTitle type: string, value: "Chapter 6 Text functions and Flash Fill"
+[2025-09-03T18:20:13.339Z] 🔍 DEBUG: startFrom: 536
+[2025-09-03T18:20:13.339Z] 🔍 DEBUG: normalizedTitle after regex: "Chapter 6 Text functions and Flash Fill"
+[2025-09-03T18:20:13.339Z] 🔍 SEARCH: Normalized title: "Chapter 6 Text functions and Flash Fill"
+[2025-09-03T18:20:13.339Z] 🔍 DEBUG: Split into chars: [c, h, a, p, t, e, r,  , 6,  , t, e, x, t,  , f, u, n, c, t, i, o, n, s,  , a, n, d,  , f, l, a, s, h,  , f, i, l, l]
+[2025-09-03T18:20:13.340Z] 🔍 DEBUG: Generated variations: 50
+[2025-09-03T18:20:13.340Z] 🔍 SEARCH: Generated 50 space variations
+[2025-09-03T18:20:13.340Z] ❌ SEARCH: No match found for "Chapter 6 Text functions and Flash Fill"
+[2025-09-03T18:20:13.340Z] ✅ TOC-SCOPED REFINEMENT: Successfully refined - 7783 chars within TOC pages 49-51
+[2025-09-03T18:20:13.340Z] 🎯 TOC-SCOPED: Refined section within TOC pages (7783 chars)
+[2025-09-03T18:20:13.395Z] 📄 SIMPLE: Processing section 28/313: "Chapter 6 Text functions and Flash Fill" (pages 51-73)
+[2025-09-03T18:20:13.395Z] 📄 TOC-ONLY: Extracting section "Chapter 6 Text functions and Flash Fill" from TOC pages 51-73
+[2025-09-03T18:20:13.395Z] ✅ TOC-ONLY: Extracted 61957 chars from 23 TOC pages (51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73)
+[2025-09-03T18:20:13.395Z] 📖 TOC-ONLY: Content preview: "files
+
+
+EXP function, 679, 723 federal aid, determining 99th percentile of demand for,
+expanding PivotTable fields, 492–493 785–786
+experience curve, 683, 684–685 Fermat, Pierre de, 776
+experime..."
+[2025-09-03T18:20:13.396Z] 📊 TOC-ONLY: Character positions - Start: 97242, End: 159199
+[2025-09-03T18:20:13.396Z] ✅ TOC-ONLY: Extracted 61957 chars from TOC pages 51-73
+[2025-09-03T18:20:13.396Z] 🎯 TOC-SCOPED REFINEMENT: Refining "Chapter 6 Text functions and Flash Fill" within TOC pages 51-73
+[2025-09-03T18:20:13.396Z] 🔍 TOC-SCOPED: Searching within TOC pages text (61957 chars)
+[2025-09-03T18:20:13.396Z] 🔍 SEARCH: Looking for "Chapter 6 Text functions and Flash Fill" in text starting from position 0
+[2025-09-03T18:20:13.396Z] 🔍 DEBUG: text exists: true, length: 61957
+[2025-09-03T18:20:13.396Z] 🔍 DEBUG: cleanTitle type: string, value: "Chapter 6 Text functions and Flash Fill"
+[2025-09-03T18:20:13.396Z] 🔍 DEBUG: startFrom: 0
+[2025-09-03T18:20:13.396Z] 🔍 DEBUG: normalizedTitle after regex: "Chapter 6 Text functions and Flash Fill"
+[2025-09-03T18:20:13.397Z] 🔍 SEARCH: Normalized title: "Chapter 6 Text functions and Flash Fill"
+[2025-09-03T18:20:13.397Z] 🔍 DEBUG: Split into chars: [c, h, a, p, t, e, r,  , 6,  , t, e, x, t,  , f, u, n, c, t, i, o, n, s,  , a, n, d,  , f, l, a, s, h,  , f, i, l, l]
+[2025-09-03T18:20:13.397Z] 🔍 DEBUG: Generated variations: 50
+[2025-09-03T18:20:13.397Z] 🔍 SEARCH: Generated 50 space variations
+[2025-09-03T18:20:13.398Z] ❌ SEARCH: No match found for "Chapter 6 Text functions and Flash Fill"
+[2025-09-03T18:20:13.398Z] ⚠️ Section title "Chapter 6 Text functions and Flash Fill" not found within TOC pages, using whole pages
+[2025-09-03T18:20:13.398Z] 📄 TOC-ONLY: Using complete TOC pages content
+[2025-09-03T18:20:13.399Z] 📄 Splitting section "Chapter 6 Text functions and Flash Fill" (61957 chars) for embedding
+[2025-09-03T18:20:13.399Z] 📄 Split "Chapter 6 Text functions and Flash Fill" into 7 embedding-safe parts
+[2025-09-03T18:20:13.399Z] 📄 Split section "Chapter 6 Text functions and Flash Fill" into 7 parts for embedding
+[2025-09-03T18:20:13.452Z] 📄 SIMPLE: Processing section 29/313: "Text function syntax.................................................." (pages 52-56)
+[2025-09-03T18:20:13.453Z] 📄 TOC-ONLY: Extracting section "Text function syntax.................................................." from TOC pages 52-56
+[2025-09-03T18:20:13.453Z] ✅ TOC-ONLY: Extracted 12365 chars from 5 TOC pages (52, 53, 54, 55, 56)
+[2025-09-03T18:20:13.453Z] 📖 TOC-ONLY: Content preview: "files
+
+
+BOM. xlsx, 1021 Combobox. xlsx, 312
+Boxplotmultiple. xlsx, 392 Commodities. xlsx, 804
+Boxplottemp. xlsx, 389 Companydata. xlsx, 215
+Bstemp. xlsx, 958, 961 Compound Interest. xlsx, 111–11..."
+[2025-09-03T18:20:13.453Z] 📊 TOC-ONLY: Character positions - Start: 99813, End: 112178
+[2025-09-03T18:20:13.453Z] ✅ TOC-ONLY: Extracted 12365 chars from TOC pages 52-56
+[2025-09-03T18:20:13.453Z] 🎯 TOC-SCOPED REFINEMENT: Refining "Text function syntax.................................................." within TOC pages 52-56
+[2025-09-03T18:20:13.453Z] 🔍 TOC-SCOPED: Searching within TOC pages text (12365 chars)
+[2025-09-03T18:20:13.454Z] 🔍 SEARCH: Looking for "Text function syntax" in text starting from position 0
+[2025-09-03T18:20:13.454Z] 🔍 DEBUG: text exists: true, length: 12365
+[2025-09-03T18:20:13.454Z] 🔍 DEBUG: cleanTitle type: string, value: "Text function syntax"
+[2025-09-03T18:20:13.454Z] 🔍 DEBUG: startFrom: 0
+[2025-09-03T18:20:13.454Z] 🔍 DEBUG: normalizedTitle after regex: "Text function syntax"
+[2025-09-03T18:20:13.454Z] 🔍 SEARCH: Normalized title: "Text function syntax"
+[2025-09-03T18:20:13.454Z] 🔍 DEBUG: Split into chars: [t, e, x, t,  , f, u, n, c, t, i, o, n,  , s, y, n, t, a, x]
+[2025-09-03T18:20:13.455Z] 🔍 DEBUG: Generated variations: 50
+[2025-09-03T18:20:13.455Z] 🔍 SEARCH: Generated 50 space variations
+[2025-09-03T18:20:13.455Z] ❌ SEARCH: No match found for "Text function syntax"
+[2025-09-03T18:20:13.455Z] ⚠️ Section title "Text function syntax" not found within TOC pages, using whole pages
+[2025-09-03T18:20:13.455Z] 📄 TOC-ONLY: Using complete TOC pages content
+[2025-09-03T18:20:13.455Z] 📄 Splitting section "Text function syntax.................................................." (12365 chars) for embedding
+[2025-09-03T18:20:13.456Z] 📄 Split "Text function syntax.................................................." into 2 embedding-safe parts
+[2025-09-03T18:20:13.456Z] 📄 Split section "Text function syntax.................................................." into 2 parts for embedding
+[2025-09-03T18:20:13.514Z] 📄 SIMPLE: Processing section 30/313: "Answers to this chapter’s questions..................................." (pages 56-69)
+[2025-09-03T18:20:13.514Z] 📄 TOC-ONLY: Extracting section "Answers to this chapter’s questions..................................." from TOC pages 56-69
+[2025-09-03T18:20:13.514Z] ✅ TOC-ONLY: Extracted 37304 chars from 14 TOC pages (56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69)
+[2025-09-03T18:20:13.515Z] 📖 TOC-ONLY: Content preview: "files
+
+
+Statedv. xlsx, 477 USC. xlsx, 794
+Stateincome. xlsx, 657 USfilledmapstemp. xlsx, 646
+States. xlsx, 16, 17, 552 Valentine. xlsx, 911, 914
+Staticdate. xlsx, 79 Varianceanalysis. xlsx, 278..."
+[2025-09-03T18:20:13.515Z] 📊 TOC-ONLY: Character positions - Start: 109732, End: 147036
+[2025-09-03T18:20:13.515Z] ✅ TOC-ONLY: Extracted 37304 chars from TOC pages 56-69
+[2025-09-03T18:20:13.515Z] 🎯 TOC-SCOPED REFINEMENT: Refining "Answers to this chapter’s questions..................................." within TOC pages 56-69
+[2025-09-03T18:20:13.515Z] 🔍 TOC-SCOPED: Searching within TOC pages text (37304 chars)
+[2025-09-03T18:20:13.516Z] 🔍 SEARCH: Looking for "Answers to this chapter’s questions" in text starting from position 0
+[2025-09-03T18:20:13.516Z] 🔍 DEBUG: text exists: true, length: 37304
+[2025-09-03T18:20:13.516Z] 🔍 DEBUG: cleanTitle type: string, value: "Answers to this chapter’s questions"
+[2025-09-03T18:20:13.516Z] 🔍 DEBUG: startFrom: 0
+[2025-09-03T18:20:13.516Z] 🔍 DEBUG: normalizedTitle after regex: "Answers to this chapter’s questions"
+[2025-09-03T18:20:13.516Z] 🔍 SEARCH: Normalized title: "Answers to this chapter’s questions"
+[2025-09-03T18:20:13.516Z] 🔍 DEBUG: Split into chars: [a, n, s, w, e, r, s,  , t, o,  , t, h, i, s,  , c, h, a, p, t, e, r, ’, s,  , q, u, e, s, t, i, o, n, s]
+[2025-09-03T18:20:13.517Z] 🔍 DEBUG: Generated variations: 50
+[2025-09-03T18:20:13.517Z] 🔍 SEARCH: Generated 50 space variations
+[2025-09-03T18:20:13.517Z] ❌ SEARCH: No match found for "Answers to this chapter’s questions"
+[2025-09-03T18:20:13.517Z] ⚠️ Section title "Answers to this chapter’s questions" not found within TOC pages, using whole pages
+[2025-09-03T18:20:13.518Z] 📄 TOC-ONLY: Using complete TOC pages content
+[2025-09-03T18:20:13.518Z] 📄 Splitting section "Answers to this chapter’s questions..................................." (37304 chars) for embedding
+[2025-09-03T18:20:13.518Z] 📄 Split "Answers to this chapter’s questions..................................." into 5 embedding-safe parts
+[2025-09-03T18:20:13.518Z] 📄 Split section "Answers to this chapter’s questions..................................." into 5 parts for embedding
+[2025-09-03T18:20:13.571Z] 📄 SIMPLE: Processing section 31/313: "Problems............................................................" (pages 69-73)
+[2025-09-03T18:20:13.572Z] 📄 TOC-ONLY: Extracting section "Problems............................................................" from TOC pages 69-73
+[2025-09-03T18:20:13.572Z] ✅ TOC-ONLY: Extracted 14878 chars from 5 TOC pages (69, 70, 71, 72, 73)
+[2025-09-03T18:20:13.572Z] 📖 TOC-ONLY: Content preview: "Merton, Robert
+
+
+Maps button, 644 Evaluate Formula feature, 229–231
+Marker Color option (Sparkline Tools Design), 661 last number in column, finding, 232
+Markers option (Sparkline Tools Design), ..."
+[2025-09-03T18:20:13.572Z] 📊 TOC-ONLY: Character positions - Start: 144321, End: 159199
+[2025-09-03T18:20:13.572Z] ✅ TOC-ONLY: Extracted 14878 chars from TOC pages 69-73
+[2025-09-03T18:20:13.572Z] 🎯 TOC-SCOPED REFINEMENT: Refining "Problems............................................................" within TOC pages 69-73
+[2025-09-03T18:20:13.572Z] 🔍 TOC-SCOPED: Searching within TOC pages text (14878 chars)
+[2025-09-03T18:20:13.573Z] 🔍 SEARCH: Looking for "Problems" in text starting from position 0
+[2025-09-03T18:20:13.573Z] 🔍 DEBUG: text exists: true, length: 14878
+[2025-09-03T18:20:13.573Z] 🔍 DEBUG: cleanTitle type: string, value: "Problems"
+[2025-09-03T18:20:13.573Z] 🔍 DEBUG: startFrom: 0
+[2025-09-03T18:20:13.573Z] 🔍 DEBUG: normalizedTitle after regex: "Problems"
+[2025-09-03T18:20:13.573Z] 🔍 SEARCH: Normalized title: "Problems"
+[2025-09-03T18:20:13.573Z] ✅ SEARCH: Found exact match at position 338
+[2025-09-03T18:20:13.573Z] ✅ TOC-SCOPED: Found section start at position 338 within TOC pages
+[2025-09-03T18:20:13.573Z] 🔍 SEARCH: Looking for "Chapter 7 Dates and date functions" in text starting from position 388
+[2025-09-03T18:20:13.574Z] 🔍 DEBUG: text exists: true, length: 14878
+[2025-09-03T18:20:13.574Z] 🔍 DEBUG: cleanTitle type: string, value: "Chapter 7 Dates and date functions"
+[2025-09-03T18:20:13.574Z] 🔍 DEBUG: startFrom: 388
+[2025-09-03T18:20:13.574Z] 🔍 DEBUG: normalizedTitle after regex: "Chapter 7 Dates and date functions"
+[2025-09-03T18:20:13.574Z] 🔍 SEARCH: Normalized title: "Chapter 7 Dates and date functions"
+[2025-09-03T18:20:13.574Z] 🔍 DEBUG: Split into chars: [c, h, a, p, t, e, r,  , 7,  , d, a, t, e, s,  , a, n, d,  , d, a, t, e,  , f, u, n, c, t, i, o, n, s]
+[2025-09-03T18:20:13.574Z] 🔍 DEBUG: Generated variations: 50
+[2025-09-03T18:20:13.574Z] 🔍 SEARCH: Generated 50 space variations
+[2025-09-03T18:20:13.575Z] ❌ SEARCH: No match found for "Chapter 7 Dates and date functions"
+[2025-09-03T18:20:13.575Z] ✅ TOC-SCOPED REFINEMENT: Successfully refined - 14540 chars within TOC pages 69-73
+[2025-09-03T18:20:13.575Z] 🎯 TOC-SCOPED: Refined section within TOC pages (14540 chars)
+[2025-09-03T18:20:13.575Z] 📄 Splitting section "Problems............................................................" (14540 chars) for embedding
+[2025-09-03T18:20:13.575Z] 📄 Split "Problems............................................................" into 2 embedding-safe parts
+[2025-09-03T18:20:13.576Z] 📄 Split section "Problems............................................................" into 2 parts for embedding
+[2025-09-03T18:20:13.629Z] 📄 SIMPLE: Processing section 32/313: "Chapter 7 Dates and date functions" (pages 73-85)
+[2025-09-03T18:20:13.629Z] 📄 TOC-ONLY: Extracting section "Chapter 7 Dates and date functions" from TOC pages 73-85
+[2025-09-03T18:20:13.630Z] ✅ TOC-ONLY: Extracted 38727 chars from 13 TOC pages (73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85)
+[2025-09-03T18:20:13.630Z] 📖 TOC-ONLY: Content preview: "NPV (net present value)
+
+
+Nba02_03. xlsx file, 857 Noncontigtemp. xlsx file, 13
+Nbadvl. xlsx file, 474 noncontiguous named ranges, 13
+NBAfinal. xlsx file, 329–331 nonlinear pricing, 1011–1018
+Nb..."
+[2025-09-03T18:20:13.630Z] 📊 TOC-ONLY: Character positions - Start: 156020, End: 194747
+[2025-09-03T18:20:13.630Z] ✅ TOC-ONLY: Extracted 38727 chars from TOC pages 73-85
+[2025-09-03T18:20:13.630Z] 🎯 TOC-SCOPED REFINEMENT: Refining "Chapter 7 Dates and date functions" within TOC pages 73-85
+[2025-09-03T18:20:13.630Z] 🔍 TOC-SCOPED: Searching within TOC pages text (38727 chars)
+[2025-09-03T18:20:13.630Z] 🔍 SEARCH: Looking for "Chapter 7 Dates and date functions" in text starting from position 0
+[2025-09-03T18:20:13.631Z] 🔍 DEBUG: text exists: true, length: 38727
+[2025-09-03T18:20:13.631Z] 🔍 DEBUG: cleanTitle type: string, value: "Chapter 7 Dates and date functions"
+[2025-09-03T18:20:13.631Z] 🔍 DEBUG: startFrom: 0
+[2025-09-03T18:20:13.631Z] 🔍 DEBUG: normalizedTitle after regex: "Chapter 7 Dates and date functions"
+[2025-09-03T18:20:13.631Z] 🔍 SEARCH: Normalized title: "Chapter 7 Dates and date functions"
+[2025-09-03T18:20:13.631Z] 🔍 DEBUG: Split into chars: [c, h, a, p, t, e, r,  , 7,  , d, a, t, e, s,  , a, n, d,  , d, a, t, e,  , f, u, n, c, t, i, o, n, s]
+[2025-09-03T18:20:13.631Z] 🔍 DEBUG: Generated variations: 50
+[2025-09-03T18:20:13.632Z] 🔍 SEARCH: Generated 50 space variations
+[2025-09-03T18:20:13.632Z] ❌ SEARCH: No match found for "Chapter 7 Dates and date functions"
+[2025-09-03T18:20:13.632Z] ⚠️ Section title "Chapter 7 Dates and date functions" not found within TOC pages, using whole pages
+[2025-09-03T18:20:13.632Z] 📄 TOC-ONLY: Using complete TOC pages content
+[2025-09-03T18:20:13.632Z] 📄 Splitting section "Chapter 7 Dates and date functions" (38727 chars) for embedding
+[2025-09-03T18:20:13.633Z] 📄 Split "Chapter 7 Dates and date functions" into 5 embedding-safe parts
+[2025-09-03T18:20:13.633Z] 📄 Split section "Chapter 7 Dates and date functions" into 5 parts for embedding
+[2025-09-03T18:20:13.685Z] 📄 SIMPLE: Processing section 33/313: "Answers to this chapter’s questions.................................." (pages 74-82)
+[2025-09-03T18:20:13.686Z] 📄 TOC-ONLY: Extracting section "Answers to this chapter’s questions.................................." from TOC pages 74-82
+[2025-09-03T18:20:13.686Z] ✅ TOC-ONLY: Extracted 26581 chars from 9 TOC pages (74, 75, 76, 77, 78, 79, 80, 81, 82)
+[2025-09-03T18:20:13.686Z] 📖 TOC-ONLY: Content preview: "NPV (net present value)
+
+
+NPV function, 968–969 dynamic ranges, 232–234
+problems for, 969–971 Evaluate Formula feature, 229–231
+definition of, 86–87 left-hand lookup with, 227–228
+sensitivity an..."
+[2025-09-03T18:20:13.686Z] 📊 TOC-ONLY: Character positions - Start: 159201, End: 185782
+[2025-09-03T18:20:13.686Z] ✅ TOC-ONLY: Extracted 26581 chars from TOC pages 74-82
+[2025-09-03T18:20:13.686Z] 🎯 TOC-SCOPED REFINEMENT: Refining "Answers to this chapter’s questions.................................." within TOC pages 74-82
+[2025-09-03T18:20:13.686Z] 🔍 TOC-SCOPED: Searching within TOC pages text (26581 chars)
+[2025-09-03T18:20:13.687Z] 🔍 SEARCH: Looking for "Answers to this chapter’s questions" in text starting from position 0
+[2025-09-03T18:20:13.687Z] 🔍 DEBUG: text exists: true, length: 26581
+[2025-09-03T18:20:13.687Z] 🔍 DEBUG: cleanTitle type: string, value: "Answers to this chapter’s questions"
+[2025-09-03T18:20:13.687Z] 🔍 DEBUG: startFrom: 0
+[2025-09-03T18:20:13.687Z] 🔍 DEBUG: normalizedTitle after regex: "Answers to this chapter’s questions"
+[2025-09-03T18:20:13.687Z] 🔍 SEARCH: Normalized title: "Answers to this chapter’s questions"
+[2025-09-03T18:20:13.687Z] 🔍 DEBUG: Split into chars: [a, n, s, w, e, r, s,  , t, o,  , t, h, i, s,  , c, h, a, p, t, e, r, ’, s,  , q, u, e, s, t, i, o, n, s]
+[2025-09-03T18:20:13.688Z] 🔍 DEBUG: Generated variations: 50
+[2025-09-03T18:20:13.688Z] 🔍 SEARCH: Generated 50 space variations
+[2025-09-03T18:20:13.688Z] ❌ SEARCH: No match found for "Answers to this chapter’s questions"
+[2025-09-03T18:20:13.688Z] ⚠️ Section title "Answers to this chapter’s questions" not found within TOC pages, using whole pages
+[2025-09-03T18:20:13.688Z] 📄 TOC-ONLY: Using complete TOC pages content
+[2025-09-03T18:20:13.688Z] 📄 Splitting section "Answers to this chapter’s questions.................................." (26581 chars) for embedding
+[2025-09-03T18:20:13.689Z] 📄 Split "Answers to this chapter’s questions.................................." into 3 embedding-safe parts
+[2025-09-03T18:20:13.689Z] 📄 Split section "Answers to this chapter’s questions.................................." into 3 parts for embedding
+[2025-09-03T18:20:13.741Z] 📄 SIMPLE: Processing section 34/313: "Problems............................................................" (pages 82-85)
+[2025-09-03T18:20:13.742Z] 📄 TOC-ONLY: Extracting section "Problems............................................................" from TOC pages 82-85
+[2025-09-03T18:20:13.742Z] ✅ TOC-ONLY: Extracted 11836 chars from 4 TOC pages (82, 83, 84, 85)
+[2025-09-03T18:20:13.742Z] 📖 TOC-ONLY: Content preview: "ranges
+
+
+ranges, 381–382 real options, 963–964
+counting cells in, 209–215 Reapply option, Excel AutoFilter feature, 425
+COUNT function, 210, 214 reciprocal cost allocation, 121
+COUNTA function, ..."
+[2025-09-03T18:20:13.742Z] 📊 TOC-ONLY: Character positions - Start: 182911, End: 194747
+[2025-09-03T18:20:13.743Z] ✅ TOC-ONLY: Extracted 11836 chars from TOC pages 82-85
+[2025-09-03T18:20:13.743Z] 🎯 TOC-SCOPED REFINEMENT: Refining "Problems............................................................" within TOC pages 82-85
+[2025-09-03T18:20:13.743Z] 🔍 TOC-SCOPED: Searching within TOC pages text (11836 chars)
+[2025-09-03T18:20:13.743Z] 🔍 SEARCH: Looking for "Problems" in text starting from position 0
+[2025-09-03T18:20:13.743Z] 🔍 DEBUG: text exists: true, length: 11836
+[2025-09-03T18:20:13.743Z] 🔍 DEBUG: cleanTitle type: string, value: "Problems"
+[2025-09-03T18:20:13.744Z] 🔍 DEBUG: startFrom: 0
+[2025-09-03T18:20:13.744Z] 🔍 DEBUG: normalizedTitle after regex: "Problems"
+[2025-09-03T18:20:13.744Z] 🔍 SEARCH: Normalized title: "Problems"
+[2025-09-03T18:20:13.744Z] ✅ SEARCH: Found exact match at position 561
+[2025-09-03T18:20:13.744Z] ✅ TOC-SCOPED: Found section start at position 561 within TOC pages
+[2025-09-03T18:20:13.744Z] 🔍 SEARCH: Looking for "Chapter 8 The net present value functions: NPV and XNPV" in text starting from position 611
+[2025-09-03T18:20:13.745Z] 🔍 DEBUG: text exists: true, length: 11836
+[2025-09-03T18:20:13.745Z] 🔍 DEBUG: cleanTitle type: string, value: "Chapter 8 The net present value functions: NPV and XNPV"
+[2025-09-03T18:20:13.745Z] 🔍 DEBUG: startFrom: 611
+[2025-09-03T18:20:13.745Z] 🔍 DEBUG: normalizedTitle after regex: "Chapter 8 The net present value functions: NPV and XNPV"
+[2025-09-03T18:20:13.745Z] 🔍 SEARCH: Normalized title: "Chapter 8 The net present value functions: NPV and XNPV"
+[2025-09-03T18:20:13.745Z] 🔍 DEBUG: Split into chars: [c, h, a, p, t, e, r,  , 8,  , t, h, e,  , n, e, t,  , p, r, e, s, e, n, t,  , v, a, l, u, e,  , f, u, n, c, t, i, o, n, s, :,  , n, p, v,  , a, n, d,  , x, n, p, v]
+[2025-09-03T18:20:13.745Z] 🔍 DEBUG: Generated variations: 50
+[2025-09-03T18:20:13.745Z] 🔍 SEARCH: Generated 50 space variations
+[2025-09-03T18:20:13.746Z] ❌ SEARCH: No match found for "Chapter 8 The net present value functions: NPV and XNPV"
+[2025-09-03T18:20:13.746Z] ✅ TOC-SCOPED REFINEMENT: Successfully refined - 11275 chars within TOC pages 82-85
+[2025-09-03T18:20:13.746Z] 🎯 TOC-SCOPED: Refined section within TOC pages (11275 chars)
+[2025-09-03T18:20:13.746Z] 📄 Splitting section "Problems............................................................" (11275 chars) for embedding
+[2025-09-03T18:20:13.747Z] 📄 Split "Problems............................................................" into 2 embedding-safe parts
+[2025-09-03T18:20:13.747Z] 📄 Split section "Problems............................................................" into 2 parts for embedding
+[2025-09-03T18:20:13.803Z] 📄 SIMPLE: Processing section 35/313: "Chapter 8 The net present value functions: NPV and XNPV" (pages 85-93)
+[2025-09-03T18:20:13.803Z] 📄 TOC-ONLY: Extracting section "Chapter 8 The net present value functions: NPV and XNPV" from TOC pages 85-93
+[2025-09-03T18:20:13.803Z] ✅ TOC-ONLY: Extracted 26412 chars from 9 TOC pages (85, 86, 87, 88, 89, 90, 91, 92, 93)
+[2025-09-03T18:20:13.803Z] 📖 TOC-ONLY: Content preview: "SKEW function
+
+
+examples of, 895–896 example of, 203–208
+problems for, 898–899 merging scenarios in, 207
+Scholes, Myron, 953. See also Black-Scholes Monte Carlo simulation, 207
+option-pricing fo..."
+[2025-09-03T18:20:13.804Z] 📊 TOC-ONLY: Character positions - Start: 191642, End: 218054
+[2025-09-03T18:20:13.804Z] ✅ TOC-ONLY: Extracted 26412 chars from TOC pages 85-93
+[2025-09-03T18:20:13.804Z] 🎯 TOC-SCOPED REFINEMENT: Refining "Chapter 8 The net present value functions: NPV and XNPV" within TOC pages 85-93
+[2025-09-03T18:20:13.804Z] 🔍 TOC-SCOPED: Searching within TOC pages text (26412 chars)
+[2025-09-03T18:20:13.804Z] 🔍 SEARCH: Looking for "Chapter 8 The net present value functions: NPV and XNPV" in text starting from position 0
+[2025-09-03T18:20:13.804Z] 🔍 DEBUG: text exists: true, length: 26412
+[2025-09-03T18:20:13.804Z] 🔍 DEBUG: cleanTitle type: string, value: "Chapter 8 The net present value functions: NPV and XNPV"
+[2025-09-03T18:20:13.805Z] 🔍 DEBUG: startFrom: 0
+[2025-09-03T18:20:13.805Z] 🔍 DEBUG: normalizedTitle after regex: "Chapter 8 The net present value functions: NPV and XNPV"
+[2025-09-03T18:20:13.805Z] 🔍 SEARCH: Normalized title: "Chapter 8 The net present value functions: NPV and XNPV"
+[2025-09-03T18:20:13.805Z] 🔍 DEBUG: Split into chars: [c, h, a, p, t, e, r,  , 8,  , t, h, e,  , n, e, t,  , p, r, e, s, e, n, t,  , v, a, l, u, e,  , f, u, n, c, t, i, o, n, s, :,  , n, p, v,  , a, n, d,  , x, n, p, v]
+[2025-09-03T18:20:13.805Z] 🔍 DEBUG: Generated variations: 50
+[2025-09-03T18:20:13.805Z] 🔍 SEARCH: Generated 50 space variations
+[2025-09-03T18:20:13.806Z] ❌ SEARCH: No match found for "Chapter 8 The net present value functions: NPV and XNPV"
+[2025-09-03T18:20:13.806Z] ⚠️ Section title "Chapter 8 The net present value functions: NPV and XNPV" not found within TOC pages, using whole pages
+[2025-09-03T18:20:13.806Z] 📄 TOC-ONLY: Using complete TOC pages content
+[2025-09-03T18:20:13.806Z] 📄 Splitting section "Chapter 8 The net present value functions: NPV and XNPV" (26412 chars) for embedding
+[2025-09-03T18:20:13.806Z] 📄 Split "Chapter 8 The net present value functions: NPV and XNPV" into 3 embedding-safe parts
+[2025-09-03T18:20:13.806Z] 📄 Split section "Chapter 8 The net present value functions: NPV and XNPV" into 3 parts for embedding
+[2025-09-03T18:20:13.860Z] 📄 SIMPLE: Processing section 36/313: "Answers to this chapter’s questions..................................." (pages 86-90)
+[2025-09-03T18:20:13.860Z] 📄 TOC-ONLY: Extracting section "Answers to this chapter’s questions..................................." from TOC pages 86-90
+[2025-09-03T18:20:13.860Z] ✅ TOC-ONLY: Extracted 14881 chars from 5 TOC pages (86, 87, 88, 89, 90)
+[2025-09-03T18:20:13.861Z] 📖 TOC-ONLY: Content preview: "skewness measure
+
+
+skewness measure, 381, 920 songs longer than average length, 212
+skewed left histograms, 372 songs not sung by a particular singer, 212
+skewed right histograms, 371–372 songs o..."
+[2025-09-03T18:20:13.861Z] 📊 TOC-ONLY: Character positions - Start: 194749, End: 209630
+[2025-09-03T18:20:13.861Z] ✅ TOC-ONLY: Extracted 14881 chars from TOC pages 86-90
+[2025-09-03T18:20:13.861Z] 🎯 TOC-SCOPED REFINEMENT: Refining "Answers to this chapter’s questions..................................." within TOC pages 86-90
+[2025-09-03T18:20:13.861Z] 🔍 TOC-SCOPED: Searching within TOC pages text (14881 chars)
+[2025-09-03T18:20:13.861Z] 🔍 SEARCH: Looking for "Answers to this chapter’s questions" in text starting from position 0
+[2025-09-03T18:20:13.861Z] 🔍 DEBUG: text exists: true, length: 14881
+[2025-09-03T18:20:13.861Z] 🔍 DEBUG: cleanTitle type: string, value: "Answers to this chapter’s questions"
+[2025-09-03T18:20:13.862Z] 🔍 DEBUG: startFrom: 0
+[2025-09-03T18:20:13.862Z] 🔍 DEBUG: normalizedTitle after regex: "Answers to this chapter’s questions"
+[2025-09-03T18:20:13.862Z] 🔍 SEARCH: Normalized title: "Answers to this chapter’s questions"
+[2025-09-03T18:20:13.862Z] 🔍 DEBUG: Split into chars: [a, n, s, w, e, r, s,  , t, o,  , t, h, i, s,  , c, h, a, p, t, e, r, ’, s,  , q, u, e, s, t, i, o, n, s]
+[2025-09-03T18:20:13.862Z] 🔍 DEBUG: Generated variations: 50
+[2025-09-03T18:20:13.862Z] 🔍 SEARCH: Generated 50 space variations
+[2025-09-03T18:20:13.863Z] ❌ SEARCH: No match found for "Answers to this chapter’s questions"
+[2025-09-03T18:20:13.863Z] ⚠️ Section title "Answers to this chapter’s questions" not found within TOC pages, using whole pages
+[2025-09-03T18:20:13.863Z] 📄 TOC-ONLY: Using complete TOC pages content
+[2025-09-03T18:20:13.863Z] 📄 Splitting section "Answers to this chapter’s questions..................................." (14881 chars) for embedding
+[2025-09-03T18:20:13.863Z] 📄 Split "Answers to this chapter’s questions..................................." into 2 embedding-safe parts
+[2025-09-03T18:20:13.863Z] 📄 Split section "Answers to this chapter’s questions..................................." into 2 parts for embedding
+[2025-09-03T18:20:13.918Z] 📄 SIMPLE: Processing section 37/313: "Problems............................................................" (pages 90-93)
+[2025-09-03T18:20:13.918Z] 📄 TOC-ONLY: Extracting section "Problems............................................................" from TOC pages 90-93
+[2025-09-03T18:20:13.918Z] ✅ TOC-ONLY: Extracted 11121 chars from 4 TOC pages (90, 91, 92, 93)
+[2025-09-03T18:20:13.918Z] 📖 TOC-ONLY: Content preview: "tables
+
+
+mortgage payment analysis, 188–189 LOWER, 54
+one-way data tables, 184, 185–186 MID, 53, 57, 59
+overview of, 183–184 overview of, 51–52
+problems for, 192–195 problems for, 67–68
+profit-..."
+[2025-09-03T18:20:13.918Z] 📊 TOC-ONLY: Character positions - Start: 206933, End: 218054
+[2025-09-03T18:20:13.919Z] ✅ TOC-ONLY: Extracted 11121 chars from TOC pages 90-93
+[2025-09-03T18:20:13.919Z] 🎯 TOC-SCOPED REFINEMENT: Refining "Problems............................................................" within TOC pages 90-93
+[2025-09-03T18:20:13.919Z] 🔍 TOC-SCOPED: Searching within TOC pages text (11121 chars)
+[2025-09-03T18:20:13.919Z] 🔍 SEARCH: Looking for "Problems" in text starting from position 0
+[2025-09-03T18:20:13.919Z] 🔍 DEBUG: text exists: true, length: 11121
+[2025-09-03T18:20:13.919Z] 🔍 DEBUG: cleanTitle type: string, value: "Problems"
+[2025-09-03T18:20:13.919Z] 🔍 DEBUG: startFrom: 0
+[2025-09-03T18:20:13.919Z] 🔍 DEBUG: normalizedTitle after regex: "Problems"
+[2025-09-03T18:20:13.920Z] 🔍 SEARCH: Normalized title: "Problems"
+[2025-09-03T18:20:13.920Z] ✅ SEARCH: Found exact match at position 150
+[2025-09-03T18:20:13.920Z] ✅ TOC-SCOPED: Found section start at position 150 within TOC pages
+[2025-09-03T18:20:13.920Z] 🔍 SEARCH: Looking for "Chapter 9 The internal rate of return: IRR, XIRR, and MIRR functions" in text starting from position 200
+[2025-09-03T18:20:13.920Z] 🔍 DEBUG: text exists: true, length: 11121
+[2025-09-03T18:20:13.920Z] 🔍 DEBUG: cleanTitle type: string, value: "Chapter 9 The internal rate of return: IRR, XIRR, and MIRR functions"
+[2025-09-03T18:20:13.920Z] 🔍 DEBUG: startFrom: 200
+[2025-09-03T18:20:13.920Z] 🔍 DEBUG: normalizedTitle after regex: "Chapter 9 The internal rate of return: IRR, XIRR, and MIRR functions"
+[2025-09-03T18:20:13.921Z] 🔍 SEARCH: Normalized title: "Chapter 9 The internal rate of return: IRR, XIRR, and MIRR functions"
+[2025-09-03T18:20:13.921Z] 🔍 DEBUG: Split into chars: [c, h, a, p, t, e, r,  , 9,  , t, h, e,  , i, n, t, e, r, n, a, l,  , r, a, t, e,  , o, f,  , r, e, t, u, r, n, :,  , i, r, r, ,,  , x, i, r, r, ,,  , a, n, d,  , m, i, r, r,  , f, u, n, c, t, i, o, n, s]
+[2025-09-03T18:20:13.921Z] 🔍 DEBUG: Generated variations: 50
+[2025-09-03T18:20:13.921Z] 🔍 SEARCH: Generated 50 space variations
+[2025-09-03T18:20:13.922Z] ❌ SEARCH: No match found for "Chapter 9 The internal rate of return: IRR, XIRR, and MIRR functions"
+[2025-09-03T18:20:13.922Z] ✅ TOC-SCOPED REFINEMENT: Successfully refined - 10971 chars within TOC pages 90-93
+[2025-09-03T18:20:13.922Z] 🎯 TOC-SCOPED: Refined section within TOC pages (10971 chars)
+[2025-09-03T18:20:13.922Z] 📄 Splitting section "Problems............................................................" (10971 chars) for embedding
+[2025-09-03T18:20:13.922Z] 📄 Split "Problems............................................................" into 2 embedding-safe parts
+[2025-09-03T18:20:13.922Z] 📄 Split section "Problems............................................................" into 2 parts for embedding
+[2025-09-03T18:20:13.976Z] 📄 SIMPLE: Processing section 38/313: "Chapter 9 The internal rate of return: IRR, XIRR, and MIRR functions" (pages 93-101)
+[2025-09-03T18:20:13.976Z] 📄 TOC-ONLY: Extracting section "Chapter 9 The internal rate of return: IRR, XIRR, and MIRR functions" from TOC pages 93-101
+[2025-09-03T18:20:13.976Z] ✅ TOC-ONLY: Extracted 9404 chars from 4 TOC pages (93, 94, 95, 96)
+[2025-09-03T18:20:13.976Z] 📖 TOC-ONLY: Content preview: "variables, random
+
+
+Unemployment. xlsx file, 376 numeric values, 476–477
+Unfreeze Panes command (Freeze Panes menu), 128 problems for, 481–482
+Unhide Columns command, 189 state abbreviations, 477..."
+[2025-09-03T18:20:13.977Z] 📊 TOC-ONLY: Character positions - Start: 215312, End: 224716
+[2025-09-03T18:20:13.977Z] ✅ TOC-ONLY: Extracted 9404 chars from TOC pages 93-101
+[2025-09-03T18:20:13.977Z] 🎯 TOC-SCOPED REFINEMENT: Refining "Chapter 9 The internal rate of return: IRR, XIRR, and MIRR functions" within TOC pages 93-101
+[2025-09-03T18:20:13.977Z] 🔍 TOC-SCOPED: Searching within TOC pages text (9404 chars)
+[2025-09-03T18:20:13.977Z] 🔍 SEARCH: Looking for "Chapter 9 The internal rate of return: IRR, XIRR, and MIRR functions" in text starting from position 0
+[2025-09-03T18:20:13.977Z] 🔍 DEBUG: text exists: true, length: 9404
+[2025-09-03T18:20:13.977Z] 🔍 DEBUG: cleanTitle type: string, value: "Chapter 9 The internal rate of return: IRR, XIRR, and MIRR functions"
+[2025-09-03T18:20:13.978Z] 🔍 DEBUG: startFrom: 0
+[2025-09-03T18:20:13.978Z] 🔍 DEBUG: normalizedTitle after regex: "Chapter 9 The internal rate of return: IRR, XIRR, and MIRR functions"
+[2025-09-03T18:20:13.978Z] 🔍 SEARCH: Normalized title: "Chapter 9 The internal rate of return: IRR, XIRR, and MIRR functions"
+[2025-09-03T18:20:13.978Z] 🔍 DEBUG: Split into chars: [c, h, a, p, t, e, r,  , 9,  , t, h, e,  , i, n, t, e, r, n, a, l,  , r, a, t, e,  , o, f,  , r, e, t, u, r, n, :,  , i, r, r, ,,  , x, i, r, r, ,,  , a, n, d,  , m, i, r, r,  , f, u, n, c, t, i, o, n, s]
+[2025-09-03T18:20:13.978Z] 🔍 DEBUG: Generated variations: 50
+[2025-09-03T18:20:13.978Z] 🔍 SEARCH: Generated 50 space variations
+[2025-09-03T18:20:13.979Z] ❌ SEARCH: No match found for "Chapter 9 The internal rate of return: IRR, XIRR, and MIRR functions"
+[2025-09-03T18:20:13.979Z] ⚠️ Section title "Chapter 9 The internal rate of return: IRR, XIRR, and MIRR functions" not found within TOC pages, using whole pages
+[2025-09-03T18:20:13.979Z] 📄 TOC-ONLY: Using complete TOC pages content
+[2025-09-03T18:20:14.031Z] 📄 SIMPLE: Processing section 39/313: "Answers to this chapter’s questions..................................." (pages 94-98)
+[2025-09-03T18:20:14.032Z] 📄 TOC-ONLY: Extracting section "Answers to this chapter’s questions..................................." from TOC pages 94-98
+[2025-09-03T18:20:14.032Z] ✅ TOC-ONLY: Extracted 6660 chars from 3 TOC pages (94, 95, 96)
+[2025-09-03T18:20:14.032Z] 📖 TOC-ONLY: Content preview: "variables, random
+
+
+modeling future prices of stock as, 796–797 volatility
+problems for, 798 historical, 956–957
+standard deviation, 795 implied, 796
+stock prices following, 796 of stock, 955, 9..."
+[2025-09-03T18:20:14.032Z] 📊 TOC-ONLY: Character positions - Start: 218056, End: 224716
+[2025-09-03T18:20:14.032Z] ✅ TOC-ONLY: Extracted 6660 chars from TOC pages 94-98
+[2025-09-03T18:20:14.033Z] 🎯 TOC-SCOPED REFINEMENT: Refining "Answers to this chapter’s questions..................................." within TOC pages 94-98
+[2025-09-03T18:20:14.033Z] 🔍 TOC-SCOPED: Searching within TOC pages text (6660 chars)
+[2025-09-03T18:20:14.033Z] 🔍 SEARCH: Looking for "Answers to this chapter’s questions" in text starting from position 0
+[2025-09-03T18:20:14.033Z] 🔍 DEBUG: text exists: true, length: 6660
+[2025-09-03T18:20:14.033Z] 🔍 DEBUG: cleanTitle type: string, value: "Answers to this chapter’s questions"
+[2025-09-03T18:20:14.033Z] 🔍 DEBUG: startFrom: 0
+[2025-09-03T18:20:14.033Z] 🔍 DEBUG: normalizedTitle after regex: "Answers to this chapter’s questions"
+[2025-09-03T18:20:14.033Z] 🔍 SEARCH: Normalized title: "Answers to this chapter’s questions"
+[2025-09-03T18:20:14.034Z] 🔍 DEBUG: Split into chars: [a, n, s, w, e, r, s,  , t, o,  , t, h, i, s,  , c, h, a, p, t, e, r, ’, s,  , q, u, e, s, t, i, o, n, s]
+[2025-09-03T18:20:14.034Z] 🔍 DEBUG: Generated variations: 50
+[2025-09-03T18:20:14.034Z] 🔍 SEARCH: Generated 50 space variations
+[2025-09-03T18:20:14.034Z] ❌ SEARCH: No match found for "Answers to this chapter’s questions"
+[2025-09-03T18:20:14.034Z] ⚠️ Section title "Answers to this chapter’s questions" not found within TOC pages, using whole pages
+[2025-09-03T18:20:14.034Z] 📄 TOC-ONLY: Using complete TOC pages content
+[2025-09-03T18:20:14.087Z] 📄 SIMPLE: Processing section 40/313: "Problems............................................................" (pages 98-101)
+[2025-09-03T18:20:14.088Z] 📄 TOC-ONLY: Extracting section "Problems............................................................" from TOC pages 98-101
+[2025-09-03T18:20:14.088Z] ❌ No pages found for section "Problems............................................................" (TOC pages 98-101)
+[2025-09-03T18:20:14.088Z] ❌ Available pages: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96
+[2025-09-03T18:20:14.088Z] INFO: 
+[2025-09-03T18:20:14.088Z] INFO: ------------------------------------------------------------
+[2025-09-03T18:20:14.088Z] INFO: SECTION: ERROR HANDLING
+[2025-09-03T18:20:14.088Z] INFO: ------------------------------------------------------------
+[2025-09-03T18:20:14.088Z] ERROR: ERROR in continue processing: TOC pages 98-101 not found for section "Problems............................................................"
+[2025-09-03T18:20:14.100Z] ERROR: Stack trace:
+[2025-09-03T18:20:14.100Z] ERROR:   Error: TOC pages 98-101 not found for section "Problems............................................................"
+[2025-09-03T18:20:14.100Z] ERROR:       at SectionProcessor.extractSectionByPagesOnly (D:\FAXit\backend\src\services\sectionProcessor.ts:114:13)
+[2025-09-03T18:20:14.100Z] ERROR:       at SectionProcessor.processTocSections (D:\FAXit\backend\src\services\sectionProcessor.ts:53:35)
+[2025-09-03T18:20:14.100Z] ERROR:       at processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-09-03T18:20:14.100Z] ERROR:       at async DocumentIngestionService.continueProcessingAfterTOC (D:\FAXit\backend\src\services\documentIngestionService.ts:2815:33)
+[2025-09-03T18:20:14.100Z] ERROR:       at async Immediate.<anonymous> (D:\FAXit\backend\src\routes\ingestion.ts:764:9)
+[2025-09-03T18:20:14.100Z] INFO: Updating material status to failed
+[2025-09-03T18:20:14.192Z] INFO: 
+[2025-09-03T18:20:14.192Z] INFO: ================================================================================
+[2025-09-03T18:20:14.192Z] INFO: End Time: 2025-09-03T18:20:14.192Z
+[2025-09-03T18:20:14.192Z] INFO: Total Processing Time: 7 seconds
+[2025-09-03T18:20:14.192Z] INFO: Total Log Entries: 1207
+[2025-09-03T18:20:14.192Z] INFO: ================================================================================

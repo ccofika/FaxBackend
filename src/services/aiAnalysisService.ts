@@ -23,8 +23,22 @@ class AIAnalysisService {
   }
 
   async analyzeTOC(tocText: string, startPage: number = 1, endPage: number = 4, materialId?: string, subjectId?: string): Promise<TocAnalysisResult> {
-    // Process entire TOC text without restrictions - AI will handle the full content
-    console.log(`📊 Analyzing complete TOC: ${tocText.length} chars - processing entire content`);
+    console.log(`📊 Analyzing TOC: ${tocText.length} characters`);
+    
+    // Check if TOC is too large for single processing
+    const MAX_CHARS_PER_CHUNK = 15000; // Optimal size for AI processing
+    
+    if (tocText.length > MAX_CHARS_PER_CHUNK) {
+      console.log(`📊 TOC is large (${tocText.length} chars), splitting into chunks for processing`);
+      return await this.processLargeTOC(tocText, startPage, endPage, materialId, subjectId, MAX_CHARS_PER_CHUNK);
+    }
+    
+    // Process smaller TOCs directly
+    return await this.processSingleTOC(tocText, startPage, endPage, materialId, subjectId);
+  }
+
+  private async processSingleTOC(tocText: string, startPage: number = 1, endPage: number = 4, materialId?: string, subjectId?: string): Promise<TocAnalysisResult> {
+    console.log(`📊 Processing single TOC chunk: ${tocText.length} characters`);
 
     const prompt = `Extract ALL sections from the Table of Contents as comprehensive JSON without any limitations:
 
@@ -156,6 +170,158 @@ Return comprehensive JSON with ALL sections: {"sections":[...]}`;
     }
   }
 
+  private async processLargeTOC(
+    tocText: string, 
+    startPage: number, 
+    endPage: number, 
+    materialId?: string, 
+    subjectId?: string,
+    maxCharsPerChunk: number = 15000
+  ): Promise<TocAnalysisResult> {
+    console.log(`🔄 Processing large TOC with chunking strategy`);
+    
+    // Split TOC into logical chunks
+    const chunks = this.splitTOCIntoChunks(tocText, maxCharsPerChunk);
+    console.log(`📦 Split TOC into ${chunks.length} chunks`);
+    
+    // Process each chunk individually
+    const allResults: TocAnalysisResult[] = [];
+    
+    for (let i = 0; i < chunks.length; i++) {
+      const chunk = chunks[i];
+      console.log(`🔄 Processing chunk ${i + 1}/${chunks.length} (${chunk.text.length} chars)`);
+      
+      try {
+        const chunkResult = await this.processSingleTOC(chunk.text, chunk.startPage, chunk.endPage);
+        allResults.push(chunkResult);
+        console.log(`✅ Chunk ${i + 1} processed successfully: ${chunkResult.sections.length} sections`);
+      } catch (error) {
+        console.error(`❌ Error processing chunk ${i + 1}:`, error);
+        // Use fallback for failed chunks
+        const fallbackResult = this.fallbackTocParsing(chunk.text);
+        allResults.push(fallbackResult);
+        console.log(`🔄 Fallback used for chunk ${i + 1}: ${fallbackResult.sections.length} sections`);
+      }
+      
+      // Small delay between chunks to avoid rate limiting
+      if (i < chunks.length - 1) {
+        await new Promise(resolve => setTimeout(resolve, 500));
+      }
+    }
+    
+    // Merge all results into single TOC analysis
+    const mergedResult = this.mergeChunkResults(allResults);
+    console.log(`🔗 Merged ${allResults.length} chunks into ${mergedResult.sections.length} total sections`);
+    
+    // Save to database if IDs provided
+    if (materialId && subjectId) {
+      await this.saveTocAnalysis(mergedResult, materialId, subjectId, `${startPage}-${endPage}`);
+    }
+    
+    return mergedResult;
+  }
+
+  private splitTOCIntoChunks(tocText: string, maxCharsPerChunk: number): Array<{text: string, startPage: number, endPage: number}> {
+    const lines = tocText.split('\n');
+    const chunks: Array<{text: string, startPage: number, endPage: number}> = [];
+    
+    let currentChunk = '';
+    let currentChunkStartPage = 1;
+    let currentChunkEndPage = 1;
+    let chunkLineCount = 0;
+    
+    for (let i = 0; i < lines.length; i++) {
+      const line = lines[i];
+      const potentialChunk = currentChunk + (currentChunk ? '\n' : '') + line;
+      
+      // Check if adding this line would exceed the chunk size
+      if (potentialChunk.length > maxCharsPerChunk && currentChunk.length > 0) {
+        // Save current chunk and start a new one
+        chunks.push({
+          text: currentChunk.trim(),
+          startPage: currentChunkStartPage,
+          endPage: currentChunkEndPage
+        });
+        
+        // Start new chunk with current line
+        currentChunk = line;
+        currentChunkStartPage = this.extractPageFromLine(line) || currentChunkEndPage + 1;
+        currentChunkEndPage = currentChunkStartPage;
+        chunkLineCount = 1;
+      } else {
+        // Add line to current chunk
+        currentChunk = potentialChunk;
+        chunkLineCount++;
+        
+        // Update page tracking
+        const linePageNum = this.extractPageFromLine(line);
+        if (linePageNum) {
+          if (chunkLineCount === 1) {
+            currentChunkStartPage = linePageNum;
+          }
+          currentChunkEndPage = linePageNum;
+        }
+      }
+    }
+    
+    // Add the last chunk if it has content
+    if (currentChunk.trim()) {
+      chunks.push({
+        text: currentChunk.trim(),
+        startPage: currentChunkStartPage,
+        endPage: currentChunkEndPage
+      });
+    }
+    
+    return chunks;
+  }
+
+  private extractPageFromLine(line: string): number | null {
+    // Extract page number from TOC line using common patterns
+    const patterns = [
+      /\b(\d+)\s*$/,  // Page number at end of line
+      /\.{2,}\s*(\d+)\s*$/,  // Page after dots
+      /_{2,}\s*(\d+)\s*$/,   // Page after underscores
+      /-{2,}\s*(\d+)\s*$/    // Page after dashes
+    ];
+    
+    for (const pattern of patterns) {
+      const match = line.match(pattern);
+      if (match) {
+        const pageNum = parseInt(match[1]);
+        if (pageNum > 0 && pageNum < 10000) { // Reasonable page number range
+          return pageNum;
+        }
+      }
+    }
+    
+    return null;
+  }
+
+  private mergeChunkResults(results: TocAnalysisResult[]): TocAnalysisResult {
+    const allSections: any[] = [];
+    
+    for (const result of results) {
+      if (result.sections && Array.isArray(result.sections)) {
+        allSections.push(...result.sections);
+      }
+    }
+    
+    // Sort by page start to maintain proper order
+    allSections.sort((a, b) => a.pageStart - b.pageStart);
+    
+    // Remove potential duplicates based on title and page
+    const uniqueSections = allSections.filter((section, index, arr) => {
+      return index === 0 || 
+             section.title !== arr[index - 1].title || 
+             section.pageStart !== arr[index - 1].pageStart;
+    });
+    
+    console.log(`🔗 Merged sections: ${allSections.length} total, ${uniqueSections.length} unique`);
+    
+    return { sections: uniqueSections };
+  }
+
   private validateAndCleanTocResult(result: TocAnalysisResult): TocAnalysisResult {
     if (!result.sections || !Array.isArray(result.sections)) {
       throw new Error('Invalid AI response: sections must be an array');
@@ -272,7 +438,7 @@ Return comprehensive JSON with ALL sections: {"sections":[...]}`;
         }));
         existingAnalysis.totalSections = result.sections.length;
         existingAnalysis.processedSections = 0;
-        existingAnalysis.status = 'pending';
+        existingAnalysis.status = 'completed';
         existingAnalysis.tocPages = tocPages;
         
         await existingAnalysis.save();
@@ -306,7 +472,7 @@ Return comprehensive JSON with ALL sections: {"sections":[...]}`;
           })),
           totalSections: result.sections.length,
           processedSections: 0,
-          status: 'pending'
+          status: 'completed'
         });
         
         await tocAnalysis.save();

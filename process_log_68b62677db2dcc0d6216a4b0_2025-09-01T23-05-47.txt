@@ -1,0 +1,1704 @@
+[2025-09-01T23:05:47.245Z] INFO: ================================================================================
+[2025-09-01T23:05:47.245Z] INFO: DOCUMENT PROCESSING LOG
+[2025-09-01T23:05:47.245Z] INFO: Material ID: 68b62677db2dcc0d6216a4b0
+[2025-09-01T23:05:47.245Z] INFO: Start Time: 2025-09-01T23:05:47.244Z
+[2025-09-01T23:05:47.245Z] INFO: ================================================================================
+[2025-09-01T23:05:47.245Z] INFO: 
+[2025-09-01T23:05:47.245Z] INFO: Continuing processing after TOC review for material: 68b62677db2dcc0d6216a4b0
+[2025-09-01T23:05:47.245Z] INFO: Loading material from database
+[2025-09-01T23:05:47.291Z] INFO: Material loaded: skripta_E1_2013 - continuing from TOC review
+[2025-09-01T23:05:47.338Z] INFO: Loading TOC analysis from database
+[2025-09-01T23:05:47.383Z] 📚 Using reviewed TOC analysis with 35 sections
+[2025-09-01T23:05:47.433Z] Progress: extract - 20% - Re-downloading PDF for section extraction
+[2025-09-01T23:05:47.656Z] Progress: extract - 40% - Extracting text from all pages
+[2025-09-01T23:05:47.656Z] 🔄 Using node-poppler for true page-by-page extraction (pages 1 to 1000)
+[2025-09-01T23:05:47.657Z] 📁 Created temp PDF file: C:\Users\ccofi\AppData\Local\Temp\temp_pdf_1756767947656.pdf
+[2025-09-01T23:05:47.776Z] 📚 PDF has 100 pages, extracting 1 to 100
+[2025-09-01T23:05:47.776Z] 📄 Extracting page 1/100...
+[2025-09-01T23:05:47.813Z] ✅ Page 1 extracted: 172 characters
+[2025-09-01T23:05:47.813Z] 📖 Page 1 preview: "VISOKA ŠKOLA STRUKOVNIH STUDIJA ZA INFORMACIONE TEHNOLOGIJE
+
+
+
+
+Predavač
+
+
+Terzić Milica, di..."
+[2025-09-01T23:05:47.813Z] 📄 Extracting page 2/100...
+[2025-09-01T23:05:47.837Z] ✅ Page 2 extracted: 3507 characters
+[2025-09-01T23:05:47.837Z] 📖 Page 2 preview: "Sadržaj:
+
+
+The Simple Present Tense................................................................."
+[2025-09-01T23:05:47.837Z] 📄 Extracting page 3/100...
+[2025-09-01T23:05:47.862Z] ✅ Page 3 extracted: 606 characters
+[2025-09-01T23:05:47.862Z] 📖 Page 3 preview: "The Second Conditional................................................................................."
+[2025-09-01T23:05:47.863Z] 📄 Extracting page 4/100...
+[2025-09-01T23:05:47.892Z] ✅ Page 4 extracted: 2016 characters
+[2025-09-01T23:05:47.892Z] 📖 Page 4 preview: "THE SIMPLE PRESENT TENSE (PROSTO SADAŠNJE VREME)
+
+Prosto sadašnje vreme (present simple tense) se ..."
+[2025-09-01T23:05:47.892Z] 📄 Extracting page 5/100...
+[2025-09-01T23:05:47.919Z] ✅ Page 5 extracted: 1609 characters
+[2025-09-01T23:05:47.919Z] 📖 Page 5 preview: "Does she work? – Da li ona radi?
+Does it work? – Da li ono radi?
+
+Na Yes/No pitanja se odgovara k..."
+[2025-09-01T23:05:47.919Z] 📄 Extracting page 6/100...
+[2025-09-01T23:05:47.954Z] ✅ Page 6 extracted: 1742 characters
+[2025-09-01T23:05:47.954Z] 📖 Page 6 preview: "The English drink tea at 5 o'clock in the afternoon. (Englezi piju čaj u 5 sati popodne.)
+
+U ovom ..."
+[2025-09-01T23:05:47.954Z] 📄 Extracting page 7/100...
+[2025-09-01T23:05:47.985Z] ✅ Page 7 extracted: 1704 characters
+[2025-09-01T23:05:47.985Z] 📖 Page 7 preview: "Ako se glagol završava na jedan suglasnik ispred kojeg stoji kratak, naglašen samoglasnik,
+krajnji ..."
+[2025-09-01T23:05:47.985Z] 📄 Extracting page 8/100...
+[2025-09-01T23:05:48.014Z] ✅ Page 8 extracted: 1561 characters
+[2025-09-01T23:05:48.015Z] 📖 Page 8 preview: "Where is he working? – Gde on radi? Where are they working? – Gde oni
+Where is she working? – Gde o..."
+[2025-09-01T23:05:48.015Z] 📄 Extracting page 9/100...
+[2025-09-01T23:05:48.044Z] ✅ Page 9 extracted: 1679 characters
+[2025-09-01T23:05:48.044Z] 📖 Page 9 preview: "understand – razumeti,
+wish – želeti,
+want – hteti,
+know – znati, itd.
+
+Oni su, umesto u presen..."
+[2025-09-01T23:05:48.044Z] 📄 Extracting page 10/100...
+[2025-09-01T23:05:48.076Z] ✅ Page 10 extracted: 1969 characters
+[2025-09-01T23:05:48.076Z] 📖 Page 10 preview: "Ukoliko se infinitiv završava na jedan suglasnik ispred koga je kratak, naglašen
+samoglasnik, taj k..."
+[2025-09-01T23:05:48.076Z] 📄 Extracting page 11/100...
+[2025-09-01T23:05:48.101Z] ✅ Page 11 extracted: 1673 characters
+[2025-09-01T23:05:48.101Z] 📖 Page 11 preview: "Kod rečenice:
+Who called you? (Ko te je pozvao?) odgovor na pitanje glasi
+John called me.
+Odgovor..."
+[2025-09-01T23:05:48.101Z] 📄 Extracting page 12/100...
+[2025-09-01T23:05:48.127Z] ✅ Page 12 extracted: 1801 characters
+[2025-09-01T23:05:48.127Z] 📖 Page 12 preview: "My father built this house in 1997. (Moj otac je sagradio ovu kuću 1997.-e)
+The day before yesterda..."
+[2025-09-01T23:05:48.127Z] 📄 Extracting page 13/100...
+[2025-09-01T23:05:48.155Z] ✅ Page 13 extracted: 1646 characters
+[2025-09-01T23:05:48.155Z] 📖 Page 13 preview: "Jednina (singular) Množina (plural)
+Where was I working? – Gde sam ja Where were we working? – Gde ..."
+[2025-09-01T23:05:48.155Z] 📄 Extracting page 14/100...
+[2025-09-01T23:05:48.178Z] ✅ Page 14 extracted: 1203 characters
+[2025-09-01T23:05:48.179Z] 📖 Page 14 preview: "When we arrived they were playing cards. (Kada smo stigli oni su igrali karte.)
+
+Napomena: Glagoli..."
+[2025-09-01T23:05:48.179Z] 📄 Extracting page 15/100...
+[2025-09-01T23:05:48.203Z] ✅ Page 15 extracted: 2316 characters
+[2025-09-01T23:05:48.204Z] 📖 Page 15 preview: "COMPARISON OF ADJECTIVES (POREĐENJE PRIDEVA)
+
+Kod jednosložnih i nekih dvosložnih prideva komparat..."
+[2025-09-01T23:05:48.204Z] 📄 Extracting page 16/100...
+[2025-09-01T23:05:48.229Z] ✅ Page 16 extracted: 1942 characters
+[2025-09-01T23:05:48.229Z] 📖 Page 16 preview: "THE FUTURE SIMPLE TENSE (PROSTO BUDUĆE VREME)
+
+
+Future Simple Tense (Prosto buduće vreme) se grad..."
+[2025-09-01T23:05:48.230Z] 📄 Extracting page 17/100...
+[2025-09-01T23:05:48.259Z] ✅ Page 17 extracted: 2089 characters
+[2025-09-01T23:05:48.259Z] 📖 Page 17 preview: "Odrični oblik
+
+Jednina (singular) Množina (plural)
+I will not (won’t) work – Ja neću We will not ..."
+[2025-09-01T23:05:48.259Z] 📄 Extracting page 18/100...
+[2025-09-01T23:05:48.285Z] ✅ Page 18 extracted: 2044 characters
+[2025-09-01T23:05:48.285Z] 📖 Page 18 preview: "PREPOSITIONS OF PLACE (PREDLOZI ZA MESTO)
+
+Kao predlog za mesto at služi da odredi mesto gde se ne..."
+[2025-09-01T23:05:48.285Z] 📄 Extracting page 19/100...
+[2025-09-01T23:05:48.310Z] ✅ Page 19 extracted: 926 characters
+[2025-09-01T23:05:48.310Z] 📖 Page 19 preview: "PREPOSITIONS OF TIME (PREDLOZI ZA VREME)
+
+Kao predlog za vreme at se koristi za izražavanje sati i..."
+[2025-09-01T23:05:48.310Z] 📄 Extracting page 20/100...
+[2025-09-01T23:05:48.337Z] ✅ Page 20 extracted: 2120 characters
+[2025-09-01T23:05:48.337Z] 📖 Page 20 preview: "REFLEXIVE PRONOUNS (POVRATNE ZAMENICE)
+
+Povratna zamenica u srpskom jeziku se izražava pomoću: «SE..."
+[2025-09-01T23:05:48.337Z] 📄 Extracting page 21/100...
+[2025-09-01T23:05:48.365Z] ✅ Page 21 extracted: 2193 characters
+[2025-09-01T23:05:48.365Z] 📖 Page 21 preview: "Jednina (singular) Množina (plural)
+I have (I've) slept – Ja sam spavao We have slept (We've) – Mi ..."
+[2025-09-01T23:05:48.365Z] 📄 Extracting page 22/100...
+[2025-09-01T23:05:48.390Z] ✅ Page 22 extracted: 2179 characters
+[2025-09-01T23:05:48.390Z] 📖 Page 22 preview: "He has not (hasn't) worked – On nije They have not (haven't) worked – Oni
+radio nisu radili
+She ha..."
+[2025-09-01T23:05:48.391Z] 📄 Extracting page 23/100...
+[2025-09-01T23:05:48.416Z] ✅ Page 23 extracted: 2788 characters
+[2025-09-01T23:05:48.416Z] 📖 Page 23 preview: "Past Simple će se upotrebiti kada imamo vremensku frazu koja nam jasno ukazuje na to kada
+se nešto ..."
+[2025-09-01T23:05:48.416Z] 📄 Extracting page 24/100...
+[2025-09-01T23:05:48.441Z] ✅ Page 24 extracted: 3040 characters
+[2025-09-01T23:05:48.441Z] 📖 Page 24 preview: "Ovom konstrukciojm možemo i zabranjivati.
+You are not allowed to smoke in the classroom. (Ne dozvol..."
+[2025-09-01T23:05:48.441Z] 📄 Extracting page 25/100...
+[2025-09-01T23:05:48.468Z] ✅ Page 25 extracted: 2054 characters
+[2025-09-01T23:05:48.468Z] 📖 Page 25 preview: "THE PAST PERFECT SIMPLE TENSE (DAVNO PROŠLO PROSTO VREME)
+
+Davno prošlo prosto vreme (past perfect..."
+[2025-09-01T23:05:48.468Z] 📄 Extracting page 26/100...
+[2025-09-01T23:05:48.494Z] ✅ Page 26 extracted: 1882 characters
+[2025-09-01T23:05:48.494Z] 📖 Page 26 preview: "Upitni oblik – Wh- questions
+
+Jednina (singular) Množina (plural)
+Where had I worked? – Gde sam j..."
+[2025-09-01T23:05:48.494Z] 📄 Extracting page 27/100...
+[2025-09-01T23:05:48.521Z] ✅ Page 27 extracted: 2001 characters
+[2025-09-01T23:05:48.521Z] 📖 Page 27 preview: "COUNTABLE AND UNCOUNTABLE NOUNS (BROJIVE I NEBROJIVE
+IMENICE)
+
+
+Brojive imenice (countable nouns..."
+[2025-09-01T23:05:48.521Z] 📄 Extracting page 28/100...
+[2025-09-01T23:05:48.547Z] ✅ Page 28 extracted: 1531 characters
+[2025-09-01T23:05:48.547Z] 📖 Page 28 preview: "Neodređeni član se koristi ispred imenskog dela predikata i profesija.
+I am a student. (Ja sam stud..."
+[2025-09-01T23:05:48.547Z] 📄 Extracting page 29/100...
+[2025-09-01T23:05:48.572Z] ✅ Page 29 extracted: 747 characters
+[2025-09-01T23:05:48.572Z] 📖 Page 29 preview: "IZOSTAVLJANE ČLANA
+
+Član se ne koristi
+
+Sa imenicama u množini i nebrojivim imenicama kada govor..."
+[2025-09-01T23:05:48.572Z] 📄 Extracting page 30/100...
+[2025-09-01T23:05:48.599Z] ✅ Page 30 extracted: 2509 characters
+[2025-09-01T23:05:48.599Z] 📖 Page 30 preview: "VERB PATTERNS (GLAGOLSKI OBRASCI)
+
+
+Određeni glagoli zahtevaju iza sebe gerund (glagolska osnova+..."
+[2025-09-01T23:05:48.600Z] 📄 Extracting page 31/100...
+[2025-09-01T23:05:48.624Z] ✅ Page 31 extracted: 2513 characters
+[2025-09-01T23:05:48.624Z] 📖 Page 31 preview: "ili u rečenici
+That is the dog that attacked me, that je takođe subjekat rečenice.
+Međutim, u reče..."
+[2025-09-01T23:05:48.625Z] 📄 Extracting page 32/100...
+[2025-09-01T23:05:48.650Z] ✅ Page 32 extracted: 2412 characters
+[2025-09-01T23:05:48.650Z] 📖 Page 32 preview: "Evo do kojih promena u vremenima dolazi pri slaganju vremena.
+
+Present Simple Tense prelazi u Past..."
+[2025-09-01T23:05:48.650Z] 📄 Extracting page 33/100...
+[2025-09-01T23:05:48.679Z] ✅ Page 33 extracted: 2374 characters
+[2025-09-01T23:05:48.679Z] 📖 Page 33 preview: "Ako se radi o Wh-pitanjima if nije potrebno. Wh- pitanja počinju upitnim rečima when,
+which, who, w..."
+[2025-09-01T23:05:48.679Z] 📄 Extracting page 34/100...
+[2025-09-01T23:05:48.705Z] ✅ Page 34 extracted: 2685 characters
+[2025-09-01T23:05:48.705Z] 📖 Page 34 preview: "Kao varijacije prvog kondicionala javljaju se sledeće izmene.
+
+Umesto oblika will+infinitiv mogu s..."
+[2025-09-01T23:05:48.706Z] 📄 Extracting page 35/100...
+[2025-09-01T23:05:48.731Z] ✅ Page 35 extracted: 2046 characters
+[2025-09-01T23:05:48.732Z] 📖 Page 35 preview: "U uslovnoj rečenici se takođe mogu javiti neke varijacije. Umesto Past Perfect Tense-a može se
+javi..."
+[2025-09-01T23:05:48.732Z] 📄 Extracting page 36/100...
+[2025-09-01T23:05:48.755Z] ✅ Page 36 extracted: 426 characters
+[2025-09-01T23:05:48.756Z] 📖 Page 36 preview: "The house was built in the 19th century. (Kuća je izgranena u 19.-om veku.)
+Kada izvršilac radnje n..."
+[2025-09-01T23:05:48.756Z] 📄 Extracting page 37/100...
+[2025-09-01T23:05:48.781Z] ✅ Page 37 extracted: 2047 characters
+[2025-09-01T23:05:48.781Z] 📖 Page 37 preview: "EXERCISES (VEŽBANJA)
+
+Glagole u zagradama stavite u odgovarajuće vreme (present simple / present
+..."
+[2025-09-01T23:05:48.781Z] 📄 Extracting page 38/100...
+[2025-09-01T23:05:48.806Z] ✅ Page 38 extracted: 1800 characters
+[2025-09-01T23:05:48.806Z] 📖 Page 38 preview: "22. Pera _________________ (be) in his cafe. At the moment four
+guests_________________ (have) a sn..."
+[2025-09-01T23:05:48.806Z] 📄 Extracting page 39/100...
+[2025-09-01T23:05:48.832Z] ✅ Page 39 extracted: 2037 characters
+[2025-09-01T23:05:48.833Z] 📖 Page 39 preview: "3. We couldn’t afford to keep our car, so we _____________ it.
+
+4. I was very thirsty. I _________..."
+[2025-09-01T23:05:48.833Z] 📄 Extracting page 40/100...
+[2025-09-01T23:05:48.858Z] ✅ Page 40 extracted: 2580 characters
+[2025-09-01T23:05:48.858Z] 📖 Page 40 preview: "4. ‘Was Carol at the party last night?’ ‘Yes, she ______________________ (wear)
+a really nice dress..."
+[2025-09-01T23:05:48.858Z] 📄 Extracting page 41/100...
+[2025-09-01T23:05:48.882Z] ✅ Page 41 extracted: 1975 characters
+[2025-09-01T23:05:48.882Z] 📖 Page 41 preview: "26. This time yesterday I ______________________ (prepare) my lessons.
+
+27. Mary _________________..."
+[2025-09-01T23:05:48.883Z] 📄 Extracting page 42/100...
+[2025-09-01T23:05:48.906Z] ✅ Page 42 extracted: 1817 characters
+[2025-09-01T23:05:48.906Z] 📖 Page 42 preview: "2. We’re going _______ a concert tomorrow evening.
+
+3. I went _______ New York last year.
+
+4. Ho..."
+[2025-09-01T23:05:48.906Z] 📄 Extracting page 43/100...
+[2025-09-01T23:05:48.931Z] ✅ Page 43 extracted: 1160 characters
+[2025-09-01T23:05:48.931Z] 📖 Page 43 preview: "19. Will you be _______ home tomorrow afternoon?
+
+20. Who is that man _______ the photograph? Do y..."
+[2025-09-01T23:05:48.932Z] 📄 Extracting page 44/100...
+[2025-09-01T23:05:48.957Z] ✅ Page 44 extracted: 1264 characters
+[2025-09-01T23:05:48.957Z] 📖 Page 44 preview: "We arrived ________5 o'clock _____the morning.
+
+Mozart was born in Salzburg ______1756.
+
+I met A..."
+[2025-09-01T23:05:48.958Z] 📄 Extracting page 45/100...
+[2025-09-01T23:05:48.983Z] ✅ Page 45 extracted: 1844 characters
+[2025-09-01T23:05:48.983Z] 📖 Page 45 preview: "6. Maria ________(be) more nervous yesterday than she _________(be) today.
+
+7. My relatives ______..."
+[2025-09-01T23:05:48.983Z] 📄 Extracting page 46/100...
+[2025-09-01T23:05:49.009Z] ✅ Page 46 extracted: 2369 characters
+[2025-09-01T23:05:49.009Z] 📖 Page 46 preview: "10. A: The ceiling in this room doesn’t look very safe, does it?
+B: No, it looks as if ____________..."
+[2025-09-01T23:05:49.009Z] 📄 Extracting page 47/100...
+[2025-09-01T23:05:49.035Z] ✅ Page 47 extracted: 3002 characters
+[2025-09-01T23:05:49.035Z] 📖 Page 47 preview: "8. Mr. Brown always _______________ (read) his newspapers in the evenings. Mrs. Brown
+sometimes ___..."
+[2025-09-01T23:05:49.035Z] 📄 Extracting page 48/100...
+[2025-09-01T23:05:49.062Z] ✅ Page 48 extracted: 3153 characters
+[2025-09-01T23:05:49.062Z] 📖 Page 48 preview: "2. He ___________ (say) he ___________ (come) to London next week and ___________
+(want) us to meet..."
+[2025-09-01T23:05:49.063Z] 📄 Extracting page 49/100...
+[2025-09-01T23:05:49.089Z] ✅ Page 49 extracted: 3210 characters
+[2025-09-01T23:05:49.089Z] 📖 Page 49 preview: "Look! He _______________ (put) a ticket on Tom’s car. Tom will be furious when he
+_______________ (..."
+[2025-09-01T23:05:49.089Z] 📄 Extracting page 50/100...
+[2025-09-01T23:05:49.115Z] ✅ Page 50 extracted: 2689 characters
+[2025-09-01T23:05:49.115Z] 📖 Page 50 preview: "Jack: And _________ you ___________ (come) back to England after that or
+_________ you __________ (..."
+[2025-09-01T23:05:49.116Z] 📄 Extracting page 51/100...
+[2025-09-01T23:05:49.142Z] ✅ Page 51 extracted: 2585 characters
+[2025-09-01T23:05:49.142Z] 📖 Page 51 preview: "3. She lent you enough money. _______________________________
+
+4. They flew to New York. _________..."
+[2025-09-01T23:05:49.142Z] 📄 Extracting page 52/100...
+[2025-09-01T23:05:49.167Z] ✅ Page 52 extracted: 2395 characters
+[2025-09-01T23:05:49.167Z] 📖 Page 52 preview: "16. We can’t promise _____________ (provide) good weather for your trip – British weather
+is very c..."
+[2025-09-01T23:05:49.167Z] 📄 Extracting page 53/100...
+[2025-09-01T23:05:49.191Z] ✅ Page 53 extracted: 1827 characters
+[2025-09-01T23:05:49.192Z] 📖 Page 53 preview: "______________________________________________________________
+
+12. Kakva užasna situacija! Mrzim ..."
+[2025-09-01T23:05:49.192Z] 📄 Extracting page 54/100...
+[2025-09-01T23:05:49.217Z] ✅ Page 54 extracted: 1890 characters
+[2025-09-01T23:05:49.217Z] 📖 Page 54 preview: "(excit-)
+It will be an ___________________ experience for her.
+Going to new places is always _____..."
+[2025-09-01T23:05:49.217Z] 📄 Extracting page 55/100...
+[2025-09-01T23:05:49.243Z] ✅ Page 55 extracted: 2301 characters
+[2025-09-01T23:05:49.243Z] 📖 Page 55 preview: "7. The lecture was __________________. I fell asleep.
+
+8. I asked Emily if she wanted to come out ..."
+[2025-09-01T23:05:49.243Z] 📄 Extracting page 56/100...
+[2025-09-01T23:05:49.270Z] ✅ Page 56 extracted: 2838 characters
+[2025-09-01T23:05:49.270Z] 📖 Page 56 preview: "_______________ (do)?
+
+18. The boys _______________ (play) cards when they _____________ (hear) th..."
+[2025-09-01T23:05:49.270Z] 📄 Extracting page 57/100...
+[2025-09-01T23:05:49.297Z] ✅ Page 57 extracted: 2936 characters
+[2025-09-01T23:05:49.297Z] 📖 Page 57 preview: "34. I ___________ (come) in very late last night and unfortunately the dog
+______________ (wake) up..."
+[2025-09-01T23:05:49.297Z] 📄 Extracting page 58/100...
+[2025-09-01T23:05:49.322Z] ✅ Page 58 extracted: 1731 characters
+[2025-09-01T23:05:49.322Z] 📖 Page 58 preview: "their way home. A couple of men __________________________ (argue) over the price
+of a leather belt..."
+[2025-09-01T23:05:49.322Z] 📄 Extracting page 59/100...
+[2025-09-01T23:05:49.349Z] ✅ Page 59 extracted: 1219 characters
+[2025-09-01T23:05:49.349Z] 📖 Page 59 preview: "Kompletirajte rečenice koristeći reč koja je data i tako da se zadrži isti smisao.
+Koristiti dve do..."
+[2025-09-01T23:05:49.349Z] 📄 Extracting page 60/100...
+[2025-09-01T23:05:49.375Z] ✅ Page 60 extracted: 2593 characters
+[2025-09-01T23:05:49.375Z] 📖 Page 60 preview: "Popunite rečenice koristeći past simple ili present perfect glagola datih u zagradama.
+
+1. A: Did ..."
+[2025-09-01T23:05:49.375Z] 📄 Extracting page 61/100...
+[2025-09-01T23:05:49.402Z] ✅ Page 61 extracted: 3021 characters
+[2025-09-01T23:05:49.402Z] 📖 Page 61 preview: "Popunite rečenice koristeći past simple ili present perfect glagola datih u zagradama.
+
+1. Who ___..."
+[2025-09-01T23:05:49.403Z] 📄 Extracting page 62/100...
+[2025-09-01T23:05:49.428Z] ✅ Page 62 extracted: 2073 characters
+[2025-09-01T23:05:49.428Z] 📖 Page 62 preview: "her cousin, Lucy. ‘Hello, Lucy.’ she _______________ (exclaim).’ I_______________
+(not know) that y..."
+[2025-09-01T23:05:49.428Z] 📄 Extracting page 63/100...
+[2025-09-01T23:05:49.455Z] ✅ Page 63 extracted: 2165 characters
+[2025-09-01T23:05:49.455Z] 📖 Page 63 preview: "4. Have you read any of Shakespeare’s plays?
+______________________________________________________..."
+[2025-09-01T23:05:49.456Z] 📄 Extracting page 64/100...
+[2025-09-01T23:05:49.484Z] ✅ Page 64 extracted: 2170 characters
+[2025-09-01T23:05:49.484Z] 📖 Page 64 preview: "2. Claire Fox (1957-) is a doctor. She ______________ (develop) new treatments for
+several diseases..."
+[2025-09-01T23:05:49.484Z] 📄 Extracting page 65/100...
+[2025-09-01T23:05:49.512Z] ✅ Page 65 extracted: 2301 characters
+[2025-09-01T23:05:49.512Z] 📖 Page 65 preview: "Popunite rečenice koristeći past simple ili present perfect glagola datih u zagradama.
+
+1. Where _..."
+[2025-09-01T23:05:49.513Z] 📄 Extracting page 66/100...
+[2025-09-01T23:05:49.551Z] ✅ Page 66 extracted: 2203 characters
+[2025-09-01T23:05:49.551Z] 📖 Page 66 preview: "Unfortunately, this tourism ___________ (start) to cause problems. Scientific studies
+___________ (..."
+[2025-09-01T23:05:49.551Z] 📄 Extracting page 67/100...
+[2025-09-01T23:05:49.582Z] ✅ Page 67 extracted: 1705 characters
+[2025-09-01T23:05:49.582Z] 📖 Page 67 preview: "Dovršite rečenice koristeći MUST ili CAN'T i jedan od ponuđenih glagola.
+
+be
+belong
+speak
+come..."
+[2025-09-01T23:05:49.583Z] 📄 Extracting page 68/100...
+[2025-09-01T23:05:49.612Z] ✅ Page 68 extracted: 2172 characters
+[2025-09-01T23:05:49.612Z] 📖 Page 68 preview: "3. He has just been taken to hospital with a broken leg.
+I’m sorry to hear that. I________________ ..."
+[2025-09-01T23:05:49.612Z] 📄 Extracting page 69/100...
+[2025-09-01T23:05:49.639Z] ✅ Page 69 extracted: 2411 characters
+[2025-09-01T23:05:49.639Z] 📖 Page 69 preview: "4. A: Why are you filling that bucket with water?
+B: ____________________________ the car. (I/wash)..."
+[2025-09-01T23:05:49.639Z] 📄 Extracting page 70/100...
+[2025-09-01T23:05:49.665Z] ✅ Page 70 extracted: 1825 characters
+[2025-09-01T23:05:49.665Z] 📖 Page 70 preview: "ANN: That’s no problem. ____________________________ you (I/take). What time is
+your flight?
+JOHN:..."
+[2025-09-01T23:05:49.666Z] 📄 Extracting page 71/100...
+[2025-09-01T23:05:49.692Z] ✅ Page 71 extracted: 1778 characters
+[2025-09-01T23:05:49.692Z] 📖 Page 71 preview: "8. A man was slightly injured in the accident but he _______________________________
+to hospital.
+..."
+[2025-09-01T23:05:49.692Z] 📄 Extracting page 72/100...
+[2025-09-01T23:05:49.719Z] ✅ Page 72 extracted: 1897 characters
+[2025-09-01T23:05:49.719Z] 📖 Page 72 preview: "run
+sleep
+wait
+
+1. I’m afraid I can’t come to your party next week.
+
+2. When Tim was 16, he wa..."
+[2025-09-01T23:05:49.720Z] 📄 Extracting page 73/100...
+[2025-09-01T23:05:49.746Z] ✅ Page 73 extracted: 2080 characters
+[2025-09-01T23:05:49.747Z] 📖 Page 73 preview: "9. A girl fell into the river but fortunately we___________________________ rescue her.
+
+10. I had..."
+[2025-09-01T23:05:49.747Z] 📄 Extracting page 74/100...
+[2025-09-01T23:05:49.774Z] ✅ Page 74 extracted: 2357 characters
+[2025-09-01T23:05:49.774Z] 📖 Page 74 preview: "______________________________________________________________________
+
+Who will fetch the milk to..."
+[2025-09-01T23:05:49.774Z] 📄 Extracting page 75/100...
+[2025-09-01T23:05:49.802Z] ✅ Page 75 extracted: 1995 characters
+[2025-09-01T23:05:49.802Z] 📖 Page 75 preview: "Why does she complain about her salary when she gets on badly with everyone?
+______________________..."
+[2025-09-01T23:05:49.802Z] 📄 Extracting page 76/100...
+[2025-09-01T23:05:49.827Z] ✅ Page 76 extracted: 1990 characters
+[2025-09-01T23:05:49.827Z] 📖 Page 76 preview: "Please, don't tell anybody what happened!
+_________________________________________________________..."
+[2025-09-01T23:05:49.827Z] 📄 Extracting page 77/100...
+[2025-09-01T23:05:49.854Z] ✅ Page 77 extracted: 2162 characters
+[2025-09-01T23:05:49.854Z] 📖 Page 77 preview: "14. She asked me:” When will you get back from your trip?”
+________________________________________..."
+[2025-09-01T23:05:49.854Z] 📄 Extracting page 78/100...
+[2025-09-01T23:05:49.879Z] ✅ Page 78 extracted: 1697 characters
+[2025-09-01T23:05:49.879Z] 📖 Page 78 preview: "4. The people who work in the office are very friendly.
+
+5. The people who I talked to were very a..."
+[2025-09-01T23:05:49.879Z] 📄 Extracting page 79/100...
+[2025-09-01T23:05:49.906Z] ✅ Page 79 extracted: 1990 characters
+[2025-09-01T23:05:49.906Z] 📖 Page 79 preview: "Prevedite sledeće rečenice na engleski jezik.
+
+1. Žena koja živi pored mene je doktor.
+__________..."
+[2025-09-01T23:05:49.906Z] 📄 Extracting page 80/100...
+[2025-09-01T23:05:49.931Z] ✅ Page 80 extracted: 1660 characters
+[2025-09-01T23:05:49.932Z] 📖 Page 80 preview: "17. The car was an invention ______________ changed the world.
+
+18. Is this the shop _____________..."
+[2025-09-01T23:05:49.932Z] 📄 Extracting page 81/100...
+[2025-09-01T23:05:49.956Z] ✅ Page 81 extracted: 1503 characters
+[2025-09-01T23:05:49.956Z] 📖 Page 81 preview: "6. Our guests ate all the cakes.
+______________________________________
+
+7. We bought a new car y..."
+[2025-09-01T23:05:49.957Z] 📄 Extracting page 82/100...
+[2025-09-01T23:05:49.983Z] ✅ Page 82 extracted: 1989 characters
+[2025-09-01T23:05:49.983Z] 📖 Page 82 preview: "3. The book was taken from the table by him.
+_____________________________________________
+
+4. Th..."
+[2025-09-01T23:05:49.984Z] 📄 Extracting page 83/100...
+[2025-09-01T23:05:50.010Z] ✅ Page 83 extracted: 2045 characters
+[2025-09-01T23:05:50.010Z] 📖 Page 83 preview: "______________________________________________________________
+
+14. A police car is following that..."
+[2025-09-01T23:05:50.010Z] 📄 Extracting page 84/100...
+[2025-09-01T23:05:50.035Z] ✅ Page 84 extracted: 1696 characters
+[2025-09-01T23:05:50.036Z] 📖 Page 84 preview: "7. Juče su otkazali let jer je vreme bilo loše.
+___________________________________________________..."
+[2025-09-01T23:05:50.036Z] 📄 Extracting page 85/100...
+[2025-09-01T23:05:50.061Z] ✅ Page 85 extracted: 2085 characters
+[2025-09-01T23:05:50.061Z] 📖 Page 85 preview: "Stavite sledeće rečenice u pasiv.
+
+1. She makes these cakes only of flour and fruit.
+____________..."
+[2025-09-01T23:05:50.061Z] 📄 Extracting page 86/100...
+[2025-09-01T23:05:50.086Z] ✅ Page 86 extracted: 1077 characters
+[2025-09-01T23:05:50.086Z] 📖 Page 86 preview: "Zaokružite odgovrajuće vreme.
+
+1. She _________________at six every evening.
+a) finishes
+b) has ..."
+[2025-09-01T23:05:50.086Z] 📄 Extracting page 87/100...
+[2025-09-01T23:05:50.111Z] ✅ Page 87 extracted: 981 characters
+[2025-09-01T23:05:50.112Z] 📖 Page 87 preview: "b) has lived
+c) is living
+
+13. They _____________to Belgrade in 2005.
+a) will move
+b) have move..."
+[2025-09-01T23:05:50.112Z] 📄 Extracting page 88/100...
+[2025-09-01T23:05:50.137Z] ✅ Page 88 extracted: 1147 characters
+[2025-09-01T23:05:50.137Z] 📖 Page 88 preview: "c) as
+
+9. Anthony is _______intelligent than John.
+a) least
+b) more
+c) most
+
+10. My house is ..."
+[2025-09-01T23:05:50.138Z] 📄 Extracting page 89/100...
+[2025-09-01T23:05:50.165Z] ✅ Page 89 extracted: 2054 characters
+[2025-09-01T23:05:50.165Z] 📖 Page 89 preview: "10. She __________(speak) about that yesterday.
+
+11.______________(listen) to him when Sara ______..."
+[2025-09-01T23:05:50.165Z] 📄 Extracting page 90/100...
+[2025-09-01T23:05:50.190Z] ✅ Page 90 extracted: 2063 characters
+[2025-09-01T23:05:50.190Z] 📖 Page 90 preview: "mistakes.
+
+22. If he ________________________________ (be) late we’ll go without him.
+
+23. If he..."
+[2025-09-01T23:05:50.190Z] 📄 Extracting page 91/100...
+[2025-09-01T23:05:50.216Z] ✅ Page 91 extracted: 2057 characters
+[2025-09-01T23:05:50.216Z] 📖 Page 91 preview: "43. I’ll probably get lost unless he ________________________________ (come) with me.
+
+44. You ___..."
+[2025-09-01T23:05:50.217Z] 📄 Extracting page 92/100...
+[2025-09-01T23:05:50.244Z] ✅ Page 92 extracted: 2383 characters
+[2025-09-01T23:05:50.244Z] 📖 Page 92 preview: "65. If his pronunciation ________________________________ (be) better, he would have
+got a better j..."
+[2025-09-01T23:05:50.244Z] 📄 Extracting page 93/100...
+[2025-09-01T23:05:50.270Z] ✅ Page 93 extracted: 2143 characters
+[2025-09-01T23:05:50.270Z] 📖 Page 93 preview: "19. Ićićemo na plažu ove subote, ako vreme bude dovoljno toplo.
+___________________________________..."
+[2025-09-01T23:05:50.271Z] 📄 Extracting page 94/100...
+[2025-09-01T23:05:50.297Z] ✅ Page 94 extracted: 2545 characters
+[2025-09-01T23:05:50.298Z] 📖 Page 94 preview: "Prevedite rečenice u nastavku.
+
+1. Vino treba otvoriti tri sata pre nego što se pije.
+___________..."
+[2025-09-01T23:05:50.298Z] 📄 Extracting page 95/100...
+[2025-09-01T23:05:50.323Z] ✅ Page 95 extracted: 1969 characters
+[2025-09-01T23:05:50.324Z] 📖 Page 95 preview: "______________________________________________________________
+
+17. Pomorandže se uglavnom uvoze u..."
+[2025-09-01T23:05:50.324Z] 📄 Extracting page 96/100...
+[2025-09-01T23:05:50.349Z] ✅ Page 96 extracted: 1890 characters
+[2025-09-01T23:05:50.349Z] 📖 Page 96 preview: "8. I was surprising by the news. I didn’t expect it.
+
+9. My job is very varied. I find it interest..."
+[2025-09-01T23:05:50.349Z] 📄 Extracting page 97/100...
+[2025-09-01T23:05:50.379Z] ✅ Page 97 extracted: 1656 characters
+[2025-09-01T23:05:50.379Z] 📖 Page 97 preview: "to the cinema and a night club in the evening. What is 13 _______
+
+there to do in the country? Goi..."
+[2025-09-01T23:05:50.379Z] 📄 Extracting page 98/100...
+[2025-09-01T23:05:50.405Z] ✅ Page 98 extracted: 1450 characters
+[2025-09-01T23:05:50.405Z] 📖 Page 98 preview: "4. I’ve never drank champagne.
+I’ve never drunk champagne.
+
+5. Tom has ever been to America.
+Tom..."
+[2025-09-01T23:05:50.405Z] 📄 Extracting page 99/100...
+[2025-09-01T23:05:50.430Z] ✅ Page 99 extracted: 306 characters
+[2025-09-01T23:05:50.430Z] 📖 Page 99 preview: "7. We ______________(not/take) the opportunity when we had the chance.
+
+8. Things ______________(n..."
+[2025-09-01T23:05:50.430Z] 📄 Extracting page 100/100...
+[2025-09-01T23:05:50.454Z] ✅ Page 100 extracted: 350 characters
+[2025-09-01T23:05:50.454Z] 📖 Page 100 preview: "Literatura
+
+New English File Intrermediate, Clive Oxenden, Christina Latham-Koenig, Oxford Univers..."
+[2025-09-01T23:05:50.455Z] INFO: 
+[2025-09-01T23:05:50.455Z] INFO: ------------------------------------------------------------
+[2025-09-01T23:05:50.455Z] INFO: SECTION: SECTION PROCESSING
+[2025-09-01T23:05:50.455Z] INFO: ------------------------------------------------------------
+[2025-09-01T23:05:50.455Z] INFO: Progress: sectioning [████████████--------] 60% - Processing sections from reviewed TOC
+[2025-09-01T23:05:50.502Z] Progress: sectioning - 60% - Processing sections from reviewed TOC
+[2025-09-01T23:05:50.503Z] 📚 SIMPLIFIED: Processing 35 sections - ONLY by pages, NO header searching
+[2025-09-01T23:05:50.503Z] 📄 SIMPLE: Processing section 1/35: "The Simple Present Tense" (pages 4-6)
+[2025-09-01T23:05:50.503Z] 📄 TOC-ONLY: Extracting section "The Simple Present Tense" from TOC pages 4-6
+[2025-09-01T23:05:50.503Z] ✅ TOC-ONLY: Extracted 5371 chars from 3 TOC pages (4, 5, 6)
+[2025-09-01T23:05:50.503Z] 📖 TOC-ONLY: Content preview: "THE SIMPLE PRESENT TENSE (PROSTO SADAŠNJE VREME)
+
+Prosto sadašnje vreme (present simple tense) se gradi od osnovnog oblika glagola
+(infinitiv bez «to»).
+Na primer, infinitiv sa «to» glagola raditi..."
+[2025-09-01T23:05:50.504Z] 📊 TOC-ONLY: Character positions - Start: 4291, End: 9662
+[2025-09-01T23:05:50.504Z] ✅ TOC-ONLY: Extracted 5371 chars from TOC pages 4-6
+[2025-09-01T23:05:50.504Z] 🎯 TOC-SCOPED REFINEMENT: Refining "The Simple Present Tense" within TOC pages 4-6
+[2025-09-01T23:05:50.505Z] 🔍 TOC-SCOPED: Searching within TOC pages text (5371 chars)
+[2025-09-01T23:05:50.505Z] 🔍 SEARCH: Looking for "The Simple Present Tense" in text starting from position 0
+[2025-09-01T23:05:50.505Z] 🔍 DEBUG: text exists: true, length: 5371
+[2025-09-01T23:05:50.505Z] 🔍 DEBUG: cleanTitle type: string, value: "The Simple Present Tense"
+[2025-09-01T23:05:50.505Z] 🔍 DEBUG: startFrom: 0
+[2025-09-01T23:05:50.505Z] 🔍 DEBUG: normalizedTitle after regex: "The Simple Present Tense"
+[2025-09-01T23:05:50.506Z] 🔍 SEARCH: Normalized title: "The Simple Present Tense"
+[2025-09-01T23:05:50.506Z] ✅ SEARCH: Found exact match at position 0
+[2025-09-01T23:05:50.506Z] ✅ TOC-SCOPED: Found section start at position 0 within TOC pages
+[2025-09-01T23:05:50.506Z] 🔍 SEARCH: Looking for "The Present Continuous Tense" in text starting from position 50
+[2025-09-01T23:05:50.506Z] 🔍 DEBUG: text exists: true, length: 5371
+[2025-09-01T23:05:50.506Z] 🔍 DEBUG: cleanTitle type: string, value: "The Present Continuous Tense"
+[2025-09-01T23:05:50.506Z] 🔍 DEBUG: startFrom: 50
+[2025-09-01T23:05:50.506Z] 🔍 DEBUG: normalizedTitle after regex: "The Present Continuous Tense"
+[2025-09-01T23:05:50.507Z] 🔍 SEARCH: Normalized title: "The Present Continuous Tense"
+[2025-09-01T23:05:50.507Z] ✅ SEARCH: Found exact match at position 4991
+[2025-09-01T23:05:50.507Z] ✅ TOC-SCOPED: Found next section "The Present Continuous Tense" at position 4991 within TOC pages
+[2025-09-01T23:05:50.507Z] ✅ TOC-SCOPED REFINEMENT: Successfully refined - 4983 chars within TOC pages 4-6
+[2025-09-01T23:05:50.507Z] 🎯 TOC-SCOPED: Refined section within TOC pages (4983 chars)
+[2025-09-01T23:05:50.558Z] 📄 SIMPLE: Processing section 2/35: "The Present Continuous Tense" (pages 6-8)
+[2025-09-01T23:05:50.558Z] 📄 TOC-ONLY: Extracting section "The Present Continuous Tense" from TOC pages 6-8
+[2025-09-01T23:05:50.558Z] ✅ TOC-ONLY: Extracted 5011 chars from 3 TOC pages (6, 7, 8)
+[2025-09-01T23:05:50.558Z] 📖 TOC-ONLY: Content preview: "The English drink tea at 5 o'clock in the afternoon. (Englezi piju čaj u 5 sati popodne.)
+
+U ovom smislu se mogu koristiti i prilozi i fraze za učestalost (reči koje označavaju koliko
+često se deša..."
+[2025-09-01T23:05:50.559Z] 📊 TOC-ONLY: Character positions - Start: 7920, End: 12931
+[2025-09-01T23:05:50.559Z] ✅ TOC-ONLY: Extracted 5011 chars from TOC pages 6-8
+[2025-09-01T23:05:50.559Z] 🎯 TOC-SCOPED REFINEMENT: Refining "The Present Continuous Tense" within TOC pages 6-8
+[2025-09-01T23:05:50.559Z] 🔍 TOC-SCOPED: Searching within TOC pages text (5011 chars)
+[2025-09-01T23:05:50.559Z] 🔍 SEARCH: Looking for "The Present Continuous Tense" in text starting from position 0
+[2025-09-01T23:05:50.559Z] 🔍 DEBUG: text exists: true, length: 5011
+[2025-09-01T23:05:50.559Z] 🔍 DEBUG: cleanTitle type: string, value: "The Present Continuous Tense"
+[2025-09-01T23:05:50.560Z] 🔍 DEBUG: startFrom: 0
+[2025-09-01T23:05:50.560Z] 🔍 DEBUG: normalizedTitle after regex: "The Present Continuous Tense"
+[2025-09-01T23:05:50.560Z] 🔍 SEARCH: Normalized title: "The Present Continuous Tense"
+[2025-09-01T23:05:50.560Z] ✅ SEARCH: Found exact match at position 1362
+[2025-09-01T23:05:50.560Z] ✅ TOC-SCOPED: Found section start at position 1362 within TOC pages
+[2025-09-01T23:05:50.560Z] 🔍 SEARCH: Looking for "Verbs not Used with Continuous Tenses" in text starting from position 1412
+[2025-09-01T23:05:50.560Z] 🔍 DEBUG: text exists: true, length: 5011
+[2025-09-01T23:05:50.561Z] 🔍 DEBUG: cleanTitle type: string, value: "Verbs not Used with Continuous Tenses"
+[2025-09-01T23:05:50.561Z] 🔍 DEBUG: startFrom: 1412
+[2025-09-01T23:05:50.561Z] 🔍 DEBUG: normalizedTitle after regex: "Verbs not Used with Continuous Tenses"
+[2025-09-01T23:05:50.561Z] 🔍 SEARCH: Normalized title: "Verbs not Used with Continuous Tenses"
+[2025-09-01T23:05:50.562Z] 🔍 DEBUG: Split into chars: [v, e, r, b, s,  , n, o, t,  , u, s, e, d,  , w, i, t, h,  , c, o, n, t, i, n, u, o, u, s,  , t, e, n, s, e, s]
+[2025-09-01T23:05:50.562Z] 🔍 DEBUG: Generated variations: 50
+[2025-09-01T23:05:50.563Z] 🔍 SEARCH: Generated 50 space variations
+[2025-09-01T23:05:50.563Z] ❌ SEARCH: No match found for "Verbs not Used with Continuous Tenses"
+[2025-09-01T23:05:50.564Z] ✅ TOC-SCOPED REFINEMENT: Successfully refined - 3649 chars within TOC pages 6-8
+[2025-09-01T23:05:50.564Z] 🎯 TOC-SCOPED: Refined section within TOC pages (3649 chars)
+[2025-09-01T23:05:50.612Z] 📄 SIMPLE: Processing section 3/35: "Verbs not Used with Continuous Tenses" (pages 8-9)
+[2025-09-01T23:05:50.612Z] 📄 TOC-ONLY: Extracting section "Verbs not Used with Continuous Tenses" from TOC pages 8-9
+[2025-09-01T23:05:50.612Z] ✅ TOC-ONLY: Extracted 3242 chars from 2 TOC pages (8, 9)
+[2025-09-01T23:05:50.613Z] 📖 TOC-ONLY: Content preview: "Where is he working? – Gde on radi? Where are they working? – Gde oni
+Where is she working? – Gde ona radi? rade?
+Where is it working? – Gde ono radi?
+
+Odrični oblik sadašnjeg trajnog vremena se g..."
+[2025-09-01T23:05:50.613Z] 📊 TOC-ONLY: Character positions - Start: 11370, End: 14612
+[2025-09-01T23:05:50.613Z] ✅ TOC-ONLY: Extracted 3242 chars from TOC pages 8-9
+[2025-09-01T23:05:50.613Z] 🎯 TOC-SCOPED REFINEMENT: Refining "Verbs not Used with Continuous Tenses" within TOC pages 8-9
+[2025-09-01T23:05:50.614Z] 🔍 TOC-SCOPED: Searching within TOC pages text (3242 chars)
+[2025-09-01T23:05:50.614Z] 🔍 SEARCH: Looking for "Verbs not Used with Continuous Tenses" in text starting from position 0
+[2025-09-01T23:05:50.614Z] 🔍 DEBUG: text exists: true, length: 3242
+[2025-09-01T23:05:50.614Z] 🔍 DEBUG: cleanTitle type: string, value: "Verbs not Used with Continuous Tenses"
+[2025-09-01T23:05:50.614Z] 🔍 DEBUG: startFrom: 0
+[2025-09-01T23:05:50.614Z] 🔍 DEBUG: normalizedTitle after regex: "Verbs not Used with Continuous Tenses"
+[2025-09-01T23:05:50.614Z] 🔍 SEARCH: Normalized title: "Verbs not Used with Continuous Tenses"
+[2025-09-01T23:05:50.615Z] 🔍 DEBUG: Split into chars: [v, e, r, b, s,  , n, o, t,  , u, s, e, d,  , w, i, t, h,  , c, o, n, t, i, n, u, o, u, s,  , t, e, n, s, e, s]
+[2025-09-01T23:05:50.615Z] 🔍 DEBUG: Generated variations: 50
+[2025-09-01T23:05:50.615Z] 🔍 SEARCH: Generated 50 space variations
+[2025-09-01T23:05:50.615Z] ❌ SEARCH: No match found for "Verbs not Used with Continuous Tenses"
+[2025-09-01T23:05:50.615Z] ⚠️ Section title "Verbs not Used with Continuous Tenses" not found within TOC pages, using whole pages
+[2025-09-01T23:05:50.615Z] 📄 TOC-ONLY: Using complete TOC pages content
+[2025-09-01T23:05:50.664Z] 📄 SIMPLE: Processing section 4/35: "The Simple Past Tense" (pages 9-12)
+[2025-09-01T23:05:50.664Z] 📄 TOC-ONLY: Extracting section "The Simple Past Tense" from TOC pages 9-12
+[2025-09-01T23:05:50.665Z] ✅ TOC-ONLY: Extracted 7128 chars from 4 TOC pages (9, 10, 11, 12)
+[2025-09-01T23:05:50.665Z] 📖 TOC-ONLY: Content preview: "understand – razumeti,
+wish – želeti,
+want – hteti,
+know – znati, itd.
+
+Oni su, umesto u present continuous tense-u koriste u present simple tense-u.
+
+I hear a noise in the next room. (Čujem ne..."
+[2025-09-01T23:05:50.665Z] 📊 TOC-ONLY: Character positions - Start: 12933, End: 20061
+[2025-09-01T23:05:50.665Z] ✅ TOC-ONLY: Extracted 7128 chars from TOC pages 9-12
+[2025-09-01T23:05:50.666Z] 🎯 TOC-SCOPED REFINEMENT: Refining "The Simple Past Tense" within TOC pages 9-12
+[2025-09-01T23:05:50.666Z] 🔍 TOC-SCOPED: Searching within TOC pages text (7128 chars)
+[2025-09-01T23:05:50.666Z] 🔍 SEARCH: Looking for "The Simple Past Tense" in text starting from position 0
+[2025-09-01T23:05:50.666Z] 🔍 DEBUG: text exists: true, length: 7128
+[2025-09-01T23:05:50.666Z] 🔍 DEBUG: cleanTitle type: string, value: "The Simple Past Tense"
+[2025-09-01T23:05:50.666Z] 🔍 DEBUG: startFrom: 0
+[2025-09-01T23:05:50.666Z] 🔍 DEBUG: normalizedTitle after regex: "The Simple Past Tense"
+[2025-09-01T23:05:50.667Z] 🔍 SEARCH: Normalized title: "The Simple Past Tense"
+[2025-09-01T23:05:50.667Z] ✅ SEARCH: Found exact match at position 899
+[2025-09-01T23:05:50.667Z] ✅ TOC-SCOPED: Found section start at position 899 within TOC pages
+[2025-09-01T23:05:50.667Z] 🔍 SEARCH: Looking for "The Past Continuous Tense" in text starting from position 949
+[2025-09-01T23:05:50.667Z] 🔍 DEBUG: text exists: true, length: 7128
+[2025-09-01T23:05:50.667Z] 🔍 DEBUG: cleanTitle type: string, value: "The Past Continuous Tense"
+[2025-09-01T23:05:50.667Z] 🔍 DEBUG: startFrom: 949
+[2025-09-01T23:05:50.667Z] 🔍 DEBUG: normalizedTitle after regex: "The Past Continuous Tense"
+[2025-09-01T23:05:50.668Z] 🔍 SEARCH: Normalized title: "The Past Continuous Tense"
+[2025-09-01T23:05:50.668Z] ✅ SEARCH: Found exact match at position 5500
+[2025-09-01T23:05:50.668Z] ✅ TOC-SCOPED: Found next section "The Past Continuous Tense" at position 5500 within TOC pages
+[2025-09-01T23:05:50.668Z] ✅ TOC-SCOPED REFINEMENT: Successfully refined - 4591 chars within TOC pages 9-12
+[2025-09-01T23:05:50.668Z] 🎯 TOC-SCOPED: Refined section within TOC pages (4591 chars)
+[2025-09-01T23:05:50.721Z] 📄 SIMPLE: Processing section 5/35: "The Past Continuous Tense" (pages 12-14)
+[2025-09-01T23:05:50.721Z] 📄 TOC-ONLY: Extracting section "The Past Continuous Tense" from TOC pages 12-14
+[2025-09-01T23:05:50.721Z] ✅ TOC-ONLY: Extracted 4654 chars from 3 TOC pages (12, 13, 14)
+[2025-09-01T23:05:50.722Z] 📖 TOC-ONLY: Content preview: "My father built this house in 1997. (Moj otac je sagradio ovu kuću 1997.-e)
+The day before yesterday Marko bought a nice hat. (Prekjuče je Marko kupio lep šešir.)
+
+
+
+
+THE PAST CONTINUOUS TENSE (..."
+[2025-09-01T23:05:50.722Z] 📊 TOC-ONLY: Character positions - Start: 18260, End: 22914
+[2025-09-01T23:05:50.722Z] ✅ TOC-ONLY: Extracted 4654 chars from TOC pages 12-14
+[2025-09-01T23:05:50.722Z] 🎯 TOC-SCOPED REFINEMENT: Refining "The Past Continuous Tense" within TOC pages 12-14
+[2025-09-01T23:05:50.722Z] 🔍 TOC-SCOPED: Searching within TOC pages text (4654 chars)
+[2025-09-01T23:05:50.722Z] 🔍 SEARCH: Looking for "The Past Continuous Tense" in text starting from position 0
+[2025-09-01T23:05:50.722Z] 🔍 DEBUG: text exists: true, length: 4654
+[2025-09-01T23:05:50.723Z] 🔍 DEBUG: cleanTitle type: string, value: "The Past Continuous Tense"
+[2025-09-01T23:05:50.723Z] 🔍 DEBUG: startFrom: 0
+[2025-09-01T23:05:50.723Z] 🔍 DEBUG: normalizedTitle after regex: "The Past Continuous Tense"
+[2025-09-01T23:05:50.723Z] 🔍 SEARCH: Normalized title: "The Past Continuous Tense"
+[2025-09-01T23:05:50.723Z] ✅ SEARCH: Found exact match at position 173
+[2025-09-01T23:05:50.723Z] ✅ TOC-SCOPED: Found section start at position 173 within TOC pages
+[2025-09-01T23:05:50.723Z] 🔍 SEARCH: Looking for "Adjectives ending in -ED and -ING" in text starting from position 223
+[2025-09-01T23:05:50.723Z] 🔍 DEBUG: text exists: true, length: 4654
+[2025-09-01T23:05:50.723Z] 🔍 DEBUG: cleanTitle type: string, value: "Adjectives ending in -ED and -ING"
+[2025-09-01T23:05:50.723Z] 🔍 DEBUG: startFrom: 223
+[2025-09-01T23:05:50.724Z] 🔍 DEBUG: normalizedTitle after regex: "Adjectives ending in -ED and -ING"
+[2025-09-01T23:05:50.724Z] 🔍 SEARCH: Normalized title: "Adjectives ending in -ED and -ING"
+[2025-09-01T23:05:50.724Z] 🔍 DEBUG: Split into chars: [a, d, j, e, c, t, i, v, e, s,  , e, n, d, i, n, g,  , i, n,  , -, e, d,  , a, n, d,  , -, i, n, g]
+[2025-09-01T23:05:50.724Z] 🔍 DEBUG: Generated variations: 50
+[2025-09-01T23:05:50.724Z] 🔍 SEARCH: Generated 50 space variations
+[2025-09-01T23:05:50.725Z] ❌ SEARCH: No match found for "Adjectives ending in -ED and -ING"
+[2025-09-01T23:05:50.725Z] ✅ TOC-SCOPED REFINEMENT: Successfully refined - 4481 chars within TOC pages 12-14
+[2025-09-01T23:05:50.725Z] 🎯 TOC-SCOPED: Refined section within TOC pages (4481 chars)
+[2025-09-01T23:05:50.774Z] 📄 SIMPLE: Processing section 6/35: "Adjectives ending in -ED and -ING" (pages 14-15)
+[2025-09-01T23:05:50.774Z] 📄 TOC-ONLY: Extracting section "Adjectives ending in -ED and -ING" from TOC pages 14-15
+[2025-09-01T23:05:50.774Z] ✅ TOC-ONLY: Extracted 3521 chars from 2 TOC pages (14, 15)
+[2025-09-01T23:05:50.774Z] 📖 TOC-ONLY: Content preview: "When we arrived they were playing cards. (Kada smo stigli oni su igrali karte.)
+
+Napomena: Glagoli koji se ne koriste u Present Continuous Tense-u, ne koriste se ni u Past
+Continuous Tense-u. Umest..."
+[2025-09-01T23:05:50.775Z] 📊 TOC-ONLY: Character positions - Start: 21711, End: 25232
+[2025-09-01T23:05:50.775Z] ✅ TOC-ONLY: Extracted 3521 chars from TOC pages 14-15
+[2025-09-01T23:05:50.775Z] 🎯 TOC-SCOPED REFINEMENT: Refining "Adjectives ending in -ED and -ING" within TOC pages 14-15
+[2025-09-01T23:05:50.775Z] 🔍 TOC-SCOPED: Searching within TOC pages text (3521 chars)
+[2025-09-01T23:05:50.775Z] 🔍 SEARCH: Looking for "Adjectives ending in -ED and -ING" in text starting from position 0
+[2025-09-01T23:05:50.775Z] 🔍 DEBUG: text exists: true, length: 3521
+[2025-09-01T23:05:50.776Z] 🔍 DEBUG: cleanTitle type: string, value: "Adjectives ending in -ED and -ING"
+[2025-09-01T23:05:50.776Z] 🔍 DEBUG: startFrom: 0
+[2025-09-01T23:05:50.776Z] 🔍 DEBUG: normalizedTitle after regex: "Adjectives ending in -ED and -ING"
+[2025-09-01T23:05:50.776Z] 🔍 SEARCH: Normalized title: "Adjectives ending in -ED and -ING"
+[2025-09-01T23:05:50.776Z] 🔍 DEBUG: Split into chars: [a, d, j, e, c, t, i, v, e, s,  , e, n, d, i, n, g,  , i, n,  , -, e, d,  , a, n, d,  , -, i, n, g]
+[2025-09-01T23:05:50.776Z] 🔍 DEBUG: Generated variations: 50
+[2025-09-01T23:05:50.777Z] 🔍 SEARCH: Generated 50 space variations
+[2025-09-01T23:05:50.777Z] ❌ SEARCH: No match found for "Adjectives ending in -ED and -ING"
+[2025-09-01T23:05:50.777Z] ⚠️ Section title "Adjectives ending in -ED and -ING" not found within TOC pages, using whole pages
+[2025-09-01T23:05:50.777Z] 📄 TOC-ONLY: Using complete TOC pages content
+[2025-09-01T23:05:50.825Z] 📄 SIMPLE: Processing section 7/35: "Comparison of Adjectives" (pages 15-16)
+[2025-09-01T23:05:50.825Z] 📄 TOC-ONLY: Extracting section "Comparison of Adjectives" from TOC pages 15-16
+[2025-09-01T23:05:50.825Z] ✅ TOC-ONLY: Extracted 4260 chars from 2 TOC pages (15, 16)
+[2025-09-01T23:05:50.826Z] 📖 TOC-ONLY: Content preview: "COMPARISON OF ADJECTIVES (POREĐENJE PRIDEVA)
+
+Kod jednosložnih i nekih dvosložnih prideva komparativ se gradi dodavanjem sufiksa –er, a
+superlativ dodatkom sufiksa –est. Ispred superlativa se koris..."
+[2025-09-01T23:05:50.826Z] 📊 TOC-ONLY: Character positions - Start: 22916, End: 27176
+[2025-09-01T23:05:50.826Z] ✅ TOC-ONLY: Extracted 4260 chars from TOC pages 15-16
+[2025-09-01T23:05:50.826Z] 🎯 TOC-SCOPED REFINEMENT: Refining "Comparison of Adjectives" within TOC pages 15-16
+[2025-09-01T23:05:50.826Z] 🔍 TOC-SCOPED: Searching within TOC pages text (4260 chars)
+[2025-09-01T23:05:50.827Z] 🔍 SEARCH: Looking for "Comparison of Adjectives" in text starting from position 0
+[2025-09-01T23:05:50.827Z] 🔍 DEBUG: text exists: true, length: 4260
+[2025-09-01T23:05:50.827Z] 🔍 DEBUG: cleanTitle type: string, value: "Comparison of Adjectives"
+[2025-09-01T23:05:50.827Z] 🔍 DEBUG: startFrom: 0
+[2025-09-01T23:05:50.827Z] 🔍 DEBUG: normalizedTitle after regex: "Comparison of Adjectives"
+[2025-09-01T23:05:50.827Z] 🔍 SEARCH: Normalized title: "Comparison of Adjectives"
+[2025-09-01T23:05:50.827Z] ✅ SEARCH: Found exact match at position 0
+[2025-09-01T23:05:50.828Z] ✅ TOC-SCOPED: Found section start at position 0 within TOC pages
+[2025-09-01T23:05:50.828Z] 🔍 SEARCH: Looking for "The Future Simple Tense" in text starting from position 50
+[2025-09-01T23:05:50.828Z] 🔍 DEBUG: text exists: true, length: 4260
+[2025-09-01T23:05:50.828Z] 🔍 DEBUG: cleanTitle type: string, value: "The Future Simple Tense"
+[2025-09-01T23:05:50.828Z] 🔍 DEBUG: startFrom: 50
+[2025-09-01T23:05:50.828Z] 🔍 DEBUG: normalizedTitle after regex: "The Future Simple Tense"
+[2025-09-01T23:05:50.829Z] 🔍 SEARCH: Normalized title: "The Future Simple Tense"
+[2025-09-01T23:05:50.829Z] ✅ SEARCH: Found exact match at position 2318
+[2025-09-01T23:05:50.829Z] ✅ TOC-SCOPED: Found next section "The Future Simple Tense" at position 2318 within TOC pages
+[2025-09-01T23:05:50.829Z] ✅ TOC-SCOPED REFINEMENT: Successfully refined - 2316 chars within TOC pages 15-16
+[2025-09-01T23:05:50.829Z] 🎯 TOC-SCOPED: Refined section within TOC pages (2316 chars)
+[2025-09-01T23:05:50.880Z] 📄 SIMPLE: Processing section 8/35: "The Future Simple Tense" (pages 16-17)
+[2025-09-01T23:05:50.880Z] 📄 TOC-ONLY: Extracting section "The Future Simple Tense" from TOC pages 16-17
+[2025-09-01T23:05:50.880Z] ✅ TOC-ONLY: Extracted 4033 chars from 2 TOC pages (16, 17)
+[2025-09-01T23:05:50.880Z] 📖 TOC-ONLY: Content preview: "THE FUTURE SIMPLE TENSE (PROSTO BUDUĆE VREME)
+
+
+Future Simple Tense (Prosto buduće vreme) se gradi od modalnog glagola will i
+osnovnog oblika glagola (infinitiv bez to).
+
+Potvrdni oblik
+
+Jedni..."
+[2025-09-01T23:05:50.881Z] 📊 TOC-ONLY: Character positions - Start: 25234, End: 29267
+[2025-09-01T23:05:50.881Z] ✅ TOC-ONLY: Extracted 4033 chars from TOC pages 16-17
+[2025-09-01T23:05:50.881Z] 🎯 TOC-SCOPED REFINEMENT: Refining "The Future Simple Tense" within TOC pages 16-17
+[2025-09-01T23:05:50.881Z] 🔍 TOC-SCOPED: Searching within TOC pages text (4033 chars)
+[2025-09-01T23:05:50.881Z] 🔍 SEARCH: Looking for "The Future Simple Tense" in text starting from position 0
+[2025-09-01T23:05:50.881Z] 🔍 DEBUG: text exists: true, length: 4033
+[2025-09-01T23:05:50.882Z] 🔍 DEBUG: cleanTitle type: string, value: "The Future Simple Tense"
+[2025-09-01T23:05:50.882Z] 🔍 DEBUG: startFrom: 0
+[2025-09-01T23:05:50.882Z] 🔍 DEBUG: normalizedTitle after regex: "The Future Simple Tense"
+[2025-09-01T23:05:50.882Z] 🔍 SEARCH: Normalized title: "The Future Simple Tense"
+[2025-09-01T23:05:50.882Z] ✅ SEARCH: Found exact match at position 0
+[2025-09-01T23:05:50.882Z] ✅ TOC-SCOPED: Found section start at position 0 within TOC pages
+[2025-09-01T23:05:50.882Z] 🔍 SEARCH: Looking for "Be+Going to+Infinitive" in text starting from position 50
+[2025-09-01T23:05:50.882Z] 🔍 DEBUG: text exists: true, length: 4033
+[2025-09-01T23:05:50.883Z] 🔍 DEBUG: cleanTitle type: string, value: "Be+Going to+Infinitive"
+[2025-09-01T23:05:50.883Z] 🔍 DEBUG: startFrom: 50
+[2025-09-01T23:05:50.883Z] 🔍 DEBUG: normalizedTitle after regex: "Be+Going to+Infinitive"
+[2025-09-01T23:05:50.883Z] 🔍 SEARCH: Normalized title: "Be+Going to+Infinitive"
+[2025-09-01T23:05:50.883Z] ✅ SEARCH: Found exact match at position 2978
+[2025-09-01T23:05:50.883Z] ✅ TOC-SCOPED: Found next section "Be+Going to+Infinitive" at position 2978 within TOC pages
+[2025-09-01T23:05:50.883Z] ✅ TOC-SCOPED REFINEMENT: Successfully refined - 2968 chars within TOC pages 16-17
+[2025-09-01T23:05:50.884Z] 🎯 TOC-SCOPED: Refined section within TOC pages (2968 chars)
+[2025-09-01T23:05:50.933Z] 📄 SIMPLE: Processing section 9/35: "Be+Going to+Infinitive" (pages 17-18)
+[2025-09-01T23:05:50.933Z] 📄 TOC-ONLY: Extracting section "Be+Going to+Infinitive" from TOC pages 17-18
+[2025-09-01T23:05:50.934Z] ✅ TOC-ONLY: Extracted 4135 chars from 2 TOC pages (17, 18)
+[2025-09-01T23:05:50.934Z] 📖 TOC-ONLY: Content preview: "Odrični oblik
+
+Jednina (singular) Množina (plural)
+I will not (won’t) work – Ja neću We will not (won’t) work – Mi nećemo
+raditi raditi
+You will not (won’t) work – Ti nećeš You will not (won’t) w..."
+[2025-09-01T23:05:50.934Z] 📊 TOC-ONLY: Character positions - Start: 27178, End: 31313
+[2025-09-01T23:05:50.934Z] ✅ TOC-ONLY: Extracted 4135 chars from TOC pages 17-18
+[2025-09-01T23:05:50.934Z] 🎯 TOC-SCOPED REFINEMENT: Refining "Be+Going to+Infinitive" within TOC pages 17-18
+[2025-09-01T23:05:50.935Z] 🔍 TOC-SCOPED: Searching within TOC pages text (4135 chars)
+[2025-09-01T23:05:50.935Z] 🔍 SEARCH: Looking for "Be+Going to+Infinitive" in text starting from position 0
+[2025-09-01T23:05:50.935Z] 🔍 DEBUG: text exists: true, length: 4135
+[2025-09-01T23:05:50.935Z] 🔍 DEBUG: cleanTitle type: string, value: "Be+Going to+Infinitive"
+[2025-09-01T23:05:50.935Z] 🔍 DEBUG: startFrom: 0
+[2025-09-01T23:05:50.935Z] 🔍 DEBUG: normalizedTitle after regex: "Be+Going to+Infinitive"
+[2025-09-01T23:05:50.935Z] 🔍 SEARCH: Normalized title: "Be+Going to+Infinitive"
+[2025-09-01T23:05:50.935Z] ✅ SEARCH: Found exact match at position 1034
+[2025-09-01T23:05:50.935Z] ✅ TOC-SCOPED: Found section start at position 1034 within TOC pages
+[2025-09-01T23:05:50.936Z] 🔍 SEARCH: Looking for "Prepositions of Place" in text starting from position 1084
+[2025-09-01T23:05:50.936Z] 🔍 DEBUG: text exists: true, length: 4135
+[2025-09-01T23:05:50.936Z] 🔍 DEBUG: cleanTitle type: string, value: "Prepositions of Place"
+[2025-09-01T23:05:50.936Z] 🔍 DEBUG: startFrom: 1084
+[2025-09-01T23:05:50.936Z] 🔍 DEBUG: normalizedTitle after regex: "Prepositions of Place"
+[2025-09-01T23:05:50.936Z] 🔍 SEARCH: Normalized title: "Prepositions of Place"
+[2025-09-01T23:05:50.936Z] ✅ SEARCH: Found exact match at position 2091
+[2025-09-01T23:05:50.936Z] ✅ TOC-SCOPED: Found next section "Prepositions of Place" at position 2091 within TOC pages
+[2025-09-01T23:05:50.936Z] ✅ TOC-SCOPED REFINEMENT: Successfully refined - 1055 chars within TOC pages 17-18
+[2025-09-01T23:05:50.937Z] 🎯 TOC-SCOPED: Refined section within TOC pages (1055 chars)
+[2025-09-01T23:05:50.985Z] 📄 SIMPLE: Processing section 10/35: "Prepositions of Place" (pages 18-19)
+[2025-09-01T23:05:50.985Z] 📄 TOC-ONLY: Extracting section "Prepositions of Place" from TOC pages 18-19
+[2025-09-01T23:05:50.985Z] ✅ TOC-ONLY: Extracted 2972 chars from 2 TOC pages (18, 19)
+[2025-09-01T23:05:50.986Z] 📖 TOC-ONLY: Content preview: "PREPOSITIONS OF PLACE (PREDLOZI ZA MESTO)
+
+Kao predlog za mesto at služi da odredi mesto gde se nešto dešava.
+at the football match (na fudbalskoj utakmici)
+at school (uškoli)
+at the party (na za..."
+[2025-09-01T23:05:50.986Z] 📊 TOC-ONLY: Character positions - Start: 29269, End: 32241
+[2025-09-01T23:05:50.986Z] ✅ TOC-ONLY: Extracted 2972 chars from TOC pages 18-19
+[2025-09-01T23:05:50.986Z] 🎯 TOC-SCOPED REFINEMENT: Refining "Prepositions of Place" within TOC pages 18-19
+[2025-09-01T23:05:50.986Z] 🔍 TOC-SCOPED: Searching within TOC pages text (2972 chars)
+[2025-09-01T23:05:50.987Z] 🔍 SEARCH: Looking for "Prepositions of Place" in text starting from position 0
+[2025-09-01T23:05:50.987Z] 🔍 DEBUG: text exists: true, length: 2972
+[2025-09-01T23:05:50.987Z] 🔍 DEBUG: cleanTitle type: string, value: "Prepositions of Place"
+[2025-09-01T23:05:50.987Z] 🔍 DEBUG: startFrom: 0
+[2025-09-01T23:05:50.987Z] 🔍 DEBUG: normalizedTitle after regex: "Prepositions of Place"
+[2025-09-01T23:05:50.987Z] 🔍 SEARCH: Normalized title: "Prepositions of Place"
+[2025-09-01T23:05:50.987Z] ✅ SEARCH: Found exact match at position 0
+[2025-09-01T23:05:50.987Z] ✅ TOC-SCOPED: Found section start at position 0 within TOC pages
+[2025-09-01T23:05:50.987Z] 🔍 SEARCH: Looking for "Prepositions of Time" in text starting from position 50
+[2025-09-01T23:05:50.988Z] 🔍 DEBUG: text exists: true, length: 2972
+[2025-09-01T23:05:50.988Z] 🔍 DEBUG: cleanTitle type: string, value: "Prepositions of Time"
+[2025-09-01T23:05:50.988Z] 🔍 DEBUG: startFrom: 50
+[2025-09-01T23:05:50.988Z] 🔍 DEBUG: normalizedTitle after regex: "Prepositions of Time"
+[2025-09-01T23:05:50.988Z] 🔍 SEARCH: Normalized title: "Prepositions of Time"
+[2025-09-01T23:05:50.988Z] ✅ SEARCH: Found exact match at position 2046
+[2025-09-01T23:05:50.988Z] ✅ TOC-SCOPED: Found next section "Prepositions of Time" at position 2046 within TOC pages
+[2025-09-01T23:05:50.988Z] ✅ TOC-SCOPED REFINEMENT: Successfully refined - 2044 chars within TOC pages 18-19
+[2025-09-01T23:05:50.989Z] 🎯 TOC-SCOPED: Refined section within TOC pages (2044 chars)
+[2025-09-01T23:05:51.041Z] 📄 SIMPLE: Processing section 11/35: "Prepositions of Time" (pages 19-20)
+[2025-09-01T23:05:51.041Z] 📄 TOC-ONLY: Extracting section "Prepositions of Time" from TOC pages 19-20
+[2025-09-01T23:05:51.041Z] ✅ TOC-ONLY: Extracted 3048 chars from 2 TOC pages (19, 20)
+[2025-09-01T23:05:51.041Z] 📖 TOC-ONLY: Content preview: "PREPOSITIONS OF TIME (PREDLOZI ZA VREME)
+
+Kao predlog za vreme at se koristi za izražavanje sati i tačno datog vremena.
+at 6 o'clock (u 6 sati)
+at 7: 30 in the morning (u pola 8 ujutru)
+at 11 pm ..."
+[2025-09-01T23:05:51.042Z] 📊 TOC-ONLY: Character positions - Start: 31315, End: 34363
+[2025-09-01T23:05:51.042Z] ✅ TOC-ONLY: Extracted 3048 chars from TOC pages 19-20
+[2025-09-01T23:05:51.042Z] 🎯 TOC-SCOPED REFINEMENT: Refining "Prepositions of Time" within TOC pages 19-20
+[2025-09-01T23:05:51.042Z] 🔍 TOC-SCOPED: Searching within TOC pages text (3048 chars)
+[2025-09-01T23:05:51.042Z] 🔍 SEARCH: Looking for "Prepositions of Time" in text starting from position 0
+[2025-09-01T23:05:51.042Z] 🔍 DEBUG: text exists: true, length: 3048
+[2025-09-01T23:05:51.042Z] 🔍 DEBUG: cleanTitle type: string, value: "Prepositions of Time"
+[2025-09-01T23:05:51.043Z] 🔍 DEBUG: startFrom: 0
+[2025-09-01T23:05:51.043Z] 🔍 DEBUG: normalizedTitle after regex: "Prepositions of Time"
+[2025-09-01T23:05:51.043Z] 🔍 SEARCH: Normalized title: "Prepositions of Time"
+[2025-09-01T23:05:51.043Z] ✅ SEARCH: Found exact match at position 0
+[2025-09-01T23:05:51.043Z] ✅ TOC-SCOPED: Found section start at position 0 within TOC pages
+[2025-09-01T23:05:51.043Z] 🔍 SEARCH: Looking for "Reflexive Pronouns" in text starting from position 50
+[2025-09-01T23:05:51.043Z] 🔍 DEBUG: text exists: true, length: 3048
+[2025-09-01T23:05:51.043Z] 🔍 DEBUG: cleanTitle type: string, value: "Reflexive Pronouns"
+[2025-09-01T23:05:51.043Z] 🔍 DEBUG: startFrom: 50
+[2025-09-01T23:05:51.043Z] 🔍 DEBUG: normalizedTitle after regex: "Reflexive Pronouns"
+[2025-09-01T23:05:51.044Z] 🔍 SEARCH: Normalized title: "Reflexive Pronouns"
+[2025-09-01T23:05:51.044Z] ✅ SEARCH: Found exact match at position 928
+[2025-09-01T23:05:51.044Z] ✅ TOC-SCOPED: Found next section "Reflexive Pronouns" at position 928 within TOC pages
+[2025-09-01T23:05:51.044Z] ✅ TOC-SCOPED REFINEMENT: Successfully refined - 926 chars within TOC pages 19-20
+[2025-09-01T23:05:51.044Z] 🎯 TOC-SCOPED: Refined section within TOC pages (926 chars)
+[2025-09-01T23:05:51.092Z] 📄 SIMPLE: Processing section 12/35: "Reflexive Pronouns" (pages 20-20)
+[2025-09-01T23:05:51.093Z] 📄 TOC-ONLY: Extracting section "Reflexive Pronouns" from TOC pages 20-20
+[2025-09-01T23:05:51.093Z] ✅ TOC-ONLY: Extracted 2120 chars from 1 TOC pages (20)
+[2025-09-01T23:05:51.093Z] 📖 TOC-ONLY: Content preview: "REFLEXIVE PRONOUNS (POVRATNE ZAMENICE)
+
+Povratna zamenica u srpskom jeziku se izražava pomoću: «SEBE» ili «SE» i koristi se da se
+izrazi nešto što je neko sam učinio, bez ičije pomoći, uticaja ili ..."
+[2025-09-01T23:05:51.093Z] 📊 TOC-ONLY: Character positions - Start: 32243, End: 34363
+[2025-09-01T23:05:51.093Z] ✅ TOC-ONLY: Extracted 2120 chars from TOC pages 20-20
+[2025-09-01T23:05:51.093Z] 🎯 TOC-SCOPED REFINEMENT: Refining "Reflexive Pronouns" within TOC pages 20-20
+[2025-09-01T23:05:51.093Z] 🔍 TOC-SCOPED: Searching within TOC pages text (2120 chars)
+[2025-09-01T23:05:51.094Z] 🔍 SEARCH: Looking for "Reflexive Pronouns" in text starting from position 0
+[2025-09-01T23:05:51.094Z] 🔍 DEBUG: text exists: true, length: 2120
+[2025-09-01T23:05:51.094Z] 🔍 DEBUG: cleanTitle type: string, value: "Reflexive Pronouns"
+[2025-09-01T23:05:51.094Z] 🔍 DEBUG: startFrom: 0
+[2025-09-01T23:05:51.094Z] 🔍 DEBUG: normalizedTitle after regex: "Reflexive Pronouns"
+[2025-09-01T23:05:51.094Z] 🔍 SEARCH: Normalized title: "Reflexive Pronouns"
+[2025-09-01T23:05:51.094Z] ✅ SEARCH: Found exact match at position 0
+[2025-09-01T23:05:51.094Z] ✅ TOC-SCOPED: Found section start at position 0 within TOC pages
+[2025-09-01T23:05:51.095Z] 🔍 SEARCH: Looking for "The Present Perfect Simple Tense" in text starting from position 50
+[2025-09-01T23:05:51.095Z] 🔍 DEBUG: text exists: true, length: 2120
+[2025-09-01T23:05:51.095Z] 🔍 DEBUG: cleanTitle type: string, value: "The Present Perfect Simple Tense"
+[2025-09-01T23:05:51.095Z] 🔍 DEBUG: startFrom: 50
+[2025-09-01T23:05:51.095Z] 🔍 DEBUG: normalizedTitle after regex: "The Present Perfect Simple Tense"
+[2025-09-01T23:05:51.095Z] 🔍 SEARCH: Normalized title: "The Present Perfect Simple Tense"
+[2025-09-01T23:05:51.095Z] ✅ SEARCH: Found exact match at position 1266
+[2025-09-01T23:05:51.095Z] ✅ TOC-SCOPED: Found next section "The Present Perfect Simple Tense" at position 1266 within TOC pages
+[2025-09-01T23:05:51.096Z] ✅ TOC-SCOPED REFINEMENT: Successfully refined - 1260 chars within TOC pages 20-20
+[2025-09-01T23:05:51.096Z] 🎯 TOC-SCOPED: Refined section within TOC pages (1260 chars)
+[2025-09-01T23:05:51.145Z] 📄 SIMPLE: Processing section 13/35: "The Present Perfect Simple Tense" (pages 20-22)
+[2025-09-01T23:05:51.145Z] 📄 TOC-ONLY: Extracting section "The Present Perfect Simple Tense" from TOC pages 20-22
+[2025-09-01T23:05:51.146Z] ✅ TOC-ONLY: Extracted 6496 chars from 3 TOC pages (20, 21, 22)
+[2025-09-01T23:05:51.146Z] 📖 TOC-ONLY: Content preview: "REFLEXIVE PRONOUNS (POVRATNE ZAMENICE)
+
+Povratna zamenica u srpskom jeziku se izražava pomoću: «SEBE» ili «SE» i koristi se da se
+izrazi nešto što je neko sam učinio, bez ičije pomoći, uticaja ili ..."
+[2025-09-01T23:05:51.146Z] 📊 TOC-ONLY: Character positions - Start: 32243, End: 38739
+[2025-09-01T23:05:51.146Z] ✅ TOC-ONLY: Extracted 6496 chars from TOC pages 20-22
+[2025-09-01T23:05:51.146Z] 🎯 TOC-SCOPED REFINEMENT: Refining "The Present Perfect Simple Tense" within TOC pages 20-22
+[2025-09-01T23:05:51.146Z] 🔍 TOC-SCOPED: Searching within TOC pages text (6496 chars)
+[2025-09-01T23:05:51.146Z] 🔍 SEARCH: Looking for "The Present Perfect Simple Tense" in text starting from position 0
+[2025-09-01T23:05:51.146Z] 🔍 DEBUG: text exists: true, length: 6496
+[2025-09-01T23:05:51.147Z] 🔍 DEBUG: cleanTitle type: string, value: "The Present Perfect Simple Tense"
+[2025-09-01T23:05:51.147Z] 🔍 DEBUG: startFrom: 0
+[2025-09-01T23:05:51.147Z] 🔍 DEBUG: normalizedTitle after regex: "The Present Perfect Simple Tense"
+[2025-09-01T23:05:51.147Z] 🔍 SEARCH: Normalized title: "The Present Perfect Simple Tense"
+[2025-09-01T23:05:51.147Z] ✅ SEARCH: Found exact match at position 1266
+[2025-09-01T23:05:51.147Z] ✅ TOC-SCOPED: Found section start at position 1266 within TOC pages
+[2025-09-01T23:05:51.147Z] 🔍 SEARCH: Looking for "Past Simple and Present Pefrect" in text starting from position 1316
+[2025-09-01T23:05:51.147Z] 🔍 DEBUG: text exists: true, length: 6496
+[2025-09-01T23:05:51.147Z] 🔍 DEBUG: cleanTitle type: string, value: "Past Simple and Present Pefrect"
+[2025-09-01T23:05:51.147Z] 🔍 DEBUG: startFrom: 1316
+[2025-09-01T23:05:51.148Z] 🔍 DEBUG: normalizedTitle after regex: "Past Simple and Present Pefrect"
+[2025-09-01T23:05:51.148Z] 🔍 SEARCH: Normalized title: "Past Simple and Present Pefrect"
+[2025-09-01T23:05:51.148Z] 🔍 DEBUG: Split into chars: [p, a, s, t,  , s, i, m, p, l, e,  , a, n, d,  , p, r, e, s, e, n, t,  , p, e, f, r, e, c, t]
+[2025-09-01T23:05:51.148Z] 🔍 DEBUG: Generated variations: 50
+[2025-09-01T23:05:51.148Z] 🔍 SEARCH: Generated 50 space variations
+[2025-09-01T23:05:51.149Z] ❌ SEARCH: No match found for "Past Simple and Present Pefrect"
+[2025-09-01T23:05:51.149Z] ✅ TOC-SCOPED REFINEMENT: Successfully refined - 5230 chars within TOC pages 20-22
+[2025-09-01T23:05:51.149Z] 🎯 TOC-SCOPED: Refined section within TOC pages (5230 chars)
+[2025-09-01T23:05:51.197Z] 📄 SIMPLE: Processing section 14/35: "Past Simple and Present Pefrect" (pages 22-23)
+[2025-09-01T23:05:51.197Z] 📄 TOC-ONLY: Extracting section "Past Simple and Present Pefrect" from TOC pages 22-23
+[2025-09-01T23:05:51.197Z] ✅ TOC-ONLY: Extracted 4969 chars from 2 TOC pages (22, 23)
+[2025-09-01T23:05:51.197Z] 📖 TOC-ONLY: Content preview: "He has not (hasn't) worked – On nije They have not (haven't) worked – Oni
+radio nisu radili
+She has not (hasn't) worked – Ona
+nije radila
+It has not (hasn't) worked – Ono
+nije radilo
+
+Upotreba:..."
+[2025-09-01T23:05:51.198Z] 📊 TOC-ONLY: Character positions - Start: 36560, End: 41529
+[2025-09-01T23:05:51.198Z] ✅ TOC-ONLY: Extracted 4969 chars from TOC pages 22-23
+[2025-09-01T23:05:51.198Z] 🎯 TOC-SCOPED REFINEMENT: Refining "Past Simple and Present Pefrect" within TOC pages 22-23
+[2025-09-01T23:05:51.198Z] 🔍 TOC-SCOPED: Searching within TOC pages text (4969 chars)
+[2025-09-01T23:05:51.198Z] 🔍 SEARCH: Looking for "Past Simple and Present Pefrect" in text starting from position 0
+[2025-09-01T23:05:51.198Z] 🔍 DEBUG: text exists: true, length: 4969
+[2025-09-01T23:05:51.198Z] 🔍 DEBUG: cleanTitle type: string, value: "Past Simple and Present Pefrect"
+[2025-09-01T23:05:51.198Z] 🔍 DEBUG: startFrom: 0
+[2025-09-01T23:05:51.199Z] 🔍 DEBUG: normalizedTitle after regex: "Past Simple and Present Pefrect"
+[2025-09-01T23:05:51.199Z] 🔍 SEARCH: Normalized title: "Past Simple and Present Pefrect"
+[2025-09-01T23:05:51.199Z] 🔍 DEBUG: Split into chars: [p, a, s, t,  , s, i, m, p, l, e,  , a, n, d,  , p, r, e, s, e, n, t,  , p, e, f, r, e, c, t]
+[2025-09-01T23:05:51.199Z] 🔍 DEBUG: Generated variations: 50
+[2025-09-01T23:05:51.199Z] 🔍 SEARCH: Generated 50 space variations
+[2025-09-01T23:05:51.199Z] ❌ SEARCH: No match found for "Past Simple and Present Pefrect"
+[2025-09-01T23:05:51.199Z] ⚠️ Section title "Past Simple and Present Pefrect" not found within TOC pages, using whole pages
+[2025-09-01T23:05:51.200Z] 📄 TOC-ONLY: Using complete TOC pages content
+[2025-09-01T23:05:51.247Z] 📄 SIMPLE: Processing section 15/35: "Modal Verbs" (pages 23-25)
+[2025-09-01T23:05:51.247Z] 📄 TOC-ONLY: Extracting section "Modal Verbs" from TOC pages 23-25
+[2025-09-01T23:05:51.247Z] ✅ TOC-ONLY: Extracted 7886 chars from 3 TOC pages (23, 24, 25)
+[2025-09-01T23:05:51.247Z] 📖 TOC-ONLY: Content preview: "Past Simple će se upotrebiti kada imamo vremensku frazu koja nam jasno ukazuje na to kada
+se nešto odigralo u prošlosti.
+
+Mary travelled to America last year. (Meri je putovala u Ameriku prošle god..."
+[2025-09-01T23:05:51.247Z] 📊 TOC-ONLY: Character positions - Start: 38741, End: 46627
+[2025-09-01T23:05:51.247Z] ✅ TOC-ONLY: Extracted 7886 chars from TOC pages 23-25
+[2025-09-01T23:05:51.247Z] 🎯 TOC-SCOPED REFINEMENT: Refining "Modal Verbs" within TOC pages 23-25
+[2025-09-01T23:05:51.248Z] 🔍 TOC-SCOPED: Searching within TOC pages text (7886 chars)
+[2025-09-01T23:05:51.248Z] 🔍 SEARCH: Looking for "Modal Verbs" in text starting from position 0
+[2025-09-01T23:05:51.248Z] 🔍 DEBUG: text exists: true, length: 7886
+[2025-09-01T23:05:51.248Z] 🔍 DEBUG: cleanTitle type: string, value: "Modal Verbs"
+[2025-09-01T23:05:51.248Z] 🔍 DEBUG: startFrom: 0
+[2025-09-01T23:05:51.248Z] 🔍 DEBUG: normalizedTitle after regex: "Modal Verbs"
+[2025-09-01T23:05:51.248Z] 🔍 SEARCH: Normalized title: "Modal Verbs"
+[2025-09-01T23:05:51.248Z] ✅ SEARCH: Found exact match at position 1096
+[2025-09-01T23:05:51.249Z] ✅ TOC-SCOPED: Found section start at position 1096 within TOC pages
+[2025-09-01T23:05:51.249Z] 🔍 SEARCH: Looking for "The Past Perfect Simple Tense" in text starting from position 1146
+[2025-09-01T23:05:51.249Z] 🔍 DEBUG: text exists: true, length: 7886
+[2025-09-01T23:05:51.249Z] 🔍 DEBUG: cleanTitle type: string, value: "The Past Perfect Simple Tense"
+[2025-09-01T23:05:51.249Z] 🔍 DEBUG: startFrom: 1146
+[2025-09-01T23:05:51.249Z] 🔍 DEBUG: normalizedTitle after regex: "The Past Perfect Simple Tense"
+[2025-09-01T23:05:51.249Z] 🔍 SEARCH: Normalized title: "The Past Perfect Simple Tense"
+[2025-09-01T23:05:51.249Z] ✅ SEARCH: Found exact match at position 5832
+[2025-09-01T23:05:51.249Z] ✅ TOC-SCOPED: Found next section "The Past Perfect Simple Tense" at position 5832 within TOC pages
+[2025-09-01T23:05:51.249Z] ✅ TOC-SCOPED REFINEMENT: Successfully refined - 4734 chars within TOC pages 23-25
+[2025-09-01T23:05:51.250Z] 🎯 TOC-SCOPED: Refined section within TOC pages (4734 chars)
+[2025-09-01T23:05:51.297Z] 📄 SIMPLE: Processing section 16/35: "The Past Perfect Simple Tense" (pages 25-27)
+[2025-09-01T23:05:51.297Z] 📄 TOC-ONLY: Extracting section "The Past Perfect Simple Tense" from TOC pages 25-27
+[2025-09-01T23:05:51.298Z] ✅ TOC-ONLY: Extracted 5941 chars from 3 TOC pages (25, 26, 27)
+[2025-09-01T23:05:51.298Z] 📖 TOC-ONLY: Content preview: "THE PAST PERFECT SIMPLE TENSE (DAVNO PROŠLO PROSTO VREME)
+
+Davno prošlo prosto vreme (past perfect simple tense) se gradi od pomoćnog glagola
+TO HAVE prošlom prostom vremenu (past simple tense-u), ..."
+[2025-09-01T23:05:51.298Z] 📊 TOC-ONLY: Character positions - Start: 44573, End: 50514
+[2025-09-01T23:05:51.298Z] ✅ TOC-ONLY: Extracted 5941 chars from TOC pages 25-27
+[2025-09-01T23:05:51.298Z] 🎯 TOC-SCOPED REFINEMENT: Refining "The Past Perfect Simple Tense" within TOC pages 25-27
+[2025-09-01T23:05:51.298Z] 🔍 TOC-SCOPED: Searching within TOC pages text (5941 chars)
+[2025-09-01T23:05:51.299Z] 🔍 SEARCH: Looking for "The Past Perfect Simple Tense" in text starting from position 0
+[2025-09-01T23:05:51.299Z] 🔍 DEBUG: text exists: true, length: 5941
+[2025-09-01T23:05:51.299Z] 🔍 DEBUG: cleanTitle type: string, value: "The Past Perfect Simple Tense"
+[2025-09-01T23:05:51.299Z] 🔍 DEBUG: startFrom: 0
+[2025-09-01T23:05:51.299Z] 🔍 DEBUG: normalizedTitle after regex: "The Past Perfect Simple Tense"
+[2025-09-01T23:05:51.299Z] 🔍 SEARCH: Normalized title: "The Past Perfect Simple Tense"
+[2025-09-01T23:05:51.299Z] ✅ SEARCH: Found exact match at position 0
+[2025-09-01T23:05:51.299Z] ✅ TOC-SCOPED: Found section start at position 0 within TOC pages
+[2025-09-01T23:05:51.299Z] 🔍 SEARCH: Looking for "Countable and Uncontabnle Nouns" in text starting from position 50
+[2025-09-01T23:05:51.300Z] 🔍 DEBUG: text exists: true, length: 5941
+[2025-09-01T23:05:51.300Z] 🔍 DEBUG: cleanTitle type: string, value: "Countable and Uncontabnle Nouns"
+[2025-09-01T23:05:51.300Z] 🔍 DEBUG: startFrom: 50
+[2025-09-01T23:05:51.300Z] 🔍 DEBUG: normalizedTitle after regex: "Countable and Uncontabnle Nouns"
+[2025-09-01T23:05:51.300Z] 🔍 SEARCH: Normalized title: "Countable and Uncontabnle Nouns"
+[2025-09-01T23:05:51.300Z] 🔍 DEBUG: Split into chars: [c, o, u, n, t, a, b, l, e,  , a, n, d,  , u, n, c, o, n, t, a, b, n, l, e,  , n, o, u, n, s]
+[2025-09-01T23:05:51.301Z] 🔍 DEBUG: Generated variations: 50
+[2025-09-01T23:05:51.301Z] 🔍 SEARCH: Generated 50 space variations
+[2025-09-01T23:05:51.301Z] ❌ SEARCH: No match found for "Countable and Uncontabnle Nouns"
+[2025-09-01T23:05:51.301Z] ✅ TOC-SCOPED REFINEMENT: Successfully refined - 5941 chars within TOC pages 25-27
+[2025-09-01T23:05:51.301Z] 🎯 TOC-SCOPED: Refined section within TOC pages (5941 chars)
+[2025-09-01T23:05:51.354Z] 📄 SIMPLE: Processing section 17/35: "Countable and Uncontabnle Nouns" (pages 27-27)
+[2025-09-01T23:05:51.355Z] 📄 TOC-ONLY: Extracting section "Countable and Uncontabnle Nouns" from TOC pages 27-27
+[2025-09-01T23:05:51.355Z] ✅ TOC-ONLY: Extracted 2001 chars from 1 TOC pages (27)
+[2025-09-01T23:05:51.355Z] 📖 TOC-ONLY: Content preview: "COUNTABLE AND UNCOUNTABLE NOUNS (BROJIVE I NEBROJIVE
+IMENICE)
+
+
+Brojive imenice (countable nouns) su imenice koje imaju množinu – mogu se brojati.
+book – knjiga books – knjige
+child – dete child..."
+[2025-09-01T23:05:51.355Z] 📊 TOC-ONLY: Character positions - Start: 48513, End: 50514
+[2025-09-01T23:05:51.355Z] ✅ TOC-ONLY: Extracted 2001 chars from TOC pages 27-27
+[2025-09-01T23:05:51.356Z] 🎯 TOC-SCOPED REFINEMENT: Refining "Countable and Uncontabnle Nouns" within TOC pages 27-27
+[2025-09-01T23:05:51.356Z] 🔍 TOC-SCOPED: Searching within TOC pages text (2001 chars)
+[2025-09-01T23:05:51.356Z] 🔍 SEARCH: Looking for "Countable and Uncontabnle Nouns" in text starting from position 0
+[2025-09-01T23:05:51.356Z] 🔍 DEBUG: text exists: true, length: 2001
+[2025-09-01T23:05:51.356Z] 🔍 DEBUG: cleanTitle type: string, value: "Countable and Uncontabnle Nouns"
+[2025-09-01T23:05:51.356Z] 🔍 DEBUG: startFrom: 0
+[2025-09-01T23:05:51.356Z] 🔍 DEBUG: normalizedTitle after regex: "Countable and Uncontabnle Nouns"
+[2025-09-01T23:05:51.356Z] 🔍 SEARCH: Normalized title: "Countable and Uncontabnle Nouns"
+[2025-09-01T23:05:51.356Z] 🔍 DEBUG: Split into chars: [c, o, u, n, t, a, b, l, e,  , a, n, d,  , u, n, c, o, n, t, a, b, n, l, e,  , n, o, u, n, s]
+[2025-09-01T23:05:51.357Z] 🔍 DEBUG: Generated variations: 50
+[2025-09-01T23:05:51.357Z] 🔍 SEARCH: Generated 50 space variations
+[2025-09-01T23:05:51.357Z] ❌ SEARCH: No match found for "Countable and Uncontabnle Nouns"
+[2025-09-01T23:05:51.357Z] ⚠️ Section title "Countable and Uncontabnle Nouns" not found within TOC pages, using whole pages
+[2025-09-01T23:05:51.357Z] 📄 TOC-ONLY: Using complete TOC pages content
+[2025-09-01T23:05:51.406Z] 📄 SIMPLE: Processing section 18/35: "Quantifiers" (pages 27-27)
+[2025-09-01T23:05:51.406Z] 📄 TOC-ONLY: Extracting section "Quantifiers" from TOC pages 27-27
+[2025-09-01T23:05:51.407Z] ✅ TOC-ONLY: Extracted 2001 chars from 1 TOC pages (27)
+[2025-09-01T23:05:51.407Z] 📖 TOC-ONLY: Content preview: "COUNTABLE AND UNCOUNTABLE NOUNS (BROJIVE I NEBROJIVE
+IMENICE)
+
+
+Brojive imenice (countable nouns) su imenice koje imaju množinu – mogu se brojati.
+book – knjiga books – knjige
+child – dete child..."
+[2025-09-01T23:05:51.407Z] 📊 TOC-ONLY: Character positions - Start: 48513, End: 50514
+[2025-09-01T23:05:51.407Z] ✅ TOC-ONLY: Extracted 2001 chars from TOC pages 27-27
+[2025-09-01T23:05:51.407Z] 🎯 TOC-SCOPED REFINEMENT: Refining "Quantifiers" within TOC pages 27-27
+[2025-09-01T23:05:51.407Z] 🔍 TOC-SCOPED: Searching within TOC pages text (2001 chars)
+[2025-09-01T23:05:51.408Z] 🔍 SEARCH: Looking for "Quantifiers" in text starting from position 0
+[2025-09-01T23:05:51.408Z] 🔍 DEBUG: text exists: true, length: 2001
+[2025-09-01T23:05:51.408Z] 🔍 DEBUG: cleanTitle type: string, value: "Quantifiers"
+[2025-09-01T23:05:51.408Z] 🔍 DEBUG: startFrom: 0
+[2025-09-01T23:05:51.408Z] 🔍 DEBUG: normalizedTitle after regex: "Quantifiers"
+[2025-09-01T23:05:51.408Z] 🔍 SEARCH: Normalized title: "Quantifiers"
+[2025-09-01T23:05:51.408Z] ✅ SEARCH: Found exact match at position 322
+[2025-09-01T23:05:51.409Z] ✅ TOC-SCOPED: Found section start at position 322 within TOC pages
+[2025-09-01T23:05:51.409Z] 🔍 SEARCH: Looking for "Articles" in text starting from position 372
+[2025-09-01T23:05:51.409Z] 🔍 DEBUG: text exists: true, length: 2001
+[2025-09-01T23:05:51.409Z] 🔍 DEBUG: cleanTitle type: string, value: "Articles"
+[2025-09-01T23:05:51.409Z] 🔍 DEBUG: startFrom: 372
+[2025-09-01T23:05:51.409Z] 🔍 DEBUG: normalizedTitle after regex: "Articles"
+[2025-09-01T23:05:51.409Z] 🔍 SEARCH: Normalized title: "Articles"
+[2025-09-01T23:05:51.409Z] ✅ SEARCH: Found exact match at position 1435
+[2025-09-01T23:05:51.409Z] ✅ TOC-SCOPED: Found next section "Articles" at position 1435 within TOC pages
+[2025-09-01T23:05:51.409Z] ✅ TOC-SCOPED REFINEMENT: Successfully refined - 1107 chars within TOC pages 27-27
+[2025-09-01T23:05:51.410Z] 🎯 TOC-SCOPED: Refined section within TOC pages (1107 chars)
+[2025-09-01T23:05:51.460Z] 📄 SIMPLE: Processing section 19/35: "Articles" (pages 27-27)
+[2025-09-01T23:05:51.461Z] 📄 TOC-ONLY: Extracting section "Articles" from TOC pages 27-27
+[2025-09-01T23:05:51.461Z] ✅ TOC-ONLY: Extracted 2001 chars from 1 TOC pages (27)
+[2025-09-01T23:05:51.461Z] 📖 TOC-ONLY: Content preview: "COUNTABLE AND UNCOUNTABLE NOUNS (BROJIVE I NEBROJIVE
+IMENICE)
+
+
+Brojive imenice (countable nouns) su imenice koje imaju množinu – mogu se brojati.
+book – knjiga books – knjige
+child – dete child..."
+[2025-09-01T23:05:51.461Z] 📊 TOC-ONLY: Character positions - Start: 48513, End: 50514
+[2025-09-01T23:05:51.462Z] ✅ TOC-ONLY: Extracted 2001 chars from TOC pages 27-27
+[2025-09-01T23:05:51.462Z] 🎯 TOC-SCOPED REFINEMENT: Refining "Articles" within TOC pages 27-27
+[2025-09-01T23:05:51.462Z] 🔍 TOC-SCOPED: Searching within TOC pages text (2001 chars)
+[2025-09-01T23:05:51.462Z] 🔍 SEARCH: Looking for "Articles" in text starting from position 0
+[2025-09-01T23:05:51.462Z] 🔍 DEBUG: text exists: true, length: 2001
+[2025-09-01T23:05:51.462Z] 🔍 DEBUG: cleanTitle type: string, value: "Articles"
+[2025-09-01T23:05:51.463Z] 🔍 DEBUG: startFrom: 0
+[2025-09-01T23:05:51.463Z] 🔍 DEBUG: normalizedTitle after regex: "Articles"
+[2025-09-01T23:05:51.463Z] 🔍 SEARCH: Normalized title: "Articles"
+[2025-09-01T23:05:51.463Z] ✅ SEARCH: Found exact match at position 1435
+[2025-09-01T23:05:51.463Z] ✅ TOC-SCOPED: Found section start at position 1435 within TOC pages
+[2025-09-01T23:05:51.463Z] 🔍 SEARCH: Looking for "The Indefinite Article" in text starting from position 1485
+[2025-09-01T23:05:51.463Z] 🔍 DEBUG: text exists: true, length: 2001
+[2025-09-01T23:05:51.464Z] 🔍 DEBUG: cleanTitle type: string, value: "The Indefinite Article"
+[2025-09-01T23:05:51.464Z] 🔍 DEBUG: startFrom: 1485
+[2025-09-01T23:05:51.464Z] 🔍 DEBUG: normalizedTitle after regex: "The Indefinite Article"
+[2025-09-01T23:05:51.464Z] 🔍 SEARCH: Normalized title: "The Indefinite Article"
+[2025-09-01T23:05:51.464Z] 🔍 DEBUG: Split into chars: [t, h, e,  , i, n, d, e, f, i, n, i, t, e,  , a, r, t, i, c, l, e]
+[2025-09-01T23:05:51.464Z] 🔍 DEBUG: Generated variations: 50
+[2025-09-01T23:05:51.465Z] 🔍 SEARCH: Generated 50 space variations
+[2025-09-01T23:05:51.465Z] ❌ SEARCH: No match found for "The Indefinite Article"
+[2025-09-01T23:05:51.465Z] ✅ TOC-SCOPED REFINEMENT: Successfully refined - 566 chars within TOC pages 27-27
+[2025-09-01T23:05:51.465Z] 🎯 TOC-SCOPED: Refined section within TOC pages (566 chars)
+[2025-09-01T23:05:51.515Z] 📄 SIMPLE: Processing section 20/35: "The Indefinite Article" (pages 27-28)
+[2025-09-01T23:05:51.515Z] 📄 TOC-ONLY: Extracting section "The Indefinite Article" from TOC pages 27-28
+[2025-09-01T23:05:51.515Z] ✅ TOC-ONLY: Extracted 3534 chars from 2 TOC pages (27, 28)
+[2025-09-01T23:05:51.516Z] 📖 TOC-ONLY: Content preview: "COUNTABLE AND UNCOUNTABLE NOUNS (BROJIVE I NEBROJIVE
+IMENICE)
+
+
+Brojive imenice (countable nouns) su imenice koje imaju množinu – mogu se brojati.
+book – knjiga books – knjige
+child – dete child..."
+[2025-09-01T23:05:51.516Z] 📊 TOC-ONLY: Character positions - Start: 48513, End: 52047
+[2025-09-01T23:05:51.516Z] ✅ TOC-ONLY: Extracted 3534 chars from TOC pages 27-28
+[2025-09-01T23:05:51.516Z] 🎯 TOC-SCOPED REFINEMENT: Refining "The Indefinite Article" within TOC pages 27-28
+[2025-09-01T23:05:51.516Z] 🔍 TOC-SCOPED: Searching within TOC pages text (3534 chars)
+[2025-09-01T23:05:51.516Z] 🔍 SEARCH: Looking for "The Indefinite Article" in text starting from position 0
+[2025-09-01T23:05:51.517Z] 🔍 DEBUG: text exists: true, length: 3534
+[2025-09-01T23:05:51.517Z] 🔍 DEBUG: cleanTitle type: string, value: "The Indefinite Article"
+[2025-09-01T23:05:51.517Z] 🔍 DEBUG: startFrom: 0
+[2025-09-01T23:05:51.517Z] 🔍 DEBUG: normalizedTitle after regex: "The Indefinite Article"
+[2025-09-01T23:05:51.517Z] 🔍 SEARCH: Normalized title: "The Indefinite Article"
+[2025-09-01T23:05:51.517Z] 🔍 DEBUG: Split into chars: [t, h, e,  , i, n, d, e, f, i, n, i, t, e,  , a, r, t, i, c, l, e]
+[2025-09-01T23:05:51.517Z] 🔍 DEBUG: Generated variations: 50
+[2025-09-01T23:05:51.517Z] 🔍 SEARCH: Generated 50 space variations
+[2025-09-01T23:05:51.518Z] ❌ SEARCH: No match found for "The Indefinite Article"
+[2025-09-01T23:05:51.518Z] ⚠️ Section title "The Indefinite Article" not found within TOC pages, using whole pages
+[2025-09-01T23:05:51.518Z] 📄 TOC-ONLY: Using complete TOC pages content
+[2025-09-01T23:05:51.566Z] 📄 SIMPLE: Processing section 21/35: "The Definite Article" (pages 28-29)
+[2025-09-01T23:05:51.567Z] 📄 TOC-ONLY: Extracting section "The Definite Article" from TOC pages 28-29
+[2025-09-01T23:05:51.567Z] ✅ TOC-ONLY: Extracted 2280 chars from 2 TOC pages (28, 29)
+[2025-09-01T23:05:51.567Z] 📖 TOC-ONLY: Content preview: "Neodređeni član se koristi ispred imenskog dela predikata i profesija.
+I am a student. (Ja sam student.)
+The ugly duckling became a beautiful swan. (Ružno pače je postalo prelepi labud.)
+
+ODREĐENI..."
+[2025-09-01T23:05:51.567Z] 📊 TOC-ONLY: Character positions - Start: 50516, End: 52796
+[2025-09-01T23:05:51.567Z] ✅ TOC-ONLY: Extracted 2280 chars from TOC pages 28-29
+[2025-09-01T23:05:51.567Z] 🎯 TOC-SCOPED REFINEMENT: Refining "The Definite Article" within TOC pages 28-29
+[2025-09-01T23:05:51.568Z] 🔍 TOC-SCOPED: Searching within TOC pages text (2280 chars)
+[2025-09-01T23:05:51.568Z] 🔍 SEARCH: Looking for "The Definite Article" in text starting from position 0
+[2025-09-01T23:05:51.568Z] 🔍 DEBUG: text exists: true, length: 2280
+[2025-09-01T23:05:51.568Z] 🔍 DEBUG: cleanTitle type: string, value: "The Definite Article"
+[2025-09-01T23:05:51.568Z] 🔍 DEBUG: startFrom: 0
+[2025-09-01T23:05:51.568Z] 🔍 DEBUG: normalizedTitle after regex: "The Definite Article"
+[2025-09-01T23:05:51.568Z] 🔍 SEARCH: Normalized title: "The Definite Article"
+[2025-09-01T23:05:51.569Z] 🔍 DEBUG: Split into chars: [t, h, e,  , d, e, f, i, n, i, t, e,  , a, r, t, i, c, l, e]
+[2025-09-01T23:05:51.569Z] 🔍 DEBUG: Generated variations: 50
+[2025-09-01T23:05:51.569Z] 🔍 SEARCH: Generated 50 space variations
+[2025-09-01T23:05:51.569Z] ❌ SEARCH: No match found for "The Definite Article"
+[2025-09-01T23:05:51.569Z] ⚠️ Section title "The Definite Article" not found within TOC pages, using whole pages
+[2025-09-01T23:05:51.569Z] 📄 TOC-ONLY: Using complete TOC pages content
+[2025-09-01T23:05:51.617Z] 📄 SIMPLE: Processing section 22/35: "No Article" (pages 29-30)
+[2025-09-01T23:05:51.617Z] 📄 TOC-ONLY: Extracting section "No Article" from TOC pages 29-30
+[2025-09-01T23:05:51.617Z] ✅ TOC-ONLY: Extracted 3258 chars from 2 TOC pages (29, 30)
+[2025-09-01T23:05:51.617Z] 📖 TOC-ONLY: Content preview: "IZOSTAVLJANE ČLANA
+
+Član se ne koristi
+
+Sa imenicama u množini i nebrojivim imenicama kada govorimo uopšteno o nečemu
+
+Apples are very good for your health.
+We drink coffee and tea.
+
+Ispred i..."
+[2025-09-01T23:05:51.618Z] 📊 TOC-ONLY: Character positions - Start: 52049, End: 55307
+[2025-09-01T23:05:51.618Z] ✅ TOC-ONLY: Extracted 3258 chars from TOC pages 29-30
+[2025-09-01T23:05:51.618Z] 🎯 TOC-SCOPED REFINEMENT: Refining "No Article" within TOC pages 29-30
+[2025-09-01T23:05:51.618Z] 🔍 TOC-SCOPED: Searching within TOC pages text (3258 chars)
+[2025-09-01T23:05:51.618Z] 🔍 SEARCH: Looking for "No Article" in text starting from position 0
+[2025-09-01T23:05:51.619Z] 🔍 DEBUG: text exists: true, length: 3258
+[2025-09-01T23:05:51.619Z] 🔍 DEBUG: cleanTitle type: string, value: "No Article"
+[2025-09-01T23:05:51.619Z] 🔍 DEBUG: startFrom: 0
+[2025-09-01T23:05:51.619Z] 🔍 DEBUG: normalizedTitle after regex: "No Article"
+[2025-09-01T23:05:51.619Z] 🔍 SEARCH: Normalized title: "No Article"
+[2025-09-01T23:05:51.619Z] 🔍 DEBUG: Split into chars: [n, o,  , a, r, t, i, c, l, e]
+[2025-09-01T23:05:51.619Z] 🔍 DEBUG: Generated variations: 28
+[2025-09-01T23:05:51.620Z] 🔍 SEARCH: Generated 28 space variations
+[2025-09-01T23:05:51.620Z] ❌ SEARCH: No match found for "No Article"
+[2025-09-01T23:05:51.620Z] ⚠️ Section title "No Article" not found within TOC pages, using whole pages
+[2025-09-01T23:05:51.620Z] 📄 TOC-ONLY: Using complete TOC pages content
+[2025-09-01T23:05:51.672Z] 📄 SIMPLE: Processing section 23/35: "Verb Patterns" (pages 30-30)
+[2025-09-01T23:05:51.672Z] 📄 TOC-ONLY: Extracting section "Verb Patterns" from TOC pages 30-30
+[2025-09-01T23:05:51.672Z] ✅ TOC-ONLY: Extracted 2509 chars from 1 TOC pages (30)
+[2025-09-01T23:05:51.672Z] 📖 TOC-ONLY: Content preview: "VERB PATTERNS (GLAGOLSKI OBRASCI)
+
+
+Određeni glagoli zahtevaju iza sebe gerund (glagolska osnova+nastavak -ing). Takvi glagoli
+su:
+
+love, like, hate, enjoy, prefer, detest, dislike kao i izrazi ..."
+[2025-09-01T23:05:51.673Z] 📊 TOC-ONLY: Character positions - Start: 52798, End: 55307
+[2025-09-01T23:05:51.673Z] ✅ TOC-ONLY: Extracted 2509 chars from TOC pages 30-30
+[2025-09-01T23:05:51.673Z] 🎯 TOC-SCOPED REFINEMENT: Refining "Verb Patterns" within TOC pages 30-30
+[2025-09-01T23:05:51.673Z] 🔍 TOC-SCOPED: Searching within TOC pages text (2509 chars)
+[2025-09-01T23:05:51.673Z] 🔍 SEARCH: Looking for "Verb Patterns" in text starting from position 0
+[2025-09-01T23:05:51.673Z] 🔍 DEBUG: text exists: true, length: 2509
+[2025-09-01T23:05:51.673Z] 🔍 DEBUG: cleanTitle type: string, value: "Verb Patterns"
+[2025-09-01T23:05:51.673Z] 🔍 DEBUG: startFrom: 0
+[2025-09-01T23:05:51.674Z] 🔍 DEBUG: normalizedTitle after regex: "Verb Patterns"
+[2025-09-01T23:05:51.674Z] 🔍 SEARCH: Normalized title: "Verb Patterns"
+[2025-09-01T23:05:51.674Z] ✅ SEARCH: Found exact match at position 0
+[2025-09-01T23:05:51.674Z] ✅ TOC-SCOPED: Found section start at position 0 within TOC pages
+[2025-09-01T23:05:51.674Z] 🔍 SEARCH: Looking for "Defining Relative Clauses" in text starting from position 50
+[2025-09-01T23:05:51.674Z] 🔍 DEBUG: text exists: true, length: 2509
+[2025-09-01T23:05:51.674Z] 🔍 DEBUG: cleanTitle type: string, value: "Defining Relative Clauses"
+[2025-09-01T23:05:51.674Z] 🔍 DEBUG: startFrom: 50
+[2025-09-01T23:05:51.674Z] 🔍 DEBUG: normalizedTitle after regex: "Defining Relative Clauses"
+[2025-09-01T23:05:51.675Z] 🔍 SEARCH: Normalized title: "Defining Relative Clauses"
+[2025-09-01T23:05:51.675Z] ✅ SEARCH: Found exact match at position 999
+[2025-09-01T23:05:51.675Z] ✅ TOC-SCOPED: Found next section "Defining Relative Clauses" at position 999 within TOC pages
+[2025-09-01T23:05:51.675Z] ✅ TOC-SCOPED REFINEMENT: Successfully refined - 989 chars within TOC pages 30-30
+[2025-09-01T23:05:51.675Z] 🎯 TOC-SCOPED: Refined section within TOC pages (989 chars)
+[2025-09-01T23:05:51.723Z] 📄 SIMPLE: Processing section 24/35: "Defining Relative Clauses" (pages 30-31)
+[2025-09-01T23:05:51.723Z] 📄 TOC-ONLY: Extracting section "Defining Relative Clauses" from TOC pages 30-31
+[2025-09-01T23:05:51.724Z] ✅ TOC-ONLY: Extracted 5024 chars from 2 TOC pages (30, 31)
+[2025-09-01T23:05:51.724Z] 📖 TOC-ONLY: Content preview: "VERB PATTERNS (GLAGOLSKI OBRASCI)
+
+
+Određeni glagoli zahtevaju iza sebe gerund (glagolska osnova+nastavak -ing). Takvi glagoli
+su:
+
+love, like, hate, enjoy, prefer, detest, dislike kao i izrazi ..."
+[2025-09-01T23:05:51.724Z] 📊 TOC-ONLY: Character positions - Start: 52798, End: 57822
+[2025-09-01T23:05:51.724Z] ✅ TOC-ONLY: Extracted 5024 chars from TOC pages 30-31
+[2025-09-01T23:05:51.724Z] 🎯 TOC-SCOPED REFINEMENT: Refining "Defining Relative Clauses" within TOC pages 30-31
+[2025-09-01T23:05:51.725Z] 🔍 TOC-SCOPED: Searching within TOC pages text (5024 chars)
+[2025-09-01T23:05:51.725Z] 🔍 SEARCH: Looking for "Defining Relative Clauses" in text starting from position 0
+[2025-09-01T23:05:51.725Z] 🔍 DEBUG: text exists: true, length: 5024
+[2025-09-01T23:05:51.725Z] 🔍 DEBUG: cleanTitle type: string, value: "Defining Relative Clauses"
+[2025-09-01T23:05:51.725Z] 🔍 DEBUG: startFrom: 0
+[2025-09-01T23:05:51.725Z] 🔍 DEBUG: normalizedTitle after regex: "Defining Relative Clauses"
+[2025-09-01T23:05:51.726Z] 🔍 SEARCH: Normalized title: "Defining Relative Clauses"
+[2025-09-01T23:05:51.726Z] ✅ SEARCH: Found exact match at position 999
+[2025-09-01T23:05:51.726Z] ✅ TOC-SCOPED: Found section start at position 999 within TOC pages
+[2025-09-01T23:05:51.726Z] 🔍 SEARCH: Looking for "Reported Speech" in text starting from position 1049
+[2025-09-01T23:05:51.726Z] 🔍 DEBUG: text exists: true, length: 5024
+[2025-09-01T23:05:51.726Z] 🔍 DEBUG: cleanTitle type: string, value: "Reported Speech"
+[2025-09-01T23:05:51.727Z] 🔍 DEBUG: startFrom: 1049
+[2025-09-01T23:05:51.727Z] 🔍 DEBUG: normalizedTitle after regex: "Reported Speech"
+[2025-09-01T23:05:51.727Z] 🔍 SEARCH: Normalized title: "Reported Speech"
+[2025-09-01T23:05:51.727Z] ✅ SEARCH: Found exact match at position 2994
+[2025-09-01T23:05:51.727Z] ✅ TOC-SCOPED: Found next section "Reported Speech" at position 2994 within TOC pages
+[2025-09-01T23:05:51.727Z] ✅ TOC-SCOPED REFINEMENT: Successfully refined - 1985 chars within TOC pages 30-31
+[2025-09-01T23:05:51.727Z] 🎯 TOC-SCOPED: Refined section within TOC pages (1985 chars)
+[2025-09-01T23:05:51.779Z] 📄 SIMPLE: Processing section 25/35: "Reported Speech" (pages 31-31)
+[2025-09-01T23:05:51.779Z] 📄 TOC-ONLY: Extracting section "Reported Speech" from TOC pages 31-31
+[2025-09-01T23:05:51.780Z] ✅ TOC-ONLY: Extracted 2513 chars from 1 TOC pages (31)
+[2025-09-01T23:05:51.780Z] 📖 TOC-ONLY: Content preview: "ili u rečenici
+That is the dog that attacked me, that je takođe subjekat rečenice.
+Međutim, u rečenici
+The letter which she sent me was nice, which je objekat
+Ili u rečenici
+The man that I met ye..."
+[2025-09-01T23:05:51.780Z] 📊 TOC-ONLY: Character positions - Start: 55309, End: 57822
+[2025-09-01T23:05:51.780Z] ✅ TOC-ONLY: Extracted 2513 chars from TOC pages 31-31
+[2025-09-01T23:05:51.781Z] 🎯 TOC-SCOPED REFINEMENT: Refining "Reported Speech" within TOC pages 31-31
+[2025-09-01T23:05:51.781Z] 🔍 TOC-SCOPED: Searching within TOC pages text (2513 chars)
+[2025-09-01T23:05:51.781Z] 🔍 SEARCH: Looking for "Reported Speech" in text starting from position 0
+[2025-09-01T23:05:51.781Z] 🔍 DEBUG: text exists: true, length: 2513
+[2025-09-01T23:05:51.781Z] 🔍 DEBUG: cleanTitle type: string, value: "Reported Speech"
+[2025-09-01T23:05:51.782Z] 🔍 DEBUG: startFrom: 0
+[2025-09-01T23:05:51.782Z] 🔍 DEBUG: normalizedTitle after regex: "Reported Speech"
+[2025-09-01T23:05:51.782Z] 🔍 SEARCH: Normalized title: "Reported Speech"
+[2025-09-01T23:05:51.782Z] ✅ SEARCH: Found exact match at position 483
+[2025-09-01T23:05:51.782Z] ✅ TOC-SCOPED: Found section start at position 483 within TOC pages
+[2025-09-01T23:05:51.783Z] 🔍 SEARCH: Looking for "Statements" in text starting from position 533
+[2025-09-01T23:05:51.783Z] 🔍 DEBUG: text exists: true, length: 2513
+[2025-09-01T23:05:51.783Z] 🔍 DEBUG: cleanTitle type: string, value: "Statements"
+[2025-09-01T23:05:51.783Z] 🔍 DEBUG: startFrom: 533
+[2025-09-01T23:05:51.783Z] 🔍 DEBUG: normalizedTitle after regex: "Statements"
+[2025-09-01T23:05:51.783Z] 🔍 SEARCH: Normalized title: "Statements"
+[2025-09-01T23:05:51.784Z] ✅ SEARCH: Found exact match at position 1118
+[2025-09-01T23:05:51.784Z] ✅ TOC-SCOPED: Found next section "Statements" at position 1118 within TOC pages
+[2025-09-01T23:05:51.784Z] ✅ TOC-SCOPED REFINEMENT: Successfully refined - 629 chars within TOC pages 31-31
+[2025-09-01T23:05:51.784Z] 🎯 TOC-SCOPED: Refined section within TOC pages (629 chars)
+[2025-09-01T23:05:51.835Z] 📄 SIMPLE: Processing section 26/35: "Statements" (pages 31-32)
+[2025-09-01T23:05:51.835Z] 📄 TOC-ONLY: Extracting section "Statements" from TOC pages 31-32
+[2025-09-01T23:05:51.835Z] ✅ TOC-ONLY: Extracted 4927 chars from 2 TOC pages (31, 32)
+[2025-09-01T23:05:51.835Z] 📖 TOC-ONLY: Content preview: "ili u rečenici
+That is the dog that attacked me, that je takođe subjekat rečenice.
+Međutim, u rečenici
+The letter which she sent me was nice, which je objekat
+Ili u rečenici
+The man that I met ye..."
+[2025-09-01T23:05:51.836Z] 📊 TOC-ONLY: Character positions - Start: 55309, End: 60236
+[2025-09-01T23:05:51.836Z] ✅ TOC-ONLY: Extracted 4927 chars from TOC pages 31-32
+[2025-09-01T23:05:51.836Z] 🎯 TOC-SCOPED REFINEMENT: Refining "Statements" within TOC pages 31-32
+[2025-09-01T23:05:51.836Z] 🔍 TOC-SCOPED: Searching within TOC pages text (4927 chars)
+[2025-09-01T23:05:51.836Z] 🔍 SEARCH: Looking for "Statements" in text starting from position 0
+[2025-09-01T23:05:51.836Z] 🔍 DEBUG: text exists: true, length: 4927
+[2025-09-01T23:05:51.836Z] 🔍 DEBUG: cleanTitle type: string, value: "Statements"
+[2025-09-01T23:05:51.837Z] 🔍 DEBUG: startFrom: 0
+[2025-09-01T23:05:51.837Z] 🔍 DEBUG: normalizedTitle after regex: "Statements"
+[2025-09-01T23:05:51.837Z] 🔍 SEARCH: Normalized title: "Statements"
+[2025-09-01T23:05:51.837Z] ✅ SEARCH: Found exact match at position 1118
+[2025-09-01T23:05:51.837Z] ✅ TOC-SCOPED: Found section start at position 1118 within TOC pages
+[2025-09-01T23:05:51.837Z] 🔍 SEARCH: Looking for "Questions" in text starting from position 1168
+[2025-09-01T23:05:51.837Z] 🔍 DEBUG: text exists: true, length: 4927
+[2025-09-01T23:05:51.837Z] 🔍 DEBUG: cleanTitle type: string, value: "Questions"
+[2025-09-01T23:05:51.838Z] 🔍 DEBUG: startFrom: 1168
+[2025-09-01T23:05:51.838Z] 🔍 DEBUG: normalizedTitle after regex: "Questions"
+[2025-09-01T23:05:51.838Z] 🔍 SEARCH: Normalized title: "Questions"
+[2025-09-01T23:05:51.838Z] ✅ SEARCH: Found exact match at position 3709
+[2025-09-01T23:05:51.838Z] ✅ TOC-SCOPED: Found next section "Questions" at position 3709 within TOC pages
+[2025-09-01T23:05:51.838Z] ✅ TOC-SCOPED REFINEMENT: Successfully refined - 2585 chars within TOC pages 31-32
+[2025-09-01T23:05:51.838Z] 🎯 TOC-SCOPED: Refined section within TOC pages (2585 chars)
+[2025-09-01T23:05:51.887Z] 📄 SIMPLE: Processing section 27/35: "Questions" (pages 32-33)
+[2025-09-01T23:05:51.887Z] 📄 TOC-ONLY: Extracting section "Questions" from TOC pages 32-33
+[2025-09-01T23:05:51.887Z] ✅ TOC-ONLY: Extracted 4788 chars from 2 TOC pages (32, 33)
+[2025-09-01T23:05:51.887Z] 📖 TOC-ONLY: Content preview: "Evo do kojih promena u vremenima dolazi pri slaganju vremena.
+
+Present Simple Tense prelazi u Past Simple Tense
+Present Continuous Tense prelazi u Past Continuous Tense
+Present Perfect Tense prela..."
+[2025-09-01T23:05:51.887Z] 📊 TOC-ONLY: Character positions - Start: 57824, End: 62612
+[2025-09-01T23:05:51.888Z] ✅ TOC-ONLY: Extracted 4788 chars from TOC pages 32-33
+[2025-09-01T23:05:51.888Z] 🎯 TOC-SCOPED REFINEMENT: Refining "Questions" within TOC pages 32-33
+[2025-09-01T23:05:51.888Z] 🔍 TOC-SCOPED: Searching within TOC pages text (4788 chars)
+[2025-09-01T23:05:51.888Z] 🔍 SEARCH: Looking for "Questions" in text starting from position 0
+[2025-09-01T23:05:51.888Z] 🔍 DEBUG: text exists: true, length: 4788
+[2025-09-01T23:05:51.888Z] 🔍 DEBUG: cleanTitle type: string, value: "Questions"
+[2025-09-01T23:05:51.888Z] 🔍 DEBUG: startFrom: 0
+[2025-09-01T23:05:51.888Z] 🔍 DEBUG: normalizedTitle after regex: "Questions"
+[2025-09-01T23:05:51.888Z] 🔍 SEARCH: Normalized title: "Questions"
+[2025-09-01T23:05:51.889Z] ✅ SEARCH: Found exact match at position 1194
+[2025-09-01T23:05:51.889Z] ✅ TOC-SCOPED: Found section start at position 1194 within TOC pages
+[2025-09-01T23:05:51.889Z] 🔍 SEARCH: Looking for "Orders" in text starting from position 1244
+[2025-09-01T23:05:51.889Z] 🔍 DEBUG: text exists: true, length: 4788
+[2025-09-01T23:05:51.889Z] 🔍 DEBUG: cleanTitle type: string, value: "Orders"
+[2025-09-01T23:05:51.889Z] 🔍 DEBUG: startFrom: 1244
+[2025-09-01T23:05:51.889Z] 🔍 DEBUG: normalizedTitle after regex: "Orders"
+[2025-09-01T23:05:51.889Z] 🔍 SEARCH: Normalized title: "Orders"
+[2025-09-01T23:05:51.889Z] ✅ SEARCH: Found exact match at position 2787
+[2025-09-01T23:05:51.890Z] ✅ TOC-SCOPED: Found next section "Orders" at position 2787 within TOC pages
+[2025-09-01T23:05:51.890Z] ✅ TOC-SCOPED REFINEMENT: Successfully refined - 1587 chars within TOC pages 32-33
+[2025-09-01T23:05:51.890Z] 🎯 TOC-SCOPED: Refined section within TOC pages (1587 chars)
+[2025-09-01T23:05:51.937Z] 📄 SIMPLE: Processing section 28/35: "Orders" (pages 33-33)
+[2025-09-01T23:05:51.937Z] 📄 TOC-ONLY: Extracting section "Orders" from TOC pages 33-33
+[2025-09-01T23:05:51.937Z] ✅ TOC-ONLY: Extracted 2374 chars from 1 TOC pages (33)
+[2025-09-01T23:05:51.938Z] 📖 TOC-ONLY: Content preview: "Ako se radi o Wh-pitanjima if nije potrebno. Wh- pitanja počinju upitnim rečima when,
+which, who, why...
+
+Ivana: ”Where does Mary live?” (Ivana: ”Gde živi Meri?”)
+Ivana asked where Mary lived. (Iv..."
+[2025-09-01T23:05:51.938Z] 📊 TOC-ONLY: Character positions - Start: 60238, End: 62612
+[2025-09-01T23:05:51.938Z] ✅ TOC-ONLY: Extracted 2374 chars from TOC pages 33-33
+[2025-09-01T23:05:51.938Z] 🎯 TOC-SCOPED REFINEMENT: Refining "Orders" within TOC pages 33-33
+[2025-09-01T23:05:51.938Z] 🔍 TOC-SCOPED: Searching within TOC pages text (2374 chars)
+[2025-09-01T23:05:51.938Z] 🔍 SEARCH: Looking for "Orders" in text starting from position 0
+[2025-09-01T23:05:51.938Z] 🔍 DEBUG: text exists: true, length: 2374
+[2025-09-01T23:05:51.938Z] 🔍 DEBUG: cleanTitle type: string, value: "Orders"
+[2025-09-01T23:05:51.939Z] 🔍 DEBUG: startFrom: 0
+[2025-09-01T23:05:51.939Z] 🔍 DEBUG: normalizedTitle after regex: "Orders"
+[2025-09-01T23:05:51.939Z] 🔍 SEARCH: Normalized title: "Orders"
+[2025-09-01T23:05:51.939Z] ✅ SEARCH: Found exact match at position 373
+[2025-09-01T23:05:51.939Z] ✅ TOC-SCOPED: Found section start at position 373 within TOC pages
+[2025-09-01T23:05:51.939Z] 🔍 SEARCH: Looking for "Conditional Sentences" in text starting from position 423
+[2025-09-01T23:05:51.939Z] 🔍 DEBUG: text exists: true, length: 2374
+[2025-09-01T23:05:51.939Z] 🔍 DEBUG: cleanTitle type: string, value: "Conditional Sentences"
+[2025-09-01T23:05:51.939Z] 🔍 DEBUG: startFrom: 423
+[2025-09-01T23:05:51.940Z] 🔍 DEBUG: normalizedTitle after regex: "Conditional Sentences"
+[2025-09-01T23:05:51.940Z] 🔍 SEARCH: Normalized title: "Conditional Sentences"
+[2025-09-01T23:05:51.940Z] ✅ SEARCH: Found exact match at position 1452
+[2025-09-01T23:05:51.940Z] ✅ TOC-SCOPED: Found next section "Conditional Sentences" at position 1452 within TOC pages
+[2025-09-01T23:05:51.940Z] ✅ TOC-SCOPED REFINEMENT: Successfully refined - 1069 chars within TOC pages 33-33
+[2025-09-01T23:05:51.940Z] 🎯 TOC-SCOPED: Refined section within TOC pages (1069 chars)
+[2025-09-01T23:05:51.989Z] 📄 SIMPLE: Processing section 29/35: "Conditional Sentences" (pages 33-33)
+[2025-09-01T23:05:51.989Z] 📄 TOC-ONLY: Extracting section "Conditional Sentences" from TOC pages 33-33
+[2025-09-01T23:05:51.990Z] ✅ TOC-ONLY: Extracted 2374 chars from 1 TOC pages (33)
+[2025-09-01T23:05:51.990Z] 📖 TOC-ONLY: Content preview: "Ako se radi o Wh-pitanjima if nije potrebno. Wh- pitanja počinju upitnim rečima when,
+which, who, why...
+
+Ivana: ”Where does Mary live?” (Ivana: ”Gde živi Meri?”)
+Ivana asked where Mary lived. (Iv..."
+[2025-09-01T23:05:51.990Z] 📊 TOC-ONLY: Character positions - Start: 60238, End: 62612
+[2025-09-01T23:05:51.990Z] ✅ TOC-ONLY: Extracted 2374 chars from TOC pages 33-33
+[2025-09-01T23:05:51.990Z] 🎯 TOC-SCOPED REFINEMENT: Refining "Conditional Sentences" within TOC pages 33-33
+[2025-09-01T23:05:51.990Z] 🔍 TOC-SCOPED: Searching within TOC pages text (2374 chars)
+[2025-09-01T23:05:51.990Z] 🔍 SEARCH: Looking for "Conditional Sentences" in text starting from position 0
+[2025-09-01T23:05:51.991Z] 🔍 DEBUG: text exists: true, length: 2374
+[2025-09-01T23:05:51.991Z] 🔍 DEBUG: cleanTitle type: string, value: "Conditional Sentences"
+[2025-09-01T23:05:51.991Z] 🔍 DEBUG: startFrom: 0
+[2025-09-01T23:05:51.991Z] 🔍 DEBUG: normalizedTitle after regex: "Conditional Sentences"
+[2025-09-01T23:05:51.991Z] 🔍 SEARCH: Normalized title: "Conditional Sentences"
+[2025-09-01T23:05:51.991Z] ✅ SEARCH: Found exact match at position 1452
+[2025-09-01T23:05:51.991Z] ✅ TOC-SCOPED: Found section start at position 1452 within TOC pages
+[2025-09-01T23:05:51.991Z] 🔍 SEARCH: Looking for "The First Conditional" in text starting from position 1502
+[2025-09-01T23:05:51.991Z] 🔍 DEBUG: text exists: true, length: 2374
+[2025-09-01T23:05:51.991Z] 🔍 DEBUG: cleanTitle type: string, value: "The First Conditional"
+[2025-09-01T23:05:51.992Z] 🔍 DEBUG: startFrom: 1502
+[2025-09-01T23:05:51.992Z] 🔍 DEBUG: normalizedTitle after regex: "The First Conditional"
+[2025-09-01T23:05:51.992Z] 🔍 SEARCH: Normalized title: "The First Conditional"
+[2025-09-01T23:05:51.992Z] ✅ SEARCH: Found exact match at position 1719
+[2025-09-01T23:05:51.992Z] ✅ TOC-SCOPED: Found next section "The First Conditional" at position 1719 within TOC pages
+[2025-09-01T23:05:51.992Z] ✅ TOC-SCOPED REFINEMENT: Successfully refined - 263 chars within TOC pages 33-33
+[2025-09-01T23:05:51.992Z] 🎯 TOC-SCOPED: Refined section within TOC pages (263 chars)
+[2025-09-01T23:05:52.041Z] 📄 SIMPLE: Processing section 30/35: "The First Conditional" (pages 33-34)
+[2025-09-01T23:05:52.041Z] 📄 TOC-ONLY: Extracting section "The First Conditional" from TOC pages 33-34
+[2025-09-01T23:05:52.041Z] ✅ TOC-ONLY: Extracted 5061 chars from 2 TOC pages (33, 34)
+[2025-09-01T23:05:52.041Z] 📖 TOC-ONLY: Content preview: "Ako se radi o Wh-pitanjima if nije potrebno. Wh- pitanja počinju upitnim rečima when,
+which, who, why...
+
+Ivana: ”Where does Mary live?” (Ivana: ”Gde živi Meri?”)
+Ivana asked where Mary lived. (Iv..."
+[2025-09-01T23:05:52.041Z] 📊 TOC-ONLY: Character positions - Start: 60238, End: 65299
+[2025-09-01T23:05:52.042Z] ✅ TOC-ONLY: Extracted 5061 chars from TOC pages 33-34
+[2025-09-01T23:05:52.042Z] 🎯 TOC-SCOPED REFINEMENT: Refining "The First Conditional" within TOC pages 33-34
+[2025-09-01T23:05:52.042Z] 🔍 TOC-SCOPED: Searching within TOC pages text (5061 chars)
+[2025-09-01T23:05:52.042Z] 🔍 SEARCH: Looking for "The First Conditional" in text starting from position 0
+[2025-09-01T23:05:52.042Z] 🔍 DEBUG: text exists: true, length: 5061
+[2025-09-01T23:05:52.042Z] 🔍 DEBUG: cleanTitle type: string, value: "The First Conditional"
+[2025-09-01T23:05:52.042Z] 🔍 DEBUG: startFrom: 0
+[2025-09-01T23:05:52.042Z] 🔍 DEBUG: normalizedTitle after regex: "The First Conditional"
+[2025-09-01T23:05:52.043Z] 🔍 SEARCH: Normalized title: "The First Conditional"
+[2025-09-01T23:05:52.043Z] ✅ SEARCH: Found exact match at position 1719
+[2025-09-01T23:05:52.043Z] ✅ TOC-SCOPED: Found section start at position 1719 within TOC pages
+[2025-09-01T23:05:52.043Z] 🔍 SEARCH: Looking for "The Second Conditional" in text starting from position 1769
+[2025-09-01T23:05:52.043Z] 🔍 DEBUG: text exists: true, length: 5061
+[2025-09-01T23:05:52.043Z] 🔍 DEBUG: cleanTitle type: string, value: "The Second Conditional"
+[2025-09-01T23:05:52.043Z] 🔍 DEBUG: startFrom: 1769
+[2025-09-01T23:05:52.043Z] 🔍 DEBUG: normalizedTitle after regex: "The Second Conditional"
+[2025-09-01T23:05:52.043Z] 🔍 SEARCH: Normalized title: "The Second Conditional"
+[2025-09-01T23:05:52.044Z] ✅ SEARCH: Found exact match at position 3077
+[2025-09-01T23:05:52.044Z] ✅ TOC-SCOPED: Found next section "The Second Conditional" at position 3077 within TOC pages
+[2025-09-01T23:05:52.044Z] ✅ TOC-SCOPED REFINEMENT: Successfully refined - 1352 chars within TOC pages 33-34
+[2025-09-01T23:05:52.044Z] 🎯 TOC-SCOPED: Refined section within TOC pages (1352 chars)
+[2025-09-01T23:05:52.090Z] 📄 SIMPLE: Processing section 31/35: "The Second Conditional" (pages 34-34)
+[2025-09-01T23:05:52.090Z] 📄 TOC-ONLY: Extracting section "The Second Conditional" from TOC pages 34-34
+[2025-09-01T23:05:52.091Z] ✅ TOC-ONLY: Extracted 2685 chars from 1 TOC pages (34)
+[2025-09-01T23:05:52.091Z] 📖 TOC-ONLY: Content preview: "Kao varijacije prvog kondicionala javljaju se sledeće izmene.
+
+Umesto oblika will+infinitiv mogu se javiti ostali modalni glagoli sa infinitivom.
+
+If you want to lose weight, you should/must eat l..."
+[2025-09-01T23:05:52.091Z] 📊 TOC-ONLY: Character positions - Start: 62614, End: 65299
+[2025-09-01T23:05:52.091Z] ✅ TOC-ONLY: Extracted 2685 chars from TOC pages 34-34
+[2025-09-01T23:05:52.091Z] 🎯 TOC-SCOPED REFINEMENT: Refining "The Second Conditional" within TOC pages 34-34
+[2025-09-01T23:05:52.092Z] 🔍 TOC-SCOPED: Searching within TOC pages text (2685 chars)
+[2025-09-01T23:05:52.092Z] 🔍 SEARCH: Looking for "The Second Conditional" in text starting from position 0
+[2025-09-01T23:05:52.092Z] 🔍 DEBUG: text exists: true, length: 2685
+[2025-09-01T23:05:52.092Z] 🔍 DEBUG: cleanTitle type: string, value: "The Second Conditional"
+[2025-09-01T23:05:52.092Z] 🔍 DEBUG: startFrom: 0
+[2025-09-01T23:05:52.092Z] 🔍 DEBUG: normalizedTitle after regex: "The Second Conditional"
+[2025-09-01T23:05:52.092Z] 🔍 SEARCH: Normalized title: "The Second Conditional"
+[2025-09-01T23:05:52.093Z] ✅ SEARCH: Found exact match at position 701
+[2025-09-01T23:05:52.093Z] ✅ TOC-SCOPED: Found section start at position 701 within TOC pages
+[2025-09-01T23:05:52.093Z] 🔍 SEARCH: Looking for "The Third Conditional" in text starting from position 751
+[2025-09-01T23:05:52.093Z] 🔍 DEBUG: text exists: true, length: 2685
+[2025-09-01T23:05:52.093Z] 🔍 DEBUG: cleanTitle type: string, value: "The Third Conditional"
+[2025-09-01T23:05:52.093Z] 🔍 DEBUG: startFrom: 751
+[2025-09-01T23:05:52.093Z] 🔍 DEBUG: normalizedTitle after regex: "The Third Conditional"
+[2025-09-01T23:05:52.093Z] 🔍 SEARCH: Normalized title: "The Third Conditional"
+[2025-09-01T23:05:52.093Z] ✅ SEARCH: Found exact match at position 1637
+[2025-09-01T23:05:52.093Z] ✅ TOC-SCOPED: Found next section "The Third Conditional" at position 1637 within TOC pages
+[2025-09-01T23:05:52.094Z] ✅ TOC-SCOPED REFINEMENT: Successfully refined - 930 chars within TOC pages 34-34
+[2025-09-01T23:05:52.094Z] 🎯 TOC-SCOPED: Refined section within TOC pages (930 chars)
+[2025-09-01T23:05:52.146Z] 📄 SIMPLE: Processing section 32/35: "The Third Conditional" (pages 34-35)
+[2025-09-01T23:05:52.146Z] 📄 TOC-ONLY: Extracting section "The Third Conditional" from TOC pages 34-35
+[2025-09-01T23:05:52.146Z] ✅ TOC-ONLY: Extracted 4733 chars from 2 TOC pages (34, 35)
+[2025-09-01T23:05:52.146Z] 📖 TOC-ONLY: Content preview: "Kao varijacije prvog kondicionala javljaju se sledeće izmene.
+
+Umesto oblika will+infinitiv mogu se javiti ostali modalni glagoli sa infinitivom.
+
+If you want to lose weight, you should/must eat l..."
+[2025-09-01T23:05:52.147Z] 📊 TOC-ONLY: Character positions - Start: 62614, End: 67347
+[2025-09-01T23:05:52.147Z] ✅ TOC-ONLY: Extracted 4733 chars from TOC pages 34-35
+[2025-09-01T23:05:52.147Z] 🎯 TOC-SCOPED REFINEMENT: Refining "The Third Conditional" within TOC pages 34-35
+[2025-09-01T23:05:52.147Z] 🔍 TOC-SCOPED: Searching within TOC pages text (4733 chars)
+[2025-09-01T23:05:52.147Z] 🔍 SEARCH: Looking for "The Third Conditional" in text starting from position 0
+[2025-09-01T23:05:52.147Z] 🔍 DEBUG: text exists: true, length: 4733
+[2025-09-01T23:05:52.147Z] 🔍 DEBUG: cleanTitle type: string, value: "The Third Conditional"
+[2025-09-01T23:05:52.147Z] 🔍 DEBUG: startFrom: 0
+[2025-09-01T23:05:52.147Z] 🔍 DEBUG: normalizedTitle after regex: "The Third Conditional"
+[2025-09-01T23:05:52.147Z] 🔍 SEARCH: Normalized title: "The Third Conditional"
+[2025-09-01T23:05:52.148Z] ✅ SEARCH: Found exact match at position 1637
+[2025-09-01T23:05:52.148Z] ✅ TOC-SCOPED: Found section start at position 1637 within TOC pages
+[2025-09-01T23:05:52.148Z] 🔍 SEARCH: Looking for "The Passive Voice" in text starting from position 1687
+[2025-09-01T23:05:52.148Z] 🔍 DEBUG: text exists: true, length: 4733
+[2025-09-01T23:05:52.148Z] 🔍 DEBUG: cleanTitle type: string, value: "The Passive Voice"
+[2025-09-01T23:05:52.148Z] 🔍 DEBUG: startFrom: 1687
+[2025-09-01T23:05:52.148Z] 🔍 DEBUG: normalizedTitle after regex: "The Passive Voice"
+[2025-09-01T23:05:52.148Z] 🔍 SEARCH: Normalized title: "The Passive Voice"
+[2025-09-01T23:05:52.148Z] ✅ SEARCH: Found exact match at position 2969
+[2025-09-01T23:05:52.148Z] ✅ TOC-SCOPED: Found next section "The Passive Voice" at position 2969 within TOC pages
+[2025-09-01T23:05:52.149Z] ✅ TOC-SCOPED REFINEMENT: Successfully refined - 1322 chars within TOC pages 34-35
+[2025-09-01T23:05:52.149Z] 🎯 TOC-SCOPED: Refined section within TOC pages (1322 chars)
+[2025-09-01T23:05:52.196Z] 📄 SIMPLE: Processing section 33/35: "The Passive Voice" (pages 35-37)
+[2025-09-01T23:05:52.196Z] 📄 TOC-ONLY: Extracting section "The Passive Voice" from TOC pages 35-37
+[2025-09-01T23:05:52.196Z] ✅ TOC-ONLY: Extracted 4523 chars from 3 TOC pages (35, 36, 37)
+[2025-09-01T23:05:52.197Z] 📖 TOC-ONLY: Content preview: "U uslovnoj rečenici se takođe mogu javiti neke varijacije. Umesto Past Perfect Tense-a može se
+javiti Past Perfect Continuous Tense.
+If we had been travelling by car, the accident might not have hap..."
+[2025-09-01T23:05:52.197Z] 📊 TOC-ONLY: Character positions - Start: 65301, End: 69824
+[2025-09-01T23:05:52.197Z] ✅ TOC-ONLY: Extracted 4523 chars from TOC pages 35-37
+[2025-09-01T23:05:52.197Z] 🎯 TOC-SCOPED REFINEMENT: Refining "The Passive Voice" within TOC pages 35-37
+[2025-09-01T23:05:52.197Z] 🔍 TOC-SCOPED: Searching within TOC pages text (4523 chars)
+[2025-09-01T23:05:52.197Z] 🔍 SEARCH: Looking for "The Passive Voice" in text starting from position 0
+[2025-09-01T23:05:52.197Z] 🔍 DEBUG: text exists: true, length: 4523
+[2025-09-01T23:05:52.197Z] 🔍 DEBUG: cleanTitle type: string, value: "The Passive Voice"
+[2025-09-01T23:05:52.198Z] 🔍 DEBUG: startFrom: 0
+[2025-09-01T23:05:52.198Z] 🔍 DEBUG: normalizedTitle after regex: "The Passive Voice"
+[2025-09-01T23:05:52.198Z] 🔍 SEARCH: Normalized title: "The Passive Voice"
+[2025-09-01T23:05:52.198Z] ✅ SEARCH: Found exact match at position 282
+[2025-09-01T23:05:52.198Z] ✅ TOC-SCOPED: Found section start at position 282 within TOC pages
+[2025-09-01T23:05:52.198Z] 🔍 SEARCH: Looking for "Exercises" in text starting from position 332
+[2025-09-01T23:05:52.198Z] 🔍 DEBUG: text exists: true, length: 4523
+[2025-09-01T23:05:52.198Z] 🔍 DEBUG: cleanTitle type: string, value: "Exercises"
+[2025-09-01T23:05:52.198Z] 🔍 DEBUG: startFrom: 332
+[2025-09-01T23:05:52.198Z] 🔍 DEBUG: normalizedTitle after regex: "Exercises"
+[2025-09-01T23:05:52.199Z] 🔍 SEARCH: Normalized title: "Exercises"
+[2025-09-01T23:05:52.199Z] ✅ SEARCH: Found exact match at position 2476
+[2025-09-01T23:05:52.199Z] ✅ TOC-SCOPED: Found next section "Exercises" at position 2476 within TOC pages
+[2025-09-01T23:05:52.199Z] ✅ TOC-SCOPED REFINEMENT: Successfully refined - 2192 chars within TOC pages 35-37
+[2025-09-01T23:05:52.199Z] 🎯 TOC-SCOPED: Refined section within TOC pages (2192 chars)
+[2025-09-01T23:05:52.248Z] 📄 SIMPLE: Processing section 34/35: "Exercises" (pages 37-100)
+[2025-09-01T23:05:52.249Z] 📄 TOC-ONLY: Extracting section "Exercises" from TOC pages 37-100
+[2025-09-01T23:05:52.249Z] ✅ TOC-ONLY: Extracted 128429 chars from 64 TOC pages (37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100)
+[2025-09-01T23:05:52.249Z] 📖 TOC-ONLY: Content preview: "EXERCISES (VEŽBANJA)
+
+Glagole u zagradama stavite u odgovarajuće vreme (present simple / present
+continuous).
+
+1. We _________________ (speak) Serbian. Serbian is our native language, but right n..."
+[2025-09-01T23:05:52.249Z] 📊 TOC-ONLY: Character positions - Start: 67777, End: 196206
+[2025-09-01T23:05:52.250Z] ✅ TOC-ONLY: Extracted 128429 chars from TOC pages 37-100
+[2025-09-01T23:05:52.250Z] 🎯 TOC-SCOPED REFINEMENT: Refining "Exercises" within TOC pages 37-100
+[2025-09-01T23:05:52.250Z] 🔍 TOC-SCOPED: Searching within TOC pages text (128429 chars)
+[2025-09-01T23:05:52.250Z] 🔍 SEARCH: Looking for "Exercises" in text starting from position 0
+[2025-09-01T23:05:52.250Z] 🔍 DEBUG: text exists: true, length: 128429
+[2025-09-01T23:05:52.250Z] 🔍 DEBUG: cleanTitle type: string, value: "Exercises"
+[2025-09-01T23:05:52.250Z] 🔍 DEBUG: startFrom: 0
+[2025-09-01T23:05:52.250Z] 🔍 DEBUG: normalizedTitle after regex: "Exercises"
+[2025-09-01T23:05:52.250Z] 🔍 SEARCH: Normalized title: "Exercises"
+[2025-09-01T23:05:52.251Z] ✅ SEARCH: Found exact match at position 0
+[2025-09-01T23:05:52.251Z] ✅ TOC-SCOPED: Found section start at position 0 within TOC pages
+[2025-09-01T23:05:52.251Z] 🔍 SEARCH: Looking for "Literatura" in text starting from position 50
+[2025-09-01T23:05:52.251Z] 🔍 DEBUG: text exists: true, length: 128429
+[2025-09-01T23:05:52.251Z] 🔍 DEBUG: cleanTitle type: string, value: "Literatura"
+[2025-09-01T23:05:52.252Z] 🔍 DEBUG: startFrom: 50
+[2025-09-01T23:05:52.252Z] 🔍 DEBUG: normalizedTitle after regex: "Literatura"
+[2025-09-01T23:05:52.252Z] 🔍 SEARCH: Normalized title: "Literatura"
+[2025-09-01T23:05:52.252Z] ✅ SEARCH: Found exact match at position 128079
+[2025-09-01T23:05:52.252Z] ✅ TOC-SCOPED: Found next section "Literatura" at position 128079 within TOC pages
+[2025-09-01T23:05:52.253Z] ✅ TOC-SCOPED REFINEMENT: Successfully refined - 128077 chars within TOC pages 37-100
+[2025-09-01T23:05:52.253Z] 🎯 TOC-SCOPED: Refined section within TOC pages (128077 chars)
+[2025-09-01T23:05:52.253Z] 📄 Splitting section "Exercises" (128077 chars) for embedding
+[2025-09-01T23:05:52.253Z] 📄 Split "Exercises" into 15 embedding-safe parts
+[2025-09-01T23:05:52.254Z] 📄 Split section "Exercises" into 15 parts for embedding
+[2025-09-01T23:05:52.302Z] 📄 SIMPLE: Processing section 35/35: "Literatura" (pages 100-110)
+[2025-09-01T23:05:52.302Z] 📄 TOC-ONLY: Extracting section "Literatura" from TOC pages 100-110
+[2025-09-01T23:05:52.302Z] ✅ TOC-ONLY: Extracted 350 chars from 1 TOC pages (100)
+[2025-09-01T23:05:52.303Z] 📖 TOC-ONLY: Content preview: "Literatura
+
+New English File Intrermediate, Clive Oxenden, Christina Latham-Koenig, Oxford University
+Press, 2007
+
+New Headway Intermediate, Liz Soars, J. Soars, Oxford University Press, 2007
+
+..."
+[2025-09-01T23:05:52.303Z] 📊 TOC-ONLY: Character positions - Start: 195856, End: 196206
+[2025-09-01T23:05:52.303Z] ✅ TOC-ONLY: Extracted 350 chars from TOC pages 100-110
+[2025-09-01T23:05:52.303Z] 🎯 TOC-SCOPED REFINEMENT: Refining "Literatura" within TOC pages 100-110
+[2025-09-01T23:05:52.303Z] 🔍 TOC-SCOPED: Searching within TOC pages text (350 chars)
+[2025-09-01T23:05:52.303Z] 🔍 SEARCH: Looking for "Literatura" in text starting from position 0
+[2025-09-01T23:05:52.303Z] 🔍 DEBUG: text exists: true, length: 350
+[2025-09-01T23:05:52.304Z] 🔍 DEBUG: cleanTitle type: string, value: "Literatura"
+[2025-09-01T23:05:52.304Z] 🔍 DEBUG: startFrom: 0
+[2025-09-01T23:05:52.304Z] 🔍 DEBUG: normalizedTitle after regex: "Literatura"
+[2025-09-01T23:05:52.304Z] 🔍 SEARCH: Normalized title: "Literatura"
+[2025-09-01T23:05:52.304Z] ✅ SEARCH: Found exact match at position 0
+[2025-09-01T23:05:52.304Z] ✅ TOC-SCOPED: Found section start at position 0 within TOC pages
+[2025-09-01T23:05:52.304Z] ✅ TOC-SCOPED REFINEMENT: Successfully refined - 350 chars within TOC pages 100-110
+[2025-09-01T23:05:52.304Z] 🎯 TOC-SCOPED: Refined section within TOC pages (350 chars)
+[2025-09-01T23:05:52.354Z] ✅ SIMPLE: Processed 49 sections (including split sections)
+[2025-09-01T23:05:52.354Z] ✅ Section processing completed: 49 sections processed
+[2025-09-01T23:05:52.402Z] Progress: embed - 75% - Processing sections and creating embeddings
+[2025-09-01T23:05:52.505Z] DEBUG:   Generating embedding for section: section_68b62677db2dcc0d6216a4b0_0
+[2025-09-01T23:05:53.039Z] DEBUG:   Embedding created for section_68b62677db2dcc0d6216a4b0_0 -> Vector ID: b362e362-daef-423e-8db7-3013e291b1ce
+[2025-09-01T23:05:53.183Z] DEBUG:   Generating embedding for section: section_68b62677db2dcc0d6216a4b0_1
+[2025-09-01T23:05:53.558Z] DEBUG:   Embedding created for section_68b62677db2dcc0d6216a4b0_1 -> Vector ID: 003e1290-ae83-4f9b-bc22-fc5530e59056
+[2025-09-01T23:05:53.702Z] DEBUG:   Generating embedding for section: section_68b62677db2dcc0d6216a4b0_2
+[2025-09-01T23:05:54.025Z] DEBUG:   Embedding created for section_68b62677db2dcc0d6216a4b0_2 -> Vector ID: fcdfca21-a5cf-4e39-bcc3-92e1798249c0
+[2025-09-01T23:05:54.167Z] DEBUG:   Generating embedding for section: section_68b62677db2dcc0d6216a4b0_3
+[2025-09-01T23:05:54.572Z] DEBUG:   Embedding created for section_68b62677db2dcc0d6216a4b0_3 -> Vector ID: d01e54d6-f82f-4c80-a369-ac42d9e1faae
+[2025-09-01T23:05:54.712Z] DEBUG:   Generating embedding for section: section_68b62677db2dcc0d6216a4b0_4
+[2025-09-01T23:05:55.114Z] DEBUG:   Embedding created for section_68b62677db2dcc0d6216a4b0_4 -> Vector ID: 9e5d6607-7091-4a55-8733-45b1d8882912
+[2025-09-01T23:05:55.258Z] DEBUG:   Generating embedding for section: section_68b62677db2dcc0d6216a4b0_5
+[2025-09-01T23:05:55.778Z] DEBUG:   Embedding created for section_68b62677db2dcc0d6216a4b0_5 -> Vector ID: 073c94da-94d2-4fe7-8f89-a42b2241154c
+[2025-09-01T23:05:55.920Z] DEBUG:   Generating embedding for section: section_68b62677db2dcc0d6216a4b0_6
+[2025-09-01T23:05:56.244Z] DEBUG:   Embedding created for section_68b62677db2dcc0d6216a4b0_6 -> Vector ID: 34e508ea-d514-4f26-ba43-843a14588ab7
+[2025-09-01T23:05:56.389Z] DEBUG:   Generating embedding for section: section_68b62677db2dcc0d6216a4b0_7
+[2025-09-01T23:05:56.778Z] DEBUG:   Embedding created for section_68b62677db2dcc0d6216a4b0_7 -> Vector ID: 16f01582-1090-4cbb-9cd6-b01248982eda
+[2025-09-01T23:05:56.921Z] DEBUG:   Generating embedding for section: section_68b62677db2dcc0d6216a4b0_8
+[2025-09-01T23:05:57.240Z] DEBUG:   Embedding created for section_68b62677db2dcc0d6216a4b0_8 -> Vector ID: 69ebbbfa-f21b-4f3b-affb-899af42954e5
+[2025-09-01T23:05:57.389Z] DEBUG:   Generating embedding for section: section_68b62677db2dcc0d6216a4b0_9
+[2025-09-01T23:05:57.787Z] DEBUG:   Embedding created for section_68b62677db2dcc0d6216a4b0_9 -> Vector ID: c61f8b9f-f939-4ef5-9a36-8bb121fe188d
+[2025-09-01T23:05:57.927Z] DEBUG:   Generating embedding for section: section_68b62677db2dcc0d6216a4b0_10
+[2025-09-01T23:05:58.288Z] DEBUG:   Embedding created for section_68b62677db2dcc0d6216a4b0_10 -> Vector ID: 8414e297-c54b-4189-bdef-b826542b7930
+[2025-09-01T23:05:58.428Z] DEBUG:   Generating embedding for section: section_68b62677db2dcc0d6216a4b0_11
+[2025-09-01T23:05:58.847Z] DEBUG:   Embedding created for section_68b62677db2dcc0d6216a4b0_11 -> Vector ID: 9c27af95-f537-44b6-91c9-03c289871dc3
+[2025-09-01T23:05:58.990Z] DEBUG:   Generating embedding for section: section_68b62677db2dcc0d6216a4b0_12
+[2025-09-01T23:05:59.537Z] DEBUG:   Embedding created for section_68b62677db2dcc0d6216a4b0_12 -> Vector ID: c4630978-0c5d-4492-8386-dfa9fcd62ea1
+[2025-09-01T23:05:59.682Z] DEBUG:   Generating embedding for section: section_68b62677db2dcc0d6216a4b0_13
+[2025-09-01T23:06:00.035Z] DEBUG:   Embedding created for section_68b62677db2dcc0d6216a4b0_13 -> Vector ID: d19eb9b9-a7fb-4092-b8fc-860a3c3dcfb2
+[2025-09-01T23:06:00.177Z] DEBUG:   Generating embedding for section: section_68b62677db2dcc0d6216a4b0_14
+[2025-09-01T23:06:00.591Z] DEBUG:   Embedding created for section_68b62677db2dcc0d6216a4b0_14 -> Vector ID: c0b4231f-3873-4a64-a917-04f90cc690ee
+[2025-09-01T23:06:00.736Z] DEBUG:   Generating embedding for section: section_68b62677db2dcc0d6216a4b0_15
+[2025-09-01T23:06:01.161Z] DEBUG:   Embedding created for section_68b62677db2dcc0d6216a4b0_15 -> Vector ID: 85eb7744-ae9d-4293-b01d-dd9bb90561a7
+[2025-09-01T23:06:01.304Z] DEBUG:   Generating embedding for section: section_68b62677db2dcc0d6216a4b0_16
+[2025-09-01T23:06:01.658Z] DEBUG:   Embedding created for section_68b62677db2dcc0d6216a4b0_16 -> Vector ID: 71ce38bd-7c23-4af0-8c2a-826592951bc2
+[2025-09-01T23:06:01.798Z] DEBUG:   Generating embedding for section: section_68b62677db2dcc0d6216a4b0_17
+[2025-09-01T23:06:02.240Z] DEBUG:   Embedding created for section_68b62677db2dcc0d6216a4b0_17 -> Vector ID: a0f23836-cb53-4fd2-9ca8-6dcc5299f43f
+[2025-09-01T23:06:02.380Z] DEBUG:   Generating embedding for section: section_68b62677db2dcc0d6216a4b0_18
+[2025-09-01T23:06:02.700Z] DEBUG:   Embedding created for section_68b62677db2dcc0d6216a4b0_18 -> Vector ID: b5a26c3c-863f-433d-b0b2-1f9a7d703407
+[2025-09-01T23:06:02.837Z] DEBUG:   Generating embedding for section: section_68b62677db2dcc0d6216a4b0_19
+[2025-09-01T23:06:03.233Z] DEBUG:   Embedding created for section_68b62677db2dcc0d6216a4b0_19 -> Vector ID: 3b84ad18-e7ed-4753-80bf-a13e771a0029
+[2025-09-01T23:06:03.373Z] DEBUG:   Generating embedding for section: section_68b62677db2dcc0d6216a4b0_20
+[2025-09-01T23:06:03.805Z] DEBUG:   Embedding created for section_68b62677db2dcc0d6216a4b0_20 -> Vector ID: b0c8127c-6582-4d23-8713-4e8069368c9b
+[2025-09-01T23:06:03.947Z] DEBUG:   Generating embedding for section: section_68b62677db2dcc0d6216a4b0_21
+[2025-09-01T23:06:04.529Z] DEBUG:   Embedding created for section_68b62677db2dcc0d6216a4b0_21 -> Vector ID: b1a24fd3-8461-4b67-8842-fe1dfb4213ac
+[2025-09-01T23:06:04.672Z] DEBUG:   Generating embedding for section: section_68b62677db2dcc0d6216a4b0_22
+[2025-09-01T23:06:04.990Z] DEBUG:   Embedding created for section_68b62677db2dcc0d6216a4b0_22 -> Vector ID: 6b79e432-42c3-40b7-9517-c0e6f9599658
+[2025-09-01T23:06:05.130Z] DEBUG:   Generating embedding for section: section_68b62677db2dcc0d6216a4b0_23
+[2025-09-01T23:06:05.606Z] DEBUG:   Embedding created for section_68b62677db2dcc0d6216a4b0_23 -> Vector ID: 7856862a-2808-49dd-8fca-7d11dad74239
+[2025-09-01T23:06:05.744Z] DEBUG:   Generating embedding for section: section_68b62677db2dcc0d6216a4b0_24
+[2025-09-01T23:06:06.444Z] DEBUG:   Embedding created for section_68b62677db2dcc0d6216a4b0_24 -> Vector ID: e79eb6f7-ab87-46fb-8717-34c8203abb4c
+[2025-09-01T23:06:06.592Z] DEBUG:   Generating embedding for section: section_68b62677db2dcc0d6216a4b0_25
+[2025-09-01T23:06:07.039Z] DEBUG:   Embedding created for section_68b62677db2dcc0d6216a4b0_25 -> Vector ID: 0aa638bd-96f0-4d6a-a840-f9995119e682
+[2025-09-01T23:06:07.180Z] DEBUG:   Generating embedding for section: section_68b62677db2dcc0d6216a4b0_26
+[2025-09-01T23:06:07.527Z] DEBUG:   Embedding created for section_68b62677db2dcc0d6216a4b0_26 -> Vector ID: 54fee6a5-16d4-4323-b47f-805ddc9f2a48
+[2025-09-01T23:06:07.669Z] DEBUG:   Generating embedding for section: section_68b62677db2dcc0d6216a4b0_27
+[2025-09-01T23:06:08.093Z] DEBUG:   Embedding created for section_68b62677db2dcc0d6216a4b0_27 -> Vector ID: 84543021-031b-4273-8b04-32e23f4d2653
+[2025-09-01T23:06:08.234Z] DEBUG:   Generating embedding for section: section_68b62677db2dcc0d6216a4b0_28
+[2025-09-01T23:06:08.725Z] DEBUG:   Embedding created for section_68b62677db2dcc0d6216a4b0_28 -> Vector ID: 5a6510e5-0416-488e-b4f3-793283a8e3da
+[2025-09-01T23:06:08.866Z] DEBUG:   Generating embedding for section: section_68b62677db2dcc0d6216a4b0_29
+[2025-09-01T23:06:09.211Z] DEBUG:   Embedding created for section_68b62677db2dcc0d6216a4b0_29 -> Vector ID: c0638608-4e24-442f-bf6a-63f3073b1697
+[2025-09-01T23:06:09.352Z] DEBUG:   Generating embedding for section: section_68b62677db2dcc0d6216a4b0_30
+[2025-09-01T23:06:09.961Z] DEBUG:   Embedding created for section_68b62677db2dcc0d6216a4b0_30 -> Vector ID: 3bb45ab2-73c0-441b-9dcb-72f10b43b453
+[2025-09-01T23:06:10.100Z] DEBUG:   Generating embedding for section: section_68b62677db2dcc0d6216a4b0_31
+[2025-09-01T23:06:10.451Z] DEBUG:   Embedding created for section_68b62677db2dcc0d6216a4b0_31 -> Vector ID: a17ac3f6-9011-472c-ba63-0d012fc707a9
+[2025-09-01T23:06:10.595Z] DEBUG:   Generating embedding for section: section_68b62677db2dcc0d6216a4b0_32
+[2025-09-01T23:06:10.979Z] DEBUG:   Embedding created for section_68b62677db2dcc0d6216a4b0_32 -> Vector ID: 14c3fd9e-8c9d-4a97-a7a9-8d04fa020260
+[2025-09-01T23:06:11.129Z] DEBUG:   Generating embedding for section: section_68b62677db2dcc0d6216a4b0_33_embedpart1
+[2025-09-01T23:06:11.575Z] DEBUG:   Embedding created for section_68b62677db2dcc0d6216a4b0_33_embedpart1 -> Vector ID: ac4c15b0-bf1e-4acc-9ba6-5081b9952844
+[2025-09-01T23:06:11.719Z] DEBUG:   Generating embedding for section: section_68b62677db2dcc0d6216a4b0_33_embedpart2
+[2025-09-01T23:06:12.067Z] DEBUG:   Embedding created for section_68b62677db2dcc0d6216a4b0_33_embedpart2 -> Vector ID: 75c4252e-6cf8-411d-9d7e-2d2dfb9f66e7
+[2025-09-01T23:06:12.169Z] DEBUG:   Generating embedding for section: section_68b62677db2dcc0d6216a4b0_33_embedpart3
+[2025-09-01T23:06:12.703Z] DEBUG:   Embedding created for section_68b62677db2dcc0d6216a4b0_33_embedpart3 -> Vector ID: a384c384-f3af-4238-a88f-4317a718a9dc
+[2025-09-01T23:06:12.802Z] DEBUG:   Generating embedding for section: section_68b62677db2dcc0d6216a4b0_33_embedpart4
+[2025-09-01T23:06:13.190Z] DEBUG:   Embedding created for section_68b62677db2dcc0d6216a4b0_33_embedpart4 -> Vector ID: 7d2d0812-89dc-43eb-b3ea-8a0952714d4c
+[2025-09-01T23:06:13.289Z] DEBUG:   Generating embedding for section: section_68b62677db2dcc0d6216a4b0_33_embedpart5
+[2025-09-01T23:06:13.694Z] DEBUG:   Embedding created for section_68b62677db2dcc0d6216a4b0_33_embedpart5 -> Vector ID: 66212d69-5fd9-4eb8-8571-b58691dee76f
+[2025-09-01T23:06:13.795Z] DEBUG:   Generating embedding for section: section_68b62677db2dcc0d6216a4b0_33_embedpart6
+[2025-09-01T23:06:14.145Z] DEBUG:   Embedding created for section_68b62677db2dcc0d6216a4b0_33_embedpart6 -> Vector ID: a051a21a-420e-4932-aaa2-1fcfade3b51a
+[2025-09-01T23:06:14.243Z] DEBUG:   Generating embedding for section: section_68b62677db2dcc0d6216a4b0_33_embedpart7
+[2025-09-01T23:06:14.635Z] DEBUG:   Embedding created for section_68b62677db2dcc0d6216a4b0_33_embedpart7 -> Vector ID: 09153462-83cb-4542-9ff0-d82ae3a8e5b0
+[2025-09-01T23:06:14.735Z] DEBUG:   Generating embedding for section: section_68b62677db2dcc0d6216a4b0_33_embedpart8
+[2025-09-01T23:06:15.104Z] DEBUG:   Embedding created for section_68b62677db2dcc0d6216a4b0_33_embedpart8 -> Vector ID: cd26f8e4-2ccd-4e18-81ec-c9109579ac30
+[2025-09-01T23:06:15.201Z] DEBUG:   Generating embedding for section: section_68b62677db2dcc0d6216a4b0_33_embedpart9
+[2025-09-01T23:06:15.557Z] DEBUG:   Embedding created for section_68b62677db2dcc0d6216a4b0_33_embedpart9 -> Vector ID: a601c77c-d868-42c6-bc71-afaecd13e02e
+[2025-09-01T23:06:15.658Z] DEBUG:   Generating embedding for section: section_68b62677db2dcc0d6216a4b0_33_embedpart10
+[2025-09-01T23:06:16.039Z] DEBUG:   Embedding created for section_68b62677db2dcc0d6216a4b0_33_embedpart10 -> Vector ID: fdde50fa-9e8b-422f-8eb0-3d386c3e63b1
+[2025-09-01T23:06:16.138Z] DEBUG:   Generating embedding for section: section_68b62677db2dcc0d6216a4b0_33_embedpart11
+[2025-09-01T23:06:16.562Z] DEBUG:   Embedding created for section_68b62677db2dcc0d6216a4b0_33_embedpart11 -> Vector ID: b0579941-aedd-422e-845b-83d9d0115db6
+[2025-09-01T23:06:16.662Z] DEBUG:   Generating embedding for section: section_68b62677db2dcc0d6216a4b0_33_embedpart12
+[2025-09-01T23:06:17.001Z] DEBUG:   Embedding created for section_68b62677db2dcc0d6216a4b0_33_embedpart12 -> Vector ID: d2636988-51b8-4b95-b75b-bd086484ec63
+[2025-09-01T23:06:17.101Z] DEBUG:   Generating embedding for section: section_68b62677db2dcc0d6216a4b0_33_embedpart13
+[2025-09-01T23:06:17.467Z] DEBUG:   Embedding created for section_68b62677db2dcc0d6216a4b0_33_embedpart13 -> Vector ID: 2388d732-9d9a-429b-8163-58907c063e46
+[2025-09-01T23:06:17.567Z] DEBUG:   Generating embedding for section: section_68b62677db2dcc0d6216a4b0_33_embedpart14
+[2025-09-01T23:06:18.061Z] DEBUG:   Embedding created for section_68b62677db2dcc0d6216a4b0_33_embedpart14 -> Vector ID: 06e97650-201c-4f8c-870e-fc1d2ca92ae1
+[2025-09-01T23:06:18.160Z] DEBUG:   Generating embedding for section: section_68b62677db2dcc0d6216a4b0_33_embedpart15
+[2025-09-01T23:06:19.931Z] DEBUG:   Embedding created for section_68b62677db2dcc0d6216a4b0_33_embedpart15 -> Vector ID: 5799bd95-e162-4984-bd9f-7bfb877c4d94
+[2025-09-01T23:06:20.082Z] ❌ Error saving section "Exercises (Part 2/13)": MongoServerError: E11000 duplicate key error collection: test.documentsections index: docId_1_sectionId_1 dup key: { docId: ObjectId('68b62677db2dcc0d6216a4b0'), sectionId: "section_68b62677db2dcc0d6216a4b0_33_embedpart2" }
+[2025-09-01T23:06:20.174Z] ❌ Error saving section "Exercises (Part 3/13)": MongoServerError: E11000 duplicate key error collection: test.documentsections index: docId_1_sectionId_1 dup key: { docId: ObjectId('68b62677db2dcc0d6216a4b0'), sectionId: "section_68b62677db2dcc0d6216a4b0_33_embedpart3" }
+[2025-09-01T23:06:20.268Z] ❌ Error saving section "Exercises (Part 4/13)": MongoServerError: E11000 duplicate key error collection: test.documentsections index: docId_1_sectionId_1 dup key: { docId: ObjectId('68b62677db2dcc0d6216a4b0'), sectionId: "section_68b62677db2dcc0d6216a4b0_33_embedpart4" }
+[2025-09-01T23:06:20.360Z] ❌ Error saving section "Exercises (Part 5/13)": MongoServerError: E11000 duplicate key error collection: test.documentsections index: docId_1_sectionId_1 dup key: { docId: ObjectId('68b62677db2dcc0d6216a4b0'), sectionId: "section_68b62677db2dcc0d6216a4b0_33_embedpart5" }
+[2025-09-01T23:06:20.456Z] ❌ Error saving section "Exercises (Part 6/13)": MongoServerError: E11000 duplicate key error collection: test.documentsections index: docId_1_sectionId_1 dup key: { docId: ObjectId('68b62677db2dcc0d6216a4b0'), sectionId: "section_68b62677db2dcc0d6216a4b0_33_embedpart6" }
+[2025-09-01T23:06:20.546Z] ❌ Error saving section "Exercises (Part 7/13)": MongoServerError: E11000 duplicate key error collection: test.documentsections index: docId_1_sectionId_1 dup key: { docId: ObjectId('68b62677db2dcc0d6216a4b0'), sectionId: "section_68b62677db2dcc0d6216a4b0_33_embedpart7" }
+[2025-09-01T23:06:20.636Z] ❌ Error saving section "Exercises (Part 8/13)": MongoServerError: E11000 duplicate key error collection: test.documentsections index: docId_1_sectionId_1 dup key: { docId: ObjectId('68b62677db2dcc0d6216a4b0'), sectionId: "section_68b62677db2dcc0d6216a4b0_33_embedpart8" }
+[2025-09-01T23:06:20.727Z] ❌ Error saving section "Exercises (Part 9/13)": MongoServerError: E11000 duplicate key error collection: test.documentsections index: docId_1_sectionId_1 dup key: { docId: ObjectId('68b62677db2dcc0d6216a4b0'), sectionId: "section_68b62677db2dcc0d6216a4b0_33_embedpart9" }
+[2025-09-01T23:06:20.824Z] ❌ Error saving section "Exercises (Part 10/13)": MongoServerError: E11000 duplicate key error collection: test.documentsections index: docId_1_sectionId_1 dup key: { docId: ObjectId('68b62677db2dcc0d6216a4b0'), sectionId: "section_68b62677db2dcc0d6216a4b0_33_embedpart10" }
+[2025-09-01T23:06:20.914Z] ❌ Error saving section "Exercises (Part 11/13)": MongoServerError: E11000 duplicate key error collection: test.documentsections index: docId_1_sectionId_1 dup key: { docId: ObjectId('68b62677db2dcc0d6216a4b0'), sectionId: "section_68b62677db2dcc0d6216a4b0_33_embedpart11" }
+[2025-09-01T23:06:21.004Z] ❌ Error saving section "Exercises (Part 12/13)": MongoServerError: E11000 duplicate key error collection: test.documentsections index: docId_1_sectionId_1 dup key: { docId: ObjectId('68b62677db2dcc0d6216a4b0'), sectionId: "section_68b62677db2dcc0d6216a4b0_33_embedpart12" }
+[2025-09-01T23:06:21.097Z] ❌ Error saving section "Exercises (Part 13/13)": MongoServerError: E11000 duplicate key error collection: test.documentsections index: docId_1_sectionId_1 dup key: { docId: ObjectId('68b62677db2dcc0d6216a4b0'), sectionId: "section_68b62677db2dcc0d6216a4b0_33_embedpart13" }
+[2025-09-01T23:06:21.190Z] ❌ Error saving section "Exercises (Part 14/13)": MongoServerError: E11000 duplicate key error collection: test.documentsections index: docId_1_sectionId_1 dup key: { docId: ObjectId('68b62677db2dcc0d6216a4b0'), sectionId: "section_68b62677db2dcc0d6216a4b0_33_embedpart14" }
+[2025-09-01T23:06:21.282Z] ❌ Error saving section "Exercises (Part 15/13)": MongoServerError: E11000 duplicate key error collection: test.documentsections index: docId_1_sectionId_1 dup key: { docId: ObjectId('68b62677db2dcc0d6216a4b0'), sectionId: "section_68b62677db2dcc0d6216a4b0_33_embedpart15" }
+[2025-09-01T23:06:21.375Z] DEBUG:   Generating embedding for section: section_68b62677db2dcc0d6216a4b0_34
+[2025-09-01T23:06:21.738Z] DEBUG:   Embedding created for section_68b62677db2dcc0d6216a4b0_34 -> Vector ID: e061bfd8-aca0-4c43-bfe7-d0759875d68b
+[2025-09-01T23:06:21.785Z] INFO: Updating TOC analysis status to completed
+[2025-09-01T23:06:21.881Z] INFO: Progress: complete [████████████████████] 100% - Document processing completed successfully
+[2025-09-01T23:06:21.929Z] Progress: complete - 100% - Document processing completed successfully
+[2025-09-01T23:06:21.929Z] 🎉 Document processing completed successfully for material 68b62677db2dcc0d6216a4b0
+[2025-09-01T23:06:21.929Z] INFO: 
+[2025-09-01T23:06:21.929Z] INFO: ================================================================================
+[2025-09-01T23:06:21.929Z] INFO: End Time: 2025-09-01T23:06:21.929Z
+[2025-09-01T23:06:21.929Z] INFO: Total Processing Time: 35 seconds
+[2025-09-01T23:06:21.929Z] INFO: Total Log Entries: 1319
+[2025-09-01T23:06:21.929Z] INFO: ================================================================================

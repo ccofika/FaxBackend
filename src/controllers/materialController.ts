@@ -842,6 +842,116 @@ export const updateDocumentSection = async (req: Request, res: Response) => {
   }
 };
 
+// Delete all sections for a material
+export const deleteMaterialSections = async (req: Request, res: Response) => {
+  try {
+    const { id } = req.params;
+    
+    if (!id) {
+      return res.status(400).json({ success: false, message: 'Material ID is required' });
+    }
+
+    // Delete all sections for this material
+    const sectionsResult = await DocumentSection.deleteMany({ docId: id });
+    console.log(`🗑️ Deleted ${sectionsResult.deletedCount} document sections for material ${id}`);
+    
+    // Delete all chunks for this material  
+    const chunksResult = await DocumentChunk.deleteMany({ docId: id });
+    console.log(`🗑️ Deleted ${chunksResult.deletedCount} document chunks for material ${id}`);
+    
+    // Reset TOC analysis status to allow re-processing
+    await TocAnalysis.findOneAndUpdate(
+      { docId: id },
+      { 
+        $set: { 
+          processedSections: 0,
+          status: 'pending',
+          'sections.$[].processed': false 
+        },
+        $unset: { error: 1 }
+      },
+      { new: true }
+    );
+    console.log(`🔄 Reset TOC analysis status for material ${id}`);
+    
+    // Set material status to toc_ready so continue processing can work
+    await Material.findByIdAndUpdate(id, { status: 'toc_ready' });
+    console.log(`📝 Set material status to 'toc_ready' to enable continue processing`);
+    
+    // Also clean up from vector database if available
+    try {
+      await qdrantService.deleteDocument(id);
+      console.log(`🗑️ Cleaned up vector data for material ${id}`);
+    } catch (vectorError) {
+      console.warn('⚠️ Failed to clean vector data:', vectorError);
+    }
+    
+    res.json({ 
+      success: true, 
+      message: `Deleted ${sectionsResult.deletedCount} sections and ${chunksResult.deletedCount} chunks`,
+      deletedSections: sectionsResult.deletedCount,
+      deletedChunks: chunksResult.deletedCount
+    });
+    
+  } catch (error) {
+    console.error('Delete material sections error:', error);
+    res.status(500).json({ success: false, message: 'Internal server error' });
+  }
+};
+
+// Reset TOC processing status - mark all sections as unprocessed
+export const resetTocProcessingStatus = async (req: Request, res: Response) => {
+  try {
+    const { id } = req.params;
+    
+    if (!id) {
+      return res.status(400).json({ success: false, message: 'Material ID is required' });
+    }
+
+    // Find TOC analysis for this material
+    const tocAnalysis = await TocAnalysis.findOne({ docId: id });
+    
+    if (!tocAnalysis) {
+      return res.status(404).json({ success: false, message: 'TOC analysis not found for this material' });
+    }
+
+    // Reset all sections to unprocessed state
+    const updateResult = await TocAnalysis.findOneAndUpdate(
+      { docId: id },
+      { 
+        $set: { 
+          processedSections: 0,
+          status: 'pending',
+          'sections.$[].processed': false 
+        },
+        $unset: { error: 1 }
+      },
+      { new: true }
+    );
+
+    if (!updateResult) {
+      return res.status(404).json({ success: false, message: 'Failed to update TOC analysis' });
+    }
+
+    // Also set material status to toc_ready so continue processing can work
+    await Material.findByIdAndUpdate(id, { status: 'toc_ready' });
+    
+    console.log(`🔄 Reset TOC processing status for material ${id}: ${updateResult.totalSections} sections marked as unprocessed`);
+    console.log(`📝 Set material status to 'toc_ready' to enable continue processing`);
+    
+    res.json({ 
+      success: true, 
+      message: `Reset TOC processing status - ${updateResult.totalSections} sections marked as unprocessed`,
+      totalSections: updateResult.totalSections,
+      processedSections: 0
+    });
+    
+  } catch (error) {
+    console.error('Reset TOC processing status error:', error);
+    res.status(500).json({ success: false, message: 'Internal server error' });
+  }
+};
+
 // Continue processing material after TOC review
 export const continueProcessingMaterial = async (req: Request, res: Response) => {
   try {

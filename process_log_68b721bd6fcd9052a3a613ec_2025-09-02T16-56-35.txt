@@ -1,0 +1,40 @@
+[2025-09-02T16:56:35.605Z] INFO: ================================================================================
+[2025-09-02T16:56:35.605Z] INFO: DOCUMENT PROCESSING LOG
+[2025-09-02T16:56:35.605Z] INFO: Material ID: 68b721bd6fcd9052a3a613ec
+[2025-09-02T16:56:35.605Z] INFO: Start Time: 2025-09-02T16:56:35.604Z
+[2025-09-02T16:56:35.605Z] INFO: ================================================================================
+[2025-09-02T16:56:35.605Z] INFO: 
+[2025-09-02T16:56:35.605Z] INFO: Starting TOC-only processing for material: 68b721bd6fcd9052a3a613ec
+[2025-09-02T16:56:35.605Z] INFO: TOC pages specified: 2-2
+[2025-09-02T16:56:35.605Z] INFO: Progress: probe [█-------------------] 5% - Starting TOC analysis
+[2025-09-02T16:56:35.655Z] Progress: probe - 5% - Starting TOC analysis
+[2025-09-02T16:56:35.655Z] INFO: Loading material from database
+[2025-09-02T16:56:35.702Z] INFO: Material loaded: Upravljanje_projektima1 (Subject: 68b721b96fcd9052a3a613e5)
+[2025-09-02T16:56:35.803Z] Progress: toc_analysis - 20% - Downloading PDF from R2
+[2025-09-02T16:56:36.057Z] INFO: 
+[2025-09-02T16:56:36.057Z] INFO: ------------------------------------------------------------
+[2025-09-02T16:56:36.057Z] INFO: SECTION: TOC ANALYSIS
+[2025-09-02T16:56:36.057Z] INFO: ------------------------------------------------------------
+[2025-09-02T16:56:36.057Z] INFO: Progress: toc_analysis [████████------------] 40% - Extracting TOC pages
+[2025-09-02T16:56:36.106Z] Progress: toc_analysis - 40% - Extracting TOC pages
+[2025-09-02T16:56:36.106Z] 🔄 Using node-poppler for true page-by-page extraction (pages 2 to 2)
+[2025-09-02T16:56:36.109Z] 📁 Created temp PDF file: C:\Users\ccofi\AppData\Local\Temp\temp_pdf_1756832196106.pdf
+[2025-09-02T16:56:37.534Z] 📚 PDF has 28 pages, extracting 2 to 2
+[2025-09-02T16:56:37.534Z] 📄 Extracting page 2/2...
+[2025-09-02T16:56:37.711Z] ✅ Page 2 extracted: 1626 characters
+[2025-09-02T16:56:37.711Z] 📖 Page 2 preview: "Sadržaj
+
+1. Pojam i osobine projekta................................................................."
+[2025-09-02T16:56:37.712Z] INFO: Progress: toc_analysis [██████████████------] 70% - Analyzing TOC with AI
+[2025-09-02T16:56:37.761Z] Progress: toc_analysis - 70% - Analyzing TOC with AI
+[2025-09-02T16:57:06.402Z] INFO: AI analysis completed: 13 sections found
+[2025-09-02T16:57:06.451Z] INFO: Progress: toc_analysis [████████████████████] 100% - TOC analysis completed - ready for review
+[2025-09-02T16:57:06.499Z] Progress: toc_analysis - 100% - TOC analysis completed - ready for review
+[2025-09-02T16:57:06.500Z] 🎉 TOC analysis completed successfully for material 68b721bd6fcd9052a3a613ec
+[2025-09-02T16:57:06.500Z] INFO: Material status updated to toc_ready - awaiting admin review
+[2025-09-02T16:57:06.500Z] INFO: 
+[2025-09-02T16:57:06.500Z] INFO: ================================================================================
+[2025-09-02T16:57:06.500Z] INFO: End Time: 2025-09-02T16:57:06.500Z
+[2025-09-02T16:57:06.500Z] INFO: Total Processing Time: 31 seconds
+[2025-09-02T16:57:06.500Z] INFO: Total Log Entries: 36
+[2025-09-02T16:57:06.500Z] INFO: ================================================================================

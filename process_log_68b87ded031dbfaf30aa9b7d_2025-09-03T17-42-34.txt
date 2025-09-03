@@ -1,0 +1,92 @@
+[2025-09-03T17:42:34.894Z] INFO: ================================================================================
+[2025-09-03T17:42:34.894Z] INFO: DOCUMENT PROCESSING LOG
+[2025-09-03T17:42:34.894Z] INFO: Material ID: 68b87ded031dbfaf30aa9b7d
+[2025-09-03T17:42:34.894Z] INFO: Start Time: 2025-09-03T17:42:34.894Z
+[2025-09-03T17:42:34.894Z] INFO: ================================================================================
+[2025-09-03T17:42:34.894Z] INFO: 
+[2025-09-03T17:42:34.894Z] INFO: Starting TOC-only processing for material: 68b87ded031dbfaf30aa9b7d
+[2025-09-03T17:42:34.894Z] INFO: TOC pages specified: 10-22
+[2025-09-03T17:42:34.894Z] INFO: Progress: probe [█-------------------] 5% - Starting TOC analysis
+[2025-09-03T17:42:34.941Z] Progress: probe - 5% - Starting TOC analysis
+[2025-09-03T17:42:34.941Z] INFO: Loading material from database
+[2025-09-03T17:42:34.984Z] INFO: Material loaded: excel-test (Subject: 68b6277edb2dcc0d6216a895)
+[2025-09-03T17:42:35.077Z] Progress: toc_analysis - 20% - Downloading PDF from R2
+[2025-09-03T17:42:35.520Z] INFO: 
+[2025-09-03T17:42:35.520Z] INFO: ------------------------------------------------------------
+[2025-09-03T17:42:35.520Z] INFO: SECTION: TOC ANALYSIS
+[2025-09-03T17:42:35.520Z] INFO: ------------------------------------------------------------
+[2025-09-03T17:42:35.520Z] INFO: Progress: toc_analysis [████████------------] 40% - Extracting TOC pages
+[2025-09-03T17:42:35.567Z] Progress: toc_analysis - 40% - Extracting TOC pages
+[2025-09-03T17:42:35.568Z] 🔄 Using node-poppler for true page-by-page extraction (pages 10 to 22)
+[2025-09-03T17:42:35.571Z] 📁 Created temp PDF file: C:\Users\ccofi\AppData\Local\Temp\temp_pdf_1756921355568.pdf
+[2025-09-03T17:42:36.898Z] 📚 PDF has 96 pages, extracting 10 to 22
+[2025-09-03T17:42:36.899Z] 📄 Extracting page 10/22...
+[2025-09-03T17:42:37.105Z] ✅ Page 10 extracted: 1720 characters
+[2025-09-03T17:42:37.105Z] 📖 Page 10 preview: "Contents
+About the Author...................................................  xxiii
+Introduction....."
+[2025-09-03T17:42:37.106Z] 📄 Extracting page 11/22...
+[2025-09-03T17:42:37.139Z] ✅ Page 11 extracted: 1617 characters
+[2025-09-03T17:42:37.139Z] 📖 Page 11 preview: "Chapter 5 The MATCH function 43
+Syntax of the MATCH function.........................................."
+[2025-09-03T17:42:37.139Z] 📄 Extracting page 12/22...
+[2025-09-03T17:42:37.172Z] ✅ Page 12 extracted: 1838 characters
+[2025-09-03T17:42:37.172Z] 📖 Page 12 preview: "Chapter 12 IF, IFERROR, IFS, CHOOSE, SWITCH,
+and the IS functions 123
+Answers to this chapter’s qu..."
+[2025-09-03T17:42:37.172Z] 📄 Extracting page 13/22...
+[2025-09-03T17:42:37.205Z] ✅ Page 13 extracted: 1753 characters
+[2025-09-03T17:42:37.205Z] 📖 Page 13 preview: "Chapter 19 Using the Scenario Manager for sensitivity analysis 203
+Answer to this chapter’s questio..."
+[2025-09-03T17:42:37.205Z] 📄 Extracting page 14/22...
+[2025-09-03T17:42:37.237Z] ✅ Page 14 extracted: 1752 characters
+[2025-09-03T17:42:37.237Z] 📖 Page 14 preview: "Chapter 26 Spin buttons, scrollbars, option buttons,
+check boxes, combo boxes, and group list boxes..."
+[2025-09-03T17:42:37.237Z] 📄 Extracting page 15/22...
+[2025-09-03T17:42:37.275Z] ✅ Page 15 extracted: 1719 characters
+[2025-09-03T17:42:37.275Z] 📖 Page 15 preview: "Chapter 34 Summarizing data with database
+statistical functions 429
+Answers to this chapter’s ques..."
+[2025-09-03T17:42:37.275Z] 📄 Extracting page 16/22...
+[2025-09-03T17:42:37.312Z] ✅ Page 16 extracted: 1581 characters
+[2025-09-03T17:42:37.312Z] 📖 Page 16 preview: "Chapter 42 Creating subtotals 577
+Answers to this chapter’s questions................................."
+[2025-09-03T17:42:37.312Z] 📄 Extracting page 17/22...
+[2025-09-03T17:42:37.353Z] ✅ Page 17 extracted: 1761 characters
+[2025-09-03T17:42:37.353Z] 📖 Page 17 preview: "Chapter 50 Using correlations to summarize relationships 689
+Answers to this chapter’s questions......"
+[2025-09-03T17:42:37.353Z] 📄 Extracting page 18/22...
+[2025-09-03T17:42:37.390Z] ✅ Page 18 extracted: 1649 characters
+[2025-09-03T17:42:37.390Z] 📖 Page 18 preview: "Chapter 58 An introduction to probability 753
+Answers to this chapter’s questions....................."
+[2025-09-03T17:42:37.390Z] 📄 Extracting page 19/22...
+[2025-09-03T17:42:37.422Z] ✅ Page 19 extracted: 1828 characters
+[2025-09-03T17:42:37.423Z] 📖 Page 19 preview: "Chapter 65 Importing past stock prices, exchange rates,
+and cryptocurrency prices with the
+STOCKHI..."
+[2025-09-03T17:42:37.423Z] 📄 Extracting page 20/22...
+[2025-09-03T17:42:37.455Z] ✅ Page 20 extracted: 1874 characters
+[2025-09-03T17:42:37.455Z] 📖 Page 20 preview: "Chapter 73 The Winters method and the Forecast Sheet tool 859
+Answers to this chapter’s questions....."
+[2025-09-03T17:42:37.455Z] 📄 Extracting page 21/22...
+[2025-09-03T17:42:37.487Z] ✅ Page 21 extracted: 1759 characters
+[2025-09-03T17:42:37.487Z] 📖 Page 21 preview: "Chapter 81 Simulating stock prices and
+asset-allocation modeling 925
+Answers to this chapter’s que..."
+[2025-09-03T17:42:37.488Z] 📄 Extracting page 22/22...
+[2025-09-03T17:42:37.520Z] ✅ Page 22 extracted: 1721 characters
+[2025-09-03T17:42:37.520Z] 📖 Page 22 preview: "Chapter 89 Estimating a demand curve 993
+Answers to this chapter’s questions.........................."
+[2025-09-03T17:42:37.521Z] INFO: Progress: toc_analysis [██████████████------] 70% - Analyzing TOC with AI
+[2025-09-03T17:42:37.569Z] Progress: toc_analysis - 70% - Analyzing TOC with AI
+[2025-09-03T17:47:00.323Z] INFO: AI analysis completed: 315 sections found
+[2025-09-03T17:47:00.372Z] INFO: Progress: toc_analysis [████████████████████] 100% - TOC analysis completed - ready for review
+[2025-09-03T17:47:00.419Z] Progress: toc_analysis - 100% - TOC analysis completed - ready for review
+[2025-09-03T17:47:00.420Z] 🎉 TOC analysis completed successfully for material 68b87ded031dbfaf30aa9b7d
+[2025-09-03T17:47:00.420Z] INFO: Material status updated to toc_ready - awaiting admin review
+[2025-09-03T17:47:00.420Z] INFO: 
+[2025-09-03T17:47:00.420Z] INFO: ================================================================================
+[2025-09-03T17:47:00.420Z] INFO: End Time: 2025-09-03T17:47:00.420Z
+[2025-09-03T17:47:00.420Z] INFO: Total Processing Time: 266 seconds
+[2025-09-03T17:47:00.420Z] INFO: Total Log Entries: 72
+[2025-09-03T17:47:00.420Z] INFO: ================================================================================
