@@ -109,9 +109,9 @@ class SectionProcessor {
     );
     
     if (sectionPages.length === 0) {
-      processLogger.log(`⚠️ SKIPPING: Section "${section.title}" references non-existent pages ${section.pageStart}-${section.pageEnd}`);
-      processLogger.log(`📄 Document only has pages: ${Math.min(...pdfPages.map(p => p.pageNumber))}-${Math.max(...pdfPages.map(p => p.pageNumber))}`);
-      return null; // Skip this section instead of failing the entire process
+      processLogger.error(`❌ No pages found for section "${section.title}" (TOC pages ${section.pageStart}-${section.pageEnd})`);
+      processLogger.error(`❌ Available pages: ${pdfPages.map(p => p.pageNumber).join(', ')}`);
+      throw new Error(`TOC pages ${section.pageStart}-${section.pageEnd} not found for section "${section.title}"`);
     }
     
     // Combine ALL text from ALL TOC pages - no filtering, no searching
