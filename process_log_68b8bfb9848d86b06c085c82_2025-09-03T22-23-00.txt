@@ -1,0 +1,54 @@
+[2025-09-03T22:23:00.825Z] INFO: ================================================================================
+[2025-09-03T22:23:00.825Z] INFO: DOCUMENT PROCESSING LOG
+[2025-09-03T22:23:00.825Z] INFO: Material ID: 68b8bfb9848d86b06c085c82
+[2025-09-03T22:23:00.825Z] INFO: Start Time: 2025-09-03T22:23:00.825Z
+[2025-09-03T22:23:00.825Z] INFO: ================================================================================
+[2025-09-03T22:23:00.825Z] INFO: 
+[2025-09-03T22:23:00.825Z] INFO: Starting TOC-only processing for material: 68b8bfb9848d86b06c085c82
+[2025-09-03T22:23:00.825Z] INFO: TOC pages specified: 2-4
+[2025-09-03T22:23:00.825Z] INFO: Progress: probe [█-------------------] 5% - Starting TOC analysis
+[2025-09-03T22:23:00.853Z] Progress: probe - 5% - Starting TOC analysis
+[2025-09-03T22:23:00.853Z] INFO: Loading material from database
+[2025-09-03T22:23:00.881Z] INFO: Material loaded: IITskripta_2023 (1) (Subject: 68b8bfb3848d86b06c085c7b)
+[2025-09-03T22:23:00.934Z] Progress: toc_analysis - 20% - Downloading PDF from R2
+[2025-09-03T22:23:02.500Z] INFO: 
+[2025-09-03T22:23:02.500Z] INFO: ------------------------------------------------------------
+[2025-09-03T22:23:02.500Z] INFO: SECTION: TOC ANALYSIS
+[2025-09-03T22:23:02.500Z] INFO: ------------------------------------------------------------
+[2025-09-03T22:23:02.500Z] INFO: Progress: toc_analysis [████████------------] 40% - Extracting TOC pages
+[2025-09-03T22:23:02.526Z] Progress: toc_analysis - 40% - Extracting TOC pages
+[2025-09-03T22:23:02.526Z] 🔄 Using node-poppler for true page-by-page extraction (pages 2 to 4)
+[2025-09-03T22:23:02.536Z] 📁 Created temp PDF file: C:\Users\stefa\AppData\Local\Temp\temp_pdf_1756938182527.pdf
+[2025-09-03T22:23:04.580Z] 📚 PDF has 201 pages, extracting 2 to 4
+[2025-09-03T22:23:04.580Z] 📄 Extracting page 2/4...
+[2025-09-03T22:23:04.834Z] ✅ Page 2 extracted: 4318 characters
+[2025-09-03T22:23:04.834Z] 📖 Page 2 preview: "Informacione i internet tehnologije
+
+
+Sadržaj
+
+
+PREDGOVOR ____________________________________..."
+[2025-09-03T22:23:04.835Z] 📄 Extracting page 3/4...
+[2025-09-03T22:23:04.927Z] ✅ Page 3 extracted: 4364 characters
+[2025-09-03T22:23:04.927Z] 📖 Page 3 preview: "Informacione i internet tehnologije
+
+1. 9. Kućište i napajanje ___________________________________..."
+[2025-09-03T22:23:04.928Z] 📄 Extracting page 4/4...
+[2025-09-03T22:23:05.011Z] ✅ Page 4 extracted: 3118 characters
+[2025-09-03T22:23:05.011Z] 📖 Page 4 preview: "Informacione i internet tehnologije
+
+4. 4. 1. Bežične lokalne računarske mreže (WiFi) ____________..."
+[2025-09-03T22:23:05.015Z] INFO: Progress: toc_analysis [██████████████------] 70% - Analyzing TOC with AI
+[2025-09-03T22:23:05.041Z] Progress: toc_analysis - 70% - Analyzing TOC with AI
+[2025-09-03T22:25:09.499Z] INFO: AI analysis completed: 118 sections found
+[2025-09-03T22:25:09.525Z] INFO: Progress: toc_analysis [████████████████████] 100% - TOC analysis completed - ready for review
+[2025-09-03T22:25:09.551Z] Progress: toc_analysis - 100% - TOC analysis completed - ready for review
+[2025-09-03T22:25:09.551Z] 🎉 TOC analysis completed successfully for material 68b8bfb9848d86b06c085c82
+[2025-09-03T22:25:09.551Z] INFO: Material status updated to toc_ready - awaiting admin review
+[2025-09-03T22:25:09.552Z] INFO: 
+[2025-09-03T22:25:09.552Z] INFO: ================================================================================
+[2025-09-03T22:25:09.552Z] INFO: End Time: 2025-09-03T22:25:09.552Z
+[2025-09-03T22:25:09.552Z] INFO: Total Processing Time: 129 seconds
+[2025-09-03T22:25:09.552Z] INFO: Total Log Entries: 42
+[2025-09-03T22:25:09.552Z] INFO: ================================================================================

@@ -13,6 +13,7 @@ import adminRoutes from './routes/admin';
 import materialsRoutes from './routes/materials';
 import uploadRoutes from './routes/upload';
 import ingestionRoutes from './routes/ingestion';
+import aiChatRoutes from './ai-chat/routes/aiChatRoutes';
 import { resetMonthlyPrompts } from './middleware/monthlyReset';
 
 const app = express();
@@ -52,6 +53,7 @@ app.use('/api/admin', adminRoutes);
 app.use('/api/materials', materialsRoutes);
 app.use('/api/upload', uploadRoutes);
 app.use('/api/ingestion', ingestionRoutes);
+app.use('/api/ai', aiChatRoutes);
 
 app.get('/', (req, res) => {
   res.json({ message: 'FAXit Backend Server is running!' });
